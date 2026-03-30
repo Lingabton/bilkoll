@@ -1,0 +1,65 @@
+{
+  "model_id": "volvo-xc40-recharge",
+  "scraped_at": "2026-03-30T22:34:27.682753+00:00",
+  "source": "autouncle",
+  "years": {
+    "2025": {
+      "median_price": 549900,
+      "count": 1,
+      "total_on_page": 1,
+      "median_mileage_mil": 20250
+    },
+    "2024": {
+      "median_price": 399000,
+      "count": 25,
+      "total_on_page": 49,
+      "p5_price": 349500,
+      "p95_price": 429000,
+      "min_price": 339000,
+      "max_price": 439000,
+      "median_mileage_mil": 20243
+    },
+    "2023": {
+      "median_price": 309000,
+      "count": 25,
+      "total_on_page": 928,
+      "p5_price": 269000,
+      "p95_price": 328500,
+      "min_price": 254900,
+      "max_price": 349900
+    },
+    "2022": {
+      "median_price": 299500,
+      "count": 25,
+      "total_on_page": 508,
+      "p5_price": 249700,
+      "p95_price": 318500,
+      "min_price": 244900,
+      "max_price": 319500
+    },
+    "2021": {
+      "median_price": 322400,
+      "count": 18,
+      "total_on_page": 18,
+      "p5_price": 219900,
+      "p95_price": 719900,
+      "min_price": 219900,
+      "max_price": 719900,
+      "median_mileage_mil": 20210
+    },
+    "2020": {
+      "median_price": 339000,
+      "count": 5,
+      "total_on_page": 5,
+      "p5_price": 279000,
+      "p95_price": 374800,
+      "min_price": 279000,
+      "max_price": 374800
+    }
+  },
+  "validation": {
+    "is_monotonic": false,
+    "min_count_per_year": 1,
+    "confidence": "low"
+  }
+}

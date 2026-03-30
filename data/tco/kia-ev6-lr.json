@@ -1,6 +1,6 @@
 {
-  "model_id": "toyota-corolla-hybrid",
-  "calculated_at": "2026-03-30T23:57:33.678588+00:00",
+  "model_id": "kia-ev6-lr",
+  "calculated_at": "2026-03-30T23:57:33.677726+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,49 +8,49 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 189858,
-    "monthly_cost": 3955,
-    "cost_per_mil": 32,
+    "total_cost": 158040,
+    "monthly_cost": 3292,
+    "cost_per_mil": 26,
     "breakdown": {
-      "depreciation": 95000,
-      "fuel": 49950,
-      "tax": 12008,
+      "depreciation": 105000,
+      "fuel": 14400,
+      "tax": 1440,
       "insurance": {
-        "low": 11760,
-        "high": 21840,
-        "estimate": 16800
+        "low": 17640,
+        "high": 32760,
+        "estimate": 25200
       },
-      "service": 10500,
-      "tires": 5600
+      "service": 4400,
+      "tires": 7600
     },
     "depreciation_curve": [
       {
         "year": 0,
-        "value": 324900,
+        "value": 479900,
         "confidence": "fixed",
         "data_points": 0
       },
       {
         "year": 1,
-        "value": 324900,
+        "value": 549900,
         "confidence": "medium",
         "data_points": 25
       },
       {
         "year": 2,
-        "value": 304900,
+        "value": 469000,
         "confidence": "medium",
         "data_points": 25
       },
       {
         "year": 3,
-        "value": 274900,
+        "value": 369000,
         "confidence": "medium",
         "data_points": 25
       },
       {
         "year": 4,
-        "value": 229900,
+        "value": 374900,
         "confidence": "medium",
         "data_points": 25
       }

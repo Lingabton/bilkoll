@@ -1,6 +1,6 @@
 {
-  "model_id": "toyota-corolla-hybrid",
-  "calculated_at": "2026-03-30T23:57:33.678588+00:00",
+  "model_id": "vw-id4-pro",
+  "calculated_at": "2026-03-30T23:57:33.677462+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,49 +8,49 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 189858,
-    "monthly_cost": 3955,
-    "cost_per_mil": 32,
+    "total_cost": 293790,
+    "monthly_cost": 6121,
+    "cost_per_mil": 49,
     "breakdown": {
-      "depreciation": 95000,
-      "fuel": 49950,
-      "tax": 12008,
+      "depreciation": 239800,
+      "fuel": 15750,
+      "tax": 1440,
       "insurance": {
-        "low": 11760,
-        "high": 21840,
-        "estimate": 16800
+        "low": 15960,
+        "high": 29640,
+        "estimate": 22800
       },
-      "service": 10500,
-      "tires": 5600
+      "service": 5600,
+      "tires": 8400
     },
     "depreciation_curve": [
       {
         "year": 0,
-        "value": 324900,
+        "value": 529700,
         "confidence": "fixed",
         "data_points": 0
       },
       {
         "year": 1,
-        "value": 324900,
+        "value": 524500,
         "confidence": "medium",
         "data_points": 25
       },
       {
         "year": 2,
-        "value": 304900,
+        "value": 429500,
         "confidence": "medium",
         "data_points": 25
       },
       {
         "year": 3,
-        "value": 274900,
+        "value": 329800,
         "confidence": "medium",
         "data_points": 25
       },
       {
         "year": 4,
-        "value": 229900,
+        "value": 289900,
         "confidence": "medium",
         "data_points": 25
       }

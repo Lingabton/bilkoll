@@ -12,8 +12,27 @@ PRICES_DIR = DATA_DIR / "prices"
 PRICES_DIR.mkdir(parents=True, exist_ok=True)
 
 BASE_URL = "https://www.autouncle.se/se/begagnade-bilar"
-RATE_LIMIT = 3  # seconds between requests
+RATE_LIMIT = 3
 CURRENT_YEAR = datetime.now().year
+
+
+def parse_price(text):
+    """Parse a Swedish price string, handling non-breaking spaces."""
+    cleaned = text.replace('\xa0', '').replace(' ', '').replace('.', '').replace(',', '')
+    cleaned = re.sub(r'[^\d]', '', cleaned)
+    if cleaned and cleaned.isdigit():
+        return int(cleaned)
+    return None
+
+
+def parse_mileage(text):
+    """Parse mileage in Swedish mil from text."""
+    m = re.search(r'([\d\s\xa0.]+)\s*mil', text.replace('\xa0', ' '))
+    if m:
+        val = parse_price(m.group(1))
+        if val and 0 < val < 100000:
+            return val
+    return None
 
 
 class AutoUncleScraper(PriceSource):
@@ -37,80 +56,52 @@ class AutoUncleScraper(PriceSource):
 
     def fetch_prices(self, url_path, fuel_filter, year) -> dict:
         """Fetch price data for a model+year from AutoUncle."""
-        # Build URL
         url = f"{BASE_URL}/{url_path}/y-{year}"
-        if fuel_filter:
-            # fuel filter is already in url_path (e.g. Volvo/XC60/f-bensin)
-            pass
 
         time.sleep(RATE_LIMIT)
         self.page.goto(url, wait_until="domcontentloaded", timeout=15000)
-        time.sleep(1.5)  # let JS render
+        self.page.wait_for_timeout(2000)
 
-        # Try to extract prices from the page
+        # Scroll to load more results
+        for _ in range(8):
+            self.page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
+            self.page.wait_for_timeout(800)
+
+        # Get total count from page
+        body_text = self.page.inner_text('body')
+        count_match = re.search(r'(\d+)\s*(bilar|resultat|annonser)', body_text)
+        total_on_page = int(count_match.group(1)) if count_match else 0
+
+        # Parse articles
+        articles = self.page.query_selector_all('article')
         prices = []
         mileages = []
 
-        # Method 1: Look for price elements in listing cards
-        try:
-            cards = self.page.query_selector_all("[data-testid='car-card'], .car-card, .listing-card, article")
-            if not cards:
-                # Try broader selectors
-                cards = self.page.query_selector_all(".result-item, .car-item, [class*='listing']")
+        for article in articles:
+            text = article.inner_text()
 
-            for card in cards:
-                text = card.inner_text()
-                # Extract price (Swedish format: "199 000 kr" or "199.000 kr")
-                price_match = re.search(r'(\d[\d\s.]+)\s*kr', text)
-                if price_match:
-                    price_str = price_match.group(1).replace(" ", "").replace(".", "")
-                    try:
-                        p = int(price_str)
-                        if 20000 < p < 2000000:  # sanity check
-                            prices.append(p)
-                    except ValueError:
-                        pass
+            # Extract price — look for the main price (first large number followed by kr)
+            price_matches = re.findall(r'([\d\s\xa0.]+)\s*kr', text)
+            for pm in price_matches:
+                p = parse_price(pm)
+                if p and 30000 < p < 2000000:
+                    prices.append(p)
+                    break  # Take first price per article (the current price)
 
-                # Extract mileage ("45 000 mil" or "4 500 mil")
-                mil_match = re.search(r'(\d[\d\s.]+)\s*mil', text)
-                if mil_match:
-                    mil_str = mil_match.group(1).replace(" ", "").replace(".", "")
-                    try:
-                        m = int(mil_str)
-                        if 0 < m < 100000:
-                            mileages.append(m)
-                    except ValueError:
-                        pass
-        except Exception as e:
-            print(f"    Card parsing error: {e}")
-
-        # Method 2: Try the market overview text
-        if not prices:
-            try:
-                body = self.page.inner_text("body")
-                # Look for "X bilar" count
-                count_match = re.search(r'(\d+)\s*bilar', body)
-                # Look for median/average price mentions
-                price_matches = re.findall(r'(\d[\d\s.]+)\s*kr', body)
-                for pm in price_matches:
-                    price_str = pm.replace(" ", "").replace(".", "")
-                    try:
-                        p = int(price_str)
-                        if 20000 < p < 2000000:
-                            prices.append(p)
-                    except ValueError:
-                        pass
-            except Exception:
-                pass
+            # Extract mileage
+            mil = parse_mileage(text)
+            if mil:
+                mileages.append(mil)
 
         if not prices:
-            return {"count": 0}
+            return {"count": 0, "total_on_page": total_on_page}
 
         prices.sort()
         n = len(prices)
         result = {
             "median_price": int(statistics.median(prices)),
             "count": n,
+            "total_on_page": total_on_page,
         }
 
         if n >= 5:
@@ -118,6 +109,10 @@ class AutoUncleScraper(PriceSource):
             p95_idx = min(n - 1, int(n * 0.95))
             result["p5_price"] = prices[p5_idx]
             result["p95_price"] = prices[p95_idx]
+
+        if n >= 3:
+            result["min_price"] = prices[0]
+            result["max_price"] = prices[-1]
 
         if mileages:
             result["median_mileage_mil"] = int(statistics.median(mileages))
@@ -132,21 +127,25 @@ def scrape_model(scraper, model):
     fuel_filter = model["autouncle_filters"].get("fuel")
     first_year = model.get("firstRegistered", CURRENT_YEAR - 6)
 
-    print(f"\n{'='*50}")
+    print(f"\n{'='*60}")
     print(f"  {model['make']} {model['model']} {model['variant']}")
     print(f"  URL: {BASE_URL}/{url_path}")
-    print(f"{'='*50}")
+    print(f"{'='*60}")
 
     years_data = {}
     for year in range(CURRENT_YEAR - 1, first_year - 1, -1):
         print(f"  {year}...", end=" ", flush=True)
         try:
             data = scraper.fetch_prices(url_path, fuel_filter, year)
-            if data.get("count", 0) > 0:
+            count = data.get("count", 0)
+            total = data.get("total_on_page", 0)
+            if count > 0:
                 years_data[str(year)] = data
-                print(f"{data['count']} ads, median {data.get('median_price', '?')} kr")
+                p5 = f", p5={data['p5_price']}" if data.get('p5_price') else ""
+                p95 = f", p95={data['p95_price']}" if data.get('p95_price') else ""
+                print(f"{count} parsed / {total} total, median {data.get('median_price', '?')} kr{p5}{p95}")
             else:
-                print("no data")
+                print(f"no prices found ({total} on page)")
         except Exception as e:
             print(f"error: {e}")
 
@@ -176,14 +175,14 @@ def scrape_model(scraper, model):
 
     out_path = PRICES_DIR / f"{model_id}.json"
     json.dump(result, open(out_path, "w"), ensure_ascii=False, indent=2)
-    print(f"  → Saved: {out_path} ({len(years_data)} years, confidence: {confidence})")
+    total_ads = sum(d.get("count", 0) for d in years_data.values())
+    print(f"  → Saved: {out_path} ({len(years_data)} years, {total_ads} ads, confidence: {confidence})")
     return result
 
 
 def main():
     models = json.load(open(DATA_DIR / "models.json"))
 
-    # Allow filtering by model ID
     if len(sys.argv) > 1:
         filter_id = sys.argv[1]
         models = [m for m in models if filter_id in m["id"]]

@@ -1,42 +1,68 @@
 {
   "model_id": "tesla-model-3-lr",
-  "scraped_at": "2026-03-29T23:38:16.630356+00:00",
+  "scraped_at": "2026-03-30T22:32:18.317667+00:00",
   "source": "autouncle",
   "years": {
     "2025": {
       "median_price": 429800,
       "count": 3,
-      "confidence": "low"
+      "total_on_page": 3,
+      "min_price": 415000,
+      "max_price": 439700
     },
     "2024": {
-      "median_price": 439000,
-      "count": 3,
-      "confidence": "low"
+      "median_price": 424990,
+      "count": 25,
+      "total_on_page": 28,
+      "p5_price": 369900,
+      "p95_price": 522990,
+      "min_price": 369900,
+      "max_price": 539900
     },
     "2023": {
-      "median_price": 340395,
-      "count": 3,
-      "confidence": "low"
+      "median_price": 299500,
+      "count": 25,
+      "total_on_page": 56,
+      "p5_price": 274900,
+      "p95_price": 358990,
+      "min_price": 257900,
+      "max_price": 382990
     },
     "2022": {
-      "median_price": 309550,
-      "count": 3,
-      "confidence": "low"
+      "median_price": 307800,
+      "count": 25,
+      "total_on_page": 53,
+      "p5_price": 244900,
+      "p95_price": 360990,
+      "min_price": 232000,
+      "max_price": 360990
     },
     "2021": {
-      "median_price": 279500,
-      "count": 3,
-      "confidence": "low"
+      "median_price": 269900,
+      "count": 25,
+      "total_on_page": 89,
+      "p5_price": 220000,
+      "p95_price": 309000,
+      "min_price": 219900,
+      "max_price": 323990
     },
     "2020": {
-      "median_price": 247000,
-      "count": 3,
-      "confidence": "low"
+      "median_price": 239000,
+      "count": 25,
+      "total_on_page": 64,
+      "p5_price": 179900,
+      "p95_price": 309700,
+      "min_price": 159900,
+      "max_price": 321800
     },
     "2019": {
-      "median_price": 229850,
-      "count": 3,
-      "confidence": "low"
+      "median_price": 218800,
+      "count": 25,
+      "total_on_page": 78,
+      "p5_price": 179400,
+      "p95_price": 263990,
+      "min_price": 179000,
+      "max_price": 269900
     }
   },
   "validation": {

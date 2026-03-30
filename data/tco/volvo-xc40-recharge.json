@@ -1,6 +1,6 @@
 {
-  "model_id": "toyota-corolla-hybrid",
-  "calculated_at": "2026-03-30T23:57:33.678588+00:00",
+  "model_id": "volvo-xc40-recharge",
+  "calculated_at": "2026-03-30T23:57:33.677117+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,54 +8,54 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 189858,
-    "monthly_cost": 3955,
-    "cost_per_mil": 32,
+    "total_cost": 354840,
+    "monthly_cost": 7392,
+    "cost_per_mil": 59,
     "breakdown": {
-      "depreciation": 95000,
-      "fuel": 49950,
-      "tax": 12008,
+      "depreciation": 300400,
+      "fuel": 16200,
+      "tax": 1440,
       "insurance": {
-        "low": 11760,
-        "high": 21840,
-        "estimate": 16800
+        "low": 15960,
+        "high": 29640,
+        "estimate": 22800
       },
-      "service": 10500,
-      "tires": 5600
+      "service": 6000,
+      "tires": 8000
     },
     "depreciation_curve": [
       {
         "year": 0,
-        "value": 324900,
+        "value": 599900,
         "confidence": "fixed",
         "data_points": 0
       },
       {
         "year": 1,
-        "value": 324900,
+        "value": 549900,
         "confidence": "medium",
-        "data_points": 25
+        "data_points": 1
       },
       {
         "year": 2,
-        "value": 304900,
+        "value": 399000,
         "confidence": "medium",
         "data_points": 25
       },
       {
         "year": 3,
-        "value": 274900,
+        "value": 309000,
         "confidence": "medium",
         "data_points": 25
       },
       {
         "year": 4,
-        "value": 229900,
+        "value": 299500,
         "confidence": "medium",
         "data_points": 25
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "low",
   "data_quality_notes": []
 }

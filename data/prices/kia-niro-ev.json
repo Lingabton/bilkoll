@@ -1,42 +1,50 @@
 {
   "model_id": "kia-niro-ev",
-  "scraped_at": "2026-03-29T23:38:52.019156+00:00",
+  "scraped_at": "2026-03-30T22:37:37.150366+00:00",
   "source": "autouncle",
   "years": {
     "2024": {
       "median_price": 317350,
-      "count": 3,
-      "confidence": "low"
+      "count": 2,
+      "total_on_page": 2
     },
     "2023": {
       "median_price": 329900,
-      "count": 3,
-      "confidence": "low"
+      "count": 11,
+      "total_on_page": 11,
+      "p5_price": 295000,
+      "p95_price": 439000,
+      "min_price": 295000,
+      "max_price": 439000
     },
     "2022": {
-      "median_price": 299900,
-      "count": 3,
-      "confidence": "low"
+      "median_price": 314900,
+      "count": 15,
+      "total_on_page": 15,
+      "p5_price": 274000,
+      "p95_price": 329900,
+      "min_price": 274000,
+      "max_price": 329900
     },
     "2021": {
       "median_price": 249900,
-      "count": 3,
-      "confidence": "low"
+      "count": 1,
+      "total_on_page": 1
     },
     "2020": {
       "median_price": 244900,
-      "count": 3,
-      "confidence": "low"
+      "count": 1,
+      "total_on_page": 1
     },
     "2019": {
       "median_price": 189900,
-      "count": 3,
-      "confidence": "low"
+      "count": 1,
+      "total_on_page": 1
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 3,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }
