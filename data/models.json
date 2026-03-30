@@ -1,0 +1,112 @@
+[
+  {
+    "id": "volvo-xc60-b5-bensin",
+    "make": "Volvo",
+    "model": "XC60",
+    "variant": "B5 Bensin AWD",
+    "slug": "volvo-xc60",
+    "segment": "suv-mellanklass",
+    "fuel": "bensin",
+    "newPrice": 529900,
+    "co2_gkm": 166,
+    "consumption_l_per_mil": 0.72,
+    "consumption_kwh_per_mil": null,
+    "firstRegistered": 2018,
+    "serviceInterval_mil": 3000,
+    "serviceEstimate_kr": 5500,
+    "tireSize": "235/55R19",
+    "tireEstimate_kr_per_year": 1800,
+    "autouncle_filters": {
+      "fuel": "bensin",
+      "url_path": "Volvo/XC60/f-bensin"
+    }
+  },
+  {
+    "id": "tesla-model-3-lr",
+    "make": "Tesla",
+    "model": "Model 3",
+    "variant": "Long Range AWD",
+    "slug": "tesla-model-3",
+    "segment": "sedan-mellanklass",
+    "fuel": "el",
+    "newPrice": 449900,
+    "co2_gkm": 0,
+    "consumption_l_per_mil": null,
+    "consumption_kwh_per_mil": 1.5,
+    "firstRegistered": 2019,
+    "serviceInterval_mil": 4000,
+    "serviceEstimate_kr": 2500,
+    "tireSize": "235/45R18",
+    "tireEstimate_kr_per_year": 2000,
+    "autouncle_filters": {
+      "fuel": "elbil",
+      "url_path": "Tesla/Model-3/f-elbil"
+    }
+  },
+  {
+    "id": "kia-niro-ev",
+    "make": "Kia",
+    "model": "Niro",
+    "variant": "EV",
+    "slug": "kia-niro-ev",
+    "segment": "suv-kompakt",
+    "fuel": "el",
+    "newPrice": 399900,
+    "co2_gkm": 0,
+    "consumption_l_per_mil": null,
+    "consumption_kwh_per_mil": 1.65,
+    "firstRegistered": 2019,
+    "serviceInterval_mil": 3000,
+    "serviceEstimate_kr": 2000,
+    "tireSize": "215/55R17",
+    "tireEstimate_kr_per_year": 1600,
+    "autouncle_filters": {
+      "fuel": "elbil",
+      "url_path": "Kia/Niro/f-elbil"
+    }
+  },
+  {
+    "id": "toyota-corolla-hybrid",
+    "make": "Toyota",
+    "model": "Corolla",
+    "variant": "1.8 Hybrid",
+    "slug": "toyota-corolla",
+    "segment": "sedan-kompakt",
+    "fuel": "hybrid",
+    "newPrice": 299900,
+    "co2_gkm": 101,
+    "consumption_l_per_mil": 0.45,
+    "consumption_kwh_per_mil": null,
+    "firstRegistered": 2019,
+    "serviceInterval_mil": 2500,
+    "serviceEstimate_kr": 3500,
+    "tireSize": "205/55R16",
+    "tireEstimate_kr_per_year": 1400,
+    "autouncle_filters": {
+      "fuel": "hybrid",
+      "url_path": "Toyota/Corolla/f-hybrid"
+    }
+  },
+  {
+    "id": "dacia-jogger-tce",
+    "make": "Dacia",
+    "model": "Jogger",
+    "variant": "TCe 110",
+    "slug": "dacia-jogger",
+    "segment": "mpv-budget",
+    "fuel": "bensin",
+    "newPrice": 209900,
+    "co2_gkm": 130,
+    "consumption_l_per_mil": 0.62,
+    "consumption_kwh_per_mil": null,
+    "firstRegistered": 2022,
+    "serviceInterval_mil": 2000,
+    "serviceEstimate_kr": 3000,
+    "tireSize": "205/60R16",
+    "tireEstimate_kr_per_year": 1200,
+    "autouncle_filters": {
+      "fuel": null,
+      "url_path": "Dacia/Jogger"
+    }
+  }
+]

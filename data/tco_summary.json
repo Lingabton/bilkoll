@@ -1,0 +1,62 @@
+[
+  {
+    "id": "kia-niro-ev",
+    "slug": "kia-niro-ev",
+    "name": "Kia Niro EV",
+    "monthly_cost": 3114,
+    "cost_per_mil": 25,
+    "total_4yr": 149490,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "suv-kompakt",
+    "newPrice": 399900
+  },
+  {
+    "id": "toyota-corolla-hybrid",
+    "slug": "toyota-corolla",
+    "name": "Toyota Corolla 1.8 Hybrid",
+    "monthly_cost": 3226,
+    "cost_per_mil": 26,
+    "total_4yr": 154858,
+    "confidence": "low",
+    "fuel": "hybrid",
+    "segment": "sedan-kompakt",
+    "newPrice": 299900
+  },
+  {
+    "id": "dacia-jogger-tce",
+    "slug": "dacia-jogger",
+    "name": "Dacia Jogger TCe 110",
+    "monthly_cost": 3547,
+    "cost_per_mil": 28,
+    "total_4yr": 170250,
+    "confidence": "low",
+    "fuel": "bensin",
+    "segment": "mpv-budget",
+    "newPrice": 209900
+  },
+  {
+    "id": "tesla-model-3-lr",
+    "slug": "tesla-model-3",
+    "name": "Tesla Model 3 Long Range AWD",
+    "monthly_cost": 3964,
+    "cost_per_mil": 32,
+    "total_4yr": 190290,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "sedan-mellanklass",
+    "newPrice": 449900
+  },
+  {
+    "id": "volvo-xc60-b5-bensin",
+    "slug": "volvo-xc60",
+    "name": "Volvo XC60 B5 Bensin AWD",
+    "monthly_cost": 5408,
+    "cost_per_mil": 43,
+    "total_4yr": 259598,
+    "confidence": "low",
+    "fuel": "bensin",
+    "segment": "suv-mellanklass",
+    "newPrice": 529900
+  }
+]

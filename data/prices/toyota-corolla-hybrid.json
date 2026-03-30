@@ -1,0 +1,47 @@
+{
+  "model_id": "toyota-corolla-hybrid",
+  "scraped_at": "2026-03-29T23:39:26.131146+00:00",
+  "source": "autouncle",
+  "years": {
+    "2025": {
+      "median_price": 339900,
+      "count": 3,
+      "confidence": "low"
+    },
+    "2024": {
+      "median_price": 289900,
+      "count": 4,
+      "confidence": "low"
+    },
+    "2023": {
+      "median_price": 289000,
+      "count": 3,
+      "confidence": "low"
+    },
+    "2022": {
+      "median_price": 239900,
+      "count": 3,
+      "confidence": "low"
+    },
+    "2021": {
+      "median_price": 234900,
+      "count": 3,
+      "confidence": "low"
+    },
+    "2020": {
+      "median_price": 219900,
+      "count": 3,
+      "confidence": "low"
+    },
+    "2019": {
+      "median_price": 209450,
+      "count": 3,
+      "confidence": "low"
+    }
+  },
+  "validation": {
+    "is_monotonic": true,
+    "min_count_per_year": 3,
+    "confidence": "low"
+  }
+}

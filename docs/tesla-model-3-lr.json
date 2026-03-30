@@ -1,0 +1,61 @@
+{
+  "model_id": "tesla-model-3-lr",
+  "calculated_at": "2026-03-30T07:08:02.666183+00:00",
+  "assumptions": {
+    "mileage_per_year": 1500,
+    "ownership_years": 4,
+    "fuel_price_kr_per_liter": 18.5,
+    "electricity_price_kr_per_kwh": 1.5
+  },
+  "result": {
+    "total_cost": 190290,
+    "monthly_cost": 3964,
+    "cost_per_mil": 32,
+    "breakdown": {
+      "depreciation": 140350,
+      "fuel": 13500,
+      "tax": 1440,
+      "insurance": {
+        "low": 15400,
+        "high": 28600,
+        "estimate": 22000
+      },
+      "service": 5000,
+      "tires": 8000
+    },
+    "depreciation_curve": [
+      {
+        "year": 0,
+        "value": 449900,
+        "confidence": "fixed",
+        "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 429800,
+        "confidence": "low",
+        "data_points": 3
+      },
+      {
+        "year": 2,
+        "value": 439000,
+        "confidence": "low",
+        "data_points": 3
+      },
+      {
+        "year": 3,
+        "value": 340395,
+        "confidence": "low",
+        "data_points": 3
+      },
+      {
+        "year": 4,
+        "value": 309550,
+        "confidence": "low",
+        "data_points": 3
+      }
+    ]
+  },
+  "confidence": "low",
+  "data_quality_notes": []
+}
