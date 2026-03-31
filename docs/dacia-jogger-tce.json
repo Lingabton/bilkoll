@@ -1,6 +1,6 @@
 {
   "model_id": "dacia-jogger-tce",
-  "calculated_at": "2026-03-30T07:08:02.666814+00:00",
+  "calculated_at": "2026-03-30T23:57:33.679262+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 170250,
-    "monthly_cost": 3547,
-    "cost_per_mil": 28,
+    "total_cost": 230250,
+    "monthly_cost": 4797,
+    "cost_per_mil": 38,
     "breakdown": {
-      "depreciation": 50100,
+      "depreciation": 110100,
       "fuel": 68820,
       "tax": 22330,
       "insurance": {
@@ -26,33 +26,33 @@
     "depreciation_curve": [
       {
         "year": 0,
-        "value": 209900,
+        "value": 269900,
         "confidence": "fixed",
         "data_points": 0
       },
       {
         "year": 1,
-        "value": 267750,
-        "confidence": "low",
-        "data_points": 4
+        "value": 276400,
+        "confidence": "medium",
+        "data_points": 23
       },
       {
         "year": 2,
-        "value": 254450,
-        "confidence": "low",
-        "data_points": 4
+        "value": 269900,
+        "confidence": "medium",
+        "data_points": 7
       },
       {
         "year": 3,
-        "value": 197400,
-        "confidence": "low",
-        "data_points": 4
+        "value": 227200,
+        "confidence": "medium",
+        "data_points": 8
       },
       {
         "year": 4,
         "value": 159800,
-        "confidence": "low",
-        "data_points": 3
+        "confidence": "medium",
+        "data_points": 19
       }
     ]
   },

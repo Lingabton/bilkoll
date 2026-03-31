@@ -1,114 +1,92 @@
 const CATEGORIES = [
-  { key: "depreciation", label: "Värdeminskning", color: "bg-red-400" },
-  { key: "fuel", label: "Drivmedel", color: "bg-amber-400" },
-  { key: "interest", label: "Ränta", color: "bg-violet-400" },
-  { key: "tax", label: "Skatt", color: "bg-blue-400" },
-  { key: "insurance", label: "Försäkring", color: "bg-purple-400", isRange: true },
-  { key: "service", label: "Service", color: "bg-teal-400" },
-  { key: "tires", label: "Däck", color: "bg-stone-400" },
+  { key: "depreciation", label: "Värdeminskning", color: "#e11d48" },
+  { key: "fuel", label: "Drivmedel", color: "#d97706" },
+  { key: "interest", label: "Ränta", color: "#7c3aed" },
+  { key: "tax", label: "Skatt", color: "#2563eb" },
+  { key: "insurance", label: "Försäkring", color: "#9333ea", isRange: true },
+  { key: "service", label: "Service", color: "#0d9488" },
+  { key: "tires", label: "Däck", color: "#64748b" },
 ]
 
 export default function CostBreakdown({ breakdown, total, emissions, purchasePrice }) {
+  const active = CATEGORIES.filter(({ key }) => {
+    const val = key === "insurance" ? breakdown[key]?.estimate : breakdown[key]
+    return val && val > 0
+  })
+
   return (
     <div>
-      {/* Purchase price context */}
-      {purchasePrice && (
-        <div className="text-xs text-stone-400 mb-3">
-          Inköpspris: <span className="font-mono text-stone-600">{purchasePrice.toLocaleString('sv-SE')} kr</span>
+      {/* Stacked bar */}
+      <div className="flex rounded-full overflow-hidden h-3 mb-6 bg-slate-100">
+        {active.map(({ key, color }) => {
+          const val = key === "insurance" ? breakdown[key]?.estimate : breakdown[key]
+          return (
+            <div key={key} className="transition-all duration-500" style={{ width: `${(val / total) * 100}%`, backgroundColor: color }} />
+          )
+        })}
+      </div>
+
+      {/* Rows */}
+      <div className="space-y-2.5">
+        {active.map(({ key, label, color, isRange }) => {
+          const val = isRange ? breakdown[key]?.estimate : breakdown[key]
+          const pct = Math.round((val / total) * 100)
+          return (
+            <div key={key} className="flex items-center gap-3">
+              <div className="w-2.5 h-2.5 rounded-full shrink-0" style={{ backgroundColor: color }} />
+              <span className="text-[13px] text-slate-600 flex-1">{label}</span>
+              <span className="text-[11px] text-slate-400 w-10 text-right tabular-nums">{pct}%</span>
+              <span className="font-mono text-[13px] text-slate-900 w-28 text-right tabular-nums font-medium">
+                {val.toLocaleString('sv-SE')} kr
+              </span>
+            </div>
+          )
+        })}
+      </div>
+
+      {/* Insurance note */}
+      {breakdown.insurance && (
+        <div className="mt-1.5 ml-[22px] text-[10px] text-slate-400">
+          Försäkring: {breakdown.insurance.low.toLocaleString('sv-SE')} – {breakdown.insurance.high.toLocaleString('sv-SE')} kr beroende på din profil
         </div>
       )}
 
-      {/* Stacked bar */}
-      <div className="flex rounded-full overflow-hidden h-6 mb-4">
-        {CATEGORIES.map(({ key, color }) => {
-          const val = key === "insurance" ? breakdown[key]?.estimate : breakdown[key]
-          if (!val || val <= 0) return null
-          const pct = (val / total) * 100
-          return (
-            <div
-              key={key}
-              className={`${color} transition-all`}
-              style={{ width: `${pct}%` }}
-              title={`${key}: ${Math.round(pct)}%`}
-            />
-          )
-        })}
-      </div>
-
-      {/* Legend + values */}
-      <div className="space-y-2">
-        {CATEGORIES.map(({ key, label, color, isRange }) => {
-          const val = isRange ? breakdown[key]?.estimate : breakdown[key]
-          if (!val || val <= 0) return null
-          const pct = Math.round((val / total) * 100)
-          return (
-            <div key={key} className="flex items-center justify-between text-sm">
-              <div className="flex items-center gap-2">
-                <div className={`w-3 h-3 rounded-sm ${color}`} />
-                <span className="text-stone-600">{label}</span>
-              </div>
-              <div className="text-right">
-                <span className="font-mono text-stone-900">
-                  {val.toLocaleString('sv-SE')} kr
-                </span>
-                <span className="text-stone-400 text-xs ml-2">({pct}%)</span>
-                {isRange && (
-                  <div className="text-[10px] text-stone-400">
-                    {breakdown[key].low.toLocaleString('sv-SE')}–{breakdown[key].high.toLocaleString('sv-SE')} kr
-                  </div>
-                )}
-              </div>
-            </div>
-          )
-        })}
-      </div>
-
       {/* Total */}
-      <div className="flex items-center justify-between mt-4 pt-3 border-t border-stone-200">
-        <span className="font-semibold text-stone-900">Totalt</span>
-        <span className="font-mono font-bold text-stone-900 text-lg">
-          {total.toLocaleString('sv-SE')} kr
-        </span>
+      <div className="flex items-center justify-between mt-5 pt-4 border-t border-slate-200">
+        <span className="text-sm font-bold text-slate-900">Totalt</span>
+        <span className="font-mono font-bold text-slate-900 text-lg tabular-nums">{total.toLocaleString('sv-SE')} kr</span>
       </div>
 
-      {/* CO2 emissions */}
+      {purchasePrice && (
+        <div className="flex items-center justify-between mt-1">
+          <span className="text-[11px] text-slate-400">Inköpspris</span>
+          <span className="font-mono text-[11px] text-slate-400 tabular-nums">{purchasePrice.toLocaleString('sv-SE')} kr</span>
+        </div>
+      )}
+
+      {/* CO2 */}
       {emissions && emissions.total_kg > 0 && (
-        <div className="mt-4 pt-3 border-t border-dashed border-stone-200">
+        <div className="mt-5 pt-4 border-t border-dashed border-slate-200">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <span className="text-sm">🌍</span>
-              <span className="text-sm text-stone-600">CO₂-utsläpp</span>
+              <div className="w-2.5 h-2.5 rounded-full bg-orange-400" />
+              <span className="text-[13px] text-slate-600">CO₂-utsläpp</span>
             </div>
-            <span className="font-mono text-stone-900 text-sm">
-              {emissions.total_ton} ton
-            </span>
+            <span className="font-mono text-[13px] text-slate-900 font-medium tabular-nums">{emissions.total_ton} ton</span>
           </div>
-          <div className="flex items-center justify-between mt-1">
-            <span className="text-xs text-stone-400 ml-7">Samhällskostnad för utsläppen</span>
-            <span className="font-mono text-xs text-stone-500">
-              {emissions.social_cost.toLocaleString('sv-SE')} kr
-            </span>
+          <div className="ml-[18px] mt-1.5 text-[11px] text-slate-400 leading-relaxed">
+            Samhällskostnad: {emissions.social_cost.toLocaleString('sv-SE')} kr.
+            {emissions.total_ton >= 1 && ` Motsvarar ~${Math.round(emissions.total_ton / 0.9)} flygresor Stockholm–London.`}
           </div>
-          <p className="text-[10px] text-stone-400 mt-2 ml-7">
-            Baserat på Transportstyrelsens värdering av CO₂ (~1,19 kr/kg).
-            {emissions.total_ton >= 5
-              ? ` Det motsvarar ungefär ${Math.round(emissions.total_ton / 0.9)} flygresor Stockholm–London.`
-              : emissions.total_kg === 0
-                ? ""
-                : ` ${emissions.total_ton} ton — ungefär ${Math.round(emissions.total_ton / 0.9)} flygresor Stockholm–London.`
-            }
-          </p>
         </div>
       )}
       {emissions && emissions.total_kg === 0 && (
-        <div className="mt-4 pt-3 border-t border-dashed border-stone-200">
+        <div className="mt-5 pt-4 border-t border-dashed border-slate-200">
           <div className="flex items-center gap-2">
-            <span className="text-sm">🌿</span>
-            <span className="text-sm text-green-700">Noll utsläpp vid körning</span>
+            <div className="w-2.5 h-2.5 rounded-full bg-emerald-500" />
+            <span className="text-[13px] text-emerald-700 font-medium">Noll utsläpp vid körning</span>
           </div>
-          <p className="text-[10px] text-stone-400 mt-1 ml-7">
-            Elbilar har inga avgasutsläpp. Utsläpp vid produktion och elgenerering ingår inte.
-          </p>
+          <div className="ml-[18px] mt-1 text-[10px] text-slate-400">Utsläpp vid produktion och elgenerering ingår inte.</div>
         </div>
       )}
     </div>

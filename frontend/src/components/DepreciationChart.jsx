@@ -3,8 +3,8 @@ export default function DepreciationChart({ curve }) {
 
   const maxVal = Math.max(...curve.map(c => c.value))
   const width = 560
-  const height = 160
-  const pad = { top: 20, right: 40, bottom: 30, left: 60 }
+  const height = 180
+  const pad = { top: 24, right: 20, bottom: 36, left: 20 }
   const innerW = width - pad.left - pad.right
   const innerH = height - pad.top - pad.bottom
 
@@ -18,44 +18,57 @@ export default function DepreciationChart({ curve }) {
   const area = `${line} L ${points[points.length - 1].x} ${height - pad.bottom} L ${points[0].x} ${height - pad.bottom} Z`
 
   return (
-    <div className="bg-white rounded-2xl border border-stone-200 p-5">
-      <h3 className="text-sm font-semibold text-stone-900 mb-3">Värdeminskning</h3>
+    <div className="rounded-2xl bg-white border border-slate-200 shadow-sm p-6">
+      <div className="flex items-baseline justify-between mb-4">
+        <h3 className="text-sm font-bold text-slate-900">Värdeminskning</h3>
+        <span className="text-[11px] text-slate-400 font-mono">
+          -{Math.round((1 - points[points.length - 1].value / points[0].value) * 100)}% totalt
+        </span>
+      </div>
       <svg viewBox={`0 0 ${width} ${height}`} className="w-full">
-        {/* Area */}
-        <path d={area} fill="url(#depGrad)" />
         <defs>
           <linearGradient id="depGrad" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stopColor="#ef4444" stopOpacity="0.15" />
-            <stop offset="100%" stopColor="#ef4444" stopOpacity="0.02" />
+            <stop offset="0%" stopColor="#e11d48" stopOpacity="0.1" />
+            <stop offset="100%" stopColor="#e11d48" stopOpacity="0.01" />
           </linearGradient>
         </defs>
 
-        {/* Line */}
-        <path d={line} fill="none" stroke="#ef4444" strokeWidth="2" />
+        {/* Grid */}
+        {[0.25, 0.5, 0.75].map(pct => (
+          <line key={pct}
+            x1={pad.left} x2={width - pad.right}
+            y1={pad.top + innerH * (1 - pct)} y2={pad.top + innerH * (1 - pct)}
+            stroke="#f1f5f9" strokeWidth="1"
+          />
+        ))}
 
-        {/* Points */}
+        <path d={area} fill="url(#depGrad)" />
+        <path d={line} fill="none" stroke="#e11d48" strokeWidth="2.5" strokeLinejoin="round" />
+
         {points.map((p, i) => (
           <g key={i}>
-            <circle cx={p.x} cy={p.y} r={p.confidence === "estimated" ? 3 : 4}
-              fill={p.confidence === "estimated" ? "#d4d4d4" : "#ef4444"}
-              stroke="white" strokeWidth="2" />
-            {/* Year label */}
-            <text x={p.x} y={height - 8} textAnchor="middle" fontSize="10" fill="#a1a1aa">
-              {p.year === 0 ? "Ny" : `${p.year} år`}
+            <circle cx={p.x} cy={p.y} r={5}
+              fill={p.confidence === "estimated" ? "#e2e8f0" : "#e11d48"}
+              stroke="white" strokeWidth="2.5" />
+            <text x={p.x} y={height - 10} textAnchor="middle"
+              fontSize="11" fontFamily="'JetBrains Mono', monospace" fill="#94a3b8">
+              {p.year === 0 ? "Ny" : `${p.year}å`}
             </text>
-            {/* Price label */}
-            <text x={p.x} y={p.y - 8} textAnchor="middle" fontSize="9" fill="#71717a">
+            <text x={p.x} y={p.y - 12} textAnchor="middle"
+              fontSize="10" fontFamily="'JetBrains Mono', monospace"
+              fill={p.confidence === "estimated" ? "#cbd5e1" : "#64748b"}>
               {Math.round(p.value / 1000)}k
             </text>
           </g>
         ))}
       </svg>
-      <div className="flex items-center gap-4 text-[10px] text-stone-400 mt-2">
-        <div className="flex items-center gap-1">
-          <div className="w-2 h-2 rounded-full bg-red-500" /> Verklig data
+
+      <div className="flex items-center gap-4 text-[10px] text-slate-400 mt-3">
+        <div className="flex items-center gap-1.5">
+          <div className="w-2 h-2 rounded-full bg-rose-600" /> Marknadspris
         </div>
-        <div className="flex items-center gap-1">
-          <div className="w-2 h-2 rounded-full bg-stone-300" /> Estimat
+        <div className="flex items-center gap-1.5">
+          <div className="w-2 h-2 rounded-full bg-slate-200" /> Estimerat
         </div>
       </div>
     </div>

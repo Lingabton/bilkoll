@@ -3,12 +3,29 @@ import './index.css'
 import RankingTable from './components/RankingTable'
 import CostBreakdown from './components/CostBreakdown'
 import DepreciationChart from './components/DepreciationChart'
-import Assumptions from './components/Assumptions'
 import { recalcTCO } from './utils/tco'
+
+function Slider({ label, value, min, max, step, format, onChange }) {
+  const pct = (value - min) / (max - min)
+  return (
+    <div>
+      <div className="flex justify-between items-baseline mb-2">
+        <label className="text-[13px] text-slate-500 font-medium">{label}</label>
+        <span className="text-[15px] font-mono font-semibold text-slate-900">{format(value)}</span>
+      </div>
+      <input
+        type="range" min={min} max={max} step={step} value={value}
+        onChange={e => onChange(Number(e.target.value))}
+        className="w-full"
+        style={{ '--val': pct }}
+      />
+    </div>
+  )
+}
 
 function App() {
   const [models, setModels] = useState([])
-  const [details, setDetails] = useState({})  // id → TCO detail
+  const [details, setDetails] = useState({})
   const [selected, setSelected] = useState(null)
   const [mileage, setMileage] = useState(1500)
   const [years, setYears] = useState(4)
@@ -18,44 +35,17 @@ function App() {
   const [buyAge, setBuyAge] = useState(0)
   const [loanPct, setLoanPct] = useState(0)
   const [interestRate, setInterestRate] = useState(5.9)
+  const [showSettings, setShowSettings] = useState(false)
 
-  // Load summary + models
   useEffect(() => {
     Promise.all([
       fetch('/tco_summary.json').then(r => r.json()),
       fetch('/models.json').then(r => r.json()),
     ]).then(([summary, mods]) => {
-      // Merge model data into summary
-      const merged = summary.map(s => ({
-        ...s,
-        ...(mods.find(m => m.id === s.id) || {}),
-      }))
-      setModels(merged)
+      setModels(summary.map(s => ({ ...s, ...(mods.find(m => m.id === s.id) || {}) })))
     })
   }, [])
 
-  // Load detail when selected
-  useEffect(() => {
-    if (!selected || details[selected]) return
-    fetch(`/${selected}.json`).then(r => r.json()).then(d => {
-      setDetails(prev => ({ ...prev, [selected]: d }))
-    })
-  }, [selected])
-
-  const params = { mileage, years, fuelPrice, elPrice, insuranceLevel, buyAge, loanPct, interestRate: interestRate / 100 }
-
-  // Recalculate all cars with current params
-  const recalculated = useMemo(() => {
-    return models.map(m => {
-      const detail = details[m.id]
-      if (!detail) return m
-      const result = recalcTCO(detail, m, params)
-      if (!result) return m
-      return { ...m, monthly_cost: result.monthly, cost_per_mil: result.costPerMil, _recalc: result }
-    }).sort((a, b) => a.monthly_cost - b.monthly_cost)
-  }, [models, details, mileage, years, fuelPrice, elPrice, insuranceLevel, buyAge, loanPct, interestRate])
-
-  // Preload all details for live recalculation
   useEffect(() => {
     models.forEach(m => {
       if (!details[m.id]) {
@@ -66,137 +56,150 @@ function App() {
     })
   }, [models])
 
+  const params = { mileage, years, fuelPrice, elPrice, insuranceLevel, buyAge, loanPct, interestRate: interestRate / 100 }
+
+  const recalculated = useMemo(() => {
+    return models.map(m => {
+      const detail = details[m.id]
+      if (!detail) return m
+      const result = recalcTCO(detail, m, params)
+      if (!result) return m
+      return { ...m, monthly_cost: result.monthly, cost_per_mil: result.costPerMil, _recalc: result }
+    }).sort((a, b) => a.monthly_cost - b.monthly_cost)
+  }, [models, details, mileage, years, fuelPrice, elPrice, insuranceLevel, buyAge, loanPct, interestRate])
+
   const selectedDetail = selected && details[selected]
   const selectedModel = models.find(m => m.id === selected)
-  const selectedResult = selectedDetail && selectedModel
-    ? recalcTCO(selectedDetail, selectedModel, params)
-    : null
+  const selectedResult = selectedDetail && selectedModel ? recalcTCO(selectedDetail, selectedModel, params) : null
 
-  const fuelLabel = { el: "El", hybrid: "Hybrid", bensin: "Bensin", diesel: "Diesel" }
+  const cheapest = recalculated[0]
+  const expensive = recalculated[recalculated.length - 1]
+  const diff = cheapest && expensive ? expensive.monthly_cost - cheapest.monthly_cost : 0
 
   return (
-    <div className="min-h-screen bg-stone-50 text-stone-800">
-      <header className="max-w-3xl mx-auto px-5 pt-8 pb-4">
-        <div className="flex items-center gap-3 mb-1">
-          <span className="text-2xl">🚗</span>
-          <h1 className="text-2xl font-semibold tracking-tight text-stone-900">Bilkoll</h1>
-        </div>
-        <p className="text-stone-500 text-sm">
-          Vad kostar en bil <em>egentligen</em>? Vi räknar ut totalkostnaden per månad — värdeminskning, drivmedel, skatt, försäkring, service och däck.
-        </p>
-        <p className="text-stone-400 text-xs mt-1">
-          Baserat på verkliga begagnatpriser, inte gissningar.
-        </p>
-      </header>
+    <div className="min-h-screen bg-[#fafaf9] text-slate-800 font-sans">
 
-      <main className="max-w-3xl mx-auto px-5 pb-16">
-        {/* Controls */}
-        <div className="bg-white rounded-2xl border border-stone-200 p-5 mt-4">
-          <h2 className="text-xs font-semibold text-stone-500 uppercase tracking-wider mb-3">Dina förutsättningar</h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-            <div>
-              <label className="block text-xs text-stone-500 mb-1">Körsträcka</label>
-              <input
-                type="range" min="500" max="3000" step="100" value={mileage}
-                onChange={e => setMileage(Number(e.target.value))}
-                className="w-full accent-stone-800"
-              />
-              <div className="text-sm font-mono text-stone-900 mt-1">{mileage.toLocaleString('sv-SE')} mil/år</div>
+      {/* ═══ HERO ═══ */}
+      <div className="relative overflow-hidden border-b border-slate-200">
+        <div className="absolute inset-0 bg-gradient-to-b from-white to-slate-50" />
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-gradient-radial from-blue-100/60 via-transparent to-transparent rounded-full blur-3xl" />
+
+        <header className="relative max-w-2xl mx-auto px-6 pt-10 pb-10">
+          <div className="flex items-center gap-2.5 mb-8">
+            <div className="w-8 h-8 rounded-lg bg-slate-900 flex items-center justify-center shadow-sm">
+              <span className="text-white font-extrabold text-[11px] tracking-tight">BK</span>
             </div>
-            <div>
-              <label className="block text-xs text-stone-500 mb-1">Ägartid</label>
-              <input
-                type="range" min="1" max="8" step="1" value={years}
-                onChange={e => setYears(Number(e.target.value))}
-                className="w-full accent-stone-800"
-              />
-              <div className="text-sm font-mono text-stone-900 mt-1">{years} år</div>
-            </div>
-            <div>
-              <label className="block text-xs text-stone-500 mb-1">Köpa årsmodell</label>
-              <input
-                type="range" min="0" max="6" step="1" value={buyAge}
-                onChange={e => setBuyAge(Number(e.target.value))}
-                className="w-full accent-stone-800"
-              />
-              <div className="text-sm font-mono text-stone-900 mt-1">{buyAge === 0 ? "Ny bil" : `${buyAge} år gammal`}</div>
-            </div>
-            <div>
-              <label className="block text-xs text-stone-500 mb-1">Bensinpris</label>
-              <input
-                type="range" min="14" max="28" step="0.50" value={fuelPrice}
-                onChange={e => setFuelPrice(Number(e.target.value))}
-                className="w-full accent-stone-800"
-              />
-              <div className="text-sm font-mono text-stone-900 mt-1">{fuelPrice.toFixed(1)} kr/l</div>
-            </div>
-            <div>
-              <label className="block text-xs text-stone-500 mb-1">Elpris</label>
-              <input
-                type="range" min="0.50" max="4.00" step="0.10" value={elPrice}
-                onChange={e => setElPrice(Number(e.target.value))}
-                className="w-full accent-stone-800"
-              />
-              <div className="text-sm font-mono text-stone-900 mt-1">{elPrice.toFixed(2)} kr/kWh</div>
-            </div>
-            <div>
-              <label className="block text-xs text-stone-500 mb-1">Försäkringsnivå</label>
-              <input
-                type="range" min="0.5" max="1.5" step="0.1" value={insuranceLevel}
-                onChange={e => setInsuranceLevel(Number(e.target.value))}
-                className="w-full accent-stone-800"
-              />
-              <div className="text-sm font-mono text-stone-900 mt-1">
-                {insuranceLevel <= 0.7 ? "Billig" : insuranceLevel >= 1.3 ? "Dyr" : insuranceLevel === 1.0 ? "Medel" : insuranceLevel < 1.0 ? "Under medel" : "Över medel"}
-              </div>
-            </div>
-            <div>
-              <label className="block text-xs text-stone-500 mb-1">Finansiering</label>
-              <input
-                type="range" min="0" max="100" step="10" value={loanPct}
-                onChange={e => setLoanPct(Number(e.target.value))}
-                className="w-full accent-stone-800"
-              />
-              <div className="text-sm font-mono text-stone-900 mt-1">
-                {loanPct === 0 ? "Kontant" : `${loanPct}% lån`}
-              </div>
-            </div>
-            {loanPct > 0 && (
-              <div>
-                <label className="block text-xs text-stone-500 mb-1">Ränta</label>
-                <input
-                  type="range" min="0" max="12" step="0.1" value={interestRate}
-                  onChange={e => setInterestRate(Number(e.target.value))}
-                  className="w-full accent-stone-800"
-                />
-                <div className="text-sm font-mono text-stone-900 mt-1">{interestRate.toFixed(1)}%</div>
-              </div>
-            )}
+            <span className="text-[15px] font-bold text-slate-900 tracking-tight">Bilkoll</span>
+            <span className="text-[10px] text-slate-400 bg-slate-100 px-2 py-0.5 rounded-full font-medium ml-1">Beta</span>
           </div>
+
+          <h1 className="text-[40px] sm:text-[52px] font-extrabold tracking-tight leading-[1.08] text-slate-900 mb-4">
+            Vad kostar bilen<br/><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">egentligen?</span>
+          </h1>
+          <p className="text-slate-500 text-[17px] leading-relaxed max-w-lg">
+            Vi beräknar den verkliga månadskostnaden — värdeminskning, drivmedel, skatt, försäkring — baserat på tusentals begagnatpriser.
+          </p>
+
+          {/* Quick stats */}
+          {cheapest && expensive && (
+            <div className="mt-8 grid grid-cols-3 gap-3">
+              {[
+                ["Billigast", cheapest.monthly_cost, "text-emerald-600", cheapest.name?.split(' ').slice(0,2).join(' ')],
+                ["Dyrast", expensive.monthly_cost, "text-rose-600", expensive.name?.split(' ').slice(0,2).join(' ')],
+                ["Skillnad", diff, "text-slate-900", `${(diff * 12).toLocaleString('sv-SE')} kr/år`],
+              ].map(([label, val, color, sub]) => (
+                <div key={label} className="px-4 py-3.5 rounded-xl bg-white border border-slate-200 shadow-sm">
+                  <div className="text-[11px] text-slate-400 font-medium uppercase tracking-wider">{label}</div>
+                  <div className={`text-[22px] font-mono font-bold ${color} mt-0.5 tabular-nums`}>
+                    {val.toLocaleString('sv-SE')}
+                    <span className="text-[11px] font-normal text-slate-400 ml-1">kr/mån</span>
+                  </div>
+                  <div className="text-[11px] text-slate-400 mt-0.5">{sub}</div>
+                </div>
+              ))}
+            </div>
+          )}
+        </header>
+      </div>
+
+      <main className="max-w-2xl mx-auto px-6 pb-20 pt-8">
+
+        {/* ═══ SETTINGS ═══ */}
+        <div className="mb-8">
+          <button
+            onClick={() => setShowSettings(!showSettings)}
+            className="flex items-center gap-2 text-[13px] text-slate-500 hover:text-slate-900 transition-colors cursor-pointer font-medium"
+          >
+            <svg className={`w-4 h-4 transition-transform ${showSettings ? 'rotate-90' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+            Anpassa beräkning
+            <span className="text-[11px] text-slate-400 font-normal">
+              {mileage.toLocaleString('sv-SE')} mil/år · {years} år · {buyAge === 0 ? 'ny bil' : `${buyAge} år gammal`}
+            </span>
+          </button>
+
+          {showSettings && (
+            <div className="mt-4 p-6 rounded-2xl bg-white border border-slate-200 shadow-sm animate-slide-up">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <Slider label="Körsträcka" value={mileage} min={500} max={3000} step={100}
+                  format={v => `${v.toLocaleString('sv-SE')} mil/år`} onChange={setMileage} />
+                <Slider label="Ägartid" value={years} min={1} max={8} step={1}
+                  format={v => `${v} år`} onChange={setYears} />
+                <Slider label="Köpa årsmodell" value={buyAge} min={0} max={6} step={1}
+                  format={v => v === 0 ? 'Ny bil' : `${v} år gammal`} onChange={setBuyAge} />
+                <Slider label="Bensinpris" value={fuelPrice} min={14} max={28} step={0.5}
+                  format={v => `${v.toFixed(1)} kr/l`} onChange={setFuelPrice} />
+                <Slider label="Elpris" value={elPrice} min={0.5} max={4} step={0.1}
+                  format={v => `${v.toFixed(2)} kr/kWh`} onChange={setElPrice} />
+                <Slider label="Försäkringsnivå" value={insuranceLevel} min={0.5} max={1.5} step={0.1}
+                  format={v => v <= 0.7 ? 'Billig' : v >= 1.3 ? 'Dyr' : v < 1.0 ? 'Under medel' : v > 1.0 ? 'Över medel' : 'Medel'}
+                  onChange={setInsuranceLevel} />
+                <Slider label="Finansiering" value={loanPct} min={0} max={100} step={10}
+                  format={v => v === 0 ? 'Kontant' : `${v}% lån`} onChange={setLoanPct} />
+                {loanPct > 0 && (
+                  <Slider label="Ränta" value={interestRate} min={0} max={12} step={0.1}
+                    format={v => `${v.toFixed(1)}%`} onChange={setInterestRate} />
+                )}
+              </div>
+            </div>
+          )}
         </div>
 
-        {/* Ranking */}
+        {/* ═══ RANKING ═══ */}
         {recalculated.length > 0 && (
           <RankingTable
             cars={recalculated}
             selected={selected}
             onSelect={id => setSelected(selected === id ? null : id)}
-            fuelLabel={fuelLabel}
           />
         )}
 
-        {/* Detail view */}
-        {selectedResult && selectedDetail && (
-          <div className="mt-6 space-y-6">
-            <div className="bg-white rounded-2xl border border-stone-200 p-5">
-              <h2 className="text-lg font-semibold text-stone-900 mb-1">
-                {selectedModel.make} {selectedModel.model} {selectedModel.variant}
-              </h2>
-              <p className="text-xs text-stone-400 mb-4">
-                {buyAge === 0 ? "Köp ny" : `Köp ${buyAge} år gammal`} · äga {years} år · {mileage.toLocaleString('sv-SE')} mil/år
-                {selectedDetail.confidence === "low" && <span className="ml-2 text-amber-500"> · ⚠ Begränsat datamaterial</span>}
-              </p>
+        {/* ═══ DETAIL ═══ */}
+        {selectedResult && selectedDetail && selectedModel && (
+          <div className="mt-6 space-y-4 animate-slide-up">
+            {/* Big number */}
+            <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-8 shadow-xl">
+              <div className="absolute top-0 right-0 w-48 h-48 bg-gradient-radial from-blue-400/10 to-transparent rounded-full blur-2xl" />
+              <div className="relative">
+                <div className="text-sm text-slate-400 mb-2">{selectedModel.make} {selectedModel.model} {selectedModel.variant}</div>
+                <div className="flex items-baseline gap-2 mb-1">
+                  <span className="text-[60px] font-mono font-black text-white leading-none tracking-tighter tabular-nums">
+                    {selectedResult.monthly.toLocaleString('sv-SE')}
+                  </span>
+                  <span className="text-xl text-slate-400 font-medium">kr/mån</span>
+                </div>
+                <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm text-slate-400 mt-2">
+                  <span><span className="font-mono text-slate-200">{selectedResult.costPerMil}</span> kr/mil</span>
+                  <span><span className="font-mono text-slate-200">{selectedResult.total.toLocaleString('sv-SE')}</span> kr totalt</span>
+                  <span>{buyAge === 0 ? 'Ny' : `${buyAge} år`} · {years} år · {mileage.toLocaleString('sv-SE')} mil/år</span>
+                </div>
+              </div>
+            </div>
 
+            {/* Breakdown */}
+            <div className="rounded-2xl bg-white border border-slate-200 shadow-sm p-6">
+              <h3 className="text-sm font-bold text-slate-900 mb-5">Kostnadsfördelning</h3>
               <CostBreakdown
                 breakdown={selectedResult.breakdown}
                 total={selectedResult.total}
@@ -205,33 +208,45 @@ function App() {
               />
             </div>
 
+            {/* Depreciation */}
             {selectedDetail.result.depreciation_curve?.length > 1 && (
               <DepreciationChart curve={selectedDetail.result.depreciation_curve} />
             )}
           </div>
         )}
 
-        {/* How it works */}
-        <section className="mt-16 text-center">
-          <h2 className="text-lg font-semibold text-stone-900 mb-3">Hur räknar vi?</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-left">
+        {/* ═══ HOW IT WORKS ═══ */}
+        <section className="mt-20">
+          <div className="text-center mb-8">
+            <h2 className="text-xl font-bold text-slate-900 mb-2">Hur vi räknar</h2>
+            <p className="text-sm text-slate-400">Ingen magi. Bara data.</p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              ["📉", "Värdeminskning", "Verkliga begagnatpriser från tusentals annonser — inte estimat."],
-              ["⛽", "Drivmedel", "Aktuellt bränslepris × bilens förbrukning × din körsträcka."],
-              ["📋", "Övriga kostnader", "Fordonsskatt (inkl. malus), försäkring, service och däck."],
-            ].map(([emoji, title, desc]) => (
-              <div key={title} className="bg-white rounded-xl border border-stone-200 p-4">
-                <div className="text-xl mb-2">{emoji}</div>
-                <div className="text-sm font-semibold text-stone-900">{title}</div>
-                <p className="text-xs text-stone-500 mt-1">{desc}</p>
+              ["Värdeminskning", "Verkliga begagnatpriser från tusentals annonser — inte schabloner.", "from-rose-50 to-white", "text-rose-600", "border-rose-100"],
+              ["Drivmedel", "Aktuellt bensin- och elpris multiplicerat med bilens faktiska förbrukning.", "from-amber-50 to-white", "text-amber-600", "border-amber-100"],
+              ["Skatt + Försäkring + Service", "Fordonsskatt inkl. malus, modellspecifik försäkring, verkstadskostnader och däck.", "from-blue-50 to-white", "text-blue-600", "border-blue-100"],
+            ].map(([title, desc, gradient, textColor, border]) => (
+              <div key={title} className={`rounded-2xl bg-gradient-to-b ${gradient} border ${border} p-5 shadow-sm`}>
+                <div className={`text-sm font-bold ${textColor} mb-2`}>{title}</div>
+                <p className="text-[13px] text-slate-500 leading-relaxed">{desc}</p>
               </div>
             ))}
           </div>
         </section>
 
-        <footer className="mt-16 text-center text-xs text-stone-400 space-y-1">
-          <p>Bilkoll av Gabriel Linton · Olav Innovation AB</p>
-          <p>Prisdata uppdateras veckovis. Försäkringskostnad är ett estimat.</p>
+        {/* ═══ DATA SOURCE ═══ */}
+        <section className="mt-12 text-center">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200 text-[11px] text-slate-500 shadow-sm">
+            <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+            Nybilspriser: Skatteverket SKVFS 2025:29. Begagnatpriser: AutoUncle. Uppdateras veckovis.
+          </div>
+        </section>
+
+        {/* ═══ FOOTER ═══ */}
+        <footer className="mt-16 pt-8 border-t border-slate-200 text-center space-y-2">
+          <p className="text-xs text-slate-400">Bilkoll av Gabriel Linton &middot; Olav Innovation AB</p>
+          <p className="text-[10px] text-slate-300">Alla beräkningar är ungefärliga. Försäkringskostnad baseras på modellsegment, inte individuell offert.</p>
         </footer>
       </main>
     </div>

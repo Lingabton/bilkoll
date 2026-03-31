@@ -1,6 +1,6 @@
 {
-  "model_id": "toyota-corolla-hybrid",
-  "calculated_at": "2026-03-30T23:57:33.678588+00:00",
+  "model_id": "toyota-rav4-hybrid",
+  "calculated_at": "2026-03-30T23:57:33.678933+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,54 +8,54 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 189858,
-    "monthly_cost": 3955,
-    "cost_per_mil": 32,
+    "total_cost": 153931,
+    "monthly_cost": 3207,
+    "cost_per_mil": 26,
     "breakdown": {
-      "depreciation": 95000,
-      "fuel": 49950,
-      "tax": 12008,
+      "depreciation": 35000,
+      "fuel": 57720,
+      "tax": 19211,
       "insurance": {
-        "low": 11760,
-        "high": 21840,
-        "estimate": 16800
+        "low": 16240,
+        "high": 30160,
+        "estimate": 23200
       },
-      "service": 10500,
-      "tires": 5600
+      "service": 12000,
+      "tires": 6800
     },
     "depreciation_curve": [
       {
         "year": 0,
-        "value": 324900,
+        "value": 419900,
         "confidence": "fixed",
         "data_points": 0
       },
       {
         "year": 1,
-        "value": 324900,
+        "value": 554900,
         "confidence": "medium",
-        "data_points": 25
+        "data_points": 18
       },
       {
         "year": 2,
-        "value": 304900,
+        "value": 514450,
         "confidence": "medium",
-        "data_points": 25
+        "data_points": 16
       },
       {
         "year": 3,
-        "value": 274900,
+        "value": 459000,
         "confidence": "medium",
         "data_points": 25
       },
       {
         "year": 4,
-        "value": 229900,
+        "value": 384900,
         "confidence": "medium",
         "data_points": 25
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "low",
   "data_quality_notes": []
 }
