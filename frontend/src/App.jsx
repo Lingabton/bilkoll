@@ -205,6 +205,7 @@ function App() {
                 total={selectedResult.total}
                 emissions={selectedResult.emissions}
                 purchasePrice={selectedResult.purchasePrice}
+                years={years}
               />
             </div>
 

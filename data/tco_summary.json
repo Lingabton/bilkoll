@@ -12,30 +12,6 @@
     "newPrice": 399900
   },
   {
-    "id": "toyota-rav4-hybrid",
-    "slug": "toyota-rav4",
-    "name": "Toyota RAV4 2.5 Hybrid AWD-i",
-    "monthly_cost": 3207,
-    "cost_per_mil": 26,
-    "total_4yr": 153931,
-    "confidence": "low",
-    "fuel": "hybrid",
-    "segment": "suv-mellanklass",
-    "newPrice": 419900
-  },
-  {
-    "id": "kia-ev6-lr",
-    "slug": "kia-ev6",
-    "name": "Kia EV6 Long Range RWD",
-    "monthly_cost": 3292,
-    "cost_per_mil": 26,
-    "total_4yr": 158040,
-    "confidence": "medium",
-    "fuel": "el",
-    "segment": "suv-mellanklass",
-    "newPrice": 479900
-  },
-  {
     "id": "toyota-corolla-hybrid",
     "slug": "toyota-corolla",
     "name": "Toyota Corolla 1.8 Hybrid",
@@ -48,18 +24,6 @@
     "newPrice": 324900
   },
   {
-    "id": "volvo-xc60-b5-bensin",
-    "slug": "volvo-xc60",
-    "name": "Volvo XC60 T6 Core Laddhybrid",
-    "monthly_cost": 4652,
-    "cost_per_mil": 37,
-    "total_4yr": 223304,
-    "confidence": "medium",
-    "fuel": "hybrid",
-    "segment": "suv-mellanklass",
-    "newPrice": 569900
-  },
-  {
     "id": "dacia-jogger-tce",
     "slug": "dacia-jogger",
     "name": "Dacia Jogger Extreme TCe 110",
@@ -70,6 +34,30 @@
     "fuel": "bensin",
     "segment": "mpv-budget",
     "newPrice": 269900
+  },
+  {
+    "id": "kia-ev6-lr",
+    "slug": "kia-ev6",
+    "name": "Kia EV6 Long Range RWD",
+    "monthly_cost": 5168,
+    "cost_per_mil": 41,
+    "total_4yr": 248040,
+    "confidence": "medium",
+    "fuel": "el",
+    "segment": "suv-mellanklass",
+    "newPrice": 569900
+  },
+  {
+    "id": "toyota-rav4-hybrid",
+    "slug": "toyota-rav4",
+    "name": "Toyota RAV4 2.5 Hybrid AWD-i Executive",
+    "monthly_cost": 6038,
+    "cost_per_mil": 48,
+    "total_4yr": 289831,
+    "confidence": "low",
+    "fuel": "hybrid",
+    "segment": "suv-mellanklass",
+    "newPrice": 555800
   },
   {
     "id": "vw-id4-pro",
@@ -118,5 +106,17 @@
     "fuel": "el",
     "segment": "suv-mellanklass",
     "newPrice": 649990
+  },
+  {
+    "id": "volvo-xc60-b5-bensin",
+    "slug": "volvo-xc60",
+    "name": "Volvo XC60 T6 Plus Laddhybrid",
+    "monthly_cost": 7738,
+    "cost_per_mil": 62,
+    "total_4yr": 371404,
+    "confidence": "medium",
+    "fuel": "hybrid",
+    "segment": "suv-mellanklass",
+    "newPrice": 718000
   }
 ]

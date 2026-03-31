@@ -8,7 +8,8 @@ const CATEGORIES = [
   { key: "tires", label: "Däck", color: "#64748b" },
 ]
 
-export default function CostBreakdown({ breakdown, total, emissions, purchasePrice }) {
+export default function CostBreakdown({ breakdown, total, emissions, purchasePrice, years = 4 }) {
+  const months = years * 12
   const active = CATEGORIES.filter(({ key }) => {
     const val = key === "insurance" ? breakdown[key]?.estimate : breakdown[key]
     return val && val > 0
@@ -26,16 +27,29 @@ export default function CostBreakdown({ breakdown, total, emissions, purchasePri
         })}
       </div>
 
+      {/* Header */}
+      <div className="flex items-center gap-3 mb-3 text-[11px] text-slate-400">
+        <div className="w-2.5" />
+        <span className="flex-1" />
+        <span className="w-10 text-right"></span>
+        <span className="w-20 text-right">per mån</span>
+        <span className="w-28 text-right">totalt ({years} år)</span>
+      </div>
+
       {/* Rows */}
       <div className="space-y-2.5">
         {active.map(({ key, label, color, isRange }) => {
           const val = isRange ? breakdown[key]?.estimate : breakdown[key]
           const pct = Math.round((val / total) * 100)
+          const perMonth = Math.round(val / months)
           return (
             <div key={key} className="flex items-center gap-3">
               <div className="w-2.5 h-2.5 rounded-full shrink-0" style={{ backgroundColor: color }} />
               <span className="text-[13px] text-slate-600 flex-1">{label}</span>
               <span className="text-[11px] text-slate-400 w-10 text-right tabular-nums">{pct}%</span>
+              <span className="font-mono text-[12px] text-slate-500 w-20 text-right tabular-nums">
+                {perMonth.toLocaleString('sv-SE')} kr
+              </span>
               <span className="font-mono text-[13px] text-slate-900 w-28 text-right tabular-nums font-medium">
                 {val.toLocaleString('sv-SE')} kr
               </span>
@@ -52,9 +66,16 @@ export default function CostBreakdown({ breakdown, total, emissions, purchasePri
       )}
 
       {/* Total */}
-      <div className="flex items-center justify-between mt-5 pt-4 border-t border-slate-200">
-        <span className="text-sm font-bold text-slate-900">Totalt</span>
-        <span className="font-mono font-bold text-slate-900 text-lg tabular-nums">{total.toLocaleString('sv-SE')} kr</span>
+      <div className="flex items-center gap-3 mt-5 pt-4 border-t border-slate-200">
+        <div className="w-2.5" />
+        <span className="text-sm font-bold text-slate-900 flex-1">Totalt</span>
+        <span className="w-10" />
+        <span className="font-mono text-[13px] font-bold text-slate-700 w-20 text-right tabular-nums">
+          {Math.round(total / months).toLocaleString('sv-SE')} kr
+        </span>
+        <span className="font-mono font-bold text-slate-900 text-[15px] w-28 text-right tabular-nums">
+          {total.toLocaleString('sv-SE')} kr
+        </span>
       </div>
 
       {purchasePrice && (
