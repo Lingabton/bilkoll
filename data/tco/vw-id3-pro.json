@@ -1,6 +1,6 @@
 {
-  "model_id": "dacia-jogger-tce",
-  "calculated_at": "2026-04-01T14:25:46.536838+00:00",
+  "model_id": "vw-id3-pro",
+  "calculated_at": "2026-04-01T14:25:46.538336+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,54 +8,54 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 230250,
-    "monthly_cost": 4797,
-    "cost_per_mil": 38,
+    "total_cost": 310990,
+    "monthly_cost": 6479,
+    "cost_per_mil": 52,
     "breakdown": {
-      "depreciation": 110100,
-      "fuel": 68820,
-      "tax": 22330,
+      "depreciation": 264600,
+      "fuel": 13950,
+      "tax": 1440,
       "insurance": {
-        "low": 10640,
-        "high": 19760,
-        "estimate": 15200
+        "low": 13160,
+        "high": 24440,
+        "estimate": 18800
       },
-      "service": 9000,
-      "tires": 4800
+      "service": 5000,
+      "tires": 7200
     },
     "depreciation_curve": [
       {
         "year": 0,
-        "value": 269900,
+        "value": 504500,
         "confidence": "fixed",
         "data_points": 0
       },
       {
         "year": 1,
-        "value": 276400,
+        "value": 399900,
         "confidence": "medium",
-        "data_points": 23
+        "data_points": 26
       },
       {
         "year": 2,
-        "value": 269900,
+        "value": 384700,
         "confidence": "medium",
-        "data_points": 7
+        "data_points": 30
       },
       {
         "year": 3,
-        "value": 227200,
+        "value": 269800,
         "confidence": "medium",
-        "data_points": 8
+        "data_points": 69
       },
       {
         "year": 4,
-        "value": 159800,
+        "value": 239900,
         "confidence": "medium",
-        "data_points": 19
+        "data_points": 77
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "medium",
   "data_quality_notes": []
 }

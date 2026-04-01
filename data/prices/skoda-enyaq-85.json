@@ -1,0 +1,55 @@
+{
+  "model_id": "skoda-enyaq-85",
+  "scraped_at": "2026-04-01T14:11:43.888022+00:00",
+  "source": "autouncle",
+  "years": {
+    "2025": {
+      "median_price": 534800,
+      "count": 2,
+      "total_on_page": 2,
+      "median_mileage_mil": 20250
+    },
+    "2024": {
+      "median_price": 499900,
+      "count": 36,
+      "total_on_page": 36,
+      "p5_price": 449900,
+      "p95_price": 579000,
+      "min_price": 269800,
+      "max_price": 579900
+    },
+    "2023": {
+      "median_price": 392400,
+      "count": 66,
+      "total_on_page": 66,
+      "p5_price": 269900,
+      "p95_price": 459400,
+      "min_price": 160000,
+      "max_price": 719900,
+      "median_mileage_mil": 20230
+    },
+    "2022": {
+      "median_price": 339900,
+      "count": 79,
+      "total_on_page": 79,
+      "p5_price": 269900,
+      "p95_price": 419000,
+      "min_price": 150000,
+      "max_price": 494900
+    },
+    "2021": {
+      "median_price": 289750,
+      "count": 54,
+      "total_on_page": 54,
+      "p5_price": 160000,
+      "p95_price": 383990,
+      "min_price": 149000,
+      "max_price": 519900
+    }
+  },
+  "validation": {
+    "is_monotonic": true,
+    "min_count_per_year": 2,
+    "confidence": "low"
+  }
+}

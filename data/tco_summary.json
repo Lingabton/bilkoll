@@ -1,17 +1,5 @@
 [
   {
-    "id": "kia-niro-ev",
-    "slug": "kia-niro-ev",
-    "name": "Kia Niro EV",
-    "monthly_cost": 2802,
-    "cost_per_mil": 22,
-    "total_4yr": 134490,
-    "confidence": "low",
-    "fuel": "el",
-    "segment": "suv-kompakt",
-    "newPrice": 399900
-  },
-  {
     "id": "toyota-corolla-hybrid",
     "slug": "toyota-corolla",
     "name": "Toyota Corolla 1.8 Hybrid",
@@ -22,6 +10,18 @@
     "fuel": "hybrid",
     "segment": "sedan-kompakt",
     "newPrice": 324900
+  },
+  {
+    "id": "toyota-yaris-cross-hybrid",
+    "slug": "toyota-yaris-cross",
+    "name": "Toyota Yaris Cross 1.5 Hybrid AWD-i",
+    "monthly_cost": 4091,
+    "cost_per_mil": 33,
+    "total_4yr": 196360,
+    "confidence": "medium",
+    "fuel": "hybrid",
+    "segment": "suv-kompakt",
+    "newPrice": 353600
   },
   {
     "id": "dacia-jogger-tce",
@@ -36,16 +36,40 @@
     "newPrice": 269900
   },
   {
+    "id": "kia-niro-ev",
+    "slug": "kia-niro-ev",
+    "name": "Kia Niro EV Action",
+    "monthly_cost": 5523,
+    "cost_per_mil": 44,
+    "total_4yr": 265090,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "suv-kompakt",
+    "newPrice": 530500
+  },
+  {
     "id": "kia-ev6-lr",
     "slug": "kia-ev6",
     "name": "Kia EV6 Long Range RWD",
-    "monthly_cost": 5168,
-    "cost_per_mil": 41,
-    "total_4yr": 248040,
+    "monthly_cost": 5720,
+    "cost_per_mil": 46,
+    "total_4yr": 274540,
     "confidence": "medium",
     "fuel": "el",
     "segment": "suv-mellanklass",
-    "newPrice": 569900
+    "newPrice": 596400
+  },
+  {
+    "id": "hyundai-kona-ev",
+    "slug": "hyundai-kona",
+    "name": "Hyundai Kona Electric 48 kWh",
+    "monthly_cost": 5890,
+    "cost_per_mil": 47,
+    "total_4yr": 282740,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "suv-kompakt",
+    "newPrice": 449900
   },
   {
     "id": "toyota-rav4-hybrid",
@@ -70,6 +94,42 @@
     "fuel": "el",
     "segment": "suv-kompakt",
     "newPrice": 529700
+  },
+  {
+    "id": "vw-id3-pro",
+    "slug": "vw-id3",
+    "name": "Volkswagen ID.3 Pro S 79 kWh",
+    "monthly_cost": 6479,
+    "cost_per_mil": 52,
+    "total_4yr": 310990,
+    "confidence": "medium",
+    "fuel": "el",
+    "segment": "sedan-kompakt",
+    "newPrice": 504500
+  },
+  {
+    "id": "volvo-ex30-twin",
+    "slug": "volvo-ex30",
+    "name": "Volvo EX30 Twin Motor Performance",
+    "monthly_cost": 6526,
+    "cost_per_mil": 52,
+    "total_4yr": 313224,
+    "confidence": "high",
+    "fuel": "el",
+    "segment": "suv-kompakt",
+    "newPrice": 547000
+  },
+  {
+    "id": "skoda-enyaq-85",
+    "slug": "skoda-enyaq",
+    "name": "Skoda Enyaq 85 Solid Edition",
+    "monthly_cost": 6628,
+    "cost_per_mil": 53,
+    "total_4yr": 318140,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "suv-kompakt",
+    "newPrice": 604900
   },
   {
     "id": "tesla-model-3-lr",

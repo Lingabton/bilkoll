@@ -1,6 +1,6 @@
 {
-  "model_id": "dacia-jogger-tce",
-  "calculated_at": "2026-04-01T14:25:46.536838+00:00",
+  "model_id": "hyundai-kona-ev",
+  "calculated_at": "2026-04-01T14:25:46.538064+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,51 +8,51 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 230250,
-    "monthly_cost": 4797,
-    "cost_per_mil": 38,
+    "total_cost": 282740,
+    "monthly_cost": 5890,
+    "cost_per_mil": 47,
     "breakdown": {
-      "depreciation": 110100,
-      "fuel": 68820,
-      "tax": 22330,
+      "depreciation": 235000,
+      "fuel": 13500,
+      "tax": 1440,
       "insurance": {
-        "low": 10640,
-        "high": 19760,
-        "estimate": 15200
+        "low": 15960,
+        "high": 29640,
+        "estimate": 22800
       },
-      "service": 9000,
-      "tires": 4800
+      "service": 4000,
+      "tires": 6000
     },
     "depreciation_curve": [
       {
         "year": 0,
-        "value": 269900,
+        "value": 449900,
         "confidence": "fixed",
         "data_points": 0
       },
       {
         "year": 1,
-        "value": 276400,
+        "value": 469800,
         "confidence": "medium",
-        "data_points": 23
+        "data_points": 3
       },
       {
         "year": 2,
-        "value": 269900,
+        "value": 369900,
         "confidence": "medium",
-        "data_points": 7
+        "data_points": 19
       },
       {
         "year": 3,
-        "value": 227200,
+        "value": 389900,
         "confidence": "medium",
-        "data_points": 8
+        "data_points": 19
       },
       {
         "year": 4,
-        "value": 159800,
+        "value": 214900,
         "confidence": "medium",
-        "data_points": 19
+        "data_points": 26
       }
     ]
   },

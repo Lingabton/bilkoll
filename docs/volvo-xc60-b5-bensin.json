@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc60-b5-bensin",
-  "calculated_at": "2026-03-30T23:57:33.675342+00:00",
+  "calculated_at": "2026-04-01T14:25:46.532281+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 223304,
-    "monthly_cost": 4652,
-    "cost_per_mil": 37,
+    "total_cost": 371404,
+    "monthly_cost": 7738,
+    "cost_per_mil": 62,
     "breakdown": {
-      "depreciation": 170000,
+      "depreciation": 318100,
       "fuel": 8880,
       "tax": 3024,
       "insurance": {
@@ -26,7 +26,7 @@
     "depreciation_curve": [
       {
         "year": 0,
-        "value": 569900,
+        "value": 718000,
         "confidence": "fixed",
         "data_points": 0
       },

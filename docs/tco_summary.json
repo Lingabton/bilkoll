@@ -1,41 +1,5 @@
 [
   {
-    "id": "kia-niro-ev",
-    "slug": "kia-niro-ev",
-    "name": "Kia Niro EV",
-    "monthly_cost": 2802,
-    "cost_per_mil": 22,
-    "total_4yr": 134490,
-    "confidence": "low",
-    "fuel": "el",
-    "segment": "suv-kompakt",
-    "newPrice": 399900
-  },
-  {
-    "id": "toyota-rav4-hybrid",
-    "slug": "toyota-rav4",
-    "name": "Toyota RAV4 2.5 Hybrid AWD-i",
-    "monthly_cost": 3207,
-    "cost_per_mil": 26,
-    "total_4yr": 153931,
-    "confidence": "low",
-    "fuel": "hybrid",
-    "segment": "suv-mellanklass",
-    "newPrice": 419900
-  },
-  {
-    "id": "kia-ev6-lr",
-    "slug": "kia-ev6",
-    "name": "Kia EV6 Long Range RWD",
-    "monthly_cost": 3292,
-    "cost_per_mil": 26,
-    "total_4yr": 158040,
-    "confidence": "medium",
-    "fuel": "el",
-    "segment": "suv-mellanklass",
-    "newPrice": 479900
-  },
-  {
     "id": "toyota-corolla-hybrid",
     "slug": "toyota-corolla",
     "name": "Toyota Corolla 1.8 Hybrid",
@@ -48,16 +12,16 @@
     "newPrice": 324900
   },
   {
-    "id": "volvo-xc60-b5-bensin",
-    "slug": "volvo-xc60",
-    "name": "Volvo XC60 T6 Core Laddhybrid",
-    "monthly_cost": 4652,
-    "cost_per_mil": 37,
-    "total_4yr": 223304,
+    "id": "toyota-yaris-cross-hybrid",
+    "slug": "toyota-yaris-cross",
+    "name": "Toyota Yaris Cross 1.5 Hybrid AWD-i",
+    "monthly_cost": 4091,
+    "cost_per_mil": 33,
+    "total_4yr": 196360,
     "confidence": "medium",
     "fuel": "hybrid",
-    "segment": "suv-mellanklass",
-    "newPrice": 569900
+    "segment": "suv-kompakt",
+    "newPrice": 353600
   },
   {
     "id": "dacia-jogger-tce",
@@ -72,6 +36,54 @@
     "newPrice": 269900
   },
   {
+    "id": "kia-niro-ev",
+    "slug": "kia-niro-ev",
+    "name": "Kia Niro EV Action",
+    "monthly_cost": 5523,
+    "cost_per_mil": 44,
+    "total_4yr": 265090,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "suv-kompakt",
+    "newPrice": 530500
+  },
+  {
+    "id": "kia-ev6-lr",
+    "slug": "kia-ev6",
+    "name": "Kia EV6 Long Range RWD",
+    "monthly_cost": 5720,
+    "cost_per_mil": 46,
+    "total_4yr": 274540,
+    "confidence": "medium",
+    "fuel": "el",
+    "segment": "suv-mellanklass",
+    "newPrice": 596400
+  },
+  {
+    "id": "hyundai-kona-ev",
+    "slug": "hyundai-kona",
+    "name": "Hyundai Kona Electric 48 kWh",
+    "monthly_cost": 5890,
+    "cost_per_mil": 47,
+    "total_4yr": 282740,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "suv-kompakt",
+    "newPrice": 449900
+  },
+  {
+    "id": "toyota-rav4-hybrid",
+    "slug": "toyota-rav4",
+    "name": "Toyota RAV4 2.5 Hybrid AWD-i Executive",
+    "monthly_cost": 6038,
+    "cost_per_mil": 48,
+    "total_4yr": 289831,
+    "confidence": "low",
+    "fuel": "hybrid",
+    "segment": "suv-mellanklass",
+    "newPrice": 555800
+  },
+  {
     "id": "vw-id4-pro",
     "slug": "vw-id4",
     "name": "Volkswagen ID.4 Pro Life 77 kWh",
@@ -82,6 +94,42 @@
     "fuel": "el",
     "segment": "suv-kompakt",
     "newPrice": 529700
+  },
+  {
+    "id": "vw-id3-pro",
+    "slug": "vw-id3",
+    "name": "Volkswagen ID.3 Pro S 79 kWh",
+    "monthly_cost": 6479,
+    "cost_per_mil": 52,
+    "total_4yr": 310990,
+    "confidence": "medium",
+    "fuel": "el",
+    "segment": "sedan-kompakt",
+    "newPrice": 504500
+  },
+  {
+    "id": "volvo-ex30-twin",
+    "slug": "volvo-ex30",
+    "name": "Volvo EX30 Twin Motor Performance",
+    "monthly_cost": 6526,
+    "cost_per_mil": 52,
+    "total_4yr": 313224,
+    "confidence": "high",
+    "fuel": "el",
+    "segment": "suv-kompakt",
+    "newPrice": 547000
+  },
+  {
+    "id": "skoda-enyaq-85",
+    "slug": "skoda-enyaq",
+    "name": "Skoda Enyaq 85 Solid Edition",
+    "monthly_cost": 6628,
+    "cost_per_mil": 53,
+    "total_4yr": 318140,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "suv-kompakt",
+    "newPrice": 604900
   },
   {
     "id": "tesla-model-3-lr",
@@ -118,5 +166,17 @@
     "fuel": "el",
     "segment": "suv-mellanklass",
     "newPrice": 649990
+  },
+  {
+    "id": "volvo-xc60-b5-bensin",
+    "slug": "volvo-xc60",
+    "name": "Volvo XC60 T6 Plus Laddhybrid",
+    "monthly_cost": 7738,
+    "cost_per_mil": 62,
+    "total_4yr": 371404,
+    "confidence": "medium",
+    "fuel": "hybrid",
+    "segment": "suv-mellanklass",
+    "newPrice": 718000
   }
 ]

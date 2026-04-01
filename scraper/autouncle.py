@@ -54,52 +54,72 @@ class AutoUncleScraper(PriceSource):
         if self.pw:
             self.pw.stop()
 
+    def _parse_page(self):
+        """Parse prices and mileages from currently loaded page."""
+        articles = self.page.query_selector_all('article')
+        prices = []
+        mileages = []
+        for article in articles:
+            text = article.inner_text()
+            price_matches = re.findall(r'([\d\s\xa0.]+)\s*kr', text)
+            for pm in price_matches:
+                p = parse_price(pm)
+                if p and 30000 < p < 2000000:
+                    prices.append(p)
+                    break
+            mil = parse_mileage(text)
+            if mil:
+                mileages.append(mil)
+        return prices, mileages
+
     def fetch_prices(self, url_path, fuel_filter, year) -> dict:
-        """Fetch price data for a model+year from AutoUncle."""
+        """Fetch price data for a model+year from AutoUncle with pagination."""
         url = f"{BASE_URL}/{url_path}/y-{year}"
 
         time.sleep(RATE_LIMIT)
         self.page.goto(url, wait_until="domcontentloaded", timeout=15000)
         self.page.wait_for_timeout(2000)
 
-        # Scroll to load more results
+        # Scroll to load all visible results
         for _ in range(8):
             self.page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
             self.page.wait_for_timeout(800)
 
-        # Get total count from page
+        # Get total count
         body_text = self.page.inner_text('body')
         count_match = re.search(r'(\d+)\s*(bilar|resultat|annonser)', body_text)
         total_on_page = int(count_match.group(1)) if count_match else 0
 
-        # Parse articles
-        articles = self.page.query_selector_all('article')
-        prices = []
-        mileages = []
+        # Parse first page
+        all_prices, all_mileages = self._parse_page()
 
-        for article in articles:
-            text = article.inner_text()
+        # Paginate if there are more results (look for page 2, 3... links)
+        page_num = 2
+        while len(all_prices) < total_on_page and page_num <= 10:
+            next_url = f"{url}?page={page_num}"
+            try:
+                time.sleep(RATE_LIMIT)
+                self.page.goto(next_url, wait_until="domcontentloaded", timeout=15000)
+                self.page.wait_for_timeout(2000)
+                for _ in range(5):
+                    self.page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
+                    self.page.wait_for_timeout(600)
+                prices, mileages = self._parse_page()
+                if not prices:
+                    break
+                all_prices.extend(prices)
+                all_mileages.extend(mileages)
+                page_num += 1
+            except Exception:
+                break
 
-            # Extract price — look for the main price (first large number followed by kr)
-            price_matches = re.findall(r'([\d\s\xa0.]+)\s*kr', text)
-            for pm in price_matches:
-                p = parse_price(pm)
-                if p and 30000 < p < 2000000:
-                    prices.append(p)
-                    break  # Take first price per article (the current price)
-
-            # Extract mileage
-            mil = parse_mileage(text)
-            if mil:
-                mileages.append(mil)
-
-        if not prices:
+        if not all_prices:
             return {"count": 0, "total_on_page": total_on_page}
 
-        prices.sort()
-        n = len(prices)
+        all_prices.sort()
+        n = len(all_prices)
         result = {
-            "median_price": int(statistics.median(prices)),
+            "median_price": int(statistics.median(all_prices)),
             "count": n,
             "total_on_page": total_on_page,
         }
@@ -107,15 +127,15 @@ class AutoUncleScraper(PriceSource):
         if n >= 5:
             p5_idx = max(0, int(n * 0.05))
             p95_idx = min(n - 1, int(n * 0.95))
-            result["p5_price"] = prices[p5_idx]
-            result["p95_price"] = prices[p95_idx]
+            result["p5_price"] = all_prices[p5_idx]
+            result["p95_price"] = all_prices[p95_idx]
 
         if n >= 3:
-            result["min_price"] = prices[0]
-            result["max_price"] = prices[-1]
+            result["min_price"] = all_prices[0]
+            result["max_price"] = all_prices[-1]
 
-        if mileages:
-            result["median_mileage_mil"] = int(statistics.median(mileages))
+        if all_mileages:
+            result["median_mileage_mil"] = int(statistics.median(all_mileages))
 
         return result
 

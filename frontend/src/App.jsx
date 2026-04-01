@@ -3,6 +3,8 @@ import './index.css'
 import RankingTable from './components/RankingTable'
 import CostBreakdown from './components/CostBreakdown'
 import DepreciationChart from './components/DepreciationChart'
+import CompareView from './components/CompareView'
+import SearchBar from './components/SearchBar'
 import { recalcTCO } from './utils/tco'
 
 function Slider({ label, value, min, max, step, format, onChange }) {
@@ -36,6 +38,7 @@ function App() {
   const [loanPct, setLoanPct] = useState(0)
   const [interestRate, setInterestRate] = useState(5.9)
   const [showSettings, setShowSettings] = useState(false)
+  const [compareWith, setCompareWith] = useState(null)
 
   useEffect(() => {
     Promise.all([
@@ -166,6 +169,13 @@ function App() {
           )}
         </div>
 
+        {/* ═══ SEARCH ═══ */}
+        {recalculated.length > 0 && (
+          <div className="mb-6">
+            <SearchBar cars={recalculated} onSelect={id => { setSelected(id); setCompareWith(null) }} />
+          </div>
+        )}
+
         {/* ═══ RANKING ═══ */}
         {recalculated.length > 0 && (
           <RankingTable
@@ -196,6 +206,48 @@ function App() {
                 </div>
               </div>
             </div>
+
+            {/* Actions */}
+            <div className="flex gap-2">
+              {/* Compare */}
+              <div className="flex-1 relative">
+                {compareWith ? (
+                  <button onClick={() => setCompareWith(null)}
+                    className="w-full text-sm py-2.5 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 transition-colors cursor-pointer text-slate-600">
+                    Avsluta jämförelse
+                  </button>
+                ) : (
+                  <select
+                    value=""
+                    onChange={e => setCompareWith(e.target.value)}
+                    className="w-full text-sm py-2.5 px-4 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 transition-colors cursor-pointer text-slate-600 appearance-none"
+                  >
+                    <option value="" disabled>Jämför med...</option>
+                    {recalculated.filter(c => c.id !== selected).map(c => (
+                      <option key={c.id} value={c.id}>{c.make} {c.model} — {c.monthly_cost.toLocaleString('sv-SE')} kr/mån</option>
+                    ))}
+                  </select>
+                )}
+              </div>
+              {/* Share */}
+              <button onClick={() => {
+                const text = `${selectedModel.make} ${selectedModel.model} kostar ${selectedResult.monthly.toLocaleString('sv-SE')} kr/mån att äga (${years} år, ${mileage.toLocaleString('sv-SE')} mil/år). Kolla din bil på bilkoll.se`
+                if (navigator.share) navigator.share({ title: 'Bilkoll', text }).catch(() => {})
+                else navigator.clipboard?.writeText(text)
+              }}
+                className="px-4 py-2.5 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 transition-colors cursor-pointer text-slate-500 text-sm"
+              >
+                Dela ↗
+              </button>
+            </div>
+
+            {/* Compare view */}
+            {compareWith && (() => {
+              const carB = recalculated.find(c => c.id === compareWith)
+              const detailB = details[compareWith]
+              if (!carB || !detailB) return null
+              return <CompareView carA={selectedModel} carB={carB} detailA={selectedDetail} detailB={detailB} params={params} />
+            })()}
 
             {/* Breakdown */}
             <div className="rounded-2xl bg-white border border-slate-200 shadow-sm p-6">
