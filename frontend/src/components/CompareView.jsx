@@ -1,20 +1,30 @@
+import { useState } from 'react'
 import { recalcTCO } from '../utils/tco'
 
 const COST_ROWS = [
   { key: "depreciation", label: "Värdeminskning" },
   { key: "fuel", label: "Drivmedel" },
+  { key: "interest", label: "Ränta" },
   { key: "tax", label: "Skatt" },
   { key: "insurance", label: "Försäkring", isRange: true },
   { key: "service", label: "Service" },
   { key: "tires", label: "Däck" },
-  { key: "interest", label: "Ränta" },
 ]
 
 export default function CompareView({ carA, carB, detailA, detailB, params }) {
   if (!carA || !carB || !detailA || !detailB) return null
 
-  const rA = recalcTCO(detailA, carA, params)
-  const rB = recalcTCO(detailB, carB, params)
+  // Individual financing per car
+  const [loanPctA, setLoanPctA] = useState(params.loanPct)
+  const [loanPctB, setLoanPctB] = useState(params.loanPct)
+  const [rateA, setRateA] = useState(params.interestRate * 100)
+  const [rateB, setRateB] = useState(params.interestRate * 100)
+
+  const paramsA = { ...params, loanPct: loanPctA, interestRate: rateA / 100 }
+  const paramsB = { ...params, loanPct: loanPctB, interestRate: rateB / 100 }
+
+  const rA = recalcTCO(detailA, carA, paramsA)
+  const rB = recalcTCO(detailB, carB, paramsB)
   if (!rA || !rB) return null
 
   const diffMonthly = rA.monthly - rB.monthly
@@ -45,6 +55,37 @@ export default function CompareView({ carA, carB, detailA, detailB, params }) {
           {carB.make} {carB.model}
         </div>
         <div className="px-4 py-3 text-center text-[11px] text-slate-400 bg-slate-50/50 w-20">Diff</div>
+      </div>
+
+      {/* Individual financing controls */}
+      <div className="grid grid-cols-[1fr_1fr_1fr_auto] border-b border-slate-200 bg-blue-50/30">
+        <div className="px-4 py-2.5 text-[12px] text-slate-500 font-medium">Finansiering</div>
+        {[[loanPctA, setLoanPctA, rateA, setRateA], [loanPctB, setLoanPctB, rateB, setRateB]].map(([loan, setLoan, rate, setRate], i) => (
+          <div key={i} className={`px-3 py-2.5 ${i === 0 ? 'border-x border-slate-100' : ''}`}>
+            <div className="flex items-center gap-1.5 mb-1">
+              <select value={loan} onChange={e => setLoan(Number(e.target.value))}
+                className="text-[11px] bg-white border border-slate-200 rounded px-1.5 py-0.5 cursor-pointer w-16">
+                <option value={0}>Kontant</option>
+                {[50, 60, 70, 80, 90, 100].map(p => <option key={p} value={p}>{p}% lån</option>)}
+              </select>
+              {loan > 0 && (
+                <div className="flex items-center gap-0.5">
+                  <input type="number" value={rate} step="0.1" min="0" max="15"
+                    onChange={e => setRate(Number(e.target.value))}
+                    className="text-[11px] bg-white border border-slate-200 rounded px-1.5 py-0.5 w-12 text-center font-mono"
+                  />
+                  <span className="text-[10px] text-slate-400">%</span>
+                </div>
+              )}
+            </div>
+            {loan > 0 && (
+              <div className="text-[10px] text-slate-400">
+                {fmt(Math.round((i === 0 ? carA : carB).newPrice * loan / 100))} kr lån
+              </div>
+            )}
+          </div>
+        ))}
+        <div className="w-20" />
       </div>
 
       {/* Monthly cost — hero row */}
@@ -127,6 +168,11 @@ export default function CompareView({ carA, carB, detailA, detailB, params }) {
             {cheaper === 'A' ? `${carA.make} ${carA.model}` : `${carB.make} ${carB.model}`} är {fmt(Math.abs(diffMonthly))} kr/mån billigare
           </span>
           <span className="text-emerald-600"> — {fmt(Math.abs(diffMonthly) * 12)} kr/år</span>
+          {(loanPctA !== loanPctB || rateA !== rateB) && (
+            <div className="text-[11px] text-emerald-500 mt-1">
+              Med {carA.make} {loanPctA > 0 ? `${loanPctA}% lån ${rateA}%` : 'kontant'} vs {carB.make} {loanPctB > 0 ? `${loanPctB}% lån ${rateB}%` : 'kontant'}
+            </div>
+          )}
         </div>
       )}
     </div>

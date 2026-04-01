@@ -93,15 +93,16 @@ class AutoUncleScraper(PriceSource):
         # Parse first page
         all_prices, all_mileages = self._parse_page()
 
-        # Paginate if there are more results (look for page 2, 3... links)
+        # Paginate — AutoUncle uses ?page=N, max 25 per page
         page_num = 2
-        while len(all_prices) < total_on_page and page_num <= 10:
+        max_pages = min(10, (total_on_page // 25) + 2)
+        while len(all_prices) < total_on_page and page_num <= max_pages:
             next_url = f"{url}?page={page_num}"
             try:
                 time.sleep(RATE_LIMIT)
                 self.page.goto(next_url, wait_until="domcontentloaded", timeout=15000)
                 self.page.wait_for_timeout(2000)
-                for _ in range(5):
+                for _ in range(8):
                     self.page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
                     self.page.wait_for_timeout(600)
                 prices, mileages = self._parse_page()
