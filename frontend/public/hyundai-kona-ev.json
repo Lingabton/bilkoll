@@ -1,6 +1,6 @@
 {
   "model_id": "hyundai-kona-ev",
-  "calculated_at": "2026-04-01T14:25:46.538064+00:00",
+  "calculated_at": "2026-04-01T18:33:29.382759+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,19 +8,19 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 282740,
-    "monthly_cost": 5890,
-    "cost_per_mil": 47,
+    "total_cost": 294540,
+    "monthly_cost": 6136,
+    "cost_per_mil": 49,
     "breakdown": {
       "depreciation": 235000,
-      "fuel": 13500,
+      "fuel": 15300,
       "tax": 1440,
       "insurance": {
         "low": 15960,
         "high": 29640,
         "estimate": 22800
       },
-      "service": 4000,
+      "service": 14000,
       "tires": 6000
     },
     "depreciation_curve": [

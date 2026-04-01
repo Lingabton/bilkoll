@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc40-recharge",
-  "calculated_at": "2026-04-01T14:25:46.534543+00:00",
+  "calculated_at": "2026-04-01T18:33:29.374315+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,19 +8,19 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 354840,
-    "monthly_cost": 7392,
+    "total_cost": 352110,
+    "monthly_cost": 7336,
     "cost_per_mil": 59,
     "breakdown": {
       "depreciation": 300400,
-      "fuel": 16200,
+      "fuel": 16470,
       "tax": 1440,
       "insurance": {
         "low": 15960,
         "high": 29640,
         "estimate": 22800
       },
-      "service": 6000,
+      "service": 3000,
       "tires": 8000
     },
     "depreciation_curve": [
