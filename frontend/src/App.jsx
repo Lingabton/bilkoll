@@ -266,6 +266,7 @@ function App() {
                 emissions={selectedResult.emissions}
                 purchasePrice={selectedResult.purchasePrice}
                 years={years}
+                explanations={selectedResult.explanations}
               />
             </div>
 

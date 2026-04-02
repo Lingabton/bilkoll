@@ -1,3 +1,5 @@
+import { useState } from 'react'
+
 const CATEGORIES = [
   { key: "depreciation", label: "Värdeminskning", color: "#e11d48" },
   { key: "fuel", label: "Drivmedel", color: "#d97706" },
@@ -8,8 +10,10 @@ const CATEGORIES = [
   { key: "tires", label: "Däck", color: "#64748b" },
 ]
 
-export default function CostBreakdown({ breakdown, total, emissions, purchasePrice, years = 4 }) {
+export default function CostBreakdown({ breakdown, total, emissions, purchasePrice, years = 4, explanations = {} }) {
+  const [expanded, setExpanded] = useState(null)
   const months = years * 12
+
   const active = CATEGORIES.filter(({ key }) => {
     const val = key === "insurance" ? breakdown[key]?.estimate : breakdown[key]
     return val && val > 0
@@ -37,30 +41,71 @@ export default function CostBreakdown({ breakdown, total, emissions, purchasePri
       </div>
 
       {/* Rows */}
-      <div className="space-y-2.5">
+      <div className="space-y-0.5">
         {active.map(({ key, label, color, isRange }) => {
           const val = isRange ? breakdown[key]?.estimate : breakdown[key]
           const pct = Math.round((val / total) * 100)
           const perMonth = Math.round(val / months)
+          const isOpen = expanded === key
+          const expl = explanations[key]
+
           return (
-            <div key={key} className="flex items-center gap-3">
-              <div className="w-2.5 h-2.5 rounded-full shrink-0" style={{ backgroundColor: color }} />
-              <span className="text-[13px] text-slate-600 flex-1">{label}</span>
-              <span className="text-[11px] text-slate-400 w-10 text-right tabular-nums">{pct}%</span>
-              <span className="font-mono text-[12px] text-slate-500 w-20 text-right tabular-nums">
-                {perMonth.toLocaleString('sv-SE')} kr
-              </span>
-              <span className="font-mono text-[13px] text-slate-900 w-28 text-right tabular-nums font-medium">
-                {val.toLocaleString('sv-SE')} kr
-              </span>
+            <div key={key}>
+              <button
+                onClick={() => setExpanded(isOpen ? null : key)}
+                className="w-full flex items-center gap-3 py-2 px-1 rounded-lg hover:bg-slate-50 transition-colors cursor-pointer text-left"
+              >
+                <div className="w-2.5 h-2.5 rounded-full shrink-0" style={{ backgroundColor: color }} />
+                <span className="text-[13px] text-slate-600 flex-1 flex items-center gap-1.5">
+                  {label}
+                  {expl && (
+                    <svg className={`w-3 h-3 text-slate-300 transition-transform ${isOpen ? 'rotate-90' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                    </svg>
+                  )}
+                </span>
+                <span className="text-[11px] text-slate-400 w-10 text-right tabular-nums">{pct}%</span>
+                <span className="font-mono text-[12px] text-slate-500 w-20 text-right tabular-nums">
+                  {perMonth.toLocaleString('sv-SE')} kr
+                </span>
+                <span className="font-mono text-[13px] text-slate-900 w-28 text-right tabular-nums font-medium">
+                  {val.toLocaleString('sv-SE')} kr
+                </span>
+              </button>
+
+              {/* Expanded explanation */}
+              {isOpen && expl && (
+                <div className="ml-[22px] mr-2 mb-3 p-3 rounded-lg bg-slate-50 border border-slate-100 animate-slide-up">
+                  {/* Formula */}
+                  <div className="font-mono text-[11px] text-slate-700 bg-white rounded px-2.5 py-1.5 border border-slate-200 mb-2">
+                    {expl.formula}
+                  </div>
+                  {/* Detail */}
+                  <p className="text-[12px] text-slate-500 leading-relaxed mb-2">
+                    {expl.detail}
+                  </p>
+                  {/* Source */}
+                  <div className="flex items-center gap-1.5 text-[11px]">
+                    <span className="text-slate-400">Källa:</span>
+                    {expl.sourceUrl ? (
+                      <a href={expl.sourceUrl} target="_blank" rel="noopener noreferrer"
+                        className="text-blue-500 hover:text-blue-700 underline underline-offset-2">
+                        {expl.source}
+                      </a>
+                    ) : (
+                      <span className="text-slate-500">{expl.source}</span>
+                    )}
+                  </div>
+                </div>
+              )}
             </div>
           )
         })}
       </div>
 
-      {/* Insurance note */}
-      {breakdown.insurance && (
-        <div className="mt-1.5 ml-[22px] text-[10px] text-slate-400">
+      {/* Insurance range note */}
+      {breakdown.insurance && expanded !== 'insurance' && (
+        <div className="mt-1 ml-[22px] text-[10px] text-slate-400">
           Försäkring: {breakdown.insurance.low.toLocaleString('sv-SE')} – {breakdown.insurance.high.toLocaleString('sv-SE')} kr beroende på din profil
         </div>
       )}
@@ -79,7 +124,7 @@ export default function CostBreakdown({ breakdown, total, emissions, purchasePri
       </div>
 
       {purchasePrice && (
-        <div className="flex items-center justify-between mt-1">
+        <div className="flex items-center justify-between mt-1 ml-[22px]">
           <span className="text-[11px] text-slate-400">Inköpspris</span>
           <span className="font-mono text-[11px] text-slate-400 tabular-nums">{purchasePrice.toLocaleString('sv-SE')} kr</span>
         </div>
@@ -96,7 +141,7 @@ export default function CostBreakdown({ breakdown, total, emissions, purchasePri
             <span className="font-mono text-[13px] text-slate-900 font-medium tabular-nums">{emissions.total_ton} ton</span>
           </div>
           <div className="ml-[18px] mt-1.5 text-[11px] text-slate-400 leading-relaxed">
-            Samhällskostnad: {emissions.social_cost.toLocaleString('sv-SE')} kr.
+            Samhällskostnad: {emissions.social_cost.toLocaleString('sv-SE')} kr (Transportstyrelsen, ~1,19 kr/kg).
             {emissions.total_ton >= 1 && ` Motsvarar ~${Math.round(emissions.total_ton / 0.9)} flygresor Stockholm–London.`}
           </div>
         </div>

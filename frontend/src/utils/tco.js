@@ -132,11 +132,62 @@ export function recalcTCO(detail, model, {
   const monthly = Math.round(total / (years * 12))
   const costPerMil = mileage > 0 ? Math.round(total / (mileage * years)) : 0
 
+  // Build explanations for each cost
+  const fmt = n => Math.round(n).toLocaleString('sv-SE')
+  const consumption = fuel === "el" ? (model.consumption_kwh_per_mil || 1.5) : (model.consumption_l_per_mil || 0.7)
+  const fuelUnit = fuel === "el" ? "kWh/mil" : "l/mil"
+  const fuelPriceUsed = fuel === "el" ? elPrice : fuelPrice
+  const fuelPriceUnit = fuel === "el" ? "kr/kWh" : "kr/l"
+  const taxPerYear = years > 0 ? Math.round(tax / years) : 0
+
+  const explanations = {
+    depreciation: {
+      formula: `Inköpspris ${fmt(purchasePrice)} kr − beräknat värde efter ${years} år (${fmt(endValue)} kr)`,
+      detail: `Värdeminskning baseras på medianen av ${fuel === 'el' ? 'elbils' : 'begagnat'}annonser per årsmodell. ${buyAge > 0 ? `Bilen köps som ${buyAge} år gammal.` : 'Bilen köps ny.'} Framtida värde extrapoleras från verkliga begagnatpriser.`,
+      source: 'AutoUncle — begagnatpriser från tusentals annonser',
+      sourceUrl: 'https://www.autouncle.se/',
+    },
+    fuel: {
+      formula: `${consumption} ${fuelUnit} × ${fmt(mileage)} mil/år × ${fuelPriceUsed} ${fuelPriceUnit} × ${years} år = ${fmt(fuelCost)} kr`,
+      detail: model.consumption_note || `Förbrukning baserad på verkliga ägarrapporter, inte WLTP.`,
+      source: 'Spritmonitor.de — verklig förbrukning från tusentals ägare',
+      sourceUrl: 'https://www.spritmonitor.de/',
+    },
+    tax: {
+      formula: `${co2 > 0 ? `CO₂: ${co2} g/km. ` : 'Elbil: '}${taxPerYear} kr/år × ${years} år = ${fmt(tax)} kr${buyAge < 3 && co2 > 75 ? ' (inkl. malus första 3 åren)' : ''}`,
+      detail: `Grundbelopp 360 kr + ${co2 > 0 ? `22 kr per gram CO₂ (${co2} g/km)` : 'ingen CO₂-avgift (elbil)'}. ${fuel === 'diesel' ? 'Diesel: +250 kr/år miljötillägg. ' : ''}${buyAge < 3 && co2 > 75 ? `Malus-period (3 första åren): extra ${co2 > 125 ? `${107*50 + 132*(co2-125)}` : `${107*(co2-75)}`} kr/år.` : ''}`,
+      source: 'Skatteverket — fordonsskatteberäkning',
+      sourceUrl: 'https://www.skatteverket.se/',
+    },
+    insurance: {
+      formula: `${fmt(insAnnual)} kr/år × ${years} år = ${fmt(insurance.estimate)} kr (spann: ${fmt(insurance.low/years)}–${fmt(insurance.high/years)} kr/år)`,
+      detail: model.insurance_note || `Försäkringskostnad baserad på modellspecifika data. Verklig kostnad beror på din ålder, bostadsort, bonus och vald nivå (halv/hel).`,
+      source: model.insurance_source || 'Hedvig, Zmarta — genomsnittliga premier per bilmärke',
+      sourceUrl: 'https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring',
+    },
+    service: {
+      formula: `${fmt(serviceCost)} kr/service × ${serviceCount} servicetillfällen (var ${fmt(serviceInterval)} mil) = ${fmt(service)} kr`,
+      detail: model.service_note || `Servicekostnad baserad på auktoriserad verkstad.`,
+      source: 'Tillverkarens serviceplan + Carla.se/Teknikens Värld jämförelser',
+    },
+    tires: {
+      formula: `${fmt(model.tireEstimate_kr_per_year || 1500)} kr/år × ${years} år = ${fmt(tires)} kr`,
+      detail: `Däckstorlek: ${model.tireSize || '?'}. Inkluderar vinterdäck och sommardäck, byte och förvaring. Elbilsdäck kostar ~50% mer än vanliga.`,
+      source: 'Branschsnitt baserat på däckstorlek',
+    },
+    interest: interestCost > 0 ? {
+      formula: `${loanPct}% av ${fmt(purchasePrice)} kr = ${fmt(loanAmount)} kr lån, ${(interestRate*100).toFixed(1)}% ränta, ${years*12} mån → ${fmt(interestCost)} kr i räntekostnad`,
+      detail: `Annuitetslån. Total återbetalning: ${fmt(loanAmount + interestCost)} kr. Räntan kan variera — Tesla erbjuder ibland 0%, medan bankränta ofta ligger på 5-7%.`,
+      source: 'Beräknat med annuitetsformel',
+    } : null,
+  }
+
   return {
     total,
     monthly,
     costPerMil,
     purchasePrice,
+    endValue,
     breakdown: {
       depreciation,
       fuel: fuelCost,
@@ -146,6 +197,7 @@ export function recalcTCO(detail, model, {
       tires,
       interest: interestCost,
     },
+    explanations,
     emissions: {
       total_kg: totalCO2_kg,
       total_ton: +(totalCO2_kg / 1000).toFixed(1),

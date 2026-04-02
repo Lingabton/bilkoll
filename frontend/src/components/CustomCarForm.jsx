@@ -1,5 +1,6 @@
 import { useState, useMemo } from 'react'
 import { recalcTCO } from '../utils/tco'
+import CostBreakdown from './CostBreakdown'
 
 export default function CustomCarForm({ models, details, params, onResult }) {
   const [askingPrice, setAskingPrice] = useState('')
@@ -134,23 +135,16 @@ export default function CustomCarForm({ models, details, params, onResult }) {
             </div>
           </div>
 
-          {/* Breakdown mini */}
-          <div className="space-y-1.5 mb-4">
-            {[
-              ['Värdeminskning', result.tco.breakdown.depreciation],
-              ['Drivmedel', result.tco.breakdown.fuel],
-              ['Skatt', result.tco.breakdown.tax],
-              ['Försäkring', result.tco.breakdown.insurance?.estimate],
-              ['Service', result.tco.breakdown.service],
-              ['Däck', result.tco.breakdown.tires],
-            ].filter(([_, v]) => v > 0).map(([label, val]) => (
-              <div key={label} className="flex justify-between text-[13px]">
-                <span className="text-slate-500">{label}</span>
-                <span className="font-mono text-slate-700 tabular-nums">
-                  {Math.round(val / (params.years * 12)).toLocaleString('sv-SE')} kr/mån
-                </span>
-              </div>
-            ))}
+          {/* Full breakdown with explanations */}
+          <div className="mb-4">
+            <CostBreakdown
+              breakdown={result.tco.breakdown}
+              total={result.tco.total}
+              emissions={result.tco.emissions}
+              purchasePrice={result.tco.purchasePrice}
+              years={params.years}
+              explanations={result.tco.explanations}
+            />
           </div>
 
           {/* Comparison to buying new */}
