@@ -34,7 +34,8 @@ function monthlyPayment(principal, annualRate, months) {
 export function recalcTCO(detail, model, {
   mileage, years, fuelPrice, elPrice,
   insuranceLevel = 1.0, buyAge = 0,
-  loanPct = 0, interestRate = 0.059
+  loanPct = 0, interestRate = 0.059,
+  purchasePriceOverride = null,
 }) {
   if (!detail || !model) return null
 
@@ -44,10 +45,10 @@ export function recalcTCO(detail, model, {
   const co2 = model.co2_gkm
 
   // Purchase price
-  let purchasePrice = newPrice
-  if (buyAge > 0 && curve.length > buyAge) {
+  let purchasePrice = purchasePriceOverride || newPrice
+  if (!purchasePriceOverride && buyAge > 0 && curve.length > buyAge) {
     purchasePrice = curve[buyAge].value
-  } else if (buyAge > 0) {
+  } else if (!purchasePriceOverride && buyAge > 0) {
     purchasePrice = Math.round(newPrice * Math.pow(0.85, buyAge))
   }
 

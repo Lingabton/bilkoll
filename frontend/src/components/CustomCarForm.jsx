@@ -19,17 +19,11 @@ export default function CustomCarForm({ models, details, params, onResult }) {
     const detail = details[selectedModel]
     if (!model || !detail) return
 
-    // Create custom params with the asking price as purchase price
-    // Override buyAge to match the car's actual age
-    const customParams = {
+    // Calculate TCO with the actual asking price and car age
+    const tco = recalcTCO(detail, model, {
       ...params,
       buyAge: carAge,
-    }
-
-    // Calculate TCO but override the purchase price
-    const tco = recalcTCO(detail, { ...model, newPrice: price }, {
-      ...customParams,
-      buyAge: 0, // We're buying at asking price, so depreciation starts from there
+      purchasePriceOverride: price,
     })
 
     if (!tco) return
