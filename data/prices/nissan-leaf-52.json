@@ -1,0 +1,71 @@
+{
+  "model_id": "nissan-leaf-52",
+  "scraped_at": "2026-04-02T00:02:15.012686+00:00",
+  "source": "autouncle",
+  "years": {
+    "2025": {
+      "median_price": 446150,
+      "count": 2,
+      "total_on_page": 2,
+      "median_mileage_mil": 20250
+    },
+    "2024": {
+      "median_price": 249350,
+      "count": 2,
+      "total_on_page": 2,
+      "median_mileage_mil": 20240
+    },
+    "2023": {
+      "median_price": 208800,
+      "count": 121,
+      "total_on_page": 121,
+      "p5_price": 174900,
+      "p95_price": 249900,
+      "min_price": 159800,
+      "max_price": 299800,
+      "median_mileage_mil": 20230
+    },
+    "2022": {
+      "median_price": 179500,
+      "count": 137,
+      "total_on_page": 137,
+      "p5_price": 153990,
+      "p95_price": 239900,
+      "min_price": 80000,
+      "max_price": 269900
+    },
+    "2021": {
+      "median_price": 174900,
+      "count": 94,
+      "total_on_page": 94,
+      "p5_price": 139900,
+      "p95_price": 219000,
+      "min_price": 124000,
+      "max_price": 239900,
+      "median_mileage_mil": 2490
+    },
+    "2020": {
+      "median_price": 149900,
+      "count": 30,
+      "total_on_page": 30,
+      "p5_price": 129900,
+      "p95_price": 259900,
+      "min_price": 129000,
+      "max_price": 269000
+    },
+    "2019": {
+      "median_price": 144900,
+      "count": 24,
+      "total_on_page": 24,
+      "p5_price": 114900,
+      "p95_price": 189900,
+      "min_price": 109000,
+      "max_price": 190000
+    }
+  },
+  "validation": {
+    "is_monotonic": true,
+    "min_count_per_year": 2,
+    "confidence": "low"
+  }
+}

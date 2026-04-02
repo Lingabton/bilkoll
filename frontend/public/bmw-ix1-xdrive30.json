@@ -1,0 +1,61 @@
+{
+  "model_id": "bmw-ix1-xdrive30",
+  "calculated_at": "2026-04-02T06:33:30.344531+00:00",
+  "assumptions": {
+    "mileage_per_year": 1500,
+    "ownership_years": 4,
+    "fuel_price_kr_per_liter": 18.5,
+    "electricity_price_kr_per_kwh": 1.5
+  },
+  "result": {
+    "total_cost": 277678,
+    "monthly_cost": 5785,
+    "cost_per_mil": 46,
+    "breakdown": {
+      "depreciation": 214788,
+      "fuel": 18450,
+      "tax": 1440,
+      "insurance": {
+        "low": 15960,
+        "high": 29640,
+        "estimate": 22800
+      },
+      "service": 9000,
+      "tires": 11200
+    },
+    "depreciation_curve": [
+      {
+        "year": 0,
+        "value": 579900,
+        "confidence": "fixed",
+        "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 498700,
+        "confidence": "medium",
+        "data_points": 40
+      },
+      {
+        "year": 2,
+        "value": 549900,
+        "confidence": "medium",
+        "data_points": 17
+      },
+      {
+        "year": 3,
+        "value": 414900,
+        "confidence": "medium",
+        "data_points": 27
+      },
+      {
+        "year": 4,
+        "value": 365112,
+        "confidence": "estimated",
+        "data_points": 0
+      }
+    ]
+  },
+  "confidence": "medium",
+  "data_quality_notes": []
+}

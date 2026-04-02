@@ -36,6 +36,18 @@
     "newPrice": 269900
   },
   {
+    "id": "peugeot-e208",
+    "slug": "peugeot-e208",
+    "name": "Peugeot e-208 GT Business 50 kWh",
+    "monthly_cost": 5037,
+    "cost_per_mil": 40,
+    "total_4yr": 241790,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "sedan-kompakt",
+    "newPrice": 369900
+  },
+  {
     "id": "kia-niro-ev",
     "slug": "kia-niro-ev",
     "name": "Kia Niro EV Action",
@@ -46,6 +58,18 @@
     "fuel": "el",
     "segment": "suv-kompakt",
     "newPrice": 530500
+  },
+  {
+    "id": "bmw-ix1-xdrive30",
+    "slug": "bmw-ix1",
+    "name": "BMW iX1 xDrive30",
+    "monthly_cost": 5785,
+    "cost_per_mil": 46,
+    "total_4yr": 277678,
+    "confidence": "medium",
+    "fuel": "el",
+    "segment": "suv-kompakt",
+    "newPrice": 579900
   },
   {
     "id": "kia-ev6-lr",
@@ -72,6 +96,18 @@
     "newPrice": 449900
   },
   {
+    "id": "vw-golf-etsi",
+    "slug": "vw-golf",
+    "name": "Volkswagen Golf R-Line eTSI 150 DSG",
+    "monthly_cost": 6169,
+    "cost_per_mil": 49,
+    "total_4yr": 296119,
+    "confidence": "low",
+    "fuel": "bensin",
+    "segment": "sedan-kompakt",
+    "newPrice": 392900
+  },
+  {
     "id": "vw-id4-pro",
     "slug": "vw-id4",
     "name": "Volkswagen ID.4 Pro Life 77 kWh",
@@ -94,6 +130,18 @@
     "fuel": "hybrid",
     "segment": "suv-mellanklass",
     "newPrice": 555800
+  },
+  {
+    "id": "skoda-octavia-tdi",
+    "slug": "skoda-octavia",
+    "name": "Skoda Octavia Combi Selection TDI 150 DSG",
+    "monthly_cost": 6503,
+    "cost_per_mil": 52,
+    "total_4yr": 312126,
+    "confidence": "low",
+    "fuel": "diesel",
+    "segment": "sedan-mellanklass",
+    "newPrice": 430900
   },
   {
     "id": "vw-id3-pro",
@@ -166,6 +214,54 @@
     "fuel": "el",
     "segment": "suv-mellanklass",
     "newPrice": 649990
+  },
+  {
+    "id": "cupra-born-79",
+    "slug": "cupra-born",
+    "name": "Cupra Born e-Boost 79 kWh",
+    "monthly_cost": 7501,
+    "cost_per_mil": 60,
+    "total_4yr": 360040,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "sedan-kompakt",
+    "newPrice": 546900
+  },
+  {
+    "id": "nissan-leaf-52",
+    "slug": "nissan-leaf",
+    "name": "Nissan Leaf e+ 62 kWh Evolve",
+    "monthly_cost": 7713,
+    "cost_per_mil": 62,
+    "total_4yr": 370240,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "sedan-kompakt",
+    "newPrice": 502900
+  },
+  {
+    "id": "hyundai-ioniq5-lr",
+    "slug": "hyundai-ioniq5",
+    "name": "Hyundai Ioniq 5 84 kWh Long Range",
+    "monthly_cost": 8147,
+    "cost_per_mil": 65,
+    "total_4yr": 391045,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "suv-mellanklass",
+    "newPrice": 679900
+  },
+  {
+    "id": "polestar-2-lr",
+    "slug": "polestar-2",
+    "name": "Polestar 2 Long Range Single Motor",
+    "monthly_cost": 8230,
+    "cost_per_mil": 66,
+    "total_4yr": 395040,
+    "confidence": "medium",
+    "fuel": "el",
+    "segment": "sedan-mellanklass",
+    "newPrice": 641000
   },
   {
     "id": "volvo-xc60-b5-bensin",
