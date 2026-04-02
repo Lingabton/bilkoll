@@ -1,6 +1,6 @@
 {
   "model_id": "vw-id4-pro",
-  "calculated_at": "2026-04-02T06:33:30.339499+00:00",
+  "calculated_at": "2026-04-02T20:46:18.725814+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -53,6 +53,30 @@
         "value": 289900,
         "confidence": "medium",
         "data_points": 25
+      },
+      {
+        "year": 5,
+        "value": 259000,
+        "confidence": "medium",
+        "data_points": 25
+      },
+      {
+        "year": 6,
+        "value": 227920,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 7,
+        "value": 200569,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 8,
+        "value": 176501,
+        "confidence": "estimated",
+        "data_points": 0
       }
     ]
   },

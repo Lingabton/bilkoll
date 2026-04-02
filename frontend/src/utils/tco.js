@@ -52,20 +52,41 @@ export function recalcTCO(detail, model, {
     purchasePrice = Math.round(newPrice * Math.pow(0.85, buyAge))
   }
 
-  // End value
+  // End value after ownership period
   const endAge = buyAge + years
   let endValue
+
   if (curve.length > endAge) {
     endValue = curve[endAge].value
   } else if (curve.length > 0) {
-    const lastKnown = curve[curve.length - 1]
-    const extraYears = endAge - lastKnown.year
-    endValue = Math.round(lastKnown.value * Math.pow(0.88, extraYears))
+    // Extrapolate: calculate annual depreciation rate from known data
+    // Use last 2+ known points to estimate the rate, not a fixed 12%
+    const knownPoints = curve.filter(p => p.year >= Math.max(1, buyAge) && p.value > 0)
+    let annualRate = 0.85 // fallback: 15% per year
+
+    if (knownPoints.length >= 2) {
+      const first = knownPoints[0]
+      const last = knownPoints[knownPoints.length - 1]
+      const yearSpan = last.year - first.year
+      if (yearSpan > 0 && first.value > 0 && last.value > 0) {
+        annualRate = Math.pow(last.value / first.value, 1 / yearSpan)
+        // Clamp to reasonable range: 75-95% retention per year
+        annualRate = Math.max(0.75, Math.min(0.95, annualRate))
+      }
+    }
+
+    // Extrapolate from purchase price (not curve's last point)
+    // because the user may have found a deal below market value
+    const yearsToExtrapolate = years
+    endValue = Math.round(purchasePrice * Math.pow(annualRate, yearsToExtrapolate))
   } else {
     endValue = Math.round(purchasePrice * Math.pow(0.85, years))
   }
 
-  const depreciation = purchasePrice - endValue
+  // Ensure depreciation is never negative
+  if (endValue > purchasePrice) endValue = Math.round(purchasePrice * Math.pow(0.85, years))
+
+  const depreciation = Math.max(0, purchasePrice - endValue)
 
   // Financing cost (interest only — depreciation already covers principal)
   const loanAmount = purchasePrice * (loanPct / 100)

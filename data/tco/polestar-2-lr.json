@@ -1,6 +1,6 @@
 {
   "model_id": "polestar-2-lr",
-  "calculated_at": "2026-04-02T06:33:30.346335+00:00",
+  "calculated_at": "2026-04-02T20:46:18.733897+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -53,6 +53,30 @@
         "value": 309900,
         "confidence": "medium",
         "data_points": 156
+      },
+      {
+        "year": 5,
+        "value": 299900,
+        "confidence": "medium",
+        "data_points": 108
+      },
+      {
+        "year": 6,
+        "value": 327450,
+        "confidence": "medium",
+        "data_points": 76
+      },
+      {
+        "year": 7,
+        "value": 288156,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 8,
+        "value": 253577,
+        "confidence": "estimated",
+        "data_points": 0
       }
     ]
   },

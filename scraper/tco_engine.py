@@ -44,11 +44,13 @@ def calculate_tco(model, prices, years=4, mileage=1500,
     co2 = model["co2_gkm"]
 
     # ── Depreciation ──
-    # Build depreciation curve from actual market data
+    # Build depreciation curve from ALL available market data (not just ownership years)
     years_data = prices.get("years", {})
     curve = [{"year": 0, "value": new_price, "confidence": "fixed", "data_points": 0}]
 
-    for y in range(1, years + 1):
+    # Include all years we have data for (up to 10 years back)
+    max_curve_years = max(years + 4, len(years_data) + 1, 8)
+    for y in range(1, max_curve_years + 1):
         target_year = str(CURRENT_YEAR - y)
         if target_year in years_data:
             yd = years_data[target_year]

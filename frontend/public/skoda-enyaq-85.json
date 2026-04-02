@@ -1,6 +1,6 @@
 {
   "model_id": "skoda-enyaq-85",
-  "calculated_at": "2026-04-02T06:33:30.342753+00:00",
+  "calculated_at": "2026-04-02T20:46:18.729628+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -53,6 +53,30 @@
         "value": 339900,
         "confidence": "medium",
         "data_points": 79
+      },
+      {
+        "year": 5,
+        "value": 289750,
+        "confidence": "medium",
+        "data_points": 54
+      },
+      {
+        "year": 6,
+        "value": 254980,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 7,
+        "value": 224382,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 8,
+        "value": 197456,
+        "confidence": "estimated",
+        "data_points": 0
       }
     ]
   },

@@ -1,6 +1,6 @@
 {
   "model_id": "hyundai-ioniq5-lr",
-  "calculated_at": "2026-04-02T06:33:30.345725+00:00",
+  "calculated_at": "2026-04-02T20:46:18.733140+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -53,6 +53,30 @@
         "value": 365495,
         "confidence": "medium",
         "data_points": 28
+      },
+      {
+        "year": 5,
+        "value": 321635,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 6,
+        "value": 283039,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 7,
+        "value": 249074,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 8,
+        "value": 219185,
+        "confidence": "estimated",
+        "data_points": 0
       }
     ]
   },
