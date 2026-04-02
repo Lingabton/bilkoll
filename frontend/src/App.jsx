@@ -5,6 +5,7 @@ import CostBreakdown from './components/CostBreakdown'
 import DepreciationChart from './components/DepreciationChart'
 import CompareView from './components/CompareView'
 import SearchBar from './components/SearchBar'
+import CustomCarForm from './components/CustomCarForm'
 import { recalcTCO } from './utils/tco'
 
 function Slider({ label, value, min, max, step, format, onChange }) {
@@ -168,6 +169,13 @@ function App() {
             </div>
           )}
         </div>
+
+        {/* ═══ CUSTOM CAR ═══ */}
+        {recalculated.length > 0 && (
+          <div className="mb-8">
+            <CustomCarForm models={recalculated} details={details} params={params} />
+          </div>
+        )}
 
         {/* ═══ SEARCH ═══ */}
         {recalculated.length > 0 && (
