@@ -135,11 +135,26 @@ export function recalcTCO(detail, model, {
     estimate: insAnnual * years,
   }
 
-  // Service
-  const serviceInterval = model.serviceInterval_mil || 2500
-  const serviceCost = model.serviceEstimate_kr || 4000
-  const serviceCount = Math.ceil((mileage * years) / serviceInterval)
-  const service = serviceCount * serviceCost
+  // Service — use year-by-year schedule if available
+  let service = 0
+  let serviceDetail = ''
+  const schedule = model.service_schedule
+  if (schedule && schedule.length > 0) {
+    const yearCosts = []
+    for (let y = 0; y < years; y++) {
+      const carYear = buyAge + y
+      const cost = schedule[carYear % schedule.length] || 0
+      service += cost
+      yearCosts.push(cost)
+    }
+    serviceDetail = yearCosts.map((c, i) => `år ${buyAge + i + 1}: ${c.toLocaleString('sv-SE')} kr`).join(', ')
+  } else {
+    const serviceInterval = model.serviceInterval_mil || 2500
+    const serviceCost = model.serviceEstimate_kr || 4000
+    const serviceCount = Math.ceil((mileage * years) / serviceInterval)
+    service = serviceCount * serviceCost
+    serviceDetail = `${serviceCost.toLocaleString('sv-SE')} kr × ${serviceCount} tillfällen`
+  }
 
   // Tires
   const tires = (model.tireEstimate_kr_per_year || 1500) * years
@@ -163,9 +178,16 @@ export function recalcTCO(detail, model, {
 
   const explanations = {
     depreciation: {
-      formula: `Inköpspris ${fmt(purchasePrice)} kr − beräknat värde efter ${years} år (${fmt(endValue)} kr)`,
-      detail: `Värdeminskning baseras på medianen av ${fuel === 'el' ? 'elbils' : 'begagnat'}annonser per årsmodell. ${buyAge > 0 ? `Bilen köps som ${buyAge} år gammal.` : 'Bilen köps ny.'} Framtida värde extrapoleras från verkliga begagnatpriser.`,
-      source: 'AutoUncle — begagnatpriser från tusentals annonser',
+      formula: `Inköpspris ${fmt(purchasePrice)} kr − beräknat värde efter ${years} år (${fmt(endValue)} kr) = ${fmt(depreciation)} kr`,
+      detail: (() => {
+        const endPt = curve.length > endAge ? curve[endAge] : null
+        const dataInfo = endPt && endPt.data_points > 0
+          ? `Slutvärdet baseras på ${endPt.data_points} annonser (${endPt.confidence === 'high' ? 'hög' : endPt.confidence === 'medium' ? 'medel' : 'låg'} tillförlitlighet).`
+          : `Slutvärdet är extrapolerat — ingen direkt data för år ${endAge}.`
+        const curveInfo = curve.filter(p => p.data_points > 0).map(p => `${p.year}år: ${fmt(p.value)} kr (${p.data_points} annonser)`).join(' → ')
+        return `${buyAge > 0 ? `Bilen köps som ${buyAge} år gammal för ${fmt(purchasePrice)} kr.` : 'Bilen köps ny.'} ${dataInfo}\n\nPriskurva: ${curveInfo}`
+      })(),
+      source: 'AutoUncle — medianer från verkliga begagnatannonser',
       sourceUrl: 'https://www.autouncle.se/',
     },
     fuel: {
@@ -182,12 +204,12 @@ export function recalcTCO(detail, model, {
     },
     insurance: {
       formula: `${fmt(insAnnual)} kr/år × ${years} år = ${fmt(insurance.estimate)} kr (spann: ${fmt(insurance.low/years)}–${fmt(insurance.high/years)} kr/år)`,
-      detail: model.insurance_note || `Försäkringskostnad baserad på modellspecifika data. Verklig kostnad beror på din ålder, bostadsort, bonus och vald nivå (halv/hel).`,
-      source: model.insurance_source || 'Hedvig, Zmarta — genomsnittliga premier per bilmärke',
-      sourceUrl: 'https://www.hedvig.com/se/forsakringar/bilforsakring/vad-kostar-bilforsakring',
+      detail: `⚠️ Försäkring är den mest osäkra posten. Verklig kostnad beror på din ålder, bostadsort, bonus, körsträcka och val av halv-/helförsäkring. Vårt estimat (${fmt(insAnnual)} kr/år) baseras på genomsnittspriser för ${model.make}-modeller. ${model.insurance_note || ''} Jämför alltid hos minst 3 försäkringsbolag.`,
+      source: model.insurance_source || 'Hedvig, Zmarta — genomsnitt per bilmärke. Inte individuell offert!',
+      sourceUrl: 'https://www.zmarta.se/forsakring/bilforsakring',
     },
     service: {
-      formula: `${fmt(serviceCost)} kr/service × ${serviceCount} servicetillfällen (var ${fmt(serviceInterval)} mil) = ${fmt(service)} kr`,
+      formula: schedule ? `${serviceDetail} = ${fmt(service)} kr totalt` : serviceDetail + ` = ${fmt(service)} kr`,
       detail: model.service_note || `Servicekostnad baserad på auktoriserad verkstad.`,
       source: 'Tillverkarens serviceplan + Carla.se/Teknikens Värld jämförelser',
     },
