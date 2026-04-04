@@ -43,8 +43,8 @@ function App() {
 
   useEffect(() => {
     Promise.all([
-      fetch('/tco_summary.json').then(r => r.json()),
-      fetch('/models.json').then(r => r.json()),
+      fetch(`${import.meta.env.BASE_URL}tco_summary.json`).then(r => r.json()),
+      fetch(`${import.meta.env.BASE_URL}models.json`).then(r => r.json()),
     ]).then(([summary, mods]) => {
       setModels(summary.map(s => ({ ...s, ...(mods.find(m => m.id === s.id) || {}) })))
     })
@@ -53,7 +53,7 @@ function App() {
   useEffect(() => {
     models.forEach(m => {
       if (!details[m.id]) {
-        fetch(`/${m.id}.json`).then(r => r.json()).then(d => {
+        fetch(`${import.meta.env.BASE_URL}${m.id}.json`).then(r => r.json()).then(d => {
           setDetails(prev => ({ ...prev, [m.id]: d }))
         })
       }
