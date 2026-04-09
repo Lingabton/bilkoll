@@ -79,6 +79,15 @@ def calculate_tco(model, prices, years=4, mileage=1500,
                     "data_points": 0,
                 })
 
+    # Enforce monotonicity: each year must be <= previous year
+    # This fixes issues where AutoUncle mixes variants (Active vs Executive)
+    for i in range(1, len(curve)):
+        if curve[i]["value"] > curve[i - 1]["value"]:
+            # Use the lower of: previous value × 0.92, or current value
+            curve[i]["value"] = int(curve[i - 1]["value"] * 0.92)
+            if curve[i].get("confidence") != "estimated":
+                curve[i]["confidence"] = "adjusted"
+
     # Depreciation = purchase price - value after N years
     if len(curve) > years:
         end_value = curve[years]["value"]

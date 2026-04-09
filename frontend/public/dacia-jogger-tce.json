@@ -1,6 +1,6 @@
 {
   "model_id": "dacia-jogger-tce",
-  "calculated_at": "2026-04-04T22:13:56.444885+00:00",
+  "calculated_at": "2026-04-09T20:27:08.677806+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -32,14 +32,14 @@
       },
       {
         "year": 1,
-        "value": 276400,
-        "confidence": "medium",
+        "value": 248308,
+        "confidence": "adjusted",
         "data_points": 23
       },
       {
         "year": 2,
-        "value": 269900,
-        "confidence": "medium",
+        "value": 228443,
+        "confidence": "adjusted",
         "data_points": 7
       },
       {

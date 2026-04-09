@@ -1,6 +1,6 @@
 {
   "model_id": "vw-golf-etsi",
-  "calculated_at": "2026-04-04T22:13:56.449457+00:00",
+  "calculated_at": "2026-04-09T20:27:08.682290+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 296119,
-    "monthly_cost": 6169,
-    "cost_per_mil": 49,
+    "total_cost": 322411,
+    "monthly_cost": 6717,
+    "cost_per_mil": 54,
     "breakdown": {
-      "depreciation": 164530,
+      "depreciation": 190822,
       "fuel": 72150,
       "tax": 17839,
       "insurance": {
@@ -38,19 +38,19 @@
       },
       {
         "year": 2,
-        "value": 294900,
-        "confidence": "medium",
+        "value": 238751,
+        "confidence": "adjusted",
         "data_points": 1
       },
       {
         "year": 3,
-        "value": 259512,
+        "value": 219650,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 228370,
+        "value": 202078,
         "confidence": "estimated",
         "data_points": 0
       },

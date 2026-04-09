@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc40-recharge",
-  "calculated_at": "2026-04-04T22:13:56.442052+00:00",
+  "calculated_at": "2026-04-09T20:27:08.675282+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -56,25 +56,25 @@
       },
       {
         "year": 5,
-        "value": 322400,
-        "confidence": "medium",
+        "value": 275540,
+        "confidence": "adjusted",
         "data_points": 18
       },
       {
         "year": 6,
-        "value": 339000,
-        "confidence": "medium",
+        "value": 253496,
+        "confidence": "adjusted",
         "data_points": 5
       },
       {
         "year": 7,
-        "value": 298320,
+        "value": 233216,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 262521,
+        "value": 214558,
         "confidence": "estimated",
         "data_points": 0
       }

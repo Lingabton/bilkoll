@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-corolla-hybrid",
-  "calculated_at": "2026-04-04T22:13:56.443952+00:00",
+  "calculated_at": "2026-04-09T20:27:08.676902+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -62,19 +62,19 @@
       },
       {
         "year": 6,
-        "value": 224900,
-        "confidence": "medium",
+        "value": 201250,
+        "confidence": "adjusted",
         "data_points": 25
       },
       {
         "year": 7,
-        "value": 219900,
-        "confidence": "medium",
+        "value": 185150,
+        "confidence": "adjusted",
         "data_points": 25
       },
       {
         "year": 8,
-        "value": 193512,
+        "value": 170338,
         "confidence": "estimated",
         "data_points": 0
       }

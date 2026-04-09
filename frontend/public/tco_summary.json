@@ -36,30 +36,6 @@
     "newPrice": 269900
   },
   {
-    "id": "peugeot-e208",
-    "slug": "peugeot-e208",
-    "name": "Peugeot e-208 GT Business 50 kWh",
-    "monthly_cost": 5037,
-    "cost_per_mil": 40,
-    "total_4yr": 241790,
-    "confidence": "low",
-    "fuel": "el",
-    "segment": "sedan-kompakt",
-    "newPrice": 369900
-  },
-  {
-    "id": "kia-niro-ev",
-    "slug": "kia-niro-ev",
-    "name": "Kia Niro EV Action",
-    "monthly_cost": 5653,
-    "cost_per_mil": 45,
-    "total_4yr": 271340,
-    "confidence": "low",
-    "fuel": "el",
-    "segment": "suv-kompakt",
-    "newPrice": 530500
-  },
-  {
     "id": "bmw-ix1-xdrive30",
     "slug": "bmw-ix1",
     "name": "BMW iX1 xDrive30",
@@ -72,16 +48,16 @@
     "newPrice": 579900
   },
   {
-    "id": "kia-ev6-lr",
-    "slug": "kia-ev6",
-    "name": "Kia EV6 Long Range RWD",
-    "monthly_cost": 5868,
-    "cost_per_mil": 47,
-    "total_4yr": 281640,
-    "confidence": "medium",
+    "id": "peugeot-e208",
+    "slug": "peugeot-e208",
+    "name": "Peugeot e-208 GT Business 50 kWh",
+    "monthly_cost": 5944,
+    "cost_per_mil": 48,
+    "total_4yr": 285332,
+    "confidence": "low",
     "fuel": "el",
-    "segment": "suv-mellanklass",
-    "newPrice": 596400
+    "segment": "sedan-kompakt",
+    "newPrice": 369900
   },
   {
     "id": "hyundai-kona-ev",
@@ -94,18 +70,6 @@
     "fuel": "el",
     "segment": "suv-kompakt",
     "newPrice": 449900
-  },
-  {
-    "id": "vw-golf-etsi",
-    "slug": "vw-golf",
-    "name": "Volkswagen Golf R-Line eTSI 150 DSG",
-    "monthly_cost": 6169,
-    "cost_per_mil": 49,
-    "total_4yr": 296119,
-    "confidence": "low",
-    "fuel": "bensin",
-    "segment": "sedan-kompakt",
-    "newPrice": 392900
   },
   {
     "id": "vw-id4-pro",
@@ -168,6 +132,18 @@
     "newPrice": 547000
   },
   {
+    "id": "kia-ev6-lr",
+    "slug": "kia-ev6",
+    "name": "Kia EV6 Long Range RWD",
+    "monthly_cost": 6605,
+    "cost_per_mil": 53,
+    "total_4yr": 317060,
+    "confidence": "medium",
+    "fuel": "el",
+    "segment": "suv-mellanklass",
+    "newPrice": 596400
+  },
+  {
     "id": "skoda-enyaq-85",
     "slug": "skoda-enyaq",
     "name": "Skoda Enyaq 85 Solid Edition",
@@ -180,16 +156,16 @@
     "newPrice": 604900
   },
   {
-    "id": "tesla-model-3-lr",
-    "slug": "tesla-model-3",
-    "name": "Tesla Model 3 Long Range AWD",
-    "monthly_cost": 6813,
-    "cost_per_mil": 55,
-    "total_4yr": 327040,
+    "id": "vw-golf-etsi",
+    "slug": "vw-golf",
+    "name": "Volkswagen Golf R-Line eTSI 150 DSG",
+    "monthly_cost": 6717,
+    "cost_per_mil": 54,
+    "total_4yr": 322411,
     "confidence": "low",
-    "fuel": "el",
-    "segment": "sedan-mellanklass",
-    "newPrice": 584900
+    "fuel": "bensin",
+    "segment": "sedan-kompakt",
+    "newPrice": 392900
   },
   {
     "id": "volvo-xc40-recharge",
@@ -216,6 +192,18 @@
     "newPrice": 649990
   },
   {
+    "id": "tesla-model-3-lr",
+    "slug": "tesla-model-3",
+    "name": "Tesla Model 3 Long Range AWD",
+    "monthly_cost": 7485,
+    "cost_per_mil": 60,
+    "total_4yr": 359300,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "sedan-mellanklass",
+    "newPrice": 584900
+  },
+  {
     "id": "cupra-born-79",
     "slug": "cupra-born",
     "name": "Cupra Born e-Boost 79 kWh",
@@ -226,6 +214,18 @@
     "fuel": "el",
     "segment": "sedan-kompakt",
     "newPrice": 546900
+  },
+  {
+    "id": "kia-niro-ev",
+    "slug": "kia-niro-ev",
+    "name": "Kia Niro EV Action",
+    "monthly_cost": 7683,
+    "cost_per_mil": 61,
+    "total_4yr": 368779,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "suv-kompakt",
+    "newPrice": 530500
   },
   {
     "id": "nissan-leaf-52",

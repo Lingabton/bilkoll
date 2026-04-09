@@ -144,7 +144,7 @@ def model_page(car, cars):
 
     title = f"{name} ägandekostnad {CURRENT_YEAR} — {fmt(m)} kr/mån | Bilkoll"
     desc = f"Vad kostar en {name} egentligen? {fmt(m)} kr/mån i verklig totalkostnad. Värdeminskning, drivmedel, skatt, försäkring — baserat på {tco.get('result',{}).get('depreciation_curve',[{}])[-1:][0].get('data_points',0) if tco.get('result',{}).get('depreciation_curve') else 0}+ begagnade annonser."
-    canonical = f"https://bilkoll.se/bil/{slug}/"
+    canonical = f"https://lingabton.github.io/bilkoll/bil/{slug}/"
 
     faqs = [
         (f"Vad kostar en {name} i månaden?", f"En {name} kostar cirka {fmt(m)} kr/mån att äga, inklusive värdeminskning, drivmedel, skatt, försäkring, service och däck. Beräknat på 4 års ägande och 1 500 mil/år."),
@@ -163,7 +163,7 @@ def model_page(car, cars):
 
     schema = f'''<script type="application/ld+json">{json.dumps({"@context":"https://schema.org","@type":"Product","name":full_name,"category":"Vehicle","brand":{"@type":"Brand","name":car["make"]},"offers":{"@type":"Offer","price":str(car.get("newPrice",0)),"priceCurrency":"SEK"}})}</script>
 <script type="application/ld+json">{faq_schema(faqs)}</script>
-<script type="application/ld+json">{breadcrumbs_schema([("Bilkoll","https://bilkoll.se/"),("Alla bilar","https://bilkoll.se/"),(name,canonical)])}</script>'''
+<script type="application/ld+json">{breadcrumbs_schema([("Bilkoll","https://lingabton.github.io/bilkoll/"),("Alla bilar","https://lingabton.github.io/bilkoll/"),(name,canonical)])}</script>'''
 
     content = f'''{breadcrumbs_html([("Bilkoll","/"),("Alla bilar","/"),(name,None)])}
 <h1 style="font-size:32px;font-weight:800;margin:0 0 8px;line-height:1.15">{name}</h1>
@@ -211,7 +211,7 @@ def compare_page(a, b, cars):
     diff = abs(a.get('monthly_cost', 0) - b.get('monthly_cost', 0))
     cheaper = name_a if a.get('monthly_cost', 0) < b.get('monthly_cost', 0) else name_b
     slug = f"{a.get('slug','')}-vs-{b.get('slug','')}"
-    canonical = f"https://bilkoll.se/jamfor/{slug}/"
+    canonical = f"https://lingabton.github.io/bilkoll/jamfor/{slug}/"
 
     title = f"{name_a} vs {name_b} — ägandekostnad {CURRENT_YEAR} | Bilkoll"
     desc = f"{cheaper} är {fmt(diff)} kr/mån billigare att äga. Jämför verklig totalkostnad: värdeminskning, drivmedel, skatt, försäkring."
@@ -222,7 +222,7 @@ def compare_page(a, b, cars):
         (f"Hur mycket kostar en {name_b} i månaden?", f"{name_b} kostar {fmt(b.get('monthly_cost',0))} kr/mån att äga, inklusive alla kostnader."),
     ]
 
-    schema = f'<script type="application/ld+json">{faq_schema(faqs)}</script>\n<script type="application/ld+json">{breadcrumbs_schema([("Bilkoll","https://bilkoll.se/"),("Jämför","https://bilkoll.se/"),(f"{name_a} vs {name_b}",canonical)])}</script>'
+    schema = f'<script type="application/ld+json">{faq_schema(faqs)}</script>\n<script type="application/ld+json">{breadcrumbs_schema([("Bilkoll","https://lingabton.github.io/bilkoll/"),("Jämför","https://lingabton.github.io/bilkoll/"),(f"{name_a} vs {name_b}",canonical)])}</script>'
 
     content = f'''{breadcrumbs_html([("Bilkoll","/"),("Jämför","/"),(f"{name_a} vs {name_b}",None)])}
 <h1 style="font-size:28px;font-weight:800;margin:0 0 8px;line-height:1.2">{name_a} vs {name_b}</h1>
@@ -255,9 +255,9 @@ def compare_page(a, b, cars):
 
 
 def category_page(title_text, desc_text, slug, cars_filtered, cars_all, faqs):
-    canonical = f"https://bilkoll.se/{slug}/"
+    canonical = f"https://lingabton.github.io/bilkoll/{slug}/"
     title = f"{title_text} — {CURRENT_MONTH} {CURRENT_YEAR} | Bilkoll"
-    schema = f'<script type="application/ld+json">{faq_schema(faqs)}</script>\n<script type="application/ld+json">{breadcrumbs_schema([("Bilkoll","https://bilkoll.se/"),(title_text,canonical)])}</script>'
+    schema = f'<script type="application/ld+json">{faq_schema(faqs)}</script>\n<script type="application/ld+json">{breadcrumbs_schema([("Bilkoll","https://lingabton.github.io/bilkoll/"),(title_text,canonical)])}</script>'
 
     content = f'''{breadcrumbs_html([("Bilkoll","/"),(title_text,None)])}
 <h1 style="font-size:32px;font-weight:800;margin:0 0 8px;line-height:1.15">{title_text}</h1>
@@ -355,14 +355,14 @@ def main():
     print(f"  {sum(1 for c in categories if c)} category pages")
 
     # ── Sitemap ──
-    urls = [("https://bilkoll.se/", "1.0", "daily")]
+    urls = [("https://lingabton.github.io/bilkoll/", "1.0", "daily")]
     for car in cars:
-        urls.append((f"https://bilkoll.se/bil/{car.get('slug', car['id'])}/", "0.8", "weekly"))
+        urls.append((f"https://lingabton.github.io/bilkoll/bil/{car.get('slug', car['id'])}/", "0.8", "weekly"))
     for cat in categories:
-        if cat: urls.append((f"https://bilkoll.se/{cat[2]}/", "0.9", "weekly"))
+        if cat: urls.append((f"https://lingabton.github.io/bilkoll/{cat[2]}/", "0.9", "weekly"))
     for a, b in pairs:
         slug = f"{a.get('slug', a['id'])}-vs-{b.get('slug', b['id'])}"
-        urls.append((f"https://bilkoll.se/jamfor/{slug}/", "0.6", "weekly"))
+        urls.append((f"https://lingabton.github.io/bilkoll/jamfor/{slug}/", "0.6", "weekly"))
 
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     for url, priority, freq in urls:
@@ -371,7 +371,7 @@ def main():
     (DOCS_DIR / "sitemap.xml").write_text(sitemap, encoding='utf-8')
 
     # ── robots.txt ──
-    robots = f"User-agent: *\nAllow: /\nSitemap: https://bilkoll.se/sitemap.xml\n"
+    robots = f"User-agent: *\nAllow: /\nSitemap: https://lingabton.github.io/bilkoll/sitemap.xml\n"
     (DOCS_DIR / "robots.txt").write_text(robots, encoding='utf-8')
 
     print(f"\n  Total: {total_pages} pages + sitemap.xml ({len(urls)} URLs) + robots.txt")

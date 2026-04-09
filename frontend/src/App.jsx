@@ -170,13 +170,6 @@ function App() {
           )}
         </div>
 
-        {/* ═══ CUSTOM CAR ═══ */}
-        {recalculated.length > 0 && (
-          <div className="mb-8">
-            <CustomCarForm models={recalculated} details={details} params={params} />
-          </div>
-        )}
-
         {/* ═══ SEARCH ═══ */}
         {recalculated.length > 0 && (
           <div className="mb-6">
@@ -274,6 +267,13 @@ function App() {
             {selectedDetail.result.depreciation_curve?.length > 1 && (
               <DepreciationChart curve={selectedDetail.result.depreciation_curve} />
             )}
+          </div>
+        )}
+
+        {/* ═══ CUSTOM CAR (after ranking + detail) ═══ */}
+        {recalculated.length > 0 && (
+          <div className="mt-12">
+            <CustomCarForm models={recalculated} details={details} params={params} />
           </div>
         )}
 
