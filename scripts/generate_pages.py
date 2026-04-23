@@ -38,7 +38,8 @@ def load_data():
 # TEMPLATES
 # ═══════════════════════════════════════════════════════════════
 
-def head(title, desc, canonical, extra_schema=""):
+def head(title, desc, canonical, extra_schema="", og_slug="default"):
+    og_image = f"https://lingabton.github.io/bilkoll/og/{og_slug}.png"
     return f'''<!doctype html>
 <html lang="sv">
 <head>
@@ -49,14 +50,16 @@ def head(title, desc, canonical, extra_schema=""):
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{desc}">
 <meta property="og:url" content="{canonical}">
+<meta property="og:image" content="{og_image}">
 <meta property="og:type" content="article">
 <meta property="og:locale" content="sv_SE">
 <meta property="og:site_name" content="Bilkoll">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{title}">
 <meta name="twitter:description" content="{desc}">
+<meta name="twitter:image" content="{og_image}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
 {extra_schema}
 </head>'''
 
@@ -123,7 +126,7 @@ def footer(cars):
 </div>'''
 
 def body_wrap(content):
-    return f'''<body style="margin:0;background:#fafaf9;font-family:'Inter',sans-serif;color:#0f172a">
+    return f'''<body style="margin:0;background:#fafaf9;font-family:'DM Sans','Inter',sans-serif;color:#0f172a">
 <div style="max-width:640px;margin:0 auto;padding:32px 20px 60px">
 {nav()}
 {content}
@@ -203,7 +206,7 @@ def model_page(car, cars):
 
 {footer(cars)}'''
 
-    return head(title, desc, canonical, schema) + body_wrap(content)
+    return head(title, desc, canonical, schema, og_slug=slug) + body_wrap(content)
 
 
 def compare_page(a, b, cars):

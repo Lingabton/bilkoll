@@ -97,8 +97,8 @@ function App() {
             <span className="text-[10px] text-slate-400 bg-slate-100 px-2 py-0.5 rounded-full font-medium ml-1">Beta</span>
           </div>
 
-          <h1 className="text-[40px] sm:text-[52px] font-extrabold tracking-tight leading-[1.08] text-slate-900 mb-4">
-            Vad kostar bilen<br/><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">egentligen?</span>
+          <h1 className="font-display text-[40px] sm:text-[52px] font-bold tracking-tight leading-[1.08] text-slate-900 mb-4">
+            Vad kostar bilen<br/><span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-cyan-400">egentligen?</span>
           </h1>
           <p className="text-slate-500 text-[17px] leading-relaxed max-w-lg">
             Vi beräknar den verkliga månadskostnaden — värdeminskning, drivmedel, skatt, försäkring — baserat på tusentals begagnatpriser.
@@ -191,7 +191,8 @@ function App() {
           <div className="mt-6 space-y-4 animate-slide-up">
             {/* Big number */}
             <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-8 shadow-xl">
-              <div className="absolute top-0 right-0 w-48 h-48 bg-gradient-radial from-blue-400/10 to-transparent rounded-full blur-2xl" />
+              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-sky-500 via-cyan-400 to-sky-500" />
+              <div className="absolute top-0 right-0 w-48 h-48 bg-gradient-radial from-sky-400/10 to-transparent rounded-full blur-2xl" />
               <div className="relative">
                 <div className="text-sm text-slate-400 mb-2">{selectedModel.make} {selectedModel.model} {selectedModel.variant}</div>
                 <div className="flex items-baseline gap-2 mb-1">
@@ -280,14 +281,14 @@ function App() {
         {/* ═══ HOW IT WORKS ═══ */}
         <section className="mt-20">
           <div className="text-center mb-8">
-            <h2 className="text-xl font-bold text-slate-900 mb-2">Hur vi räknar</h2>
+            <h2 className="font-display text-xl font-bold text-slate-900 mb-2">Hur vi räknar</h2>
             <p className="text-sm text-slate-400">Ingen magi. Bara data.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              ["Värdeminskning", "Verkliga begagnatpriser från tusentals annonser — inte schabloner.", "from-rose-50 to-white", "text-rose-600", "border-rose-100"],
-              ["Drivmedel", "Aktuellt bensin- och elpris multiplicerat med bilens faktiska förbrukning.", "from-amber-50 to-white", "text-amber-600", "border-amber-100"],
-              ["Skatt + Försäkring + Service", "Fordonsskatt inkl. malus, modellspecifik försäkring, verkstadskostnader och däck.", "from-blue-50 to-white", "text-blue-600", "border-blue-100"],
+              ["Värdeminskning", "Verkliga begagnatpriser från tusentals annonser — inte schabloner.", "from-rose-50 to-white", "text-rose-500", "border-rose-100"],
+              ["Drivmedel", "Aktuellt bensin- och elpris multiplicerat med bilens faktiska förbrukning.", "from-amber-50 to-white", "text-amber-500", "border-amber-100"],
+              ["Skatt + Försäkring + Service", "Fordonsskatt inkl. malus, modellspecifik försäkring, verkstadskostnader och däck.", "from-sky-50 to-white", "text-sky-500", "border-sky-100"],
             ].map(([title, desc, gradient, textColor, border]) => (
               <div key={title} className={`rounded-2xl bg-gradient-to-b ${gradient} border ${border} p-5 shadow-sm`}>
                 <div className={`text-sm font-bold ${textColor} mb-2`}>{title}</div>

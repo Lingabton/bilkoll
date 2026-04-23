@@ -11,7 +11,7 @@ export default function RankingTable({ cars, selected, onSelect }) {
   return (
     <div>
       <div className="flex items-baseline justify-between mb-4">
-        <h2 className="text-sm font-bold text-slate-900">{cars.length} modeller</h2>
+        <h2 className="text-sm font-bold text-slate-900 font-display">{cars.length} modeller</h2>
         <span className="text-[11px] text-slate-400">Billigast per månad</span>
       </div>
 
@@ -25,11 +25,12 @@ export default function RankingTable({ cars, selected, onSelect }) {
             <button
               key={car.id}
               onClick={() => onSelect(car.id)}
-              className={`group w-full text-left rounded-xl border transition-all duration-200 cursor-pointer relative overflow-hidden ${
+              className={`ranking-item group w-full text-left rounded-xl border transition-all duration-200 cursor-pointer relative overflow-hidden ${
                 isSelected
-                  ? "bg-white border-slate-300 shadow-md ring-1 ring-slate-200"
+                  ? "bg-white border-sky-200 shadow-md ring-1 ring-sky-100"
                   : "bg-white border-slate-200 hover:border-slate-300 hover:shadow-sm"
               }`}
+              style={{ animationDelay: `${i * 30}ms` }}
             >
               {/* Cost bar */}
               <div

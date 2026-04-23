@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-display: 'Space Grotesk', 'DM Sans', sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, monospace;
 }
 
@@ -10,16 +11,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* ── Range slider ── */
 input[type="range"] {
   -webkit-appearance: none;
   appearance: none;
   height: 4px;
   border-radius: 2px;
   background: #e2e8f0;
-  background-image: linear-gradient(#1e293b, #1e293b);
+  background-image: linear-gradient(#0ea5e9, #0ea5e9);
   background-repeat: no-repeat;
   background-size: calc(var(--val, 0.5) * 100%) 100%;
   cursor: pointer;
+  transition: background-size 0.15s ease;
 }
 
 input[type="range"]::-webkit-slider-thumb {
@@ -27,11 +30,15 @@ input[type="range"]::-webkit-slider-thumb {
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background: #1e293b;
+  background: #0ea5e9;
   border: 3px solid white;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.15), 0 0 0 1px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15), 0 0 0 1px rgba(14,165,233,0.15);
   cursor: grab;
-  transition: transform 0.15s ease;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  box-shadow: 0 1px 6px rgba(14,165,233,0.3), 0 0 0 3px rgba(14,165,233,0.1);
 }
 
 input[type="range"]::-webkit-slider-thumb:active {
@@ -39,11 +46,40 @@ input[type="range"]::-webkit-slider-thumb:active {
   transform: scale(1.15);
 }
 
+/* ── Animations ── */
 @keyframes slideUp {
-  from { opacity: 0; transform: translateY(8px); }
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes countUp {
+  from { opacity: 0; transform: translateY(4px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
 .animate-slide-up {
-  animation: slideUp 0.35s ease both;
+  animation: slideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease both;
+}
+
+.animate-count-up {
+  animation: countUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Stagger animation for ranking items */
+.ranking-item {
+  animation: slideUp 0.35s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Number transitions */
+.mono-value {
+  transition: color 0.3s ease;
 }
