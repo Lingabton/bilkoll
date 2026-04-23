@@ -36,6 +36,9 @@ jobs:
       - name: Calculate TCO
         run: cd scraper && python tco_engine.py
 
+      - name: Update noscript fallback
+        run: python scripts/update_noscript.py
+
       - name: Build frontend
         run: cd frontend && npm run build
 

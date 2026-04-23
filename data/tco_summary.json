@@ -24,6 +24,18 @@
     "newPrice": 353600
   },
   {
+    "id": "toyota-yaris-hybrid",
+    "slug": "toyota-yaris",
+    "name": "Toyota Yaris 1.5 Hybrid Style",
+    "monthly_cost": 4278,
+    "cost_per_mil": 34,
+    "total_4yr": 205322,
+    "confidence": "low",
+    "fuel": "hybrid",
+    "segment": "sedan-kompakt",
+    "newPrice": 279900
+  },
+  {
     "id": "dacia-jogger-tce",
     "slug": "dacia-jogger",
     "name": "Dacia Jogger Extreme TCe 110",
@@ -34,6 +46,30 @@
     "fuel": "bensin",
     "segment": "mpv-budget",
     "newPrice": 269900
+  },
+  {
+    "id": "byd-atto3-comfort",
+    "slug": "byd-atto3",
+    "name": "BYD Atto 3 Comfort 60.5 kWh",
+    "monthly_cost": 5268,
+    "cost_per_mil": 42,
+    "total_4yr": 252875,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "suv-kompakt",
+    "newPrice": 474900
+  },
+  {
+    "id": "kia-ev3-lr",
+    "slug": "kia-ev3",
+    "name": "Kia EV3 Long Range 81.4 kWh",
+    "monthly_cost": 5335,
+    "cost_per_mil": 43,
+    "total_4yr": 256057,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "suv-kompakt",
+    "newPrice": 508300
   },
   {
     "id": "bmw-ix1-xdrive30",
@@ -70,6 +106,18 @@
     "fuel": "el",
     "segment": "suv-kompakt",
     "newPrice": 449900
+  },
+  {
+    "id": "vw-id7-pro",
+    "slug": "vw-id7",
+    "name": "Volkswagen ID.7 Pro SWE Edition 77 kWh",
+    "monthly_cost": 6323,
+    "cost_per_mil": 51,
+    "total_4yr": 303495,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "sedan-mellanklass",
+    "newPrice": 589900
   },
   {
     "id": "vw-id4-pro",
@@ -156,6 +204,18 @@
     "newPrice": 430900
   },
   {
+    "id": "skoda-kodiaq-tsi",
+    "slug": "skoda-kodiaq",
+    "name": "Skoda Kodiaq Selection 1.5 TSI 150 DSG",
+    "monthly_cost": 6876,
+    "cost_per_mil": 55,
+    "total_4yr": 330045,
+    "confidence": "low",
+    "fuel": "bensin",
+    "segment": "suv-mellanklass",
+    "newPrice": 408500
+  },
+  {
     "id": "vw-golf-etsi",
     "slug": "vw-golf",
     "name": "Volkswagen Golf R-Line eTSI 150 DSG",
@@ -202,6 +262,18 @@
     "fuel": "el",
     "segment": "sedan-kompakt",
     "newPrice": 546900
+  },
+  {
+    "id": "vw-tiguan-etsi",
+    "slug": "vw-tiguan",
+    "name": "Volkswagen Tiguan 1.5 eTSI 150 DSG Life",
+    "monthly_cost": 7841,
+    "cost_per_mil": 63,
+    "total_4yr": 376350,
+    "confidence": "low",
+    "fuel": "bensin",
+    "segment": "suv-kompakt",
+    "newPrice": 529900
   },
   {
     "id": "tesla-model-3-lr",
