@@ -1,6 +1,6 @@
 {
   "model_id": "nissan-leaf-52",
-  "calculated_at": "2026-04-09T20:27:08.683029+00:00",
+  "calculated_at": "2026-04-23T21:53:18.509103+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,20 +8,21 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 370240,
-    "monthly_cost": 7713,
-    "cost_per_mil": 62,
+    "total_cost": 386126,
+    "monthly_cost": 8044,
+    "cost_per_mil": 64,
     "breakdown": {
       "depreciation": 323400,
-      "fuel": 16200,
+      "fuel": 17496,
       "tax": 1440,
       "insurance": {
-        "low": 13160,
-        "high": 24440,
-        "estimate": 18800
+        "low": 21600,
+        "high": 33600,
+        "estimate": 28800
       },
-      "service": 4400,
-      "tires": 6000
+      "service": 8500,
+      "tires": 6000,
+      "besiktning": 490
     },
     "depreciation_curve": [
       {

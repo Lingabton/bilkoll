@@ -1,6 +1,6 @@
 {
   "model_id": "polestar-2-lr",
-  "calculated_at": "2026-04-09T20:27:08.682613+00:00",
+  "calculated_at": "2026-04-23T21:53:18.508438+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,20 +8,21 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 395040,
-    "monthly_cost": 8230,
-    "cost_per_mil": 66,
+    "total_cost": 420242,
+    "monthly_cost": 8755,
+    "cost_per_mil": 70,
     "breakdown": {
       "depreciation": 331100,
-      "fuel": 18900,
+      "fuel": 20412,
       "tax": 1440,
       "insurance": {
-        "low": 15400,
-        "high": 28600,
-        "estimate": 22000
+        "low": 36000,
+        "high": 60000,
+        "estimate": 48000
       },
-      "service": 5600,
-      "tires": 16000
+      "service": 2800,
+      "tires": 16000,
+      "besiktning": 490
     },
     "depreciation_curve": [
       {

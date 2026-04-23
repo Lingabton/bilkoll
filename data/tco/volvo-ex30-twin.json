@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-ex30-twin",
-  "calculated_at": "2026-04-09T20:27:08.678202+00:00",
+  "calculated_at": "2026-04-23T21:53:18.503888+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,20 +8,21 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 316174,
-    "monthly_cost": 6587,
-    "cost_per_mil": 53,
+    "total_cost": 323592,
+    "monthly_cost": 6742,
+    "cost_per_mil": 54,
     "breakdown": {
       "depreciation": 262834,
-      "fuel": 18900,
+      "fuel": 23328,
       "tax": 1440,
       "insurance": {
-        "low": 15960,
-        "high": 29640,
-        "estimate": 22800
+        "low": 19200,
+        "high": 35200,
+        "estimate": 26000
       },
-      "service": 3000,
-      "tires": 7200
+      "service": 2300,
+      "tires": 7200,
+      "besiktning": 490
     },
     "depreciation_curve": [
       {

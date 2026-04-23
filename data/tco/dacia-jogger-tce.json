@@ -1,6 +1,6 @@
 {
   "model_id": "dacia-jogger-tce",
-  "calculated_at": "2026-04-09T20:27:08.677806+00:00",
+  "calculated_at": "2026-04-23T21:53:18.503249+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,20 +8,21 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 230250,
-    "monthly_cost": 4797,
-    "cost_per_mil": 38,
+    "total_cost": 234740,
+    "monthly_cost": 4890,
+    "cost_per_mil": 39,
     "breakdown": {
       "depreciation": 110100,
       "fuel": 68820,
       "tax": 22330,
       "insurance": {
-        "low": 10640,
-        "high": 19760,
+        "low": 11200,
+        "high": 20000,
         "estimate": 15200
       },
-      "service": 9000,
-      "tires": 4800
+      "service": 13000,
+      "tires": 4800,
+      "besiktning": 490
     },
     "depreciation_curve": [
       {

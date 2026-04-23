@@ -1,6 +1,6 @@
 {
   "model_id": "vw-id3-pro",
-  "calculated_at": "2026-04-09T20:27:08.679623+00:00",
+  "calculated_at": "2026-04-23T21:53:18.505218+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,20 +8,21 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 312790,
-    "monthly_cost": 6516,
-    "cost_per_mil": 52,
+    "total_cost": 327270,
+    "monthly_cost": 6818,
+    "cost_per_mil": 55,
     "breakdown": {
       "depreciation": 264600,
-      "fuel": 15750,
+      "fuel": 19440,
       "tax": 1440,
       "insurance": {
-        "low": 13160,
-        "high": 24440,
-        "estimate": 18800
+        "low": 16000,
+        "high": 28000,
+        "estimate": 20800
       },
-      "service": 5000,
-      "tires": 7200
+      "service": 13300,
+      "tires": 7200,
+      "besiktning": 490
     },
     "depreciation_curve": [
       {

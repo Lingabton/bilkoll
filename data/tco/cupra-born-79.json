@@ -1,6 +1,6 @@
 {
   "model_id": "cupra-born-79",
-  "calculated_at": "2026-04-09T20:27:08.681422+00:00",
+  "calculated_at": "2026-04-23T21:53:18.506931+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,20 +8,21 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 360040,
-    "monthly_cost": 7501,
-    "cost_per_mil": 60,
+    "total_cost": 374826,
+    "monthly_cost": 7809,
+    "cost_per_mil": 62,
     "breakdown": {
       "depreciation": 308600,
-      "fuel": 16200,
+      "fuel": 17496,
       "tax": 1440,
       "insurance": {
-        "low": 13160,
-        "high": 24440,
-        "estimate": 18800
+        "low": 21600,
+        "high": 33600,
+        "estimate": 28000
       },
-      "service": 5000,
-      "tires": 10000
+      "service": 8800,
+      "tires": 10000,
+      "besiktning": 490
     },
     "depreciation_curve": [
       {

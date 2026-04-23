@@ -1,6 +1,6 @@
 {
   "model_id": "kia-ev6-lr",
-  "calculated_at": "2026-04-09T20:27:08.676165+00:00",
+  "calculated_at": "2026-04-23T21:53:18.501820+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,20 +8,21 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 317060,
-    "monthly_cost": 6605,
+    "total_cost": 317618,
+    "monthly_cost": 6617,
     "cost_per_mil": 53,
     "breakdown": {
       "depreciation": 256920,
-      "fuel": 17100,
+      "fuel": 18468,
       "tax": 1440,
       "insurance": {
-        "low": 17640,
-        "high": 32760,
-        "estimate": 25200
+        "low": 19200,
+        "high": 34000,
+        "estimate": 25600
       },
-      "service": 8800,
-      "tires": 7600
+      "service": 7100,
+      "tires": 7600,
+      "besiktning": 490
     },
     "depreciation_curve": [
       {

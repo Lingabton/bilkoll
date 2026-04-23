@@ -8,6 +8,7 @@ const CATEGORIES = [
   { key: "insurance", label: "Försäkring", color: "#9333ea", isRange: true },
   { key: "service", label: "Service", color: "#0d9488" },
   { key: "tires", label: "Däck", color: "#64748b" },
+  { key: "besiktning", label: "Besiktning", color: "#a1a1aa" },
 ]
 
 export default function CostBreakdown({ breakdown, total, emissions, purchasePrice, years = 4, explanations = {} }) {
@@ -143,6 +144,7 @@ export default function CostBreakdown({ breakdown, total, emissions, purchasePri
           <div className="ml-[18px] mt-1.5 text-[11px] text-slate-400 leading-relaxed">
             Samhällskostnad: {emissions.social_cost.toLocaleString('sv-SE')} kr (Transportstyrelsen, ~1,19 kr/kg).
             {emissions.total_ton >= 1 && ` Motsvarar ~${Math.round(emissions.total_ton / 0.9)} flygresor Stockholm–London.`}
+            {emissions.note && <><br/>{emissions.note}</>}
           </div>
         </div>
       )}

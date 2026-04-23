@@ -1,6 +1,6 @@
 {
   "model_id": "vw-golf-etsi",
-  "calculated_at": "2026-04-09T20:27:08.682290+00:00",
+  "calculated_at": "2026-04-23T21:53:18.508098+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,20 +8,21 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 322411,
-    "monthly_cost": 6717,
-    "cost_per_mil": 54,
+    "total_cost": 333001,
+    "monthly_cost": 6938,
+    "cost_per_mil": 56,
     "breakdown": {
       "depreciation": 190822,
       "fuel": 72150,
       "tax": 17839,
       "insurance": {
-        "low": 11760,
-        "high": 21840,
-        "estimate": 16800
+        "low": 19200,
+        "high": 32000,
+        "estimate": 25600
       },
-      "service": 16000,
-      "tires": 8800
+      "service": 17300,
+      "tires": 8800,
+      "besiktning": 490
     },
     "depreciation_curve": [
       {

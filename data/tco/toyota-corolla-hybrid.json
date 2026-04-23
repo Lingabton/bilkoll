@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-corolla-hybrid",
-  "calculated_at": "2026-04-09T20:27:08.676902+00:00",
+  "calculated_at": "2026-04-23T21:53:18.502514+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,20 +8,21 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 193358,
-    "monthly_cost": 4028,
-    "cost_per_mil": 32,
+    "total_cost": 200398,
+    "monthly_cost": 4175,
+    "cost_per_mil": 33,
     "breakdown": {
       "depreciation": 95000,
-      "fuel": 49950,
+      "fuel": 55500,
       "tax": 12008,
       "insurance": {
-        "low": 11760,
-        "high": 21840,
+        "low": 12800,
+        "high": 22400,
         "estimate": 16800
       },
-      "service": 14000,
-      "tires": 5600
+      "service": 15000,
+      "tires": 5600,
+      "besiktning": 490
     },
     "depreciation_curve": [
       {

@@ -1,6 +1,6 @@
 {
   "model_id": "skoda-octavia-tdi",
-  "calculated_at": "2026-04-09T20:27:08.683517+00:00",
+  "calculated_at": "2026-04-23T21:53:18.509498+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,20 +8,21 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 312126,
-    "monthly_cost": 6503,
-    "cost_per_mil": 52,
+    "total_cost": 327716,
+    "monthly_cost": 6827,
+    "cost_per_mil": 55,
     "breakdown": {
       "depreciation": 191000,
       "fuel": 61050,
       "tax": 22076,
       "insurance": {
-        "low": 14000,
-        "high": 26000,
-        "estimate": 20000
+        "low": 16800,
+        "high": 26400,
+        "estimate": 23200
       },
-      "service": 10000,
-      "tires": 8000
+      "service": 21900,
+      "tires": 8000,
+      "besiktning": 490
     },
     "depreciation_curve": [
       {

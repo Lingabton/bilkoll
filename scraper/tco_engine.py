@@ -11,44 +11,36 @@ PRICES_DIR = DATA_DIR / "prices"
 TCO_DIR = DATA_DIR / "tco"
 TCO_DIR.mkdir(parents=True, exist_ok=True)
 
-# Insurance base by segment (annual, approximate)
-INSURANCE_BASE = {
-    "suv-mellanklass": 5800,
-    "sedan-mellanklass": 5000,
-    "suv-kompakt": 5200,
-    "sedan-kompakt": 4200,
-    "mpv-budget": 3800,
-}
-# EV surcharge for insurance (theft risk)
-EV_INSURANCE_SURCHARGE = 500
-
 CURRENT_YEAR = datetime.now().year
+
+# Besiktning (vehicle inspection)
+# First inspection at year 4 (3 years after registration), then every 2 years
+# From 2024: 490 kr for a standard inspection
+BESIKTNING_KR = 490
+
+
+def calculate_besiktning(years, start_age=0):
+    """Calculate total besiktning cost over ownership period."""
+    total = 0
+    for y in range(years):
+        age = start_age + y
+        # First besiktning at age 3, then every 2 years (age 3, 5, 7, 9...)
+        if age >= 3 and (age - 3) % 2 == 0:
+            total += BESIKTNING_KR
+    return total
 
 
 def calculate_tco(model, prices, years=4, mileage=1500,
                   fuel_price=18.50, el_price=1.50):
-    """Calculate Total Cost of Ownership.
-
-    Args:
-        model: dict from models.json
-        prices: dict from prices/{id}.json
-        years: ownership period in years
-        mileage: annual mileage in Swedish mil (1 mil = 10 km)
-        fuel_price: SEK per liter
-        el_price: SEK per kWh
-
-    Returns: TCO result dict
-    """
+    """Calculate Total Cost of Ownership."""
     new_price = model["newPrice"]
     fuel_type = model["fuel"]
     co2 = model["co2_gkm"]
 
     # ── Depreciation ──
-    # Build depreciation curve from ALL available market data (not just ownership years)
     years_data = prices.get("years", {})
     curve = [{"year": 0, "value": new_price, "confidence": "fixed", "data_points": 0}]
 
-    # Include all years we have data for (up to 10 years back)
     max_curve_years = max(years + 4, len(years_data) + 1, 8)
     for y in range(1, max_curve_years + 1):
         target_year = str(CURRENT_YEAR - y)
@@ -61,15 +53,12 @@ def calculate_tco(model, prices, years=4, mileage=1500,
                 "data_points": yd.get("count", 0),
             })
         else:
-            # Interpolate or extrapolate
             known = [(int(k), v["median_price"]) for k, v in years_data.items()
                      if v.get("median_price")]
             if known:
                 known.sort(key=lambda x: x[0], reverse=True)
-                # Simple linear extrapolation from known data
                 target = CURRENT_YEAR - y
                 closest = min(known, key=lambda x: abs(x[0] - target))
-                # Assume ~12% depreciation per year as fallback
                 years_diff = abs(closest[0] - target)
                 estimated = int(closest[1] * (0.88 ** years_diff))
                 curve.append({
@@ -79,66 +68,75 @@ def calculate_tco(model, prices, years=4, mileage=1500,
                     "data_points": 0,
                 })
 
-    # Enforce monotonicity: each year must be <= previous year
-    # This fixes issues where AutoUncle mixes variants (Active vs Executive)
+    # Enforce monotonicity
     for i in range(1, len(curve)):
         if curve[i]["value"] > curve[i - 1]["value"]:
-            # Use the lower of: previous value × 0.92, or current value
             curve[i]["value"] = int(curve[i - 1]["value"] * 0.92)
             if curve[i].get("confidence") != "estimated":
                 curve[i]["confidence"] = "adjusted"
 
-    # Depreciation = purchase price - value after N years
     if len(curve) > years:
         end_value = curve[years]["value"]
     elif curve:
         end_value = curve[-1]["value"]
     else:
-        # Fallback: 15% per year
         end_value = int(new_price * (0.85 ** years))
 
     depreciation = new_price - end_value
 
     # ── Fuel/electricity ──
-    # consumption is per mil (10km), mileage is mil/year
     if fuel_type == "el":
         kwh_per_mil = model.get("consumption_kwh_per_mil", 1.5)
-        fuel_cost = kwh_per_mil * mileage * el_price * years
+        # Apply 15% winter penalty (averaged over year: ~5 months winter)
+        winter_factor = 1.08  # ~8% annual average increase
+        fuel_cost = kwh_per_mil * winter_factor * mileage * el_price * years
+    elif fuel_type == "laddhybrid":
+        # PHEV: assume no regular charging (conservative)
+        l_per_mil = model.get("consumption_l_per_mil", 0.7)
+        fuel_cost = l_per_mil * mileage * fuel_price * years
     else:
+        # bensin, diesel, hybrid (self-charging)
         l_per_mil = model.get("consumption_l_per_mil", 0.7)
         fuel_cost = l_per_mil * mileage * fuel_price * years
 
     fuel_cost = round(fuel_cost)
 
     # ── Tax ──
-    # Assume buying new: start at age 0
     tax = calculate_tax_over_years(co2, fuel_type, years, start_age=0)
 
     # ── Insurance ──
-    segment = model.get("segment", "sedan-mellanklass")
-    ins_base = INSURANCE_BASE.get(segment, 5000)
-    if fuel_type == "el":
-        ins_base += EV_INSURANCE_SURCHARGE
-    ins_low = round(ins_base * 0.7 * years)
-    ins_high = round(ins_base * 1.3 * years)
-    ins_estimate = round(ins_base * years)
+    ins = model.get("insurance_kr_per_year")
+    if ins:
+        ins_low = ins["low"] * years
+        ins_high = ins["high"] * years
+        ins_estimate = ins["mid"] * years
+    else:
+        ins_estimate = 5000 * years
+        ins_low = round(ins_estimate * 0.7)
+        ins_high = round(ins_estimate * 1.3)
 
     # ── Service ──
-    service_interval = model.get("serviceInterval_mil", 2500)
-    service_cost = model.get("serviceEstimate_kr", 4000)
-    total_mil = mileage * years
-    service_count = math.ceil(total_mil / service_interval)
-    service_total = service_count * service_cost
+    schedule = model.get("service_schedule")
+    if schedule:
+        service_total = sum(schedule[y % len(schedule)] for y in range(years))
+    else:
+        service_interval = model.get("serviceInterval_mil", 2500)
+        service_cost = model.get("serviceEstimate_kr", 4000)
+        total_mil = mileage * years
+        service_count = math.ceil(total_mil / service_interval)
+        service_total = service_count * service_cost
 
     # ── Tires ──
     tire_total = model.get("tireEstimate_kr_per_year", 1500) * years
 
+    # ── Besiktning ──
+    besiktning = calculate_besiktning(years, start_age=0)
+
     # ── Total ──
-    total = depreciation + fuel_cost + tax + ins_estimate + service_total + tire_total
+    total = depreciation + fuel_cost + tax + ins_estimate + service_total + tire_total + besiktning
     monthly = round(total / (years * 12))
     cost_per_mil = round(total / (mileage * years)) if mileage > 0 else 0
 
-    # Confidence based on price data
     confidence = prices.get("validation", {}).get("confidence", "low")
 
     return {
@@ -161,6 +159,7 @@ def calculate_tco(model, prices, years=4, mileage=1500,
                 "insurance": {"low": ins_low, "high": ins_high, "estimate": ins_estimate},
                 "service": service_total,
                 "tires": tire_total,
+                "besiktning": besiktning,
             },
             "depreciation_curve": curve,
         },
@@ -197,7 +196,6 @@ def main():
         tco = calculate_tco(model, prices, fuel_price=fp, el_price=ep)
         r = tco["result"]
 
-        # Save
         out = TCO_DIR / f"{model_id}.json"
         json.dump(tco, open(out, "w"), ensure_ascii=False, indent=2)
 
@@ -212,6 +210,7 @@ def main():
         print(f"    Försäkring:     {b['insurance']['low']:>6}–{b['insurance']['high']} kr")
         print(f"    Service:        {b['service']:>6} kr")
         print(f"    Däck:           {b['tires']:>6} kr")
+        print(f"    Besiktning:     {b['besiktning']:>6} kr")
         print(f"    Confidence:     {tco['confidence']}")
 
         summary.append({
@@ -227,13 +226,11 @@ def main():
             "newPrice": model["newPrice"],
         })
 
-    # Save summary
     summary.sort(key=lambda x: x["monthly_cost"])
     summary_path = DATA_DIR / "tco_summary.json"
     json.dump(summary, open(summary_path, "w"), ensure_ascii=False, indent=2)
     print(f"\n  Summary: {summary_path} ({len(summary)} models)")
 
-    # Print ranking
     print(f"\n  RANKING (billigast per månad):")
     for i, s in enumerate(summary):
         print(f"    {i+1}. {s['name']:35} {s['monthly_cost']:>6} kr/mån  ({s['fuel']})")

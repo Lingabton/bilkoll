@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-yaris-cross-hybrid",
-  "calculated_at": "2026-04-09T20:27:08.679973+00:00",
+  "calculated_at": "2026-04-23T21:53:18.505492+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,20 +8,21 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 204000,
-    "monthly_cost": 4250,
+    "total_cost": 201290,
+    "monthly_cost": 4194,
     "cost_per_mil": 34,
     "breakdown": {
       "depreciation": 93700,
       "fuel": 57720,
       "tax": 13380,
       "insurance": {
-        "low": 14560,
-        "high": 27040,
-        "estimate": 20800
+        "low": 12800,
+        "high": 22400,
+        "estimate": 16800
       },
-      "service": 12800,
-      "tires": 5600
+      "service": 13600,
+      "tires": 5600,
+      "besiktning": 490
     },
     "depreciation_curve": [
       {

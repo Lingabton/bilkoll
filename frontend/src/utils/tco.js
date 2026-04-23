@@ -5,9 +5,14 @@
 // CO2 social cost (Swedish Transport Agency estimate, ~1.19 kr/kg CO2)
 const CO2_COST_PER_KG = 1.19
 
+// Besiktning (vehicle inspection): 490 kr, first at age 3, then every 2 years
+const BESIKTNING_KR = 490
+
 function calculateTax(co2, fuel, age) {
   const base = 360
   if (fuel === "el") return base
+  // Laddhybrid uses same tax rules as bensin (based on WLTP CO2)
+  const effectiveFuel = fuel === "laddhybrid" ? "bensin" : fuel
   if (age < 3 && co2 > 75) {
     let malus = 0
     if (co2 > 125) malus = 107 * 50 + 132 * (co2 - 125)
@@ -15,15 +20,23 @@ function calculateTax(co2, fuel, age) {
     return Math.ceil(base + malus)
   }
   let tax = base + 22 * co2
-  if (fuel === "diesel") tax += 250
+  if (effectiveFuel === "diesel") tax += 250
   return Math.ceil(tax)
+}
+
+function calculateBesiktning(years, startAge) {
+  let total = 0
+  for (let y = 0; y < years; y++) {
+    const age = startAge + y
+    if (age >= 3 && (age - 3) % 2 === 0) {
+      total += BESIKTNING_KR
+    }
+  }
+  return total
 }
 
 /**
  * Calculate monthly loan payment (annuity).
- * @param {number} principal - loan amount
- * @param {number} annualRate - annual interest rate (e.g. 0.059 for 5.9%)
- * @param {number} months - loan duration in months
  */
 function monthlyPayment(principal, annualRate, months) {
   if (annualRate === 0) return principal / months
@@ -43,6 +56,8 @@ export function recalcTCO(detail, model, {
   const newPrice = model.newPrice
   const fuel = model.fuel
   const co2 = model.co2_gkm
+  // Use real CO2 for social cost if available (PHEV WLTP CO2 is fantasy)
+  const realCo2 = model.real_co2_gkm || co2
 
   // Purchase price
   let purchasePrice = purchasePriceOverride || newPrice
@@ -59,10 +74,8 @@ export function recalcTCO(detail, model, {
   if (curve.length > endAge) {
     endValue = curve[endAge].value
   } else if (curve.length > 0) {
-    // Extrapolate: calculate annual depreciation rate from known data
-    // Use last 2+ known points to estimate the rate, not a fixed 12%
     const knownPoints = curve.filter(p => p.year >= Math.max(1, buyAge) && p.value > 0)
-    let annualRate = 0.85 // fallback: 15% per year
+    let annualRate = 0.85
 
     if (knownPoints.length >= 2) {
       const first = knownPoints[0]
@@ -70,25 +83,21 @@ export function recalcTCO(detail, model, {
       const yearSpan = last.year - first.year
       if (yearSpan > 0 && first.value > 0 && last.value > 0) {
         annualRate = Math.pow(last.value / first.value, 1 / yearSpan)
-        // Clamp to reasonable range: 75-95% retention per year
         annualRate = Math.max(0.75, Math.min(0.95, annualRate))
       }
     }
 
-    // Extrapolate from purchase price (not curve's last point)
-    // because the user may have found a deal below market value
     const yearsToExtrapolate = years
     endValue = Math.round(purchasePrice * Math.pow(annualRate, yearsToExtrapolate))
   } else {
     endValue = Math.round(purchasePrice * Math.pow(0.85, years))
   }
 
-  // Ensure depreciation is never negative
   if (endValue > purchasePrice) endValue = Math.round(purchasePrice * Math.pow(0.85, years))
 
   const depreciation = Math.max(0, purchasePrice - endValue)
 
-  // Financing cost (interest only — depreciation already covers principal)
+  // Financing cost
   const loanAmount = purchasePrice * (loanPct / 100)
   let interestCost = 0
   if (loanAmount > 0 && interestRate > 0) {
@@ -100,8 +109,15 @@ export function recalcTCO(detail, model, {
   // Fuel
   let fuelCost
   if (fuel === "el") {
-    fuelCost = (model.consumption_kwh_per_mil || 1.5) * mileage * elPrice * years
+    const baseConsumption = model.consumption_kwh_per_mil || 1.5
+    // 8% annual average winter increase (5 months winter in Sweden)
+    const winterFactor = 1.08
+    fuelCost = baseConsumption * winterFactor * mileage * elPrice * years
+  } else if (fuel === "laddhybrid") {
+    // PHEV: conservative = no regular charging, pure bensin cost
+    fuelCost = (model.consumption_l_per_mil || 0.7) * mileage * fuelPrice * years
   } else {
+    // bensin, diesel, hybrid (self-charging)
     fuelCost = (model.consumption_l_per_mil || 0.7) * mileage * fuelPrice * years
   }
   fuelCost = Math.round(fuelCost)
@@ -117,7 +133,6 @@ export function recalcTCO(detail, model, {
     if (insuranceLevel <= 0.7) insAnnual = ins.low
     else if (insuranceLevel >= 1.3) insAnnual = ins.high
     else {
-      // Interpolate between low-mid-high
       if (insuranceLevel <= 1.0) {
         const t = (insuranceLevel - 0.5) / 0.5
         insAnnual = Math.round(ins.low + (ins.mid - ins.low) * t)
@@ -135,7 +150,7 @@ export function recalcTCO(detail, model, {
     estimate: insAnnual * years,
   }
 
-  // Service — use year-by-year schedule if available
+  // Service
   let service = 0
   let serviceDetail = ''
   const schedule = model.service_schedule
@@ -159,16 +174,19 @@ export function recalcTCO(detail, model, {
   // Tires
   const tires = (model.tireEstimate_kr_per_year || 1500) * years
 
-  // CO2 emissions
-  const totalKm = mileage * 10 * years  // mil → km
-  const totalCO2_kg = Math.round((co2 * totalKm) / 1000)
+  // Besiktning
+  const besiktning = calculateBesiktning(years, buyAge)
+
+  // CO2 emissions — use real CO2 for social cost, not WLTP
+  const totalKm = mileage * 10 * years
+  const totalCO2_kg = Math.round((realCo2 * totalKm) / 1000)
   const co2Cost = Math.round(totalCO2_kg * CO2_COST_PER_KG)
 
-  const total = depreciation + fuelCost + tax + insurance.estimate + service + tires + interestCost
+  const total = depreciation + fuelCost + tax + insurance.estimate + service + tires + besiktning + interestCost
   const monthly = Math.round(total / (years * 12))
   const costPerMil = mileage > 0 ? Math.round(total / (mileage * years)) : 0
 
-  // Build explanations for each cost
+  // Build explanations
   const fmt = n => Math.round(n).toLocaleString('sv-SE')
   const consumption = fuel === "el" ? (model.consumption_kwh_per_mil || 1.5) : (model.consumption_l_per_mil || 0.7)
   const fuelUnit = fuel === "el" ? "kWh/mil" : "l/mil"
@@ -185,20 +203,29 @@ export function recalcTCO(detail, model, {
           ? `Slutvärdet baseras på ${endPt.data_points} annonser (${endPt.confidence === 'high' ? 'hög' : endPt.confidence === 'medium' ? 'medel' : 'låg'} tillförlitlighet).`
           : `Slutvärdet är extrapolerat — ingen direkt data för år ${endAge}.`
         const curveInfo = curve.filter(p => p.data_points > 0).map(p => `${p.year}år: ${fmt(p.value)} kr (${p.data_points} annonser)`).join(' → ')
-        return `${buyAge > 0 ? `Bilen köps som ${buyAge} år gammal för ${fmt(purchasePrice)} kr.` : 'Bilen köps ny.'} ${dataInfo}\n\nPriskurva: ${curveInfo}`
+        return `${buyAge > 0 ? `Bilen köps som ${buyAge} år gammal för ${fmt(purchasePrice)} kr.` : 'Bilen köps ny.'} ${dataInfo}\n\nPriskurva: ${curveInfo}\n\n⚠️ Priserna är uppskattade transaktionspriser (7% under utropspris).`
       })(),
-      source: 'AutoUncle — medianer från verkliga begagnatannonser',
+      source: 'AutoUncle — medianer justerade från utropspris till uppskattad transaktionsnivå (−7%)',
       sourceUrl: 'https://www.autouncle.se/',
     },
     fuel: {
-      formula: `${consumption} ${fuelUnit} × ${fmt(mileage)} mil/år × ${fuelPriceUsed} ${fuelPriceUnit} × ${years} år = ${fmt(fuelCost)} kr`,
-      detail: model.consumption_note || `Förbrukning baserad på verkliga ägarrapporter, inte WLTP.`,
+      formula: fuel === "el"
+        ? `${consumption} ${fuelUnit} × 1.08 (vinterfaktor) × ${fmt(mileage)} mil/år × ${fuelPriceUsed} ${fuelPriceUnit} × ${years} år = ${fmt(fuelCost)} kr`
+        : fuel === "laddhybrid"
+          ? `${consumption} ${fuelUnit} × ${fmt(mileage)} mil/år × ${fuelPriceUsed} ${fuelPriceUnit} × ${years} år = ${fmt(fuelCost)} kr (utan laddning)`
+          : `${consumption} ${fuelUnit} × ${fmt(mileage)} mil/år × ${fuelPriceUsed} ${fuelPriceUnit} × ${years} år = ${fmt(fuelCost)} kr`,
+      detail: (() => {
+        let note = model.consumption_note || `Förbrukning baserad på verkliga ägarrapporter.`
+        if (fuel === "el") note += '\n\n❄️ +8% vinterjustering inräknad (genomsnitt helår, baserat på ~5 månaders vinterförhållanden i Sverige).'
+        if (fuel === "laddhybrid") note += '\n\n🔌 Beräknad utan regelbunden laddning (konservativt antagande). Med daglig laddning kan drivmedelskostnaden halveras.'
+        return note
+      })(),
       source: 'Spritmonitor.de — verklig förbrukning från tusentals ägare',
       sourceUrl: 'https://www.spritmonitor.de/',
     },
     tax: {
-      formula: `${co2 > 0 ? `CO₂: ${co2} g/km. ` : 'Elbil: '}${taxPerYear} kr/år × ${years} år = ${fmt(tax)} kr${buyAge < 3 && co2 > 75 ? ' (inkl. malus första 3 åren)' : ''}`,
-      detail: `Grundbelopp 360 kr + ${co2 > 0 ? `22 kr per gram CO₂ (${co2} g/km)` : 'ingen CO₂-avgift (elbil)'}. ${fuel === 'diesel' ? 'Diesel: +250 kr/år miljötillägg. ' : ''}${buyAge < 3 && co2 > 75 ? `Malus-period (3 första åren): extra ${co2 > 125 ? `${107*50 + 132*(co2-125)}` : `${107*(co2-75)}`} kr/år.` : ''}`,
+      formula: `${co2 > 0 ? `CO₂: ${co2} g/km${fuel === 'laddhybrid' ? ' (WLTP)' : ''}. ` : 'Elbil: '}${taxPerYear} kr/år × ${years} år = ${fmt(tax)} kr${buyAge < 3 && co2 > 75 ? ' (inkl. malus första 3 åren)' : ''}`,
+      detail: `Grundbelopp 360 kr + ${co2 > 0 ? `22 kr per gram CO₂ (${co2} g/km)` : 'ingen CO₂-avgift (elbil)'}. ${fuel === 'diesel' ? 'Diesel: +250 kr/år miljötillägg. ' : ''}${buyAge < 3 && co2 > 75 ? `Malus-period (3 första åren): extra ${co2 > 125 ? `${107*50 + 132*(co2-125)}` : `${107*(co2-75)}`} kr/år.` : ''}${fuel === 'laddhybrid' ? '\n\n⚠️ Skatten baseras på WLTP-CO₂ (' + co2 + ' g/km), inte verkligt utsläpp (~' + (model.real_co2_gkm || co2) + ' g/km utan laddning).' : ''}`,
       source: 'Skatteverket — fordonsskatteberäkning',
       sourceUrl: 'https://www.skatteverket.se/',
     },
@@ -215,9 +242,14 @@ export function recalcTCO(detail, model, {
     },
     tires: {
       formula: `${fmt(model.tireEstimate_kr_per_year || 1500)} kr/år × ${years} år = ${fmt(tires)} kr`,
-      detail: `Däckstorlek: ${model.tireSize || '?'}. Inkluderar vinterdäck och sommardäck, byte och förvaring. Elbilsdäck kostar ~50% mer än vanliga.`,
+      detail: `Däckstorlek: ${model.tireSize || '?'}. Inkluderar vinterdäck och sommardäck, byte och förvaring. Elbilsdäck kostar ~50% mer pga högre vikt.`,
       source: 'Branschsnitt baserat på däckstorlek',
     },
+    besiktning: besiktning > 0 ? {
+      formula: `${besiktning / BESIKTNING_KR} besiktningar × ${BESIKTNING_KR} kr = ${fmt(besiktning)} kr`,
+      detail: `Första besiktning vid 3 års ålder, sedan vartannat år. ${BESIKTNING_KR} kr per tillfälle (2024 års pris).`,
+      source: 'Bilprovningen / Opus',
+    } : null,
     interest: interestCost > 0 ? {
       formula: `${loanPct}% av ${fmt(purchasePrice)} kr = ${fmt(loanAmount)} kr lån, ${(interestRate*100).toFixed(1)}% ränta, ${years*12} mån → ${fmt(interestCost)} kr i räntekostnad`,
       detail: `Annuitetslån. Total återbetalning: ${fmt(loanAmount + interestCost)} kr. Räntan kan variera — Tesla erbjuder ibland 0%, medan bankränta ofta ligger på 5-7%.`,
@@ -238,6 +270,7 @@ export function recalcTCO(detail, model, {
       insurance,
       service,
       tires,
+      besiktning,
       interest: interestCost,
     },
     explanations,
@@ -245,6 +278,7 @@ export function recalcTCO(detail, model, {
       total_kg: totalCO2_kg,
       total_ton: +(totalCO2_kg / 1000).toFixed(1),
       social_cost: co2Cost,
+      note: realCo2 !== co2 ? `Verkligt CO₂: ~${realCo2} g/km (WLTP: ${co2} g/km)` : null,
     },
   }
 }

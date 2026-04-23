@@ -1,6 +1,6 @@
 {
   "model_id": "hyundai-ioniq5-lr",
-  "calculated_at": "2026-04-09T20:27:08.681797+00:00",
+  "calculated_at": "2026-04-23T21:53:18.507277+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,20 +8,21 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 391045,
-    "monthly_cost": 8147,
-    "cost_per_mil": 65,
+    "total_cost": 403875,
+    "monthly_cost": 8414,
+    "cost_per_mil": 67,
     "breakdown": {
       "depreciation": 314405,
-      "fuel": 18000,
+      "fuel": 19440,
       "tax": 1440,
       "insurance": {
-        "low": 17640,
-        "high": 32760,
-        "estimate": 25200
+        "low": 24000,
+        "high": 43200,
+        "estimate": 34000
       },
-      "service": 18000,
-      "tires": 14000
+      "service": 20100,
+      "tires": 14000,
+      "besiktning": 490
     },
     "depreciation_curve": [
       {

@@ -21,6 +21,10 @@ def calculate_tax(co2_gkm, fuel_type, car_age_years=0):
     if fuel_type == "el":
         return base
 
+    # Laddhybrid: treated like bensin for tax (uses WLTP CO2)
+    if fuel_type == "laddhybrid":
+        fuel_type = "bensin"
+
     # Malus period (first 3 years, cars registered after June 2022)
     if car_age_years < 3 and co2_gkm > 75:
         malus = 0

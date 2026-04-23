@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-rav4-hybrid",
-  "calculated_at": "2026-04-09T20:27:08.677276+00:00",
+  "calculated_at": "2026-04-23T21:53:18.502897+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,20 +8,21 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 308261,
-    "monthly_cost": 6422,
+    "total_cost": 308151,
+    "monthly_cost": 6420,
     "cost_per_mil": 51,
     "breakdown": {
       "depreciation": 170900,
       "fuel": 72150,
       "tax": 19211,
       "insurance": {
-        "low": 16240,
-        "high": 30160,
-        "estimate": 23200
+        "low": 16000,
+        "high": 28800,
+        "estimate": 21600
       },
-      "service": 16000,
-      "tires": 6800
+      "service": 17000,
+      "tires": 6800,
+      "besiktning": 490
     },
     "depreciation_curve": [
       {
