@@ -1,6 +1,6 @@
 {
   "model_id": "tesla-model-3-lr",
-  "calculated_at": "2026-04-23T22:04:26.505180+00:00",
+  "calculated_at": "2026-04-23T22:21:37.732839+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,

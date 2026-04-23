@@ -1,0 +1,86 @@
+{
+  "model_id": "volvo-ex90-twin",
+  "calculated_at": "2026-04-23T22:21:37.749515+00:00",
+  "assumptions": {
+    "mileage_per_year": 1500,
+    "ownership_years": 4,
+    "fuel_price_kr_per_liter": 18.5,
+    "electricity_price_kr_per_kwh": 1.5
+  },
+  "result": {
+    "total_cost": 485419,
+    "monthly_cost": 10113,
+    "cost_per_mil": 81,
+    "breakdown": {
+      "depreciation": 399105,
+      "fuel": 21384,
+      "tax": 1440,
+      "insurance": {
+        "low": 32000,
+        "high": 58000,
+        "estimate": 44000
+      },
+      "service": 3000,
+      "tires": 16000,
+      "besiktning": 490
+    },
+    "depreciation_curve": [
+      {
+        "year": 0,
+        "value": 997000,
+        "confidence": "fixed",
+        "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 877360,
+        "confidence": "low",
+        "data_points": 27
+      },
+      {
+        "year": 2,
+        "value": 772076,
+        "confidence": "low",
+        "data_points": 24
+      },
+      {
+        "year": 3,
+        "value": 679426,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 4,
+        "value": 597895,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 5,
+        "value": 526148,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 6,
+        "value": 463010,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 7,
+        "value": 407449,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 8,
+        "value": 358555,
+        "confidence": "estimated",
+        "data_points": 0
+      }
+    ]
+  },
+  "confidence": "low",
+  "data_quality_notes": []
+}
