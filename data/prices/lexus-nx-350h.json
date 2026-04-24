@@ -1,0 +1,48 @@
+{
+  "model_id": "lexus-nx-350h",
+  "scraped_at": "2026-04-24T19:59:03.019372+00:00",
+  "source": "estimated_placeholder",
+  "price_type": "estimated_placeholder",
+  "years": {
+    "2025": {
+      "median_price": 492800,
+      "count": 27,
+      "total_on_page": 27,
+      "price_type": "estimated_placeholder",
+      "confidence": "low"
+    },
+    "2024": {
+      "median_price": 433664,
+      "count": 24,
+      "total_on_page": 24,
+      "price_type": "estimated_placeholder",
+      "confidence": "low"
+    },
+    "2023": {
+      "median_price": 381624,
+      "count": 21,
+      "total_on_page": 21,
+      "price_type": "estimated_placeholder",
+      "confidence": "low"
+    },
+    "2022": {
+      "median_price": 335829,
+      "count": 18,
+      "total_on_page": 18,
+      "price_type": "estimated_placeholder",
+      "confidence": "low"
+    },
+    "2021": {
+      "median_price": 295529,
+      "count": 15,
+      "total_on_page": 15,
+      "price_type": "estimated_placeholder",
+      "confidence": "low"
+    }
+  },
+  "validation": {
+    "is_monotonic": true,
+    "min_count_per_year": 5,
+    "confidence": "low"
+  }
+}

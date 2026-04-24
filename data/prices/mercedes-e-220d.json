@@ -1,0 +1,34 @@
+{
+  "model_id": "mercedes-e-220d",
+  "scraped_at": "2026-04-24T19:59:03.016009+00:00",
+  "source": "estimated_placeholder",
+  "price_type": "estimated_placeholder",
+  "years": {
+    "2025": {
+      "median_price": 492712,
+      "count": 27,
+      "total_on_page": 27,
+      "price_type": "estimated_placeholder",
+      "confidence": "low"
+    },
+    "2024": {
+      "median_price": 433586,
+      "count": 24,
+      "total_on_page": 24,
+      "price_type": "estimated_placeholder",
+      "confidence": "low"
+    },
+    "2023": {
+      "median_price": 381556,
+      "count": 21,
+      "total_on_page": 21,
+      "price_type": "estimated_placeholder",
+      "confidence": "low"
+    }
+  },
+  "validation": {
+    "is_monotonic": true,
+    "min_count_per_year": 5,
+    "confidence": "low"
+  }
+}

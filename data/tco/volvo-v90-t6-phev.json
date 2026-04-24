@@ -1,0 +1,86 @@
+{
+  "model_id": "volvo-v90-t6-phev",
+  "calculated_at": "2026-04-24T19:59:08.416258+00:00",
+  "assumptions": {
+    "mileage_per_year": 1500,
+    "ownership_years": 4,
+    "fuel_price_kr_per_liter": 18.5,
+    "electricity_price_kr_per_kwh": 1.5
+  },
+  "result": {
+    "total_cost": 387081,
+    "monthly_cost": 8064,
+    "cost_per_mil": 65,
+    "breakdown": {
+      "depreciation": 250191,
+      "fuel": 77700,
+      "tax": 3200,
+      "insurance": {
+        "low": 20800,
+        "high": 35200,
+        "estimate": 27200
+      },
+      "service": 19500,
+      "tires": 8800,
+      "besiktning": 490
+    },
+    "depreciation_curve": [
+      {
+        "year": 0,
+        "value": 625000,
+        "confidence": "fixed",
+        "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 550000,
+        "confidence": "low",
+        "data_points": 27
+      },
+      {
+        "year": 2,
+        "value": 484000,
+        "confidence": "low",
+        "data_points": 24
+      },
+      {
+        "year": 3,
+        "value": 425920,
+        "confidence": "low",
+        "data_points": 21
+      },
+      {
+        "year": 4,
+        "value": 374809,
+        "confidence": "low",
+        "data_points": 18
+      },
+      {
+        "year": 5,
+        "value": 329832,
+        "confidence": "low",
+        "data_points": 15
+      },
+      {
+        "year": 6,
+        "value": 290252,
+        "confidence": "low",
+        "data_points": 12
+      },
+      {
+        "year": 7,
+        "value": 255422,
+        "confidence": "low",
+        "data_points": 9
+      },
+      {
+        "year": 8,
+        "value": 224771,
+        "confidence": "estimated",
+        "data_points": 0
+      }
+    ]
+  },
+  "confidence": "low",
+  "data_quality_notes": []
+}

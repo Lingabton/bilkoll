@@ -1,0 +1,27 @@
+{
+  "model_id": "audi-a6-40tdi",
+  "scraped_at": "2026-04-24T19:59:03.016538+00:00",
+  "source": "estimated_placeholder",
+  "price_type": "estimated_placeholder",
+  "years": {
+    "2025": {
+      "median_price": 510400,
+      "count": 27,
+      "total_on_page": 27,
+      "price_type": "estimated_placeholder",
+      "confidence": "low"
+    },
+    "2024": {
+      "median_price": 449152,
+      "count": 24,
+      "total_on_page": 24,
+      "price_type": "estimated_placeholder",
+      "confidence": "low"
+    }
+  },
+  "validation": {
+    "is_monotonic": true,
+    "min_count_per_year": 5,
+    "confidence": "low"
+  }
+}

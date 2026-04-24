@@ -1,0 +1,86 @@
+{
+  "model_id": "volvo-xc90-t8-phev",
+  "calculated_at": "2026-04-24T19:59:08.417386+00:00",
+  "assumptions": {
+    "mileage_per_year": 1500,
+    "ownership_years": 4,
+    "fuel_price_kr_per_liter": 18.5,
+    "electricity_price_kr_per_kwh": 1.5
+  },
+  "result": {
+    "total_cost": 533744,
+    "monthly_cost": 11120,
+    "cost_per_mil": 89,
+    "breakdown": {
+      "depreciation": 369522,
+      "fuel": 88800,
+      "tax": 4432,
+      "insurance": {
+        "low": 26000,
+        "high": 44000,
+        "estimate": 34000
+      },
+      "service": 22500,
+      "tires": 14000,
+      "besiktning": 490
+    },
+    "depreciation_curve": [
+      {
+        "year": 0,
+        "value": 923100,
+        "confidence": "fixed",
+        "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 812328,
+        "confidence": "low",
+        "data_points": 27
+      },
+      {
+        "year": 2,
+        "value": 714848,
+        "confidence": "low",
+        "data_points": 24
+      },
+      {
+        "year": 3,
+        "value": 629066,
+        "confidence": "low",
+        "data_points": 21
+      },
+      {
+        "year": 4,
+        "value": 553578,
+        "confidence": "low",
+        "data_points": 18
+      },
+      {
+        "year": 5,
+        "value": 487149,
+        "confidence": "low",
+        "data_points": 15
+      },
+      {
+        "year": 6,
+        "value": 428691,
+        "confidence": "low",
+        "data_points": 12
+      },
+      {
+        "year": 7,
+        "value": 377248,
+        "confidence": "low",
+        "data_points": 9
+      },
+      {
+        "year": 8,
+        "value": 331978,
+        "confidence": "estimated",
+        "data_points": 0
+      }
+    ]
+  },
+  "confidence": "low",
+  "data_quality_notes": []
+}

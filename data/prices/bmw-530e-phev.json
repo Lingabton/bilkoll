@@ -1,0 +1,34 @@
+{
+  "model_id": "bmw-530e-phev",
+  "scraped_at": "2026-04-24T19:59:03.017616+00:00",
+  "source": "estimated_placeholder",
+  "price_type": "estimated_placeholder",
+  "years": {
+    "2025": {
+      "median_price": 550352,
+      "count": 27,
+      "total_on_page": 27,
+      "price_type": "estimated_placeholder",
+      "confidence": "low"
+    },
+    "2024": {
+      "median_price": 484309,
+      "count": 24,
+      "total_on_page": 24,
+      "price_type": "estimated_placeholder",
+      "confidence": "low"
+    },
+    "2023": {
+      "median_price": 426192,
+      "count": 21,
+      "total_on_page": 21,
+      "price_type": "estimated_placeholder",
+      "confidence": "low"
+    }
+  },
+  "validation": {
+    "is_monotonic": true,
+    "min_count_per_year": 5,
+    "confidence": "low"
+  }
+}

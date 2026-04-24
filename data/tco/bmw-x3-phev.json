@@ -1,0 +1,86 @@
+{
+  "model_id": "bmw-x3-phev",
+  "calculated_at": "2026-04-24T19:59:08.422532+00:00",
+  "assumptions": {
+    "mileage_per_year": 1500,
+    "ownership_years": 4,
+    "fuel_price_kr_per_liter": 18.5,
+    "electricity_price_kr_per_kwh": 1.5
+  },
+  "result": {
+    "total_cost": 381009,
+    "monthly_cost": 7938,
+    "cost_per_mil": 64,
+    "breakdown": {
+      "depreciation": 260199,
+      "fuel": 66600,
+      "tax": 4520,
+      "insurance": {
+        "low": 26000,
+        "high": 44000,
+        "estimate": 34000
+      },
+      "service": 4000,
+      "tires": 11200,
+      "besiktning": 490
+    },
+    "depreciation_curve": [
+      {
+        "year": 0,
+        "value": 650000,
+        "confidence": "fixed",
+        "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 572000,
+        "confidence": "low",
+        "data_points": 27
+      },
+      {
+        "year": 2,
+        "value": 503360,
+        "confidence": "low",
+        "data_points": 24
+      },
+      {
+        "year": 3,
+        "value": 442956,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 4,
+        "value": 389801,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 5,
+        "value": 343025,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 6,
+        "value": 301862,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 7,
+        "value": 265639,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 8,
+        "value": 233762,
+        "confidence": "estimated",
+        "data_points": 0
+      }
+    ]
+  },
+  "confidence": "low",
+  "data_quality_notes": []
+}
