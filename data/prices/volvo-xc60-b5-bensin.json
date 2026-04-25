@@ -1,85 +1,96 @@
 {
   "model_id": "volvo-xc60-b5-bensin",
-  "scraped_at": "2026-04-01T23:44:34.367530+00:00",
+  "scraped_at": "2026-04-24T20:30:10.869400+00:00",
   "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 604900,
-      "count": 25,
-      "total_on_page": 25,
-      "p5_price": 489800,
-      "p95_price": 795000,
-      "min_price": 479000,
-      "max_price": 825000,
-      "median_mileage_mil": 20251
+      "median_price": 583482,
+      "count": 140,
+      "total_on_page": 139,
+      "price_type": "estimated_transaction",
+      "p5_price": 464070,
+      "p95_price": 716007,
+      "min_price": 389670,
+      "max_price": 767250,
+      "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 467000,
-      "count": 40,
-      "total_on_page": 40,
-      "p5_price": 369000,
-      "p95_price": 649900,
-      "min_price": 359900,
-      "max_price": 739900
+      "median_price": 483507,
+      "count": 225,
+      "total_on_page": 223,
+      "price_type": "estimated_transaction",
+      "p5_price": 389670,
+      "p95_price": 604407,
+      "min_price": 333870,
+      "max_price": 688107,
+      "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 444800,
-      "count": 83,
-      "total_on_page": 85,
-      "p5_price": 339900,
-      "p95_price": 539000,
-      "min_price": 317000,
-      "max_price": 649900
+      "median_price": 401946,
+      "count": 250,
+      "total_on_page": 267,
+      "price_type": "estimated_transaction",
+      "p5_price": 311550,
+      "p95_price": 502107,
+      "min_price": 240870,
+      "max_price": 541250
     },
     "2022": {
-      "median_price": 419900,
-      "count": 37,
-      "total_on_page": 40,
-      "p5_price": 299000,
-      "p95_price": 509900,
-      "min_price": 294500,
-      "max_price": 569000
+      "median_price": 381207,
+      "count": 222,
+      "total_on_page": 218,
+      "price_type": "estimated_transaction",
+      "p5_price": 288207,
+      "p95_price": 492807,
+      "min_price": 227757,
+      "max_price": 623007
     },
     "2021": {
-      "median_price": 368900,
-      "count": 105,
-      "total_on_page": 105,
-      "p5_price": 289900,
-      "p95_price": 449900,
-      "min_price": 269800,
-      "max_price": 494900
+      "median_price": 344978,
+      "count": 250,
+      "total_on_page": 287,
+      "price_type": "estimated_transaction",
+      "p5_price": 267840,
+      "p95_price": 427614,
+      "min_price": 232314,
+      "max_price": 492890
     },
     "2020": {
-      "median_price": 349900,
-      "count": 72,
-      "total_on_page": 80,
-      "p5_price": 264800,
-      "p95_price": 429800,
-      "min_price": 229800,
-      "max_price": 469900
+      "median_price": 325407,
+      "count": 242,
+      "total_on_page": 242,
+      "price_type": "estimated_transaction",
+      "p5_price": 241614,
+      "p95_price": 399714,
+      "min_price": 185907,
+      "max_price": 455514
     },
     "2019": {
-      "median_price": 329900,
-      "count": 53,
-      "total_on_page": 55,
-      "p5_price": 249900,
-      "p95_price": 399900,
-      "min_price": 80000,
-      "max_price": 459900
+      "median_price": 297507,
+      "count": 195,
+      "total_on_page": 195,
+      "price_type": "estimated_transaction",
+      "p5_price": 227757,
+      "p95_price": 371907,
+      "min_price": 175770,
+      "max_price": 441657
     },
     "2018": {
-      "median_price": 319000,
-      "count": 70,
-      "total_on_page": 64,
-      "p5_price": 249900,
-      "p95_price": 374800,
-      "min_price": 239900,
-      "max_price": 379900
+      "median_price": 278907,
+      "count": 177,
+      "total_on_page": 177,
+      "price_type": "estimated_transaction",
+      "p5_price": 208785,
+      "p95_price": 344007,
+      "min_price": 181257,
+      "max_price": 409107
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 25,
-    "confidence": "medium"
+    "min_count_per_year": 140,
+    "confidence": "high"
   }
 }

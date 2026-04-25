@@ -1,62 +1,80 @@
 {
   "model_id": "skoda-kodiaq-tsi",
-  "scraped_at": "2026-04-23T22:04:21.471186+00:00",
-  "source": "estimated_placeholder",
-  "price_type": "estimated_placeholder",
+  "scraped_at": "2026-04-25T04:26:59.570305+00:00",
+  "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
-    "2025": {
-      "median_price": 359480,
-      "count": 27,
-      "total_on_page": 27,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
-    },
-    "2024": {
-      "median_price": 316342,
-      "count": 24,
-      "total_on_page": 24,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
-    },
     "2023": {
-      "median_price": 278381,
-      "count": 21,
-      "total_on_page": 21,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 334614,
+      "count": 4,
+      "total_on_page": 4,
+      "price_type": "estimated_transaction",
+      "min_price": 277884,
+      "max_price": 371907
     },
     "2022": {
-      "median_price": 244975,
-      "count": 18,
-      "total_on_page": 18,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 353307,
+      "count": 7,
+      "total_on_page": 7,
+      "price_type": "estimated_transaction",
+      "p5_price": 260400,
+      "p95_price": 371907,
+      "min_price": 260400,
+      "max_price": 371907
     },
     "2021": {
-      "median_price": 215578,
-      "count": 15,
-      "total_on_page": 15,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 282208,
+      "count": 4,
+      "total_on_page": 4,
+      "price_type": "estimated_transaction",
+      "min_price": 232407,
+      "max_price": 352470
     },
     "2020": {
-      "median_price": 189709,
-      "count": 12,
-      "total_on_page": 12,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 287370,
+      "count": 5,
+      "total_on_page": 5,
+      "price_type": "estimated_transaction",
+      "p5_price": 237057,
+      "p95_price": 316107,
+      "min_price": 237057,
+      "max_price": 316107
     },
     "2019": {
-      "median_price": 166943,
-      "count": 9,
-      "total_on_page": 9,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 244032,
+      "count": 16,
+      "total_on_page": 16,
+      "price_type": "estimated_transaction",
+      "p5_price": 213807,
+      "p95_price": 371907,
+      "min_price": 213807,
+      "max_price": 371907
+    },
+    "2018": {
+      "median_price": 229896,
+      "count": 10,
+      "total_on_page": 10,
+      "price_type": "estimated_transaction",
+      "p5_price": 173910,
+      "p95_price": 259470,
+      "min_price": 173910,
+      "max_price": 259470
+    },
+    "2017": {
+      "median_price": 231570,
+      "count": 5,
+      "total_on_page": 5,
+      "price_type": "estimated_transaction",
+      "p5_price": 139407,
+      "p95_price": 264957,
+      "min_price": 139407,
+      "max_price": 264957
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 5,
+    "is_monotonic": false,
+    "min_count_per_year": 4,
     "confidence": "low"
   }
 }

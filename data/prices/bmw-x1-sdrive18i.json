@@ -1,41 +1,55 @@
 {
   "model_id": "bmw-x1-sdrive18i",
-  "scraped_at": "2026-04-24T19:59:03.017706+00:00",
-  "source": "estimated_placeholder",
-  "price_type": "estimated_placeholder",
+  "scraped_at": "2026-04-25T07:00:21.747808+00:00",
+  "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 396000,
-      "count": 27,
-      "total_on_page": 27,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 441843,
+      "count": 77,
+      "total_on_page": 77,
+      "price_type": "estimated_transaction",
+      "p5_price": 389670,
+      "p95_price": 585807,
+      "min_price": 370791,
+      "max_price": 679830,
+      "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 348480,
-      "count": 24,
-      "total_on_page": 24,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 432357,
+      "count": 12,
+      "total_on_page": 12,
+      "price_type": "estimated_transaction",
+      "p5_price": 339450,
+      "p95_price": 538470,
+      "min_price": 339450,
+      "max_price": 538470
     },
     "2023": {
-      "median_price": 306662,
+      "median_price": 418314,
       "count": 21,
       "total_on_page": 21,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "price_type": "estimated_transaction",
+      "p5_price": 352935,
+      "p95_price": 445191,
+      "min_price": 343635,
+      "max_price": 451050
     },
     "2022": {
-      "median_price": 269862,
-      "count": 18,
-      "total_on_page": 18,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 297967,
+      "count": 20,
+      "total_on_page": 20,
+      "price_type": "estimated_transaction",
+      "p5_price": 223107,
+      "p95_price": 382137,
+      "min_price": 213807,
+      "max_price": 382137
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 5,
-    "confidence": "low"
+    "min_count_per_year": 12,
+    "confidence": "medium"
   }
 }

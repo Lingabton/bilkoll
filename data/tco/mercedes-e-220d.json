@@ -1,6 +1,6 @@
 {
   "model_id": "mercedes-e-220d",
-  "calculated_at": "2026-04-24T19:59:08.417163+00:00",
+  "calculated_at": "2026-04-25T07:35:40.785056+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 370171,
-    "monthly_cost": 7712,
-    "cost_per_mil": 62,
+    "total_cost": 517708,
+    "monthly_cost": 10786,
+    "cost_per_mil": 86,
     "breakdown": {
-      "depreciation": 224131,
+      "depreciation": 371668,
       "fuel": 61050,
       "tax": 29600,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 492712,
-        "confidence": "low",
-        "data_points": 27
+        "value": 213900,
+        "confidence": "medium",
+        "data_points": 250
       },
       {
         "year": 2,
-        "value": 433586,
-        "confidence": "low",
-        "data_points": 24
+        "value": 213900,
+        "confidence": "medium",
+        "data_points": 250
       },
       {
         "year": 3,
-        "value": 381556,
-        "confidence": "low",
-        "data_points": 21
+        "value": 213900,
+        "confidence": "medium",
+        "data_points": 250
       },
       {
         "year": 4,
-        "value": 335769,
+        "value": 188232,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 295476,
+        "value": 165644,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 260019,
+        "value": 145766,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 228817,
+        "value": 128274,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 201359,
+        "value": 112881,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "high",
   "data_quality_notes": []
 }

@@ -1,6 +1,6 @@
 {
   "model_id": "byd-atto3-comfort",
-  "calculated_at": "2026-04-24T19:59:08.407261+00:00",
+  "calculated_at": "2026-04-25T07:35:40.775654+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 252875,
-    "monthly_cost": 5268,
-    "cost_per_mil": 42,
+    "total_cost": 300416,
+    "monthly_cost": 6259,
+    "cost_per_mil": 50,
     "breakdown": {
-      "depreciation": 190105,
+      "depreciation": 237646,
       "fuel": 19440,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 417912,
-        "confidence": "low",
-        "data_points": 27
+        "value": 331001,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 2,
-        "value": 367762,
-        "confidence": "low",
-        "data_points": 24
+        "value": 304520,
+        "confidence": "adjusted",
+        "data_points": 2
       },
       {
         "year": 3,
-        "value": 323631,
-        "confidence": "low",
-        "data_points": 21
+        "value": 269607,
+        "confidence": "medium",
+        "data_points": 5
       },
       {
         "year": 4,
-        "value": 284795,
+        "value": 237254,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 250619,
+        "value": 208783,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 220545,
+        "value": 183729,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 194080,
+        "value": 161682,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 170790,
+        "value": 142280,
         "confidence": "estimated",
         "data_points": 0
       }

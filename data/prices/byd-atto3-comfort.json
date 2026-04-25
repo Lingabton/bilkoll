@@ -1,34 +1,32 @@
 {
   "model_id": "byd-atto3-comfort",
-  "scraped_at": "2026-04-23T22:04:21.471487+00:00",
-  "source": "estimated_placeholder",
-  "price_type": "estimated_placeholder",
+  "scraped_at": "2026-04-25T02:08:32.321990+00:00",
+  "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
-    "2025": {
-      "median_price": 417912,
-      "count": 27,
-      "total_on_page": 27,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
-    },
     "2024": {
-      "median_price": 367762,
-      "count": 24,
-      "total_on_page": 24,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 376138,
+      "count": 2,
+      "total_on_page": 2,
+      "price_type": "estimated_transaction",
+      "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 323631,
-      "count": 21,
-      "total_on_page": 21,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 269607,
+      "count": 5,
+      "total_on_page": 5,
+      "price_type": "estimated_transaction",
+      "p5_price": 241800,
+      "p95_price": 390507,
+      "min_price": 241800,
+      "max_price": 390507,
+      "median_mileage_mil": 20231
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 5,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

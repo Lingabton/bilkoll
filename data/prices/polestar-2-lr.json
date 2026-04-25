@@ -1,68 +1,76 @@
 {
   "model_id": "polestar-2-lr",
-  "scraped_at": "2026-04-01T23:58:31.119028+00:00",
+  "scraped_at": "2026-04-24T21:44:30.222507+00:00",
   "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 539900,
-      "count": 50,
-      "total_on_page": 50,
-      "p5_price": 459000,
-      "p95_price": 669000,
-      "min_price": 459000,
-      "max_price": 710000,
-      "median_mileage_mil": 20250
+      "median_price": 512895,
+      "count": 40,
+      "total_on_page": 40,
+      "price_type": "estimated_transaction",
+      "p5_price": 454770,
+      "p95_price": 630163,
+      "min_price": 426870,
+      "max_price": 693780,
+      "median_mileage_mil": 20252
     },
     "2024": {
-      "median_price": 504900,
-      "count": 52,
-      "total_on_page": 52,
-      "p5_price": 405000,
-      "p95_price": 629000,
-      "min_price": 359500,
-      "max_price": 655000,
+      "median_price": 466813,
+      "count": 46,
+      "total_on_page": 46,
+      "price_type": "estimated_transaction",
+      "p5_price": 343170,
+      "p95_price": 548607,
+      "min_price": 333777,
+      "max_price": 693780,
       "median_mileage_mil": 20242
     },
     "2023": {
-      "median_price": 349900,
-      "count": 127,
-      "total_on_page": 127,
-      "p5_price": 274800,
-      "p95_price": 474900,
-      "min_price": 250000,
-      "max_price": 509900
+      "median_price": 344007,
+      "count": 77,
+      "total_on_page": 77,
+      "price_type": "estimated_transaction",
+      "p5_price": 248310,
+      "p95_price": 446307,
+      "min_price": 231570,
+      "max_price": 489170
     },
     "2022": {
-      "median_price": 309900,
-      "count": 156,
-      "total_on_page": 156,
-      "p5_price": 259900,
-      "p95_price": 389990,
-      "min_price": 245500,
-      "max_price": 519000
+      "median_price": 297460,
+      "count": 104,
+      "total_on_page": 104,
+      "price_type": "estimated_transaction",
+      "p5_price": 250914,
+      "p95_price": 357957,
+      "min_price": 232407,
+      "max_price": 405470
     },
     "2021": {
-      "median_price": 299900,
-      "count": 108,
-      "total_on_page": 108,
-      "p5_price": 258990,
-      "p95_price": 359900,
-      "min_price": 217500,
-      "max_price": 394900
+      "median_price": 278907,
+      "count": 72,
+      "total_on_page": 72,
+      "price_type": "estimated_transaction",
+      "p5_price": 240870,
+      "p95_price": 334707,
+      "min_price": 204507,
+      "max_price": 367257
     },
     "2020": {
-      "median_price": 327450,
-      "count": 76,
-      "total_on_page": 76,
-      "p5_price": 269900,
-      "p95_price": 379900,
-      "min_price": 259900,
-      "max_price": 429900
+      "median_price": 297507,
+      "count": 73,
+      "total_on_page": 73,
+      "price_type": "estimated_transaction",
+      "p5_price": 255192,
+      "p95_price": 344007,
+      "min_price": 226920,
+      "max_price": 399807
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 50,
+    "min_count_per_year": 40,
     "confidence": "medium"
   }
 }

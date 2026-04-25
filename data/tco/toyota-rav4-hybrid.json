@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-rav4-hybrid",
-  "calculated_at": "2026-04-24T19:59:08.399295+00:00",
+  "calculated_at": "2026-04-25T07:35:40.769096+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 308151,
-    "monthly_cost": 6420,
-    "cost_per_mil": 51,
+    "total_cost": 343423,
+    "monthly_cost": 7155,
+    "cost_per_mil": 57,
     "breakdown": {
-      "depreciation": 170900,
+      "depreciation": 206172,
       "fuel": 72150,
       "tax": 19211,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 554900,
+        "value": 520707,
         "confidence": "medium",
-        "data_points": 18
+        "data_points": 21
       },
       {
         "year": 2,
-        "value": 514450,
+        "value": 464907,
         "confidence": "medium",
-        "data_points": 16
+        "data_points": 15
       },
       {
         "year": 3,
-        "value": 459000,
+        "value": 427242,
         "confidence": "medium",
-        "data_points": 25
+        "data_points": 38
       },
       {
         "year": 4,
-        "value": 384900,
+        "value": 349628,
         "confidence": "medium",
-        "data_points": 25
+        "data_points": 30
       },
       {
         "year": 5,
-        "value": 329900,
+        "value": 318385,
         "confidence": "medium",
-        "data_points": 25
+        "data_points": 54
       },
       {
         "year": 6,
-        "value": 303508,
-        "confidence": "adjusted",
+        "value": 306807,
+        "confidence": "medium",
         "data_points": 23
       },
       {
         "year": 7,
-        "value": 294900,
+        "value": 260307,
         "confidence": "medium",
-        "data_points": 5
+        "data_points": 3
       },
       {
         "year": 8,
-        "value": 259512,
+        "value": 229070,
         "confidence": "estimated",
         "data_points": 0
       }

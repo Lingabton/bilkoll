@@ -1,6 +1,6 @@
 {
   "model_id": "renault-megane-etech",
-  "calculated_at": "2026-04-24T19:59:08.409394+00:00",
+  "calculated_at": "2026-04-25T07:35:40.777841+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 238752,
-    "monthly_cost": 4974,
-    "cost_per_mil": 40,
+    "total_cost": 379682,
+    "monthly_cost": 7910,
+    "cost_per_mil": 63,
     "breakdown": {
-      "depreciation": 180098,
+      "depreciation": 321028,
       "fuel": 16524,
       "tax": 1440,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 395912,
-        "confidence": "low",
-        "data_points": 27
+        "value": 165500,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 2,
-        "value": 348402,
-        "confidence": "low",
-        "data_points": 24
+        "value": 152260,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 3,
-        "value": 306594,
-        "confidence": "low",
-        "data_points": 21
-      },
-      {
-        "year": 4,
-        "value": 269802,
-        "confidence": "low",
+        "value": 140079,
+        "confidence": "adjusted",
         "data_points": 18
       },
       {
+        "year": 4,
+        "value": 128872,
+        "confidence": "adjusted",
+        "data_points": 17
+      },
+      {
         "year": 5,
-        "value": 237425,
+        "value": 118562,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 208934,
+        "value": 109077,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 183862,
+        "value": 100350,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 161799,
+        "value": 92322,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "medium",
   "data_quality_notes": []
 }

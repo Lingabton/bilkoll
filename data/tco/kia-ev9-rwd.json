@@ -1,6 +1,6 @@
 {
   "model_id": "kia-ev9-rwd",
-  "calculated_at": "2026-04-24T19:59:08.419704+00:00",
+  "calculated_at": "2026-04-25T07:35:40.786885+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 347841,
-    "monthly_cost": 7247,
-    "cost_per_mil": 58,
+    "total_cost": 267332,
+    "monthly_cost": 5569,
+    "cost_per_mil": 45,
     "breakdown": {
-      "depreciation": 276171,
+      "depreciation": 195662,
       "fuel": 19440,
       "tax": 1440,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 607112,
-        "confidence": "low",
-        "data_points": 27
+        "value": 634708,
+        "confidence": "adjusted",
+        "data_points": 150
       },
       {
         "year": 2,
-        "value": 534258,
-        "confidence": "low",
-        "data_points": 24
+        "value": 583931,
+        "confidence": "adjusted",
+        "data_points": 41
       },
       {
         "year": 3,
-        "value": 470147,
-        "confidence": "low",
-        "data_points": 21
+        "value": 537216,
+        "confidence": "adjusted",
+        "data_points": 40
       },
       {
         "year": 4,
-        "value": 413729,
+        "value": 494238,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 364081,
+        "value": 454698,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 320392,
+        "value": 440149,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 281944,
+        "value": 387331,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 248111,
+        "value": 340851,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "medium",
   "data_quality_notes": []
 }

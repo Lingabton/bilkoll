@@ -1,6 +1,6 @@
 {
   "model_id": "kia-sportage-phev",
-  "calculated_at": "2026-04-24T19:59:08.409195+00:00",
+  "calculated_at": "2026-04-25T07:35:40.777550+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 320296,
-    "monthly_cost": 6673,
+    "total_cost": 318766,
+    "monthly_cost": 6641,
     "cost_per_mil": 53,
     "breakdown": {
-      "depreciation": 203716,
+      "depreciation": 202186,
       "fuel": 72150,
       "tax": 3640,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 447832,
-        "confidence": "low",
-        "data_points": 27
+        "value": 446307,
+        "confidence": "medium",
+        "data_points": 9
       },
       {
         "year": 2,
-        "value": 394092,
-        "confidence": "low",
-        "data_points": 24
+        "value": 399807,
+        "confidence": "medium",
+        "data_points": 34
       },
       {
         "year": 3,
-        "value": 346801,
-        "confidence": "low",
-        "data_points": 21
+        "value": 381207,
+        "confidence": "medium",
+        "data_points": 7
       },
       {
         "year": 4,
-        "value": 305184,
-        "confidence": "low",
-        "data_points": 18
+        "value": 306714,
+        "confidence": "medium",
+        "data_points": 7
       },
       {
         "year": 5,
-        "value": 268561,
+        "value": 269908,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 236334,
+        "value": 237519,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 207974,
+        "value": 209017,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 183017,
+        "value": 183934,
         "confidence": "estimated",
         "data_points": 0
       }

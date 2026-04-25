@@ -1,6 +1,6 @@
 {
   "model_id": "bmw-530e-phev",
-  "calculated_at": "2026-04-24T19:59:08.421250+00:00",
+  "calculated_at": "2026-04-25T07:35:40.788069+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 369482,
-    "monthly_cost": 7698,
-    "cost_per_mil": 62,
+    "total_cost": 556298,
+    "monthly_cost": 11590,
+    "cost_per_mil": 93,
     "breakdown": {
-      "depreciation": 250352,
+      "depreciation": 437168,
       "fuel": 66600,
       "tax": 3640,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 550352,
-        "confidence": "low",
-        "data_points": 27
+        "value": 213900,
+        "confidence": "medium",
+        "data_points": 250
       },
       {
         "year": 2,
-        "value": 484309,
-        "confidence": "low",
-        "data_points": 24
+        "value": 213900,
+        "confidence": "medium",
+        "data_points": 250
       },
       {
         "year": 3,
-        "value": 426192,
-        "confidence": "low",
-        "data_points": 21
+        "value": 213900,
+        "confidence": "medium",
+        "data_points": 250
       },
       {
         "year": 4,
-        "value": 375048,
+        "value": 188232,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 330043,
+        "value": 165644,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 290437,
+        "value": 145766,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 255585,
+        "value": 128274,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 224915,
+        "value": 112881,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "high",
   "data_quality_notes": []
 }

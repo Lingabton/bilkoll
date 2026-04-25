@@ -1,48 +1,67 @@
 {
   "model_id": "dacia-sandero-tce",
-  "scraped_at": "2026-04-24T19:59:03.016636+00:00",
-  "source": "estimated_placeholder",
-  "price_type": "estimated_placeholder",
+  "scraped_at": "2026-04-25T07:24:34.517108+00:00",
+  "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 175912,
-      "count": 27,
-      "total_on_page": 27,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 204228,
+      "count": 57,
+      "total_on_page": 57,
+      "price_type": "estimated_transaction",
+      "p5_price": 157170,
+      "p95_price": 241707,
+      "min_price": 147870,
+      "max_price": 241707,
+      "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 154802,
-      "count": 24,
-      "total_on_page": 24,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 171910,
+      "count": 28,
+      "total_on_page": 28,
+      "price_type": "estimated_transaction",
+      "p5_price": 125457,
+      "p95_price": 221247,
+      "min_price": 116157,
+      "max_price": 239010,
+      "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 136226,
-      "count": 21,
-      "total_on_page": 21,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 120807,
+      "count": 74,
+      "total_on_page": 74,
+      "price_type": "estimated_transaction",
+      "p5_price": 102207,
+      "p95_price": 167307,
+      "min_price": 101370,
+      "max_price": 176607
     },
     "2022": {
-      "median_price": 119879,
-      "count": 18,
-      "total_on_page": 18,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 111507,
+      "count": 52,
+      "total_on_page": 52,
+      "price_type": "estimated_transaction",
+      "p5_price": 97557,
+      "p95_price": 139407,
+      "min_price": 96720,
+      "max_price": 153357,
+      "median_mileage_mil": 3379
     },
     "2021": {
-      "median_price": 105493,
-      "count": 15,
-      "total_on_page": 15,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 120807,
+      "count": 9,
+      "total_on_page": 9,
+      "price_type": "estimated_transaction",
+      "p5_price": 87978,
+      "p95_price": 178467,
+      "min_price": 87978,
+      "max_price": 178467
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 5,
+    "is_monotonic": false,
+    "min_count_per_year": 9,
     "confidence": "low"
   }
 }

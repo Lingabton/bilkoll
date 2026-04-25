@@ -1,62 +1,91 @@
 {
   "model_id": "bmw-330e-phev",
-  "scraped_at": "2026-04-24T19:59:03.017803+00:00",
-  "source": "estimated_placeholder",
-  "price_type": "estimated_placeholder",
+  "scraped_at": "2026-04-25T07:10:07.669345+00:00",
+  "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 483912,
-      "count": 27,
-      "total_on_page": 27,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 213900,
+      "count": 200,
+      "total_on_page": 199,
+      "price_type": "estimated_transaction",
+      "p5_price": 37107,
+      "p95_price": 539307,
+      "min_price": 35805,
+      "max_price": 543864,
+      "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 425842,
-      "count": 24,
-      "total_on_page": 24,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 213900,
+      "count": 200,
+      "total_on_page": 199,
+      "price_type": "estimated_transaction",
+      "p5_price": 37107,
+      "p95_price": 539307,
+      "min_price": 35805,
+      "max_price": 543864,
+      "median_mileage_mil": 20250
     },
     "2023": {
-      "median_price": 374741,
-      "count": 21,
-      "total_on_page": 21,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 213900,
+      "count": 200,
+      "total_on_page": 199,
+      "price_type": "estimated_transaction",
+      "p5_price": 37107,
+      "p95_price": 539307,
+      "min_price": 35805,
+      "max_price": 543864,
+      "median_mileage_mil": 20250
     },
     "2022": {
-      "median_price": 329772,
-      "count": 18,
-      "total_on_page": 18,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 213900,
+      "count": 200,
+      "total_on_page": 199,
+      "price_type": "estimated_transaction",
+      "p5_price": 37107,
+      "p95_price": 539307,
+      "min_price": 35805,
+      "max_price": 543864,
+      "median_mileage_mil": 20250
     },
     "2021": {
-      "median_price": 290199,
-      "count": 15,
-      "total_on_page": 15,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 213900,
+      "count": 200,
+      "total_on_page": 199,
+      "price_type": "estimated_transaction",
+      "p5_price": 37107,
+      "p95_price": 539307,
+      "min_price": 35805,
+      "max_price": 543864,
+      "median_mileage_mil": 20250
     },
     "2020": {
-      "median_price": 255375,
-      "count": 12,
-      "total_on_page": 12,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 213900,
+      "count": 200,
+      "total_on_page": 199,
+      "price_type": "estimated_transaction",
+      "p5_price": 37107,
+      "p95_price": 539307,
+      "min_price": 35805,
+      "max_price": 543864,
+      "median_mileage_mil": 20250
     },
     "2019": {
-      "median_price": 224730,
-      "count": 9,
-      "total_on_page": 9,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 213900,
+      "count": 200,
+      "total_on_page": 199,
+      "price_type": "estimated_transaction",
+      "p5_price": 37107,
+      "p95_price": 539307,
+      "min_price": 35805,
+      "max_price": 543864,
+      "median_mileage_mil": 20250
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 5,
-    "confidence": "low"
+    "min_count_per_year": 200,
+    "confidence": "high"
   }
 }

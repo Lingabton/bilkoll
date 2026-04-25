@@ -1,34 +1,47 @@
 {
   "model_id": "mercedes-e-220d",
-  "scraped_at": "2026-04-24T19:59:03.016009+00:00",
-  "source": "estimated_placeholder",
-  "price_type": "estimated_placeholder",
+  "scraped_at": "2026-04-25T06:42:59.266545+00:00",
+  "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 492712,
-      "count": 27,
-      "total_on_page": 27,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 213900,
+      "count": 250,
+      "total_on_page": 233,
+      "price_type": "estimated_transaction",
+      "p5_price": 37107,
+      "p95_price": 539307,
+      "min_price": 35805,
+      "max_price": 543864,
+      "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 433586,
-      "count": 24,
-      "total_on_page": 24,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 213900,
+      "count": 250,
+      "total_on_page": 233,
+      "price_type": "estimated_transaction",
+      "p5_price": 37107,
+      "p95_price": 539307,
+      "min_price": 35805,
+      "max_price": 543864,
+      "median_mileage_mil": 20250
     },
     "2023": {
-      "median_price": 381556,
-      "count": 21,
-      "total_on_page": 21,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 213900,
+      "count": 250,
+      "total_on_page": 233,
+      "price_type": "estimated_transaction",
+      "p5_price": 37107,
+      "p95_price": 539307,
+      "min_price": 35805,
+      "max_price": 543864,
+      "median_mileage_mil": 20250
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 5,
-    "confidence": "low"
+    "min_count_per_year": 250,
+    "confidence": "high"
   }
 }

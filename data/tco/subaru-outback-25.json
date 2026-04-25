@@ -1,6 +1,6 @@
 {
   "model_id": "subaru-outback-25",
-  "calculated_at": "2026-04-24T19:59:08.415398+00:00",
+  "calculated_at": "2026-04-25T07:35:40.783517+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 358905,
-    "monthly_cost": 7477,
-    "cost_per_mil": 60,
+    "total_cost": 282426,
+    "monthly_cost": 5884,
+    "cost_per_mil": 47,
     "breakdown": {
-      "depreciation": 172091,
+      "depreciation": 95612,
       "fuel": 95460,
       "tax": 48664,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 378312,
-        "confidence": "low",
-        "data_points": 27
+        "value": 395508,
+        "confidence": "adjusted",
+        "data_points": 149
       },
       {
         "year": 2,
-        "value": 332914,
-        "confidence": "low",
-        "data_points": 24
+        "value": 390507,
+        "confidence": "medium",
+        "data_points": 29
       },
       {
         "year": 3,
-        "value": 292964,
-        "confidence": "low",
-        "data_points": 21
+        "value": 353307,
+        "confidence": "medium",
+        "data_points": 31
       },
       {
         "year": 4,
-        "value": 257809,
-        "confidence": "low",
-        "data_points": 18
+        "value": 334288,
+        "confidence": "medium",
+        "data_points": 30
       },
       {
         "year": 5,
-        "value": 226871,
-        "confidence": "low",
-        "data_points": 15
+        "value": 315270,
+        "confidence": "medium",
+        "data_points": 13
       },
       {
         "year": 6,
-        "value": 199646,
+        "value": 277437,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 175688,
+        "value": 244145,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 154606,
+        "value": 214847,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "medium",
   "data_quality_notes": []
 }

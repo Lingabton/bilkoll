@@ -1,6 +1,6 @@
 {
   "model_id": "hyundai-tucson-hybrid",
-  "calculated_at": "2026-04-24T19:59:08.408985+00:00",
+  "calculated_at": "2026-04-25T07:35:40.777251+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 264039,
-    "monthly_cost": 5501,
-    "cost_per_mil": 44,
+    "total_cost": 205284,
+    "monthly_cost": 4277,
+    "cost_per_mil": 34,
     "breakdown": {
-      "depreciation": 132061,
+      "depreciation": 73306,
       "fuel": 71040,
       "tax": 22748,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 290312,
-        "confidence": "low",
-        "data_points": 27
+        "value": 303508,
+        "confidence": "adjusted",
+        "data_points": 35
       },
       {
         "year": 2,
-        "value": 255474,
-        "confidence": "low",
-        "data_points": 24
+        "value": 279227,
+        "confidence": "adjusted",
+        "data_points": 23
       },
       {
         "year": 3,
-        "value": 224817,
-        "confidence": "low",
-        "data_points": 21
+        "value": 278907,
+        "confidence": "medium",
+        "data_points": 20
       },
       {
         "year": 4,
-        "value": 197839,
-        "confidence": "low",
-        "data_points": 18
+        "value": 256594,
+        "confidence": "adjusted",
+        "data_points": 57
       },
       {
         "year": 5,
-        "value": 174098,
-        "confidence": "low",
-        "data_points": 15
+        "value": 250077,
+        "confidence": "medium",
+        "data_points": 34
       },
       {
         "year": 6,
-        "value": 153206,
+        "value": 220067,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 134821,
+        "value": 193659,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 118642,
+        "value": 170420,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "medium",
   "data_quality_notes": []
 }

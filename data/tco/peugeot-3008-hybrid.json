@@ -1,6 +1,6 @@
 {
   "model_id": "peugeot-3008-hybrid",
-  "calculated_at": "2026-04-24T19:59:08.418430+00:00",
+  "calculated_at": "2026-04-25T07:35:40.786400+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 274514,
-    "monthly_cost": 5719,
-    "cost_per_mil": 46,
+    "total_cost": 325962,
+    "monthly_cost": 6791,
+    "cost_per_mil": 54,
     "breakdown": {
-      "depreciation": 152077,
+      "depreciation": 203525,
       "fuel": 61050,
       "tax": 19897,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 334312,
-        "confidence": "low",
-        "data_points": 27
+        "value": 371907,
+        "confidence": "medium",
+        "data_points": 73
       },
       {
         "year": 2,
-        "value": 294194,
-        "confidence": "low",
-        "data_points": 24
+        "value": 227757,
+        "confidence": "medium",
+        "data_points": 85
       },
       {
         "year": 3,
-        "value": 258890,
+        "value": 200426,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 227823,
+        "value": 176375,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 200484,
+        "value": 155210,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 176426,
+        "value": 136584,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 155255,
+        "value": 120194,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 136624,
+        "value": 105771,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "high",
   "data_quality_notes": []
 }

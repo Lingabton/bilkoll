@@ -1,6 +1,6 @@
 {
   "model_id": "vw-passat-etsi",
-  "calculated_at": "2026-04-24T19:59:08.414591+00:00",
+  "calculated_at": "2026-04-25T07:35:40.782971+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 308438,
-    "monthly_cost": 6426,
-    "cost_per_mil": 51,
+    "total_cost": 319697,
+    "monthly_cost": 6660,
+    "cost_per_mil": 53,
     "breakdown": {
-      "depreciation": 175294,
+      "depreciation": 186553,
       "fuel": 66600,
       "tax": 19554,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 385352,
-        "confidence": "low",
-        "data_points": 27
+        "value": 432078,
+        "confidence": "medium",
+        "data_points": 14
       },
       {
         "year": 2,
-        "value": 339109,
-        "confidence": "low",
-        "data_points": 24
+        "value": 324570,
+        "confidence": "medium",
+        "data_points": 30
       },
       {
         "year": 3,
-        "value": 298415,
+        "value": 285621,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 262606,
+        "value": 251347,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 231093,
+        "value": 221185,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 203362,
+        "value": 194643,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 178958,
+        "value": 171285,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 157483,
+        "value": 150731,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "medium",
   "data_quality_notes": []
 }

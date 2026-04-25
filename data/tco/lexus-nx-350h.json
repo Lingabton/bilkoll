@@ -1,6 +1,6 @@
 {
   "model_id": "lexus-nx-350h",
-  "calculated_at": "2026-04-24T19:59:08.423526+00:00",
+  "calculated_at": "2026-04-25T07:35:40.790585+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 371171,
-    "monthly_cost": 7733,
-    "cost_per_mil": 62,
+    "total_cost": 147000,
+    "monthly_cost": 3062,
+    "cost_per_mil": 24,
     "breakdown": {
-      "depreciation": 224171,
+      "depreciation": 0,
       "fuel": 66600,
       "tax": 26510,
       "insurance": {
@@ -29,54 +29,6 @@
         "year": 0,
         "value": 560000,
         "confidence": "fixed",
-        "data_points": 0
-      },
-      {
-        "year": 1,
-        "value": 492800,
-        "confidence": "low",
-        "data_points": 27
-      },
-      {
-        "year": 2,
-        "value": 433664,
-        "confidence": "low",
-        "data_points": 24
-      },
-      {
-        "year": 3,
-        "value": 381624,
-        "confidence": "low",
-        "data_points": 21
-      },
-      {
-        "year": 4,
-        "value": 335829,
-        "confidence": "low",
-        "data_points": 18
-      },
-      {
-        "year": 5,
-        "value": 295529,
-        "confidence": "low",
-        "data_points": 15
-      },
-      {
-        "year": 6,
-        "value": 260065,
-        "confidence": "estimated",
-        "data_points": 0
-      },
-      {
-        "year": 7,
-        "value": 228857,
-        "confidence": "estimated",
-        "data_points": 0
-      },
-      {
-        "year": 8,
-        "value": 201394,
-        "confidence": "estimated",
         "data_points": 0
       }
     ]

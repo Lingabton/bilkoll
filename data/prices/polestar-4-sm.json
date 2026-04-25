@@ -1,27 +1,36 @@
 {
   "model_id": "polestar-4-sm",
-  "scraped_at": "2026-04-23T22:21:22.695685+00:00",
-  "source": "estimated_placeholder",
-  "price_type": "estimated_placeholder",
+  "scraped_at": "2026-04-25T05:44:08.061663+00:00",
+  "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 691680,
-      "count": 27,
-      "total_on_page": 27,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
-    },
-    "2024": {
-      "median_price": 608678,
+      "median_price": 632307,
       "count": 24,
       "total_on_page": 24,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "price_type": "estimated_transaction",
+      "p5_price": 482670,
+      "p95_price": 691920,
+      "min_price": 474021,
+      "max_price": 753207,
+      "median_mileage_mil": 20252
+    },
+    "2024": {
+      "median_price": 573807,
+      "count": 42,
+      "total_on_page": 42,
+      "price_type": "estimated_transaction",
+      "p5_price": 483507,
+      "p95_price": 650814,
+      "min_price": 469640,
+      "max_price": 753207,
+      "median_mileage_mil": 20242
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 5,
-    "confidence": "low"
+    "min_count_per_year": 24,
+    "confidence": "medium"
   }
 }

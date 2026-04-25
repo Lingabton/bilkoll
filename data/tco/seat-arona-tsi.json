@@ -1,6 +1,6 @@
 {
   "model_id": "seat-arona-tsi",
-  "calculated_at": "2026-04-24T19:59:08.422042+00:00",
+  "calculated_at": "2026-04-25T07:35:40.789248+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 229272,
-    "monthly_cost": 4776,
-    "cost_per_mil": 38,
+    "total_cost": 234469,
+    "monthly_cost": 4885,
+    "cost_per_mil": 39,
     "breakdown": {
-      "depreciation": 112046,
+      "depreciation": 117243,
       "fuel": 62160,
       "tax": 21076,
       "insurance": {
@@ -33,49 +33,55 @@
       },
       {
         "year": 1,
-        "value": 246312,
-        "confidence": "low",
-        "data_points": 27
+        "value": 199857,
+        "confidence": "medium",
+        "data_points": 13
       },
       {
         "year": 2,
-        "value": 216754,
-        "confidence": "low",
-        "data_points": 24
+        "value": 176188,
+        "confidence": "medium",
+        "data_points": 16
       },
       {
         "year": 3,
-        "value": 190744,
-        "confidence": "low",
-        "data_points": 21
+        "value": 162657,
+        "confidence": "medium",
+        "data_points": 44
       },
       {
         "year": 4,
-        "value": 167854,
-        "confidence": "low",
-        "data_points": 18
+        "value": 162657,
+        "confidence": "medium",
+        "data_points": 28
       },
       {
         "year": 5,
-        "value": 147712,
-        "confidence": "low",
-        "data_points": 15
+        "value": 145963,
+        "confidence": "medium",
+        "data_points": 8
       },
       {
         "year": 6,
-        "value": 129986,
-        "confidence": "low",
-        "data_points": 12
-      },
-      {
-        "year": 7,
-        "value": 114388,
-        "confidence": "low",
+        "value": 143685,
+        "confidence": "medium",
         "data_points": 9
       },
       {
+        "year": 7,
+        "value": 116064,
+        "confidence": "medium",
+        "data_points": 13
+      },
+      {
         "year": 8,
-        "value": 100661,
+        "value": 106778,
+        "confidence": "adjusted",
+        "data_points": 11
+      },
+      {
+        "year": 9,
+        "value": 106310,
         "confidence": "estimated",
         "data_points": 0
       }

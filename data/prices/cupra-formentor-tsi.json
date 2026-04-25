@@ -1,55 +1,65 @@
 {
   "model_id": "cupra-formentor-tsi",
-  "scraped_at": "2026-04-23T22:21:22.695851+00:00",
-  "source": "estimated_placeholder",
-  "price_type": "estimated_placeholder",
+  "scraped_at": "2026-04-25T05:45:55.520964+00:00",
+  "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 378312,
-      "count": 27,
-      "total_on_page": 27,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 376557,
+      "count": 34,
+      "total_on_page": 34,
+      "price_type": "estimated_transaction",
+      "p5_price": 288207,
+      "p95_price": 501735,
+      "min_price": 287370,
+      "max_price": 568695,
+      "median_mileage_mil": 20251
     },
     "2024": {
-      "median_price": 332914,
-      "count": 24,
-      "total_on_page": 24,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 288207,
+      "count": 48,
+      "total_on_page": 48,
+      "price_type": "estimated_transaction",
+      "p5_price": 250077,
+      "p95_price": 343170,
+      "min_price": 250077,
+      "max_price": 520707
     },
     "2023": {
-      "median_price": 292964,
-      "count": 21,
-      "total_on_page": 21,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 251007,
+      "count": 35,
+      "total_on_page": 35,
+      "price_type": "estimated_transaction",
+      "p5_price": 227757,
+      "p95_price": 460257,
+      "min_price": 213714,
+      "max_price": 483507
     },
     "2022": {
-      "median_price": 257809,
-      "count": 18,
-      "total_on_page": 18,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 234313,
+      "count": 20,
+      "total_on_page": 20,
+      "price_type": "estimated_transaction",
+      "p5_price": 213807,
+      "p95_price": 316107,
+      "min_price": 207297,
+      "max_price": 316107
     },
     "2021": {
-      "median_price": 226871,
-      "count": 15,
-      "total_on_page": 15,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
-    },
-    "2020": {
-      "median_price": 199647,
-      "count": 12,
-      "total_on_page": 12,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 278070,
+      "count": 23,
+      "total_on_page": 23,
+      "price_type": "estimated_transaction",
+      "p5_price": 232035,
+      "p95_price": 334707,
+      "min_price": 208785,
+      "max_price": 334707
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 5,
-    "confidence": "low"
+    "is_monotonic": false,
+    "min_count_per_year": 20,
+    "confidence": "medium"
   }
 }

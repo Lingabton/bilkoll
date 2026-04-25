@@ -1,34 +1,25 @@
 {
   "model_id": "mg-mg4-standard",
-  "scraped_at": "2026-04-23T22:21:22.695506+00:00",
-  "source": "estimated_placeholder",
-  "price_type": "estimated_placeholder",
+  "scraped_at": "2026-04-25T02:07:53.796106+00:00",
+  "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
-    "2025": {
-      "median_price": 263991,
-      "count": 27,
-      "total_on_page": 27,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
-    },
-    "2024": {
-      "median_price": 232312,
-      "count": 24,
-      "total_on_page": 24,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
-    },
     "2023": {
-      "median_price": 204434,
-      "count": 21,
-      "total_on_page": 21,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 246357,
+      "count": 56,
+      "total_on_page": 56,
+      "price_type": "estimated_transaction",
+      "p5_price": 185907,
+      "p95_price": 378268,
+      "min_price": 175770,
+      "max_price": 378268,
+      "median_mileage_mil": 20230
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 5,
-    "confidence": "low"
+    "min_count_per_year": 56,
+    "confidence": "high"
   }
 }

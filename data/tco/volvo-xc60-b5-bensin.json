@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc60-b5-bensin",
-  "calculated_at": "2026-04-24T19:59:08.395701+00:00",
+  "calculated_at": "2026-04-25T07:35:40.765134+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 439364,
-    "monthly_cost": 9153,
-    "cost_per_mil": 73,
+    "total_cost": 478057,
+    "monthly_cost": 9960,
+    "cost_per_mil": 80,
     "breakdown": {
-      "depreciation": 298100,
+      "depreciation": 336793,
       "fuel": 83250,
       "tax": 3024,
       "insurance": {
@@ -33,60 +33,60 @@
       },
       {
         "year": 1,
-        "value": 604900,
+        "value": 583482,
         "confidence": "medium",
-        "data_points": 25
+        "data_points": 140
       },
       {
         "year": 2,
-        "value": 467000,
+        "value": 483507,
         "confidence": "medium",
-        "data_points": 40
+        "data_points": 225
       },
       {
         "year": 3,
-        "value": 444800,
+        "value": 401946,
         "confidence": "medium",
-        "data_points": 83
+        "data_points": 250
       },
       {
         "year": 4,
-        "value": 419900,
+        "value": 381207,
         "confidence": "medium",
-        "data_points": 37
+        "data_points": 222
       },
       {
         "year": 5,
-        "value": 368900,
+        "value": 344978,
         "confidence": "medium",
-        "data_points": 105
+        "data_points": 250
       },
       {
         "year": 6,
-        "value": 349900,
+        "value": 325407,
         "confidence": "medium",
-        "data_points": 72
+        "data_points": 242
       },
       {
         "year": 7,
-        "value": 329900,
+        "value": 297507,
         "confidence": "medium",
-        "data_points": 53
+        "data_points": 195
       },
       {
         "year": 8,
-        "value": 319000,
+        "value": 278907,
         "confidence": "medium",
-        "data_points": 70
+        "data_points": 177
       },
       {
         "year": 9,
-        "value": 280720,
+        "value": 245438,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "high",
   "data_quality_notes": []
 }

@@ -1,48 +1,64 @@
 {
   "model_id": "ford-mustang-mach-e-rwd",
-  "scraped_at": "2026-04-23T22:21:22.694327+00:00",
-  "source": "estimated_placeholder",
-  "price_type": "estimated_placeholder",
+  "scraped_at": "2026-04-25T05:29:24.459596+00:00",
+  "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 615120,
-      "count": 27,
-      "total_on_page": 27,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 708985,
+      "count": 4,
+      "total_on_page": 4,
+      "price_type": "estimated_transaction",
+      "min_price": 603570,
+      "max_price": 715170,
+      "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 541305,
-      "count": 24,
-      "total_on_page": 24,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 632028,
+      "count": 3,
+      "total_on_page": 3,
+      "price_type": "estimated_transaction",
+      "min_price": 557907,
+      "max_price": 637515,
+      "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 476348,
-      "count": 21,
-      "total_on_page": 21,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 481740,
+      "count": 11,
+      "total_on_page": 11,
+      "price_type": "estimated_transaction",
+      "p5_price": 353307,
+      "p95_price": 622914,
+      "min_price": 353307,
+      "max_price": 622914,
+      "median_mileage_mil": 20230
     },
     "2022": {
-      "median_price": 419187,
-      "count": 18,
-      "total_on_page": 18,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 309220,
+      "count": 52,
+      "total_on_page": 52,
+      "price_type": "estimated_transaction",
+      "p5_price": 248775,
+      "p95_price": 373850,
+      "min_price": 195207,
+      "max_price": 388740
     },
     "2021": {
-      "median_price": 368884,
-      "count": 15,
-      "total_on_page": 15,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 325407,
+      "count": 93,
+      "total_on_page": 93,
+      "price_type": "estimated_transaction",
+      "p5_price": 259470,
+      "p95_price": 446307,
+      "min_price": 251007,
+      "max_price": 747441,
+      "median_mileage_mil": 20210
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 5,
+    "is_monotonic": false,
+    "min_count_per_year": 3,
     "confidence": "low"
   }
 }

@@ -1,60 +1,65 @@
 {
   "model_id": "volvo-xc40-recharge",
-  "scraped_at": "2026-03-30T22:34:27.682753+00:00",
+  "scraped_at": "2026-04-24T21:35:36.478586+00:00",
   "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 549900,
+      "median_price": 511407,
       "count": 1,
       "total_on_page": 1,
+      "price_type": "estimated_transaction",
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 399000,
-      "count": 25,
-      "total_on_page": 49,
-      "p5_price": 349500,
-      "p95_price": 429000,
-      "min_price": 339000,
-      "max_price": 439000,
-      "median_mileage_mil": 20243
+      "median_price": 376371,
+      "count": 30,
+      "total_on_page": 30,
+      "price_type": "estimated_transaction",
+      "p5_price": 316107,
+      "p95_price": 418407,
+      "min_price": 315270,
+      "max_price": 445470
     },
     "2023": {
-      "median_price": 309000,
-      "count": 25,
-      "total_on_page": 928,
-      "p5_price": 269000,
-      "p95_price": 328500,
-      "min_price": 254900,
-      "max_price": 349900
+      "median_price": 288114,
+      "count": 250,
+      "total_on_page": 771,
+      "price_type": "estimated_transaction",
+      "p5_price": 255657,
+      "p95_price": 325407,
+      "min_price": 213807,
+      "max_price": 383150
     },
     "2022": {
-      "median_price": 299500,
-      "count": 25,
-      "total_on_page": 508,
-      "p5_price": 249700,
-      "p95_price": 318500,
-      "min_price": 244900,
-      "max_price": 319500
+      "median_price": 288207,
+      "count": 250,
+      "total_on_page": 343,
+      "price_type": "estimated_transaction",
+      "p5_price": 255657,
+      "p95_price": 316107,
+      "min_price": 217620,
+      "max_price": 344007
     },
     "2021": {
-      "median_price": 322400,
-      "count": 18,
-      "total_on_page": 18,
-      "p5_price": 219900,
-      "p95_price": 719900,
-      "min_price": 219900,
-      "max_price": 719900,
+      "median_price": 278070,
+      "count": 19,
+      "total_on_page": 19,
+      "price_type": "estimated_transaction",
+      "p5_price": 204507,
+      "p95_price": 669507,
+      "min_price": 204507,
+      "max_price": 669507,
       "median_mileage_mil": 20210
     },
     "2020": {
-      "median_price": 339000,
-      "count": 5,
-      "total_on_page": 5,
-      "p5_price": 279000,
-      "p95_price": 374800,
-      "min_price": 279000,
-      "max_price": 374800
+      "median_price": 308667,
+      "count": 4,
+      "total_on_page": 4,
+      "price_type": "estimated_transaction",
+      "min_price": 259470,
+      "max_price": 348564
     }
   },
   "validation": {

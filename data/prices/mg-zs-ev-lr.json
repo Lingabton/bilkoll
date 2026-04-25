@@ -1,48 +1,52 @@
 {
   "model_id": "mg-zs-ev-lr",
-  "scraped_at": "2026-04-24T19:59:03.019494+00:00",
-  "source": "estimated_placeholder",
-  "price_type": "estimated_placeholder",
+  "scraped_at": "2026-04-25T07:21:36.281420+00:00",
+  "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
-    "2025": {
-      "median_price": 263912,
-      "count": 27,
-      "total_on_page": 27,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
-    },
     "2024": {
-      "median_price": 232242,
-      "count": 24,
-      "total_on_page": 24,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 246357,
+      "count": 1,
+      "total_on_page": 1,
+      "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 204373,
-      "count": 21,
-      "total_on_page": 21,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 278907,
+      "count": 22,
+      "total_on_page": 22,
+      "price_type": "estimated_transaction",
+      "p5_price": 204507,
+      "p95_price": 311540,
+      "min_price": 190557,
+      "max_price": 416630,
+      "median_mileage_mil": 20230
     },
     "2022": {
-      "median_price": 179848,
-      "count": 18,
-      "total_on_page": 18,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 199857,
+      "count": 50,
+      "total_on_page": 53,
+      "price_type": "estimated_transaction",
+      "p5_price": 181257,
+      "p95_price": 246357,
+      "min_price": 167307,
+      "max_price": 288207,
+      "median_mileage_mil": 20220
     },
     "2021": {
-      "median_price": 158266,
-      "count": 15,
-      "total_on_page": 15,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 195295,
+      "count": 53,
+      "total_on_page": 53,
+      "price_type": "estimated_transaction",
+      "p5_price": 125457,
+      "p95_price": 236964,
+      "min_price": 121830,
+      "max_price": 260307
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 5,
+    "is_monotonic": false,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

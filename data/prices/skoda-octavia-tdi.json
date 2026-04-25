@@ -1,53 +1,62 @@
 {
   "model_id": "skoda-octavia-tdi",
-  "scraped_at": "2026-04-02T00:03:38.035725+00:00",
+  "scraped_at": "2026-04-24T20:57:12.716676+00:00",
   "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
     "2024": {
-      "median_price": 379900,
-      "count": 2,
-      "total_on_page": 2
+      "median_price": 352470,
+      "count": 3,
+      "total_on_page": 3,
+      "price_type": "estimated_transaction",
+      "min_price": 325407,
+      "max_price": 362607
     },
     "2023": {
-      "median_price": 266500,
-      "count": 10,
-      "total_on_page": 10,
-      "p5_price": 189900,
-      "p95_price": 319900,
-      "min_price": 189900,
-      "max_price": 319900
+      "median_price": 258540,
+      "count": 11,
+      "total_on_page": 11,
+      "price_type": "estimated_transaction",
+      "p5_price": 176653,
+      "p95_price": 297507,
+      "min_price": 176653,
+      "max_price": 297507
     },
     "2022": {
-      "median_price": 239900,
-      "count": 31,
-      "total_on_page": 31,
-      "p5_price": 189900,
-      "p95_price": 329900,
-      "min_price": 169900,
-      "max_price": 329900
+      "median_price": 223107,
+      "count": 29,
+      "total_on_page": 29,
+      "price_type": "estimated_transaction",
+      "p5_price": 176514,
+      "p95_price": 306807,
+      "min_price": 153450,
+      "max_price": 306807
     },
     "2021": {
-      "median_price": 224445,
-      "count": 8,
-      "total_on_page": 8,
-      "p5_price": 168900,
-      "p95_price": 286500,
-      "min_price": 168900,
-      "max_price": 286500
+      "median_price": 204507,
+      "count": 7,
+      "total_on_page": 7,
+      "price_type": "estimated_transaction",
+      "p5_price": 157077,
+      "p95_price": 260121,
+      "min_price": 157077,
+      "max_price": 260121
     },
     "2020": {
-      "median_price": 242350,
-      "count": 6,
-      "total_on_page": 6,
-      "p5_price": 143000,
-      "p95_price": 279900,
-      "min_price": 143000,
-      "max_price": 279900
+      "median_price": 204507,
+      "count": 9,
+      "total_on_page": 9,
+      "price_type": "estimated_transaction",
+      "p5_price": 124620,
+      "p95_price": 260307,
+      "min_price": 124620,
+      "max_price": 260307
     }
   },
   "validation": {
-    "is_monotonic": false,
-    "min_count_per_year": 2,
+    "is_monotonic": true,
+    "min_count_per_year": 3,
     "confidence": "low"
   }
 }

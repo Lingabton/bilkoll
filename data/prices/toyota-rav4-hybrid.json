@@ -1,75 +1,82 @@
 {
   "model_id": "toyota-rav4-hybrid",
-  "scraped_at": "2026-03-30T22:40:22.895642+00:00",
+  "scraped_at": "2026-04-24T20:46:16.110006+00:00",
   "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 554900,
-      "count": 18,
-      "total_on_page": 18,
-      "p5_price": 464900,
-      "p95_price": 599900,
-      "min_price": 464900,
-      "max_price": 599900
+      "median_price": 520707,
+      "count": 21,
+      "total_on_page": 21,
+      "price_type": "estimated_transaction",
+      "p5_price": 483414,
+      "p95_price": 548607,
+      "min_price": 432357,
+      "max_price": 557907
     },
     "2024": {
-      "median_price": 514450,
-      "count": 16,
-      "total_on_page": 16,
-      "p5_price": 389900,
-      "p95_price": 559900,
-      "min_price": 389900,
-      "max_price": 559900
+      "median_price": 464907,
+      "count": 15,
+      "total_on_page": 15,
+      "price_type": "estimated_transaction",
+      "p5_price": 343170,
+      "p95_price": 502107,
+      "min_price": 343170,
+      "max_price": 502107
     },
     "2023": {
-      "median_price": 459000,
-      "count": 25,
-      "total_on_page": 40,
-      "p5_price": 359800,
-      "p95_price": 499900,
-      "min_price": 336800,
-      "max_price": 499900
+      "median_price": 427242,
+      "count": 38,
+      "total_on_page": 38,
+      "price_type": "estimated_transaction",
+      "p5_price": 334707,
+      "p95_price": 510570,
+      "min_price": 334707,
+      "max_price": 520707
     },
     "2022": {
-      "median_price": 384900,
-      "count": 25,
+      "median_price": 349628,
+      "count": 30,
       "total_on_page": 31,
-      "p5_price": 334900,
-      "p95_price": 459000,
-      "min_price": 319900,
-      "max_price": 479900
+      "price_type": "estimated_transaction",
+      "p5_price": 278907,
+      "p95_price": 418314,
+      "min_price": 269514,
+      "max_price": 446307
     },
     "2021": {
-      "median_price": 329900,
-      "count": 25,
-      "total_on_page": 72,
-      "p5_price": 269000,
-      "p95_price": 393900,
-      "min_price": 254900,
-      "max_price": 399900
+      "median_price": 318385,
+      "count": 54,
+      "total_on_page": 53,
+      "price_type": "estimated_transaction",
+      "p5_price": 212970,
+      "p95_price": 380277,
+      "min_price": 182280,
+      "max_price": 399807
     },
     "2020": {
-      "median_price": 335990,
+      "median_price": 306807,
       "count": 23,
       "total_on_page": 23,
-      "p5_price": 267000,
-      "p95_price": 399900,
-      "min_price": 248750,
-      "max_price": 415000
+      "price_type": "estimated_transaction",
+      "p5_price": 232407,
+      "p95_price": 362607,
+      "min_price": 231337,
+      "max_price": 371907
     },
     "2019": {
-      "median_price": 294900,
-      "count": 5,
-      "total_on_page": 5,
-      "p5_price": 249000,
-      "p95_price": 369900,
-      "min_price": 249000,
-      "max_price": 369900
+      "median_price": 260307,
+      "count": 3,
+      "total_on_page": 3,
+      "price_type": "estimated_transaction",
+      "min_price": 194370,
+      "max_price": 274257
     }
   },
   "validation": {
-    "is_monotonic": false,
-    "min_count_per_year": 5,
+    "is_monotonic": true,
+    "min_count_per_year": 3,
     "confidence": "low"
   }
 }

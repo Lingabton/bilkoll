@@ -1,6 +1,6 @@
 {
   "model_id": "dacia-jogger-tce",
-  "calculated_at": "2026-04-24T19:59:08.399716+00:00",
+  "calculated_at": "2026-04-25T07:35:40.769477+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 234740,
-    "monthly_cost": 4890,
-    "cost_per_mil": 39,
+    "total_cost": 245833,
+    "monthly_cost": 5122,
+    "cost_per_mil": 41,
     "breakdown": {
-      "depreciation": 110100,
+      "depreciation": 121193,
       "fuel": 68820,
       "tax": 22330,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 248308,
-        "confidence": "adjusted",
-        "data_points": 23
+        "value": 254262,
+        "confidence": "medium",
+        "data_points": 16
       },
       {
         "year": 2,
-        "value": 228443,
-        "confidence": "adjusted",
-        "data_points": 7
-      },
-      {
-        "year": 3,
-        "value": 227200,
+        "value": 241288,
         "confidence": "medium",
         "data_points": 8
       },
       {
-        "year": 4,
-        "value": 159800,
+        "year": 3,
+        "value": 176607,
         "confidence": "medium",
-        "data_points": 19
+        "data_points": 11
+      },
+      {
+        "year": 4,
+        "value": 148707,
+        "confidence": "medium",
+        "data_points": 15
       },
       {
         "year": 5,
-        "value": 140624,
+        "value": 130862,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 123749,
+        "value": 115158,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 108899,
+        "value": 101339,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 95831,
+        "value": 89178,
         "confidence": "estimated",
         "data_points": 0
       }

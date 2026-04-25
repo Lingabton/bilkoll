@@ -1,6 +1,6 @@
 {
   "model_id": "suzuki-s-cross-hybrid",
-  "calculated_at": "2026-04-24T19:59:08.411523+00:00",
+  "calculated_at": "2026-04-25T07:35:40.780135+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 263405,
-    "monthly_cost": 5488,
-    "cost_per_mil": 44,
+    "total_cost": 221989,
+    "monthly_cost": 4625,
+    "cost_per_mil": 37,
     "breakdown": {
-      "depreciation": 142069,
+      "depreciation": 100653,
       "fuel": 64380,
       "tax": 23166,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 312312,
-        "confidence": "low",
-        "data_points": 27
+        "value": 326508,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 2,
-        "value": 274834,
-        "confidence": "low",
-        "data_points": 24
+        "value": 300387,
+        "confidence": "adjusted",
+        "data_points": 1
       },
       {
         "year": 3,
-        "value": 241854,
-        "confidence": "low",
-        "data_points": 21
+        "value": 276356,
+        "confidence": "adjusted",
+        "data_points": 5
       },
       {
         "year": 4,
-        "value": 212831,
-        "confidence": "low",
-        "data_points": 18
+        "value": 254247,
+        "confidence": "adjusted",
+        "data_points": 4
       },
       {
         "year": 5,
-        "value": 187291,
+        "value": 233907,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 164816,
+        "value": 215194,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 145038,
+        "value": 197978,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 127633,
+        "value": 182139,
         "confidence": "estimated",
         "data_points": 0
       }

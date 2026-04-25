@@ -1,55 +1,45 @@
 {
   "model_id": "tesla-model-y-lr",
-  "scraped_at": "2026-03-30T22:33:17.608706+00:00",
+  "scraped_at": "2026-04-24T20:39:24.116392+00:00",
   "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 458900,
-      "count": 3,
-      "total_on_page": 3,
-      "min_price": 399900,
-      "max_price": 505000
+      "median_price": 460257,
+      "count": 8,
+      "total_on_page": 8,
+      "price_type": "estimated_transaction",
+      "p5_price": 116250,
+      "p95_price": 510570,
+      "min_price": 116250,
+      "max_price": 510570
     },
     "2024": {
-      "median_price": 412990,
-      "count": 25,
-      "total_on_page": 53,
-      "p5_price": 355990,
-      "p95_price": 456990,
-      "min_price": 355990,
-      "max_price": 476990
+      "median_price": 409107,
+      "count": 50,
+      "total_on_page": 50,
+      "price_type": "estimated_transaction",
+      "p5_price": 353390,
+      "p95_price": 464814,
+      "min_price": 315270,
+      "max_price": 511500,
+      "median_mileage_mil": 1200
     },
     "2023": {
-      "median_price": 364900,
+      "median_price": 343170,
       "count": 25,
-      "total_on_page": 146,
-      "p5_price": 309000,
-      "p95_price": 398000,
-      "min_price": 303000,
-      "max_price": 398900
-    },
-    "2022": {
-      "median_price": 349800,
-      "count": 25,
-      "total_on_page": 138,
-      "p5_price": 289900,
-      "p95_price": 395990,
-      "min_price": 279795,
-      "max_price": 412990
-    },
-    "2021": {
-      "median_price": 319800,
-      "count": 25,
-      "total_on_page": 54,
-      "p5_price": 279700,
-      "p95_price": 368100,
-      "min_price": 249900,
-      "max_price": 392800
+      "total_on_page": 109,
+      "price_type": "estimated_transaction",
+      "p5_price": 274350,
+      "p95_price": 408260,
+      "min_price": 269700,
+      "max_price": 410120
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 3,
+    "min_count_per_year": 8,
     "confidence": "low"
   }
 }

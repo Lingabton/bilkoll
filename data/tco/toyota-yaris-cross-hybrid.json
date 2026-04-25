@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-yaris-cross-hybrid",
-  "calculated_at": "2026-04-24T19:59:08.401582+00:00",
+  "calculated_at": "2026-04-25T07:35:40.771100+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 201290,
-    "monthly_cost": 4194,
-    "cost_per_mil": 34,
+    "total_cost": 224133,
+    "monthly_cost": 4669,
+    "cost_per_mil": 37,
     "breakdown": {
-      "depreciation": 93700,
+      "depreciation": 116543,
       "fuel": 57720,
       "tax": 13380,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 309000,
+        "value": 278907,
         "confidence": "medium",
-        "data_points": 46
+        "data_points": 57
       },
       {
         "year": 2,
-        "value": 284900,
+        "value": 260307,
         "confidence": "medium",
-        "data_points": 53
+        "data_points": 49
       },
       {
         "year": 3,
-        "value": 274800,
+        "value": 255610,
         "confidence": "medium",
-        "data_points": 74
+        "data_points": 78
       },
       {
         "year": 4,
-        "value": 259900,
+        "value": 237057,
         "confidence": "medium",
-        "data_points": 83
+        "data_points": 63
       },
       {
         "year": 5,
-        "value": 239108,
+        "value": 218092,
         "confidence": "adjusted",
-        "data_points": 12
+        "data_points": 9
       },
       {
         "year": 6,
-        "value": 219979,
+        "value": 200644,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 216406,
+        "value": 194379,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 190437,
+        "value": 171054,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "low",
   "data_quality_notes": []
 }

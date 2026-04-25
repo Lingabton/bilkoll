@@ -1,62 +1,116 @@
 {
   "model_id": "volvo-v90-t6-phev",
-  "scraped_at": "2026-04-24T19:59:03.015783+00:00",
-  "source": "estimated_placeholder",
-  "price_type": "estimated_placeholder",
+  "scraped_at": "2026-04-25T06:32:53.202552+00:00",
+  "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 550000,
+      "median_price": 502107,
       "count": 27,
       "total_on_page": 27,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "price_type": "estimated_transaction",
+      "p5_price": 418035,
+      "p95_price": 566184,
+      "min_price": 371907,
+      "max_price": 640770,
+      "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 484000,
-      "count": 24,
-      "total_on_page": 24,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 422685,
+      "count": 59,
+      "total_on_page": 58,
+      "price_type": "estimated_transaction",
+      "p5_price": 329499,
+      "p95_price": 511407,
+      "min_price": 324570,
+      "max_price": 627750
     },
     "2023": {
-      "median_price": 425920,
-      "count": 21,
-      "total_on_page": 21,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 353307,
+      "count": 105,
+      "total_on_page": 106,
+      "price_type": "estimated_transaction",
+      "p5_price": 278070,
+      "p95_price": 446307,
+      "min_price": 153450,
+      "max_price": 501270
     },
     "2022": {
-      "median_price": 374809,
-      "count": 18,
-      "total_on_page": 18,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 325407,
+      "count": 115,
+      "total_on_page": 116,
+      "price_type": "estimated_transaction",
+      "p5_price": 185907,
+      "p95_price": 436170,
+      "min_price": 116250,
+      "max_price": 483135
     },
     "2021": {
-      "median_price": 329832,
-      "count": 15,
-      "total_on_page": 15,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 305877,
+      "count": 95,
+      "total_on_page": 96,
+      "price_type": "estimated_transaction",
+      "p5_price": 227757,
+      "p95_price": 381207,
+      "min_price": 204507,
+      "max_price": 631470
     },
     "2020": {
-      "median_price": 290252,
-      "count": 12,
-      "total_on_page": 12,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 269235,
+      "count": 157,
+      "total_on_page": 157,
+      "price_type": "estimated_transaction",
+      "p5_price": 157170,
+      "p95_price": 334707,
+      "min_price": 106950,
+      "max_price": 371907
     },
     "2019": {
-      "median_price": 255422,
-      "count": 9,
-      "total_on_page": 9,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 232360,
+      "count": 110,
+      "total_on_page": 110,
+      "price_type": "estimated_transaction",
+      "p5_price": 158007,
+      "p95_price": 305877,
+      "min_price": 120899,
+      "max_price": 371070,
+      "median_mileage_mil": 6174
+    },
+    "2018": {
+      "median_price": 210087,
+      "count": 191,
+      "total_on_page": 193,
+      "price_type": "estimated_transaction",
+      "p5_price": 147870,
+      "p95_price": 297414,
+      "min_price": 111507,
+      "max_price": 344007
+    },
+    "2017": {
+      "median_price": 176700,
+      "count": 164,
+      "total_on_page": 163,
+      "price_type": "estimated_transaction",
+      "p5_price": 138570,
+      "p95_price": 260307,
+      "min_price": 118947,
+      "max_price": 315270
+    },
+    "2016": {
+      "median_price": 206832,
+      "count": 56,
+      "total_on_page": 52,
+      "price_type": "estimated_transaction",
+      "p5_price": 153357,
+      "p95_price": 292764,
+      "min_price": 134757,
+      "max_price": 352470
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 5,
-    "confidence": "low"
+    "is_monotonic": false,
+    "min_count_per_year": 27,
+    "confidence": "medium"
   }
 }

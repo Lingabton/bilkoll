@@ -1,41 +1,56 @@
 {
   "model_id": "toyota-bz4x-fwd",
-  "scraped_at": "2026-04-23T22:21:22.695589+00:00",
-  "source": "estimated_placeholder",
-  "price_type": "estimated_placeholder",
+  "scraped_at": "2026-04-25T05:43:29.611193+00:00",
+  "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 422312,
-      "count": 27,
-      "total_on_page": 27,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 455188,
+      "count": 34,
+      "total_on_page": 34,
+      "price_type": "estimated_transaction",
+      "p5_price": 371907,
+      "p95_price": 557907,
+      "min_price": 302157,
+      "max_price": 557907,
+      "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 371634,
-      "count": 24,
-      "total_on_page": 24,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 418407,
+      "count": 42,
+      "total_on_page": 42,
+      "price_type": "estimated_transaction",
+      "p5_price": 344100,
+      "p95_price": 464907,
+      "min_price": 302157,
+      "max_price": 501270,
+      "median_mileage_mil": 20241
     },
     "2023": {
-      "median_price": 327038,
-      "count": 21,
-      "total_on_page": 21,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 334707,
+      "count": 50,
+      "total_on_page": 54,
+      "price_type": "estimated_transaction",
+      "p5_price": 278907,
+      "p95_price": 389670,
+      "min_price": 278070,
+      "max_price": 437007
     },
     "2022": {
-      "median_price": 287793,
-      "count": 18,
-      "total_on_page": 18,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 330057,
+      "count": 8,
+      "total_on_page": 8,
+      "price_type": "estimated_transaction",
+      "p5_price": 315177,
+      "p95_price": 371907,
+      "min_price": 315177,
+      "max_price": 371907
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 5,
+    "min_count_per_year": 8,
     "confidence": "low"
   }
 }

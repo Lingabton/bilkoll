@@ -1,6 +1,6 @@
 {
   "model_id": "skoda-superb-tsi",
-  "calculated_at": "2026-04-24T19:59:08.423133+00:00",
+  "calculated_at": "2026-04-25T07:35:40.790228+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 297611,
-    "monthly_cost": 6200,
-    "cost_per_mil": 50,
+    "total_cost": 267512,
+    "monthly_cost": 5573,
+    "cost_per_mil": 45,
     "breakdown": {
-      "depreciation": 172131,
+      "depreciation": 142032,
       "fuel": 61050,
       "tax": 20240,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 378400,
-        "confidence": "low",
-        "data_points": 27
+        "value": 395600,
+        "confidence": "adjusted",
+        "data_points": 16
       },
       {
         "year": 2,
-        "value": 332992,
-        "confidence": "low",
-        "data_points": 24
+        "value": 371860,
+        "confidence": "medium",
+        "data_points": 14
       },
       {
         "year": 3,
-        "value": 293032,
+        "value": 327236,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 257869,
+        "value": 287968,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 226924,
+        "value": 253412,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 199693,
+        "value": 223002,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 175730,
+        "value": 196242,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 154642,
+        "value": 172693,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "medium",
   "data_quality_notes": []
 }

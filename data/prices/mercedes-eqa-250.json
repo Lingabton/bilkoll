@@ -1,48 +1,44 @@
 {
   "model_id": "mercedes-eqa-250",
-  "scraped_at": "2026-04-23T22:21:22.694871+00:00",
-  "source": "estimated_placeholder",
-  "price_type": "estimated_placeholder",
+  "scraped_at": "2026-04-25T06:36:59.395901+00:00",
+  "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
-    "2025": {
-      "median_price": 465520,
-      "count": 27,
-      "total_on_page": 27,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
-    },
-    "2024": {
-      "median_price": 409657,
-      "count": 24,
-      "total_on_page": 24,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
-    },
     "2023": {
-      "median_price": 360498,
-      "count": 21,
-      "total_on_page": 21,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 343170,
+      "count": 7,
+      "total_on_page": 7,
+      "price_type": "estimated_transaction",
+      "p5_price": 278070,
+      "p95_price": 399807,
+      "min_price": 278070,
+      "max_price": 399807
     },
     "2022": {
-      "median_price": 317238,
-      "count": 18,
-      "total_on_page": 18,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 330057,
+      "count": 10,
+      "total_on_page": 10,
+      "price_type": "estimated_transaction",
+      "p5_price": 305970,
+      "p95_price": 353307,
+      "min_price": 305970,
+      "max_price": 353307
     },
     "2021": {
-      "median_price": 279170,
-      "count": 15,
-      "total_on_page": 15,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 296670,
+      "count": 12,
+      "total_on_page": 12,
+      "price_type": "estimated_transaction",
+      "p5_price": 269421,
+      "p95_price": 343170,
+      "min_price": 269421,
+      "max_price": 343170
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 5,
+    "min_count_per_year": 7,
     "confidence": "low"
   }
 }

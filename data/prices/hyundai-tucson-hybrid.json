@@ -1,48 +1,67 @@
 {
   "model_id": "hyundai-tucson-hybrid",
-  "scraped_at": "2026-04-23T22:21:22.695226+00:00",
-  "source": "estimated_placeholder",
-  "price_type": "estimated_placeholder",
+  "scraped_at": "2026-04-25T05:40:03.430400+00:00",
+  "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 290312,
-      "count": 27,
-      "total_on_page": 27,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 426870,
+      "count": 35,
+      "total_on_page": 33,
+      "price_type": "estimated_transaction",
+      "p5_price": 371070,
+      "p95_price": 464070,
+      "min_price": 334707,
+      "max_price": 488157,
+      "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 255474,
-      "count": 24,
-      "total_on_page": 24,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 387800,
+      "count": 23,
+      "total_on_page": 23,
+      "price_type": "estimated_transaction",
+      "p5_price": 306807,
+      "p95_price": 446307,
+      "min_price": 306807,
+      "max_price": 524148,
+      "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 224817,
-      "count": 21,
-      "total_on_page": 21,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 278907,
+      "count": 20,
+      "total_on_page": 20,
+      "price_type": "estimated_transaction",
+      "p5_price": 246450,
+      "p95_price": 464070,
+      "min_price": 240870,
+      "max_price": 464070
     },
     "2022": {
-      "median_price": 197839,
-      "count": 18,
-      "total_on_page": 18,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 288207,
+      "count": 57,
+      "total_on_page": 57,
+      "price_type": "estimated_transaction",
+      "p5_price": 223107,
+      "p95_price": 344007,
+      "min_price": 185907,
+      "max_price": 381114,
+      "median_mileage_mil": 20220
     },
     "2021": {
-      "median_price": 174098,
-      "count": 15,
-      "total_on_page": 15,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 250077,
+      "count": 34,
+      "total_on_page": 36,
+      "price_type": "estimated_transaction",
+      "p5_price": 195207,
+      "p95_price": 306807,
+      "min_price": 176607,
+      "max_price": 325407
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 5,
-    "confidence": "low"
+    "is_monotonic": false,
+    "min_count_per_year": 20,
+    "confidence": "medium"
   }
 }

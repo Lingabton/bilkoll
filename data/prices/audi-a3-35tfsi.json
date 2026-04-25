@@ -1,55 +1,77 @@
 {
   "model_id": "audi-a3-35tfsi",
-  "scraped_at": "2026-04-24T19:59:03.015903+00:00",
-  "source": "estimated_placeholder",
-  "price_type": "estimated_placeholder",
+  "scraped_at": "2026-04-25T06:35:56.537913+00:00",
+  "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 346720,
-      "count": 27,
-      "total_on_page": 27,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 287370,
+      "count": 45,
+      "total_on_page": 45,
+      "price_type": "estimated_transaction",
+      "p5_price": 259470,
+      "p95_price": 353307,
+      "min_price": 241707,
+      "max_price": 371907,
+      "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 305113,
-      "count": 24,
-      "total_on_page": 24,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 262585,
+      "count": 30,
+      "total_on_page": 30,
+      "price_type": "estimated_transaction",
+      "p5_price": 204135,
+      "p95_price": 305970,
+      "min_price": 204135,
+      "max_price": 305970,
+      "median_mileage_mil": 20241
     },
     "2023": {
-      "median_price": 268499,
-      "count": 21,
-      "total_on_page": 21,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 227152,
+      "count": 136,
+      "total_on_page": 136,
+      "price_type": "estimated_transaction",
+      "p5_price": 203670,
+      "p95_price": 260307,
+      "min_price": 185070,
+      "max_price": 385857
     },
     "2022": {
-      "median_price": 236279,
-      "count": 18,
-      "total_on_page": 18,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 231570,
+      "count": 36,
+      "total_on_page": 36,
+      "price_type": "estimated_transaction",
+      "p5_price": 184791,
+      "p95_price": 320757,
+      "min_price": 157914,
+      "max_price": 325407
     },
     "2021": {
-      "median_price": 207926,
-      "count": 15,
-      "total_on_page": 15,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 208785,
+      "count": 30,
+      "total_on_page": 30,
+      "price_type": "estimated_transaction",
+      "p5_price": 181350,
+      "p95_price": 278070,
+      "min_price": 181257,
+      "max_price": 278907,
+      "median_mileage_mil": 7414
     },
     "2020": {
-      "median_price": 182975,
-      "count": 12,
-      "total_on_page": 12,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 185070,
+      "count": 41,
+      "total_on_page": 41,
+      "price_type": "estimated_transaction",
+      "p5_price": 148614,
+      "p95_price": 222270,
+      "min_price": 120807,
+      "max_price": 268770
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 5,
-    "confidence": "low"
+    "is_monotonic": false,
+    "min_count_per_year": 30,
+    "confidence": "medium"
   }
 }

@@ -1,48 +1,13 @@
 {
   "model_id": "fiat-500e-42",
-  "scraped_at": "2026-04-23T22:21:22.696231+00:00",
-  "source": "estimated_placeholder",
-  "price_type": "estimated_placeholder",
-  "years": {
-    "2025": {
-      "median_price": 287672,
-      "count": 27,
-      "total_on_page": 27,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
-    },
-    "2024": {
-      "median_price": 253151,
-      "count": 24,
-      "total_on_page": 24,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
-    },
-    "2023": {
-      "median_price": 222773,
-      "count": 21,
-      "total_on_page": 21,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
-    },
-    "2022": {
-      "median_price": 196040,
-      "count": 18,
-      "total_on_page": 18,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
-    },
-    "2021": {
-      "median_price": 172515,
-      "count": 15,
-      "total_on_page": 15,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
-    }
-  },
+  "scraped_at": "2026-04-25T02:09:33.346370+00:00",
+  "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
+  "years": {},
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 5,
+    "min_count_per_year": 0,
     "confidence": "low"
   }
 }

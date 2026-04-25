@@ -1,6 +1,6 @@
 {
   "model_id": "nissan-qashqai-epower",
-  "calculated_at": "2026-04-24T19:59:08.421846+00:00",
+  "calculated_at": "2026-04-25T07:35:40.788880+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 270251,
-    "monthly_cost": 5630,
-    "cost_per_mil": 45,
+    "total_cost": 258914,
+    "monthly_cost": 5394,
+    "cost_per_mil": 43,
     "breakdown": {
-      "depreciation": 155359,
+      "depreciation": 144022,
       "fuel": 57720,
       "tax": 18182,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 341528,
-        "confidence": "low",
-        "data_points": 27
+        "value": 326709,
+        "confidence": "medium",
+        "data_points": 85
       },
       {
         "year": 2,
-        "value": 300544,
-        "confidence": "low",
-        "data_points": 24
+        "value": 325174,
+        "confidence": "medium",
+        "data_points": 66
       },
       {
         "year": 3,
-        "value": 264479,
-        "confidence": "low",
-        "data_points": 21
+        "value": 260307,
+        "confidence": "medium",
+        "data_points": 44
       },
       {
         "year": 4,
-        "value": 232741,
-        "confidence": "low",
-        "data_points": 18
+        "value": 244078,
+        "confidence": "medium",
+        "data_points": 62
       },
       {
         "year": 5,
-        "value": 204812,
-        "confidence": "low",
-        "data_points": 15
+        "value": 186000,
+        "confidence": "medium",
+        "data_points": 25
       },
       {
         "year": 6,
-        "value": 180234,
+        "value": 163680,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 158606,
+        "value": 144038,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 139573,
+        "value": 126753,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "medium",
   "data_quality_notes": []
 }

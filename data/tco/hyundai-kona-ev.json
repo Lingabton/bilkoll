@@ -1,6 +1,6 @@
 {
   "model_id": "hyundai-kona-ev",
-  "calculated_at": "2026-04-24T19:59:08.400915+00:00",
+  "calculated_at": "2026-04-25T07:35:40.770460+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 302854,
-    "monthly_cost": 6309,
-    "cost_per_mil": 50,
+    "total_cost": 280697,
+    "monthly_cost": 5848,
+    "cost_per_mil": 47,
     "breakdown": {
-      "depreciation": 235000,
+      "depreciation": 212843,
       "fuel": 16524,
       "tax": 1440,
       "insurance": {
@@ -35,47 +35,47 @@
         "year": 1,
         "value": 413908,
         "confidence": "adjusted",
-        "data_points": 3
+        "data_points": 1
       },
       {
         "year": 2,
-        "value": 369900,
+        "value": 330057,
         "confidence": "medium",
-        "data_points": 19
+        "data_points": 20
       },
       {
         "year": 3,
-        "value": 340308,
+        "value": 303652,
         "confidence": "adjusted",
-        "data_points": 19
+        "data_points": 20
       },
       {
         "year": 4,
-        "value": 214900,
+        "value": 237057,
         "confidence": "medium",
-        "data_points": 26
+        "data_points": 19
       },
       {
         "year": 5,
-        "value": 198500,
+        "value": 209157,
         "confidence": "medium",
-        "data_points": 13
+        "data_points": 7
       },
       {
         "year": 6,
-        "value": 182620,
-        "confidence": "adjusted",
-        "data_points": 30
+        "value": 194974,
+        "confidence": "medium",
+        "data_points": 22
       },
       {
         "year": 7,
-        "value": 168010,
-        "confidence": "adjusted",
-        "data_points": 6
+        "value": 194370,
+        "confidence": "medium",
+        "data_points": 8
       },
       {
         "year": 8,
-        "value": 154569,
+        "value": 171045,
         "confidence": "estimated",
         "data_points": 0
       }

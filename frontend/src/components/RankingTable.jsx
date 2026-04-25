@@ -6,16 +6,17 @@ export default function RankingTable({ cars, selected, onSelect }) {
     hybrid: { label: "Hybrid", bg: "bg-blue-50", text: "text-blue-700", border: "border-blue-200" },
     bensin: { label: "Bensin", bg: "bg-amber-50", text: "text-amber-700", border: "border-amber-200" },
     diesel: { label: "Diesel", bg: "bg-slate-100", text: "text-slate-600", border: "border-slate-200" },
+    laddhybrid: { label: "PHEV", bg: "bg-violet-50", text: "text-violet-700", border: "border-violet-200" },
   }
 
   return (
     <div>
-      <div className="flex items-baseline justify-between mb-4">
+      <div className="flex items-baseline justify-between mb-3 sm:mb-4">
         <h2 className="text-sm font-bold text-slate-900 font-display">{cars.length} modeller</h2>
-        <span className="text-[11px] text-slate-400">Billigast per månad</span>
+        <span className="text-[11px] text-slate-400">Sorterat: billigast per månad</span>
       </div>
 
-      <div className="space-y-2">
+      <div className="space-y-1.5 sm:space-y-2" role="list" aria-label="Bilmodeller sorterade efter månadskostnad">
         {cars.map((car, i) => {
           const isSelected = selected === car.id
           const fc = fuelConfig[car.fuel] || fuelConfig.bensin
@@ -25,12 +26,15 @@ export default function RankingTable({ cars, selected, onSelect }) {
             <button
               key={car.id}
               onClick={() => onSelect(car.id)}
+              role="listitem"
+              aria-selected={isSelected}
+              aria-label={`${car.make} ${car.model}, ${car.monthly_cost.toLocaleString('sv-SE')} kr per månad`}
               className={`ranking-item group w-full text-left rounded-xl border transition-all duration-200 cursor-pointer relative overflow-hidden ${
                 isSelected
                   ? "bg-white border-sky-200 shadow-md ring-1 ring-sky-100"
                   : "bg-white border-slate-200 hover:border-slate-300 hover:shadow-sm"
               }`}
-              style={{ animationDelay: `${i * 30}ms` }}
+              style={{ animationDelay: `${Math.min(i, 15) * 30}ms` }}
             >
               {/* Cost bar */}
               <div
@@ -38,9 +42,9 @@ export default function RankingTable({ cars, selected, onSelect }) {
                 style={{ width: `${barWidth}%` }}
               />
 
-              <div className="relative px-4 py-3.5 flex items-center justify-between gap-4">
-                <div className="flex items-center gap-3 min-w-0">
-                  <div className={`w-7 h-7 rounded-lg flex items-center justify-center text-xs font-bold shrink-0 ${
+              <div className="relative px-3 py-3 sm:px-4 sm:py-3.5 flex items-center justify-between gap-3 sm:gap-4">
+                <div className="flex items-center gap-2.5 sm:gap-3 min-w-0">
+                  <div className={`w-6 h-6 sm:w-7 sm:h-7 rounded-lg flex items-center justify-center text-[11px] sm:text-xs font-bold shrink-0 ${
                     i === 0 ? 'bg-emerald-100 text-emerald-700' :
                     i <= 2 ? 'bg-slate-100 text-slate-600' :
                     'bg-slate-50 text-slate-400'
@@ -49,23 +53,23 @@ export default function RankingTable({ cars, selected, onSelect }) {
                   </div>
 
                   <div className="min-w-0">
-                    <div className="font-semibold text-[14px] text-slate-900 truncate">{car.make} {car.model}</div>
-                    <div className="flex items-center gap-2 mt-0.5">
-                      <span className={`text-[10px] font-semibold px-1.5 py-0.5 rounded ${fc.bg} ${fc.text} border ${fc.border}`}>
+                    <div className="font-semibold text-[13px] sm:text-[14px] text-slate-900 truncate">{car.make} {car.model}</div>
+                    <div className="flex items-center gap-1.5 sm:gap-2 mt-0.5">
+                      <span className={`text-[9px] sm:text-[10px] font-semibold px-1.5 py-0.5 rounded ${fc.bg} ${fc.text} border ${fc.border}`}>
                         {fc.label}
                       </span>
-                      <span className="text-[11px] text-slate-400 truncate">{car.variant}</span>
+                      <span className="text-[10px] sm:text-[11px] text-slate-400 truncate hidden sm:inline">{car.variant}</span>
                     </div>
                   </div>
                 </div>
 
                 <div className="text-right shrink-0">
-                  <div className="font-mono font-bold text-[18px] text-slate-900 tabular-nums">
+                  <div className="font-mono font-bold text-[16px] sm:text-[18px] text-slate-900 tabular-nums">
                     {car.monthly_cost.toLocaleString('sv-SE')}
-                    <span className="text-[11px] font-normal text-slate-400 ml-1">kr/mån</span>
+                    <span className="text-[10px] sm:text-[11px] font-normal text-slate-400 ml-1">kr/mån</span>
                   </div>
-                  <div className="text-[11px] text-slate-400 font-mono tabular-nums">
-                    {car.cost_per_mil} kr/mil &middot; {Math.round(car.newPrice / 1000)}k ny
+                  <div className="text-[10px] sm:text-[11px] text-slate-400 font-mono tabular-nums">
+                    {car.cost_per_mil} kr/mil
                   </div>
                 </div>
               </div>

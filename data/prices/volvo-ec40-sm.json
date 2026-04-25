@@ -1,48 +1,48 @@
 {
   "model_id": "volvo-ec40-sm",
-  "scraped_at": "2026-04-24T19:59:03.014695+00:00",
-  "source": "estimated_placeholder",
-  "price_type": "estimated_placeholder",
+  "scraped_at": "2026-04-25T06:11:55.767331+00:00",
+  "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
-    "2025": {
-      "median_price": 510312,
-      "count": 27,
-      "total_on_page": 27,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
-    },
     "2024": {
-      "median_price": 449074,
-      "count": 24,
-      "total_on_page": 24,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 385903,
+      "count": 2,
+      "total_on_page": 2,
+      "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 395185,
-      "count": 21,
-      "total_on_page": 21,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 311038,
+      "count": 250,
+      "total_on_page": 270,
+      "price_type": "estimated_transaction",
+      "p5_price": 277884,
+      "p95_price": 381207,
+      "min_price": 232407,
+      "max_price": 408270
     },
     "2022": {
-      "median_price": 347763,
-      "count": 18,
-      "total_on_page": 18,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 302157,
+      "count": 250,
+      "total_on_page": 271,
+      "price_type": "estimated_transaction",
+      "p5_price": 269607,
+      "p95_price": 348657,
+      "min_price": 256494,
+      "max_price": 380835
     },
     "2021": {
-      "median_price": 306031,
-      "count": 15,
-      "total_on_page": 15,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 344007,
+      "count": 4,
+      "total_on_page": 4,
+      "price_type": "estimated_transaction",
+      "min_price": 329871,
+      "max_price": 362607
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 5,
+    "is_monotonic": false,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

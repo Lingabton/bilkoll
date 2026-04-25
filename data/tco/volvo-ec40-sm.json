@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-ec40-sm",
-  "calculated_at": "2026-04-24T19:59:08.414204+00:00",
+  "calculated_at": "2026-04-25T07:35:40.782587+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 290035,
-    "monthly_cost": 6042,
-    "cost_per_mil": 48,
+    "total_cost": 335641,
+    "monthly_cost": 6993,
+    "cost_per_mil": 56,
     "breakdown": {
-      "depreciation": 232137,
+      "depreciation": 277743,
       "fuel": 18468,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 510312,
-        "confidence": "low",
-        "data_points": 27
+        "value": 339594,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 2,
-        "value": 449074,
-        "confidence": "low",
-        "data_points": 24
+        "value": 312426,
+        "confidence": "adjusted",
+        "data_points": 2
       },
       {
         "year": 3,
-        "value": 395185,
-        "confidence": "low",
-        "data_points": 21
+        "value": 311038,
+        "confidence": "medium",
+        "data_points": 250
       },
       {
         "year": 4,
-        "value": 347763,
-        "confidence": "low",
-        "data_points": 18
+        "value": 302157,
+        "confidence": "medium",
+        "data_points": 250
       },
       {
         "year": 5,
-        "value": 306031,
-        "confidence": "low",
-        "data_points": 15
+        "value": 277984,
+        "confidence": "adjusted",
+        "data_points": 4
       },
       {
         "year": 6,
-        "value": 269307,
+        "value": 255745,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 236990,
+        "value": 235285,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 208551,
+        "value": 234431,
         "confidence": "estimated",
         "data_points": 0
       }

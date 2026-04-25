@@ -1,41 +1,55 @@
 {
   "model_id": "toyota-corolla-cross-hybrid",
-  "scraped_at": "2026-04-24T19:59:03.015678+00:00",
-  "source": "estimated_placeholder",
-  "price_type": "estimated_placeholder",
+  "scraped_at": "2026-04-25T06:22:46.499793+00:00",
+  "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 318472,
-      "count": 27,
-      "total_on_page": 27,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 362607,
+      "count": 61,
+      "total_on_page": 61,
+      "price_type": "estimated_transaction",
+      "p5_price": 333870,
+      "p95_price": 427707,
+      "min_price": 306807,
+      "max_price": 446307,
+      "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 280255,
-      "count": 24,
-      "total_on_page": 24,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 351447,
+      "count": 57,
+      "total_on_page": 57,
+      "price_type": "estimated_transaction",
+      "p5_price": 278907,
+      "p95_price": 390507,
+      "min_price": 241707,
+      "max_price": 395157
     },
     "2023": {
-      "median_price": 246624,
-      "count": 21,
-      "total_on_page": 21,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 325407,
+      "count": 56,
+      "total_on_page": 57,
+      "price_type": "estimated_transaction",
+      "p5_price": 297507,
+      "p95_price": 362607,
+      "min_price": 213807,
+      "max_price": 371907
     },
     "2022": {
-      "median_price": 217029,
-      "count": 18,
-      "total_on_page": 18,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 316107,
+      "count": 75,
+      "total_on_page": 75,
+      "price_type": "estimated_transaction",
+      "p5_price": 296670,
+      "p95_price": 353307,
+      "min_price": 288207,
+      "max_price": 362607
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 5,
-    "confidence": "low"
+    "min_count_per_year": 56,
+    "confidence": "high"
   }
 }

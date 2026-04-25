@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-bz4x-fwd",
-  "calculated_at": "2026-04-24T19:59:08.409915+00:00",
+  "calculated_at": "2026-04-25T07:35:40.778496+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 250761,
-    "monthly_cost": 5224,
-    "cost_per_mil": 42,
+    "total_cost": 208497,
+    "monthly_cost": 4344,
+    "cost_per_mil": 35,
     "breakdown": {
-      "depreciation": 192107,
+      "depreciation": 149843,
       "fuel": 16524,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 422312,
-        "confidence": "low",
-        "data_points": 27
+        "value": 455188,
+        "confidence": "medium",
+        "data_points": 34
       },
       {
         "year": 2,
-        "value": 371634,
-        "confidence": "low",
-        "data_points": 24
+        "value": 418407,
+        "confidence": "medium",
+        "data_points": 42
       },
       {
         "year": 3,
-        "value": 327038,
-        "confidence": "low",
-        "data_points": 21
+        "value": 334707,
+        "confidence": "medium",
+        "data_points": 50
       },
       {
         "year": 4,
-        "value": 287793,
-        "confidence": "low",
-        "data_points": 18
+        "value": 330057,
+        "confidence": "medium",
+        "data_points": 8
       },
       {
         "year": 5,
-        "value": 253257,
+        "value": 290450,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 222866,
+        "value": 255596,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 196122,
+        "value": 224924,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 172588,
+        "value": 197933,
         "confidence": "estimated",
         "data_points": 0
       }

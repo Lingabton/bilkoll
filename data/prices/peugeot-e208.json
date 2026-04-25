@@ -1,52 +1,53 @@
 {
   "model_id": "peugeot-e208",
-  "scraped_at": "2026-04-01T23:49:31.268052+00:00",
+  "scraped_at": "2026-04-24T20:52:11.304909+00:00",
   "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 359900,
+      "median_price": 334707,
       "count": 2,
       "total_on_page": 2,
+      "price_type": "estimated_transaction",
       "median_mileage_mil": 20250
     },
-    "2023": {
-      "median_price": 149900,
-      "count": 1,
-      "total_on_page": 1
-    },
     "2022": {
-      "median_price": 181450,
-      "count": 52,
-      "total_on_page": 52,
-      "p5_price": 166990,
-      "p95_price": 369900,
-      "min_price": 159900,
-      "max_price": 489435,
-      "median_mileage_mil": 10518
+      "median_price": 182745,
+      "count": 43,
+      "total_on_page": 43,
+      "price_type": "estimated_transaction",
+      "p5_price": 148521,
+      "p95_price": 344007,
+      "min_price": 116250,
+      "max_price": 455174,
+      "median_mileage_mil": 20220
     },
     "2021": {
-      "median_price": 174700,
-      "count": 26,
-      "total_on_page": 26,
-      "p5_price": 159900,
-      "p95_price": 269500,
-      "min_price": 147000,
-      "max_price": 369900,
+      "median_price": 171957,
+      "count": 21,
+      "total_on_page": 21,
+      "price_type": "estimated_transaction",
+      "p5_price": 144057,
+      "p95_price": 250635,
+      "min_price": 139314,
+      "max_price": 344007,
       "median_mileage_mil": 20210
     },
     "2020": {
-      "median_price": 154900,
-      "count": 7,
-      "total_on_page": 7,
-      "p5_price": 124900,
-      "p95_price": 169990,
-      "min_price": 124900,
-      "max_price": 169990
+      "median_price": 153357,
+      "count": 5,
+      "total_on_page": 5,
+      "price_type": "estimated_transaction",
+      "p5_price": 144057,
+      "p95_price": 165530,
+      "min_price": 144057,
+      "max_price": 165530
     }
   },
   "validation": {
-    "is_monotonic": false,
-    "min_count_per_year": 1,
+    "is_monotonic": true,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

@@ -1,49 +1,55 @@
 {
   "model_id": "hyundai-ioniq5-lr",
-  "scraped_at": "2026-04-01T23:52:23.099621+00:00",
+  "scraped_at": "2026-04-24T21:40:55.636052+00:00",
   "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 599800,
-      "count": 23,
-      "total_on_page": 23,
-      "p5_price": 429900,
-      "p95_price": 834900,
-      "min_price": 418500,
-      "max_price": 834900,
+      "median_price": 567207,
+      "count": 21,
+      "total_on_page": 21,
+      "price_type": "estimated_transaction",
+      "p5_price": 381207,
+      "p95_price": 776457,
+      "min_price": 371070,
+      "max_price": 776457,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 625395,
-      "count": 6,
-      "total_on_page": 6,
-      "p5_price": 429500,
-      "p95_price": 669800,
-      "min_price": 429500,
-      "max_price": 669800
+      "median_price": 385764,
+      "count": 8,
+      "total_on_page": 8,
+      "price_type": "estimated_transaction",
+      "p5_price": 367257,
+      "p95_price": 622914,
+      "min_price": 367257,
+      "max_price": 622914
     },
     "2023": {
-      "median_price": 434400,
-      "count": 34,
-      "total_on_page": 34,
-      "p5_price": 339800,
-      "p95_price": 499800,
-      "min_price": 324000,
-      "max_price": 499800
+      "median_price": 390507,
+      "count": 33,
+      "total_on_page": 33,
+      "price_type": "estimated_transaction",
+      "p5_price": 320757,
+      "p95_price": 455607,
+      "min_price": 320757,
+      "max_price": 464814
     },
     "2022": {
-      "median_price": 365495,
-      "count": 28,
-      "total_on_page": 28,
-      "p5_price": 309900,
-      "p95_price": 414900,
-      "min_price": 294900,
-      "max_price": 427990
+      "median_price": 340328,
+      "count": 26,
+      "total_on_page": 26,
+      "price_type": "estimated_transaction",
+      "p5_price": 288207,
+      "p95_price": 371990,
+      "min_price": 274257,
+      "max_price": 393380
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 6,
+    "min_count_per_year": 8,
     "confidence": "low"
   }
 }

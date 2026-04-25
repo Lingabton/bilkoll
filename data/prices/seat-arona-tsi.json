@@ -1,62 +1,96 @@
 {
   "model_id": "seat-arona-tsi",
-  "scraped_at": "2026-04-24T19:59:03.018848+00:00",
-  "source": "estimated_placeholder",
-  "price_type": "estimated_placeholder",
+  "scraped_at": "2026-04-25T07:15:12.160873+00:00",
+  "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 246312,
-      "count": 27,
-      "total_on_page": 27,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 199857,
+      "count": 13,
+      "total_on_page": 13,
+      "price_type": "estimated_transaction",
+      "p5_price": 185907,
+      "p95_price": 264957,
+      "min_price": 185907,
+      "max_price": 264957,
+      "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 216754,
-      "count": 24,
-      "total_on_page": 24,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 176188,
+      "count": 16,
+      "total_on_page": 16,
+      "price_type": "estimated_transaction",
+      "p5_price": 169725,
+      "p95_price": 223107,
+      "min_price": 169725,
+      "max_price": 223107
     },
     "2023": {
-      "median_price": 190744,
-      "count": 21,
-      "total_on_page": 21,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 162657,
+      "count": 44,
+      "total_on_page": 44,
+      "price_type": "estimated_transaction",
+      "p5_price": 148335,
+      "p95_price": 195207,
+      "min_price": 139407,
+      "max_price": 209250
     },
     "2022": {
-      "median_price": 167854,
-      "count": 18,
-      "total_on_page": 18,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 162657,
+      "count": 28,
+      "total_on_page": 28,
+      "price_type": "estimated_transaction",
+      "p5_price": 108810,
+      "p95_price": 185907,
+      "min_price": 101370,
+      "max_price": 185907,
+      "median_mileage_mil": 3870
     },
     "2021": {
-      "median_price": 147712,
-      "count": 15,
-      "total_on_page": 15,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 145963,
+      "count": 8,
+      "total_on_page": 8,
+      "price_type": "estimated_transaction",
+      "p5_price": 130107,
+      "p95_price": 176607,
+      "min_price": 130107,
+      "max_price": 176607
     },
     "2020": {
-      "median_price": 129986,
-      "count": 12,
-      "total_on_page": 12,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
-    },
-    "2019": {
-      "median_price": 114388,
+      "median_price": 143685,
       "count": 9,
       "total_on_page": 9,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "price_type": "estimated_transaction",
+      "p5_price": 111507,
+      "p95_price": 158007,
+      "min_price": 111507,
+      "max_price": 158007
+    },
+    "2019": {
+      "median_price": 116064,
+      "count": 13,
+      "total_on_page": 13,
+      "price_type": "estimated_transaction",
+      "p5_price": 92535,
+      "p95_price": 158007,
+      "min_price": 92535,
+      "max_price": 158007
+    },
+    "2018": {
+      "median_price": 120807,
+      "count": 11,
+      "total_on_page": 11,
+      "price_type": "estimated_transaction",
+      "p5_price": 104625,
+      "p95_price": 147870,
+      "min_price": 104625,
+      "max_price": 147870
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 5,
+    "is_monotonic": false,
+    "min_count_per_year": 8,
     "confidence": "low"
   }
 }

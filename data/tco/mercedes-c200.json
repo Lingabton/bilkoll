@@ -1,6 +1,6 @@
 {
   "model_id": "mercedes-c200",
-  "calculated_at": "2026-04-24T19:59:08.420276+00:00",
+  "calculated_at": "2026-04-25T07:35:40.787529+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 284989,
-    "monthly_cost": 5937,
+    "total_cost": 283920,
+    "monthly_cost": 5915,
     "cost_per_mil": 47,
     "breakdown": {
-      "depreciation": 142069,
+      "depreciation": 141000,
       "fuel": 68820,
       "tax": 26510,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 312312,
-        "confidence": "low",
-        "data_points": 27
+        "value": 213900,
+        "confidence": "medium",
+        "data_points": 250
       },
       {
         "year": 2,
-        "value": 274834,
-        "confidence": "low",
-        "data_points": 24
+        "value": 213900,
+        "confidence": "medium",
+        "data_points": 250
       },
       {
         "year": 3,
-        "value": 241854,
-        "confidence": "low",
-        "data_points": 21
+        "value": 213900,
+        "confidence": "medium",
+        "data_points": 250
       },
       {
         "year": 4,
-        "value": 212831,
-        "confidence": "low",
-        "data_points": 18
+        "value": 213900,
+        "confidence": "medium",
+        "data_points": 250
       },
       {
         "year": 5,
-        "value": 187292,
-        "confidence": "low",
-        "data_points": 15
+        "value": 213900,
+        "confidence": "medium",
+        "data_points": 250
       },
       {
         "year": 6,
-        "value": 164816,
+        "value": 188232,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 145038,
+        "value": 165644,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 127634,
+        "value": 145766,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "high",
   "data_quality_notes": []
 }

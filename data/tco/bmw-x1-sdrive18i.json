@@ -1,6 +1,6 @@
 {
   "model_id": "bmw-x1-sdrive18i",
-  "calculated_at": "2026-04-24T19:59:08.421453+00:00",
+  "calculated_at": "2026-04-25T07:35:40.788343+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 323542,
-    "monthly_cost": 6740,
-    "cost_per_mil": 54,
+    "total_cost": 295437,
+    "monthly_cost": 6155,
+    "cost_per_mil": 49,
     "breakdown": {
-      "depreciation": 180138,
+      "depreciation": 152033,
       "fuel": 73260,
       "tax": 29854,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 396000,
-        "confidence": "low",
-        "data_points": 27
+        "value": 441843,
+        "confidence": "medium",
+        "data_points": 77
       },
       {
         "year": 2,
-        "value": 348480,
-        "confidence": "low",
-        "data_points": 24
+        "value": 432357,
+        "confidence": "medium",
+        "data_points": 12
       },
       {
         "year": 3,
-        "value": 306662,
-        "confidence": "low",
+        "value": 418314,
+        "confidence": "medium",
         "data_points": 21
       },
       {
         "year": 4,
-        "value": 269862,
-        "confidence": "low",
-        "data_points": 18
+        "value": 297967,
+        "confidence": "medium",
+        "data_points": 20
       },
       {
         "year": 5,
-        "value": 237478,
+        "value": 262210,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 208981,
+        "value": 230745,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 183903,
+        "value": 203056,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 161834,
+        "value": 178689,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "medium",
   "data_quality_notes": []
 }

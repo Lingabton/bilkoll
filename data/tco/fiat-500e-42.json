@@ -1,6 +1,6 @@
 {
   "model_id": "fiat-500e-42",
-  "calculated_at": "2026-04-24T19:59:08.411758+00:00",
+  "calculated_at": "2026-04-25T07:35:40.780453+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 180670,
-    "monthly_cost": 3764,
-    "cost_per_mil": 30,
+    "total_cost": 49810,
+    "monthly_cost": 1038,
+    "cost_per_mil": 8,
     "breakdown": {
-      "depreciation": 130860,
+      "depreciation": 0,
       "fuel": 14580,
       "tax": 1440,
       "insurance": {
@@ -29,54 +29,6 @@
         "year": 0,
         "value": 326900,
         "confidence": "fixed",
-        "data_points": 0
-      },
-      {
-        "year": 1,
-        "value": 287672,
-        "confidence": "low",
-        "data_points": 27
-      },
-      {
-        "year": 2,
-        "value": 253151,
-        "confidence": "low",
-        "data_points": 24
-      },
-      {
-        "year": 3,
-        "value": 222773,
-        "confidence": "low",
-        "data_points": 21
-      },
-      {
-        "year": 4,
-        "value": 196040,
-        "confidence": "low",
-        "data_points": 18
-      },
-      {
-        "year": 5,
-        "value": 172515,
-        "confidence": "low",
-        "data_points": 15
-      },
-      {
-        "year": 6,
-        "value": 151813,
-        "confidence": "estimated",
-        "data_points": 0
-      },
-      {
-        "year": 7,
-        "value": 133595,
-        "confidence": "estimated",
-        "data_points": 0
-      },
-      {
-        "year": 8,
-        "value": 117564,
-        "confidence": "estimated",
         "data_points": 0
       }
     ]

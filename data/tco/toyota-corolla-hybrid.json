@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-corolla-hybrid",
-  "calculated_at": "2026-04-24T19:59:08.398811+00:00",
+  "calculated_at": "2026-04-25T07:35:40.768718+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 200398,
-    "monthly_cost": 4175,
+    "total_cost": 198728,
+    "monthly_cost": 4140,
     "cost_per_mil": 33,
     "breakdown": {
-      "depreciation": 95000,
+      "depreciation": 93330,
       "fuel": 55500,
       "tax": 12008,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 324900,
+        "value": 316107,
         "confidence": "medium",
-        "data_points": 25
+        "data_points": 75
       },
       {
         "year": 2,
-        "value": 304900,
+        "value": 288207,
         "confidence": "medium",
-        "data_points": 25
+        "data_points": 93
       },
       {
         "year": 3,
-        "value": 274900,
+        "value": 260121,
         "confidence": "medium",
-        "data_points": 25
+        "data_points": 44
       },
       {
         "year": 4,
-        "value": 229900,
+        "value": 231570,
         "confidence": "medium",
-        "data_points": 25
+        "data_points": 53
       },
       {
         "year": 5,
-        "value": 218750,
+        "value": 213807,
         "confidence": "medium",
-        "data_points": 25
+        "data_points": 50
       },
       {
         "year": 6,
-        "value": 201250,
-        "confidence": "adjusted",
-        "data_points": 25
+        "value": 204507,
+        "confidence": "medium",
+        "data_points": 40
       },
       {
         "year": 7,
-        "value": 185150,
-        "confidence": "adjusted",
-        "data_points": 25
+        "value": 185907,
+        "confidence": "medium",
+        "data_points": 53
       },
       {
         "year": 8,
-        "value": 170338,
+        "value": 163598,
         "confidence": "estimated",
         "data_points": 0
       }

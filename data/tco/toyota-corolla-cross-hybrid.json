@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-corolla-cross-hybrid",
-  "calculated_at": "2026-04-24T19:59:08.415826+00:00",
+  "calculated_at": "2026-04-25T07:35:40.784021+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 258662,
-    "monthly_cost": 5389,
-    "cost_per_mil": 43,
+    "total_cost": 216429,
+    "monthly_cost": 4509,
+    "cost_per_mil": 36,
     "breakdown": {
-      "depreciation": 144871,
+      "depreciation": 102638,
       "fuel": 57720,
       "tax": 15781,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 318472,
-        "confidence": "low",
-        "data_points": 27
+        "value": 332948,
+        "confidence": "adjusted",
+        "data_points": 61
       },
       {
         "year": 2,
-        "value": 280255,
-        "confidence": "low",
-        "data_points": 24
+        "value": 306312,
+        "confidence": "adjusted",
+        "data_points": 57
       },
       {
         "year": 3,
-        "value": 246624,
-        "confidence": "low",
-        "data_points": 21
+        "value": 281807,
+        "confidence": "adjusted",
+        "data_points": 56
       },
       {
         "year": 4,
-        "value": 217029,
-        "confidence": "low",
-        "data_points": 18
+        "value": 259262,
+        "confidence": "adjusted",
+        "data_points": 75
       },
       {
         "year": 5,
-        "value": 190985,
+        "value": 238521,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 168067,
+        "value": 219439,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 147899,
+        "value": 215418,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 130151,
+        "value": 189567,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "high",
   "data_quality_notes": []
 }

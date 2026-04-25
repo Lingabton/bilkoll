@@ -1,6 +1,6 @@
 {
   "model_id": "mg-zs-ev-lr",
-  "calculated_at": "2026-04-24T19:59:08.423738+00:00",
+  "calculated_at": "2026-04-25T07:35:40.790924+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 173178,
-    "monthly_cost": 3608,
-    "cost_per_mil": 29,
+    "total_cost": 184212,
+    "monthly_cost": 3838,
+    "cost_per_mil": 31,
     "breakdown": {
-      "depreciation": 120052,
+      "depreciation": 131086,
       "fuel": 17496,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 263912,
-        "confidence": "low",
-        "data_points": 27
+        "value": 216794,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 2,
-        "value": 232242,
-        "confidence": "low",
-        "data_points": 24
+        "value": 199450,
+        "confidence": "adjusted",
+        "data_points": 1
       },
       {
         "year": 3,
-        "value": 204373,
-        "confidence": "low",
-        "data_points": 21
+        "value": 183494,
+        "confidence": "adjusted",
+        "data_points": 22
       },
       {
         "year": 4,
-        "value": 179848,
-        "confidence": "low",
-        "data_points": 18
+        "value": 168814,
+        "confidence": "adjusted",
+        "data_points": 50
       },
       {
         "year": 5,
-        "value": 158266,
-        "confidence": "low",
-        "data_points": 15
+        "value": 155308,
+        "confidence": "adjusted",
+        "data_points": 53
       },
       {
         "year": 6,
-        "value": 139274,
+        "value": 142883,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 122561,
+        "value": 131452,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 107853,
+        "value": 120935,
         "confidence": "estimated",
         "data_points": 0
       }

@@ -1,41 +1,56 @@
 {
   "model_id": "mercedes-eqe-350",
-  "scraped_at": "2026-04-24T19:59:03.017182+00:00",
-  "source": "estimated_placeholder",
-  "price_type": "estimated_placeholder",
+  "scraped_at": "2026-04-25T07:33:25.882054+00:00",
+  "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 632720,
-      "count": 27,
-      "total_on_page": 27,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
-    },
-    "2024": {
-      "median_price": 556793,
-      "count": 24,
-      "total_on_page": 24,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
-    },
-    "2023": {
-      "median_price": 489978,
+      "median_price": 705451,
       "count": 21,
       "total_on_page": 21,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "price_type": "estimated_transaction",
+      "p5_price": 547770,
+      "p95_price": 808960,
+      "min_price": 529170,
+      "max_price": 835372,
+      "median_mileage_mil": 20250
+    },
+    "2024": {
+      "median_price": 668995,
+      "count": 54,
+      "total_on_page": 54,
+      "price_type": "estimated_transaction",
+      "p5_price": 446400,
+      "p95_price": 808170,
+      "min_price": 334800,
+      "max_price": 908331,
+      "median_mileage_mil": 20240
+    },
+    "2023": {
+      "median_price": 506710,
+      "count": 12,
+      "total_on_page": 12,
+      "price_type": "estimated_transaction",
+      "p5_price": 389670,
+      "p95_price": 705870,
+      "min_price": 389670,
+      "max_price": 705870
     },
     "2022": {
-      "median_price": 431180,
-      "count": 18,
-      "total_on_page": 18,
-      "price_type": "estimated_placeholder",
-      "confidence": "low"
+      "median_price": 418960,
+      "count": 10,
+      "total_on_page": 10,
+      "price_type": "estimated_transaction",
+      "p5_price": 306807,
+      "p95_price": 501270,
+      "min_price": 306807,
+      "max_price": 501270
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 5,
-    "confidence": "low"
+    "min_count_per_year": 10,
+    "confidence": "medium"
   }
 }

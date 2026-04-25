@@ -1,6 +1,6 @@
 {
   "model_id": "vw-id7-pro",
-  "calculated_at": "2026-04-24T19:59:08.405431+00:00",
+  "calculated_at": "2026-04-25T07:35:40.774148+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 303495,
-    "monthly_cost": 6323,
-    "cost_per_mil": 51,
+    "total_cost": 299355,
+    "monthly_cost": 6237,
+    "cost_per_mil": 50,
     "breakdown": {
-      "depreciation": 236141,
+      "depreciation": 232001,
       "fuel": 16524,
       "tax": 1440,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 519112,
-        "confidence": "low",
-        "data_points": 27
+        "value": 567295,
+        "confidence": "medium",
+        "data_points": 40
       },
       {
         "year": 2,
-        "value": 456818,
-        "confidence": "low",
-        "data_points": 24
+        "value": 462163,
+        "confidence": "medium",
+        "data_points": 76
       },
       {
         "year": 3,
-        "value": 401999,
+        "value": 406703,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 353759,
+        "value": 357899,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 311308,
+        "value": 314951,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 273951,
+        "value": 277157,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 241077,
+        "value": 243898,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 212148,
+        "value": 214630,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "medium",
   "data_quality_notes": []
 }

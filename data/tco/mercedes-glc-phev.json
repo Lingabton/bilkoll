@@ -1,6 +1,6 @@
 {
   "model_id": "mercedes-glc-phev",
-  "calculated_at": "2026-04-24T19:59:08.421038+00:00",
+  "calculated_at": "2026-04-25T07:35:40.787804+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 393491,
-    "monthly_cost": 8198,
-    "cost_per_mil": 66,
+    "total_cost": 311364,
+    "monthly_cost": 6487,
+    "cost_per_mil": 52,
     "breakdown": {
-      "depreciation": 260199,
+      "depreciation": 178072,
       "fuel": 72150,
       "tax": 5752,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 572000,
-        "confidence": "low",
-        "data_points": 27
+        "value": 641607,
+        "confidence": "medium",
+        "data_points": 7
       },
       {
         "year": 2,
-        "value": 503360,
-        "confidence": "low",
-        "data_points": 24
+        "value": 564614,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 3,
-        "value": 442956,
-        "confidence": "low",
-        "data_points": 21
+        "value": 529170,
+        "confidence": "medium",
+        "data_points": 5
       },
       {
         "year": 4,
-        "value": 389801,
-        "confidence": "low",
-        "data_points": 18
+        "value": 471928,
+        "confidence": "medium",
+        "data_points": 6
       },
       {
         "year": 5,
-        "value": 343024,
+        "value": 415296,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 301861,
+        "value": 365461,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 265638,
+        "value": 321605,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 233761,
+        "value": 283013,
         "confidence": "estimated",
         "data_points": 0
       }
