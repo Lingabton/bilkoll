@@ -1,6 +1,6 @@
 {
   "model_id": "bmw-ix1-xdrive30",
-  "calculated_at": "2026-04-09T20:27:08.680538+00:00",
+  "calculated_at": "2026-04-25T07:35:40.771364+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,20 +8,21 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 277678,
-    "monthly_cost": 5785,
-    "cost_per_mil": 46,
+    "total_cost": 306402,
+    "monthly_cost": 6383,
+    "cost_per_mil": 51,
     "breakdown": {
-      "depreciation": 214788,
-      "fuel": 18450,
+      "depreciation": 240346,
+      "fuel": 19926,
       "tax": 1440,
       "insurance": {
-        "low": 15960,
-        "high": 29640,
-        "estimate": 22800
+        "low": 24000,
+        "high": 38400,
+        "estimate": 30000
       },
-      "service": 9000,
-      "tires": 11200
+      "service": 3000,
+      "tires": 11200,
+      "besiktning": 490
     },
     "depreciation_curve": [
       {
@@ -32,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 498700,
+        "value": 464070,
         "confidence": "medium",
-        "data_points": 40
+        "data_points": 39
       },
       {
         "year": 2,
-        "value": 458804,
+        "value": 426944,
         "confidence": "adjusted",
-        "data_points": 17
+        "data_points": 18
       },
       {
         "year": 3,
-        "value": 414900,
+        "value": 385857,
         "confidence": "medium",
         "data_points": 27
       },
       {
         "year": 4,
-        "value": 365112,
+        "value": 339554,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 321298,
+        "value": 298807,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 282742,
+        "value": 262950,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 248813,
+        "value": 231396,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 218955,
+        "value": 203629,
         "confidence": "estimated",
         "data_points": 0
       }

@@ -1,0 +1,86 @@
+{
+  "model_id": "mg-mg4-standard",
+  "calculated_at": "2026-04-25T07:35:40.778100+00:00",
+  "assumptions": {
+    "mileage_per_year": 1500,
+    "ownership_years": 4,
+    "fuel_price_kr_per_liter": 18.5,
+    "electricity_price_kr_per_kwh": 1.5
+  },
+  "result": {
+    "total_cost": 204389,
+    "monthly_cost": 4258,
+    "cost_per_mil": 34,
+    "breakdown": {
+      "depreciation": 151435,
+      "fuel": 16524,
+      "tax": 1440,
+      "insurance": {
+        "low": 15200,
+        "high": 26400,
+        "estimate": 20000
+      },
+      "service": 8500,
+      "tires": 6000,
+      "besiktning": 490
+    },
+    "depreciation_curve": [
+      {
+        "year": 0,
+        "value": 299990,
+        "confidence": "fixed",
+        "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 190778,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 2,
+        "value": 175515,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 3,
+        "value": 161473,
+        "confidence": "adjusted",
+        "data_points": 56
+      },
+      {
+        "year": 4,
+        "value": 148555,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 5,
+        "value": 136670,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 6,
+        "value": 125736,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 7,
+        "value": 115677,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 8,
+        "value": 106422,
+        "confidence": "estimated",
+        "data_points": 0
+      }
+    ]
+  },
+  "confidence": "high",
+  "data_quality_notes": []
+}

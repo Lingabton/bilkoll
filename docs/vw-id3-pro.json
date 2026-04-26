@@ -1,6 +1,6 @@
 {
   "model_id": "vw-id3-pro",
-  "calculated_at": "2026-04-09T20:27:08.679623+00:00",
+  "calculated_at": "2026-04-25T07:35:40.770737+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,20 +8,21 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 312790,
-    "monthly_cost": 6516,
-    "cost_per_mil": 52,
+    "total_cost": 344296,
+    "monthly_cost": 7173,
+    "cost_per_mil": 57,
     "breakdown": {
-      "depreciation": 264600,
-      "fuel": 15750,
+      "depreciation": 281626,
+      "fuel": 19440,
       "tax": 1440,
       "insurance": {
-        "low": 13160,
-        "high": 24440,
-        "estimate": 18800
+        "low": 16000,
+        "high": 28000,
+        "estimate": 20800
       },
-      "service": 5000,
-      "tires": 7200
+      "service": 13300,
+      "tires": 7200,
+      "besiktning": 490
     },
     "depreciation_curve": [
       {
@@ -32,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 399900,
+        "value": 364932,
         "confidence": "medium",
-        "data_points": 26
+        "data_points": 20
       },
       {
         "year": 2,
-        "value": 384700,
+        "value": 346838,
         "confidence": "medium",
-        "data_points": 30
+        "data_points": 34
       },
       {
         "year": 3,
-        "value": 269800,
+        "value": 251007,
         "confidence": "medium",
-        "data_points": 69
+        "data_points": 50
       },
       {
         "year": 4,
-        "value": 239900,
+        "value": 222874,
         "confidence": "medium",
-        "data_points": 77
+        "data_points": 54
       },
       {
         "year": 5,
-        "value": 209000,
+        "value": 190603,
         "confidence": "medium",
-        "data_points": 80
+        "data_points": 100
       },
       {
         "year": 6,
-        "value": 192280,
+        "value": 175354,
         "confidence": "adjusted",
-        "data_points": 57
+        "data_points": 59
       },
       {
         "year": 7,
-        "value": 184712,
+        "value": 171700,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 162546,
+        "value": 151096,
         "confidence": "estimated",
         "data_points": 0
       }

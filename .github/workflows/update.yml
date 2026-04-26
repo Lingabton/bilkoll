@@ -42,6 +42,9 @@ jobs:
       - name: Build frontend
         run: cd frontend && npm run build
 
+      - name: Copy data to docs
+        run: bash scripts/copy_data_to_docs.sh
+
       - name: Generate SEO pages
         run: python scripts/generate_pages.py
 

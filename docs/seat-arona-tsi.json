@@ -1,0 +1,92 @@
+{
+  "model_id": "seat-arona-tsi",
+  "calculated_at": "2026-04-25T07:35:40.789248+00:00",
+  "assumptions": {
+    "mileage_per_year": 1500,
+    "ownership_years": 4,
+    "fuel_price_kr_per_liter": 18.5,
+    "electricity_price_kr_per_kwh": 1.5
+  },
+  "result": {
+    "total_cost": 234469,
+    "monthly_cost": 4885,
+    "cost_per_mil": 39,
+    "breakdown": {
+      "depreciation": 117243,
+      "fuel": 62160,
+      "tax": 21076,
+      "insurance": {
+        "low": 12800,
+        "high": 22400,
+        "estimate": 16800
+      },
+      "service": 11500,
+      "tires": 5200,
+      "besiktning": 490
+    },
+    "depreciation_curve": [
+      {
+        "year": 0,
+        "value": 279900,
+        "confidence": "fixed",
+        "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 199857,
+        "confidence": "medium",
+        "data_points": 13
+      },
+      {
+        "year": 2,
+        "value": 176188,
+        "confidence": "medium",
+        "data_points": 16
+      },
+      {
+        "year": 3,
+        "value": 162657,
+        "confidence": "medium",
+        "data_points": 44
+      },
+      {
+        "year": 4,
+        "value": 162657,
+        "confidence": "medium",
+        "data_points": 28
+      },
+      {
+        "year": 5,
+        "value": 145963,
+        "confidence": "medium",
+        "data_points": 8
+      },
+      {
+        "year": 6,
+        "value": 143685,
+        "confidence": "medium",
+        "data_points": 9
+      },
+      {
+        "year": 7,
+        "value": 116064,
+        "confidence": "medium",
+        "data_points": 13
+      },
+      {
+        "year": 8,
+        "value": 106778,
+        "confidence": "adjusted",
+        "data_points": 11
+      },
+      {
+        "year": 9,
+        "value": 106310,
+        "confidence": "estimated",
+        "data_points": 0
+      }
+    ]
+  },
+  "confidence": "low",
+  "data_quality_notes": []
+}

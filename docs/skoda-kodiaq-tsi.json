@@ -1,0 +1,86 @@
+{
+  "model_id": "skoda-kodiaq-tsi",
+  "calculated_at": "2026-04-25T07:35:40.775292+00:00",
+  "assumptions": {
+    "mileage_per_year": 1500,
+    "ownership_years": 4,
+    "fuel_price_kr_per_liter": 18.5,
+    "electricity_price_kr_per_kwh": 1.5
+  },
+  "result": {
+    "total_cost": 373243,
+    "monthly_cost": 7776,
+    "cost_per_mil": 62,
+    "breakdown": {
+      "depreciation": 206723,
+      "fuel": 92130,
+      "tax": 28600,
+      "insurance": {
+        "low": 16000,
+        "high": 27200,
+        "estimate": 20800
+      },
+      "service": 16500,
+      "tires": 8000,
+      "besiktning": 490
+    },
+    "depreciation_curve": [
+      {
+        "year": 0,
+        "value": 408500,
+        "confidence": "fixed",
+        "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 259125,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 2,
+        "value": 238395,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 3,
+        "value": 219323,
+        "confidence": "adjusted",
+        "data_points": 4
+      },
+      {
+        "year": 4,
+        "value": 201777,
+        "confidence": "adjusted",
+        "data_points": 7
+      },
+      {
+        "year": 5,
+        "value": 185634,
+        "confidence": "adjusted",
+        "data_points": 4
+      },
+      {
+        "year": 6,
+        "value": 170783,
+        "confidence": "adjusted",
+        "data_points": 5
+      },
+      {
+        "year": 7,
+        "value": 157120,
+        "confidence": "adjusted",
+        "data_points": 16
+      },
+      {
+        "year": 8,
+        "value": 144550,
+        "confidence": "adjusted",
+        "data_points": 10
+      }
+    ]
+  },
+  "confidence": "low",
+  "data_quality_notes": []
+}

@@ -21,6 +21,9 @@ export default function RankingTable({ cars, selected, onSelect }) {
           const isSelected = selected === car.id
           const fc = fuelConfig[car.fuel] || fuelConfig.bensin
           const barWidth = (car.monthly_cost / maxCost) * 100
+          const costPct = (car.monthly_cost - cars[0].monthly_cost) / (maxCost - cars[0].monthly_cost || 1)
+          const costGradient = costPct < 0.33 ? 'cost-gradient-cheap' : costPct < 0.66 ? 'cost-gradient-mid' : 'cost-gradient-expensive'
+          const isWinner = i === 0
 
           return (
             <button
@@ -29,10 +32,12 @@ export default function RankingTable({ cars, selected, onSelect }) {
               role="listitem"
               aria-selected={isSelected}
               aria-label={`${car.make} ${car.model}, ${car.monthly_cost.toLocaleString('sv-SE')} kr per månad`}
-              className={`ranking-item group w-full text-left rounded-xl border transition-all duration-200 cursor-pointer relative overflow-hidden ${
+              className={`ranking-item group w-full text-left rounded-xl border transition-all duration-200 cursor-pointer relative overflow-hidden ${costGradient} ${
                 isSelected
                   ? "bg-white border-sky-200 shadow-md ring-1 ring-sky-100"
-                  : "bg-white border-slate-200 hover:border-slate-300 hover:shadow-sm"
+                  : isWinner
+                    ? "winner-row hover:shadow-sm"
+                    : "bg-white border-slate-200 hover:border-slate-300 hover:shadow-sm"
               }`}
               style={{ animationDelay: `${Math.min(i, 15) * 30}ms` }}
             >

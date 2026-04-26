@@ -1,0 +1,86 @@
+{
+  "model_id": "mercedes-eqb-250",
+  "calculated_at": "2026-04-25T07:35:40.780937+00:00",
+  "assumptions": {
+    "mileage_per_year": 1500,
+    "ownership_years": 4,
+    "fuel_price_kr_per_liter": 18.5,
+    "electricity_price_kr_per_kwh": 1.5
+  },
+  "result": {
+    "total_cost": 464318,
+    "monthly_cost": 9673,
+    "cost_per_mil": 77,
+    "breakdown": {
+      "depreciation": 393620,
+      "fuel": 18468,
+      "tax": 1440,
+      "insurance": {
+        "low": 24000,
+        "high": 42000,
+        "estimate": 32000
+      },
+      "service": 9500,
+      "tires": 8800,
+      "besiktning": 490
+    },
+    "depreciation_curve": [
+      {
+        "year": 0,
+        "value": 559000,
+        "confidence": "fixed",
+        "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 212384,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 2,
+        "value": 195393,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 3,
+        "value": 179761,
+        "confidence": "adjusted",
+        "data_points": 1
+      },
+      {
+        "year": 4,
+        "value": 165380,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 5,
+        "value": 152149,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 6,
+        "value": 139977,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 7,
+        "value": 128778,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 8,
+        "value": 118475,
+        "confidence": "estimated",
+        "data_points": 0
+      }
+    ]
+  },
+  "confidence": "low",
+  "data_quality_notes": []
+}

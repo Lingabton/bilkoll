@@ -1,0 +1,38 @@
+{
+  "model_id": "fiat-500e-42",
+  "calculated_at": "2026-04-25T07:35:40.780453+00:00",
+  "assumptions": {
+    "mileage_per_year": 1500,
+    "ownership_years": 4,
+    "fuel_price_kr_per_liter": 18.5,
+    "electricity_price_kr_per_kwh": 1.5
+  },
+  "result": {
+    "total_cost": 49810,
+    "monthly_cost": 1038,
+    "cost_per_mil": 8,
+    "breakdown": {
+      "depreciation": 0,
+      "fuel": 14580,
+      "tax": 1440,
+      "insurance": {
+        "low": 14400,
+        "high": 24800,
+        "estimate": 19200
+      },
+      "service": 8500,
+      "tires": 5600,
+      "besiktning": 490
+    },
+    "depreciation_curve": [
+      {
+        "year": 0,
+        "value": 326900,
+        "confidence": "fixed",
+        "data_points": 0
+      }
+    ]
+  },
+  "confidence": "low",
+  "data_quality_notes": []
+}

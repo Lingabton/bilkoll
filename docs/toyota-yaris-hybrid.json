@@ -1,0 +1,86 @@
+{
+  "model_id": "toyota-yaris-hybrid",
+  "calculated_at": "2026-04-25T07:35:40.774609+00:00",
+  "assumptions": {
+    "mileage_per_year": 1500,
+    "ownership_years": 4,
+    "fuel_price_kr_per_liter": 18.5,
+    "electricity_price_kr_per_kwh": 1.5
+  },
+  "result": {
+    "total_cost": 150069,
+    "monthly_cost": 3126,
+    "cost_per_mil": 25,
+    "breakdown": {
+      "depreciation": 56793,
+      "fuel": 49950,
+      "tax": 10636,
+      "insurance": {
+        "low": 11200,
+        "high": 19200,
+        "estimate": 14400
+      },
+      "service": 13000,
+      "tires": 4800,
+      "besiktning": 490
+    },
+    "depreciation_curve": [
+      {
+        "year": 0,
+        "value": 279900,
+        "confidence": "fixed",
+        "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 257508,
+        "confidence": "adjusted",
+        "data_points": 8
+      },
+      {
+        "year": 2,
+        "value": 236907,
+        "confidence": "adjusted",
+        "data_points": 12
+      },
+      {
+        "year": 3,
+        "value": 223107,
+        "confidence": "medium",
+        "data_points": 3
+      },
+      {
+        "year": 4,
+        "value": 223107,
+        "confidence": "medium",
+        "data_points": 3
+      },
+      {
+        "year": 5,
+        "value": 204507,
+        "confidence": "medium",
+        "data_points": 5
+      },
+      {
+        "year": 6,
+        "value": 139407,
+        "confidence": "medium",
+        "data_points": 13
+      },
+      {
+        "year": 7,
+        "value": 122678,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 8,
+        "value": 107956,
+        "confidence": "estimated",
+        "data_points": 0
+      }
+    ]
+  },
+  "confidence": "low",
+  "data_quality_notes": []
+}

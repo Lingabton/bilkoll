@@ -1,0 +1,86 @@
+{
+  "model_id": "audi-q4-etron-45",
+  "calculated_at": "2026-04-25T07:35:40.776514+00:00",
+  "assumptions": {
+    "mileage_per_year": 1500,
+    "ownership_years": 4,
+    "fuel_price_kr_per_liter": 18.5,
+    "electricity_price_kr_per_kwh": 1.5
+  },
+  "result": {
+    "total_cost": 387663,
+    "monthly_cost": 8076,
+    "cost_per_mil": 65,
+    "breakdown": {
+      "depreciation": 318393,
+      "fuel": 19440,
+      "tax": 1440,
+      "insurance": {
+        "low": 26000,
+        "high": 44000,
+        "estimate": 34000
+      },
+      "service": 3500,
+      "tires": 10400,
+      "besiktning": 490
+    },
+    "depreciation_curve": [
+      {
+        "year": 0,
+        "value": 625200,
+        "confidence": "fixed",
+        "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 552838,
+        "confidence": "medium",
+        "data_points": 14
+      },
+      {
+        "year": 2,
+        "value": 464070,
+        "confidence": "medium",
+        "data_points": 23
+      },
+      {
+        "year": 3,
+        "value": 324570,
+        "confidence": "medium",
+        "data_points": 76
+      },
+      {
+        "year": 4,
+        "value": 306807,
+        "confidence": "medium",
+        "data_points": 77
+      },
+      {
+        "year": 5,
+        "value": 270165,
+        "confidence": "medium",
+        "data_points": 10
+      },
+      {
+        "year": 6,
+        "value": 237745,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 7,
+        "value": 209215,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 8,
+        "value": 184109,
+        "confidence": "estimated",
+        "data_points": 0
+      }
+    ]
+  },
+  "confidence": "medium",
+  "data_quality_notes": []
+}

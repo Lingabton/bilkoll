@@ -74,12 +74,23 @@ input[type="range"]::-webkit-slider-thumb:active {
   animation: countUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
-/* Stagger animation for ranking items */
 .ranking-item {
   animation: slideUp 0.35s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
-/* Number transitions */
-.mono-value {
-  transition: color 0.3s ease;
+/* ── Cost gradient on ranking rows ── */
+.cost-gradient-cheap {
+  border-left: 3px solid #10b981;
+}
+.cost-gradient-mid {
+  border-left: 3px solid #f59e0b;
+}
+.cost-gradient-expensive {
+  border-left: 3px solid #ef4444;
+}
+
+/* ── Winner badge ── */
+.winner-row {
+  background: linear-gradient(135deg, #ecfdf5 0%, #ffffff 40%);
+  border-color: #6ee7b7;
 }

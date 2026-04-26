@@ -1,0 +1,38 @@
+{
+  "model_id": "lexus-nx-350h",
+  "calculated_at": "2026-04-25T07:35:40.790585+00:00",
+  "assumptions": {
+    "mileage_per_year": 1500,
+    "ownership_years": 4,
+    "fuel_price_kr_per_liter": 18.5,
+    "electricity_price_kr_per_kwh": 1.5
+  },
+  "result": {
+    "total_cost": 147000,
+    "monthly_cost": 3062,
+    "cost_per_mil": 24,
+    "breakdown": {
+      "depreciation": 0,
+      "fuel": 66600,
+      "tax": 26510,
+      "insurance": {
+        "low": 22000,
+        "high": 38000,
+        "estimate": 28800
+      },
+      "service": 15000,
+      "tires": 9600,
+      "besiktning": 490
+    },
+    "depreciation_curve": [
+      {
+        "year": 0,
+        "value": 560000,
+        "confidence": "fixed",
+        "data_points": 0
+      }
+    ]
+  },
+  "confidence": "low",
+  "data_quality_notes": []
+}

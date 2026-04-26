@@ -1,0 +1,86 @@
+{
+  "model_id": "audi-a3-35tfsi",
+  "calculated_at": "2026-04-25T07:35:40.784792+00:00",
+  "assumptions": {
+    "mileage_per_year": 1500,
+    "ownership_years": 4,
+    "fuel_price_kr_per_liter": 18.5,
+    "electricity_price_kr_per_kwh": 1.5
+  },
+  "result": {
+    "total_cost": 315959,
+    "monthly_cost": 6582,
+    "cost_per_mil": 53,
+    "breakdown": {
+      "depreciation": 185021,
+      "fuel": 64380,
+      "tax": 18868,
+      "insurance": {
+        "low": 20000,
+        "high": 34000,
+        "estimate": 26000
+      },
+      "service": 14000,
+      "tires": 7200,
+      "besiktning": 490
+    },
+    "depreciation_curve": [
+      {
+        "year": 0,
+        "value": 394000,
+        "confidence": "fixed",
+        "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 287370,
+        "confidence": "medium",
+        "data_points": 45
+      },
+      {
+        "year": 2,
+        "value": 262585,
+        "confidence": "medium",
+        "data_points": 30
+      },
+      {
+        "year": 3,
+        "value": 227152,
+        "confidence": "medium",
+        "data_points": 136
+      },
+      {
+        "year": 4,
+        "value": 208979,
+        "confidence": "adjusted",
+        "data_points": 36
+      },
+      {
+        "year": 5,
+        "value": 208785,
+        "confidence": "medium",
+        "data_points": 30
+      },
+      {
+        "year": 6,
+        "value": 185070,
+        "confidence": "medium",
+        "data_points": 41
+      },
+      {
+        "year": 7,
+        "value": 162861,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 8,
+        "value": 143318,
+        "confidence": "estimated",
+        "data_points": 0
+      }
+    ]
+  },
+  "confidence": "medium",
+  "data_quality_notes": []
+}

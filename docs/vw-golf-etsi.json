@@ -1,6 +1,6 @@
 {
   "model_id": "vw-golf-etsi",
-  "calculated_at": "2026-04-09T20:27:08.682290+00:00",
+  "calculated_at": "2026-04-25T07:35:40.772510+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,20 +8,21 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 322411,
-    "monthly_cost": 6717,
-    "cost_per_mil": 54,
+    "total_cost": 347147,
+    "monthly_cost": 7232,
+    "cost_per_mil": 58,
     "breakdown": {
-      "depreciation": 190822,
+      "depreciation": 204968,
       "fuel": 72150,
       "tax": 17839,
       "insurance": {
-        "low": 11760,
-        "high": 21840,
-        "estimate": 16800
+        "low": 19200,
+        "high": 32000,
+        "estimate": 25600
       },
-      "service": 16000,
-      "tires": 8800
+      "service": 17300,
+      "tires": 8800,
+      "besiktning": 490
     },
     "depreciation_curve": [
       {
@@ -32,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 259512,
+        "value": 241346,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 2,
-        "value": 238751,
+        "value": 222038,
         "confidence": "adjusted",
         "data_points": 1
       },
       {
         "year": 3,
-        "value": 219650,
+        "value": 204274,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 202078,
+        "value": 187932,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 200966,
+        "value": 186898,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 176850,
+        "value": 164470,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 155628,
+        "value": 144734,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 136952,
+        "value": 127366,
         "confidence": "estimated",
         "data_points": 0
       }

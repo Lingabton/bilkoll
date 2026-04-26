@@ -1,0 +1,86 @@
+{
+  "model_id": "kia-ceed-sw",
+  "calculated_at": "2026-04-25T07:35:40.782321+00:00",
+  "assumptions": {
+    "mileage_per_year": 1500,
+    "ownership_years": 4,
+    "fuel_price_kr_per_liter": 18.5,
+    "electricity_price_kr_per_kwh": 1.5
+  },
+  "result": {
+    "total_cost": 294654,
+    "monthly_cost": 6139,
+    "cost_per_mil": 49,
+    "breakdown": {
+      "depreciation": 164130,
+      "fuel": 72150,
+      "tax": 23584,
+      "insurance": {
+        "low": 14400,
+        "high": 24800,
+        "estimate": 19200
+      },
+      "service": 9500,
+      "tires": 5600,
+      "besiktning": 490
+    },
+    "depreciation_curve": [
+      {
+        "year": 0,
+        "value": 339900,
+        "confidence": "fixed",
+        "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 211965,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 2,
+        "value": 195007,
+        "confidence": "adjusted",
+        "data_points": 3
+      },
+      {
+        "year": 3,
+        "value": 179406,
+        "confidence": "adjusted",
+        "data_points": 8
+      },
+      {
+        "year": 4,
+        "value": 175770,
+        "confidence": "medium",
+        "data_points": 10
+      },
+      {
+        "year": 5,
+        "value": 161708,
+        "confidence": "adjusted",
+        "data_points": 17
+      },
+      {
+        "year": 6,
+        "value": 158053,
+        "confidence": "medium",
+        "data_points": 10
+      },
+      {
+        "year": 7,
+        "value": 148707,
+        "confidence": "medium",
+        "data_points": 19
+      },
+      {
+        "year": 8,
+        "value": 122946,
+        "confidence": "medium",
+        "data_points": 10
+      }
+    ]
+  },
+  "confidence": "low",
+  "data_quality_notes": []
+}

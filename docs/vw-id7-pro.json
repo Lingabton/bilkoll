@@ -1,0 +1,86 @@
+{
+  "model_id": "vw-id7-pro",
+  "calculated_at": "2026-04-25T07:35:40.774148+00:00",
+  "assumptions": {
+    "mileage_per_year": 1500,
+    "ownership_years": 4,
+    "fuel_price_kr_per_liter": 18.5,
+    "electricity_price_kr_per_kwh": 1.5
+  },
+  "result": {
+    "total_cost": 299355,
+    "monthly_cost": 6237,
+    "cost_per_mil": 50,
+    "breakdown": {
+      "depreciation": 232001,
+      "fuel": 16524,
+      "tax": 1440,
+      "insurance": {
+        "low": 20000,
+        "high": 34000,
+        "estimate": 26000
+      },
+      "service": 13300,
+      "tires": 9600,
+      "besiktning": 490
+    },
+    "depreciation_curve": [
+      {
+        "year": 0,
+        "value": 589900,
+        "confidence": "fixed",
+        "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 567295,
+        "confidence": "medium",
+        "data_points": 40
+      },
+      {
+        "year": 2,
+        "value": 462163,
+        "confidence": "medium",
+        "data_points": 76
+      },
+      {
+        "year": 3,
+        "value": 406703,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 4,
+        "value": 357899,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 5,
+        "value": 314951,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 6,
+        "value": 277157,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 7,
+        "value": 243898,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 8,
+        "value": 214630,
+        "confidence": "estimated",
+        "data_points": 0
+      }
+    ]
+  },
+  "confidence": "medium",
+  "data_quality_notes": []
+}

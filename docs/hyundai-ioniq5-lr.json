@@ -1,6 +1,6 @@
 {
   "model_id": "hyundai-ioniq5-lr",
-  "calculated_at": "2026-04-09T20:27:08.681797+00:00",
+  "calculated_at": "2026-04-25T07:35:40.772299+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,20 +8,21 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 391045,
-    "monthly_cost": 8147,
-    "cost_per_mil": 65,
+    "total_cost": 429042,
+    "monthly_cost": 8938,
+    "cost_per_mil": 72,
     "breakdown": {
-      "depreciation": 314405,
-      "fuel": 18000,
+      "depreciation": 339572,
+      "fuel": 19440,
       "tax": 1440,
       "insurance": {
-        "low": 17640,
-        "high": 32760,
-        "estimate": 25200
+        "low": 24000,
+        "high": 43200,
+        "estimate": 34000
       },
-      "service": 18000,
-      "tires": 14000
+      "service": 20100,
+      "tires": 14000,
+      "besiktning": 490
     },
     "depreciation_curve": [
       {
@@ -32,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 599800,
+        "value": 567207,
         "confidence": "medium",
-        "data_points": 23
+        "data_points": 21
       },
       {
         "year": 2,
-        "value": 551816,
-        "confidence": "adjusted",
-        "data_points": 6
+        "value": 385764,
+        "confidence": "medium",
+        "data_points": 8
       },
       {
         "year": 3,
-        "value": 434400,
-        "confidence": "medium",
-        "data_points": 34
+        "value": 354902,
+        "confidence": "adjusted",
+        "data_points": 33
       },
       {
         "year": 4,
-        "value": 365495,
+        "value": 340328,
         "confidence": "medium",
-        "data_points": 28
+        "data_points": 26
       },
       {
         "year": 5,
-        "value": 321635,
+        "value": 299488,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 283039,
+        "value": 263550,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 249074,
+        "value": 231924,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 219185,
+        "value": 204093,
         "confidence": "estimated",
         "data_points": 0
       }

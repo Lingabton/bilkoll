@@ -1,0 +1,86 @@
+{
+  "model_id": "cupra-formentor-tsi",
+  "calculated_at": "2026-04-25T07:35:40.779067+00:00",
+  "assumptions": {
+    "mileage_per_year": 1500,
+    "ownership_years": 4,
+    "fuel_price_kr_per_liter": 18.5,
+    "electricity_price_kr_per_kwh": 1.5
+  },
+  "result": {
+    "total_cost": 342775,
+    "monthly_cost": 7141,
+    "cost_per_mil": 57,
+    "breakdown": {
+      "depreciation": 195587,
+      "fuel": 72150,
+      "tax": 22748,
+      "insurance": {
+        "low": 20800,
+        "high": 35200,
+        "estimate": 27200
+      },
+      "service": 15000,
+      "tires": 9600,
+      "besiktning": 490
+    },
+    "depreciation_curve": [
+      {
+        "year": 0,
+        "value": 429900,
+        "confidence": "fixed",
+        "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 376557,
+        "confidence": "medium",
+        "data_points": 34
+      },
+      {
+        "year": 2,
+        "value": 288207,
+        "confidence": "medium",
+        "data_points": 48
+      },
+      {
+        "year": 3,
+        "value": 251007,
+        "confidence": "medium",
+        "data_points": 35
+      },
+      {
+        "year": 4,
+        "value": 234313,
+        "confidence": "medium",
+        "data_points": 20
+      },
+      {
+        "year": 5,
+        "value": 215567,
+        "confidence": "adjusted",
+        "data_points": 23
+      },
+      {
+        "year": 6,
+        "value": 198321,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 7,
+        "value": 182455,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 8,
+        "value": 167858,
+        "confidence": "estimated",
+        "data_points": 0
+      }
+    ]
+  },
+  "confidence": "medium",
+  "data_quality_notes": []
+}

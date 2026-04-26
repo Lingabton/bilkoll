@@ -1,0 +1,86 @@
+{
+  "model_id": "peugeot-5008-hybrid",
+  "calculated_at": "2026-04-25T07:35:40.783755+00:00",
+  "assumptions": {
+    "mileage_per_year": 1500,
+    "ownership_years": 4,
+    "fuel_price_kr_per_liter": 18.5,
+    "electricity_price_kr_per_kwh": 1.5
+  },
+  "result": {
+    "total_cost": 346875,
+    "monthly_cost": 7227,
+    "cost_per_mil": 58,
+    "breakdown": {
+      "depreciation": 219511,
+      "fuel": 64380,
+      "tax": 21494,
+      "insurance": {
+        "low": 16800,
+        "high": 28800,
+        "estimate": 22000
+      },
+      "service": 11000,
+      "tires": 8000,
+      "besiktning": 490
+    },
+    "depreciation_curve": [
+      {
+        "year": 0,
+        "value": 449900,
+        "confidence": "fixed",
+        "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 370047,
+        "confidence": "medium",
+        "data_points": 114
+      },
+      {
+        "year": 2,
+        "value": 297507,
+        "confidence": "medium",
+        "data_points": 103
+      },
+      {
+        "year": 3,
+        "value": 261806,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 4,
+        "value": 230389,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 5,
+        "value": 202742,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 6,
+        "value": 178413,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 7,
+        "value": 157003,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 8,
+        "value": 138163,
+        "confidence": "estimated",
+        "data_points": 0
+      }
+    ]
+  },
+  "confidence": "high",
+  "data_quality_notes": []
+}

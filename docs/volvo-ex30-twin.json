@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-ex30-twin",
-  "calculated_at": "2026-04-09T20:27:08.678202+00:00",
+  "calculated_at": "2026-04-25T07:35:40.769862+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,20 +8,21 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 316174,
-    "monthly_cost": 6587,
-    "cost_per_mil": 53,
+    "total_cost": 60758,
+    "monthly_cost": 1266,
+    "cost_per_mil": 10,
     "breakdown": {
-      "depreciation": 262834,
-      "fuel": 18900,
+      "depreciation": 0,
+      "fuel": 23328,
       "tax": 1440,
       "insurance": {
-        "low": 15960,
-        "high": 29640,
-        "estimate": 22800
+        "low": 19200,
+        "high": 35200,
+        "estimate": 26000
       },
-      "service": 3000,
-      "tires": 7200
+      "service": 2300,
+      "tires": 7200,
+      "besiktning": 490
     },
     "depreciation_curve": [
       {
@@ -29,57 +30,9 @@
         "value": 547000,
         "confidence": "fixed",
         "data_points": 0
-      },
-      {
-        "year": 1,
-        "value": 462400,
-        "confidence": "medium",
-        "data_points": 96
-      },
-      {
-        "year": 2,
-        "value": 366950,
-        "confidence": "medium",
-        "data_points": 102
-      },
-      {
-        "year": 3,
-        "value": 322916,
-        "confidence": "estimated",
-        "data_points": 0
-      },
-      {
-        "year": 4,
-        "value": 284166,
-        "confidence": "estimated",
-        "data_points": 0
-      },
-      {
-        "year": 5,
-        "value": 250066,
-        "confidence": "estimated",
-        "data_points": 0
-      },
-      {
-        "year": 6,
-        "value": 220058,
-        "confidence": "estimated",
-        "data_points": 0
-      },
-      {
-        "year": 7,
-        "value": 193651,
-        "confidence": "estimated",
-        "data_points": 0
-      },
-      {
-        "year": 8,
-        "value": 170413,
-        "confidence": "estimated",
-        "data_points": 0
       }
     ]
   },
-  "confidence": "high",
+  "confidence": "low",
   "data_quality_notes": []
 }

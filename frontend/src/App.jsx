@@ -175,28 +175,40 @@ function App() {
             Verklig månadskostnad för {models.length || '...'} bilmodeller — värdeminskning, drivmedel, skatt, försäkring — baserat på tusentals begagnatpriser.
           </p>
 
-          {/* Quick stats */}
+          {/* Quick stats — asymmetric layout */}
           {cheapest && expensive && (
-            <div className="mt-6 sm:mt-8 grid grid-cols-3 gap-2 sm:gap-3">
-              {[
-                ["Billigast", cheapest.monthly_cost, "text-emerald-600", cheapest.name?.split(' ').slice(0,2).join(' ')],
-                ["Dyrast", expensive.monthly_cost, "text-rose-500", expensive.name?.split(' ').slice(0,2).join(' ')],
-                ["Skillnad", diff, "text-slate-900", `${(diff * 12).toLocaleString('sv-SE')} kr/år`],
-              ].map(([label, val, color, sub]) => (
-                <div key={label} className="px-3 py-3 sm:px-4 sm:py-3.5 rounded-xl bg-white border border-slate-200 shadow-sm">
-                  <div className="text-[10px] sm:text-[11px] text-slate-400 font-medium uppercase tracking-wider">{label}</div>
-                  <div className={`text-[18px] sm:text-[22px] font-mono font-bold ${color} mt-0.5 tabular-nums`}>
-                    {val.toLocaleString('sv-SE')}
-                    <span className="text-[10px] sm:text-[11px] font-normal text-slate-400 ml-1">kr/mån</span>
+            <div className="mt-6 sm:mt-8">
+              <div className="grid grid-cols-[1fr_auto] gap-3 sm:gap-4">
+                {/* Winner — large card */}
+                <div className="px-5 py-5 rounded-2xl bg-gradient-to-br from-emerald-50 via-white to-white border border-emerald-200 shadow-sm relative overflow-hidden">
+                  <div className="absolute top-3 right-3 text-[10px] font-bold text-emerald-500 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200">
+                    #1 billigast
                   </div>
-                  <div className="text-[10px] sm:text-[11px] text-slate-400 mt-0.5 truncate">{sub}</div>
+                  <div className="text-[11px] text-emerald-600 font-medium mb-1">Billigast att äga</div>
+                  <div className="font-mono text-[32px] sm:text-[38px] font-black text-emerald-700 leading-none tabular-nums tracking-tight">
+                    {cheapest.monthly_cost.toLocaleString('sv-SE')}
+                    <span className="text-[14px] font-normal text-emerald-500 ml-1">kr/mån</span>
+                  </div>
+                  <div className="text-[13px] text-slate-600 mt-1.5 font-medium">{cheapest.name?.split(' ').slice(0,2).join(' ')}</div>
                 </div>
-              ))}
-            </div>
-          )}
-          {cheapest && (
-            <div className="mt-3 text-[11px] text-slate-400 text-center">
-              Baserat på {years} års ägande, {mileage.toLocaleString('sv-SE')} mil/år, {buyAge === 0 ? 'köpt ny' : `köpt ${buyAge} år gammal`}
+
+                {/* Right column — stacked small cards */}
+                <div className="flex flex-col gap-2 sm:gap-3 min-w-[130px]">
+                  <div className="px-3 py-2.5 rounded-xl bg-white border border-slate-200 shadow-sm flex-1 flex flex-col justify-center">
+                    <div className="text-[10px] text-slate-400 font-medium">Dyrast</div>
+                    <div className="font-mono text-[16px] font-bold text-rose-500 tabular-nums">{expensive.monthly_cost.toLocaleString('sv-SE')} <span className="text-[10px] font-normal text-slate-400">kr/mån</span></div>
+                    <div className="text-[10px] text-slate-400 truncate">{expensive.name?.split(' ').slice(0,2).join(' ')}</div>
+                  </div>
+                  <div className="px-3 py-2.5 rounded-xl bg-white border border-slate-200 shadow-sm flex-1 flex flex-col justify-center">
+                    <div className="text-[10px] text-slate-400 font-medium">Skillnad</div>
+                    <div className="font-mono text-[16px] font-bold text-slate-900 tabular-nums">{diff.toLocaleString('sv-SE')} <span className="text-[10px] font-normal text-slate-400">kr/mån</span></div>
+                    <div className="text-[10px] text-slate-400">{(diff * 12).toLocaleString('sv-SE')} kr/år</div>
+                  </div>
+                </div>
+              </div>
+              <div className="mt-2.5 text-[11px] text-slate-400 text-center">
+                {years} års ägande · {mileage.toLocaleString('sv-SE')} mil/år · {buyAge === 0 ? 'köpt ny' : `${buyAge} år gammal`} · {recalculated.length} modeller
+              </div>
             </div>
           )}
         </header>

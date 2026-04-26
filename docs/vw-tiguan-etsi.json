@@ -1,0 +1,98 @@
+{
+  "model_id": "vw-tiguan-etsi",
+  "calculated_at": "2026-04-25T07:35:40.775012+00:00",
+  "assumptions": {
+    "mileage_per_year": 1500,
+    "ownership_years": 4,
+    "fuel_price_kr_per_liter": 18.5,
+    "electricity_price_kr_per_kwh": 1.5
+  },
+  "result": {
+    "total_cost": 441243,
+    "monthly_cost": 9193,
+    "cost_per_mil": 74,
+    "breakdown": {
+      "depreciation": 277015,
+      "fuel": 88800,
+      "tax": 24838,
+      "insurance": {
+        "low": 19200,
+        "high": 32000,
+        "estimate": 24800
+      },
+      "service": 16500,
+      "tires": 8800,
+      "besiktning": 490
+    },
+    "depreciation_curve": [
+      {
+        "year": 0,
+        "value": 529900,
+        "confidence": "fixed",
+        "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 346332,
+        "confidence": "medium",
+        "data_points": 28
+      },
+      {
+        "year": 2,
+        "value": 334102,
+        "confidence": "medium",
+        "data_points": 22
+      },
+      {
+        "year": 3,
+        "value": 287370,
+        "confidence": "medium",
+        "data_points": 13
+      },
+      {
+        "year": 4,
+        "value": 252885,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 5,
+        "value": 240777,
+        "confidence": "medium",
+        "data_points": 18
+      },
+      {
+        "year": 6,
+        "value": 223107,
+        "confidence": "medium",
+        "data_points": 29
+      },
+      {
+        "year": 7,
+        "value": 205258,
+        "confidence": "adjusted",
+        "data_points": 30
+      },
+      {
+        "year": 8,
+        "value": 185907,
+        "confidence": "medium",
+        "data_points": 31
+      },
+      {
+        "year": 9,
+        "value": 185070,
+        "confidence": "medium",
+        "data_points": 32
+      },
+      {
+        "year": 10,
+        "value": 170264,
+        "confidence": "adjusted",
+        "data_points": 9
+      }
+    ]
+  },
+  "confidence": "low",
+  "data_quality_notes": []
+}

@@ -1,0 +1,86 @@
+{
+  "model_id": "mercedes-eqa-250",
+  "calculated_at": "2026-04-25T07:35:40.776207+00:00",
+  "assumptions": {
+    "mileage_per_year": 1500,
+    "ownership_years": 4,
+    "fuel_price_kr_per_liter": 18.5,
+    "electricity_price_kr_per_kwh": 1.5
+  },
+  "result": {
+    "total_cost": 393563,
+    "monthly_cost": 8199,
+    "cost_per_mil": 66,
+    "breakdown": {
+      "depreciation": 322065,
+      "fuel": 18468,
+      "tax": 1440,
+      "insurance": {
+        "low": 24000,
+        "high": 42000,
+        "estimate": 32000
+      },
+      "service": 9500,
+      "tires": 9600,
+      "besiktning": 490
+    },
+    "depreciation_curve": [
+      {
+        "year": 0,
+        "value": 529000,
+        "confidence": "fixed",
+        "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 265750,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 2,
+        "value": 244490,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 3,
+        "value": 224930,
+        "confidence": "adjusted",
+        "data_points": 7
+      },
+      {
+        "year": 4,
+        "value": 206935,
+        "confidence": "adjusted",
+        "data_points": 10
+      },
+      {
+        "year": 5,
+        "value": 190380,
+        "confidence": "adjusted",
+        "data_points": 12
+      },
+      {
+        "year": 6,
+        "value": 175149,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 7,
+        "value": 161137,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 8,
+        "value": 148246,
+        "confidence": "estimated",
+        "data_points": 0
+      }
+    ]
+  },
+  "confidence": "low",
+  "data_quality_notes": []
+}

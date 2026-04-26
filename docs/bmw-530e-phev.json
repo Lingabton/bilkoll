@@ -1,0 +1,86 @@
+{
+  "model_id": "bmw-530e-phev",
+  "calculated_at": "2026-04-25T07:35:40.788069+00:00",
+  "assumptions": {
+    "mileage_per_year": 1500,
+    "ownership_years": 4,
+    "fuel_price_kr_per_liter": 18.5,
+    "electricity_price_kr_per_kwh": 1.5
+  },
+  "result": {
+    "total_cost": 556298,
+    "monthly_cost": 11590,
+    "cost_per_mil": 93,
+    "breakdown": {
+      "depreciation": 437168,
+      "fuel": 66600,
+      "tax": 3640,
+      "insurance": {
+        "low": 26000,
+        "high": 44000,
+        "estimate": 34000
+      },
+      "service": 4000,
+      "tires": 10400,
+      "besiktning": 490
+    },
+    "depreciation_curve": [
+      {
+        "year": 0,
+        "value": 625400,
+        "confidence": "fixed",
+        "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 213900,
+        "confidence": "medium",
+        "data_points": 250
+      },
+      {
+        "year": 2,
+        "value": 213900,
+        "confidence": "medium",
+        "data_points": 250
+      },
+      {
+        "year": 3,
+        "value": 213900,
+        "confidence": "medium",
+        "data_points": 250
+      },
+      {
+        "year": 4,
+        "value": 188232,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 5,
+        "value": 165644,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 6,
+        "value": 145766,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 7,
+        "value": 128274,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 8,
+        "value": 112881,
+        "confidence": "estimated",
+        "data_points": 0
+      }
+    ]
+  },
+  "confidence": "high",
+  "data_quality_notes": []
+}

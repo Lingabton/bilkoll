@@ -1,0 +1,86 @@
+{
+  "model_id": "mg-zs-ev-lr",
+  "calculated_at": "2026-04-25T07:35:40.790924+00:00",
+  "assumptions": {
+    "mileage_per_year": 1500,
+    "ownership_years": 4,
+    "fuel_price_kr_per_liter": 18.5,
+    "electricity_price_kr_per_kwh": 1.5
+  },
+  "result": {
+    "total_cost": 184212,
+    "monthly_cost": 3838,
+    "cost_per_mil": 31,
+    "breakdown": {
+      "depreciation": 131086,
+      "fuel": 17496,
+      "tax": 1440,
+      "insurance": {
+        "low": 14400,
+        "high": 24800,
+        "estimate": 19200
+      },
+      "service": 8500,
+      "tires": 6000,
+      "besiktning": 490
+    },
+    "depreciation_curve": [
+      {
+        "year": 0,
+        "value": 299900,
+        "confidence": "fixed",
+        "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 216794,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 2,
+        "value": 199450,
+        "confidence": "adjusted",
+        "data_points": 1
+      },
+      {
+        "year": 3,
+        "value": 183494,
+        "confidence": "adjusted",
+        "data_points": 22
+      },
+      {
+        "year": 4,
+        "value": 168814,
+        "confidence": "adjusted",
+        "data_points": 50
+      },
+      {
+        "year": 5,
+        "value": 155308,
+        "confidence": "adjusted",
+        "data_points": 53
+      },
+      {
+        "year": 6,
+        "value": 142883,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 7,
+        "value": 131452,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 8,
+        "value": 120935,
+        "confidence": "estimated",
+        "data_points": 0
+      }
+    ]
+  },
+  "confidence": "low",
+  "data_quality_notes": []
+}

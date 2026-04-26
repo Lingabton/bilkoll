@@ -1,6 +1,6 @@
 {
   "model_id": "vw-id4-pro",
-  "calculated_at": "2026-04-09T20:27:08.675751+00:00",
+  "calculated_at": "2026-04-25T07:35:40.767290+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,20 +8,21 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 297840,
-    "monthly_cost": 6205,
-    "cost_per_mil": 50,
+    "total_cost": 67070,
+    "monthly_cost": 1397,
+    "cost_per_mil": 11,
     "breakdown": {
-      "depreciation": 239800,
-      "fuel": 18000,
+      "depreciation": 0,
+      "fuel": 19440,
       "tax": 1440,
       "insurance": {
-        "low": 15960,
-        "high": 29640,
-        "estimate": 22800
+        "low": 18400,
+        "high": 31200,
+        "estimate": 24000
       },
-      "service": 7400,
-      "tires": 8400
+      "service": 13300,
+      "tires": 8400,
+      "besiktning": 490
     },
     "depreciation_curve": [
       {
@@ -29,57 +30,9 @@
         "value": 529700,
         "confidence": "fixed",
         "data_points": 0
-      },
-      {
-        "year": 1,
-        "value": 524500,
-        "confidence": "medium",
-        "data_points": 25
-      },
-      {
-        "year": 2,
-        "value": 429500,
-        "confidence": "medium",
-        "data_points": 25
-      },
-      {
-        "year": 3,
-        "value": 329800,
-        "confidence": "medium",
-        "data_points": 25
-      },
-      {
-        "year": 4,
-        "value": 289900,
-        "confidence": "medium",
-        "data_points": 25
-      },
-      {
-        "year": 5,
-        "value": 259000,
-        "confidence": "medium",
-        "data_points": 25
-      },
-      {
-        "year": 6,
-        "value": 227920,
-        "confidence": "estimated",
-        "data_points": 0
-      },
-      {
-        "year": 7,
-        "value": 200569,
-        "confidence": "estimated",
-        "data_points": 0
-      },
-      {
-        "year": 8,
-        "value": 176501,
-        "confidence": "estimated",
-        "data_points": 0
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "low",
   "data_quality_notes": []
 }
