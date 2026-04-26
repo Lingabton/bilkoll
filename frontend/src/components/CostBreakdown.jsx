@@ -97,6 +97,25 @@ export default function CostBreakdown({ breakdown, total, emissions, purchasePri
                       <span className="text-slate-500">{expl.source}</span>
                     )}
                   </div>
+                  {/* Contextual CTA */}
+                  {key === 'insurance' && (
+                    <a href="https://www.zmarta.se/forsakring/bilforsakring" target="_blank" rel="noopener noreferrer"
+                      className="mt-2 inline-flex items-center gap-1.5 text-[11px] text-sky-600 hover:text-sky-800 font-medium">
+                      Jämför försäkringspriser hos Zmarta →
+                    </a>
+                  )}
+                  {key === 'interest' && (
+                    <a href="https://www.lendo.se/billan" target="_blank" rel="noopener noreferrer"
+                      className="mt-2 inline-flex items-center gap-1.5 text-[11px] text-sky-600 hover:text-sky-800 font-medium">
+                      Jämför billån hos Lendo →
+                    </a>
+                  )}
+                  {key === 'tires' && (
+                    <a href="https://www.dackia.se/" target="_blank" rel="noopener noreferrer"
+                      className="mt-2 inline-flex items-center gap-1.5 text-[11px] text-sky-600 hover:text-sky-800 font-medium">
+                      Boka däckbyte hos Däckia →
+                    </a>
+                  )}
                 </div>
               )}
             </div>

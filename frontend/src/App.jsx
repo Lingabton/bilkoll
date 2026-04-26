@@ -68,6 +68,7 @@ function App() {
   const [showSettings, setShowSettings] = useState(false)
   const [compareWith, setCompareWith] = useState(null)
   const [toast, setToast] = useState(null)
+  const [fuelFilter, setFuelFilter] = useState('alla')
 
   // Persist settings
   useEffect(() => {
@@ -270,13 +271,39 @@ function App() {
           </div>
         )}
 
-        {/* ═══ RANKING ═══ */}
+        {/* ═══ FILTER + RANKING ═══ */}
         {recalculated.length > 0 && (
-          <RankingTable
-            cars={recalculated}
-            selected={selected}
-            onSelect={id => setSelected(selected === id ? null : id)}
-          />
+          <>
+            <div className="flex gap-1.5 mb-4 overflow-x-auto pb-1 -mx-1 px-1" role="radiogroup" aria-label="Filtrera drivlina">
+              {[
+                ['alla', 'Alla'],
+                ['el', 'El'],
+                ['hybrid', 'Hybrid'],
+                ['bensin', 'Bensin'],
+                ['laddhybrid', 'PHEV'],
+                ['diesel', 'Diesel'],
+              ].map(([val, label]) => {
+                const count = val === 'alla' ? recalculated.length : recalculated.filter(c => c.fuel === val).length
+                if (val !== 'alla' && count === 0) return null
+                return (
+                  <button key={val} role="radio" aria-checked={fuelFilter === val}
+                    onClick={() => setFuelFilter(val)}
+                    className={`shrink-0 text-[12px] font-medium px-3 py-1.5 rounded-lg border transition-all cursor-pointer ${
+                      fuelFilter === val
+                        ? 'bg-slate-900 text-white border-slate-900'
+                        : 'bg-white text-slate-500 border-slate-200 hover:border-slate-300'
+                    }`}>
+                    {label} <span className="text-[10px] opacity-60">{count}</span>
+                  </button>
+                )
+              })}
+            </div>
+            <RankingTable
+              cars={fuelFilter === 'alla' ? recalculated : recalculated.filter(c => c.fuel === fuelFilter)}
+              selected={selected}
+              onSelect={id => setSelected(selected === id ? null : id)}
+            />
+          </>
         )}
 
         {/* ═══ DETAIL ═══ */}
@@ -325,8 +352,8 @@ function App() {
             </div>
 
             {/* Actions */}
-            <div className="flex gap-2">
-              <div className="flex-1 relative">
+            <div className="flex gap-2 flex-wrap">
+              <div className="flex-1 min-w-[140px] relative">
                 {compareWith ? (
                   <button onClick={() => setCompareWith(null)}
                     className="w-full text-sm py-2.5 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 transition-colors cursor-pointer text-slate-600">
@@ -339,13 +366,20 @@ function App() {
                     aria-label="Jämför med annan bil"
                     className="w-full text-sm py-2.5 px-4 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 transition-colors cursor-pointer text-slate-600 appearance-none"
                   >
-                    <option value="" disabled>Jämför med annan bil...</option>
+                    <option value="" disabled>Jämför med...</option>
                     {recalculated.filter(c => c.id !== selected).map(c => (
                       <option key={c.id} value={c.id}>{c.make} {c.model} — {c.monthly_cost.toLocaleString('sv-SE')} kr/mån</option>
                     ))}
                   </select>
                 )}
               </div>
+              <a
+                href={`https://www.autouncle.se/se/begagnade-bilar/${selectedModel.autouncle_filters?.url_path || ''}`}
+                target="_blank" rel="noopener noreferrer"
+                className="px-4 py-2.5 rounded-xl bg-sky-500 hover:bg-sky-600 transition-colors text-white text-sm font-medium text-center"
+              >
+                Hitta begagnad →
+              </a>
               <button onClick={handleShare}
                 aria-label="Dela bilkostnad"
                 className="px-4 py-2.5 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 transition-colors cursor-pointer text-slate-500 text-sm"
