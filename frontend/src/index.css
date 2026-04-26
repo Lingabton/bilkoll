@@ -4,11 +4,22 @@
   --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-display: 'Space Grotesk', 'DM Sans', sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --color-brand: #1a3a2a;
+  --color-brand-light: #2d5a42;
+  --color-accent: #22c55e;
 }
 
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Hero background with subtle noise texture ── */
+.hero-bg {
+  background-color: var(--color-brand);
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% 0%, rgba(34,197,94,0.12) 0%, transparent 60%),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
 }
 
 /* ── Range slider ── */
@@ -18,7 +29,7 @@ input[type="range"] {
   height: 4px;
   border-radius: 2px;
   background: #e2e8f0;
-  background-image: linear-gradient(#0ea5e9, #0ea5e9);
+  background-image: linear-gradient(var(--color-brand), var(--color-brand));
   background-repeat: no-repeat;
   background-size: calc(var(--val, 0.5) * 100%) 100%;
   cursor: pointer;
@@ -30,15 +41,15 @@ input[type="range"]::-webkit-slider-thumb {
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background: #0ea5e9;
+  background: var(--color-brand);
   border: 3px solid white;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.15), 0 0 0 1px rgba(14,165,233,0.15);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
   cursor: grab;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 input[type="range"]::-webkit-slider-thumb:hover {
-  box-shadow: 0 1px 6px rgba(14,165,233,0.3), 0 0 0 3px rgba(14,165,233,0.1);
+  box-shadow: 0 1px 6px rgba(26,58,42,0.3), 0 0 0 3px rgba(26,58,42,0.08);
 }
 
 input[type="range"]::-webkit-slider-thumb:active {
@@ -78,19 +89,20 @@ input[type="range"]::-webkit-slider-thumb:active {
   animation: slideUp 0.35s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
-/* ── Cost gradient on ranking rows ── */
-.cost-gradient-cheap {
-  border-left: 3px solid #10b981;
-}
-.cost-gradient-mid {
-  border-left: 3px solid #f59e0b;
-}
-.cost-gradient-expensive {
-  border-left: 3px solid #ef4444;
+/* ── Ranking row cost indicator ── */
+.cost-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  transition: width 0.5s ease;
 }
 
-/* ── Winner badge ── */
+/* ── Winner highlight ── */
 .winner-row {
-  background: linear-gradient(135deg, #ecfdf5 0%, #ffffff 40%);
-  border-color: #6ee7b7;
+  background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 50%);
+  border-color: #86efac;
+}
+.winner-row:hover {
+  border-color: #4ade80;
 }

@@ -155,59 +155,47 @@ function App() {
     <div className="min-h-screen bg-[#fafaf9] text-slate-800 font-sans">
 
       {/* ═══ HERO ═══ */}
-      <div className="relative overflow-hidden border-b border-slate-200">
-        <div className="absolute inset-0 bg-gradient-to-b from-white to-slate-50" />
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-gradient-radial from-blue-100/60 via-transparent to-transparent rounded-full blur-3xl" />
-
-        <header className="relative max-w-2xl mx-auto px-5 pt-8 pb-8 sm:px-6 sm:pt-10 sm:pb-10">
-          <div className="flex items-center gap-2.5 mb-6 sm:mb-8">
-            <div className="w-8 h-8 rounded-lg bg-slate-900 flex items-center justify-center shadow-sm">
-              <span className="text-white font-extrabold text-[11px] tracking-tight">BK</span>
+      <div className="hero-bg relative overflow-hidden">
+        <header className="relative max-w-2xl mx-auto px-5 pt-7 pb-7 sm:px-6 sm:pt-9 sm:pb-9">
+          <div className="flex items-center gap-2.5 mb-5 sm:mb-7">
+            <div className="w-7 h-7 rounded-md bg-[#22c55e] flex items-center justify-center">
+              <span className="text-[#1a3a2a] font-extrabold text-[10px] tracking-tight">BK</span>
             </div>
-            <span className="text-[15px] font-bold text-slate-900 tracking-tight">Bilkoll</span>
-            <span className="text-[10px] text-slate-400 bg-slate-100 px-2 py-0.5 rounded-full font-medium ml-1">Beta</span>
+            <span className="text-[14px] font-bold text-white/90 tracking-tight">Bilkoll</span>
           </div>
 
-          <h1 className="font-display text-[36px] sm:text-[52px] font-bold tracking-tight leading-[1.08] text-slate-900 mb-3 sm:mb-4">
-            Vad kostar bilen<br/><span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-cyan-400">egentligen?</span>
+          <h1 className="font-display text-[32px] sm:text-[46px] font-bold tracking-tight leading-[1.1] text-white mb-2 sm:mb-3">
+            Vad kostar bilen<br/>egentligen?
           </h1>
-          <p className="text-slate-500 text-[15px] sm:text-[17px] leading-relaxed max-w-lg">
-            Verklig månadskostnad för {models.length || '...'} bilmodeller — värdeminskning, drivmedel, skatt, försäkring — baserat på tusentals begagnatpriser.
+          <p className="text-white/50 text-[14px] sm:text-[16px] leading-relaxed max-w-md">
+            Verklig ägandekostnad för {models.length || '...'} bilar. Baserat på {(18587).toLocaleString('sv-SE')} begagnatannonser.
           </p>
 
-          {/* Quick stats — asymmetric layout */}
+          {/* Quick stats */}
           {cheapest && expensive && (
-            <div className="mt-6 sm:mt-8">
-              <div className="grid grid-cols-[1fr_auto] gap-3 sm:gap-4">
-                {/* Winner — large card */}
-                <div className="px-5 py-5 rounded-2xl bg-gradient-to-br from-emerald-50 via-white to-white border border-emerald-200 shadow-sm relative overflow-hidden">
-                  <div className="absolute top-3 right-3 text-[10px] font-bold text-emerald-500 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200">
-                    #1 billigast
-                  </div>
-                  <div className="text-[11px] text-emerald-600 font-medium mb-1">Billigast att äga</div>
-                  <div className="font-mono text-[32px] sm:text-[38px] font-black text-emerald-700 leading-none tabular-nums tracking-tight">
-                    {cheapest.monthly_cost.toLocaleString('sv-SE')}
-                    <span className="text-[14px] font-normal text-emerald-500 ml-1">kr/mån</span>
-                  </div>
-                  <div className="text-[13px] text-slate-600 mt-1.5 font-medium">{cheapest.name?.split(' ').slice(0,2).join(' ')}</div>
+            <div className="mt-5 sm:mt-7 flex items-end gap-4 sm:gap-6">
+              {/* Winner — the number IS the design */}
+              <div>
+                <div className="text-[11px] text-[#22c55e] font-medium tracking-wide uppercase mb-1">Billigast att äga</div>
+                <div className="font-mono text-[44px] sm:text-[56px] font-black text-white leading-none tabular-nums tracking-tighter">
+                  {cheapest.monthly_cost.toLocaleString('sv-SE')}
                 </div>
-
-                {/* Right column — stacked small cards */}
-                <div className="flex flex-col gap-2 sm:gap-3 min-w-[130px]">
-                  <div className="px-3 py-2.5 rounded-xl bg-white border border-slate-200 shadow-sm flex-1 flex flex-col justify-center">
-                    <div className="text-[10px] text-slate-400 font-medium">Dyrast</div>
-                    <div className="font-mono text-[16px] font-bold text-rose-500 tabular-nums">{expensive.monthly_cost.toLocaleString('sv-SE')} <span className="text-[10px] font-normal text-slate-400">kr/mån</span></div>
-                    <div className="text-[10px] text-slate-400 truncate">{expensive.name?.split(' ').slice(0,2).join(' ')}</div>
-                  </div>
-                  <div className="px-3 py-2.5 rounded-xl bg-white border border-slate-200 shadow-sm flex-1 flex flex-col justify-center">
-                    <div className="text-[10px] text-slate-400 font-medium">Skillnad</div>
-                    <div className="font-mono text-[16px] font-bold text-slate-900 tabular-nums">{diff.toLocaleString('sv-SE')} <span className="text-[10px] font-normal text-slate-400">kr/mån</span></div>
-                    <div className="text-[10px] text-slate-400">{(diff * 12).toLocaleString('sv-SE')} kr/år</div>
-                  </div>
+                <div className="text-[13px] text-white/40 mt-1">
+                  kr/mån — {cheapest.name?.split(' ').slice(0,3).join(' ')}
                 </div>
               </div>
-              <div className="mt-2.5 text-[11px] text-slate-400 text-center">
-                {years} års ägande · {mileage.toLocaleString('sv-SE')} mil/år · {buyAge === 0 ? 'köpt ny' : `${buyAge} år gammal`} · {recalculated.length} modeller
+
+              {/* Secondary stats — understated */}
+              <div className="mb-1 space-y-1.5 hidden sm:block">
+                <div className="text-[11px] text-white/30">
+                  Dyrast: <span className="text-white/60 font-mono">{expensive.monthly_cost.toLocaleString('sv-SE')}</span> kr/mån
+                </div>
+                <div className="text-[11px] text-white/30">
+                  Skillnad: <span className="text-white/60 font-mono">{(diff * 12).toLocaleString('sv-SE')}</span> kr/år
+                </div>
+                <div className="text-[11px] text-white/30">
+                  {recalculated.length} modeller · {years} år · {mileage.toLocaleString('sv-SE')} mil/år
+                </div>
               </div>
             </div>
           )}
@@ -235,7 +223,7 @@ function App() {
             </button>
             {!isDefault && (
               <button onClick={resetSettings}
-                className="text-[11px] text-sky-500 hover:text-sky-700 cursor-pointer font-medium ml-auto">
+                className="text-[11px] text-[#22c55e] hover:text-emerald-700 cursor-pointer font-medium ml-auto">
                 Återställ
               </button>
             )}
@@ -271,7 +259,7 @@ function App() {
         {/* ═══ LOADING ═══ */}
         {loading && (
           <div className="text-center py-12 text-slate-400 text-sm animate-fade-in">
-            <div className="w-6 h-6 border-2 border-slate-300 border-t-sky-500 rounded-full animate-spin mx-auto mb-3" />
+            <div className="w-6 h-6 border-2 border-slate-300 border-t-emerald-500 rounded-full animate-spin mx-auto mb-3" />
             Laddar bildata...
           </div>
         )}
@@ -302,7 +290,7 @@ function App() {
                     onClick={() => setFuelFilter(val)}
                     className={`shrink-0 text-[12px] font-medium px-3 py-1.5 rounded-lg border transition-all cursor-pointer ${
                       fuelFilter === val
-                        ? 'bg-slate-900 text-white border-slate-900'
+                        ? 'bg-[#1a3a2a] text-white border-[#1a3a2a]'
                         : 'bg-white text-slate-500 border-slate-200 hover:border-slate-300'
                     }`}>
                     {label} <span className="text-[10px] opacity-60">{count}</span>
@@ -331,9 +319,9 @@ function App() {
             )}
 
             {/* Big number */}
-            <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-6 sm:p-8 shadow-xl">
-              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-sky-500 via-cyan-400 to-sky-500" />
-              <div className="absolute top-0 right-0 w-48 h-48 bg-gradient-radial from-sky-400/10 to-transparent rounded-full blur-2xl" />
+            <div className="relative overflow-hidden rounded-2xl bg-[#1a3a2a] p-6 sm:p-8 shadow-xl">
+              <div className="absolute top-0 left-0 w-full h-[3px] bg-[#22c55e]" />
+              <div className="absolute top-0 right-0 w-48 h-48 bg-gradient-radial from-emerald-400/8 to-transparent rounded-full blur-2xl" />
               <div className="relative">
                 {/* Close button */}
                 <button onClick={() => setSelected(null)} className="absolute top-0 right-0 text-slate-500 hover:text-white transition-colors cursor-pointer p-1" aria-label="Stäng detaljer">
@@ -388,7 +376,7 @@ function App() {
               <a
                 href={`https://www.autouncle.se/se/begagnade-bilar/${selectedModel.autouncle_filters?.url_path || ''}`}
                 target="_blank" rel="noopener noreferrer"
-                className="px-4 py-2.5 rounded-xl bg-sky-500 hover:bg-sky-600 transition-colors text-white text-sm font-medium text-center"
+                className="px-4 py-2.5 rounded-xl bg-[#1a3a2a] hover:bg-[#2d5a42] transition-colors text-white text-sm font-medium text-center"
               >
                 Hitta begagnad →
               </a>
@@ -443,9 +431,9 @@ function App() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
             {[
-              ["Värdeminskning", "Verkliga begagnatpriser från tusentals annonser — inte schabloner. Justerade 7% från utropspris till uppskattad köpeskilling.", "from-rose-50 to-white", "text-rose-500", "border-rose-100"],
-              ["Drivmedel", "Verklig förbrukning från Spritmonitor, inte tillverkarens WLTP. Elbilar inkluderar 8% vinterjustering.", "from-amber-50 to-white", "text-amber-500", "border-amber-100"],
-              ["Skatt + Försäkring + Service", "Fordonsskatt inkl. malus, modellspecifik försäkring (intervall), verkstadskostnader, däck och besiktning.", "from-sky-50 to-white", "text-sky-500", "border-sky-100"],
+              ["Värdeminskning", "Verkliga begagnatpriser från tusentals annonser — inte schabloner. Justerade 7% från utropspris till uppskattad köpeskilling.", "from-emerald-50/50 to-white", "text-[#1a3a2a]", "border-emerald-100"],
+              ["Drivmedel", "Verklig förbrukning från Spritmonitor, inte tillverkarens WLTP. Elbilar inkluderar 8% vinterjustering.", "from-amber-50/50 to-white", "text-amber-700", "border-amber-100"],
+              ["Skatt + Försäkring + Service", "Fordonsskatt inkl. malus, modellspecifik försäkring (intervall), verkstadskostnader, däck och besiktning.", "from-slate-50 to-white", "text-slate-700", "border-slate-200"],
             ].map(([title, desc, gradient, textColor, border]) => (
               <div key={title} className={`rounded-2xl bg-gradient-to-b ${gradient} border ${border} p-5 shadow-sm`}>
                 <div className={`text-sm font-bold ${textColor} mb-2 font-display`}>{title}</div>
@@ -469,9 +457,9 @@ function App() {
 
         {/* ═══ DATA SOURCE ═══ */}
         <section className="mt-8 sm:mt-12 text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200 text-[11px] text-slate-500 shadow-sm">
-            <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-            {recalculated.length} modeller · Nybilspriser: Skatteverket · Begagnatpriser: AutoUncle · Förbrukning: Spritmonitor
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#1a3a2a]/5 border border-[#1a3a2a]/10 text-[11px] text-slate-500">
+            <div className="w-1.5 h-1.5 rounded-full bg-[#22c55e] animate-pulse" />
+            {recalculated.length} modeller · Skatteverket · AutoUncle · Spritmonitor
           </div>
         </section>
 

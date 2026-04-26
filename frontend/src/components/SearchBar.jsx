@@ -50,7 +50,7 @@ export default function SearchBar({ cars, onSelect }) {
           aria-label="Sök bilmodell"
           aria-expanded={open && filtered.length > 0}
           role="combobox"
-          className="w-full pl-10 pr-4 py-3 rounded-xl border border-slate-200 bg-white text-sm text-slate-900 placeholder-slate-400 outline-none focus:border-sky-300 focus:ring-2 focus:ring-sky-100 transition-all"
+          className="w-full pl-10 pr-4 py-3 rounded-xl border border-slate-200 bg-white text-sm text-slate-900 placeholder-slate-400 outline-none focus:border-emerald-400 focus:ring-2 focus:ring-emerald-100 transition-all"
         />
       </div>
 

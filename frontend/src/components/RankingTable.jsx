@@ -21,9 +21,13 @@ export default function RankingTable({ cars, selected, onSelect }) {
           const isSelected = selected === car.id
           const fc = fuelConfig[car.fuel] || fuelConfig.bensin
           const barWidth = (car.monthly_cost / maxCost) * 100
-          const costPct = (car.monthly_cost - cars[0].monthly_cost) / (maxCost - cars[0].monthly_cost || 1)
-          const costGradient = costPct < 0.33 ? 'cost-gradient-cheap' : costPct < 0.66 ? 'cost-gradient-mid' : 'cost-gradient-expensive'
+          const costPct = cars.length > 1 ? (car.monthly_cost - cars[0].monthly_cost) / (maxCost - cars[0].monthly_cost || 1) : 0
           const isWinner = i === 0
+          // Color: green for cheap, through yellow, to red for expensive
+          const r = Math.round(34 + costPct * 205)
+          const g = Math.round(197 - costPct * 150)
+          const b = Math.round(94 - costPct * 60)
+          const barColor = `rgb(${r},${g},${b})`
 
           return (
             <button
@@ -32,20 +36,17 @@ export default function RankingTable({ cars, selected, onSelect }) {
               role="listitem"
               aria-selected={isSelected}
               aria-label={`${car.make} ${car.model}, ${car.monthly_cost.toLocaleString('sv-SE')} kr per månad`}
-              className={`ranking-item group w-full text-left rounded-xl border transition-all duration-200 cursor-pointer relative overflow-hidden ${costGradient} ${
+              className={`ranking-item group w-full text-left rounded-xl border transition-all duration-200 cursor-pointer relative overflow-hidden ${
                 isSelected
-                  ? "bg-white border-sky-200 shadow-md ring-1 ring-sky-100"
+                  ? "bg-white border-emerald-300 shadow-md ring-1 ring-emerald-100"
                   : isWinner
                     ? "winner-row hover:shadow-sm"
                     : "bg-white border-slate-200 hover:border-slate-300 hover:shadow-sm"
               }`}
               style={{ animationDelay: `${Math.min(i, 15) * 30}ms` }}
             >
-              {/* Cost bar */}
-              <div
-                className="absolute inset-y-0 left-0 bg-gradient-to-r from-slate-50 to-transparent transition-all duration-500"
-                style={{ width: `${barWidth}%` }}
-              />
+              {/* Cost indicator bar at bottom */}
+              <div className="cost-bar" style={{ width: `${barWidth}%`, backgroundColor: barColor }} />
 
               <div className="relative px-3 py-3 sm:px-4 sm:py-3.5 flex items-center justify-between gap-3 sm:gap-4">
                 <div className="flex items-center gap-2.5 sm:gap-3 min-w-0">
