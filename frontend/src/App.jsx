@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useCallback } from 'react'
+import { useState, useEffect, useMemo, useCallback, useRef } from 'react'
 import './index.css'
 import RankingTable from './components/RankingTable'
 import CostBreakdown from './components/CostBreakdown'
@@ -69,12 +69,23 @@ function App() {
   const [compareWith, setCompareWith] = useState(null)
   const [toast, setToast] = useState(null)
   const [fuelFilter, setFuelFilter] = useState('alla')
+  const [showAllCars, setShowAllCars] = useState(false)
+  const detailRef = useRef(null)
 
   // Persist settings
   useEffect(() => {
     const s = { mileage, years, fuelPrice, elPrice, insuranceLevel, buyAge, loanPct, interestRate }
     localStorage.setItem('bilkoll_settings', JSON.stringify(s))
   }, [mileage, years, fuelPrice, elPrice, insuranceLevel, buyAge, loanPct, interestRate])
+
+  // Scroll to detail when car is selected
+  useEffect(() => {
+    if (selected && detailRef.current) {
+      setTimeout(() => {
+        detailRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      }, 100)
+    }
+  }, [selected])
 
   // Update page title
   useEffect(() => {
@@ -272,43 +283,64 @@ function App() {
         )}
 
         {/* ═══ FILTER + RANKING ═══ */}
-        {recalculated.length > 0 && (
-          <>
-            <div className="flex gap-1.5 mb-4 overflow-x-auto pb-1 -mx-1 px-1" role="radiogroup" aria-label="Filtrera drivlina">
-              {[
-                ['alla', 'Alla'],
-                ['el', 'El'],
-                ['hybrid', 'Hybrid'],
-                ['bensin', 'Bensin'],
-                ['laddhybrid', 'PHEV'],
-                ['diesel', 'Diesel'],
-              ].map(([val, label]) => {
-                const count = val === 'alla' ? recalculated.length : recalculated.filter(c => c.fuel === val).length
-                if (val !== 'alla' && count === 0) return null
-                return (
-                  <button key={val} role="radio" aria-checked={fuelFilter === val}
-                    onClick={() => setFuelFilter(val)}
-                    className={`shrink-0 text-[12px] font-medium px-3 py-1.5 rounded-lg border transition-all cursor-pointer ${
-                      fuelFilter === val
-                        ? 'bg-[#1a3a2a] text-white border-[#1a3a2a]'
-                        : 'bg-white text-slate-500 border-slate-200 hover:border-slate-300'
-                    }`}>
-                    {label} <span className="text-[10px] opacity-60">{count}</span>
-                  </button>
-                )
-              })}
-            </div>
-            <RankingTable
-              cars={fuelFilter === 'alla' ? recalculated : recalculated.filter(c => c.fuel === fuelFilter)}
-              selected={selected}
-              onSelect={id => setSelected(selected === id ? null : id)}
-            />
-          </>
-        )}
+        {recalculated.length > 0 && (() => {
+          const filtered = fuelFilter === 'alla' ? recalculated : recalculated.filter(c => c.fuel === fuelFilter)
+          const visible = showAllCars ? filtered : filtered.slice(0, 10)
+          const hasMore = filtered.length > 10 && !showAllCars
+
+          return (
+            <>
+              {/* CTA */}
+              {!selected && (
+                <p className="text-[13px] text-slate-400 mb-4">Klicka på en bil för att se den verkliga månadskostnaden.</p>
+              )}
+
+              <div className="flex gap-1.5 mb-4 overflow-x-auto pb-1 -mx-1 px-1" role="radiogroup" aria-label="Filtrera drivlina">
+                {[
+                  ['alla', 'Alla'],
+                  ['el', 'El'],
+                  ['hybrid', 'Hybrid'],
+                  ['bensin', 'Bensin'],
+                  ['laddhybrid', 'PHEV'],
+                  ['diesel', 'Diesel'],
+                ].map(([val, label]) => {
+                  const count = val === 'alla' ? recalculated.length : recalculated.filter(c => c.fuel === val).length
+                  if (val !== 'alla' && count === 0) return null
+                  return (
+                    <button key={val} role="radio" aria-checked={fuelFilter === val}
+                      onClick={() => { setFuelFilter(val); setShowAllCars(false) }}
+                      className={`shrink-0 text-[12px] font-medium px-3 py-1.5 rounded-lg border transition-all cursor-pointer ${
+                        fuelFilter === val
+                          ? 'bg-[#1a3a2a] text-white border-[#1a3a2a]'
+                          : 'bg-white text-slate-500 border-slate-200 hover:border-slate-300'
+                      }`}>
+                      {label} <span className="text-[10px] opacity-60">{count}</span>
+                    </button>
+                  )
+                })}
+              </div>
+
+              <RankingTable
+                cars={visible}
+                selected={selected}
+                onSelect={id => { setSelected(selected === id ? null : id); setCompareWith(null) }}
+              />
+
+              {hasMore && (
+                <button
+                  onClick={() => setShowAllCars(true)}
+                  className="w-full mt-2 py-3 text-[13px] text-slate-500 hover:text-slate-900 font-medium cursor-pointer transition-colors border border-dashed border-slate-200 rounded-xl hover:border-slate-400"
+                >
+                  Visa alla {filtered.length} modeller
+                </button>
+              )}
+            </>
+          )
+        })()}
 
         {/* ═══ DETAIL ═══ */}
         {selectedResult && selectedDetail && selectedModel && (
-          <div className="mt-5 sm:mt-6 space-y-4 animate-slide-up" role="region" aria-label={`Detaljer för ${selectedModel.make} ${selectedModel.model}`}>
+          <div ref={detailRef} className="mt-5 sm:mt-6 space-y-4 animate-slide-up scroll-mt-4" role="region" aria-label={`Detaljer för ${selectedModel.make} ${selectedModel.model}`}>
 
             {/* Placeholder warning */}
             {isPlaceholder && (
