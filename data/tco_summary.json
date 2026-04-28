@@ -12,54 +12,6 @@
     "newPrice": 326900
   },
   {
-    "id": "kia-ev6-lr",
-    "slug": "kia-ev6",
-    "name": "Kia EV6 Long Range RWD",
-    "monthly_cost": 1265,
-    "cost_per_mil": 10,
-    "total_4yr": 60698,
-    "confidence": "low",
-    "fuel": "el",
-    "segment": "suv-mellanklass",
-    "newPrice": 596400
-  },
-  {
-    "id": "volvo-ex30-twin",
-    "slug": "volvo-ex30",
-    "name": "Volvo EX30 Twin Motor Performance",
-    "monthly_cost": 1266,
-    "cost_per_mil": 10,
-    "total_4yr": 60758,
-    "confidence": "low",
-    "fuel": "el",
-    "segment": "suv-kompakt",
-    "newPrice": 547000
-  },
-  {
-    "id": "vw-id4-pro",
-    "slug": "vw-id4",
-    "name": "Volkswagen ID.4 Pro Life 77 kWh",
-    "monthly_cost": 1397,
-    "cost_per_mil": 11,
-    "total_4yr": 67070,
-    "confidence": "low",
-    "fuel": "el",
-    "segment": "suv-kompakt",
-    "newPrice": 529700
-  },
-  {
-    "id": "tesla-model-3-lr",
-    "slug": "tesla-model-3",
-    "name": "Tesla Model 3 Long Range AWD",
-    "monthly_cost": 1457,
-    "cost_per_mil": 12,
-    "total_4yr": 69926,
-    "confidence": "low",
-    "fuel": "el",
-    "segment": "sedan-mellanklass",
-    "newPrice": 584900
-  },
-  {
     "id": "lexus-nx-350h",
     "slug": "lexus-nx",
     "name": "Lexus NX 350h AWD Hybrid",
@@ -300,18 +252,6 @@
     "newPrice": 388100
   },
   {
-    "id": "kia-ev9-rwd",
-    "slug": "kia-ev9",
-    "name": "Kia EV9 RWD 99.8 kWh",
-    "monthly_cost": 5569,
-    "cost_per_mil": 45,
-    "total_4yr": 267332,
-    "confidence": "medium",
-    "fuel": "el",
-    "segment": "suv-mellanklass",
-    "newPrice": 689900
-  },
-  {
     "id": "skoda-superb-tsi",
     "slug": "skoda-superb",
     "name": "Skoda Superb Combi 1.5 TSI 150",
@@ -372,6 +312,18 @@
     "newPrice": 429900
   },
   {
+    "id": "kia-ev9-rwd",
+    "slug": "kia-ev9",
+    "name": "Kia EV9 RWD 99.8 kWh",
+    "monthly_cost": 5900,
+    "cost_per_mil": 47,
+    "total_4yr": 283196,
+    "confidence": "medium",
+    "fuel": "el",
+    "segment": "suv-mellanklass",
+    "newPrice": 779900
+  },
+  {
     "id": "mercedes-c200",
     "slug": "mercedes-c-klass",
     "name": "Mercedes-Benz C-Klass C 200 Sedan",
@@ -406,6 +358,18 @@
     "fuel": "bensin",
     "segment": "sedan-kompakt",
     "newPrice": 339900
+  },
+  {
+    "id": "kia-ev6-lr",
+    "slug": "kia-ev6",
+    "name": "Kia EV6 Long Range RWD",
+    "monthly_cost": 6153,
+    "cost_per_mil": 49,
+    "total_4yr": 295333,
+    "confidence": "high",
+    "fuel": "el",
+    "segment": "suv-mellanklass",
+    "newPrice": 596400
   },
   {
     "id": "bmw-x1-sdrive18i",
@@ -502,6 +466,18 @@
     "fuel": "laddhybrid",
     "segment": "suv-mellanklass",
     "newPrice": 650000
+  },
+  {
+    "id": "vw-id4-pro",
+    "slug": "vw-id4",
+    "name": "Volkswagen ID.4 Pro Life 77 kWh",
+    "monthly_cost": 6622,
+    "cost_per_mil": 53,
+    "total_4yr": 317863,
+    "confidence": "medium",
+    "fuel": "el",
+    "segment": "suv-kompakt",
+    "newPrice": 529700
   },
   {
     "id": "kia-sportage-phev",
@@ -636,6 +612,18 @@
     "newPrice": 392900
   },
   {
+    "id": "volvo-ex30-twin",
+    "slug": "volvo-ex30",
+    "name": "Volvo EX30 Twin Motor Performance",
+    "monthly_cost": 7265,
+    "cost_per_mil": 58,
+    "total_4yr": 348705,
+    "confidence": "high",
+    "fuel": "el",
+    "segment": "suv-kompakt",
+    "newPrice": 547000
+  },
+  {
     "id": "skoda-enyaq-85",
     "slug": "skoda-enyaq",
     "name": "Skoda Enyaq 85 Solid Edition",
@@ -646,6 +634,18 @@
     "fuel": "el",
     "segment": "suv-kompakt",
     "newPrice": 604900
+  },
+  {
+    "id": "tesla-model-3-lr",
+    "slug": "tesla-model-3",
+    "name": "Tesla Model 3 Long Range AWD",
+    "monthly_cost": 7694,
+    "cost_per_mil": 62,
+    "total_4yr": 369316,
+    "confidence": "medium",
+    "fuel": "el",
+    "segment": "sedan-mellanklass",
+    "newPrice": 584900
   },
   {
     "id": "skoda-kodiaq-tsi",

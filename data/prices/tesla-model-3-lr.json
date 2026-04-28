@@ -1,13 +1,76 @@
 {
   "model_id": "tesla-model-3-lr",
-  "scraped_at": "2026-04-24T20:40:46.347043+00:00",
+  "scraped_at": "2026-04-28T23:00:05.354723+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
-  "years": {},
+  "years": {
+    "2024": {
+      "median_price": 432445,
+      "count": 18,
+      "total_on_page": 18,
+      "price_type": "estimated_transaction",
+      "p5_price": 343170,
+      "p95_price": 604314,
+      "min_price": 343170,
+      "max_price": 604314
+    },
+    "2023": {
+      "median_price": 311364,
+      "count": 59,
+      "total_on_page": 59,
+      "price_type": "estimated_transaction",
+      "p5_price": 251007,
+      "p95_price": 413757,
+      "min_price": 241800,
+      "max_price": 418407
+    },
+    "2022": {
+      "median_price": 285510,
+      "count": 50,
+      "total_on_page": 50,
+      "price_type": "estimated_transaction",
+      "p5_price": 223107,
+      "p95_price": 355260,
+      "min_price": 175770,
+      "max_price": 395157,
+      "median_mileage_mil": 4700
+    },
+    "2021": {
+      "median_price": 262260,
+      "count": 66,
+      "total_on_page": 66,
+      "price_type": "estimated_transaction",
+      "p5_price": 203670,
+      "p95_price": 371907,
+      "min_price": 156240,
+      "max_price": 650907
+    },
+    "2020": {
+      "median_price": 223148,
+      "count": 54,
+      "total_on_page": 54,
+      "price_type": "estimated_transaction",
+      "p5_price": 175770,
+      "p95_price": 325407,
+      "min_price": 162750,
+      "max_price": 398970,
+      "median_mileage_mil": 8400
+    },
+    "2019": {
+      "median_price": 218457,
+      "count": 63,
+      "total_on_page": 63,
+      "price_type": "estimated_transaction",
+      "p5_price": 174747,
+      "p95_price": 279000,
+      "min_price": 150195,
+      "max_price": 348657
+    }
+  },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 0,
-    "confidence": "low"
+    "min_count_per_year": 18,
+    "confidence": "medium"
   }
 }
