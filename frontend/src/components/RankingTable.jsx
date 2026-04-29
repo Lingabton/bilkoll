@@ -1,3 +1,9 @@
+function carImageUrl(make, model) {
+  const m = make.toLowerCase().replace('-', '')
+  const fam = model.toLowerCase().replace(/\s+/g, '-').replace(/[åäö]/g, c => ({å:'a',ä:'a',ö:'o'}[c]||c))
+  return `https://cdn.imagin.studio/getImage?customer=img&make=${m}&modelFamily=${fam}&angle=23&width=160`
+}
+
 export default function RankingTable({ cars, selected, onSelect }) {
   const maxCost = Math.max(...cars.map(c => c.monthly_cost))
 
@@ -57,6 +63,14 @@ export default function RankingTable({ cars, selected, onSelect }) {
                   }`}>
                     {i + 1}
                   </div>
+
+                  <img
+                    src={carImageUrl(car.make, car.model)}
+                    alt=""
+                    loading="lazy"
+                    className="w-16 h-10 object-contain shrink-0 hidden sm:block opacity-80 group-hover:opacity-100 transition-opacity"
+                    onError={e => { e.target.style.display = 'none' }}
+                  />
 
                   <div className="min-w-0">
                     <div className="font-semibold text-[13px] sm:text-[14px] text-slate-900 truncate">{car.make} {car.model}</div>

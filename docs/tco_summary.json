@@ -156,6 +156,18 @@
     "newPrice": 361900
   },
   {
+    "id": "toyota-yaris-cross-hybrid",
+    "slug": "toyota-yaris-cross",
+    "name": "Toyota Yaris Cross 1.5 Hybrid AWD-i",
+    "monthly_cost": 4580,
+    "cost_per_mil": 37,
+    "total_4yr": 219855,
+    "confidence": "low",
+    "fuel": "hybrid",
+    "segment": "suv-kompakt",
+    "newPrice": 353600
+  },
+  {
     "id": "suzuki-s-cross-hybrid",
     "slug": "suzuki-s-cross",
     "name": "Suzuki S-Cross 1.5 Fullhybrid Allgrip",
@@ -166,18 +178,6 @@
     "fuel": "hybrid",
     "segment": "suv-kompakt",
     "newPrice": 354900
-  },
-  {
-    "id": "toyota-yaris-cross-hybrid",
-    "slug": "toyota-yaris-cross",
-    "name": "Toyota Yaris Cross 1.5 Hybrid AWD-i",
-    "monthly_cost": 4669,
-    "cost_per_mil": 37,
-    "total_4yr": 224133,
-    "confidence": "low",
-    "fuel": "hybrid",
-    "segment": "suv-kompakt",
-    "newPrice": 353600
   },
   {
     "id": "peugeot-2008-pt",
@@ -324,18 +324,6 @@
     "newPrice": 779900
   },
   {
-    "id": "mercedes-c200",
-    "slug": "mercedes-c-klass",
-    "name": "Mercedes-Benz C-Klass C 200 Sedan",
-    "monthly_cost": 5915,
-    "cost_per_mil": 47,
-    "total_4yr": 283920,
-    "confidence": "high",
-    "fuel": "bensin",
-    "segment": "sedan-mellanklass",
-    "newPrice": 354900
-  },
-  {
     "id": "vw-t-roc-etsi",
     "slug": "vw-t-roc",
     "name": "Volkswagen T-Roc 1.5 eTSI 150 DSG",
@@ -480,6 +468,18 @@
     "newPrice": 529700
   },
   {
+    "id": "bmw-330e-phev",
+    "slug": "bmw-3-serie",
+    "name": "BMW 3-Serie 330e Sedan PHEV",
+    "monthly_cost": 6633,
+    "cost_per_mil": 53,
+    "total_4yr": 318388,
+    "confidence": "low",
+    "fuel": "laddhybrid",
+    "segment": "sedan-mellanklass",
+    "newPrice": 549900
+  },
+  {
     "id": "kia-sportage-phev",
     "slug": "kia-sportage",
     "name": "Kia Sportage 1.6 T-GDI PHEV AWD",
@@ -511,7 +511,7 @@
     "cost_per_mil": 54,
     "total_4yr": 325962,
     "confidence": "high",
-    "fuel": "hybrid",
+    "fuel": "bensin",
     "segment": "suv-kompakt",
     "newPrice": 379900
   },
@@ -526,6 +526,18 @@
     "fuel": "el",
     "segment": "suv-kompakt",
     "newPrice": 579900
+  },
+  {
+    "id": "mercedes-c200",
+    "slug": "mercedes-c-klass",
+    "name": "Mercedes-Benz C-Klass C 200 Sedan",
+    "monthly_cost": 7007,
+    "cost_per_mil": 56,
+    "total_4yr": 336320,
+    "confidence": "low",
+    "fuel": "bensin",
+    "segment": "sedan-mellanklass",
+    "newPrice": 489000
   },
   {
     "id": "cupra-formentor-tsi",
@@ -595,7 +607,7 @@
     "cost_per_mil": 58,
     "total_4yr": 346875,
     "confidence": "high",
-    "fuel": "hybrid",
+    "fuel": "bensin",
     "segment": "suv-mellanklass",
     "newPrice": 449900
   },
@@ -684,18 +696,6 @@
     "newPrice": 449900
   },
   {
-    "id": "audi-a6-40tdi",
-    "slug": "audi-a6",
-    "name": "Audi A6 Avant 40 TDI quattro",
-    "monthly_cost": 7963,
-    "cost_per_mil": 64,
-    "total_4yr": 382217,
-    "confidence": "low",
-    "fuel": "diesel",
-    "segment": "sedan-mellanklass",
-    "newPrice": 580000
-  },
-  {
     "id": "volvo-v60-t6-phev",
     "slug": "volvo-v60",
     "name": "Volvo V60 T6 Recharge PHEV",
@@ -706,6 +706,18 @@
     "fuel": "laddhybrid",
     "segment": "sedan-mellanklass",
     "newPrice": 549900
+  },
+  {
+    "id": "mercedes-eqa-250",
+    "slug": "mercedes-eqa",
+    "name": "Mercedes-Benz EQA 250+",
+    "monthly_cost": 8065,
+    "cost_per_mil": 65,
+    "total_4yr": 387108,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "suv-kompakt",
+    "newPrice": 529000
   },
   {
     "id": "audi-q4-etron-45",
@@ -720,6 +732,18 @@
     "newPrice": 625200
   },
   {
+    "id": "bmw-530e-phev",
+    "slug": "bmw-5-serie",
+    "name": "BMW 5-Serie 530e Touring PHEV",
+    "monthly_cost": 8120,
+    "cost_per_mil": 65,
+    "total_4yr": 389741,
+    "confidence": "low",
+    "fuel": "laddhybrid",
+    "segment": "sedan-mellanklass",
+    "newPrice": 625400
+  },
+  {
     "id": "cupra-born-79",
     "slug": "cupra-born",
     "name": "Cupra Born e-Boost 79 kWh",
@@ -730,18 +754,6 @@
     "fuel": "el",
     "segment": "sedan-kompakt",
     "newPrice": 546900
-  },
-  {
-    "id": "mercedes-eqa-250",
-    "slug": "mercedes-eqa",
-    "name": "Mercedes-Benz EQA 250+",
-    "monthly_cost": 8199,
-    "cost_per_mil": 66,
-    "total_4yr": 393563,
-    "confidence": "low",
-    "fuel": "el",
-    "segment": "suv-kompakt",
-    "newPrice": 529000
   },
   {
     "id": "kia-niro-ev",
@@ -778,6 +790,18 @@
     "fuel": "el",
     "segment": "sedan-kompakt",
     "newPrice": 502900
+  },
+  {
+    "id": "audi-a6-40tdi",
+    "slug": "audi-a6",
+    "name": "Audi A6 Avant 40 TDI quattro",
+    "monthly_cost": 8459,
+    "cost_per_mil": 68,
+    "total_4yr": 406026,
+    "confidence": "medium",
+    "fuel": "diesel",
+    "segment": "sedan-mellanklass",
+    "newPrice": 580000
   },
   {
     "id": "ford-kuga-phev",
@@ -850,18 +874,6 @@
     "fuel": "bensin",
     "segment": "suv-kompakt",
     "newPrice": 529900
-  },
-  {
-    "id": "bmw-330e-phev",
-    "slug": "bmw-3-serie",
-    "name": "BMW 3-Serie 330e Sedan PHEV",
-    "monthly_cost": 9209,
-    "cost_per_mil": 74,
-    "total_4yr": 442016,
-    "confidence": "high",
-    "fuel": "laddhybrid",
-    "segment": "sedan-mellanklass",
-    "newPrice": 549900
   },
   {
     "id": "tesla-model-y-lr",
@@ -939,24 +951,12 @@
     "id": "volvo-xc90-t8-phev",
     "slug": "volvo-xc90",
     "name": "Volvo XC90 T8 Recharge PHEV",
-    "monthly_cost": 11120,
-    "cost_per_mil": 89,
-    "total_4yr": 533744,
-    "confidence": "low",
+    "monthly_cost": 11613,
+    "cost_per_mil": 93,
+    "total_4yr": 557408,
+    "confidence": "medium",
     "fuel": "laddhybrid",
     "segment": "suv-mellanklass",
     "newPrice": 923100
-  },
-  {
-    "id": "bmw-530e-phev",
-    "slug": "bmw-5-serie",
-    "name": "BMW 5-Serie 530e Touring PHEV",
-    "monthly_cost": 11590,
-    "cost_per_mil": 93,
-    "total_4yr": 556298,
-    "confidence": "high",
-    "fuel": "laddhybrid",
-    "segment": "sedan-mellanklass",
-    "newPrice": 625400
   }
 ]

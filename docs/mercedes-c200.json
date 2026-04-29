@@ -1,6 +1,6 @@
 {
   "model_id": "mercedes-c200",
-  "calculated_at": "2026-04-28T23:14:22.484095+00:00",
+  "calculated_at": "2026-04-29T10:47:08.501885+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 283920,
-    "monthly_cost": 5915,
-    "cost_per_mil": 47,
+    "total_cost": 336320,
+    "monthly_cost": 7007,
+    "cost_per_mil": 56,
     "breakdown": {
-      "depreciation": 141000,
+      "depreciation": 193400,
       "fuel": 68820,
       "tax": 26510,
       "insurance": {
@@ -27,60 +27,60 @@
     "depreciation_curve": [
       {
         "year": 0,
-        "value": 354900,
+        "value": 489000,
         "confidence": "fixed",
         "data_points": 0
       },
       {
         "year": 1,
-        "value": 213900,
-        "confidence": "medium",
-        "data_points": 250
+        "value": 377459,
+        "confidence": "low",
+        "data_points": 5
       },
       {
         "year": 2,
-        "value": 213900,
-        "confidence": "medium",
-        "data_points": 250
+        "value": 350172,
+        "confidence": "low",
+        "data_points": 5
       },
       {
         "year": 3,
-        "value": 213900,
-        "confidence": "medium",
-        "data_points": 250
+        "value": 322886,
+        "confidence": "low",
+        "data_points": 5
       },
       {
         "year": 4,
-        "value": 213900,
-        "confidence": "medium",
-        "data_points": 250
+        "value": 295600,
+        "confidence": "low",
+        "data_points": 5
       },
       {
         "year": 5,
-        "value": 213900,
-        "confidence": "medium",
-        "data_points": 250
+        "value": 272862,
+        "confidence": "low",
+        "data_points": 5
       },
       {
         "year": 6,
-        "value": 188232,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 250123,
+        "confidence": "low",
+        "data_points": 5
       },
       {
         "year": 7,
-        "value": 165644,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 227385,
+        "confidence": "low",
+        "data_points": 5
       },
       {
         "year": 8,
-        "value": 145766,
+        "value": 200098,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "high",
+  "confidence": "low",
   "data_quality_notes": []
 }

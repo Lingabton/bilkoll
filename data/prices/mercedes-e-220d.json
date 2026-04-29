@@ -1,6 +1,6 @@
 {
   "model_id": "mercedes-e-220d",
-  "scraped_at": "2026-04-25T06:42:59.266545+00:00",
+  "scraped_at": "2026-04-29T00:32:26.912641+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -8,7 +8,7 @@
     "2025": {
       "median_price": 213900,
       "count": 250,
-      "total_on_page": 233,
+      "total_on_page": 365,
       "price_type": "estimated_transaction",
       "p5_price": 37107,
       "p95_price": 539307,
@@ -19,7 +19,7 @@
     "2024": {
       "median_price": 213900,
       "count": 250,
-      "total_on_page": 233,
+      "total_on_page": 365,
       "price_type": "estimated_transaction",
       "p5_price": 37107,
       "p95_price": 539307,
@@ -30,7 +30,7 @@
     "2023": {
       "median_price": 213900,
       "count": 250,
-      "total_on_page": 233,
+      "total_on_page": 365,
       "price_type": "estimated_transaction",
       "p5_price": 37107,
       "p95_price": 539307,

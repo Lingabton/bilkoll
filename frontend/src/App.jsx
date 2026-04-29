@@ -8,6 +8,41 @@ import SearchBar from './components/SearchBar'
 import CustomCarForm from './components/CustomCarForm'
 import { recalcTCO } from './utils/tco'
 
+const BRAND_URLS = {
+  'Toyota': 'https://www.toyota.se/new-cars',
+  'Volvo': 'https://www.volvocars.com/se/bilar/',
+  'Tesla': 'https://www.tesla.com/sv_se',
+  'Volkswagen': 'https://www.volkswagen.se/sv/modeller.html',
+  'Kia': 'https://www.kia.com/se/modeller/',
+  'BMW': 'https://www.bmw.se/sv/alla-modeller.html',
+  'Mercedes-Benz': 'https://www.mercedes-benz.se/passengercars.html',
+  'Hyundai': 'https://www.hyundai.com/se/modeller.html',
+  'Skoda': 'https://www.skoda.se/modeller/',
+  'Peugeot': 'https://www.peugeot.se/modeller.html',
+  'Dacia': 'https://www.dacia.se/modeller.html',
+  'Audi': 'https://www.audi.se/se/web/se/modeller.html',
+  'Ford': 'https://www.ford.se/fordon',
+  'Nissan': 'https://www.nissan.se/fordon.html',
+  'Mazda': 'https://www.mazda.se/modeller/',
+  'Suzuki': 'https://www.suzukibilar.se/modeller/',
+  'Fiat': 'https://www.fiat.se/modeller/',
+  'Mini': 'https://www.mini.se/modeller/',
+  'Cupra': 'https://www.cupraofficial.se/modeller.html',
+  'Seat': 'https://www.seat.se/modeller.html',
+  'Subaru': 'https://www.subaru.se/modeller/',
+  'Polestar': 'https://www.polestar.com/se/',
+  'BYD': 'https://bydauto.se/modeller/',
+  'MG': 'https://mgmotor.eu/se/models',
+  'Renault': 'https://www.renault.se/modeller.html',
+  'Lexus': 'https://www.lexus.se/modeller/',
+}
+
+function carImageUrl(make, model, width = 400) {
+  const m = make.toLowerCase().replace('-', '')
+  const fam = model.toLowerCase().replace(/\s+/g, '-').replace(/[åäö]/g, c => ({å:'a',ä:'a',ö:'o'}[c]||c))
+  return `https://cdn.imagin.studio/getImage?customer=img&make=${m}&modelFamily=${fam}&angle=23&width=${width}`
+}
+
 const DEFAULTS = { mileage: 1500, years: 4, fuelPrice: 18.50, elPrice: 1.50, insuranceLevel: 1.0, buyAge: 0, loanPct: 0, interestRate: 5.9 }
 
 function loadSettings() {
@@ -360,7 +395,12 @@ function App() {
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
                 </button>
 
-                <div className="text-sm text-slate-400 mb-2">{selectedModel.make} {selectedModel.model} <span className="text-slate-500">{selectedModel.variant}</span></div>
+                <div className="flex items-start justify-between mb-2">
+                  <div className="text-sm text-slate-400">{selectedModel.make} {selectedModel.model} <span className="text-slate-500">{selectedModel.variant}</span></div>
+                  <img src={carImageUrl(selectedModel.make, selectedModel.model)} alt={`${selectedModel.make} ${selectedModel.model}`}
+                    className="w-28 h-16 sm:w-36 sm:h-20 object-contain opacity-70 -mt-2 -mr-2"
+                    onError={e => { e.target.style.display = 'none' }} />
+                </div>
                 <div className="flex items-baseline gap-2 mb-1">
                   <span className="text-[48px] sm:text-[60px] font-mono font-black text-white leading-none tracking-tighter tabular-nums animate-count-up">
                     {selectedResult.monthly.toLocaleString('sv-SE')}
@@ -412,6 +452,12 @@ function App() {
               >
                 Hitta begagnad →
               </a>
+              {BRAND_URLS[selectedModel.make] && (
+                <a href={BRAND_URLS[selectedModel.make]} target="_blank" rel="noopener noreferrer"
+                  className="px-4 py-2.5 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 transition-colors text-slate-500 text-sm hidden sm:block text-center">
+                  {selectedModel.make}.se
+                </a>
+              )}
               <button onClick={handleShare}
                 aria-label="Dela bilkostnad"
                 className="px-4 py-2.5 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 transition-colors cursor-pointer text-slate-500 text-sm"

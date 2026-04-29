@@ -1,17 +1,17 @@
 {
   "model_id": "toyota-yaris-cross-hybrid",
-  "scraped_at": "2026-04-24T23:52:38.413412+00:00",
+  "scraped_at": "2026-04-29T00:41:03.387976+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 278907,
-      "count": 57,
-      "total_on_page": 53,
+      "median_price": 283138,
+      "count": 58,
+      "total_on_page": 57,
       "price_type": "estimated_transaction",
       "p5_price": 259470,
-      "p95_price": 344007,
+      "p95_price": 339357,
       "min_price": 255657,
       "max_price": 357957,
       "median_mileage_mil": 20250
@@ -19,7 +19,7 @@
     "2024": {
       "median_price": 260307,
       "count": 49,
-      "total_on_page": 48,
+      "total_on_page": 44,
       "price_type": "estimated_transaction",
       "p5_price": 227757,
       "p95_price": 353307,
@@ -27,19 +27,19 @@
       "max_price": 357957
     },
     "2023": {
-      "median_price": 255610,
-      "count": 78,
-      "total_on_page": 78,
+      "median_price": 255657,
+      "count": 75,
+      "total_on_page": 69,
       "price_type": "estimated_transaction",
-      "p5_price": 167307,
+      "p5_price": 175770,
       "p95_price": 306807,
       "min_price": 144057,
       "max_price": 316107
     },
     "2022": {
-      "median_price": 237057,
+      "median_price": 241335,
       "count": 63,
-      "total_on_page": 65,
+      "total_on_page": 63,
       "price_type": "estimated_transaction",
       "p5_price": 184977,
       "p95_price": 269607,
@@ -47,9 +47,9 @@
       "max_price": 297507
     },
     "2021": {
-      "median_price": 251007,
-      "count": 9,
-      "total_on_page": 9,
+      "median_price": 254727,
+      "count": 8,
+      "total_on_page": 8,
       "price_type": "estimated_transaction",
       "p5_price": 209157,
       "p95_price": 287370,
@@ -59,7 +59,7 @@
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 9,
+    "min_count_per_year": 8,
     "confidence": "low"
   }
 }

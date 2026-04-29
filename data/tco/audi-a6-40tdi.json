@@ -1,6 +1,6 @@
 {
   "model_id": "audi-a6-40tdi",
-  "calculated_at": "2026-04-28T23:14:22.482798+00:00",
+  "calculated_at": "2026-04-29T10:47:08.500490+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 382217,
-    "monthly_cost": 7963,
-    "cost_per_mil": 64,
+    "total_cost": 406026,
+    "monthly_cost": 8459,
+    "cost_per_mil": 68,
     "breakdown": {
-      "depreciation": 232177,
+      "depreciation": 255986,
       "fuel": 61050,
       "tax": 29600,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 510400,
-        "confidence": "low",
-        "data_points": 27
+        "value": 533600,
+        "confidence": "adjusted",
+        "data_points": 22
       },
       {
         "year": 2,
-        "value": 449152,
-        "confidence": "low",
-        "data_points": 24
+        "value": 418407,
+        "confidence": "medium",
+        "data_points": 19
       },
       {
         "year": 3,
-        "value": 395253,
+        "value": 368198,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 347823,
+        "value": 324014,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 306084,
+        "value": 285132,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 269354,
+        "value": 250916,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 237031,
+        "value": 220806,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 208588,
+        "value": 194309,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "medium",
   "data_quality_notes": []
 }

@@ -1,47 +1,62 @@
 {
   "model_id": "bmw-530e-phev",
-  "scraped_at": "2026-04-25T06:58:57.051123+00:00",
-  "source": "autouncle",
-  "price_type": "estimated_transaction",
-  "asking_price_discount": 0.93,
+  "scraped_at": "2026-04-29T10:46:50.028053+00:00",
+  "source": "estimated_placeholder",
+  "price_type": "estimated_from_segment",
   "years": {
     "2025": {
-      "median_price": 213900,
-      "count": 250,
-      "total_on_page": 233,
-      "price_type": "estimated_transaction",
-      "p5_price": 37107,
-      "p95_price": 539307,
-      "min_price": 35805,
-      "max_price": 543864,
-      "median_mileage_mil": 20250
+      "median_price": 465297,
+      "count": 5,
+      "total_on_page": 5,
+      "price_type": "estimated_from_segment",
+      "confidence": "low"
     },
     "2024": {
-      "median_price": 213900,
-      "count": 250,
-      "total_on_page": 233,
-      "price_type": "estimated_transaction",
-      "p5_price": 37107,
-      "p95_price": 539307,
-      "min_price": 35805,
-      "max_price": 543864,
-      "median_mileage_mil": 20250
+      "median_price": 424584,
+      "count": 5,
+      "total_on_page": 5,
+      "price_type": "estimated_from_segment",
+      "confidence": "low"
     },
     "2023": {
-      "median_price": 213900,
-      "count": 250,
-      "total_on_page": 233,
-      "price_type": "estimated_transaction",
-      "p5_price": 37107,
-      "p95_price": 539307,
-      "min_price": 35805,
-      "max_price": 543864,
-      "median_mileage_mil": 20250
+      "median_price": 389686,
+      "count": 5,
+      "total_on_page": 5,
+      "price_type": "estimated_from_segment",
+      "confidence": "low"
+    },
+    "2022": {
+      "median_price": 354789,
+      "count": 5,
+      "total_on_page": 5,
+      "price_type": "estimated_from_segment",
+      "confidence": "low"
+    },
+    "2021": {
+      "median_price": 325708,
+      "count": 5,
+      "total_on_page": 5,
+      "price_type": "estimated_from_segment",
+      "confidence": "low"
+    },
+    "2020": {
+      "median_price": 296627,
+      "count": 5,
+      "total_on_page": 5,
+      "price_type": "estimated_from_segment",
+      "confidence": "low"
+    },
+    "2019": {
+      "median_price": 273362,
+      "count": 5,
+      "total_on_page": 5,
+      "price_type": "estimated_from_segment",
+      "confidence": "low"
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 250,
-    "confidence": "high"
+    "min_count_per_year": 5,
+    "confidence": "low"
   }
 }
