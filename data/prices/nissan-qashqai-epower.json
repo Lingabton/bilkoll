@@ -1,14 +1,14 @@
 {
   "model_id": "nissan-qashqai-epower",
-  "scraped_at": "2026-04-25T07:13:09.182336+00:00",
+  "scraped_at": "2026-05-04T10:58:49.195275+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 326709,
-      "count": 85,
-      "total_on_page": 85,
+      "median_price": 327267,
+      "count": 90,
+      "total_on_page": 90,
       "price_type": "estimated_transaction",
       "p5_price": 294577,
       "p95_price": 371396,
@@ -17,9 +17,9 @@
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 325174,
-      "count": 66,
-      "total_on_page": 68,
+      "median_price": 320664,
+      "count": 67,
+      "total_on_page": 64,
       "price_type": "estimated_transaction",
       "p5_price": 268770,
       "p95_price": 388275,
@@ -28,40 +28,40 @@
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 260307,
-      "count": 44,
+      "median_price": 255657,
+      "count": 43,
       "total_on_page": 44,
       "price_type": "estimated_transaction",
       "p5_price": 223107,
       "p95_price": 305970,
       "min_price": 208134,
-      "max_price": 315270,
+      "max_price": 314991,
       "median_mileage_mil": 4096
     },
     "2022": {
-      "median_price": 244078,
-      "count": 62,
-      "total_on_page": 62,
+      "median_price": 241707,
+      "count": 57,
+      "total_on_page": 56,
       "price_type": "estimated_transaction",
       "p5_price": 185907,
-      "p95_price": 292857,
-      "min_price": 181350,
+      "p95_price": 315177,
+      "min_price": 179490,
       "max_price": 315270
     },
     "2021": {
-      "median_price": 186000,
-      "count": 25,
-      "total_on_page": 26,
+      "median_price": 196648,
+      "count": 20,
+      "total_on_page": 20,
       "price_type": "estimated_transaction",
       "p5_price": 167400,
-      "p95_price": 241707,
+      "p95_price": 327825,
       "min_price": 158100,
-      "max_price": 241707
+      "max_price": 327825
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 25,
+    "min_count_per_year": 20,
     "confidence": "medium"
   }
 }

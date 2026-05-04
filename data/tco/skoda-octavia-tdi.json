@@ -1,6 +1,6 @@
 {
   "model_id": "skoda-octavia-tdi",
-  "calculated_at": "2026-04-29T10:47:08.490429+00:00",
+  "calculated_at": "2026-05-04T11:07:44.845282+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -53,7 +53,7 @@
         "year": 4,
         "value": 223107,
         "confidence": "medium",
-        "data_points": 29
+        "data_points": 30
       },
       {
         "year": 5,

@@ -1,10 +1,30 @@
 {
   "model_id": "skoda-kodiaq-tsi",
-  "scraped_at": "2026-04-25T04:26:59.570305+00:00",
+  "scraped_at": "2026-05-04T09:01:56.274677+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
+    "2025": {
+      "median_price": 456630,
+      "count": 17,
+      "total_on_page": 17,
+      "price_type": "estimated_transaction",
+      "p5_price": 396459,
+      "p95_price": 532425,
+      "min_price": 396459,
+      "max_price": 532425,
+      "median_mileage_mil": 20250
+    },
+    "2024": {
+      "median_price": 378975,
+      "count": 3,
+      "total_on_page": 3,
+      "price_type": "estimated_transaction",
+      "min_price": 90675,
+      "max_price": 460257,
+      "median_mileage_mil": 20240
+    },
     "2023": {
       "median_price": 334614,
       "count": 4,
@@ -14,14 +34,14 @@
       "max_price": 371907
     },
     "2022": {
-      "median_price": 353307,
-      "count": 7,
-      "total_on_page": 7,
+      "median_price": 348657,
+      "count": 6,
+      "total_on_page": 6,
       "price_type": "estimated_transaction",
       "p5_price": 260400,
-      "p95_price": 371907,
+      "p95_price": 362607,
       "min_price": 260400,
-      "max_price": 371907
+      "max_price": 362607
     },
     "2021": {
       "median_price": 282208,
@@ -42,9 +62,9 @@
       "max_price": 316107
     },
     "2019": {
-      "median_price": 244032,
-      "count": 16,
-      "total_on_page": 16,
+      "median_price": 246357,
+      "count": 15,
+      "total_on_page": 15,
       "price_type": "estimated_transaction",
       "p5_price": 213807,
       "p95_price": 371907,
@@ -74,7 +94,7 @@
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 4,
+    "min_count_per_year": 3,
     "confidence": "low"
   }
 }

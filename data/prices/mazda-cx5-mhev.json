@@ -1,6 +1,6 @@
 {
   "model_id": "mazda-cx5-mhev",
-  "scraped_at": "2026-04-25T05:49:18.959910+00:00",
+  "scraped_at": "2026-05-04T09:24:28.830395+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -34,29 +34,29 @@
       "max_price": 296670
     },
     "2019": {
-      "median_price": 212970,
-      "count": 15,
-      "total_on_page": 15,
+      "median_price": 213714,
+      "count": 13,
+      "total_on_page": 13,
       "price_type": "estimated_transaction",
-      "p5_price": 148614,
+      "p5_price": 201810,
       "p95_price": 277977,
-      "min_price": 148614,
+      "min_price": 201810,
       "max_price": 277977
     },
     "2018": {
-      "median_price": 191115,
-      "count": 16,
-      "total_on_page": 16,
+      "median_price": 194370,
+      "count": 15,
+      "total_on_page": 15,
       "price_type": "estimated_transaction",
       "p5_price": 166470,
-      "p95_price": 227757,
+      "p95_price": 241707,
       "min_price": 166470,
-      "max_price": 227757
+      "max_price": 241707
     },
     "2017": {
-      "median_price": 199857,
-      "count": 8,
-      "total_on_page": 8,
+      "median_price": 176607,
+      "count": 7,
+      "total_on_page": 7,
       "price_type": "estimated_transaction",
       "p5_price": 176607,
       "p95_price": 232407,
@@ -65,7 +65,7 @@
     }
   },
   "validation": {
-    "is_monotonic": false,
+    "is_monotonic": true,
     "min_count_per_year": 3,
     "confidence": "low"
   }

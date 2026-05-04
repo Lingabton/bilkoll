@@ -1,62 +1,69 @@
 {
   "model_id": "mercedes-c200",
-  "scraped_at": "2026-04-29T10:46:50.028186+00:00",
-  "source": "estimated_placeholder",
-  "price_type": "estimated_from_segment",
+  "scraped_at": "2026-05-04T10:40:59.722912+00:00",
+  "source": "autouncle",
+  "price_type": "estimated_transaction",
+  "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 377459,
-      "count": 5,
-      "total_on_page": 5,
-      "price_type": "estimated_from_segment",
-      "confidence": "low"
+      "median_price": 169632,
+      "count": 168,
+      "total_on_page": 167,
+      "price_type": "estimated_transaction",
+      "p5_price": 37107,
+      "p95_price": 539307,
+      "min_price": 35805,
+      "max_price": 543864,
+      "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 350172,
-      "count": 5,
-      "total_on_page": 5,
-      "price_type": "estimated_from_segment",
-      "confidence": "low"
+      "median_price": 169632,
+      "count": 168,
+      "total_on_page": 167,
+      "price_type": "estimated_transaction",
+      "p5_price": 37107,
+      "p95_price": 539307,
+      "min_price": 35805,
+      "max_price": 543864,
+      "median_mileage_mil": 20250
     },
     "2023": {
-      "median_price": 322886,
-      "count": 5,
-      "total_on_page": 5,
-      "price_type": "estimated_from_segment",
-      "confidence": "low"
+      "median_price": 169632,
+      "count": 168,
+      "total_on_page": 167,
+      "price_type": "estimated_transaction",
+      "p5_price": 37107,
+      "p95_price": 539307,
+      "min_price": 35805,
+      "max_price": 543864,
+      "median_mileage_mil": 20250
     },
     "2022": {
-      "median_price": 295600,
-      "count": 5,
-      "total_on_page": 5,
-      "price_type": "estimated_from_segment",
-      "confidence": "low"
+      "median_price": 169632,
+      "count": 168,
+      "total_on_page": 167,
+      "price_type": "estimated_transaction",
+      "p5_price": 37107,
+      "p95_price": 539307,
+      "min_price": 35805,
+      "max_price": 543864,
+      "median_mileage_mil": 20250
     },
     "2021": {
-      "median_price": 272862,
-      "count": 5,
-      "total_on_page": 5,
-      "price_type": "estimated_from_segment",
-      "confidence": "low"
-    },
-    "2020": {
-      "median_price": 250123,
-      "count": 5,
-      "total_on_page": 5,
-      "price_type": "estimated_from_segment",
-      "confidence": "low"
-    },
-    "2019": {
-      "median_price": 227385,
-      "count": 5,
-      "total_on_page": 5,
-      "price_type": "estimated_from_segment",
-      "confidence": "low"
+      "median_price": 169632,
+      "count": 168,
+      "total_on_page": 167,
+      "price_type": "estimated_transaction",
+      "p5_price": 37107,
+      "p95_price": 539307,
+      "min_price": 35805,
+      "max_price": 543864,
+      "median_mileage_mil": 20250
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 5,
-    "confidence": "low"
+    "min_count_per_year": 168,
+    "confidence": "high"
   }
 }

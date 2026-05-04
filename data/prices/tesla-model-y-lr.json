@@ -1,45 +1,63 @@
 {
   "model_id": "tesla-model-y-lr",
-  "scraped_at": "2026-04-24T20:39:24.116392+00:00",
+  "scraped_at": "2026-05-04T08:08:43.067794+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 460257,
-      "count": 8,
-      "total_on_page": 8,
+      "median_price": 477038,
+      "count": 4,
+      "total_on_page": 4,
       "price_type": "estimated_transaction",
-      "p5_price": 116250,
-      "p95_price": 510570,
-      "min_price": 116250,
+      "min_price": 455607,
       "max_price": 510570
     },
     "2024": {
-      "median_price": 409107,
-      "count": 50,
-      "total_on_page": 50,
+      "median_price": 412915,
+      "count": 46,
+      "total_on_page": 40,
       "price_type": "estimated_transaction",
-      "p5_price": 353390,
+      "p5_price": 352470,
       "p95_price": 464814,
-      "min_price": 315270,
+      "min_price": 327350,
       "max_price": 511500,
       "median_mileage_mil": 1200
     },
     "2023": {
-      "median_price": 343170,
-      "count": 25,
-      "total_on_page": 109,
+      "median_price": 353307,
+      "count": 103,
+      "total_on_page": 103,
       "price_type": "estimated_transaction",
-      "p5_price": 274350,
-      "p95_price": 408260,
-      "min_price": 269700,
-      "max_price": 410120
+      "p5_price": 287370,
+      "p95_price": 437007,
+      "min_price": 251007,
+      "max_price": 623007
+    },
+    "2022": {
+      "median_price": 330057,
+      "count": 87,
+      "total_on_page": 84,
+      "price_type": "estimated_transaction",
+      "p5_price": 277140,
+      "p95_price": 407330,
+      "min_price": 250914,
+      "max_price": 609150
+    },
+    "2021": {
+      "median_price": 297502,
+      "count": 34,
+      "total_on_page": 34,
+      "price_type": "estimated_transaction",
+      "p5_price": 227757,
+      "p95_price": 362607,
+      "min_price": 223107,
+      "max_price": 398970
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 8,
+    "min_count_per_year": 4,
     "confidence": "low"
   }
 }

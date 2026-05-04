@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc60-b5-bensin",
-  "calculated_at": "2026-04-29T10:47:08.481492+00:00",
+  "calculated_at": "2026-05-04T11:07:44.839056+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,19 +33,19 @@
       },
       {
         "year": 1,
-        "value": 583482,
+        "value": 578832,
         "confidence": "medium",
-        "data_points": 140
+        "data_points": 136
       },
       {
         "year": 2,
-        "value": 483507,
+        "value": 491970,
         "confidence": "medium",
-        "data_points": 225
+        "data_points": 245
       },
       {
         "year": 3,
-        "value": 401946,
+        "value": 398970,
         "confidence": "medium",
         "data_points": 250
       },
@@ -53,35 +53,35 @@
         "year": 4,
         "value": 381207,
         "confidence": "medium",
-        "data_points": 222
+        "data_points": 210
       },
       {
         "year": 5,
-        "value": 344978,
+        "value": 344007,
         "confidence": "medium",
         "data_points": 250
       },
       {
         "year": 6,
-        "value": 325407,
+        "value": 324570,
         "confidence": "medium",
-        "data_points": 242
+        "data_points": 229
       },
       {
         "year": 7,
         "value": 297507,
         "confidence": "medium",
-        "data_points": 195
+        "data_points": 193
       },
       {
         "year": 8,
-        "value": 278907,
+        "value": 278395,
         "confidence": "medium",
-        "data_points": 177
+        "data_points": 170
       },
       {
         "year": 9,
-        "value": 245438,
+        "value": 244987,
         "confidence": "estimated",
         "data_points": 0
       }

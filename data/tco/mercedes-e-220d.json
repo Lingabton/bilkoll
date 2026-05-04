@@ -1,6 +1,6 @@
 {
   "model_id": "mercedes-e-220d",
-  "calculated_at": "2026-04-29T10:47:08.499716+00:00",
+  "calculated_at": "2026-05-04T11:07:44.855277+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 517708,
-    "monthly_cost": 10786,
-    "cost_per_mil": 86,
+    "total_cost": 556664,
+    "monthly_cost": 11597,
+    "cost_per_mil": 93,
     "breakdown": {
-      "depreciation": 371668,
+      "depreciation": 410624,
       "fuel": 61050,
       "tax": 29600,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 213900,
+        "value": 169632,
         "confidence": "medium",
-        "data_points": 250
+        "data_points": 168
       },
       {
         "year": 2,
-        "value": 213900,
+        "value": 169632,
         "confidence": "medium",
-        "data_points": 250
+        "data_points": 168
       },
       {
         "year": 3,
-        "value": 213900,
+        "value": 169632,
         "confidence": "medium",
-        "data_points": 250
+        "data_points": 168
       },
       {
         "year": 4,
-        "value": 188232,
+        "value": 149276,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 165644,
+        "value": 131363,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 145766,
+        "value": 115599,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 128274,
+        "value": 101727,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 112881,
+        "value": 89520,
         "confidence": "estimated",
         "data_points": 0
       }

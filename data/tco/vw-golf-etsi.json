@@ -1,6 +1,6 @@
 {
   "model_id": "vw-golf-etsi",
-  "calculated_at": "2026-04-29T10:47:08.488759+00:00",
+  "calculated_at": "2026-05-04T11:07:44.844367+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -46,8 +46,8 @@
       {
         "year": 3,
         "value": 204274,
-        "confidence": "estimated",
-        "data_points": 0
+        "confidence": "adjusted",
+        "data_points": 1
       },
       {
         "year": 4,
@@ -57,25 +57,25 @@
       },
       {
         "year": 5,
-        "value": 186898,
+        "value": 172897,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 164470,
+        "value": 159065,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 144734,
+        "value": 146339,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 127366,
+        "value": 134631,
         "confidence": "estimated",
         "data_points": 0
       }

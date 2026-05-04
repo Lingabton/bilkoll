@@ -1,6 +1,6 @@
 {
   "model_id": "renault-megane-etech",
-  "calculated_at": "2026-04-29T10:47:08.494129+00:00",
+  "calculated_at": "2026-05-04T11:07:44.849086+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -47,13 +47,13 @@
         "year": 3,
         "value": 140079,
         "confidence": "adjusted",
-        "data_points": 18
+        "data_points": 17
       },
       {
         "year": 4,
         "value": 128872,
         "confidence": "adjusted",
-        "data_points": 17
+        "data_points": 16
       },
       {
         "year": 5,

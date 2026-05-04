@@ -1,6 +1,6 @@
 {
   "model_id": "mg-mg4-standard",
-  "calculated_at": "2026-04-29T10:47:08.494319+00:00",
+  "calculated_at": "2026-05-04T11:07:44.849362+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 204389,
-    "monthly_cost": 4258,
-    "cost_per_mil": 34,
+    "total_cost": 156671,
+    "monthly_cost": 3264,
+    "cost_per_mil": 26,
     "breakdown": {
-      "depreciation": 151435,
+      "depreciation": 103717,
       "fuel": 16524,
       "tax": 1440,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 190778,
+        "value": 252058,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 2,
-        "value": 175515,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 231893,
+        "confidence": "adjusted",
+        "data_points": 18
       },
       {
         "year": 3,
-        "value": 161473,
+        "value": 213341,
         "confidence": "adjusted",
-        "data_points": 56
+        "data_points": 54
       },
       {
         "year": 4,
-        "value": 148555,
+        "value": 196273,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 136670,
+        "value": 180571,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 125736,
+        "value": 180560,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 115677,
+        "value": 158893,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 106422,
+        "value": 139826,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "high",
+  "confidence": "medium",
   "data_quality_notes": []
 }

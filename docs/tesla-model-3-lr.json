@@ -1,6 +1,6 @@
 {
   "model_id": "tesla-model-3-lr",
-  "calculated_at": "2026-04-29T10:47:08.482933+00:00",
+  "calculated_at": "2026-05-04T11:07:44.839462+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 369316,
-    "monthly_cost": 7694,
+    "total_cost": 371269,
+    "monthly_cost": 7735,
     "cost_per_mil": 62,
     "breakdown": {
-      "depreciation": 299390,
+      "depreciation": 301343,
       "fuel": 17496,
       "tax": 1440,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 380551,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 445470,
+        "confidence": "medium",
+        "data_points": 1
       },
       {
         "year": 2,
-        "value": 350106,
-        "confidence": "adjusted",
-        "data_points": 18
+        "value": 427795,
+        "confidence": "medium",
+        "data_points": 20
       },
       {
         "year": 3,
-        "value": 311364,
+        "value": 311457,
         "confidence": "medium",
-        "data_points": 59
+        "data_points": 49
       },
       {
         "year": 4,
-        "value": 285510,
+        "value": 283557,
         "confidence": "medium",
-        "data_points": 50
+        "data_points": 49
       },
       {
         "year": 5,
-        "value": 262260,
-        "confidence": "medium",
-        "data_points": 66
-      },
-      {
-        "year": 6,
-        "value": 223148,
-        "confidence": "medium",
-        "data_points": 54
-      },
-      {
-        "year": 7,
-        "value": 218457,
+        "value": 260772,
         "confidence": "medium",
         "data_points": 63
       },
       {
+        "year": 6,
+        "value": 232314,
+        "confidence": "medium",
+        "data_points": 49
+      },
+      {
+        "year": 7,
+        "value": 222874,
+        "confidence": "medium",
+        "data_points": 62
+      },
+      {
         "year": 8,
-        "value": 192242,
+        "value": 196129,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "low",
   "data_quality_notes": []
 }

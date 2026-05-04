@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-ex90-twin",
-  "calculated_at": "2026-04-29T10:47:08.497079+00:00",
+  "calculated_at": "2026-05-04T11:07:44.852378+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 449942,
-    "monthly_cost": 9374,
-    "cost_per_mil": 75,
+    "total_cost": 453687,
+    "monthly_cost": 9452,
+    "cost_per_mil": 76,
     "breakdown": {
-      "depreciation": 363628,
+      "depreciation": 367373,
       "fuel": 21384,
       "tax": 1440,
       "insurance": {
@@ -35,47 +35,47 @@
         "year": 1,
         "value": 836907,
         "confidence": "medium",
-        "data_points": 79
+        "data_points": 75
       },
       {
         "year": 2,
-        "value": 817888,
+        "value": 813052,
         "confidence": "medium",
-        "data_points": 30
+        "data_points": 32
       },
       {
         "year": 3,
-        "value": 719741,
+        "value": 715485,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 633372,
+        "value": 629627,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 557367,
+        "value": 554072,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 490483,
+        "value": 487583,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 431625,
+        "value": 429073,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 379830,
+        "value": 377584,
         "confidence": "estimated",
         "data_points": 0
       }

@@ -1,6 +1,6 @@
 {
   "model_id": "vw-tiguan-etsi",
-  "calculated_at": "2026-04-29T10:47:08.491429+00:00",
+  "calculated_at": "2026-05-04T11:07:44.846469+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 441243,
-    "monthly_cost": 9193,
-    "cost_per_mil": 74,
+    "total_cost": 416151,
+    "monthly_cost": 8670,
+    "cost_per_mil": 69,
     "breakdown": {
-      "depreciation": 277015,
+      "depreciation": 251923,
       "fuel": 88800,
       "tax": 24838,
       "insurance": {
@@ -33,9 +33,9 @@
       },
       {
         "year": 1,
-        "value": 346332,
+        "value": 344007,
         "confidence": "medium",
-        "data_points": 28
+        "data_points": 27
       },
       {
         "year": 2,
@@ -51,45 +51,51 @@
       },
       {
         "year": 4,
-        "value": 252885,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 277977,
+        "confidence": "medium",
+        "data_points": 29
       },
       {
         "year": 5,
-        "value": 240777,
+        "value": 240684,
         "confidence": "medium",
-        "data_points": 18
+        "data_points": 17
       },
       {
         "year": 6,
         "value": 223107,
         "confidence": "medium",
-        "data_points": 29
+        "data_points": 30
       },
       {
         "year": 7,
         "value": 205258,
         "confidence": "adjusted",
-        "data_points": 30
+        "data_points": 29
       },
       {
         "year": 8,
-        "value": 185907,
+        "value": 190557,
         "confidence": "medium",
-        "data_points": 31
+        "data_points": 35
       },
       {
         "year": 9,
-        "value": 185070,
+        "value": 185488,
         "confidence": "medium",
-        "data_points": 32
+        "data_points": 30
       },
       {
         "year": 10,
-        "value": 170264,
+        "value": 170648,
         "confidence": "adjusted",
         "data_points": 9
+      },
+      {
+        "year": 11,
+        "value": 167608,
+        "confidence": "estimated",
+        "data_points": 0
       }
     ]
   },

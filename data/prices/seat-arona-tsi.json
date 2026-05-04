@@ -1,14 +1,14 @@
 {
   "model_id": "seat-arona-tsi",
-  "scraped_at": "2026-04-25T07:15:12.160873+00:00",
+  "scraped_at": "2026-05-04T11:00:51.947890+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 199857,
-      "count": 13,
-      "total_on_page": 13,
+      "median_price": 199159,
+      "count": 14,
+      "total_on_page": 14,
       "price_type": "estimated_transaction",
       "p5_price": 185907,
       "p95_price": 264957,
@@ -18,18 +18,18 @@
     },
     "2024": {
       "median_price": 176188,
-      "count": 16,
-      "total_on_page": 16,
+      "count": 18,
+      "total_on_page": 18,
       "price_type": "estimated_transaction",
-      "p5_price": 169725,
+      "p5_price": 166935,
       "p95_price": 223107,
-      "min_price": 169725,
+      "min_price": 166935,
       "max_price": 223107
     },
     "2023": {
       "median_price": 162657,
-      "count": 44,
-      "total_on_page": 44,
+      "count": 43,
+      "total_on_page": 43,
       "price_type": "estimated_transaction",
       "p5_price": 148335,
       "p95_price": 195207,
@@ -38,12 +38,12 @@
     },
     "2022": {
       "median_price": 162657,
-      "count": 28,
-      "total_on_page": 28,
+      "count": 27,
+      "total_on_page": 26,
       "price_type": "estimated_transaction",
-      "p5_price": 108810,
+      "p5_price": 115320,
       "p95_price": 185907,
-      "min_price": 101370,
+      "min_price": 108810,
       "max_price": 185907,
       "median_mileage_mil": 3870
     },
@@ -68,9 +68,9 @@
       "max_price": 158007
     },
     "2019": {
-      "median_price": 116064,
-      "count": 13,
-      "total_on_page": 13,
+      "median_price": 113785,
+      "count": 10,
+      "total_on_page": 10,
       "price_type": "estimated_transaction",
       "p5_price": 92535,
       "p95_price": 158007,
@@ -79,13 +79,13 @@
     },
     "2018": {
       "median_price": 120807,
-      "count": 11,
-      "total_on_page": 11,
+      "count": 13,
+      "total_on_page": 13,
       "price_type": "estimated_transaction",
-      "p5_price": 104625,
-      "p95_price": 147870,
-      "min_price": 104625,
-      "max_price": 147870
+      "p5_price": 92070,
+      "p95_price": 152985,
+      "min_price": 92070,
+      "max_price": 152985
     }
   },
   "validation": {

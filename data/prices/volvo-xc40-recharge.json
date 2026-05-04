@@ -1,51 +1,44 @@
 {
   "model_id": "volvo-xc40-recharge",
-  "scraped_at": "2026-04-24T21:35:36.478586+00:00",
+  "scraped_at": "2026-05-04T08:13:11.225832+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
-    "2025": {
-      "median_price": 511407,
-      "count": 1,
-      "total_on_page": 1,
-      "price_type": "estimated_transaction",
-      "median_mileage_mil": 20250
-    },
     "2024": {
-      "median_price": 376371,
-      "count": 30,
-      "total_on_page": 30,
+      "median_price": 380835,
+      "count": 21,
+      "total_on_page": 21,
       "price_type": "estimated_transaction",
-      "p5_price": 316107,
-      "p95_price": 418407,
-      "min_price": 315270,
+      "p5_price": 334614,
+      "p95_price": 409107,
+      "min_price": 305970,
       "max_price": 445470
     },
     "2023": {
-      "median_price": 288114,
+      "median_price": 288207,
       "count": 250,
-      "total_on_page": 771,
+      "total_on_page": 730,
       "price_type": "estimated_transaction",
-      "p5_price": 255657,
+      "p5_price": 255750,
       "p95_price": 325407,
       "min_price": 213807,
       "max_price": 383150
     },
     "2022": {
-      "median_price": 288207,
+      "median_price": 292020,
       "count": 250,
-      "total_on_page": 343,
+      "total_on_page": 320,
       "price_type": "estimated_transaction",
       "p5_price": 255657,
       "p95_price": 316107,
       "min_price": 217620,
-      "max_price": 344007
+      "max_price": 343914
     },
     "2021": {
-      "median_price": 278070,
-      "count": 19,
-      "total_on_page": 19,
+      "median_price": 278488,
+      "count": 18,
+      "total_on_page": 18,
       "price_type": "estimated_transaction",
       "p5_price": 204507,
       "p95_price": 669507,
@@ -54,17 +47,17 @@
       "median_mileage_mil": 20210
     },
     "2020": {
-      "median_price": 308667,
-      "count": 4,
-      "total_on_page": 4,
+      "median_price": 315270,
+      "count": 3,
+      "total_on_page": 3,
       "price_type": "estimated_transaction",
-      "min_price": 259470,
-      "max_price": 348564
+      "min_price": 302064,
+      "max_price": 343914
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 1,
+    "min_count_per_year": 3,
     "confidence": "low"
   }
 }

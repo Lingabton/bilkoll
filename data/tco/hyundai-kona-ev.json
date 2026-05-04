@@ -1,6 +1,6 @@
 {
   "model_id": "hyundai-kona-ev",
-  "calculated_at": "2026-04-29T10:47:08.487074+00:00",
+  "calculated_at": "2026-05-04T11:07:44.842569+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 280697,
-    "monthly_cost": 5848,
-    "cost_per_mil": 47,
+    "total_cost": 276047,
+    "monthly_cost": 5751,
+    "cost_per_mil": 46,
     "breakdown": {
-      "depreciation": 212843,
+      "depreciation": 208193,
       "fuel": 16524,
       "tax": 1440,
       "insurance": {
@@ -39,33 +39,33 @@
       },
       {
         "year": 2,
-        "value": 330057,
+        "value": 334707,
         "confidence": "medium",
-        "data_points": 20
+        "data_points": 17
       },
       {
         "year": 3,
-        "value": 303652,
+        "value": 307930,
         "confidence": "adjusted",
-        "data_points": 20
-      },
-      {
-        "year": 4,
-        "value": 237057,
-        "confidence": "medium",
         "data_points": 19
       },
       {
-        "year": 5,
-        "value": 209157,
+        "year": 4,
+        "value": 241707,
         "confidence": "medium",
-        "data_points": 7
+        "data_points": 13
+      },
+      {
+        "year": 5,
+        "value": 218457,
+        "confidence": "medium",
+        "data_points": 9
       },
       {
         "year": 6,
-        "value": 194974,
+        "value": 195160,
         "confidence": "medium",
-        "data_points": 22
+        "data_points": 18
       },
       {
         "year": 7,

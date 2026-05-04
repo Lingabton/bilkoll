@@ -1,6 +1,6 @@
 {
   "model_id": "hyundai-kona-ev",
-  "scraped_at": "2026-04-24T20:53:39.817334+00:00",
+  "scraped_at": "2026-05-04T08:33:34.940111+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -13,39 +13,39 @@
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 330057,
-      "count": 20,
-      "total_on_page": 20,
+      "median_price": 334707,
+      "count": 17,
+      "total_on_page": 17,
       "price_type": "estimated_transaction",
-      "p5_price": 297507,
-      "p95_price": 408270,
+      "p5_price": 288207,
+      "p95_price": 371907,
       "min_price": 288207,
-      "max_price": 408270
+      "max_price": 371907
     },
     "2023": {
-      "median_price": 348610,
-      "count": 20,
-      "total_on_page": 20,
+      "median_price": 344007,
+      "count": 19,
+      "total_on_page": 19,
       "price_type": "estimated_transaction",
-      "p5_price": 218457,
+      "p5_price": 183210,
       "p95_price": 418407,
       "min_price": 183210,
       "max_price": 418407
     },
     "2022": {
-      "median_price": 237057,
-      "count": 19,
-      "total_on_page": 19,
+      "median_price": 241707,
+      "count": 13,
+      "total_on_page": 13,
       "price_type": "estimated_transaction",
-      "p5_price": 167307,
+      "p5_price": 176607,
       "p95_price": 306807,
-      "min_price": 167307,
+      "min_price": 176607,
       "max_price": 306807
     },
     "2021": {
-      "median_price": 209157,
-      "count": 7,
-      "total_on_page": 7,
+      "median_price": 218457,
+      "count": 9,
+      "total_on_page": 9,
       "price_type": "estimated_transaction",
       "p5_price": 184605,
       "p95_price": 251007,
@@ -53,12 +53,12 @@
       "max_price": 251007
     },
     "2020": {
-      "median_price": 194974,
-      "count": 22,
-      "total_on_page": 22,
+      "median_price": 195160,
+      "count": 18,
+      "total_on_page": 18,
       "price_type": "estimated_transaction",
-      "p5_price": 157170,
-      "p95_price": 227757,
+      "p5_price": 139407,
+      "p95_price": 237057,
       "min_price": 139407,
       "max_price": 237057
     },

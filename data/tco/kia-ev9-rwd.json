@@ -1,6 +1,6 @@
 {
   "model_id": "kia-ev9-rwd",
-  "calculated_at": "2026-04-29T10:47:08.501339+00:00",
+  "calculated_at": "2026-05-04T11:07:44.857204+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -35,13 +35,13 @@
         "year": 1,
         "value": 743907,
         "confidence": "medium",
-        "data_points": 150
+        "data_points": 147
       },
       {
         "year": 2,
         "value": 678807,
         "confidence": "medium",
-        "data_points": 41
+        "data_points": 40
       },
       {
         "year": 3,

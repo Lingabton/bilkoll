@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-yaris-hybrid",
-  "scraped_at": "2026-04-29T00:42:14.655705+00:00",
+  "scraped_at": "2026-05-04T08:56:53.687199+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -36,9 +36,9 @@
       "max_price": 385857
     },
     "2022": {
-      "median_price": 223107,
-      "count": 1,
-      "total_on_page": 1,
+      "median_price": 187720,
+      "count": 2,
+      "total_on_page": 2,
       "price_type": "estimated_transaction"
     },
     "2021": {
@@ -52,9 +52,9 @@
       "max_price": 436914
     },
     "2020": {
-      "median_price": 144057,
-      "count": 16,
-      "total_on_page": 16,
+      "median_price": 153310,
+      "count": 14,
+      "total_on_page": 14,
       "price_type": "estimated_transaction",
       "p5_price": 51150,
       "p95_price": 483507,
@@ -64,7 +64,7 @@
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 1,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

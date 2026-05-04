@@ -1,25 +1,25 @@
 {
   "model_id": "toyota-yaris-cross-hybrid",
-  "scraped_at": "2026-04-29T00:41:03.387976+00:00",
+  "scraped_at": "2026-05-04T08:39:18.836839+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 283138,
-      "count": 58,
-      "total_on_page": 57,
+      "median_price": 278907,
+      "count": 55,
+      "total_on_page": 69,
       "price_type": "estimated_transaction",
-      "p5_price": 259470,
+      "p5_price": 260214,
       "p95_price": 339357,
       "min_price": 255657,
       "max_price": 357957,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 260307,
-      "count": 49,
-      "total_on_page": 44,
+      "median_price": 260260,
+      "count": 44,
+      "total_on_page": 47,
       "price_type": "estimated_transaction",
       "p5_price": 227757,
       "p95_price": 353307,
@@ -27,39 +27,39 @@
       "max_price": 357957
     },
     "2023": {
-      "median_price": 255657,
-      "count": 75,
-      "total_on_page": 69,
+      "median_price": 251007,
+      "count": 70,
+      "total_on_page": 70,
       "price_type": "estimated_transaction",
-      "p5_price": 175770,
+      "p5_price": 167307,
       "p95_price": 306807,
       "min_price": 144057,
       "max_price": 316107
     },
     "2022": {
-      "median_price": 241335,
-      "count": 63,
-      "total_on_page": 63,
+      "median_price": 238963,
+      "count": 62,
+      "total_on_page": 61,
       "price_type": "estimated_transaction",
-      "p5_price": 184977,
+      "p5_price": 176607,
       "p95_price": 269607,
       "min_price": 167307,
       "max_price": 297507
     },
     "2021": {
-      "median_price": 254727,
-      "count": 8,
-      "total_on_page": 8,
+      "median_price": 258447,
+      "count": 7,
+      "total_on_page": 7,
       "price_type": "estimated_transaction",
-      "p5_price": 209157,
+      "p5_price": 213807,
       "p95_price": 287370,
-      "min_price": 209157,
+      "min_price": 213807,
       "max_price": 287370
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 8,
+    "min_count_per_year": 7,
     "confidence": "low"
   }
 }

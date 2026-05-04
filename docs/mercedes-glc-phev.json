@@ -1,6 +1,6 @@
 {
   "model_id": "mercedes-glc-phev",
-  "calculated_at": "2026-04-29T10:47:08.502086+00:00",
+  "calculated_at": "2026-05-04T11:07:44.858009+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,13 +33,13 @@
       },
       {
         "year": 1,
-        "value": 641607,
+        "value": 645838,
         "confidence": "medium",
-        "data_points": 7
+        "data_points": 6
       },
       {
         "year": 2,
-        "value": 564614,
+        "value": 568337,
         "confidence": "estimated",
         "data_points": 0
       },

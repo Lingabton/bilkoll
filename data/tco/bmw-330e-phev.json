@@ -1,6 +1,6 @@
 {
   "model_id": "bmw-330e-phev",
-  "calculated_at": "2026-04-29T10:47:08.502766+00:00",
+  "calculated_at": "2026-05-04T11:07:44.858792+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 318388,
-    "monthly_cost": 6633,
-    "cost_per_mil": 53,
+    "total_cost": 486284,
+    "monthly_cost": 10131,
+    "cost_per_mil": 81,
     "breakdown": {
-      "depreciation": 212372,
+      "depreciation": 380268,
       "fuel": 61050,
       "tax": 3376,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 419353,
-        "confidence": "low",
-        "data_points": 5
+        "value": 169632,
+        "confidence": "medium",
+        "data_points": 168
       },
       {
         "year": 2,
-        "value": 398897,
-        "confidence": "low",
-        "data_points": 5
+        "value": 169632,
+        "confidence": "medium",
+        "data_points": 168
       },
       {
         "year": 3,
-        "value": 368213,
-        "confidence": "low",
-        "data_points": 5
+        "value": 169632,
+        "confidence": "medium",
+        "data_points": 168
       },
       {
         "year": 4,
-        "value": 337528,
-        "confidence": "low",
-        "data_points": 5
+        "value": 169632,
+        "confidence": "medium",
+        "data_points": 168
       },
       {
         "year": 5,
-        "value": 306844,
-        "confidence": "low",
-        "data_points": 5
+        "value": 169632,
+        "confidence": "medium",
+        "data_points": 168
       },
       {
         "year": 6,
-        "value": 281273,
-        "confidence": "low",
-        "data_points": 5
+        "value": 169632,
+        "confidence": "medium",
+        "data_points": 168
       },
       {
         "year": 7,
-        "value": 255703,
-        "confidence": "low",
-        "data_points": 5
+        "value": 169632,
+        "confidence": "medium",
+        "data_points": 168
       },
       {
         "year": 8,
-        "value": 225018,
+        "value": 149276,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "high",
   "data_quality_notes": []
 }

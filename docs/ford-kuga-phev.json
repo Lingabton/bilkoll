@@ -1,6 +1,6 @@
 {
   "model_id": "ford-kuga-phev",
-  "calculated_at": "2026-04-29T10:47:08.495486+00:00",
+  "calculated_at": "2026-05-04T11:07:44.850458+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -59,7 +59,7 @@
         "year": 5,
         "value": 196669,
         "confidence": "adjusted",
-        "data_points": 22
+        "data_points": 21
       },
       {
         "year": 6,

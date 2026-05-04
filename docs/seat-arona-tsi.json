@@ -1,6 +1,6 @@
 {
   "model_id": "seat-arona-tsi",
-  "calculated_at": "2026-04-29T10:47:08.503160+00:00",
+  "calculated_at": "2026-05-04T11:07:44.859287+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,27 +33,27 @@
       },
       {
         "year": 1,
-        "value": 199857,
+        "value": 199159,
         "confidence": "medium",
-        "data_points": 13
+        "data_points": 14
       },
       {
         "year": 2,
         "value": 176188,
         "confidence": "medium",
-        "data_points": 16
+        "data_points": 18
       },
       {
         "year": 3,
         "value": 162657,
         "confidence": "medium",
-        "data_points": 44
+        "data_points": 43
       },
       {
         "year": 4,
         "value": 162657,
         "confidence": "medium",
-        "data_points": 28
+        "data_points": 27
       },
       {
         "year": 5,
@@ -69,19 +69,19 @@
       },
       {
         "year": 7,
-        "value": 116064,
+        "value": 113785,
         "confidence": "medium",
-        "data_points": 13
+        "data_points": 10
       },
       {
         "year": 8,
-        "value": 106778,
+        "value": 104682,
         "confidence": "adjusted",
-        "data_points": 11
+        "data_points": 13
       },
       {
         "year": 9,
-        "value": 106310,
+        "value": 96307,
         "confidence": "estimated",
         "data_points": 0
       }

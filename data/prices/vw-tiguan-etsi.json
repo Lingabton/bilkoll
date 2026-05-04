@@ -1,14 +1,14 @@
 {
   "model_id": "vw-tiguan-etsi",
-  "scraped_at": "2026-04-25T04:01:35.094778+00:00",
+  "scraped_at": "2026-05-04T09:00:04.450177+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 346332,
-      "count": 28,
-      "total_on_page": 28,
+      "median_price": 344007,
+      "count": 27,
+      "total_on_page": 27,
       "price_type": "estimated_transaction",
       "p5_price": 334335,
       "p95_price": 492807,
@@ -37,10 +37,20 @@
       "min_price": 223107,
       "max_price": 311550
     },
+    "2022": {
+      "median_price": 277977,
+      "count": 29,
+      "total_on_page": 29,
+      "price_type": "estimated_transaction",
+      "p5_price": 209250,
+      "p95_price": 390507,
+      "min_price": 181164,
+      "max_price": 409107
+    },
     "2021": {
-      "median_price": 240777,
-      "count": 18,
-      "total_on_page": 18,
+      "median_price": 240684,
+      "count": 17,
+      "total_on_page": 17,
       "price_type": "estimated_transaction",
       "p5_price": 204321,
       "p95_price": 278907,
@@ -49,8 +59,8 @@
     },
     "2020": {
       "median_price": 223107,
-      "count": 29,
-      "total_on_page": 29,
+      "count": 30,
+      "total_on_page": 30,
       "price_type": "estimated_transaction",
       "p5_price": 176607,
       "p95_price": 264957,
@@ -58,33 +68,33 @@
       "max_price": 287370
     },
     "2019": {
-      "median_price": 227338,
-      "count": 30,
-      "total_on_page": 30,
+      "median_price": 226920,
+      "count": 29,
+      "total_on_page": 29,
       "price_type": "estimated_transaction",
       "p5_price": 167307,
-      "p95_price": 259470,
+      "p95_price": 255657,
       "min_price": 153357,
-      "max_price": 269607
+      "max_price": 259470
     },
     "2018": {
-      "median_price": 185907,
-      "count": 31,
-      "total_on_page": 31,
+      "median_price": 190557,
+      "count": 35,
+      "total_on_page": 34,
       "price_type": "estimated_transaction",
-      "p5_price": 161820,
+      "p5_price": 158007,
       "p95_price": 251007,
-      "min_price": 158007,
+      "min_price": 139500,
       "max_price": 260307
     },
     "2017": {
-      "median_price": 185070,
-      "count": 32,
-      "total_on_page": 32,
+      "median_price": 185488,
+      "count": 30,
+      "total_on_page": 30,
       "price_type": "estimated_transaction",
-      "p5_price": 139407,
+      "p5_price": 138570,
       "p95_price": 240870,
-      "min_price": 138570,
+      "min_price": 119970,
       "max_price": 240870
     },
     "2016": {

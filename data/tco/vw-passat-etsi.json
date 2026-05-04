@@ -1,6 +1,6 @@
 {
   "model_id": "vw-passat-etsi",
-  "calculated_at": "2026-04-29T10:47:08.497995+00:00",
+  "calculated_at": "2026-05-04T11:07:44.853395+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -41,7 +41,7 @@
         "year": 2,
         "value": 324570,
         "confidence": "medium",
-        "data_points": 30
+        "data_points": 29
       },
       {
         "year": 3,

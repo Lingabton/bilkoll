@@ -1,6 +1,6 @@
 {
   "model_id": "nissan-leaf-52",
-  "scraped_at": "2026-04-24T21:47:56.020006+00:00",
+  "scraped_at": "2026-05-04T08:51:58.752825+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -13,9 +13,9 @@
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 194184,
-      "count": 3,
-      "total_on_page": 3,
+      "median_price": 180559,
+      "count": 4,
+      "total_on_page": 4,
       "price_type": "estimated_transaction",
       "min_price": 166935,
       "max_price": 269607,
@@ -23,8 +23,8 @@
     },
     "2023": {
       "median_price": 194184,
-      "count": 121,
-      "total_on_page": 121,
+      "count": 117,
+      "total_on_page": 117,
       "price_type": "estimated_transaction",
       "p5_price": 166470,
       "p95_price": 232407,
@@ -34,8 +34,8 @@
     },
     "2022": {
       "median_price": 167307,
-      "count": 116,
-      "total_on_page": 116,
+      "count": 115,
+      "total_on_page": 115,
       "price_type": "estimated_transaction",
       "p5_price": 144150,
       "p95_price": 232314,
@@ -43,38 +43,38 @@
       "max_price": 240777
     },
     "2021": {
-      "median_price": 162564,
-      "count": 89,
-      "total_on_page": 89,
+      "median_price": 162657,
+      "count": 84,
+      "total_on_page": 84,
       "price_type": "estimated_transaction",
-      "p5_price": 125457,
+      "p5_price": 127410,
       "p95_price": 213807,
-      "min_price": 120435,
+      "min_price": 120895,
       "max_price": 232407
     },
     "2020": {
       "median_price": 139407,
-      "count": 21,
-      "total_on_page": 21,
+      "count": 19,
+      "total_on_page": 19,
       "price_type": "estimated_transaction",
       "p5_price": 120807,
-      "p95_price": 185907,
-      "min_price": 119970,
+      "p95_price": 250170,
+      "min_price": 120807,
       "max_price": 250170
     },
     "2019": {
-      "median_price": 129223,
+      "median_price": 127317,
       "count": 20,
       "total_on_page": 20,
       "price_type": "estimated_transaction",
-      "p5_price": 102300,
+      "p5_price": 106950,
       "p95_price": 176700,
       "min_price": 101370,
       "max_price": 176700
     }
   },
   "validation": {
-    "is_monotonic": true,
+    "is_monotonic": false,
     "min_count_per_year": 2,
     "confidence": "low"
   }

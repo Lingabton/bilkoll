@@ -1,55 +1,55 @@
 {
   "model_id": "vw-id4-pro",
-  "scraped_at": "2026-04-28T23:03:41.798615+00:00",
+  "scraped_at": "2026-05-04T08:16:35.160996+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 490435,
-      "count": 24,
-      "total_on_page": 24,
+      "median_price": 488157,
+      "count": 23,
+      "total_on_page": 23,
       "price_type": "estimated_transaction",
-      "p5_price": 427707,
+      "p5_price": 464814,
       "p95_price": 580227,
       "min_price": 399807,
       "max_price": 585900,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 437007,
-      "count": 37,
-      "total_on_page": 37,
+      "median_price": 441192,
+      "count": 36,
+      "total_on_page": 36,
       "price_type": "estimated_transaction",
       "p5_price": 385857,
       "p95_price": 529170,
-      "min_price": 380835,
+      "min_price": 385857,
       "max_price": 557907,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 311457,
-      "count": 126,
-      "total_on_page": 126,
+      "median_price": 310620,
+      "count": 125,
+      "total_on_page": 123,
       "price_type": "estimated_transaction",
-      "p5_price": 239930,
-      "p95_price": 413757,
-      "min_price": 222270,
+      "p5_price": 236964,
+      "p95_price": 409107,
+      "min_price": 218550,
       "max_price": 528798,
       "median_mileage_mil": 20230
     },
     "2022": {
-      "median_price": 278907,
-      "count": 154,
-      "total_on_page": 154,
+      "median_price": 283185,
+      "count": 148,
+      "total_on_page": 148,
       "price_type": "estimated_transaction",
-      "p5_price": 213807,
+      "p5_price": 218364,
       "p95_price": 357585,
       "min_price": 199950,
       "max_price": 409107
     },
     "2021": {
-      "median_price": 259795,
+      "median_price": 259470,
       "count": 92,
       "total_on_page": 92,
       "price_type": "estimated_transaction",
@@ -61,7 +61,7 @@
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 24,
+    "min_count_per_year": 23,
     "confidence": "medium"
   }
 }

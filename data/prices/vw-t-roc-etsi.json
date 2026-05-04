@@ -1,18 +1,18 @@
 {
   "model_id": "vw-t-roc-etsi",
-  "scraped_at": "2026-04-25T06:15:26.222526+00:00",
+  "scraped_at": "2026-05-04T09:52:43.178628+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
       "median_price": 292810,
-      "count": 22,
-      "total_on_page": 22,
+      "count": 24,
+      "total_on_page": 24,
       "price_type": "estimated_transaction",
-      "p5_price": 278070,
+      "p5_price": 269235,
       "p95_price": 418314,
-      "min_price": 278070,
+      "min_price": 264957,
       "max_price": 437007,
       "median_mileage_mil": 20252
     },
@@ -28,13 +28,13 @@
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 227710,
-      "count": 46,
-      "total_on_page": 46,
+      "median_price": 227664,
+      "count": 45,
+      "total_on_page": 45,
       "price_type": "estimated_transaction",
       "p5_price": 195207,
       "p95_price": 260307,
-      "min_price": 181350,
+      "min_price": 172050,
       "max_price": 278907
     },
     "2022": {
@@ -49,11 +49,11 @@
       "median_mileage_mil": 5400
     },
     "2021": {
-      "median_price": 185907,
+      "median_price": 195253,
       "count": 24,
       "total_on_page": 24,
       "price_type": "estimated_transaction",
-      "p5_price": 158100,
+      "p5_price": 161820,
       "p95_price": 237057,
       "min_price": 134385,
       "max_price": 265050
@@ -63,7 +63,7 @@
       "count": 32,
       "total_on_page": 32,
       "price_type": "estimated_transaction",
-      "p5_price": 166470,
+      "p5_price": 166284,
       "p95_price": 297507,
       "min_price": 162285,
       "max_price": 297507
@@ -84,7 +84,7 @@
       "total_on_page": 30,
       "price_type": "estimated_transaction",
       "p5_price": 120807,
-      "p95_price": 221247,
+      "p95_price": 223107,
       "min_price": 119505,
       "max_price": 260307
     }
