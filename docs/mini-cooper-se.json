@@ -1,6 +1,6 @@
 {
   "model_id": "mini-cooper-se",
-  "calculated_at": "2026-05-04T11:07:44.851596+00:00",
+  "calculated_at": "2026-05-11T12:26:34.805180+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 207269,
-    "monthly_cost": 4318,
+    "total_cost": 209502,
+    "monthly_cost": 4365,
     "cost_per_mil": 35,
     "breakdown": {
-      "depreciation": 155159,
+      "depreciation": 157392,
       "fuel": 14580,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 348936,
+        "value": 364885,
         "confidence": "medium",
-        "data_points": 9
+        "data_points": 2
       },
       {
         "year": 2,
-        "value": 296670,
+        "value": 293787,
         "confidence": "medium",
-        "data_points": 5
+        "data_points": 2
       },
       {
         "year": 3,
-        "value": 261069,
+        "value": 258532,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 229741,
+        "value": 227508,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 202172,
+        "value": 200207,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 177911,
+        "value": 176182,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 156562,
+        "value": 155040,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 137774,
+        "value": 136435,
         "confidence": "estimated",
         "data_points": 0
       }

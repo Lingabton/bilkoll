@@ -1,6 +1,6 @@
 {
   "model_id": "peugeot-2008-pt",
-  "calculated_at": "2026-05-04T11:07:44.855817+00:00",
+  "calculated_at": "2026-05-11T12:26:34.811083+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 229444,
-    "monthly_cost": 4780,
-    "cost_per_mil": 38,
+    "total_cost": 236233,
+    "monthly_cost": 4922,
+    "cost_per_mil": 39,
     "breakdown": {
-      "depreciation": 113579,
+      "depreciation": 120368,
       "fuel": 61050,
       "tax": 18525,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 251007,
+        "value": 273792,
         "confidence": "medium",
-        "data_points": 47
+        "data_points": 8
       },
       {
         "year": 2,
-        "value": 218364,
+        "value": 229896,
         "confidence": "medium",
-        "data_points": 51
+        "data_points": 8
       },
       {
         "year": 3,
-        "value": 208785,
+        "value": 227757,
         "confidence": "medium",
-        "data_points": 39
+        "data_points": 6
       },
       {
         "year": 4,
-        "value": 176421,
+        "value": 169632,
         "confidence": "medium",
-        "data_points": 32
+        "data_points": 6
       },
       {
         "year": 5,
-        "value": 160285,
-        "confidence": "medium",
-        "data_points": 26
+        "value": 156061,
+        "confidence": "adjusted",
+        "data_points": 5
       },
       {
         "year": 6,
-        "value": 159913,
-        "confidence": "medium",
-        "data_points": 12
+        "value": 143576,
+        "confidence": "adjusted",
+        "data_points": 2
       },
       {
         "year": 7,
-        "value": 140723,
+        "value": 132089,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 123836,
+        "value": 121521,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "low",
   "data_quality_notes": []
 }

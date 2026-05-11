@@ -1,36 +1,36 @@
 {
   "model_id": "volvo-ex30-twin",
-  "scraped_at": "2026-05-04T08:30:10.019475+00:00",
+  "scraped_at": "2026-05-11T09:15:25.164604+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 446307,
-      "count": 79,
-      "total_on_page": 79,
-      "price_type": "estimated_transaction",
-      "p5_price": 342240,
-      "p95_price": 557535,
-      "min_price": 315270,
-      "max_price": 612870,
-      "median_mileage_mil": 20250
-    },
-    "2024": {
-      "median_price": 325407,
-      "count": 70,
+      "median_price": 494760,
+      "count": 7,
       "total_on_page": 67,
       "price_type": "estimated_transaction",
-      "p5_price": 287370,
-      "p95_price": 431520,
-      "min_price": 278070,
+      "p5_price": 361863,
+      "p95_price": 613056,
+      "min_price": 361863,
+      "max_price": 613056,
+      "median_mileage_mil": 20251
+    },
+    "2024": {
+      "median_price": 371907,
+      "count": 7,
+      "total_on_page": 68,
+      "price_type": "estimated_transaction",
+      "p5_price": 311457,
+      "p95_price": 547956,
+      "min_price": 311457,
       "max_price": 547956,
       "median_mileage_mil": 20240
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 70,
-    "confidence": "high"
+    "min_count_per_year": 7,
+    "confidence": "low"
   }
 }

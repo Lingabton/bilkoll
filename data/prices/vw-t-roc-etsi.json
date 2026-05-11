@@ -1,97 +1,83 @@
 {
   "model_id": "vw-t-roc-etsi",
-  "scraped_at": "2026-05-04T09:52:43.178628+00:00",
+  "scraped_at": "2026-05-11T11:10:24.724603+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 292810,
-      "count": 24,
-      "total_on_page": 24,
+      "median_price": 315270,
+      "count": 3,
+      "total_on_page": 25,
       "price_type": "estimated_transaction",
-      "p5_price": 269235,
-      "p95_price": 418314,
-      "min_price": 264957,
-      "max_price": 437007,
-      "median_mileage_mil": 20252
+      "min_price": 306807,
+      "max_price": 427707
     },
     "2024": {
-      "median_price": 285417,
-      "count": 28,
-      "total_on_page": 28,
+      "median_price": 377022,
+      "count": 2,
+      "total_on_page": 18,
       "price_type": "estimated_transaction",
-      "p5_price": 241707,
-      "p95_price": 399714,
-      "min_price": 241707,
-      "max_price": 401574,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 227664,
-      "count": 45,
-      "total_on_page": 45,
+      "median_price": 240870,
+      "count": 7,
+      "total_on_page": 55,
       "price_type": "estimated_transaction",
-      "p5_price": 195207,
-      "p95_price": 260307,
-      "min_price": 172050,
-      "max_price": 278907
+      "p5_price": 176607,
+      "p95_price": 279000,
+      "min_price": 176607,
+      "max_price": 279000
     },
     "2022": {
       "median_price": 209157,
-      "count": 63,
-      "total_on_page": 63,
+      "count": 8,
+      "total_on_page": 65,
       "price_type": "estimated_transaction",
-      "p5_price": 175770,
-      "p95_price": 260214,
-      "min_price": 148614,
-      "max_price": 333870,
-      "median_mileage_mil": 5400
+      "p5_price": 158007,
+      "p95_price": 333870,
+      "min_price": 158007,
+      "max_price": 333870
     },
     "2021": {
-      "median_price": 195253,
-      "count": 24,
-      "total_on_page": 24,
+      "median_price": 271978,
+      "count": 6,
+      "total_on_page": 29,
       "price_type": "estimated_transaction",
-      "p5_price": 161820,
-      "p95_price": 237057,
-      "min_price": 134385,
-      "max_price": 265050
+      "p5_price": 213807,
+      "p95_price": 297507,
+      "min_price": 213807,
+      "max_price": 297507
     },
     "2020": {
-      "median_price": 197485,
-      "count": 32,
-      "total_on_page": 32,
+      "median_price": 213714,
+      "count": 5,
+      "total_on_page": 33,
       "price_type": "estimated_transaction",
-      "p5_price": 166284,
+      "p5_price": 157635,
       "p95_price": 297507,
-      "min_price": 162285,
+      "min_price": 157635,
       "max_price": 297507
     },
     "2019": {
-      "median_price": 157077,
-      "count": 19,
-      "total_on_page": 19,
-      "price_type": "estimated_transaction",
-      "p5_price": 111600,
-      "p95_price": 334707,
-      "min_price": 111600,
-      "max_price": 334707
+      "median_price": 134757,
+      "count": 1,
+      "total_on_page": 21,
+      "price_type": "estimated_transaction"
     },
     "2018": {
-      "median_price": 179908,
-      "count": 30,
-      "total_on_page": 30,
+      "median_price": 181257,
+      "count": 3,
+      "total_on_page": 23,
       "price_type": "estimated_transaction",
-      "p5_price": 120807,
-      "p95_price": 223107,
-      "min_price": 119505,
-      "max_price": 260307
+      "min_price": 120807,
+      "max_price": 218457
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 19,
-    "confidence": "medium"
+    "min_count_per_year": 1,
+    "confidence": "low"
   }
 }

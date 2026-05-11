@@ -1,81 +1,73 @@
 {
   "model_id": "tesla-model-3-lr",
-  "scraped_at": "2026-05-04T08:06:01.809701+00:00",
+  "scraped_at": "2026-05-11T08:45:22.036812+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 445470,
-      "count": 1,
-      "total_on_page": 1,
+      "median_price": 450120,
+      "count": 2,
+      "total_on_page": 2,
       "price_type": "estimated_transaction"
     },
     "2024": {
-      "median_price": 427795,
-      "count": 20,
-      "total_on_page": 20,
-      "price_type": "estimated_transaction",
-      "p5_price": 348750,
-      "p95_price": 604314,
-      "min_price": 343170,
-      "max_price": 604314
+      "median_price": 478810,
+      "count": 2,
+      "total_on_page": 25,
+      "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 311457,
-      "count": 49,
-      "total_on_page": 58,
+      "median_price": 334790,
+      "count": 5,
+      "total_on_page": 51,
       "price_type": "estimated_transaction",
-      "p5_price": 264957,
-      "p95_price": 413757,
-      "min_price": 251007,
+      "p5_price": 265050,
+      "p95_price": 418407,
+      "min_price": 265050,
       "max_price": 418407
     },
     "2022": {
-      "median_price": 283557,
-      "count": 49,
-      "total_on_page": 49,
+      "median_price": 315921,
+      "count": 4,
+      "total_on_page": 45,
       "price_type": "estimated_transaction",
-      "p5_price": 223107,
-      "p95_price": 355260,
-      "min_price": 175770,
+      "min_price": 296577,
       "max_price": 395157
     },
     "2021": {
-      "median_price": 260772,
-      "count": 63,
-      "total_on_page": 63,
+      "median_price": 320757,
+      "count": 6,
+      "total_on_page": 58,
       "price_type": "estimated_transaction",
-      "p5_price": 203112,
-      "p95_price": 371907,
-      "min_price": 156240,
+      "p5_price": 227664,
+      "p95_price": 650907,
+      "min_price": 227664,
       "max_price": 650907
     },
     "2020": {
-      "median_price": 232314,
-      "count": 49,
-      "total_on_page": 49,
+      "median_price": 273420,
+      "count": 4,
+      "total_on_page": 45,
       "price_type": "estimated_transaction",
-      "p5_price": 175770,
-      "p95_price": 325407,
-      "min_price": 162750,
+      "min_price": 209250,
       "max_price": 398970,
       "median_mileage_mil": 8400
     },
     "2019": {
-      "median_price": 222874,
-      "count": 62,
-      "total_on_page": 62,
+      "median_price": 241707,
+      "count": 6,
+      "total_on_page": 67,
       "price_type": "estimated_transaction",
       "p5_price": 175770,
-      "p95_price": 279000,
-      "min_price": 150195,
+      "p95_price": 348657,
+      "min_price": 175770,
       "max_price": 348657
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 1,
+    "is_monotonic": false,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

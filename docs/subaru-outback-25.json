@@ -1,6 +1,6 @@
 {
   "model_id": "subaru-outback-25",
-  "calculated_at": "2026-05-04T11:07:44.853906+00:00",
+  "calculated_at": "2026-05-11T12:26:34.808413+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 277357,
-    "monthly_cost": 5778,
-    "cost_per_mil": 46,
+    "total_cost": 306645,
+    "monthly_cost": 6388,
+    "cost_per_mil": 51,
     "breakdown": {
-      "depreciation": 90543,
+      "depreciation": 119831,
       "fuel": 95460,
       "tax": 48664,
       "insurance": {
@@ -35,52 +35,52 @@
         "year": 1,
         "value": 395508,
         "confidence": "adjusted",
-        "data_points": 149
+        "data_points": 18
       },
       {
         "year": 2,
         "value": 363867,
         "confidence": "adjusted",
-        "data_points": 25
+        "data_points": 5
       },
       {
         "year": 3,
-        "value": 353307,
+        "value": 337032,
         "confidence": "medium",
-        "data_points": 32
+        "data_points": 6
       },
       {
         "year": 4,
-        "value": 339357,
-        "confidence": "medium",
-        "data_points": 29
+        "value": 310069,
+        "confidence": "adjusted",
+        "data_points": 4
       },
       {
         "year": 5,
-        "value": 315270,
-        "confidence": "medium",
-        "data_points": 13
+        "value": 285263,
+        "confidence": "adjusted",
+        "data_points": 3
       },
       {
         "year": 6,
-        "value": 277437,
+        "value": 262441,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 244145,
+        "value": 241445,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 214847,
+        "value": 234431,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "low",
   "data_quality_notes": []
 }

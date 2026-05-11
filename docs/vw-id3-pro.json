@@ -1,6 +1,6 @@
 {
   "model_id": "vw-id3-pro",
-  "calculated_at": "2026-05-04T11:07:44.842825+00:00",
+  "calculated_at": "2026-05-11T12:26:34.794255+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 344110,
-    "monthly_cost": 7169,
-    "cost_per_mil": 57,
+    "total_cost": 323138,
+    "monthly_cost": 6732,
+    "cost_per_mil": 54,
     "breakdown": {
-      "depreciation": 281440,
+      "depreciation": 260468,
       "fuel": 19440,
       "tax": 1440,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 364932,
+        "value": 479787,
         "confidence": "medium",
-        "data_points": 22
+        "data_points": 3
       },
       {
         "year": 2,
-        "value": 346838,
+        "value": 371814,
         "confidence": "medium",
-        "data_points": 34
+        "data_points": 3
       },
       {
         "year": 3,
-        "value": 251007,
+        "value": 315688,
         "confidence": "medium",
-        "data_points": 46
+        "data_points": 4
       },
       {
         "year": 4,
-        "value": 223060,
+        "value": 244032,
         "confidence": "medium",
-        "data_points": 48
+        "data_points": 4
       },
       {
         "year": 5,
-        "value": 190557,
+        "value": 195207,
         "confidence": "medium",
-        "data_points": 101
+        "data_points": 7
       },
       {
         "year": 6,
-        "value": 175312,
+        "value": 179590,
         "confidence": "adjusted",
-        "data_points": 59
+        "data_points": 5
       },
       {
         "year": 7,
-        "value": 171700,
+        "value": 165222,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 151096,
+        "value": 158370,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "low",
   "data_quality_notes": []
 }

@@ -1,56 +1,45 @@
 {
   "model_id": "bmw-i4-edrive40",
-  "scraped_at": "2026-05-04T09:29:10.221960+00:00",
+  "scraped_at": "2026-05-11T10:42:31.725975+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 583389,
-      "count": 46,
-      "total_on_page": 46,
+      "median_price": 618357,
+      "count": 4,
+      "total_on_page": 42,
       "price_type": "estimated_transaction",
-      "p5_price": 491691,
-      "p95_price": 747534,
-      "min_price": 491598,
-      "max_price": 801660,
-      "median_mileage_mil": 20250
+      "min_price": 491691,
+      "max_price": 640491
     },
     "2024": {
-      "median_price": 497410,
-      "count": 24,
-      "total_on_page": 24,
+      "median_price": 792453,
+      "count": 2,
+      "total_on_page": 25,
       "price_type": "estimated_transaction",
-      "p5_price": 352470,
-      "p95_price": 843603,
-      "min_price": 348750,
-      "max_price": 853461,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 446121,
-      "count": 59,
+      "median_price": 445888,
+      "count": 6,
       "total_on_page": 59,
       "price_type": "estimated_transaction",
-      "p5_price": 325314,
-      "p95_price": 539214,
-      "min_price": 305691,
-      "max_price": 595014
+      "p5_price": 385857,
+      "p95_price": 520707,
+      "min_price": 385857,
+      "max_price": 520707
     },
     "2022": {
-      "median_price": 436402,
-      "count": 26,
-      "total_on_page": 26,
-      "price_type": "estimated_transaction",
-      "p5_price": 357771,
-      "p95_price": 511407,
-      "min_price": 334707,
-      "max_price": 530007
+      "median_price": 520707,
+      "count": 2,
+      "total_on_page": 24,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 24,
-    "confidence": "medium"
+    "is_monotonic": false,
+    "min_count_per_year": 2,
+    "confidence": "low"
   }
 }

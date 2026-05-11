@@ -1,66 +1,62 @@
 {
   "model_id": "subaru-outback-25",
-  "scraped_at": "2026-05-04T09:55:12.174521+00:00",
+  "scraped_at": "2026-05-11T11:13:51.921010+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 434124,
-      "count": 149,
+      "median_price": 437007,
+      "count": 18,
       "total_on_page": 149,
       "price_type": "estimated_transaction",
-      "p5_price": 399807,
-      "p95_price": 451050,
+      "p5_price": 385857,
+      "p95_price": 448074,
       "min_price": 385857,
-      "max_price": 491571,
+      "max_price": 448074,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 398970,
-      "count": 25,
-      "total_on_page": 25,
+      "median_price": 441657,
+      "count": 5,
+      "total_on_page": 27,
       "price_type": "estimated_transaction",
-      "p5_price": 357957,
-      "p95_price": 448074,
-      "min_price": 357957,
-      "max_price": 455421,
+      "p5_price": 385857,
+      "p95_price": 464721,
+      "min_price": 385857,
+      "max_price": 464721,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 353307,
-      "count": 32,
-      "total_on_page": 32,
+      "median_price": 337032,
+      "count": 6,
+      "total_on_page": 41,
       "price_type": "estimated_transaction",
-      "p5_price": 316107,
+      "p5_price": 260307,
       "p95_price": 409107,
       "min_price": 260307,
       "max_price": 409107
     },
     "2022": {
-      "median_price": 339357,
-      "count": 29,
-      "total_on_page": 31,
+      "median_price": 352888,
+      "count": 4,
+      "total_on_page": 30,
       "price_type": "estimated_transaction",
-      "p5_price": 288207,
-      "p95_price": 371907,
-      "min_price": 237057,
+      "min_price": 333870,
       "max_price": 409107
     },
     "2021": {
-      "median_price": 315270,
-      "count": 13,
+      "median_price": 344007,
+      "count": 3,
       "total_on_page": 13,
       "price_type": "estimated_transaction",
-      "p5_price": 260307,
-      "p95_price": 352470,
-      "min_price": 260307,
+      "min_price": 344007,
       "max_price": 352470
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 13,
-    "confidence": "medium"
+    "is_monotonic": false,
+    "min_count_per_year": 3,
+    "confidence": "low"
   }
 }

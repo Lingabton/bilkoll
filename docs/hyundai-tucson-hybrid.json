@@ -1,6 +1,6 @@
 {
   "model_id": "hyundai-tucson-hybrid",
-  "calculated_at": "2026-05-04T11:07:44.848547+00:00",
+  "calculated_at": "2026-05-11T12:26:34.801417+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 205284,
-    "monthly_cost": 4277,
-    "cost_per_mil": 34,
+    "total_cost": 225542,
+    "monthly_cost": 4699,
+    "cost_per_mil": 38,
     "breakdown": {
-      "depreciation": 73306,
+      "depreciation": 93564,
       "fuel": 71040,
       "tax": 22748,
       "insurance": {
@@ -35,52 +35,52 @@
         "year": 1,
         "value": 303508,
         "confidence": "adjusted",
-        "data_points": 37
+        "data_points": 5
       },
       {
         "year": 2,
         "value": 279227,
         "confidence": "adjusted",
-        "data_points": 19
+        "data_points": 2
       },
       {
         "year": 3,
-        "value": 278907,
-        "confidence": "medium",
-        "data_points": 19
+        "value": 256888,
+        "confidence": "adjusted",
+        "data_points": 3
       },
       {
         "year": 4,
-        "value": 256594,
+        "value": 236336,
         "confidence": "adjusted",
-        "data_points": 55
+        "data_points": 9
       },
       {
         "year": 5,
-        "value": 250170,
-        "confidence": "medium",
-        "data_points": 36
+        "value": 217429,
+        "confidence": "adjusted",
+        "data_points": 5
       },
       {
         "year": 6,
-        "value": 220149,
+        "value": 200034,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 193731,
+        "value": 194091,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 170483,
+        "value": 170800,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "low",
   "data_quality_notes": []
 }

@@ -1,6 +1,6 @@
 {
   "model_id": "vw-id7-pro",
-  "calculated_at": "2026-05-04T11:07:44.845601+00:00",
+  "calculated_at": "2026-05-11T12:26:34.797905+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 297591,
-    "monthly_cost": 6200,
-    "cost_per_mil": 50,
+    "total_cost": 225283,
+    "monthly_cost": 4693,
+    "cost_per_mil": 38,
     "breakdown": {
-      "depreciation": 230237,
+      "depreciation": 157929,
       "fuel": 16524,
       "tax": 1440,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 568220,
+        "value": 576414,
         "confidence": "medium",
-        "data_points": 41
+        "data_points": 5
       },
       {
         "year": 2,
-        "value": 464442,
+        "value": 557814,
         "confidence": "medium",
-        "data_points": 74
+        "data_points": 9
       },
       {
         "year": 3,
-        "value": 408708,
+        "value": 490876,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 359663,
+        "value": 431971,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 316504,
+        "value": 380134,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 278523,
+        "value": 334518,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 245100,
+        "value": 294376,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 215688,
+        "value": 259051,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "low",
   "data_quality_notes": []
 }

@@ -1,6 +1,6 @@
 {
   "model_id": "nissan-qashqai-epower",
-  "calculated_at": "2026-05-04T11:07:44.859040+00:00",
+  "calculated_at": "2026-05-11T12:26:34.815011+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 261285,
-    "monthly_cost": 5443,
-    "cost_per_mil": 44,
+    "total_cost": 259379,
+    "monthly_cost": 5404,
+    "cost_per_mil": 43,
     "breakdown": {
-      "depreciation": 146393,
+      "depreciation": 144487,
       "fuel": 57720,
       "tax": 18182,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 327267,
+        "value": 326709,
         "confidence": "medium",
-        "data_points": 90
+        "data_points": 9
       },
       {
         "year": 2,
-        "value": 320664,
-        "confidence": "medium",
-        "data_points": 67
+        "value": 300572,
+        "confidence": "adjusted",
+        "data_points": 7
       },
       {
         "year": 3,
-        "value": 255657,
+        "value": 278907,
         "confidence": "medium",
-        "data_points": 43
+        "data_points": 5
       },
       {
         "year": 4,
-        "value": 241707,
+        "value": 243613,
         "confidence": "medium",
-        "data_points": 57
+        "data_points": 6
       },
       {
         "year": 5,
-        "value": 196648,
+        "value": 209064,
         "confidence": "medium",
-        "data_points": 20
+        "data_points": 3
       },
       {
         "year": 6,
-        "value": 173050,
+        "value": 183976,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 152284,
+        "value": 161899,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 134010,
+        "value": 142471,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "low",
   "data_quality_notes": []
 }

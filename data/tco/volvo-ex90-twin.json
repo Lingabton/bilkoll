@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-ex90-twin",
-  "calculated_at": "2026-05-04T11:07:44.852378+00:00",
+  "calculated_at": "2026-05-11T12:26:34.806201+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 453687,
-    "monthly_cost": 9452,
-    "cost_per_mil": 76,
+    "total_cost": 381585,
+    "monthly_cost": 7950,
+    "cost_per_mil": 64,
     "breakdown": {
-      "depreciation": 367373,
+      "depreciation": 295271,
       "fuel": 21384,
       "tax": 1440,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 836907,
+        "value": 901170,
         "confidence": "medium",
-        "data_points": 75
+        "data_points": 9
       },
       {
         "year": 2,
-        "value": 813052,
-        "confidence": "medium",
-        "data_points": 32
+        "value": 829076,
+        "confidence": "adjusted",
+        "data_points": 5
       },
       {
         "year": 3,
-        "value": 715485,
+        "value": 762749,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 629627,
+        "value": 701729,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 554072,
+        "value": 673569,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 487583,
+        "value": 592741,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 429073,
+        "value": 521612,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 377584,
+        "value": 459018,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "low",
   "data_quality_notes": []
 }

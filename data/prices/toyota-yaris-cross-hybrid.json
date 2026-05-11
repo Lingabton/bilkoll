@@ -1,65 +1,61 @@
 {
   "model_id": "toyota-yaris-cross-hybrid",
-  "scraped_at": "2026-05-04T08:39:18.836839+00:00",
+  "scraped_at": "2026-05-11T09:28:15.366272+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 278907,
-      "count": 55,
-      "total_on_page": 69,
+      "median_price": 274257,
+      "count": 11,
+      "total_on_page": 84,
       "price_type": "estimated_transaction",
-      "p5_price": 260214,
+      "p5_price": 260307,
       "p95_price": 339357,
-      "min_price": 255657,
-      "max_price": 357957,
+      "min_price": 260307,
+      "max_price": 339357,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 260260,
-      "count": 44,
-      "total_on_page": 47,
+      "median_price": 269607,
+      "count": 5,
+      "total_on_page": 42,
       "price_type": "estimated_transaction",
       "p5_price": 227757,
-      "p95_price": 353307,
-      "min_price": 185907,
+      "p95_price": 357957,
+      "min_price": 227757,
       "max_price": 357957
     },
     "2023": {
-      "median_price": 251007,
-      "count": 70,
-      "total_on_page": 70,
+      "median_price": 255657,
+      "count": 12,
+      "total_on_page": 85,
       "price_type": "estimated_transaction",
-      "p5_price": 167307,
-      "p95_price": 306807,
-      "min_price": 144057,
-      "max_price": 316107
+      "p5_price": 148707,
+      "p95_price": 278907,
+      "min_price": 148707,
+      "max_price": 278907
     },
     "2022": {
-      "median_price": 238963,
-      "count": 62,
-      "total_on_page": 61,
+      "median_price": 232407,
+      "count": 9,
+      "total_on_page": 63,
       "price_type": "estimated_transaction",
       "p5_price": 176607,
       "p95_price": 269607,
-      "min_price": 167307,
-      "max_price": 297507
+      "min_price": 176607,
+      "max_price": 269607
     },
     "2021": {
-      "median_price": 258447,
-      "count": 7,
-      "total_on_page": 7,
-      "price_type": "estimated_transaction",
-      "p5_price": 213807,
-      "p95_price": 287370,
-      "min_price": 213807,
-      "max_price": 287370
+      "median_price": 251007,
+      "count": 2,
+      "total_on_page": 8,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 7,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

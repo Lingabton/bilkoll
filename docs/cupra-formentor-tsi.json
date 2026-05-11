@@ -1,6 +1,6 @@
 {
   "model_id": "cupra-formentor-tsi",
-  "calculated_at": "2026-05-04T11:07:44.850150+00:00",
+  "calculated_at": "2026-05-11T12:26:34.803421+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 342728,
-    "monthly_cost": 7140,
-    "cost_per_mil": 57,
+    "total_cost": 360701,
+    "monthly_cost": 7515,
+    "cost_per_mil": 60,
     "breakdown": {
-      "depreciation": 195540,
+      "depreciation": 213513,
       "fuel": 72150,
       "tax": 22748,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 376557,
-        "confidence": "medium",
-        "data_points": 34
+        "value": 395508,
+        "confidence": "adjusted",
+        "data_points": 6
       },
       {
         "year": 2,
-        "value": 285928,
+        "value": 255657,
         "confidence": "medium",
-        "data_points": 46
+        "data_points": 5
       },
       {
         "year": 3,
-        "value": 251007,
-        "confidence": "medium",
-        "data_points": 35
+        "value": 235204,
+        "confidence": "adjusted",
+        "data_points": 6
       },
       {
         "year": 4,
-        "value": 234360,
-        "confidence": "medium",
-        "data_points": 19
+        "value": 216387,
+        "confidence": "adjusted",
+        "data_points": 2
       },
       {
         "year": 5,
-        "value": 215611,
+        "value": 199076,
         "confidence": "adjusted",
-        "data_points": 21
+        "data_points": 2
       },
       {
         "year": 6,
-        "value": 198362,
+        "value": 183149,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 182493,
+        "value": 168497,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 167893,
+        "value": 155017,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "low",
   "data_quality_notes": []
 }

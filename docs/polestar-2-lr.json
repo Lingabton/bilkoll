@@ -1,6 +1,6 @@
 {
   "model_id": "polestar-2-lr",
-  "calculated_at": "2026-05-04T11:07:44.844631+00:00",
+  "calculated_at": "2026-05-11T12:26:34.796558+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 432635,
-    "monthly_cost": 9013,
-    "cost_per_mil": 72,
+    "total_cost": 423335,
+    "monthly_cost": 8819,
+    "cost_per_mil": 71,
     "breakdown": {
-      "depreciation": 343493,
+      "depreciation": 334193,
       "fuel": 20412,
       "tax": 1440,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 512895,
+        "value": 548607,
         "confidence": "medium",
-        "data_points": 38
+        "data_points": 5
       },
       {
         "year": 2,
-        "value": 464070,
+        "value": 490482,
         "confidence": "medium",
-        "data_points": 43
+        "data_points": 4
       },
       {
         "year": 3,
-        "value": 341723,
+        "value": 352888,
         "confidence": "medium",
-        "data_points": 74
+        "data_points": 6
       },
       {
         "year": 4,
-        "value": 297507,
+        "value": 306807,
         "confidence": "medium",
-        "data_points": 91
+        "data_points": 7
       },
       {
         "year": 5,
-        "value": 278907,
+        "value": 248263,
         "confidence": "medium",
-        "data_points": 68
+        "data_points": 6
       },
       {
         "year": 6,
-        "value": 256594,
+        "value": 228401,
         "confidence": "adjusted",
-        "data_points": 66
+        "data_points": 5
       },
       {
         "year": 7,
-        "value": 236066,
+        "value": 210128,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 235790,
+        "value": 193317,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "low",
   "data_quality_notes": []
 }

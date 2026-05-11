@@ -1,6 +1,6 @@
 {
   "model_id": "mazda-cx5-mhev",
-  "calculated_at": "2026-05-04T11:07:44.850742+00:00",
+  "calculated_at": "2026-05-11T12:26:34.804108+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 344184,
-    "monthly_cost": 7170,
-    "cost_per_mil": 57,
+    "total_cost": 347417,
+    "monthly_cost": 7238,
+    "cost_per_mil": 58,
     "breakdown": {
-      "depreciation": 185650,
+      "depreciation": 188883,
       "fuel": 79920,
       "tax": 36124,
       "insurance": {
@@ -33,51 +33,51 @@
       },
       {
         "year": 1,
-        "value": 236617,
+        "value": 232466,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 2,
-        "value": 217687,
+        "value": 213868,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 3,
-        "value": 200272,
+        "value": 196758,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 184250,
-        "confidence": "adjusted",
-        "data_points": 4
-      },
-      {
-        "year": 5,
-        "value": 169510,
-        "confidence": "adjusted",
-        "data_points": 5
-      },
-      {
-        "year": 6,
-        "value": 155949,
+        "value": 181017,
         "confidence": "adjusted",
         "data_points": 3
       },
       {
-        "year": 7,
-        "value": 143473,
+        "year": 5,
+        "value": 166535,
         "confidence": "adjusted",
-        "data_points": 13
+        "data_points": 3
+      },
+      {
+        "year": 6,
+        "value": 153212,
+        "confidence": "adjusted",
+        "data_points": 1
+      },
+      {
+        "year": 7,
+        "value": 140955,
+        "confidence": "adjusted",
+        "data_points": 2
       },
       {
         "year": 8,
-        "value": 131995,
+        "value": 129678,
         "confidence": "adjusted",
-        "data_points": 15
+        "data_points": 2
       }
     ]
   },

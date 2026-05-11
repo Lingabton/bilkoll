@@ -1,6 +1,6 @@
 {
   "model_id": "bmw-x3-phev",
-  "calculated_at": "2026-05-04T11:07:44.859817+00:00",
+  "calculated_at": "2026-05-11T12:26:34.815981+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 317450,
-    "monthly_cost": 6614,
-    "cost_per_mil": 53,
+    "total_cost": 295844,
+    "monthly_cost": 6163,
+    "cost_per_mil": 49,
     "breakdown": {
-      "depreciation": 196640,
+      "depreciation": 175034,
       "fuel": 66600,
       "tax": 4520,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 621891,
+        "value": 612870,
         "confidence": "medium",
-        "data_points": 115
+        "data_points": 14
       },
       {
         "year": 2,
-        "value": 585435,
-        "confidence": "medium",
-        "data_points": 24
+        "value": 563840,
+        "confidence": "adjusted",
+        "data_points": 3
       },
       {
         "year": 3,
-        "value": 515182,
+        "value": 539734,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 453360,
+        "value": 474966,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 398957,
+        "value": 417970,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 351082,
+        "value": 367814,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 308952,
+        "value": 323676,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 271878,
+        "value": 284835,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "low",
   "data_quality_notes": []
 }

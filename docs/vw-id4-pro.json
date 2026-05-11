@@ -1,6 +1,6 @@
 {
   "model_id": "vw-id4-pro",
-  "calculated_at": "2026-05-04T11:07:44.840304+00:00",
+  "calculated_at": "2026-05-11T12:26:34.791043+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 313585,
-    "monthly_cost": 6533,
-    "cost_per_mil": 52,
+    "total_cost": 290614,
+    "monthly_cost": 6054,
+    "cost_per_mil": 48,
     "breakdown": {
-      "depreciation": 246515,
+      "depreciation": 223544,
       "fuel": 19440,
       "tax": 1440,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 488157,
+        "value": 502107,
         "confidence": "medium",
-        "data_points": 23
+        "data_points": 2
       },
       {
         "year": 2,
-        "value": 441192,
+        "value": 492807,
         "confidence": "medium",
-        "data_points": 36
+        "data_points": 6
       },
       {
         "year": 3,
-        "value": 310620,
+        "value": 330057,
         "confidence": "medium",
-        "data_points": 125
+        "data_points": 12
       },
       {
         "year": 4,
-        "value": 283185,
+        "value": 306156,
         "confidence": "medium",
-        "data_points": 148
+        "data_points": 12
       },
       {
         "year": 5,
-        "value": 259470,
+        "value": 274257,
         "confidence": "medium",
-        "data_points": 92
+        "data_points": 8
       },
       {
         "year": 6,
-        "value": 228333,
+        "value": 241346,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 200933,
+        "value": 212384,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 176821,
+        "value": 186898,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "low",
   "data_quality_notes": []
 }

@@ -1,20 +1,13 @@
 {
   "model_id": "mercedes-eqb-250",
-  "scraped_at": "2026-05-04T09:27:36.045180+00:00",
+  "scraped_at": "2026-05-11T10:40:23.299146+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
-  "years": {
-    "2023": {
-      "median_price": 274257,
-      "count": 1,
-      "total_on_page": 1,
-      "price_type": "estimated_transaction"
-    }
-  },
+  "years": {},
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 1,
+    "min_count_per_year": 0,
     "confidence": "low"
   }
 }

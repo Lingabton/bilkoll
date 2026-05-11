@@ -1,55 +1,47 @@
 {
   "model_id": "bmw-x1-sdrive18i",
-  "scraped_at": "2026-05-04T10:47:04.221645+00:00",
+  "scraped_at": "2026-05-11T12:07:40.648232+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 441843,
-      "count": 77,
-      "total_on_page": 77,
+      "median_price": 422638,
+      "count": 12,
+      "total_on_page": 82,
       "price_type": "estimated_transaction",
-      "p5_price": 389670,
-      "p95_price": 585807,
-      "min_price": 370791,
-      "max_price": 679830,
+      "p5_price": 383753,
+      "p95_price": 665508,
+      "min_price": 383753,
+      "max_price": 665508,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 427707,
-      "count": 11,
-      "total_on_page": 11,
-      "price_type": "estimated_transaction",
-      "p5_price": 339450,
-      "p95_price": 538470,
-      "min_price": 339450,
-      "max_price": 538470
+      "median_price": 492388,
+      "count": 2,
+      "total_on_page": 17,
+      "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 418314,
-      "count": 21,
-      "total_on_page": 21,
+      "median_price": 445191,
+      "count": 3,
+      "total_on_page": 24,
       "price_type": "estimated_transaction",
-      "p5_price": 352935,
-      "p95_price": 445191,
-      "min_price": 343635,
+      "min_price": 418035,
       "max_price": 451050
     },
     "2022": {
-      "median_price": 293870,
-      "count": 19,
-      "total_on_page": 19,
+      "median_price": 278070,
+      "count": 3,
+      "total_on_page": 23,
       "price_type": "estimated_transaction",
-      "p5_price": 213807,
-      "p95_price": 382137,
       "min_price": 213807,
-      "max_price": 382137
+      "max_price": 332940
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 11,
-    "confidence": "medium"
+    "is_monotonic": false,
+    "min_count_per_year": 2,
+    "confidence": "low"
   }
 }

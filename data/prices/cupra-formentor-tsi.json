@@ -1,65 +1,57 @@
 {
   "model_id": "cupra-formentor-tsi",
-  "scraped_at": "2026-05-04T09:21:10.656105+00:00",
+  "scraped_at": "2026-05-11T10:29:51.889268+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 376557,
-      "count": 34,
-      "total_on_page": 34,
+      "median_price": 441052,
+      "count": 6,
+      "total_on_page": 29,
       "price_type": "estimated_transaction",
-      "p5_price": 288207,
-      "p95_price": 501735,
-      "min_price": 287370,
+      "p5_price": 352935,
+      "p95_price": 568695,
+      "min_price": 352935,
       "max_price": 568695,
-      "median_mileage_mil": 20251
+      "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 285928,
-      "count": 46,
-      "total_on_page": 46,
+      "median_price": 255657,
+      "count": 5,
+      "total_on_page": 47,
       "price_type": "estimated_transaction",
-      "p5_price": 250077,
-      "p95_price": 323640,
+      "p5_price": 176700,
+      "p95_price": 358050,
       "min_price": 176700,
       "max_price": 358050
     },
     "2023": {
-      "median_price": 251007,
-      "count": 35,
-      "total_on_page": 35,
+      "median_price": 266863,
+      "count": 6,
+      "total_on_page": 28,
       "price_type": "estimated_transaction",
-      "p5_price": 227757,
-      "p95_price": 460257,
-      "min_price": 213714,
+      "p5_price": 237057,
+      "p95_price": 483507,
+      "min_price": 237057,
       "max_price": 483507
     },
     "2022": {
-      "median_price": 234360,
-      "count": 19,
-      "total_on_page": 19,
-      "price_type": "estimated_transaction",
-      "p5_price": 207297,
-      "p95_price": 316107,
-      "min_price": 207297,
-      "max_price": 316107
+      "median_price": 241288,
+      "count": 2,
+      "total_on_page": 18,
+      "price_type": "estimated_transaction"
     },
     "2021": {
-      "median_price": 274350,
-      "count": 21,
-      "total_on_page": 21,
-      "price_type": "estimated_transaction",
-      "p5_price": 232035,
-      "p95_price": 334707,
-      "min_price": 208785,
-      "max_price": 334707
+      "median_price": 254355,
+      "count": 2,
+      "total_on_page": 18,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 19,
-    "confidence": "medium"
+    "min_count_per_year": 2,
+    "confidence": "low"
   }
 }

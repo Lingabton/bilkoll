@@ -1,56 +1,56 @@
 {
   "model_id": "kia-sportage-phev",
-  "scraped_at": "2026-05-04T09:15:16.107189+00:00",
+  "scraped_at": "2026-05-11T10:21:05.811667+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 446307,
-      "count": 9,
-      "total_on_page": 9,
+      "median_price": 445470,
+      "count": 8,
+      "total_on_page": 64,
       "price_type": "estimated_transaction",
-      "p5_price": 402969,
-      "p95_price": 517266,
-      "min_price": 402969,
-      "max_price": 517266,
+      "p5_price": 395157,
+      "p95_price": 538377,
+      "min_price": 395157,
+      "max_price": 538377,
       "median_mileage_mil": 20250
     },
     "2024": {
       "median_price": 399807,
-      "count": 34,
-      "total_on_page": 34,
+      "count": 12,
+      "total_on_page": 101,
       "price_type": "estimated_transaction",
-      "p5_price": 352470,
-      "p95_price": 501549,
-      "min_price": 334614,
+      "p5_price": 371907,
+      "p95_price": 511779,
+      "min_price": 371907,
       "max_price": 511779,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 381207,
-      "count": 7,
-      "total_on_page": 7,
+      "median_price": 306807,
+      "count": 8,
+      "total_on_page": 96,
       "price_type": "estimated_transaction",
-      "p5_price": 361770,
-      "p95_price": 409107,
-      "min_price": 361770,
-      "max_price": 409107
+      "p5_price": 251007,
+      "p95_price": 344007,
+      "min_price": 251007,
+      "max_price": 344007
     },
     "2022": {
-      "median_price": 306714,
-      "count": 7,
-      "total_on_page": 7,
+      "median_price": 310806,
+      "count": 18,
+      "total_on_page": 128,
       "price_type": "estimated_transaction",
-      "p5_price": 278907,
-      "p95_price": 399807,
-      "min_price": 278907,
-      "max_price": 399807
+      "p5_price": 246357,
+      "p95_price": 455607,
+      "min_price": 246357,
+      "max_price": 455607
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 7,
+    "is_monotonic": false,
+    "min_count_per_year": 8,
     "confidence": "low"
   }
 }

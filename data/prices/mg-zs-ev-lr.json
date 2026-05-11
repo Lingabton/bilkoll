@@ -1,46 +1,39 @@
 {
   "model_id": "mg-zs-ev-lr",
-  "scraped_at": "2026-05-04T11:06:56.136589+00:00",
+  "scraped_at": "2026-05-11T12:25:35.258074+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2024": {
-      "median_price": 246357,
+      "median_price": 423605,
       "count": 1,
       "total_on_page": 1,
       "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 278907,
-      "count": 21,
-      "total_on_page": 21,
+      "median_price": 304565,
+      "count": 2,
+      "total_on_page": 15,
       "price_type": "estimated_transaction",
-      "p5_price": 204507,
-      "p95_price": 311540,
-      "min_price": 190557,
-      "max_price": 416630,
       "median_mileage_mil": 20230
     },
     "2022": {
-      "median_price": 202182,
-      "count": 50,
-      "total_on_page": 50,
+      "median_price": 223014,
+      "count": 5,
+      "total_on_page": 37,
       "price_type": "estimated_transaction",
-      "p5_price": 176235,
-      "p95_price": 246357,
-      "min_price": 167307,
-      "max_price": 288207,
-      "median_mileage_mil": 20220
+      "p5_price": 195114,
+      "p95_price": 232407,
+      "min_price": 195114,
+      "max_price": 232407
     },
     "2021": {
-      "median_price": 188232,
-      "count": 54,
-      "total_on_page": 54,
+      "median_price": 232407,
+      "count": 3,
+      "total_on_page": 46,
       "price_type": "estimated_transaction",
-      "p5_price": 121830,
-      "p95_price": 236964,
-      "min_price": 116157,
+      "min_price": 204507,
       "max_price": 260307
     }
   },

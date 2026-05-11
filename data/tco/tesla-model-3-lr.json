@@ -1,6 +1,6 @@
 {
   "model_id": "tesla-model-3-lr",
-  "calculated_at": "2026-05-04T11:07:44.839462+00:00",
+  "calculated_at": "2026-05-11T12:26:34.789936+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 371269,
-    "monthly_cost": 7735,
-    "cost_per_mil": 62,
+    "total_cost": 338905,
+    "monthly_cost": 7061,
+    "cost_per_mil": 56,
     "breakdown": {
-      "depreciation": 301343,
+      "depreciation": 268979,
       "fuel": 17496,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 445470,
+        "value": 450120,
         "confidence": "medium",
-        "data_points": 1
+        "data_points": 2
       },
       {
         "year": 2,
-        "value": 427795,
-        "confidence": "medium",
-        "data_points": 20
+        "value": 414110,
+        "confidence": "adjusted",
+        "data_points": 2
       },
       {
         "year": 3,
-        "value": 311457,
+        "value": 334790,
         "confidence": "medium",
-        "data_points": 49
+        "data_points": 5
       },
       {
         "year": 4,
-        "value": 283557,
+        "value": 315921,
         "confidence": "medium",
-        "data_points": 49
+        "data_points": 4
       },
       {
         "year": 5,
-        "value": 260772,
-        "confidence": "medium",
-        "data_points": 63
+        "value": 290647,
+        "confidence": "adjusted",
+        "data_points": 6
       },
       {
         "year": 6,
-        "value": 232314,
+        "value": 273420,
         "confidence": "medium",
-        "data_points": 49
+        "data_points": 4
       },
       {
         "year": 7,
-        "value": 222874,
+        "value": 241707,
         "confidence": "medium",
-        "data_points": 62
+        "data_points": 6
       },
       {
         "year": 8,
-        "value": 196129,
+        "value": 212702,
         "confidence": "estimated",
         "data_points": 0
       }

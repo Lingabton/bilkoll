@@ -1,6 +1,6 @@
 {
   "model_id": "bmw-ix1-xdrive30",
-  "calculated_at": "2026-05-04T11:07:44.843338+00:00",
+  "calculated_at": "2026-05-11T12:26:34.794935+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 306362,
-    "monthly_cost": 6383,
-    "cost_per_mil": 51,
+    "total_cost": 289952,
+    "monthly_cost": 6041,
+    "cost_per_mil": 48,
     "breakdown": {
-      "depreciation": 240306,
+      "depreciation": 223896,
       "fuel": 19926,
       "tax": 1440,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 464442,
+        "value": 497271,
         "confidence": "medium",
-        "data_points": 38
+        "data_points": 5
       },
       {
         "year": 2,
-        "value": 427286,
+        "value": 457489,
         "confidence": "adjusted",
-        "data_points": 19
+        "data_points": 1
       },
       {
         "year": 3,
-        "value": 385903,
+        "value": 404550,
         "confidence": "medium",
-        "data_points": 26
+        "data_points": 5
       },
       {
         "year": 4,
-        "value": 339594,
+        "value": 356004,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 298843,
+        "value": 313283,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 262982,
+        "value": 275689,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 231424,
+        "value": 242606,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 203653,
+        "value": 213493,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "low",
   "data_quality_notes": []
 }

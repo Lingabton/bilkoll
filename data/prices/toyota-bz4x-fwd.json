@@ -1,56 +1,49 @@
 {
   "model_id": "toyota-bz4x-fwd",
-  "scraped_at": "2026-05-04T09:18:46.905350+00:00",
+  "scraped_at": "2026-05-11T10:25:59.122148+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 455188,
-      "count": 34,
-      "total_on_page": 34,
+      "median_price": 548607,
+      "count": 4,
+      "total_on_page": 30,
       "price_type": "estimated_transaction",
-      "p5_price": 371907,
-      "p95_price": 557907,
-      "min_price": 302157,
+      "min_price": 446307,
       "max_price": 557907,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 418407,
-      "count": 42,
-      "total_on_page": 42,
+      "median_price": 413338,
+      "count": 4,
+      "total_on_page": 36,
       "price_type": "estimated_transaction",
-      "p5_price": 344100,
-      "p95_price": 464907,
-      "min_price": 302157,
-      "max_price": 501270,
-      "median_mileage_mil": 20241
+      "min_price": 380370,
+      "max_price": 501270
     },
     "2023": {
-      "median_price": 334707,
-      "count": 51,
-      "total_on_page": 52,
+      "median_price": 316107,
+      "count": 7,
+      "total_on_page": 61,
       "price_type": "estimated_transaction",
-      "p5_price": 297600,
-      "p95_price": 389670,
-      "min_price": 278070,
+      "p5_price": 269514,
+      "p95_price": 437007,
+      "min_price": 269514,
       "max_price": 437007
     },
     "2022": {
-      "median_price": 330057,
-      "count": 8,
-      "total_on_page": 8,
+      "median_price": 334707,
+      "count": 3,
+      "total_on_page": 6,
       "price_type": "estimated_transaction",
-      "p5_price": 315177,
-      "p95_price": 371907,
-      "min_price": 315177,
-      "max_price": 371907
+      "min_price": 333870,
+      "max_price": 371535
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 8,
+    "is_monotonic": false,
+    "min_count_per_year": 3,
     "confidence": "low"
   }
 }

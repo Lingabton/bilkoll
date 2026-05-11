@@ -1,6 +1,6 @@
 {
   "model_id": "suzuki-s-cross-hybrid",
-  "calculated_at": "2026-05-04T11:07:44.851054+00:00",
+  "calculated_at": "2026-05-11T12:26:34.804503+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -47,13 +47,13 @@
         "year": 3,
         "value": 276356,
         "confidence": "adjusted",
-        "data_points": 5
+        "data_points": 2
       },
       {
         "year": 4,
         "value": 254247,
         "confidence": "adjusted",
-        "data_points": 4
+        "data_points": 3
       },
       {
         "year": 5,

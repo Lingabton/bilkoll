@@ -1,6 +1,6 @@
 {
   "model_id": "mercedes-eqa-250",
-  "calculated_at": "2026-05-04T11:07:44.847628+00:00",
+  "calculated_at": "2026-05-11T12:26:34.800308+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 387108,
-    "monthly_cost": 8065,
-    "cost_per_mil": 65,
+    "total_cost": 359410,
+    "monthly_cost": 7488,
+    "cost_per_mil": 60,
     "breakdown": {
-      "depreciation": 315610,
+      "depreciation": 287912,
       "fuel": 18468,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 274040,
+        "value": 309610,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 2,
-        "value": 252116,
+        "value": 284841,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 3,
+        "value": 262053,
+        "confidence": "adjusted",
+        "data_points": 1
+      },
+      {
+        "year": 4,
+        "value": 241088,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
-        "year": 3,
-        "value": 231946,
-        "confidence": "adjusted",
-        "data_points": 7
-      },
-      {
-        "year": 4,
-        "value": 213390,
-        "confidence": "adjusted",
-        "data_points": 12
-      },
-      {
         "year": 5,
-        "value": 196318,
+        "value": 221800,
         "confidence": "adjusted",
-        "data_points": 14
+        "data_points": 2
       },
       {
         "year": 6,
-        "value": 180612,
+        "value": 204056,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 166163,
+        "value": 187731,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 152869,
+        "value": 172712,
         "confidence": "estimated",
         "data_points": 0
       }

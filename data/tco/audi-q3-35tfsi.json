@@ -1,6 +1,6 @@
 {
   "model_id": "audi-q3-35tfsi",
-  "calculated_at": "2026-05-04T11:07:44.859563+00:00",
+  "calculated_at": "2026-05-11T12:26:34.815657+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 298932,
-    "monthly_cost": 6228,
-    "cost_per_mil": 50,
+    "total_cost": 284982,
+    "monthly_cost": 5937,
+    "cost_per_mil": 47,
     "breakdown": {
-      "depreciation": 151512,
+      "depreciation": 137562,
       "fuel": 68820,
       "tax": 26510,
       "insurance": {
@@ -33,55 +33,55 @@
       },
       {
         "year": 1,
-        "value": 343170,
+        "value": 422452,
         "confidence": "medium",
-        "data_points": 13
+        "data_points": 2
       },
       {
         "year": 2,
-        "value": 320710,
+        "value": 353307,
         "confidence": "medium",
-        "data_points": 10
+        "data_points": 3
       },
       {
         "year": 3,
-        "value": 287370,
-        "confidence": "medium",
-        "data_points": 22
+        "value": 325042,
+        "confidence": "adjusted",
+        "data_points": 4
       },
       {
         "year": 4,
-        "value": 278488,
+        "value": 292438,
         "confidence": "medium",
-        "data_points": 14
+        "data_points": 2
       },
       {
         "year": 5,
-        "value": 260121,
+        "value": 292438,
         "confidence": "medium",
-        "data_points": 15
+        "data_points": 2
       },
       {
         "year": 6,
-        "value": 246357,
+        "value": 236173,
         "confidence": "medium",
-        "data_points": 15
+        "data_points": 2
       },
       {
         "year": 7,
-        "value": 236220,
+        "value": 213807,
         "confidence": "medium",
-        "data_points": 22
+        "data_points": 3
       },
       {
         "year": 8,
-        "value": 217322,
-        "confidence": "adjusted",
+        "value": 213807,
+        "confidence": "medium",
         "data_points": 3
       },
       {
         "year": 9,
-        "value": 199936,
+        "value": 188150,
         "confidence": "estimated",
         "data_points": 0
       }

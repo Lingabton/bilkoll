@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-yaris-hybrid",
-  "calculated_at": "2026-05-04T11:07:44.846158+00:00",
+  "calculated_at": "2026-05-11T12:26:34.798559+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 185456,
-    "monthly_cost": 3864,
-    "cost_per_mil": 31,
+    "total_cost": 207532,
+    "monthly_cost": 4324,
+    "cost_per_mil": 35,
     "breakdown": {
-      "depreciation": 92180,
+      "depreciation": 114256,
       "fuel": 49950,
       "tax": 10636,
       "insurance": {
@@ -35,47 +35,47 @@
         "year": 1,
         "value": 257508,
         "confidence": "adjusted",
-        "data_points": 8
+        "data_points": 3
       },
       {
         "year": 2,
         "value": 236907,
         "confidence": "adjusted",
-        "data_points": 11
+        "data_points": 2
       },
       {
         "year": 3,
-        "value": 223107,
+        "value": 180048,
         "confidence": "medium",
         "data_points": 3
       },
       {
         "year": 4,
-        "value": 187720,
+        "value": 165644,
+        "confidence": "adjusted",
+        "data_points": 3
+      },
+      {
+        "year": 5,
+        "value": 152392,
+        "confidence": "adjusted",
+        "data_points": 3
+      },
+      {
+        "year": 6,
+        "value": 95278,
         "confidence": "medium",
         "data_points": 2
       },
       {
-        "year": 5,
-        "value": 172702,
-        "confidence": "adjusted",
-        "data_points": 5
-      },
-      {
-        "year": 6,
-        "value": 153310,
-        "confidence": "medium",
-        "data_points": 14
-      },
-      {
         "year": 7,
-        "value": 134912,
+        "value": 83844,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 118723,
+        "value": 73783,
         "confidence": "estimated",
         "data_points": 0
       }

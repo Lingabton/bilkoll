@@ -1,6 +1,6 @@
 {
   "model_id": "peugeot-e208",
-  "scraped_at": "2026-05-04T08:41:42.360249+00:00",
+  "scraped_at": "2026-05-11T09:31:46.803460+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -13,47 +13,37 @@
       "median_mileage_mil": 20250
     },
     "2023": {
-      "median_price": 325407,
-      "count": 1,
-      "total_on_page": 1,
+      "median_price": 264492,
+      "count": 2,
+      "total_on_page": 2,
       "price_type": "estimated_transaction"
     },
     "2022": {
-      "median_price": 182745,
-      "count": 37,
-      "total_on_page": 37,
+      "median_price": 350982,
+      "count": 4,
+      "total_on_page": 27,
       "price_type": "estimated_transaction",
-      "p5_price": 144150,
-      "p95_price": 357957,
-      "min_price": 116250,
+      "min_price": 325407,
       "max_price": 455174,
       "median_mileage_mil": 20220
     },
     "2021": {
-      "median_price": 171957,
-      "count": 20,
-      "total_on_page": 20,
+      "median_price": 297321,
+      "count": 2,
+      "total_on_page": 19,
       "price_type": "estimated_transaction",
-      "p5_price": 144057,
-      "p95_price": 344007,
-      "min_price": 134850,
-      "max_price": 344007,
       "median_mileage_mil": 20210
     },
     "2020": {
-      "median_price": 153357,
-      "count": 5,
+      "median_price": 148707,
+      "count": 2,
       "total_on_page": 5,
-      "price_type": "estimated_transaction",
-      "p5_price": 144057,
-      "p95_price": 165530,
-      "min_price": 144057,
-      "max_price": 165530
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 1,
+    "is_monotonic": false,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

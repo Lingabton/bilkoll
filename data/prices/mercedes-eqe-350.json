@@ -1,56 +1,46 @@
 {
   "model_id": "mercedes-eqe-350",
-  "scraped_at": "2026-05-04T10:34:40.215181+00:00",
+  "scraped_at": "2026-05-11T12:01:06.749370+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 710450,
-      "count": 20,
-      "total_on_page": 20,
+      "median_price": 813563,
+      "count": 2,
+      "total_on_page": 18,
       "price_type": "estimated_transaction",
-      "p5_price": 538470,
-      "p95_price": 835372,
-      "min_price": 529170,
-      "max_price": 835372,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 668670,
-      "count": 57,
-      "total_on_page": 56,
+      "median_price": 687270,
+      "count": 9,
+      "total_on_page": 53,
       "price_type": "estimated_transaction",
-      "p5_price": 446400,
-      "p95_price": 808170,
-      "min_price": 334800,
+      "p5_price": 436170,
+      "p95_price": 908331,
+      "min_price": 436170,
       "max_price": 908331,
-      "median_mileage_mil": 20240
+      "median_mileage_mil": 20241
     },
     "2023": {
-      "median_price": 506710,
-      "count": 12,
-      "total_on_page": 12,
-      "price_type": "estimated_transaction",
-      "p5_price": 464070,
-      "p95_price": 705870,
-      "min_price": 464070,
-      "max_price": 705870
+      "median_price": 464070,
+      "count": 2,
+      "total_on_page": 15,
+      "price_type": "estimated_transaction"
     },
     "2022": {
-      "median_price": 418960,
-      "count": 10,
-      "total_on_page": 10,
+      "median_price": 376650,
+      "count": 3,
+      "total_on_page": 7,
       "price_type": "estimated_transaction",
-      "p5_price": 306807,
-      "p95_price": 501270,
-      "min_price": 306807,
-      "max_price": 501270
+      "min_price": 316107,
+      "max_price": 455607
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 10,
-    "confidence": "medium"
+    "min_count_per_year": 2,
+    "confidence": "low"
   }
 }

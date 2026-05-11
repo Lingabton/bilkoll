@@ -1,65 +1,63 @@
 {
   "model_id": "skoda-enyaq-85",
-  "scraped_at": "2026-05-04T08:32:07.393036+00:00",
+  "scraped_at": "2026-05-11T09:18:09.947031+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 482670,
-      "count": 5,
+      "median_price": 384276,
+      "count": 3,
       "total_on_page": 5,
       "price_type": "estimated_transaction",
-      "p5_price": 371907,
-      "p95_price": 502107,
       "min_price": 371907,
       "max_price": 502107
     },
     "2024": {
-      "median_price": 464907,
-      "count": 38,
-      "total_on_page": 34,
+      "median_price": 497457,
+      "count": 5,
+      "total_on_page": 31,
       "price_type": "estimated_transaction",
-      "p5_price": 403620,
-      "p95_price": 511407,
-      "min_price": 250914,
-      "max_price": 539307
+      "p5_price": 488064,
+      "p95_price": 530007,
+      "min_price": 488064,
+      "max_price": 530007
     },
     "2023": {
-      "median_price": 348657,
-      "count": 49,
-      "total_on_page": 49,
+      "median_price": 394971,
+      "count": 6,
+      "total_on_page": 48,
       "price_type": "estimated_transaction",
-      "p5_price": 259470,
-      "p95_price": 445470,
-      "min_price": 232314,
+      "p5_price": 316107,
+      "p95_price": 669507,
+      "min_price": 316107,
       "max_price": 669507,
       "median_mileage_mil": 20230
     },
     "2022": {
-      "median_price": 311457,
-      "count": 53,
-      "total_on_page": 53,
+      "median_price": 288207,
+      "count": 5,
+      "total_on_page": 47,
       "price_type": "estimated_transaction",
-      "p5_price": 232407,
-      "p95_price": 380370,
-      "min_price": 162750,
-      "max_price": 390507
+      "p5_price": 260307,
+      "p95_price": 334707,
+      "min_price": 260307,
+      "max_price": 334707
     },
     "2021": {
-      "median_price": 260121,
-      "count": 43,
-      "total_on_page": 37,
+      "median_price": 237057,
+      "count": 6,
+      "total_on_page": 32,
       "price_type": "estimated_transaction",
-      "p5_price": 148707,
-      "p95_price": 343170,
+      "p5_price": 138570,
+      "p95_price": 483507,
       "min_price": 138570,
       "max_price": 483507
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 5,
+    "is_monotonic": false,
+    "min_count_per_year": 3,
     "confidence": "low"
   }
 }

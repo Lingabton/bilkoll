@@ -1,77 +1,73 @@
 {
   "model_id": "peugeot-2008-pt",
-  "scraped_at": "2026-05-04T10:26:29.875406+00:00",
+  "scraped_at": "2026-05-11T11:49:56.322176+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 251007,
-      "count": 47,
-      "total_on_page": 46,
+      "median_price": 273792,
+      "count": 8,
+      "total_on_page": 56,
       "price_type": "estimated_transaction",
-      "p5_price": 194835,
-      "p95_price": 297414,
-      "min_price": 194184,
-      "max_price": 302994,
+      "p5_price": 218457,
+      "p95_price": 302157,
+      "min_price": 218457,
+      "max_price": 302157,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 218364,
-      "count": 51,
-      "total_on_page": 51,
+      "median_price": 229896,
+      "count": 8,
+      "total_on_page": 52,
       "price_type": "estimated_transaction",
-      "p5_price": 182280,
-      "p95_price": 278907,
-      "min_price": 167307,
+      "p5_price": 185907,
+      "p95_price": 297507,
+      "min_price": 185907,
       "max_price": 297507,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 208785,
-      "count": 39,
-      "total_on_page": 37,
+      "median_price": 227757,
+      "count": 6,
+      "total_on_page": 41,
       "price_type": "estimated_transaction",
-      "p5_price": 185070,
-      "p95_price": 241707,
-      "min_price": 181071,
-      "max_price": 269607
+      "p5_price": 218457,
+      "p95_price": 269607,
+      "min_price": 218457,
+      "max_price": 269607,
+      "median_mileage_mil": 3000
     },
     "2022": {
-      "median_price": 176421,
-      "count": 32,
+      "median_price": 169632,
+      "count": 6,
       "total_on_page": 32,
       "price_type": "estimated_transaction",
-      "p5_price": 153357,
-      "p95_price": 331540,
-      "min_price": 134757,
-      "max_price": 362607,
-      "median_mileage_mil": 20220
+      "p5_price": 158007,
+      "p95_price": 362607,
+      "min_price": 158007,
+      "max_price": 362607
     },
     "2021": {
-      "median_price": 160285,
-      "count": 26,
-      "total_on_page": 26,
+      "median_price": 181257,
+      "count": 5,
+      "total_on_page": 27,
       "price_type": "estimated_transaction",
-      "p5_price": 148335,
-      "p95_price": 194835,
-      "min_price": 102207,
-      "max_price": 199857
+      "p5_price": 158007,
+      "p95_price": 185907,
+      "min_price": 158007,
+      "max_price": 185907
     },
     "2020": {
-      "median_price": 159913,
-      "count": 12,
-      "total_on_page": 12,
-      "price_type": "estimated_transaction",
-      "p5_price": 101370,
-      "p95_price": 185907,
-      "min_price": 101370,
-      "max_price": 185907
+      "median_price": 171957,
+      "count": 2,
+      "total_on_page": 9,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 12,
-    "confidence": "medium"
+    "is_monotonic": false,
+    "min_count_per_year": 2,
+    "confidence": "low"
   }
 }

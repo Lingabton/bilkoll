@@ -1,6 +1,6 @@
 {
   "model_id": "bmw-330e-phev",
-  "calculated_at": "2026-05-04T11:07:44.858792+00:00",
+  "calculated_at": "2026-05-11T12:26:34.814739+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 486284,
-    "monthly_cost": 10131,
-    "cost_per_mil": 81,
+    "total_cost": 106016,
+    "monthly_cost": 2209,
+    "cost_per_mil": 18,
     "breakdown": {
-      "depreciation": 380268,
+      "depreciation": 0,
       "fuel": 61050,
       "tax": 3376,
       "insurance": {
@@ -30,57 +30,9 @@
         "value": 549900,
         "confidence": "fixed",
         "data_points": 0
-      },
-      {
-        "year": 1,
-        "value": 169632,
-        "confidence": "medium",
-        "data_points": 168
-      },
-      {
-        "year": 2,
-        "value": 169632,
-        "confidence": "medium",
-        "data_points": 168
-      },
-      {
-        "year": 3,
-        "value": 169632,
-        "confidence": "medium",
-        "data_points": 168
-      },
-      {
-        "year": 4,
-        "value": 169632,
-        "confidence": "medium",
-        "data_points": 168
-      },
-      {
-        "year": 5,
-        "value": 169632,
-        "confidence": "medium",
-        "data_points": 168
-      },
-      {
-        "year": 6,
-        "value": 169632,
-        "confidence": "medium",
-        "data_points": 168
-      },
-      {
-        "year": 7,
-        "value": 169632,
-        "confidence": "medium",
-        "data_points": 168
-      },
-      {
-        "year": 8,
-        "value": 149276,
-        "confidence": "estimated",
-        "data_points": 0
       }
     ]
   },
-  "confidence": "high",
+  "confidence": "low",
   "data_quality_notes": []
 }

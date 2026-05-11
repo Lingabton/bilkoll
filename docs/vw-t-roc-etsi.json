@@ -1,6 +1,6 @@
 {
   "model_id": "vw-t-roc-etsi",
-  "calculated_at": "2026-05-04T11:07:44.853644+00:00",
+  "calculated_at": "2026-05-11T12:26:34.808050+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,60 +33,60 @@
       },
       {
         "year": 1,
-        "value": 292810,
+        "value": 315270,
         "confidence": "medium",
-        "data_points": 24
+        "data_points": 3
       },
       {
         "year": 2,
-        "value": 285417,
-        "confidence": "medium",
-        "data_points": 28
+        "value": 290048,
+        "confidence": "adjusted",
+        "data_points": 2
       },
       {
         "year": 3,
-        "value": 227664,
+        "value": 240870,
         "confidence": "medium",
-        "data_points": 45
+        "data_points": 7
       },
       {
         "year": 4,
         "value": 209157,
         "confidence": "medium",
-        "data_points": 63
+        "data_points": 8
       },
       {
         "year": 5,
-        "value": 195253,
-        "confidence": "medium",
-        "data_points": 24
+        "value": 192424,
+        "confidence": "adjusted",
+        "data_points": 6
       },
       {
         "year": 6,
-        "value": 179632,
+        "value": 177030,
         "confidence": "adjusted",
-        "data_points": 32
+        "data_points": 5
       },
       {
         "year": 7,
-        "value": 157077,
+        "value": 134757,
         "confidence": "medium",
-        "data_points": 19
+        "data_points": 1
       },
       {
         "year": 8,
-        "value": 144510,
+        "value": 123976,
         "confidence": "adjusted",
-        "data_points": 30
+        "data_points": 3
       },
       {
         "year": 9,
-        "value": 132949,
+        "value": 114057,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "low",
   "data_quality_notes": []
 }

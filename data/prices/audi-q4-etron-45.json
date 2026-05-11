@@ -1,65 +1,56 @@
 {
   "model_id": "audi-q4-etron-45",
-  "scraped_at": "2026-05-04T09:07:39.548914+00:00",
+  "scraped_at": "2026-05-11T10:08:08.622264+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 552838,
-      "count": 14,
-      "total_on_page": 14,
+      "median_price": 603570,
+      "count": 3,
+      "total_on_page": 10,
       "price_type": "estimated_transaction",
-      "p5_price": 502107,
-      "p95_price": 631470,
       "min_price": 502107,
-      "max_price": 631470,
-      "median_mileage_mil": 20250
+      "max_price": 603570
     },
     "2024": {
-      "median_price": 464070,
-      "count": 21,
-      "total_on_page": 21,
+      "median_price": 548607,
+      "count": 3,
+      "total_on_page": 23,
       "price_type": "estimated_transaction",
-      "p5_price": 390507,
-      "p95_price": 557070,
-      "min_price": 390507,
-      "max_price": 566370
+      "min_price": 446307,
+      "max_price": 549630
     },
     "2023": {
-      "median_price": 324570,
-      "count": 76,
-      "total_on_page": 76,
+      "median_price": 311038,
+      "count": 6,
+      "total_on_page": 64,
       "price_type": "estimated_transaction",
-      "p5_price": 264957,
-      "p95_price": 417570,
-      "min_price": 251007,
-      "max_price": 461187
+      "p5_price": 288207,
+      "p95_price": 483507,
+      "min_price": 288207,
+      "max_price": 483507
     },
     "2022": {
-      "median_price": 311038,
-      "count": 76,
-      "total_on_page": 76,
+      "median_price": 334707,
+      "count": 9,
+      "total_on_page": 53,
       "price_type": "estimated_transaction",
-      "p5_price": 240777,
-      "p95_price": 371070,
+      "p5_price": 213807,
+      "p95_price": 390507,
       "min_price": 213807,
-      "max_price": 409107
+      "max_price": 390507
     },
     "2021": {
-      "median_price": 273327,
-      "count": 8,
-      "total_on_page": 8,
-      "price_type": "estimated_transaction",
-      "p5_price": 241707,
-      "p95_price": 339357,
-      "min_price": 241707,
-      "max_price": 339357
+      "median_price": 305970,
+      "count": 1,
+      "total_on_page": 5,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 8,
+    "is_monotonic": false,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

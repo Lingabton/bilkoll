@@ -1,52 +1,40 @@
 {
   "model_id": "cupra-born-79",
-  "scraped_at": "2026-05-04T08:42:53.973653+00:00",
+  "scraped_at": "2026-05-11T09:33:31.824774+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 297507,
-      "count": 3,
-      "total_on_page": 3,
-      "price_type": "estimated_transaction",
-      "min_price": 296670,
-      "max_price": 334707
+      "median_price": 373743,
+      "count": 2,
+      "total_on_page": 4,
+      "price_type": "estimated_transaction"
     },
     "2024": {
-      "median_price": 251007,
-      "count": 17,
-      "total_on_page": 17,
-      "price_type": "estimated_transaction",
-      "p5_price": 237057,
-      "p95_price": 316107,
-      "min_price": 237057,
-      "max_price": 316107
+      "median_price": 280813,
+      "count": 2,
+      "total_on_page": 13,
+      "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 232407,
-      "count": 61,
-      "total_on_page": 61,
+      "median_price": 244032,
+      "count": 4,
+      "total_on_page": 43,
       "price_type": "estimated_transaction",
-      "p5_price": 212030,
-      "p95_price": 259470,
-      "min_price": 195114,
-      "max_price": 264957
+      "min_price": 232407,
+      "max_price": 269607
     },
     "2022": {
-      "median_price": 220400,
-      "count": 19,
-      "total_on_page": 19,
-      "price_type": "estimated_transaction",
-      "p5_price": 185814,
-      "p95_price": 260307,
-      "min_price": 185814,
-      "max_price": 260307
+      "median_price": 241707,
+      "count": 2,
+      "total_on_page": 9,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 3,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

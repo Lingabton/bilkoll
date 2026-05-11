@@ -1,6 +1,6 @@
 {
   "model_id": "kia-ev6-lr",
-  "calculated_at": "2026-05-04T11:07:44.840588+00:00",
+  "calculated_at": "2026-05-11T12:26:34.791391+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 295338,
-    "monthly_cost": 6153,
-    "cost_per_mil": 49,
+    "total_cost": 299839,
+    "monthly_cost": 6247,
+    "cost_per_mil": 50,
     "breakdown": {
-      "depreciation": 234640,
+      "depreciation": 239141,
       "fuel": 18468,
       "tax": 1440,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 538377,
+        "value": 530007,
         "confidence": "medium",
-        "data_points": 107
+        "data_points": 14
       },
       {
         "year": 2,
-        "value": 483414,
+        "value": 492388,
         "confidence": "medium",
-        "data_points": 72
+        "data_points": 8
       },
       {
         "year": 3,
-        "value": 398970,
+        "value": 390507,
         "confidence": "medium",
-        "data_points": 62
+        "data_points": 6
       },
       {
         "year": 4,
-        "value": 361760,
+        "value": 357259,
         "confidence": "medium",
-        "data_points": 123
+        "data_points": 14
       },
       {
         "year": 5,
-        "value": 318348,
+        "value": 314387,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 280146,
+        "value": 276661,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 246529,
+        "value": 243462,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 216945,
+        "value": 214246,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "high",
+  "confidence": "low",
   "data_quality_notes": []
 }

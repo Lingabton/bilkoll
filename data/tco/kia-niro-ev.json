@@ -1,6 +1,6 @@
 {
   "model_id": "kia-niro-ev",
-  "calculated_at": "2026-05-04T11:07:44.840858+00:00",
+  "calculated_at": "2026-05-11T12:26:34.791761+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 394894,
-    "monthly_cost": 8227,
-    "cost_per_mil": 66,
+    "total_cost": 339756,
+    "monthly_cost": 7078,
+    "cost_per_mil": 57,
     "breakdown": {
-      "depreciation": 339446,
+      "depreciation": 284308,
       "fuel": 18468,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 245356,
+        "value": 316164,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 2,
-        "value": 225727,
+        "value": 290870,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 3,
+        "value": 267600,
         "confidence": "adjusted",
         "data_points": 1
       },
       {
-        "year": 3,
-        "value": 207668,
-        "confidence": "adjusted",
-        "data_points": 15
-      },
-      {
         "year": 4,
-        "value": 191054,
+        "value": 246192,
         "confidence": "adjusted",
-        "data_points": 4
+        "data_points": 3
       },
       {
         "year": 5,
-        "value": 175769,
-        "confidence": "adjusted",
+        "value": 223107,
+        "confidence": "medium",
         "data_points": 1
       },
       {
         "year": 6,
-        "value": 161707,
-        "confidence": "adjusted",
-        "data_points": 1
+        "value": 213388,
+        "confidence": "medium",
+        "data_points": 2
       },
       {
         "year": 7,
-        "value": 148770,
-        "confidence": "adjusted",
-        "data_points": 1
+        "value": 187781,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 8,
-        "value": 136868,
+        "value": 165247,
         "confidence": "estimated",
         "data_points": 0
       }
