@@ -1,19 +1,19 @@
 {
   "model_id": "tesla-model-y-lr",
-  "scraped_at": "2026-05-11T08:48:52.919692+00:00",
+  "scraped_at": "2026-05-18T09:10:04.325879+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 510570,
-      "count": 1,
-      "total_on_page": 5,
+      "median_price": 497038,
+      "count": 2,
+      "total_on_page": 4,
       "price_type": "estimated_transaction"
     },
     "2024": {
-      "median_price": 358050,
-      "count": 3,
+      "median_price": 362700,
+      "count": 4,
       "total_on_page": 46,
       "price_type": "estimated_transaction",
       "min_price": 279000,
@@ -30,9 +30,9 @@
       "max_price": 623007
     },
     "2022": {
-      "median_price": 339440,
+      "median_price": 356645,
       "count": 6,
-      "total_on_page": 74,
+      "total_on_page": 72,
       "price_type": "estimated_transaction",
       "p5_price": 324570,
       "p95_price": 609150,
@@ -50,7 +50,7 @@
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 1,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

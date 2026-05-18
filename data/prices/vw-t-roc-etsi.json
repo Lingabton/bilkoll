@@ -1,17 +1,17 @@
 {
   "model_id": "vw-t-roc-etsi",
-  "scraped_at": "2026-05-11T11:10:24.724603+00:00",
+  "scraped_at": "2026-05-18T11:32:36.124775+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 315270,
+      "median_price": 306807,
       "count": 3,
       "total_on_page": 25,
       "price_type": "estimated_transaction",
-      "min_price": 306807,
-      "max_price": 427707
+      "min_price": 302157,
+      "max_price": 315270
     },
     "2024": {
       "median_price": 377022,
@@ -21,13 +21,13 @@
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 240870,
+      "median_price": 213807,
       "count": 7,
-      "total_on_page": 55,
+      "total_on_page": 59,
       "price_type": "estimated_transaction",
-      "p5_price": 176607,
+      "p5_price": 199857,
       "p95_price": 279000,
-      "min_price": 176607,
+      "min_price": 199857,
       "max_price": 279000
     },
     "2022": {

@@ -1,6 +1,6 @@
 {
   "model_id": "tesla-model-y-lr",
-  "calculated_at": "2026-05-11T12:26:34.790321+00:00",
+  "calculated_at": "2026-05-18T12:49:43.734681+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 441207,
-    "monthly_cost": 9192,
-    "cost_per_mil": 74,
+    "total_cost": 437271,
+    "monthly_cost": 9110,
+    "cost_per_mil": 73,
     "breakdown": {
-      "depreciation": 346937,
+      "depreciation": 343001,
       "fuel": 19440,
       "tax": 1440,
       "insurance": {
@@ -33,25 +33,25 @@
       },
       {
         "year": 1,
-        "value": 510570,
+        "value": 497038,
         "confidence": "medium",
-        "data_points": 1
+        "data_points": 2
       },
       {
         "year": 2,
-        "value": 358050,
+        "value": 362700,
         "confidence": "medium",
-        "data_points": 3
+        "data_points": 4
       },
       {
         "year": 3,
-        "value": 329406,
+        "value": 333684,
         "confidence": "adjusted",
         "data_points": 10
       },
       {
         "year": 4,
-        "value": 303053,
+        "value": 306989,
         "confidence": "adjusted",
         "data_points": 6
       },

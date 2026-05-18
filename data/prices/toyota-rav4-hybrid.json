@@ -1,46 +1,48 @@
 {
   "model_id": "toyota-rav4-hybrid",
-  "scraped_at": "2026-05-11T09:12:21.077848+00:00",
+  "scraped_at": "2026-05-18T09:33:59.793939+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 520707,
+      "median_price": 543957,
       "count": 5,
-      "total_on_page": 27,
+      "total_on_page": 26,
       "price_type": "estimated_transaction",
-      "p5_price": 501270,
+      "p5_price": 511407,
       "p95_price": 557907,
-      "min_price": 501270,
+      "min_price": 511407,
       "max_price": 557907
     },
     "2024": {
-      "median_price": 483460,
+      "median_price": 502107,
       "count": 2,
-      "total_on_page": 12,
+      "total_on_page": 9,
       "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 422592,
-      "count": 6,
-      "total_on_page": 41,
+      "median_price": 427614,
+      "count": 5,
+      "total_on_page": 37,
       "price_type": "estimated_transaction",
-      "p5_price": 381207,
-      "p95_price": 520707,
-      "min_price": 381207,
-      "max_price": 520707
+      "p5_price": 389670,
+      "p95_price": 446307,
+      "min_price": 389670,
+      "max_price": 446307
     },
     "2022": {
-      "median_price": 332382,
-      "count": 2,
-      "total_on_page": 23,
-      "price_type": "estimated_transaction"
+      "median_price": 345913,
+      "count": 4,
+      "total_on_page": 26,
+      "price_type": "estimated_transaction",
+      "min_price": 297507,
+      "max_price": 440810
     },
     "2021": {
-      "median_price": 315921,
-      "count": 9,
-      "total_on_page": 53,
+      "median_price": 316107,
+      "count": 7,
+      "total_on_page": 58,
       "price_type": "estimated_transaction",
       "p5_price": 182280,
       "p95_price": 427707,
@@ -48,9 +50,9 @@
       "max_price": 427707
     },
     "2020": {
-      "median_price": 343960,
+      "median_price": 315642,
       "count": 2,
-      "total_on_page": 15,
+      "total_on_page": 14,
       "price_type": "estimated_transaction"
     },
     "2019": {
@@ -61,7 +63,7 @@
     }
   },
   "validation": {
-    "is_monotonic": false,
+    "is_monotonic": true,
     "min_count_per_year": 2,
     "confidence": "low"
   }

@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc40-recharge",
-  "calculated_at": "2026-05-11T12:26:34.790693+00:00",
+  "calculated_at": "2026-05-18T12:49:43.735038+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 361901,
-    "monthly_cost": 7540,
-    "cost_per_mil": 60,
+    "total_cost": 387980,
+    "monthly_cost": 8083,
+    "cost_per_mil": 65,
     "breakdown": {
-      "depreciation": 300115,
+      "depreciation": 326194,
       "fuel": 22356,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 368198,
+        "value": 345692,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 2,
-        "value": 338742,
+        "value": 318036,
         "confidence": "adjusted",
-        "data_points": 3
+        "data_points": 6
       },
       {
         "year": 3,
-        "value": 302157,
+        "value": 297507,
         "confidence": "medium",
         "data_points": 25
       },
       {
         "year": 4,
-        "value": 299785,
-        "confidence": "medium",
-        "data_points": 24
+        "value": 273706,
+        "confidence": "adjusted",
+        "data_points": 25
       },
       {
         "year": 5,
-        "value": 275802,
+        "value": 251809,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 6,
-        "value": 253737,
+        "value": 231664,
         "confidence": "adjusted",
         "data_points": 3
       },
       {
         "year": 7,
-        "value": 233438,
+        "value": 213130,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 214762,
+        "value": 196079,
         "confidence": "estimated",
         "data_points": 0
       }

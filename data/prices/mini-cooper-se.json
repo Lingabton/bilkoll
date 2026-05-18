@@ -1,12 +1,12 @@
 {
   "model_id": "mini-cooper-se",
-  "scraped_at": "2026-05-11T10:39:33.698756+00:00",
+  "scraped_at": "2026-05-18T11:02:01.897273+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 364885,
+      "median_price": 423940,
       "count": 2,
       "total_on_page": 9,
       "price_type": "estimated_transaction",

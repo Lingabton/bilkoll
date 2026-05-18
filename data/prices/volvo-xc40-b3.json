@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc40-b3",
-  "scraped_at": "2026-05-11T10:14:13.537361+00:00",
+  "scraped_at": "2026-05-18T10:36:22.054176+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -43,13 +43,13 @@
       "max_price": 371907
     },
     "2021": {
-      "median_price": 288253,
+      "median_price": 289183,
       "count": 18,
-      "total_on_page": 150,
+      "total_on_page": 145,
       "price_type": "estimated_transaction",
-      "p5_price": 185070,
+      "p5_price": 230175,
       "p95_price": 325407,
-      "min_price": 185070,
+      "min_price": 230175,
       "max_price": 325407
     },
     "2020": {
@@ -63,26 +63,26 @@
       "max_price": 352470
     },
     "2019": {
-      "median_price": 278907,
+      "median_price": 250170,
       "count": 5,
-      "total_on_page": 39,
+      "total_on_page": 41,
       "price_type": "estimated_transaction",
-      "p5_price": 239847,
+      "p5_price": 195021,
       "p95_price": 288207,
-      "min_price": 239847,
+      "min_price": 195021,
       "max_price": 288207
     },
     "2018": {
-      "median_price": 323547,
+      "median_price": 209157,
       "count": 3,
       "total_on_page": 25,
       "price_type": "estimated_transaction",
       "min_price": 195207,
-      "max_price": 324477
+      "max_price": 323547
     }
   },
   "validation": {
-    "is_monotonic": false,
+    "is_monotonic": true,
     "min_count_per_year": 2,
     "confidence": "low"
   }

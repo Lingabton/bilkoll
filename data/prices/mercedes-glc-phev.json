@@ -1,6 +1,6 @@
 {
   "model_id": "mercedes-glc-phev",
-  "scraped_at": "2026-05-11T12:04:24.367310+00:00",
+  "scraped_at": "2026-05-18T12:26:59.334649+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -12,29 +12,29 @@
       "price_type": "estimated_transaction"
     },
     "2024": {
-      "median_price": 538888,
-      "count": 2,
-      "total_on_page": 2,
+      "median_price": 502107,
+      "count": 1,
+      "total_on_page": 1,
       "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 464907,
-      "count": 2,
-      "total_on_page": 9,
-      "price_type": "estimated_transaction"
+      "median_price": 483600,
+      "count": 3,
+      "total_on_page": 10,
+      "price_type": "estimated_transaction",
+      "min_price": 464907,
+      "max_price": 501270
     },
     "2022": {
-      "median_price": 464814,
-      "count": 3,
+      "median_price": 440820,
+      "count": 2,
       "total_on_page": 4,
-      "price_type": "estimated_transaction",
-      "min_price": 408270,
-      "max_price": 511407
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 2,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

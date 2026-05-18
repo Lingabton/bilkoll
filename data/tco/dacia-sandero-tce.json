@@ -1,6 +1,6 @@
 {
   "model_id": "dacia-sandero-tce",
-  "calculated_at": "2026-05-11T12:26:34.811804+00:00",
+  "calculated_at": "2026-05-18T12:49:43.759547+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -45,9 +45,9 @@
       },
       {
         "year": 3,
-        "value": 141732,
+        "value": 153357,
         "confidence": "medium",
-        "data_points": 8
+        "data_points": 9
       },
       {
         "year": 4,
