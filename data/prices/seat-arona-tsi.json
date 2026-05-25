@@ -1,6 +1,6 @@
 {
   "model_id": "seat-arona-tsi",
-  "scraped_at": "2026-05-18T12:39:46.636598+00:00",
+  "scraped_at": "2026-05-25T12:50:36.283856+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -8,7 +8,7 @@
     "2025": {
       "median_price": 264957,
       "count": 3,
-      "total_on_page": 13,
+      "total_on_page": 12,
       "price_type": "estimated_transaction",
       "min_price": 223107,
       "max_price": 264957,
@@ -17,57 +17,57 @@
     "2024": {
       "median_price": 218457,
       "count": 2,
-      "total_on_page": 20,
+      "total_on_page": 18,
       "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 157821,
-      "count": 4,
+      "median_price": 176607,
+      "count": 5,
       "total_on_page": 45,
       "price_type": "estimated_transaction",
-      "min_price": 139407,
+      "p5_price": 158007,
+      "p95_price": 209250,
+      "min_price": 158007,
       "max_price": 209250
     },
     "2022": {
-      "median_price": 183117,
-      "count": 6,
-      "total_on_page": 29,
+      "median_price": 185814,
+      "count": 3,
+      "total_on_page": 25,
       "price_type": "estimated_transaction",
-      "p5_price": 167307,
-      "p95_price": 185907,
-      "min_price": 167307,
+      "min_price": 180420,
       "max_price": 185907
     },
     "2021": {
-      "median_price": 138570,
-      "count": 1,
-      "total_on_page": 11,
+      "median_price": 145963,
+      "count": 2,
+      "total_on_page": 14,
       "price_type": "estimated_transaction"
     },
     "2020": {
-      "median_price": 162657,
-      "count": 1,
-      "total_on_page": 11,
-      "price_type": "estimated_transaction"
+      "median_price": 148707,
+      "count": 3,
+      "total_on_page": 10,
+      "price_type": "estimated_transaction",
+      "min_price": 134757,
+      "max_price": 158007
     },
     "2019": {
-      "median_price": 155682,
+      "median_price": 139407,
       "count": 2,
-      "total_on_page": 12,
+      "total_on_page": 15,
       "price_type": "estimated_transaction"
     },
     "2018": {
-      "median_price": 138570,
-      "count": 3,
-      "total_on_page": 13,
-      "price_type": "estimated_transaction",
-      "min_price": 125457,
-      "max_price": 147870
+      "median_price": 132013,
+      "count": 2,
+      "total_on_page": 9,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 1,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

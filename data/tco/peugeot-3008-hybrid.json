@@ -1,6 +1,6 @@
 {
   "model_id": "peugeot-3008-hybrid",
-  "calculated_at": "2026-05-18T12:49:43.759934+00:00",
+  "calculated_at": "2026-05-25T13:00:30.368465+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 307958,
-    "monthly_cost": 6416,
-    "cost_per_mil": 51,
+    "total_cost": 315160,
+    "monthly_cost": 6566,
+    "cost_per_mil": 53,
     "breakdown": {
-      "depreciation": 185521,
+      "depreciation": 192723,
       "fuel": 61050,
       "tax": 19897,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 376557,
+        "value": 367210,
         "confidence": "medium",
         "data_points": 8
       },
       {
         "year": 2,
-        "value": 251007,
+        "value": 241707,
         "confidence": "medium",
         "data_points": 9
       },
       {
         "year": 3,
-        "value": 220886,
+        "value": 212702,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 194379,
+        "value": 187177,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 171054,
+        "value": 164716,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 150527,
+        "value": 144950,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 132464,
+        "value": 127556,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 116568,
+        "value": 112249,
         "confidence": "estimated",
         "data_points": 0
       }

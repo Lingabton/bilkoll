@@ -1,6 +1,6 @@
 {
   "model_id": "mazda-cx5-mhev",
-  "calculated_at": "2026-05-18T12:49:43.751528+00:00",
+  "calculated_at": "2026-05-25T13:00:30.359931+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 347417,
-    "monthly_cost": 7238,
-    "cost_per_mil": 58,
+    "total_cost": 240967,
+    "monthly_cost": 5020,
+    "cost_per_mil": 40,
     "breakdown": {
-      "depreciation": 188883,
+      "depreciation": 82433,
       "fuel": 79920,
       "tax": 36124,
       "insurance": {
@@ -33,50 +33,50 @@
       },
       {
         "year": 1,
-        "value": 232466,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 340308,
+        "confidence": "adjusted",
+        "data_points": 1
       },
       {
         "year": 2,
-        "value": 213868,
+        "value": 327278,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 3,
-        "value": 196758,
+        "value": 312465,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 181017,
+        "value": 287467,
         "confidence": "adjusted",
-        "data_points": 3
+        "data_points": 2
       },
       {
         "year": 5,
-        "value": 166535,
+        "value": 264469,
+        "confidence": "adjusted",
+        "data_points": 2
+      },
+      {
+        "year": 6,
+        "value": 243311,
         "confidence": "adjusted",
         "data_points": 3
       },
       {
-        "year": 6,
-        "value": 153212,
-        "confidence": "adjusted",
-        "data_points": 1
-      },
-      {
         "year": 7,
-        "value": 140955,
+        "value": 223846,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 8,
-        "value": 129678,
-        "confidence": "adjusted",
+        "value": 211482,
+        "confidence": "medium",
         "data_points": 2
       }
     ]

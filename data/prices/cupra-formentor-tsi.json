@@ -1,57 +1,63 @@
 {
   "model_id": "cupra-formentor-tsi",
-  "scraped_at": "2026-05-18T10:52:06.829483+00:00",
+  "scraped_at": "2026-05-25T11:02:34.125027+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 441052,
-      "count": 6,
-      "total_on_page": 29,
+      "median_price": 408921,
+      "count": 4,
+      "total_on_page": 26,
       "price_type": "estimated_transaction",
-      "p5_price": 352935,
-      "p95_price": 568695,
       "min_price": 352935,
       "max_price": 568695,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 255657,
+      "median_price": 288021,
       "count": 5,
-      "total_on_page": 47,
+      "total_on_page": 43,
       "price_type": "estimated_transaction",
-      "p5_price": 176700,
-      "p95_price": 358050,
-      "min_price": 176700,
-      "max_price": 358050
+      "p5_price": 240870,
+      "p95_price": 502107,
+      "min_price": 240870,
+      "max_price": 502107
     },
     "2023": {
-      "median_price": 299832,
-      "count": 6,
-      "total_on_page": 27,
+      "median_price": 288207,
+      "count": 5,
+      "total_on_page": 33,
       "price_type": "estimated_transaction",
       "p5_price": 241707,
-      "p95_price": 483507,
+      "p95_price": 460257,
       "min_price": 241707,
-      "max_price": 483507
+      "max_price": 460257
     },
     "2022": {
-      "median_price": 241288,
+      "median_price": 234313,
       "count": 2,
-      "total_on_page": 18,
+      "total_on_page": 14,
       "price_type": "estimated_transaction"
     },
     "2021": {
-      "median_price": 254355,
-      "count": 2,
-      "total_on_page": 18,
+      "median_price": 311550,
+      "count": 3,
+      "total_on_page": 19,
+      "price_type": "estimated_transaction",
+      "min_price": 240870,
+      "max_price": 334707
+    },
+    "2020": {
+      "median_price": 334707,
+      "count": 1,
+      "total_on_page": 1,
       "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 2,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

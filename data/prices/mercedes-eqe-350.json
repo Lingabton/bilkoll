@@ -1,41 +1,41 @@
 {
   "model_id": "mercedes-eqe-350",
-  "scraped_at": "2026-05-18T12:23:37.660580+00:00",
+  "scraped_at": "2026-05-25T12:34:13.307989+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 813563,
-      "count": 2,
-      "total_on_page": 18,
+      "median_price": 791755,
+      "count": 3,
+      "total_on_page": 16,
       "price_type": "estimated_transaction",
+      "min_price": 766738,
+      "max_price": 835372,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 687270,
-      "count": 9,
-      "total_on_page": 53,
+      "median_price": 704103,
+      "count": 6,
+      "total_on_page": 49,
       "price_type": "estimated_transaction",
-      "p5_price": 436170,
-      "p95_price": 908331,
-      "min_price": 436170,
-      "max_price": 908331,
+      "p5_price": 446400,
+      "p95_price": 808635,
+      "min_price": 446400,
+      "max_price": 808635,
       "median_mileage_mil": 20241
     },
     "2023": {
       "median_price": 464070,
       "count": 2,
-      "total_on_page": 14,
+      "total_on_page": 15,
       "price_type": "estimated_transaction"
     },
     "2022": {
-      "median_price": 376650,
-      "count": 3,
-      "total_on_page": 7,
-      "price_type": "estimated_transaction",
-      "min_price": 316107,
-      "max_price": 455607
+      "median_price": 450538,
+      "count": 2,
+      "total_on_page": 6,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {

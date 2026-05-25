@@ -1,6 +1,6 @@
 {
   "model_id": "peugeot-5008-hybrid",
-  "scraped_at": "2026-05-18T11:38:20.789553+00:00",
+  "scraped_at": "2026-05-25T11:50:03.501479+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -10,22 +10,22 @@
       "count": 13,
       "total_on_page": 110,
       "price_type": "estimated_transaction",
-      "p5_price": 297507,
-      "p95_price": 502014,
-      "min_price": 297507,
-      "max_price": 502014,
+      "p5_price": 344007,
+      "p95_price": 510105,
+      "min_price": 344007,
+      "max_price": 510105,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 297507,
-      "count": 13,
-      "total_on_page": 115,
+      "median_price": 292857,
+      "count": 15,
+      "total_on_page": 113,
       "price_type": "estimated_transaction",
       "p5_price": 288207,
-      "p95_price": 353307,
+      "p95_price": 427614,
       "min_price": 288207,
-      "max_price": 353307,
-      "median_mileage_mil": 3000
+      "max_price": 427614,
+      "median_mileage_mil": 11620
     }
   },
   "validation": {

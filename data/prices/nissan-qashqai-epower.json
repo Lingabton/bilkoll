@@ -1,54 +1,54 @@
 {
   "model_id": "nissan-qashqai-epower",
-  "scraped_at": "2026-05-18T12:36:16.298310+00:00",
+  "scraped_at": "2026-05-25T12:47:13.468859+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 348936,
-      "count": 9,
+      "median_price": 336055,
+      "count": 10,
       "total_on_page": 86,
       "price_type": "estimated_transaction",
       "p5_price": 226920,
-      "p95_price": 388368,
+      "p95_price": 378603,
       "min_price": 226920,
-      "max_price": 388368,
+      "max_price": 378603,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 348099,
+      "median_price": 334916,
       "count": 7,
-      "total_on_page": 64,
+      "total_on_page": 61,
       "price_type": "estimated_transaction",
-      "p5_price": 297507,
-      "p95_price": 382695,
-      "min_price": 297507,
-      "max_price": 382695,
+      "p5_price": 278070,
+      "p95_price": 378508,
+      "min_price": 278070,
+      "max_price": 378508,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 278070,
+      "median_price": 278907,
+      "count": 5,
+      "total_on_page": 44,
+      "price_type": "estimated_transaction",
+      "p5_price": 264957,
+      "p95_price": 305970,
+      "min_price": 264957,
+      "max_price": 305970
+    },
+    "2022": {
+      "median_price": 264864,
       "count": 5,
       "total_on_page": 45,
       "price_type": "estimated_transaction",
-      "p5_price": 264957,
-      "p95_price": 314991,
-      "min_price": 264957,
-      "max_price": 314991
-    },
-    "2022": {
-      "median_price": 260121,
-      "count": 6,
-      "total_on_page": 44,
-      "price_type": "estimated_transaction",
-      "p5_price": 212877,
-      "p95_price": 315270,
-      "min_price": 212877,
-      "max_price": 315270
+      "p5_price": 246357,
+      "p95_price": 273327,
+      "min_price": 246357,
+      "max_price": 273327
     },
     "2021": {
-      "median_price": 268444,
+      "median_price": 286114,
       "count": 2,
       "total_on_page": 18,
       "price_type": "estimated_transaction"

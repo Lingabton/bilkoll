@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc40-b3",
-  "calculated_at": "2026-05-18T12:49:43.746955+00:00",
+  "calculated_at": "2026-05-25T13:00:30.356348+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 278882,
-    "monthly_cost": 5810,
+    "total_cost": 278045,
+    "monthly_cost": 5793,
     "cost_per_mil": 46,
     "breakdown": {
-      "depreciation": 123930,
+      "depreciation": 123093,
       "fuel": 75480,
       "tax": 28182,
       "insurance": {
@@ -35,53 +35,53 @@
         "year": 1,
         "value": 395508,
         "confidence": "adjusted",
-        "data_points": 2
+        "data_points": 3
       },
       {
         "year": 2,
-        "value": 355260,
+        "value": 361770,
         "confidence": "medium",
-        "data_points": 6
+        "data_points": 5
       },
       {
         "year": 3,
-        "value": 344007,
+        "value": 361677,
         "confidence": "medium",
-        "data_points": 11
+        "data_points": 10
       },
       {
         "year": 4,
-        "value": 305970,
+        "value": 306807,
         "confidence": "medium",
         "data_points": 11
       },
       {
         "year": 5,
-        "value": 289183,
+        "value": 267747,
         "confidence": "medium",
         "data_points": 18
       },
       {
         "year": 6,
-        "value": 257982,
+        "value": 255238,
         "confidence": "medium",
         "data_points": 10
       },
       {
         "year": 7,
-        "value": 250170,
-        "confidence": "medium",
+        "value": 234818,
+        "confidence": "adjusted",
         "data_points": 5
       },
       {
         "year": 8,
-        "value": 209157,
+        "value": 195207,
         "confidence": "medium",
         "data_points": 3
       },
       {
         "year": 9,
-        "value": 184058,
+        "value": 171782,
         "confidence": "estimated",
         "data_points": 0
       }

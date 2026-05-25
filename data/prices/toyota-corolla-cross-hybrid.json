@@ -1,55 +1,53 @@
 {
   "model_id": "toyota-corolla-cross-hybrid",
-  "scraped_at": "2026-05-18T11:41:27.661562+00:00",
+  "scraped_at": "2026-05-25T11:52:46.706084+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 353307,
-      "count": 8,
-      "total_on_page": 61,
+      "median_price": 362607,
+      "count": 9,
+      "total_on_page": 63,
       "price_type": "estimated_transaction",
-      "p5_price": 335637,
-      "p95_price": 408270,
-      "min_price": 335637,
-      "max_price": 408270,
-      "median_mileage_mil": 20250
+      "p5_price": 353307,
+      "p95_price": 445470,
+      "min_price": 353307,
+      "max_price": 445470,
+      "median_mileage_mil": 20251
     },
     "2024": {
-      "median_price": 343588,
-      "count": 8,
-      "total_on_page": 56,
+      "median_price": 334707,
+      "count": 6,
+      "total_on_page": 48,
       "price_type": "estimated_transaction",
-      "p5_price": 316107,
-      "p95_price": 367257,
-      "min_price": 316107,
-      "max_price": 367257
+      "p5_price": 241707,
+      "p95_price": 362607,
+      "min_price": 241707,
+      "max_price": 362607
     },
     "2023": {
-      "median_price": 343635,
-      "count": 9,
-      "total_on_page": 50,
+      "median_price": 325035,
+      "count": 3,
+      "total_on_page": 46,
       "price_type": "estimated_transaction",
-      "p5_price": 213807,
-      "p95_price": 371907,
-      "min_price": 213807,
-      "max_price": 371907
+      "min_price": 306807,
+      "max_price": 352470
     },
     "2022": {
       "median_price": 325407,
-      "count": 9,
-      "total_on_page": 68,
+      "count": 7,
+      "total_on_page": 65,
       "price_type": "estimated_transaction",
-      "p5_price": 306807,
+      "p5_price": 314340,
       "p95_price": 362607,
-      "min_price": 306807,
+      "min_price": 314340,
       "max_price": 362607
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 8,
+    "min_count_per_year": 3,
     "confidence": "low"
   }
 }

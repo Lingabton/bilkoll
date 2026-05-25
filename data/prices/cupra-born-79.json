@@ -1,40 +1,42 @@
 {
   "model_id": "cupra-born-79",
-  "scraped_at": "2026-05-18T09:55:09.465002+00:00",
+  "scraped_at": "2026-05-25T10:05:34.855740+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 373743,
-      "count": 2,
-      "total_on_page": 4,
+      "median_price": 297507,
+      "count": 1,
+      "total_on_page": 1,
       "price_type": "estimated_transaction"
     },
     "2024": {
-      "median_price": 280813,
-      "count": 2,
-      "total_on_page": 13,
-      "price_type": "estimated_transaction"
-    },
-    "2023": {
-      "median_price": 244032,
-      "count": 4,
-      "total_on_page": 43,
+      "median_price": 260307,
+      "count": 3,
+      "total_on_page": 7,
       "price_type": "estimated_transaction",
-      "min_price": 232407,
+      "min_price": 237057,
       "max_price": 269607
     },
-    "2022": {
+    "2023": {
       "median_price": 241707,
+      "count": 3,
+      "total_on_page": 30,
+      "price_type": "estimated_transaction",
+      "min_price": 232407,
+      "max_price": 241707
+    },
+    "2022": {
+      "median_price": 267323,
       "count": 2,
-      "total_on_page": 9,
+      "total_on_page": 14,
       "price_type": "estimated_transaction"
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 2,
+    "is_monotonic": false,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

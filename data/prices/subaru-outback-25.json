@@ -1,62 +1,63 @@
 {
   "model_id": "subaru-outback-25",
-  "scraped_at": "2026-05-18T11:36:04.028048+00:00",
+  "scraped_at": "2026-05-25T11:47:44.957578+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 437007,
+      "median_price": 441657,
       "count": 20,
-      "total_on_page": 149,
+      "total_on_page": 159,
       "price_type": "estimated_transaction",
-      "p5_price": 404271,
-      "p95_price": 448074,
-      "min_price": 385857,
-      "max_price": 448074,
+      "p5_price": 413757,
+      "p95_price": 491571,
+      "min_price": 404271,
+      "max_price": 491571,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 441657,
+      "median_price": 422964,
       "count": 5,
-      "total_on_page": 27,
+      "total_on_page": 47,
       "price_type": "estimated_transaction",
-      "p5_price": 385857,
-      "p95_price": 464721,
-      "min_price": 385857,
-      "max_price": 464721,
+      "p5_price": 399807,
+      "p95_price": 443424,
+      "min_price": 399807,
+      "max_price": 443424,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 334707,
-      "count": 7,
-      "total_on_page": 41,
+      "median_price": 349912,
+      "count": 6,
+      "total_on_page": 50,
       "price_type": "estimated_transaction",
-      "p5_price": 260307,
-      "p95_price": 409107,
-      "min_price": 260307,
-      "max_price": 409107
+      "p5_price": 251007,
+      "p95_price": 443424,
+      "min_price": 251007,
+      "max_price": 443424,
+      "median_mileage_mil": 20230
     },
     "2022": {
-      "median_price": 352888,
-      "count": 4,
-      "total_on_page": 30,
+      "median_price": 352935,
+      "count": 5,
+      "total_on_page": 42,
       "price_type": "estimated_transaction",
-      "min_price": 333870,
+      "p5_price": 306807,
+      "p95_price": 409107,
+      "min_price": 306807,
       "max_price": 409107
     },
     "2021": {
-      "median_price": 344007,
-      "count": 3,
-      "total_on_page": 13,
-      "price_type": "estimated_transaction",
-      "min_price": 344007,
-      "max_price": 352470
+      "median_price": 324988,
+      "count": 2,
+      "total_on_page": 18,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 3,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

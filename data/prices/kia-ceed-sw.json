@@ -1,68 +1,70 @@
 {
   "model_id": "kia-ceed-sw",
-  "scraped_at": "2026-05-18T11:22:52.506490+00:00",
+  "scraped_at": "2026-05-25T11:34:24.372532+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 253239,
+      "median_price": 250542,
       "count": 2,
       "total_on_page": 2,
       "price_type": "estimated_transaction"
     },
     "2024": {
-      "median_price": 274164,
+      "median_price": 274350,
       "count": 3,
-      "total_on_page": 4,
+      "total_on_page": 3,
       "price_type": "estimated_transaction",
-      "min_price": 222177,
-      "max_price": 274350
+      "min_price": 274164,
+      "max_price": 302157
     },
     "2023": {
-      "median_price": 264957,
+      "median_price": 292857,
       "count": 3,
-      "total_on_page": 12,
+      "total_on_page": 13,
       "price_type": "estimated_transaction",
-      "min_price": 241707,
+      "min_price": 269607,
       "max_price": 292857
     },
     "2022": {
-      "median_price": 227757,
-      "count": 1,
-      "total_on_page": 11,
-      "price_type": "estimated_transaction"
+      "median_price": 221991,
+      "count": 3,
+      "total_on_page": 12,
+      "price_type": "estimated_transaction",
+      "min_price": 213807,
+      "max_price": 241707
     },
     "2021": {
-      "median_price": 204507,
+      "median_price": 195160,
       "count": 2,
-      "total_on_page": 14,
+      "total_on_page": 8,
       "price_type": "estimated_transaction"
     },
     "2020": {
-      "median_price": 213342,
+      "median_price": 176607,
       "count": 2,
-      "total_on_page": 9,
+      "total_on_page": 8,
       "price_type": "estimated_transaction"
     },
     "2019": {
-      "median_price": 116250,
-      "count": 3,
-      "total_on_page": 19,
-      "price_type": "estimated_transaction",
-      "min_price": 83607,
-      "max_price": 119877
+      "median_price": 99928,
+      "count": 2,
+      "total_on_page": 18,
+      "price_type": "estimated_transaction"
     },
     "2018": {
-      "median_price": 108810,
-      "count": 2,
-      "total_on_page": 9,
-      "price_type": "estimated_transaction"
+      "median_price": 120807,
+      "count": 3,
+      "total_on_page": 13,
+      "price_type": "estimated_transaction",
+      "min_price": 92535,
+      "max_price": 125085
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 1,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

@@ -1,6 +1,6 @@
 {
   "model_id": "vw-golf-etsi",
-  "calculated_at": "2026-05-18T12:49:43.740602+00:00",
+  "calculated_at": "2026-05-25T13:00:30.351127+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 356962,
-    "monthly_cost": 7437,
-    "cost_per_mil": 59,
+    "total_cost": 315071,
+    "monthly_cost": 6564,
+    "cost_per_mil": 53,
     "breakdown": {
-      "depreciation": 214783,
+      "depreciation": 172892,
       "fuel": 72150,
       "tax": 17839,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 228742,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 269607,
+        "confidence": "medium",
+        "data_points": 1
       },
       {
         "year": 2,
-        "value": 210442,
-        "confidence": "adjusted",
+        "value": 259935,
+        "confidence": "medium",
         "data_points": 1
       },
       {
         "year": 3,
-        "value": 193606,
+        "value": 239140,
         "confidence": "adjusted",
-        "data_points": 2
+        "data_points": 1
       },
       {
         "year": 4,
-        "value": 178117,
+        "value": 220008,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 163867,
+        "value": 202407,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 150757,
+        "value": 186214,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 138696,
+        "value": 171316,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 127600,
+        "value": 157610,
         "confidence": "estimated",
         "data_points": 0
       }

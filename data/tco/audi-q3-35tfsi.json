@@ -1,6 +1,6 @@
 {
   "model_id": "audi-q3-35tfsi",
-  "calculated_at": "2026-05-18T12:49:43.763890+00:00",
+  "calculated_at": "2026-05-25T13:00:30.372550+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -39,14 +39,14 @@
       },
       {
         "year": 2,
-        "value": 353307,
+        "value": 371907,
         "confidence": "medium",
         "data_points": 3
       },
       {
         "year": 3,
-        "value": 325042,
-        "confidence": "adjusted",
+        "value": 326848,
+        "confidence": "medium",
         "data_points": 4
       },
       {
@@ -57,13 +57,13 @@
       },
       {
         "year": 5,
-        "value": 292438,
+        "value": 290346,
         "confidence": "medium",
         "data_points": 2
       },
       {
         "year": 6,
-        "value": 236173,
+        "value": 264538,
         "confidence": "medium",
         "data_points": 2
       },

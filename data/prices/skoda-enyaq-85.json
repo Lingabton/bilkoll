@@ -1,63 +1,57 @@
 {
   "model_id": "skoda-enyaq-85",
-  "scraped_at": "2026-05-18T09:39:40.589326+00:00",
+  "scraped_at": "2026-05-25T09:51:19.597123+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 482670,
-      "count": 3,
-      "total_on_page": 3,
-      "price_type": "estimated_transaction",
-      "min_price": 371907,
-      "max_price": 502107
+      "median_price": 506338,
+      "count": 2,
+      "total_on_page": 7,
+      "price_type": "estimated_transaction"
     },
     "2024": {
-      "median_price": 497457,
+      "median_price": 479601,
       "count": 5,
-      "total_on_page": 31,
+      "total_on_page": 34,
       "price_type": "estimated_transaction",
-      "p5_price": 488064,
+      "p5_price": 464070,
       "p95_price": 530007,
-      "min_price": 488064,
+      "min_price": 464070,
       "max_price": 530007
     },
     "2023": {
-      "median_price": 394971,
-      "count": 6,
-      "total_on_page": 48,
+      "median_price": 397482,
+      "count": 8,
+      "total_on_page": 54,
       "price_type": "estimated_transaction",
-      "p5_price": 316107,
+      "p5_price": 287370,
       "p95_price": 669507,
-      "min_price": 316107,
+      "min_price": 287370,
       "max_price": 669507,
       "median_mileage_mil": 20230
     },
     "2022": {
-      "median_price": 288207,
-      "count": 5,
-      "total_on_page": 47,
+      "median_price": 337032,
+      "count": 4,
+      "total_on_page": 36,
       "price_type": "estimated_transaction",
-      "p5_price": 260307,
-      "p95_price": 334707,
-      "min_price": 260307,
-      "max_price": 334707
+      "min_price": 251007,
+      "max_price": 353214
     },
     "2021": {
-      "median_price": 153357,
-      "count": 6,
-      "total_on_page": 29,
+      "median_price": 390507,
+      "count": 3,
+      "total_on_page": 24,
       "price_type": "estimated_transaction",
-      "p5_price": 138570,
-      "p95_price": 483507,
       "min_price": 138570,
       "max_price": 483507
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 3,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

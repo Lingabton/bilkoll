@@ -1,59 +1,59 @@
 {
   "model_id": "toyota-rav4-hybrid",
-  "scraped_at": "2026-05-18T09:33:59.793939+00:00",
+  "scraped_at": "2026-05-25T09:45:26.888970+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 543957,
-      "count": 5,
-      "total_on_page": 26,
+      "median_price": 511407,
+      "count": 3,
+      "total_on_page": 25,
       "price_type": "estimated_transaction",
-      "p5_price": 511407,
-      "p95_price": 557907,
-      "min_price": 511407,
-      "max_price": 557907
+      "min_price": 492807,
+      "max_price": 516057
     },
     "2024": {
       "median_price": 502107,
-      "count": 2,
-      "total_on_page": 9,
-      "price_type": "estimated_transaction"
+      "count": 3,
+      "total_on_page": 11,
+      "price_type": "estimated_transaction",
+      "min_price": 490100,
+      "max_price": 502107
     },
     "2023": {
-      "median_price": 427614,
-      "count": 5,
-      "total_on_page": 37,
+      "median_price": 437007,
+      "count": 4,
+      "total_on_page": 46,
       "price_type": "estimated_transaction",
-      "p5_price": 389670,
-      "p95_price": 446307,
-      "min_price": 389670,
+      "min_price": 431520,
       "max_price": 446307
     },
     "2022": {
-      "median_price": 345913,
+      "median_price": 383160,
       "count": 4,
       "total_on_page": 26,
       "price_type": "estimated_transaction",
-      "min_price": 297507,
+      "min_price": 344007,
       "max_price": 440810
     },
     "2021": {
-      "median_price": 316107,
-      "count": 7,
-      "total_on_page": 58,
+      "median_price": 334707,
+      "count": 8,
+      "total_on_page": 65,
       "price_type": "estimated_transaction",
-      "p5_price": 182280,
+      "p5_price": 278907,
       "p95_price": 427707,
-      "min_price": 182280,
+      "min_price": 278907,
       "max_price": 427707
     },
     "2020": {
-      "median_price": 315642,
-      "count": 2,
-      "total_on_page": 14,
-      "price_type": "estimated_transaction"
+      "median_price": 325500,
+      "count": 3,
+      "total_on_page": 19,
+      "price_type": "estimated_transaction",
+      "min_price": 316014,
+      "max_price": 370977
     },
     "2019": {
       "median_price": 241056,

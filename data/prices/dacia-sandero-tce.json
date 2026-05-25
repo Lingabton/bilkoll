@@ -1,6 +1,6 @@
 {
   "model_id": "dacia-sandero-tce",
-  "scraped_at": "2026-05-18T12:16:04.755075+00:00",
+  "scraped_at": "2026-05-25T12:27:11.744315+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -8,46 +8,46 @@
     "2025": {
       "median_price": 223107,
       "count": 7,
-      "total_on_page": 57,
+      "total_on_page": 56,
       "price_type": "estimated_transaction",
-      "p5_price": 176607,
+      "p5_price": 162657,
       "p95_price": 241707,
-      "min_price": 176607,
+      "min_price": 162657,
       "max_price": 241707,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 215667,
+      "median_price": 184977,
       "count": 2,
-      "total_on_page": 25,
+      "total_on_page": 22,
       "price_type": "estimated_transaction",
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 153357,
+      "median_price": 129270,
       "count": 9,
-      "total_on_page": 74,
+      "total_on_page": 75,
       "price_type": "estimated_transaction",
-      "p5_price": 111507,
-      "p95_price": 166935,
-      "min_price": 111507,
-      "max_price": 166935
+      "p5_price": 114204,
+      "p95_price": 166470,
+      "min_price": 114204,
+      "max_price": 166470
     },
     "2022": {
-      "median_price": 109182,
-      "count": 4,
-      "total_on_page": 46,
+      "median_price": 120760,
+      "count": 6,
+      "total_on_page": 32,
       "price_type": "estimated_transaction",
-      "min_price": 106857,
-      "max_price": 139407
+      "p5_price": 87420,
+      "p95_price": 138570,
+      "min_price": 87420,
+      "max_price": 138570
     },
     "2021": {
-      "median_price": 130107,
-      "count": 3,
-      "total_on_page": 13,
-      "price_type": "estimated_transaction",
-      "min_price": 101370,
-      "max_price": 178467
+      "median_price": 154287,
+      "count": 2,
+      "total_on_page": 12,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {

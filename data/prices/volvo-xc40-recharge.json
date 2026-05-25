@@ -1,59 +1,59 @@
 {
   "model_id": "volvo-xc40-recharge",
-  "scraped_at": "2026-05-18T09:15:10.749990+00:00",
+  "scraped_at": "2026-05-25T09:27:36.284066+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2024": {
-      "median_price": 392832,
-      "count": 6,
-      "total_on_page": 28,
+      "median_price": 404457,
+      "count": 4,
+      "total_on_page": 26,
       "price_type": "estimated_transaction",
-      "p5_price": 389670,
-      "p95_price": 445470,
-      "min_price": 389670,
+      "min_price": 390507,
       "max_price": 445470
     },
     "2023": {
-      "median_price": 297507,
+      "median_price": 297414,
       "count": 25,
-      "total_on_page": 549,
+      "total_on_page": 488,
       "price_type": "estimated_transaction",
-      "p5_price": 278070,
-      "p95_price": 319920,
-      "min_price": 274257,
-      "max_price": 344007
+      "p5_price": 264957,
+      "p95_price": 324570,
+      "min_price": 255657,
+      "max_price": 361770
     },
     "2022": {
-      "median_price": 302157,
-      "count": 25,
-      "total_on_page": 203,
+      "median_price": 306388,
+      "count": 16,
+      "total_on_page": 133,
       "price_type": "estimated_transaction",
-      "p5_price": 255750,
-      "p95_price": 371070,
-      "min_price": 227757,
-      "max_price": 380370
+      "p5_price": 269607,
+      "p95_price": 482670,
+      "min_price": 269607,
+      "max_price": 482670
     },
     "2021": {
-      "median_price": 469138,
-      "count": 2,
-      "total_on_page": 17,
+      "median_price": 464814,
+      "count": 3,
+      "total_on_page": 12,
       "price_type": "estimated_transaction",
+      "min_price": 296670,
+      "max_price": 669507,
       "median_mileage_mil": 20210
     },
     "2020": {
-      "median_price": 302064,
+      "median_price": 343914,
       "count": 3,
-      "total_on_page": 3,
+      "total_on_page": 5,
       "price_type": "estimated_transaction",
-      "min_price": 241707,
-      "max_price": 343914
+      "min_price": 302064,
+      "max_price": 445005
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 2,
+    "min_count_per_year": 3,
     "confidence": "low"
   }
 }

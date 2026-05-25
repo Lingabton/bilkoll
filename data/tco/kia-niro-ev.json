@@ -1,6 +1,6 @@
 {
   "model_id": "kia-niro-ev",
-  "calculated_at": "2026-05-18T12:49:43.736112+00:00",
+  "calculated_at": "2026-05-25T13:00:30.346022+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -57,25 +57,25 @@
       },
       {
         "year": 5,
-        "value": 223107,
-        "confidence": "medium",
-        "data_points": 1
+        "value": 229070,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 6,
-        "value": 213388,
-        "confidence": "medium",
-        "data_points": 2
+        "value": 201581,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 7,
-        "value": 187781,
+        "value": 177391,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 165247,
+        "value": 156104,
         "confidence": "estimated",
         "data_points": 0
       }

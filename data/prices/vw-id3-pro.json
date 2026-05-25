@@ -1,6 +1,6 @@
 {
   "model_id": "vw-id3-pro",
-  "scraped_at": "2026-05-18T09:46:08.644538+00:00",
+  "scraped_at": "2026-05-25T09:57:17.839394+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -8,55 +8,49 @@
     "2025": {
       "median_price": 494713,
       "count": 2,
-      "total_on_page": 19,
+      "total_on_page": 17,
       "price_type": "estimated_transaction",
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 371814,
-      "count": 3,
-      "total_on_page": 30,
+      "median_price": 450910,
+      "count": 2,
+      "total_on_page": 23,
       "price_type": "estimated_transaction",
-      "min_price": 362607,
-      "max_price": 427800,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 315688,
-      "count": 4,
-      "total_on_page": 31,
+      "median_price": 385438,
+      "count": 2,
+      "total_on_page": 24,
       "price_type": "estimated_transaction",
-      "min_price": 297135,
-      "max_price": 437007,
       "median_mileage_mil": 20231
     },
     "2022": {
-      "median_price": 244032,
+      "median_price": 234546,
       "count": 4,
-      "total_on_page": 33,
+      "total_on_page": 29,
       "price_type": "estimated_transaction",
       "min_price": 223014,
-      "max_price": 260307
+      "max_price": 268770
     },
     "2021": {
-      "median_price": 195207,
-      "count": 7,
-      "total_on_page": 86,
+      "median_price": 201298,
+      "count": 8,
+      "total_on_page": 85,
       "price_type": "estimated_transaction",
-      "p5_price": 171957,
-      "p95_price": 213435,
-      "min_price": 171957,
-      "max_price": 213435
+      "p5_price": 148707,
+      "p95_price": 278907,
+      "min_price": 148707,
+      "max_price": 278907
     },
     "2020": {
-      "median_price": 204507,
-      "count": 5,
-      "total_on_page": 51,
+      "median_price": 209157,
+      "count": 4,
+      "total_on_page": 38,
       "price_type": "estimated_transaction",
-      "p5_price": 199857,
-      "p95_price": 223014,
-      "min_price": 199857,
-      "max_price": 223014
+      "min_price": 183954,
+      "max_price": 218457
     }
   },
   "validation": {

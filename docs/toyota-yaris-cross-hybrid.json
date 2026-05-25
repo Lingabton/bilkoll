@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-yaris-cross-hybrid",
-  "calculated_at": "2026-05-18T12:49:43.738931+00:00",
+  "calculated_at": "2026-05-25T13:00:30.349186+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,21 +33,21 @@
       },
       {
         "year": 1,
-        "value": 274257,
+        "value": 288207,
         "confidence": "medium",
         "data_points": 11
       },
       {
         "year": 2,
-        "value": 252316,
+        "value": 265150,
         "confidence": "adjusted",
         "data_points": 5
       },
       {
         "year": 3,
-        "value": 248728,
+        "value": 255657,
         "confidence": "medium",
-        "data_points": 12
+        "data_points": 7
       },
       {
         "year": 4,

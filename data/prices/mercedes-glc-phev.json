@@ -1,39 +1,37 @@
 {
   "model_id": "mercedes-glc-phev",
-  "scraped_at": "2026-05-18T12:26:59.334649+00:00",
+  "scraped_at": "2026-05-25T12:37:33.218454+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 650907,
-      "count": 2,
-      "total_on_page": 6,
+      "median_price": 641607,
+      "count": 1,
+      "total_on_page": 5,
       "price_type": "estimated_transaction"
     },
     "2024": {
       "median_price": 502107,
-      "count": 1,
-      "total_on_page": 1,
+      "count": 2,
+      "total_on_page": 2,
       "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 483600,
-      "count": 3,
-      "total_on_page": 10,
-      "price_type": "estimated_transaction",
-      "min_price": 464907,
-      "max_price": 501270
+      "median_price": 464907,
+      "count": 1,
+      "total_on_page": 11,
+      "price_type": "estimated_transaction"
     },
     "2022": {
-      "median_price": 440820,
-      "count": 2,
-      "total_on_page": 4,
+      "median_price": 473370,
+      "count": 1,
+      "total_on_page": 5,
       "price_type": "estimated_transaction"
     }
   },
   "validation": {
-    "is_monotonic": true,
+    "is_monotonic": false,
     "min_count_per_year": 1,
     "confidence": "low"
   }
