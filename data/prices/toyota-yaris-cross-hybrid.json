@@ -1,14 +1,14 @@
 {
   "model_id": "toyota-yaris-cross-hybrid",
-  "scraped_at": "2026-05-25T10:00:47.878669+00:00",
+  "scraped_at": "2026-06-01T11:22:15.540218+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 288207,
+      "median_price": 287370,
       "count": 11,
-      "total_on_page": 83,
+      "total_on_page": 76,
       "price_type": "estimated_transaction",
       "p5_price": 260307,
       "p95_price": 328197,
@@ -17,7 +17,7 @@
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 320757,
+      "median_price": 260307,
       "count": 5,
       "total_on_page": 40,
       "price_type": "estimated_transaction",
@@ -27,19 +27,19 @@
       "max_price": 344007
     },
     "2023": {
-      "median_price": 255657,
-      "count": 7,
-      "total_on_page": 71,
-      "price_type": "estimated_transaction",
-      "p5_price": 167307,
-      "p95_price": 310620,
-      "min_price": 167307,
-      "max_price": 310620
-    },
-    "2022": {
       "median_price": 232407,
       "count": 9,
-      "total_on_page": 66,
+      "total_on_page": 61,
+      "price_type": "estimated_transaction",
+      "p5_price": 147870,
+      "p95_price": 278535,
+      "min_price": 147870,
+      "max_price": 278535
+    },
+    "2022": {
+      "median_price": 230082,
+      "count": 8,
+      "total_on_page": 63,
       "price_type": "estimated_transaction",
       "p5_price": 176607,
       "p95_price": 246357,
@@ -47,17 +47,15 @@
       "max_price": 246357
     },
     "2021": {
-      "median_price": 260307,
-      "count": 3,
-      "total_on_page": 6,
-      "price_type": "estimated_transaction",
-      "min_price": 241707,
-      "max_price": 287370
+      "median_price": 241707,
+      "count": 1,
+      "total_on_page": 5,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 3,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

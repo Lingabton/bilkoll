@@ -1,6 +1,6 @@
 {
   "model_id": "bmw-ix1-xdrive30",
-  "calculated_at": "2026-05-25T13:00:30.349593+00:00",
+  "calculated_at": "2026-06-01T14:14:06.668760+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,20 +33,20 @@
       },
       {
         "year": 1,
-        "value": 510198,
+        "value": 436077,
         "confidence": "medium",
         "data_points": 5
       },
       {
         "year": 2,
-        "value": 469382,
+        "value": 401190,
         "confidence": "adjusted",
-        "data_points": 1
+        "data_points": 3
       },
       {
         "year": 3,
-        "value": 408270,
-        "confidence": "medium",
+        "value": 369094,
+        "confidence": "adjusted",
         "data_points": 3
       },
       {

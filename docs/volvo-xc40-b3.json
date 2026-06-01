@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc40-b3",
-  "calculated_at": "2026-05-25T13:00:30.356348+00:00",
+  "calculated_at": "2026-06-01T14:14:06.676483+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -35,18 +35,18 @@
         "year": 1,
         "value": 395508,
         "confidence": "adjusted",
-        "data_points": 3
+        "data_points": 5
       },
       {
         "year": 2,
-        "value": 361770,
+        "value": 334707,
         "confidence": "medium",
         "data_points": 5
       },
       {
         "year": 3,
-        "value": 361677,
-        "confidence": "medium",
+        "value": 307930,
+        "confidence": "adjusted",
         "data_points": 10
       },
       {
@@ -63,25 +63,25 @@
       },
       {
         "year": 6,
-        "value": 255238,
+        "value": 259842,
         "confidence": "medium",
         "data_points": 10
       },
       {
         "year": 7,
-        "value": 234818,
+        "value": 239054,
         "confidence": "adjusted",
         "data_points": 5
       },
       {
         "year": 8,
-        "value": 195207,
-        "confidence": "medium",
-        "data_points": 3
+        "value": 219929,
+        "confidence": "adjusted",
+        "data_points": 4
       },
       {
         "year": 9,
-        "value": 171782,
+        "value": 202334,
         "confidence": "estimated",
         "data_points": 0
       }

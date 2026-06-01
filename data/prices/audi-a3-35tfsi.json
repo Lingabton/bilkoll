@@ -1,38 +1,39 @@
 {
   "model_id": "audi-a3-35tfsi",
-  "scraped_at": "2026-05-25T12:09:03.596523+00:00",
+  "scraped_at": "2026-06-01T13:24:43.277266+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 306388,
+      "median_price": 317083,
       "count": 6,
-      "total_on_page": 41,
+      "total_on_page": 46,
       "price_type": "estimated_transaction",
-      "p5_price": 259470,
+      "p5_price": 241707,
       "p95_price": 371907,
-      "min_price": 259470,
-      "max_price": 371907
+      "min_price": 241707,
+      "max_price": 371907,
+      "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 287788,
+      "median_price": 287370,
       "count": 6,
-      "total_on_page": 28,
+      "total_on_page": 30,
       "price_type": "estimated_transaction",
-      "p5_price": 255657,
-      "p95_price": 325490,
-      "min_price": 255657,
-      "max_price": 325490
+      "p5_price": 259470,
+      "p95_price": 306807,
+      "min_price": 259470,
+      "max_price": 306807
     },
     "2023": {
-      "median_price": 227757,
+      "median_price": 227385,
       "count": 17,
-      "total_on_page": 134,
+      "total_on_page": 130,
       "price_type": "estimated_transaction",
-      "p5_price": 203670,
+      "p5_price": 199020,
       "p95_price": 297382,
-      "min_price": 203670,
+      "min_price": 199020,
       "max_price": 297382
     },
     "2022": {
@@ -48,7 +49,7 @@
     "2021": {
       "median_price": 268770,
       "count": 5,
-      "total_on_page": 37,
+      "total_on_page": 36,
       "price_type": "estimated_transaction",
       "p5_price": 194370,
       "p95_price": 278907,
@@ -56,14 +57,14 @@
       "max_price": 278907
     },
     "2020": {
-      "median_price": 185907,
+      "median_price": 166470,
       "count": 5,
-      "total_on_page": 39,
+      "total_on_page": 36,
       "price_type": "estimated_transaction",
       "p5_price": 120807,
-      "p95_price": 213807,
+      "p95_price": 213714,
       "min_price": 120807,
-      "max_price": 213807
+      "max_price": 213714
     }
   },
   "validation": {

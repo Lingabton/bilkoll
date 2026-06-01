@@ -1,6 +1,6 @@
 {
   "model_id": "cupra-born-79",
-  "scraped_at": "2026-05-25T10:05:34.855740+00:00",
+  "scraped_at": "2026-06-01T11:26:35.494815+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -13,24 +13,20 @@
     },
     "2024": {
       "median_price": 260307,
-      "count": 3,
+      "count": 2,
       "total_on_page": 7,
-      "price_type": "estimated_transaction",
-      "min_price": 237057,
-      "max_price": 269607
+      "price_type": "estimated_transaction"
     },
     "2023": {
       "median_price": 241707,
-      "count": 3,
-      "total_on_page": 30,
-      "price_type": "estimated_transaction",
-      "min_price": 232407,
-      "max_price": 241707
+      "count": 2,
+      "total_on_page": 21,
+      "price_type": "estimated_transaction"
     },
     "2022": {
-      "median_price": 267323,
+      "median_price": 271973,
       "count": 2,
-      "total_on_page": 14,
+      "total_on_page": 12,
       "price_type": "estimated_transaction"
     }
   },

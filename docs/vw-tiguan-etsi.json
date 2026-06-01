@@ -1,6 +1,6 @@
 {
   "model_id": "vw-tiguan-etsi",
-  "calculated_at": "2026-05-25T13:00:30.353958+00:00",
+  "calculated_at": "2026-06-01T14:14:06.673148+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 410571,
-    "monthly_cost": 8554,
-    "cost_per_mil": 68,
+    "total_cost": 396714,
+    "monthly_cost": 8265,
+    "cost_per_mil": 66,
     "breakdown": {
-      "depreciation": 246343,
+      "depreciation": 232486,
       "fuel": 88800,
       "tax": 24838,
       "insurance": {
@@ -33,15 +33,15 @@
       },
       {
         "year": 1,
-        "value": 462582,
+        "value": 385857,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 3
       },
       {
         "year": 2,
-        "value": 408316,
+        "value": 379626,
         "confidence": "medium",
-        "data_points": 4
+        "data_points": 2
       },
       {
         "year": 3,
@@ -51,7 +51,7 @@
       },
       {
         "year": 4,
-        "value": 283557,
+        "value": 297414,
         "confidence": "medium",
         "data_points": 5
       },
@@ -63,33 +63,33 @@
       },
       {
         "year": 6,
-        "value": 227803,
+        "value": 230128,
         "confidence": "medium",
         "data_points": 6
       },
       {
         "year": 7,
-        "value": 209578,
+        "value": 211717,
         "confidence": "adjusted",
         "data_points": 6
       },
       {
         "year": 8,
-        "value": 176607,
-        "confidence": "medium",
+        "value": 194779,
+        "confidence": "adjusted",
         "data_points": 5
       },
       {
         "year": 9,
         "value": 167307,
         "confidence": "medium",
-        "data_points": 6
+        "data_points": 5
       },
       {
         "year": 10,
         "value": 153922,
         "confidence": "adjusted",
-        "data_points": 3
+        "data_points": 2
       },
       {
         "year": 11,

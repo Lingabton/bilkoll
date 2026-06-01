@@ -1,14 +1,14 @@
 {
   "model_id": "volvo-ex90-twin",
-  "scraped_at": "2026-05-25T11:17:33.964891+00:00",
+  "scraped_at": "2026-06-01T12:35:26.699978+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 874107,
+      "median_price": 864807,
       "count": 10,
-      "total_on_page": 80,
+      "total_on_page": 79,
       "price_type": "estimated_transaction",
       "p5_price": 753207,
       "p95_price": 1003869,

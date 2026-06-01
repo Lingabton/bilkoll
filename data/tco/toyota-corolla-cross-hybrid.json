@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-corolla-cross-hybrid",
-  "calculated_at": "2026-05-25T13:00:30.365418+00:00",
+  "calculated_at": "2026-06-01T14:14:06.686257+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -47,7 +47,7 @@
         "year": 3,
         "value": 281807,
         "confidence": "adjusted",
-        "data_points": 3
+        "data_points": 4
       },
       {
         "year": 4,
@@ -69,13 +69,13 @@
       },
       {
         "year": 7,
-        "value": 201883,
+        "value": 214784,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 195145,
+        "value": 189010,
         "confidence": "estimated",
         "data_points": 0
       }

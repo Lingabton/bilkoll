@@ -1,6 +1,6 @@
 {
   "model_id": "ford-mustang-mach-e-rwd",
-  "calculated_at": "2026-05-25T13:00:30.355183+00:00",
+  "calculated_at": "2026-06-01T14:14:06.674782+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 425710,
-    "monthly_cost": 8869,
-    "cost_per_mil": 71,
+    "total_cost": 434591,
+    "monthly_cost": 9054,
+    "cost_per_mil": 72,
     "breakdown": {
-      "depreciation": 364712,
+      "depreciation": 373593,
       "fuel": 18468,
       "tax": 1440,
       "insurance": {
@@ -47,35 +47,35 @@
         "year": 3,
         "value": 604128,
         "confidence": "medium",
-        "data_points": 3
+        "data_points": 1
       },
       {
         "year": 4,
-        "value": 334288,
+        "value": 325407,
         "confidence": "medium",
-        "data_points": 4
+        "data_points": 7
       },
       {
         "year": 5,
-        "value": 307544,
+        "value": 299374,
         "confidence": "adjusted",
         "data_points": 10
       },
       {
         "year": 6,
-        "value": 298634,
+        "value": 294378,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 262798,
+        "value": 259053,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 231262,
+        "value": 227966,
         "confidence": "estimated",
         "data_points": 0
       }

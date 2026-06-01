@@ -1,6 +1,6 @@
 {
   "model_id": "subaru-outback-25",
-  "scraped_at": "2026-05-25T11:47:44.957578+00:00",
+  "scraped_at": "2026-06-01T13:04:15.435584+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -17,9 +17,9 @@
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 422964,
+      "median_price": 420174,
       "count": 5,
-      "total_on_page": 47,
+      "total_on_page": 46,
       "price_type": "estimated_transaction",
       "p5_price": 399807,
       "p95_price": 443424,
@@ -29,7 +29,7 @@
     },
     "2023": {
       "median_price": 349912,
-      "count": 6,
+      "count": 8,
       "total_on_page": 50,
       "price_type": "estimated_transaction",
       "p5_price": 251007,
@@ -39,9 +39,9 @@
       "median_mileage_mil": 20230
     },
     "2022": {
-      "median_price": 352935,
+      "median_price": 334707,
       "count": 5,
-      "total_on_page": 42,
+      "total_on_page": 40,
       "price_type": "estimated_transaction",
       "p5_price": 306807,
       "p95_price": 409107,
@@ -49,15 +49,15 @@
       "max_price": 409107
     },
     "2021": {
-      "median_price": 324988,
-      "count": 2,
-      "total_on_page": 18,
+      "median_price": 352470,
+      "count": 1,
+      "total_on_page": 21,
       "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 2,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

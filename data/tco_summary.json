@@ -144,30 +144,6 @@
     "newPrice": 199900
   },
   {
-    "id": "dacia-duster-hybrid",
-    "slug": "dacia-duster",
-    "name": "Dacia Duster Hybrid 140",
-    "monthly_cost": 4030,
-    "cost_per_mil": 32,
-    "total_4yr": 193457,
-    "confidence": "low",
-    "fuel": "hybrid",
-    "segment": "suv-kompakt",
-    "newPrice": 289900
-  },
-  {
-    "id": "toyota-corolla-hybrid",
-    "slug": "toyota-corolla",
-    "name": "Toyota Corolla 1.8 Hybrid",
-    "monthly_cost": 4140,
-    "cost_per_mil": 33,
-    "total_4yr": 198728,
-    "confidence": "low",
-    "fuel": "hybrid",
-    "segment": "sedan-kompakt",
-    "newPrice": 324900
-  },
-  {
     "id": "toyota-bz4x-fwd",
     "slug": "toyota-bz4x",
     "name": "Toyota bZ4X FWD 57.7 kWh",
@@ -178,18 +154,6 @@
     "fuel": "el",
     "segment": "suv-kompakt",
     "newPrice": 479900
-  },
-  {
-    "id": "toyota-yaris-hybrid",
-    "slug": "toyota-yaris",
-    "name": "Toyota Yaris 1.5 Hybrid Style",
-    "monthly_cost": 4324,
-    "cost_per_mil": 35,
-    "total_4yr": 207532,
-    "confidence": "low",
-    "fuel": "hybrid",
-    "segment": "sedan-kompakt",
-    "newPrice": 279900
   },
   {
     "id": "toyota-corolla-cross-hybrid",
@@ -204,16 +168,28 @@
     "newPrice": 361900
   },
   {
-    "id": "toyota-c-hr-hybrid",
-    "slug": "toyota-c-hr",
-    "name": "Toyota C-HR 2.0 Hybrid 197",
-    "monthly_cost": 4621,
-    "cost_per_mil": 37,
-    "total_4yr": 221789,
+    "id": "toyota-yaris-hybrid",
+    "slug": "toyota-yaris",
+    "name": "Toyota Yaris 1.5 Hybrid Style",
+    "monthly_cost": 4530,
+    "cost_per_mil": 36,
+    "total_4yr": 217457,
     "confidence": "low",
     "fuel": "hybrid",
-    "segment": "suv-kompakt",
-    "newPrice": 383900
+    "segment": "sedan-kompakt",
+    "newPrice": 279900
+  },
+  {
+    "id": "toyota-corolla-hybrid",
+    "slug": "toyota-corolla",
+    "name": "Toyota Corolla 1.8 Hybrid",
+    "monthly_cost": 4607,
+    "cost_per_mil": 37,
+    "total_4yr": 221141,
+    "confidence": "low",
+    "fuel": "hybrid",
+    "segment": "sedan-kompakt",
+    "newPrice": 324900
   },
   {
     "id": "suzuki-s-cross-hybrid",
@@ -228,18 +204,6 @@
     "newPrice": 354900
   },
   {
-    "id": "dacia-jogger-tce",
-    "slug": "dacia-jogger",
-    "name": "Dacia Jogger Extreme TCe 110",
-    "monthly_cost": 4687,
-    "cost_per_mil": 37,
-    "total_4yr": 224955,
-    "confidence": "low",
-    "fuel": "bensin",
-    "segment": "mpv-budget",
-    "newPrice": 269900
-  },
-  {
     "id": "hyundai-tucson-hybrid",
     "slug": "hyundai-tucson",
     "name": "Hyundai Tucson 1.6 T-GDI Hybrid",
@@ -252,16 +216,16 @@
     "newPrice": 329900
   },
   {
-    "id": "toyota-yaris-cross-hybrid",
-    "slug": "toyota-yaris-cross",
-    "name": "Toyota Yaris Cross 1.5 Hybrid AWD-i",
-    "monthly_cost": 4766,
+    "id": "toyota-c-hr-hybrid",
+    "slug": "toyota-c-hr",
+    "name": "Toyota C-HR 2.0 Hybrid 197",
+    "monthly_cost": 4771,
     "cost_per_mil": 38,
-    "total_4yr": 228783,
+    "total_4yr": 228990,
     "confidence": "low",
     "fuel": "hybrid",
     "segment": "suv-kompakt",
-    "newPrice": 353600
+    "newPrice": 383900
   },
   {
     "id": "peugeot-2008-pt",
@@ -276,40 +240,28 @@
     "newPrice": 290000
   },
   {
-    "id": "hyundai-kona-ev",
-    "slug": "hyundai-kona",
-    "name": "Hyundai Kona Electric 48 kWh",
-    "monthly_cost": 4819,
+    "id": "toyota-yaris-cross-hybrid",
+    "slug": "toyota-yaris-cross",
+    "name": "Toyota Yaris Cross 1.5 Hybrid AWD-i",
+    "monthly_cost": 4815,
     "cost_per_mil": 39,
-    "total_4yr": 231314,
-    "confidence": "low",
-    "fuel": "el",
-    "segment": "suv-kompakt",
-    "newPrice": 449900
-  },
-  {
-    "id": "seat-arona-tsi",
-    "slug": "seat-arona",
-    "name": "Seat Arona 1.0 TSI 115",
-    "monthly_cost": 4888,
-    "cost_per_mil": 39,
-    "total_4yr": 234648,
-    "confidence": "low",
-    "fuel": "bensin",
-    "segment": "suv-kompakt",
-    "newPrice": 279900
-  },
-  {
-    "id": "nissan-qashqai-epower",
-    "slug": "nissan-qashqai",
-    "name": "Nissan Qashqai e-POWER 190",
-    "monthly_cost": 4961,
-    "cost_per_mil": 40,
-    "total_4yr": 238128,
+    "total_4yr": 231108,
     "confidence": "low",
     "fuel": "hybrid",
     "segment": "suv-kompakt",
-    "newPrice": 388100
+    "newPrice": 353600
+  },
+  {
+    "id": "dacia-jogger-tce",
+    "slug": "dacia-jogger",
+    "name": "Dacia Jogger Extreme TCe 110",
+    "monthly_cost": 4848,
+    "cost_per_mil": 39,
+    "total_4yr": 232720,
+    "confidence": "low",
+    "fuel": "bensin",
+    "segment": "mpv-budget",
+    "newPrice": 269900
   },
   {
     "id": "mazda-cx5-mhev",
@@ -348,6 +300,18 @@
     "newPrice": 508300
   },
   {
+    "id": "vw-id7-pro",
+    "slug": "vw-id7",
+    "name": "Volkswagen ID.7 Pro SWE Edition 77 kWh",
+    "monthly_cost": 5088,
+    "cost_per_mil": 41,
+    "total_4yr": 244224,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "sedan-mellanklass",
+    "newPrice": 589900
+  },
+  {
     "id": "skoda-superb-tsi",
     "slug": "skoda-superb",
     "name": "Skoda Superb Combi 1.5 TSI 150",
@@ -360,6 +324,18 @@
     "newPrice": 430000
   },
   {
+    "id": "hyundai-kona-ev",
+    "slug": "hyundai-kona",
+    "name": "Hyundai Kona Electric 48 kWh",
+    "monthly_cost": 5189,
+    "cost_per_mil": 42,
+    "total_4yr": 249077,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "suv-kompakt",
+    "newPrice": 449900
+  },
+  {
     "id": "skoda-kodiaq-tsi",
     "slug": "skoda-kodiaq",
     "name": "Skoda Kodiaq Selection 1.5 TSI 150 DSG",
@@ -370,6 +346,30 @@
     "fuel": "bensin",
     "segment": "suv-mellanklass",
     "newPrice": 408500
+  },
+  {
+    "id": "seat-arona-tsi",
+    "slug": "seat-arona",
+    "name": "Seat Arona 1.0 TSI 115",
+    "monthly_cost": 5245,
+    "cost_per_mil": 42,
+    "total_4yr": 251760,
+    "confidence": "low",
+    "fuel": "bensin",
+    "segment": "suv-kompakt",
+    "newPrice": 279900
+  },
+  {
+    "id": "nissan-qashqai-epower",
+    "slug": "nissan-qashqai",
+    "name": "Nissan Qashqai e-POWER 190",
+    "monthly_cost": 5490,
+    "cost_per_mil": 44,
+    "total_4yr": 263510,
+    "confidence": "low",
+    "fuel": "hybrid",
+    "segment": "suv-kompakt",
+    "newPrice": 388100
   },
   {
     "id": "bmw-i4-edrive40",
@@ -387,9 +387,9 @@
     "id": "bmw-x3-phev",
     "slug": "bmw-x3",
     "name": "BMW X3 xDrive30e PHEV",
-    "monthly_cost": 5650,
+    "monthly_cost": 5679,
     "cost_per_mil": 45,
-    "total_4yr": 271200,
+    "total_4yr": 272576,
     "confidence": "low",
     "fuel": "laddhybrid",
     "segment": "suv-mellanklass",
@@ -420,16 +420,28 @@
     "newPrice": 429900
   },
   {
-    "id": "audi-q3-35tfsi",
-    "slug": "audi-q3",
-    "name": "Audi Q3 35 TFSI 150",
-    "monthly_cost": 5937,
+    "id": "dacia-duster-hybrid",
+    "slug": "dacia-duster",
+    "name": "Dacia Duster Hybrid 140",
+    "monthly_cost": 5831,
     "cost_per_mil": 47,
-    "total_4yr": 284982,
+    "total_4yr": 279871,
+    "confidence": "low",
+    "fuel": "hybrid",
+    "segment": "suv-kompakt",
+    "newPrice": 289900
+  },
+  {
+    "id": "subaru-outback-25",
+    "slug": "subaru-outback",
+    "name": "Subaru Outback 2.5i AWD",
+    "monthly_cost": 5875,
+    "cost_per_mil": 47,
+    "total_4yr": 282007,
     "confidence": "low",
     "fuel": "bensin",
-    "segment": "suv-kompakt",
-    "newPrice": 430000
+    "segment": "suv-mellanklass",
+    "newPrice": 429900
   },
   {
     "id": "bmw-ix1-xdrive30",
@@ -444,16 +456,16 @@
     "newPrice": 579900
   },
   {
-    "id": "bmw-x1-sdrive18i",
-    "slug": "bmw-x1",
-    "name": "BMW X1 sDrive18i",
-    "monthly_cost": 5998,
+    "id": "audi-q3-35tfsi",
+    "slug": "audi-q3",
+    "name": "Audi Q3 35 TFSI 150",
+    "monthly_cost": 6025,
     "cost_per_mil": 48,
-    "total_4yr": 287899,
+    "total_4yr": 289213,
     "confidence": "low",
     "fuel": "bensin",
     "segment": "suv-kompakt",
-    "newPrice": 450000
+    "newPrice": 430000
   },
   {
     "id": "byd-atto3-comfort",
@@ -471,37 +483,13 @@
     "id": "vw-id4-pro",
     "slug": "vw-id4",
     "name": "Volkswagen ID.4 Pro Life 77 kWh",
-    "monthly_cost": 6138,
+    "monthly_cost": 6146,
     "cost_per_mil": 49,
-    "total_4yr": 294613,
+    "total_4yr": 294985,
     "confidence": "low",
     "fuel": "el",
     "segment": "suv-kompakt",
     "newPrice": 529700
-  },
-  {
-    "id": "subaru-outback-25",
-    "slug": "subaru-outback",
-    "name": "Subaru Outback 2.5i AWD",
-    "monthly_cost": 6142,
-    "cost_per_mil": 49,
-    "total_4yr": 294795,
-    "confidence": "low",
-    "fuel": "bensin",
-    "segment": "suv-mellanklass",
-    "newPrice": 429900
-  },
-  {
-    "id": "vw-id7-pro",
-    "slug": "vw-id7",
-    "name": "Volkswagen ID.7 Pro SWE Edition 77 kWh",
-    "monthly_cost": 6344,
-    "cost_per_mil": 51,
-    "total_4yr": 304504,
-    "confidence": "low",
-    "fuel": "el",
-    "segment": "sedan-mellanklass",
-    "newPrice": 589900
   },
   {
     "id": "vw-t-roc-etsi",
@@ -514,6 +502,18 @@
     "fuel": "bensin",
     "segment": "suv-kompakt",
     "newPrice": 363000
+  },
+  {
+    "id": "kia-ev9-rwd",
+    "slug": "kia-ev9",
+    "name": "Kia EV9 RWD 99.8 kWh",
+    "monthly_cost": 6441,
+    "cost_per_mil": 52,
+    "total_4yr": 309161,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "suv-mellanklass",
+    "newPrice": 779900
   },
   {
     "id": "kia-ev6-lr",
@@ -531,25 +531,25 @@
     "id": "toyota-rav4-hybrid",
     "slug": "toyota-rav4",
     "name": "Toyota RAV4 2.5 Hybrid AWD-i Executive",
-    "monthly_cost": 6456,
+    "monthly_cost": 6544,
     "cost_per_mil": 52,
-    "total_4yr": 309891,
+    "total_4yr": 314123,
     "confidence": "low",
     "fuel": "hybrid",
     "segment": "suv-mellanklass",
     "newPrice": 555800
   },
   {
-    "id": "skoda-octavia-tdi",
-    "slug": "skoda-octavia",
-    "name": "Skoda Octavia Combi Selection TDI 150 DSG",
-    "monthly_cost": 6547,
+    "id": "bmw-x1-sdrive18i",
+    "slug": "bmw-x1",
+    "name": "BMW X1 sDrive18i",
+    "monthly_cost": 6561,
     "cost_per_mil": 52,
-    "total_4yr": 314243,
+    "total_4yr": 314916,
     "confidence": "low",
-    "fuel": "diesel",
-    "segment": "sedan-mellanklass",
-    "newPrice": 430900
+    "fuel": "bensin",
+    "segment": "suv-kompakt",
+    "newPrice": 450000
   },
   {
     "id": "vw-golf-etsi",
@@ -564,28 +564,40 @@
     "newPrice": 392900
   },
   {
+    "id": "audi-a3-35tfsi",
+    "slug": "audi-a3",
+    "name": "Audi A3 Sportback 35 TFSI 150",
+    "monthly_cost": 6578,
+    "cost_per_mil": 53,
+    "total_4yr": 315744,
+    "confidence": "low",
+    "fuel": "bensin",
+    "segment": "sedan-kompakt",
+    "newPrice": 394000
+  },
+  {
     "id": "peugeot-3008-hybrid",
     "slug": "peugeot-3008",
     "name": "Peugeot 3008 Hybrid 136",
-    "monthly_cost": 6566,
+    "monthly_cost": 6633,
     "cost_per_mil": 53,
-    "total_4yr": 315160,
+    "total_4yr": 318400,
     "confidence": "low",
     "fuel": "bensin",
     "segment": "suv-kompakt",
     "newPrice": 379900
   },
   {
-    "id": "audi-a3-35tfsi",
-    "slug": "audi-a3",
-    "name": "Audi A3 Sportback 35 TFSI 150",
-    "monthly_cost": 6571,
-    "cost_per_mil": 53,
-    "total_4yr": 315402,
+    "id": "vw-id3-pro",
+    "slug": "vw-id3",
+    "name": "Volkswagen ID.3 Pro S 79 kWh",
+    "monthly_cost": 6692,
+    "cost_per_mil": 54,
+    "total_4yr": 321232,
     "confidence": "low",
-    "fuel": "bensin",
+    "fuel": "el",
     "segment": "sedan-kompakt",
-    "newPrice": 394000
+    "newPrice": 504500
   },
   {
     "id": "audi-a6-40tdi",
@@ -627,37 +639,13 @@
     "id": "skoda-enyaq-85",
     "slug": "skoda-enyaq",
     "name": "Skoda Enyaq 85 Solid Edition",
-    "monthly_cost": 6879,
+    "monthly_cost": 6928,
     "cost_per_mil": 55,
-    "total_4yr": 330210,
+    "total_4yr": 332535,
     "confidence": "low",
     "fuel": "el",
     "segment": "suv-kompakt",
     "newPrice": 604900
-  },
-  {
-    "id": "vw-id3-pro",
-    "slug": "vw-id3",
-    "name": "Volkswagen ID.3 Pro S 79 kWh",
-    "monthly_cost": 6930,
-    "cost_per_mil": 55,
-    "total_4yr": 332624,
-    "confidence": "low",
-    "fuel": "el",
-    "segment": "sedan-kompakt",
-    "newPrice": 504500
-  },
-  {
-    "id": "kia-ev9-rwd",
-    "slug": "kia-ev9",
-    "name": "Kia EV9 RWD 99.8 kWh",
-    "monthly_cost": 7000,
-    "cost_per_mil": 56,
-    "total_4yr": 335987,
-    "confidence": "low",
-    "fuel": "el",
-    "segment": "suv-mellanklass",
-    "newPrice": 779900
   },
   {
     "id": "volvo-ex30-twin",
@@ -672,52 +660,28 @@
     "newPrice": 547000
   },
   {
-    "id": "cupra-formentor-tsi",
-    "slug": "cupra-formentor",
-    "name": "Cupra Formentor 1.5 TSI 150",
-    "monthly_cost": 7141,
-    "cost_per_mil": 57,
-    "total_4yr": 342775,
-    "confidence": "low",
-    "fuel": "bensin",
-    "segment": "suv-kompakt",
-    "newPrice": 429900
-  },
-  {
-    "id": "mercedes-eqe-350",
-    "slug": "mercedes-eqe",
-    "name": "Mercedes-Benz EQE 350+ Sedan",
-    "monthly_cost": 7237,
-    "cost_per_mil": 58,
-    "total_4yr": 347388,
-    "confidence": "low",
-    "fuel": "el",
-    "segment": "sedan-mellanklass",
-    "newPrice": 719000
-  },
-  {
     "id": "peugeot-5008-hybrid",
     "slug": "peugeot-5008",
     "name": "Peugeot 5008 Hybrid 136",
-    "monthly_cost": 7302,
+    "monthly_cost": 7227,
     "cost_per_mil": 58,
-    "total_4yr": 350476,
+    "total_4yr": 346875,
     "confidence": "medium",
     "fuel": "bensin",
     "segment": "suv-mellanklass",
     "newPrice": 449900
   },
   {
-    "id": "kia-niro-ev",
-    "slug": "kia-niro-ev",
-    "name": "Kia Niro EV Action",
-    "monthly_cost": 7312,
-    "cost_per_mil": 58,
-    "total_4yr": 350972,
+    "id": "mercedes-eqe-350",
+    "slug": "mercedes-eqe",
+    "name": "Mercedes-Benz EQE 350+ Sedan",
+    "monthly_cost": 7325,
+    "cost_per_mil": 59,
+    "total_4yr": 351619,
     "confidence": "low",
     "fuel": "el",
-    "segment": "suv-kompakt",
-    "newPrice": 530500
+    "segment": "sedan-mellanklass",
+    "newPrice": 719000
   },
   {
     "id": "mercedes-glc-phev",
@@ -732,6 +696,18 @@
     "newPrice": 650000
   },
   {
+    "id": "cupra-formentor-tsi",
+    "slug": "cupra-formentor",
+    "name": "Cupra Formentor 1.5 TSI 150",
+    "monthly_cost": 7447,
+    "cost_per_mil": 60,
+    "total_4yr": 357473,
+    "confidence": "low",
+    "fuel": "bensin",
+    "segment": "suv-kompakt",
+    "newPrice": 429900
+  },
+  {
     "id": "mercedes-eqa-250",
     "slug": "mercedes-eqa",
     "name": "Mercedes-Benz EQA 250+",
@@ -744,16 +720,16 @@
     "newPrice": 529000
   },
   {
-    "id": "tesla-model-y-lr",
-    "slug": "tesla-model-y",
-    "name": "Tesla Model Y Long Range AWD",
-    "monthly_cost": 7614,
+    "id": "skoda-octavia-tdi",
+    "slug": "skoda-octavia",
+    "name": "Skoda Octavia Combi Selection TDI 150 DSG",
+    "monthly_cost": 7592,
     "cost_per_mil": 61,
-    "total_4yr": 365471,
+    "total_4yr": 364434,
     "confidence": "low",
-    "fuel": "el",
-    "segment": "suv-mellanklass",
-    "newPrice": 649990
+    "fuel": "diesel",
+    "segment": "sedan-mellanklass",
+    "newPrice": 430900
   },
   {
     "id": "ford-kuga-phev",
@@ -780,40 +756,40 @@
     "newPrice": 579900
   },
   {
-    "id": "audi-q4-etron-45",
-    "slug": "audi-q4-e-tron",
-    "name": "Audi Q4 e-tron 45 quattro",
-    "monthly_cost": 7900,
-    "cost_per_mil": 63,
-    "total_4yr": 379200,
-    "confidence": "low",
-    "fuel": "el",
-    "segment": "suv-kompakt",
-    "newPrice": 625200
-  },
-  {
     "id": "renault-megane-etech",
     "slug": "renault-megane-e-tech",
     "name": "Renault Megane E-Tech Electric EV60",
-    "monthly_cost": 7909,
-    "cost_per_mil": 63,
-    "total_4yr": 379655,
+    "monthly_cost": 7792,
+    "cost_per_mil": 62,
+    "total_4yr": 374018,
     "confidence": "low",
     "fuel": "el",
     "segment": "sedan-kompakt",
     "newPrice": 449900
   },
   {
-    "id": "volvo-v60-t6-phev",
-    "slug": "volvo-v60",
-    "name": "Volvo V60 T6 Recharge PHEV",
-    "monthly_cost": 8066,
-    "cost_per_mil": 65,
-    "total_4yr": 387151,
-    "confidence": "medium",
-    "fuel": "laddhybrid",
-    "segment": "sedan-mellanklass",
-    "newPrice": 549900
+    "id": "kia-niro-ev",
+    "slug": "kia-niro-ev",
+    "name": "Kia Niro EV Action",
+    "monthly_cost": 7827,
+    "cost_per_mil": 63,
+    "total_4yr": 375712,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "suv-kompakt",
+    "newPrice": 530500
+  },
+  {
+    "id": "tesla-model-y-lr",
+    "slug": "tesla-model-y",
+    "name": "Tesla Model Y Long Range AWD",
+    "monthly_cost": 7856,
+    "cost_per_mil": 63,
+    "total_4yr": 377096,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "suv-mellanklass",
+    "newPrice": 649990
   },
   {
     "id": "volvo-xc40-recharge",
@@ -840,6 +816,30 @@
     "newPrice": 546900
   },
   {
+    "id": "vw-tiguan-etsi",
+    "slug": "vw-tiguan",
+    "name": "Volkswagen Tiguan 1.5 eTSI 150 DSG Life",
+    "monthly_cost": 8265,
+    "cost_per_mil": 66,
+    "total_4yr": 396714,
+    "confidence": "low",
+    "fuel": "bensin",
+    "segment": "suv-kompakt",
+    "newPrice": 529900
+  },
+  {
+    "id": "hyundai-ioniq5-lr",
+    "slug": "hyundai-ioniq5",
+    "name": "Hyundai Ioniq 5 84 kWh Long Range",
+    "monthly_cost": 8280,
+    "cost_per_mil": 66,
+    "total_4yr": 397463,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "suv-mellanklass",
+    "newPrice": 679900
+  },
+  {
     "id": "nissan-leaf-52",
     "slug": "nissan-leaf",
     "name": "Nissan Leaf e+ 62 kWh Evolve",
@@ -850,6 +850,18 @@
     "fuel": "el",
     "segment": "sedan-kompakt",
     "newPrice": 502900
+  },
+  {
+    "id": "volvo-v60-t6-phev",
+    "slug": "volvo-v60",
+    "name": "Volvo V60 T6 Recharge PHEV",
+    "monthly_cost": 8323,
+    "cost_per_mil": 67,
+    "total_4yr": 399520,
+    "confidence": "medium",
+    "fuel": "laddhybrid",
+    "segment": "sedan-mellanklass",
+    "newPrice": 549900
   },
   {
     "id": "volvo-ex90-twin",
@@ -867,81 +879,69 @@
     "id": "polestar-4-sm",
     "slug": "polestar-4",
     "name": "Polestar 4 Long Range Single Motor",
-    "monthly_cost": 8350,
-    "cost_per_mil": 67,
-    "total_4yr": 400819,
+    "monthly_cost": 8650,
+    "cost_per_mil": 69,
+    "total_4yr": 415187,
     "confidence": "low",
     "fuel": "el",
     "segment": "suv-mellanklass",
     "newPrice": 786000
   },
   {
-    "id": "vw-tiguan-etsi",
-    "slug": "vw-tiguan",
-    "name": "Volkswagen Tiguan 1.5 eTSI 150 DSG Life",
-    "monthly_cost": 8554,
-    "cost_per_mil": 68,
-    "total_4yr": 410571,
-    "confidence": "low",
-    "fuel": "bensin",
-    "segment": "suv-kompakt",
-    "newPrice": 529900
-  },
-  {
     "id": "volvo-v90-t6-phev",
     "slug": "volvo-v90",
     "name": "Volvo V90 T6 Recharge PHEV",
-    "monthly_cost": 8708,
-    "cost_per_mil": 70,
-    "total_4yr": 417976,
+    "monthly_cost": 8907,
+    "cost_per_mil": 71,
+    "total_4yr": 427555,
     "confidence": "low",
     "fuel": "laddhybrid",
     "segment": "sedan-mellanklass",
     "newPrice": 625000
   },
   {
-    "id": "ford-mustang-mach-e-rwd",
-    "slug": "ford-mustang-mach-e",
-    "name": "Ford Mustang Mach-E Extended Range RWD",
-    "monthly_cost": 8869,
-    "cost_per_mil": 71,
-    "total_4yr": 425710,
-    "confidence": "low",
-    "fuel": "el",
-    "segment": "suv-kompakt",
-    "newPrice": 699000
-  },
-  {
-    "id": "hyundai-ioniq5-lr",
-    "slug": "hyundai-ioniq5",
-    "name": "Hyundai Ioniq 5 84 kWh Long Range",
-    "monthly_cost": 9055,
-    "cost_per_mil": 72,
-    "total_4yr": 434663,
-    "confidence": "low",
-    "fuel": "el",
-    "segment": "suv-mellanklass",
-    "newPrice": 679900
-  },
-  {
     "id": "polestar-2-lr",
     "slug": "polestar-2",
     "name": "Polestar 2 Long Range Single Motor",
-    "monthly_cost": 9457,
-    "cost_per_mil": 76,
-    "total_4yr": 453932,
+    "monthly_cost": 9013,
+    "cost_per_mil": 72,
+    "total_4yr": 432635,
     "confidence": "low",
     "fuel": "el",
     "segment": "sedan-mellanklass",
     "newPrice": 641000
   },
   {
+    "id": "ford-mustang-mach-e-rwd",
+    "slug": "ford-mustang-mach-e",
+    "name": "Ford Mustang Mach-E Extended Range RWD",
+    "monthly_cost": 9054,
+    "cost_per_mil": 72,
+    "total_4yr": 434591,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "suv-kompakt",
+    "newPrice": 699000
+  },
+  {
+    "id": "audi-q4-etron-45",
+    "slug": "audi-q4-e-tron",
+    "name": "Audi Q4 e-tron 45 quattro",
+    "monthly_cost": 9239,
+    "cost_per_mil": 74,
+    "total_4yr": 443463,
+    "confidence": "low",
+    "fuel": "el",
+    "segment": "suv-kompakt",
+    "newPrice": 625200
+  },
+  {
     "id": "volvo-xc60-b5-bensin",
     "slug": "volvo-xc60",
     "name": "Volvo XC60 T6 Laddhybrid AWD",
-    "monthly_cost": 10153,
-    "cost_per_mil": 81,
-    "total_4yr": 487357,
+    "monthly_cost": 10251,
+    "cost_per_mil": 82,
+    "total_4yr": 492054,
     "confidence": "medium",
     "fuel": "laddhybrid",
     "segment": "suv-mellanklass",
@@ -951,9 +951,9 @@
     "id": "volvo-xc90-t8-phev",
     "slug": "volvo-xc90",
     "name": "Volvo XC90 T8 Recharge PHEV",
-    "monthly_cost": 11612,
-    "cost_per_mil": 93,
-    "total_4yr": 557362,
+    "monthly_cost": 11281,
+    "cost_per_mil": 90,
+    "total_4yr": 541505,
     "confidence": "low",
     "fuel": "laddhybrid",
     "segment": "suv-mellanklass",

@@ -1,43 +1,41 @@
 {
   "model_id": "vw-id4-pro",
-  "scraped_at": "2026-05-25T09:31:20.394183+00:00",
+  "scraped_at": "2026-06-01T10:54:22.772204+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 580227,
-      "count": 3,
-      "total_on_page": 16,
+      "median_price": 534192,
+      "count": 2,
+      "total_on_page": 18,
       "price_type": "estimated_transaction",
-      "min_price": 488157,
-      "max_price": 585900,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 520707,
-      "count": 3,
-      "total_on_page": 24,
+      "median_price": 539307,
+      "count": 4,
+      "total_on_page": 26,
       "price_type": "estimated_transaction",
       "min_price": 446307,
       "max_price": 557907,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 355632,
-      "count": 12,
-      "total_on_page": 125,
+      "median_price": 353214,
+      "count": 13,
+      "total_on_page": 117,
       "price_type": "estimated_transaction",
-      "p5_price": 251090,
+      "p5_price": 274164,
       "p95_price": 528798,
-      "min_price": 251090,
+      "min_price": 274164,
       "max_price": 528798,
       "median_mileage_mil": 20231
     },
     "2022": {
-      "median_price": 302157,
-      "count": 9,
-      "total_on_page": 90,
+      "median_price": 301785,
+      "count": 8,
+      "total_on_page": 84,
       "price_type": "estimated_transaction",
       "p5_price": 269607,
       "p95_price": 399807,
@@ -45,19 +43,19 @@
       "max_price": 399807
     },
     "2021": {
-      "median_price": 320338,
-      "count": 6,
-      "total_on_page": 51,
+      "median_price": 344007,
+      "count": 5,
+      "total_on_page": 49,
       "price_type": "estimated_transaction",
-      "p5_price": 264957,
+      "p5_price": 274257,
       "p95_price": 525264,
-      "min_price": 264957,
+      "min_price": 274257,
       "max_price": 525264
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 3,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }
