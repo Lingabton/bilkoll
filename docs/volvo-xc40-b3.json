@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc40-b3",
-  "calculated_at": "2026-06-01T14:14:06.676483+00:00",
+  "calculated_at": "2026-06-08T13:21:57.715501+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 278045,
-    "monthly_cost": 5793,
-    "cost_per_mil": 46,
+    "total_cost": 287438,
+    "monthly_cost": 5988,
+    "cost_per_mil": 48,
     "breakdown": {
-      "depreciation": 123093,
+      "depreciation": 132486,
       "fuel": 75480,
       "tax": 28182,
       "insurance": {
@@ -33,55 +33,55 @@
       },
       {
         "year": 1,
-        "value": 395508,
-        "confidence": "adjusted",
+        "value": 362235,
+        "confidence": "medium",
         "data_points": 5
       },
       {
         "year": 2,
-        "value": 334707,
+        "value": 353307,
         "confidence": "medium",
         "data_points": 5
       },
       {
         "year": 3,
-        "value": 307930,
-        "confidence": "adjusted",
-        "data_points": 10
+        "value": 325407,
+        "confidence": "medium",
+        "data_points": 12
       },
       {
         "year": 4,
-        "value": 306807,
+        "value": 297414,
         "confidence": "medium",
         "data_points": 11
       },
       {
         "year": 5,
-        "value": 267747,
+        "value": 283138,
         "confidence": "medium",
-        "data_points": 18
+        "data_points": 20
       },
       {
         "year": 6,
-        "value": 259842,
+        "value": 278860,
         "confidence": "medium",
         "data_points": 10
       },
       {
         "year": 7,
-        "value": 239054,
-        "confidence": "adjusted",
-        "data_points": 5
+        "value": 274257,
+        "confidence": "medium",
+        "data_points": 6
       },
       {
         "year": 8,
-        "value": 219929,
-        "confidence": "adjusted",
-        "data_points": 4
+        "value": 230123,
+        "confidence": "medium",
+        "data_points": 6
       },
       {
         "year": 9,
-        "value": 202334,
+        "value": 202508,
         "confidence": "estimated",
         "data_points": 0
       }

@@ -1,6 +1,6 @@
 {
   "model_id": "bmw-i4-edrive40",
-  "calculated_at": "2026-06-01T14:14:06.682375+00:00",
+  "calculated_at": "2026-06-08T13:21:57.722507+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 266066,
-    "monthly_cost": 5543,
-    "cost_per_mil": 44,
+    "total_cost": 214815,
+    "monthly_cost": 4475,
+    "cost_per_mil": 36,
     "breakdown": {
-      "depreciation": 197940,
+      "depreciation": 146689,
       "fuel": 17496,
       "tax": 1440,
       "insurance": {
@@ -35,7 +35,7 @@
         "year": 1,
         "value": 551908,
         "confidence": "adjusted",
-        "data_points": 4
+        "data_points": 5
       },
       {
         "year": 2,
@@ -45,37 +45,37 @@
       },
       {
         "year": 3,
-        "value": 436914,
+        "value": 492621,
         "confidence": "medium",
         "data_points": 8
       },
       {
         "year": 4,
-        "value": 401960,
+        "value": 453211,
         "confidence": "adjusted",
-        "data_points": 3
+        "data_points": 2
       },
       {
         "year": 5,
-        "value": 369803,
+        "value": 437311,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 340218,
+        "value": 384834,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 313000,
+        "value": 338654,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 287960,
+        "value": 298015,
         "confidence": "estimated",
         "data_points": 0
       }

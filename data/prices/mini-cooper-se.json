@@ -1,14 +1,14 @@
 {
   "model_id": "mini-cooper-se",
-  "scraped_at": "2026-06-01T12:31:08.649880+00:00",
+  "scraped_at": "2026-06-08T11:36:12.741892+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 452724,
+      "median_price": 364885,
       "count": 2,
-      "total_on_page": 8,
+      "total_on_page": 9,
       "price_type": "estimated_transaction",
       "median_mileage_mil": 20250
     },

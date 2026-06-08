@@ -1,6 +1,6 @@
 {
   "model_id": "mg-zs-ev-lr",
-  "calculated_at": "2026-06-01T14:14:06.695692+00:00",
+  "calculated_at": "2026-06-08T13:21:57.733911+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -53,13 +53,13 @@
         "year": 4,
         "value": 183656,
         "confidence": "adjusted",
-        "data_points": 3
+        "data_points": 2
       },
       {
         "year": 5,
         "value": 168963,
         "confidence": "adjusted",
-        "data_points": 4
+        "data_points": 3
       },
       {
         "year": 6,

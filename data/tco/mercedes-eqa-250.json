@@ -1,6 +1,6 @@
 {
   "model_id": "mercedes-eqa-250",
-  "calculated_at": "2026-06-01T14:14:06.675320+00:00",
+  "calculated_at": "2026-06-08T13:21:57.714461+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -53,29 +53,29 @@
         "year": 4,
         "value": 240836,
         "confidence": "adjusted",
-        "data_points": 3
-      },
-      {
-        "year": 5,
-        "value": 237563,
-        "confidence": "medium",
         "data_points": 2
       },
       {
+        "year": 5,
+        "value": 221569,
+        "confidence": "adjusted",
+        "data_points": 1
+      },
+      {
         "year": 6,
-        "value": 209055,
+        "value": 203843,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 183968,
+        "value": 201646,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 161892,
+        "value": 177448,
         "confidence": "estimated",
         "data_points": 0
       }

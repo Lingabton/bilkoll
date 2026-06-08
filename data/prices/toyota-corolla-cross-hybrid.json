@@ -1,52 +1,54 @@
 {
   "model_id": "toyota-corolla-cross-hybrid",
-  "scraped_at": "2026-06-01T13:09:02.393196+00:00",
+  "scraped_at": "2026-06-08T12:15:22.890871+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 395157,
-      "count": 9,
-      "total_on_page": 67,
+      "median_price": 362607,
+      "count": 11,
+      "total_on_page": 77,
       "price_type": "estimated_transaction",
-      "p5_price": 344007,
-      "p95_price": 437007,
-      "min_price": 344007,
-      "max_price": 437007
+      "p5_price": 320757,
+      "p95_price": 371814,
+      "min_price": 320757,
+      "max_price": 371814
     },
     "2024": {
       "median_price": 362607,
-      "count": 6,
-      "total_on_page": 41,
+      "count": 5,
+      "total_on_page": 40,
       "price_type": "estimated_transaction",
-      "p5_price": 311457,
-      "p95_price": 380370,
-      "min_price": 311457,
-      "max_price": 380370
+      "p5_price": 343170,
+      "p95_price": 394320,
+      "min_price": 343170,
+      "max_price": 394320
     },
     "2023": {
-      "median_price": 309085,
-      "count": 4,
-      "total_on_page": 46,
+      "median_price": 316107,
+      "count": 9,
+      "total_on_page": 57,
       "price_type": "estimated_transaction",
+      "p5_price": 305970,
+      "p95_price": 371907,
       "min_price": 305970,
-      "max_price": 325035
+      "max_price": 371907
     },
     "2022": {
-      "median_price": 315177,
-      "count": 7,
-      "total_on_page": 61,
+      "median_price": 343170,
+      "count": 8,
+      "total_on_page": 56,
       "price_type": "estimated_transaction",
-      "p5_price": 306807,
+      "p5_price": 311085,
       "p95_price": 362607,
-      "min_price": 306807,
+      "min_price": 311085,
       "max_price": 362607
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 4,
+    "min_count_per_year": 5,
     "confidence": "low"
   }
 }

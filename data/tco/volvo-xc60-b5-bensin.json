@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc60-b5-bensin",
-  "calculated_at": "2026-06-01T14:14:06.662858+00:00",
+  "calculated_at": "2026-06-08T13:21:57.702184+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 492054,
-    "monthly_cost": 10251,
-    "cost_per_mil": 82,
+    "total_cost": 473919,
+    "monthly_cost": 9873,
+    "cost_per_mil": 79,
     "breakdown": {
-      "depreciation": 350790,
+      "depreciation": 332655,
       "fuel": 83250,
       "tax": 3024,
       "insurance": {
@@ -33,55 +33,55 @@
       },
       {
         "year": 1,
-        "value": 576507,
+        "value": 553768,
         "confidence": "medium",
         "data_points": 30
       },
       {
         "year": 2,
-        "value": 511262,
+        "value": 464907,
         "confidence": "medium",
         "data_points": 30
       },
       {
         "year": 3,
-        "value": 406596,
+        "value": 399388,
         "confidence": "medium",
         "data_points": 30
       },
       {
         "year": 4,
-        "value": 367210,
+        "value": 385345,
         "confidence": "medium",
-        "data_points": 28
+        "data_points": 30
       },
       {
         "year": 5,
-        "value": 348238,
+        "value": 348610,
         "confidence": "medium",
         "data_points": 30
       },
       {
         "year": 6,
-        "value": 308667,
+        "value": 334707,
         "confidence": "medium",
-        "data_points": 30
+        "data_points": 29
       },
       {
         "year": 7,
-        "value": 296670,
+        "value": 297507,
         "confidence": "medium",
         "data_points": 23
       },
       {
         "year": 8,
-        "value": 271746,
+        "value": 271932,
         "confidence": "medium",
-        "data_points": 24
+        "data_points": 20
       },
       {
         "year": 9,
-        "value": 239136,
+        "value": 239300,
         "confidence": "estimated",
         "data_points": 0
       }

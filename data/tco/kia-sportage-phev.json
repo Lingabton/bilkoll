@@ -1,6 +1,6 @@
 {
   "model_id": "kia-sportage-phev",
-  "calculated_at": "2026-06-01T14:14:06.677388+00:00",
+  "calculated_at": "2026-06-08T13:21:57.716649+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 329357,
-    "monthly_cost": 6862,
-    "cost_per_mil": 55,
+    "total_cost": 300910,
+    "monthly_cost": 6269,
+    "cost_per_mil": 50,
     "breakdown": {
-      "depreciation": 212777,
+      "depreciation": 184330,
       "fuel": 72150,
       "tax": 3640,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 417942,
+        "value": 418407,
         "confidence": "medium",
-        "data_points": 8
+        "data_points": 9
       },
       {
         "year": 2,
-        "value": 409107,
-        "confidence": "medium",
-        "data_points": 13
-      },
-      {
-        "year": 3,
-        "value": 321873,
+        "value": 399807,
         "confidence": "medium",
         "data_points": 14
       },
       {
+        "year": 3,
+        "value": 343588,
+        "confidence": "medium",
+        "data_points": 16
+      },
+      {
         "year": 4,
-        "value": 296123,
-        "confidence": "adjusted",
+        "value": 324570,
+        "confidence": "medium",
         "data_points": 17
       },
       {
         "year": 5,
-        "value": 293805,
+        "value": 285621,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 258548,
+        "value": 251347,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 227523,
+        "value": 221185,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 200220,
+        "value": 194643,
         "confidence": "estimated",
         "data_points": 0
       }

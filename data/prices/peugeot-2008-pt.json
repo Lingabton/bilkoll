@@ -1,62 +1,62 @@
 {
   "model_id": "peugeot-2008-pt",
-  "scraped_at": "2026-06-01T13:38:33.081938+00:00",
+  "scraped_at": "2026-06-08T12:45:57.723704+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 246357,
-      "count": 8,
-      "total_on_page": 53,
-      "price_type": "estimated_transaction",
-      "p5_price": 232407,
-      "p95_price": 302157,
-      "min_price": 232407,
-      "max_price": 302157
-    },
-    "2024": {
-      "median_price": 206785,
-      "count": 8,
+      "median_price": 255657,
+      "count": 7,
       "total_on_page": 52,
       "price_type": "estimated_transaction",
-      "p5_price": 178560,
+      "p5_price": 194184,
+      "p95_price": 302157,
+      "min_price": 194184,
+      "max_price": 302157,
+      "median_mileage_mil": 20250
+    },
+    "2024": {
+      "median_price": 231570,
+      "count": 9,
+      "total_on_page": 53,
+      "price_type": "estimated_transaction",
+      "p5_price": 185907,
       "p95_price": 297507,
-      "min_price": 178560,
+      "min_price": 185907,
       "max_price": 297507,
       "median_mileage_mil": 20240
     },
     "2023": {
       "median_price": 223107,
-      "count": 6,
-      "total_on_page": 43,
+      "count": 5,
+      "total_on_page": 45,
       "price_type": "estimated_transaction",
-      "p5_price": 204507,
+      "p5_price": 213807,
       "p95_price": 269607,
-      "min_price": 204507,
+      "min_price": 213807,
       "max_price": 269607
     },
     "2022": {
-      "median_price": 315177,
+      "median_price": 331540,
       "count": 3,
-      "total_on_page": 24,
+      "total_on_page": 25,
       "price_type": "estimated_transaction",
-      "min_price": 167307,
-      "max_price": 362607
+      "min_price": 315177,
+      "max_price": 362607,
+      "median_mileage_mil": 20220
     },
     "2021": {
       "median_price": 178932,
       "count": 2,
-      "total_on_page": 22,
+      "total_on_page": 17,
       "price_type": "estimated_transaction"
     },
     "2020": {
-      "median_price": 148707,
-      "count": 3,
-      "total_on_page": 13,
-      "price_type": "estimated_transaction",
-      "min_price": 144057,
-      "max_price": 166935
+      "median_price": 155496,
+      "count": 2,
+      "total_on_page": 15,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {

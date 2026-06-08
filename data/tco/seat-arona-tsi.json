@@ -1,6 +1,6 @@
 {
   "model_id": "seat-arona-tsi",
-  "calculated_at": "2026-06-01T14:14:06.693668+00:00",
+  "calculated_at": "2026-06-08T13:21:57.732125+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 251760,
-    "monthly_cost": 5245,
+    "total_cost": 252102,
+    "monthly_cost": 5252,
     "cost_per_mil": 42,
     "breakdown": {
-      "depreciation": 134534,
+      "depreciation": 134876,
       "fuel": 62160,
       "tax": 21076,
       "insurance": {
@@ -35,53 +35,53 @@
         "year": 1,
         "value": 264957,
         "confidence": "medium",
-        "data_points": 3
+        "data_points": 1
       },
       {
         "year": 2,
-        "value": 218457,
+        "value": 213807,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 3
       },
       {
         "year": 3,
-        "value": 158007,
+        "value": 157635,
         "confidence": "medium",
         "data_points": 5
       },
       {
         "year": 4,
-        "value": 145366,
+        "value": 145024,
         "confidence": "adjusted",
-        "data_points": 6
+        "data_points": 2
       },
       {
         "year": 5,
-        "value": 133736,
+        "value": 133422,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 6,
-        "value": 123037,
-        "confidence": "adjusted",
-        "data_points": 3
-      },
-      {
-        "year": 7,
-        "value": 113194,
+        "value": 122748,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
+        "year": 7,
+        "value": 112928,
+        "confidence": "adjusted",
+        "data_points": 3
+      },
+      {
         "year": 8,
-        "value": 104138,
+        "value": 103893,
         "confidence": "adjusted",
         "data_points": 3
       },
       {
         "year": 9,
-        "value": 95806,
+        "value": 95581,
         "confidence": "estimated",
         "data_points": 0
       }

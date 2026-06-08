@@ -1,6 +1,6 @@
 {
   "model_id": "vw-id3-pro",
-  "scraped_at": "2026-06-01T11:18:55.653918+00:00",
+  "scraped_at": "2026-06-08T10:21:52.990029+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -8,7 +8,7 @@
     "2025": {
       "median_price": 494713,
       "count": 2,
-      "total_on_page": 14,
+      "total_on_page": 11,
       "price_type": "estimated_transaction",
       "median_mileage_mil": 20250
     },
@@ -20,43 +20,41 @@
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 385438,
-      "count": 4,
-      "total_on_page": 24,
+      "median_price": 343914,
+      "count": 3,
+      "total_on_page": 26,
       "price_type": "estimated_transaction",
       "min_price": 333870,
       "max_price": 437007,
       "median_mileage_mil": 20231
     },
     "2022": {
-      "median_price": 245938,
-      "count": 4,
-      "total_on_page": 23,
-      "price_type": "estimated_transaction",
-      "min_price": 223107,
-      "max_price": 268770
+      "median_price": 306388,
+      "count": 2,
+      "total_on_page": 25,
+      "price_type": "estimated_transaction"
     },
     "2021": {
-      "median_price": 201298,
-      "count": 8,
-      "total_on_page": 85,
+      "median_price": 223014,
+      "count": 5,
+      "total_on_page": 55,
       "price_type": "estimated_transaction",
-      "p5_price": 148707,
-      "p95_price": 278907,
-      "min_price": 148707,
-      "max_price": 278907
+      "p5_price": 204414,
+      "p95_price": 260307,
+      "min_price": 204414,
+      "max_price": 260307
     },
     "2020": {
       "median_price": 209157,
       "count": 4,
-      "total_on_page": 36,
+      "total_on_page": 45,
       "price_type": "estimated_transaction",
-      "min_price": 183954,
-      "max_price": 218457
+      "min_price": 199857,
+      "max_price": 222270
     }
   },
   "validation": {
-    "is_monotonic": false,
+    "is_monotonic": true,
     "min_count_per_year": 2,
     "confidence": "low"
   }

@@ -1,55 +1,55 @@
 {
   "model_id": "kia-sportage-phev",
-  "scraped_at": "2026-06-01T12:13:00.247151+00:00",
+  "scraped_at": "2026-06-08T11:17:38.798894+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 417942,
-      "count": 8,
-      "total_on_page": 69,
+      "median_price": 418407,
+      "count": 9,
+      "total_on_page": 73,
       "price_type": "estimated_transaction",
-      "p5_price": 390507,
-      "p95_price": 427707,
-      "min_price": 390507,
-      "max_price": 427707
+      "p5_price": 399435,
+      "p95_price": 511779,
+      "min_price": 399435,
+      "max_price": 511779,
+      "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 409107,
-      "count": 13,
-      "total_on_page": 105,
+      "median_price": 399807,
+      "count": 14,
+      "total_on_page": 106,
       "price_type": "estimated_transaction",
-      "p5_price": 352470,
-      "p95_price": 511779,
-      "min_price": 352470,
-      "max_price": 511779,
-      "median_mileage_mil": 20240
+      "p5_price": 325407,
+      "p95_price": 492807,
+      "min_price": 325407,
+      "max_price": 492807
     },
     "2023": {
-      "median_price": 321873,
-      "count": 14,
-      "total_on_page": 118,
+      "median_price": 343588,
+      "count": 16,
+      "total_on_page": 136,
       "price_type": "estimated_transaction",
-      "p5_price": 246450,
-      "p95_price": 399807,
-      "min_price": 246450,
-      "max_price": 399807
+      "p5_price": 278907,
+      "p95_price": 381207,
+      "min_price": 278907,
+      "max_price": 381207
     },
     "2022": {
-      "median_price": 333870,
+      "median_price": 324570,
       "count": 17,
-      "total_on_page": 129,
+      "total_on_page": 135,
       "price_type": "estimated_transaction",
-      "p5_price": 194184,
+      "p5_price": 260307,
       "p95_price": 455607,
-      "min_price": 194184,
+      "min_price": 260307,
       "max_price": 455607
     }
   },
   "validation": {
-    "is_monotonic": false,
-    "min_count_per_year": 8,
+    "is_monotonic": true,
+    "min_count_per_year": 9,
     "confidence": "low"
   }
 }

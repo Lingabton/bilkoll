@@ -1,36 +1,36 @@
 {
   "model_id": "vw-id7-pro",
-  "scraped_at": "2026-06-01T11:41:07.772184+00:00",
+  "scraped_at": "2026-06-08T10:44:15.532908+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 618357,
-      "count": 9,
-      "total_on_page": 53,
+      "median_price": 588132,
+      "count": 8,
+      "total_on_page": 58,
       "price_type": "estimated_transaction",
-      "p5_price": 543110,
-      "p95_price": 648117,
-      "min_price": 543110,
-      "max_price": 648117,
+      "p5_price": 519870,
+      "p95_price": 676575,
+      "min_price": 519870,
+      "max_price": 676575,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 533355,
-      "count": 7,
-      "total_on_page": 50,
+      "median_price": 483321,
+      "count": 5,
+      "total_on_page": 43,
       "price_type": "estimated_transaction",
-      "p5_price": 371070,
-      "p95_price": 595107,
-      "min_price": 371070,
-      "max_price": 595107,
+      "p5_price": 427707,
+      "p95_price": 626355,
+      "min_price": 427707,
+      "max_price": 626355,
       "median_mileage_mil": 20240
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 7,
+    "min_count_per_year": 5,
     "confidence": "low"
   }
 }

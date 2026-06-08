@@ -1,72 +1,69 @@
 {
   "model_id": "audi-q3-35tfsi",
-  "scraped_at": "2026-06-01T14:07:49.572473+00:00",
+  "scraped_at": "2026-06-08T13:15:46.723289+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 422452,
-      "count": 2,
-      "total_on_page": 14,
-      "price_type": "estimated_transaction"
-    },
-    "2024": {
-      "median_price": 399807,
-      "count": 2,
-      "total_on_page": 9,
-      "price_type": "estimated_transaction"
-    },
-    "2023": {
-      "median_price": 326848,
-      "count": 4,
-      "total_on_page": 26,
-      "price_type": "estimated_transaction",
-      "min_price": 296670,
-      "max_price": 389670
-    },
-    "2022": {
-      "median_price": 288207,
-      "count": 3,
-      "total_on_page": 11,
-      "price_type": "estimated_transaction",
-      "min_price": 259470,
-      "max_price": 296670
-    },
-    "2021": {
-      "median_price": 297414,
-      "count": 3,
-      "total_on_page": 16,
-      "price_type": "estimated_transaction",
-      "min_price": 273885,
-      "max_price": 306807
-    },
-    "2020": {
-      "median_price": 264538,
+      "median_price": 436588,
       "count": 2,
       "total_on_page": 17,
       "price_type": "estimated_transaction"
     },
+    "2024": {
+      "median_price": 371907,
+      "count": 3,
+      "total_on_page": 7,
+      "price_type": "estimated_transaction",
+      "min_price": 353307,
+      "max_price": 446307
+    },
+    "2023": {
+      "median_price": 288207,
+      "count": 5,
+      "total_on_page": 33,
+      "price_type": "estimated_transaction",
+      "p5_price": 278907,
+      "p95_price": 538470,
+      "min_price": 278907,
+      "max_price": 538470,
+      "median_mileage_mil": 20230
+    },
+    "2022": {
+      "median_price": 292438,
+      "count": 2,
+      "total_on_page": 9,
+      "price_type": "estimated_transaction"
+    },
+    "2021": {
+      "median_price": 285649,
+      "count": 2,
+      "total_on_page": 17,
+      "price_type": "estimated_transaction"
+    },
+    "2020": {
+      "median_price": 287788,
+      "count": 2,
+      "total_on_page": 18,
+      "price_type": "estimated_transaction"
+    },
     "2019": {
       "median_price": 213807,
-      "count": 3,
-      "total_on_page": 23,
-      "price_type": "estimated_transaction",
-      "min_price": 194370,
-      "max_price": 231570
+      "count": 1,
+      "total_on_page": 21,
+      "price_type": "estimated_transaction"
     },
     "2018": {
-      "median_price": 213807,
-      "count": 3,
-      "total_on_page": 3,
-      "price_type": "estimated_transaction",
-      "min_price": 148707,
-      "max_price": 236592
+      "median_price": 148707,
+      "count": 1,
+      "total_on_page": 1,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 2,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

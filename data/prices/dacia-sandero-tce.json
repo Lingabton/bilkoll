@@ -1,54 +1,52 @@
 {
   "model_id": "dacia-sandero-tce",
-  "scraped_at": "2026-06-01T13:42:16.360890+00:00",
+  "scraped_at": "2026-06-08T12:49:55.122798+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 223107,
+      "median_price": 204507,
       "count": 7,
-      "total_on_page": 58,
+      "total_on_page": 56,
       "price_type": "estimated_transaction",
-      "p5_price": 162657,
-      "p95_price": 241707,
-      "min_price": 162657,
-      "max_price": 241707,
+      "p5_price": 171957,
+      "p95_price": 250170,
+      "min_price": 171957,
+      "max_price": 250170,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 162657,
-      "count": 3,
+      "median_price": 191952,
+      "count": 2,
       "total_on_page": 19,
       "price_type": "estimated_transaction",
-      "min_price": 148707,
-      "max_price": 210087,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 129270,
-      "count": 9,
-      "total_on_page": 75,
+      "median_price": 120807,
+      "count": 10,
+      "total_on_page": 85,
       "price_type": "estimated_transaction",
-      "p5_price": 114204,
-      "p95_price": 166470,
-      "min_price": 114204,
-      "max_price": 166470
+      "p5_price": 110670,
+      "p95_price": 167307,
+      "min_price": 110670,
+      "max_price": 167307
     },
     "2022": {
-      "median_price": 120760,
+      "median_price": 125364,
       "count": 6,
-      "total_on_page": 32,
+      "total_on_page": 28,
       "price_type": "estimated_transaction",
       "p5_price": 111414,
-      "p95_price": 138570,
+      "p95_price": 167214,
       "min_price": 111414,
-      "max_price": 138570
+      "max_price": 167214
     },
     "2021": {
       "median_price": 154287,
       "count": 2,
-      "total_on_page": 9,
+      "total_on_page": 8,
       "price_type": "estimated_transaction"
     }
   },

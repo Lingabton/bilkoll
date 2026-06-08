@@ -1,20 +1,22 @@
 {
   "model_id": "audi-q4-etron-45",
-  "scraped_at": "2026-06-01T12:00:10.689344+00:00",
+  "scraped_at": "2026-06-08T11:04:00.268653+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 603570,
-      "count": 2,
-      "total_on_page": 9,
-      "price_type": "estimated_transaction"
+      "median_price": 566835,
+      "count": 3,
+      "total_on_page": 10,
+      "price_type": "estimated_transaction",
+      "min_price": 547770,
+      "max_price": 603570
     },
     "2024": {
-      "median_price": 548607,
+      "median_price": 548514,
       "count": 5,
-      "total_on_page": 26,
+      "total_on_page": 27,
       "price_type": "estimated_transaction",
       "p5_price": 446307,
       "p95_price": 549630,
@@ -22,35 +24,37 @@
       "max_price": 549630
     },
     "2023": {
-      "median_price": 371535,
-      "count": 7,
-      "total_on_page": 68,
+      "median_price": 371070,
+      "count": 11,
+      "total_on_page": 79,
       "price_type": "estimated_transaction",
-      "p5_price": 278070,
-      "p95_price": 437007,
-      "min_price": 278070,
-      "max_price": 437007
+      "p5_price": 297507,
+      "p95_price": 483507,
+      "min_price": 297507,
+      "max_price": 483507
     },
     "2022": {
-      "median_price": 251007,
+      "median_price": 316107,
       "count": 5,
-      "total_on_page": 37,
+      "total_on_page": 31,
       "price_type": "estimated_transaction",
-      "p5_price": 213807,
-      "p95_price": 344007,
-      "min_price": 213807,
-      "max_price": 344007
+      "p5_price": 302157,
+      "p95_price": 371070,
+      "min_price": 302157,
+      "max_price": 371070
     },
     "2021": {
-      "median_price": 282673,
-      "count": 2,
-      "total_on_page": 6,
-      "price_type": "estimated_transaction"
+      "median_price": 277140,
+      "count": 3,
+      "total_on_page": 7,
+      "price_type": "estimated_transaction",
+      "min_price": 260307,
+      "max_price": 288207
     }
   },
   "validation": {
-    "is_monotonic": false,
-    "min_count_per_year": 2,
+    "is_monotonic": true,
+    "min_count_per_year": 3,
     "confidence": "low"
   }
 }

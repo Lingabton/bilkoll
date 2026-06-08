@@ -1,57 +1,55 @@
 {
   "model_id": "tesla-model-y-lr",
-  "scraped_at": "2026-06-01T10:46:26.976529+00:00",
+  "scraped_at": "2026-06-08T09:49:04.793682+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 489970,
+      "median_price": 487738,
       "count": 2,
-      "total_on_page": 3,
+      "total_on_page": 4,
       "price_type": "estimated_transaction"
     },
     "2024": {
-      "median_price": 464907,
-      "count": 5,
-      "total_on_page": 51,
+      "median_price": 473788,
+      "count": 4,
+      "total_on_page": 48,
       "price_type": "estimated_transaction",
-      "p5_price": 355167,
-      "p95_price": 604407,
-      "min_price": 355167,
+      "min_price": 315270,
       "max_price": 604407
     },
     "2023": {
-      "median_price": 394268,
+      "median_price": 355167,
       "count": 12,
-      "total_on_page": 122,
+      "total_on_page": 148,
       "price_type": "estimated_transaction",
-      "p5_price": 278070,
+      "p5_price": 288207,
       "p95_price": 623007,
-      "min_price": 278070,
+      "min_price": 288207,
       "max_price": 623007
     },
     "2022": {
-      "median_price": 367164,
-      "count": 6,
+      "median_price": 324384,
+      "count": 7,
       "total_on_page": 66,
       "price_type": "estimated_transaction",
-      "p5_price": 297321,
+      "p5_price": 278070,
       "p95_price": 609150,
-      "min_price": 297321,
+      "min_price": 278070,
       "max_price": 609150
     },
     "2021": {
-      "median_price": 299785,
-      "count": 4,
-      "total_on_page": 29,
+      "median_price": 368838,
+      "count": 3,
+      "total_on_page": 26,
       "price_type": "estimated_transaction",
-      "min_price": 208254,
-      "max_price": 368838
+      "min_price": 278907,
+      "max_price": 398970
     }
   },
   "validation": {
-    "is_monotonic": true,
+    "is_monotonic": false,
     "min_count_per_year": 2,
     "confidence": "low"
   }

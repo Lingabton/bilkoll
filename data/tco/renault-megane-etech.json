@@ -1,6 +1,6 @@
 {
   "model_id": "renault-megane-etech",
-  "calculated_at": "2026-06-01T14:14:06.677784+00:00",
+  "calculated_at": "2026-06-08T13:21:57.717135+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 374018,
-    "monthly_cost": 7792,
-    "cost_per_mil": 62,
+    "total_cost": 365663,
+    "monthly_cost": 7618,
+    "cost_per_mil": 61,
     "breakdown": {
-      "depreciation": 315364,
+      "depreciation": 307009,
       "fuel": 16524,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 172774,
+        "value": 183504,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 2,
-        "value": 158952,
+        "value": 168823,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 3,
-        "value": 146235,
-        "confidence": "adjusted",
-        "data_points": 1
-      },
-      {
-        "year": 4,
-        "value": 134536,
+        "value": 155317,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
+        "year": 4,
+        "value": 142891,
+        "confidence": "adjusted",
+        "data_points": 3
+      },
+      {
         "year": 5,
-        "value": 123773,
+        "value": 131459,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 113871,
+        "value": 120942,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 104761,
+        "value": 111266,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 96380,
+        "value": 102364,
         "confidence": "estimated",
         "data_points": 0
       }

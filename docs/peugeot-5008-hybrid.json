@@ -1,6 +1,6 @@
 {
   "model_id": "peugeot-5008-hybrid",
-  "calculated_at": "2026-06-01T14:14:06.685871+00:00",
+  "calculated_at": "2026-06-08T13:21:57.725437+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,15 +33,15 @@
       },
       {
         "year": 1,
-        "value": 370047,
+        "value": 375627,
         "confidence": "medium",
-        "data_points": 13
+        "data_points": 14
       },
       {
         "year": 2,
         "value": 297507,
         "confidence": "medium",
-        "data_points": 15
+        "data_points": 14
       },
       {
         "year": 3,

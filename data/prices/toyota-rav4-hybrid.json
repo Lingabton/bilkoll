@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-rav4-hybrid",
-  "scraped_at": "2026-06-01T11:07:55.006153+00:00",
+  "scraped_at": "2026-06-08T10:10:49.354521+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -14,48 +14,50 @@
       "max_price": 543957
     },
     "2024": {
-      "median_price": 489170,
+      "median_price": 502107,
       "count": 3,
       "total_on_page": 10,
       "price_type": "estimated_transaction",
-      "min_price": 417570,
-      "max_price": 502107
+      "min_price": 455607,
+      "max_price": 530007
     },
     "2023": {
-      "median_price": 437007,
+      "median_price": 446307,
       "count": 5,
-      "total_on_page": 40,
+      "total_on_page": 42,
       "price_type": "estimated_transaction",
-      "p5_price": 427614,
-      "p95_price": 510570,
-      "min_price": 427614,
-      "max_price": 510570
+      "p5_price": 426870,
+      "p95_price": 474114,
+      "min_price": 426870,
+      "max_price": 474114
     },
     "2022": {
-      "median_price": 378928,
-      "count": 4,
+      "median_price": 352888,
+      "count": 6,
       "total_on_page": 28,
       "price_type": "estimated_transaction",
-      "min_price": 344007,
-      "max_price": 398970
+      "p5_price": 278907,
+      "p95_price": 435230,
+      "min_price": 278907,
+      "max_price": 435230
     },
     "2021": {
-      "median_price": 330057,
+      "median_price": 336985,
       "count": 8,
-      "total_on_page": 61,
+      "total_on_page": 56,
       "price_type": "estimated_transaction",
-      "p5_price": 288114,
-      "p95_price": 427707,
-      "min_price": 288114,
-      "max_price": 427707
+      "p5_price": 204507,
+      "p95_price": 381207,
+      "min_price": 204507,
+      "max_price": 381207
     },
     "2020": {
-      "median_price": 316014,
+      "median_price": 306807,
       "count": 3,
       "total_on_page": 19,
       "price_type": "estimated_transaction",
-      "min_price": 306807,
-      "max_price": 370977
+      "min_price": 278070,
+      "max_price": 316014
     },
     "2019": {
       "median_price": 221805,

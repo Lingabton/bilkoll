@@ -1,26 +1,28 @@
 {
   "model_id": "renault-megane-etech",
-  "scraped_at": "2026-06-01T12:14:09.569509+00:00",
+  "scraped_at": "2026-06-08T11:18:49.467698+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2023": {
-      "median_price": 223107,
-      "count": 1,
-      "total_on_page": 21,
+      "median_price": 236964,
+      "count": 2,
+      "total_on_page": 19,
       "price_type": "estimated_transaction"
     },
     "2022": {
-      "median_price": 225339,
-      "count": 2,
-      "total_on_page": 8,
-      "price_type": "estimated_transaction"
+      "median_price": 232314,
+      "count": 3,
+      "total_on_page": 7,
+      "price_type": "estimated_transaction",
+      "min_price": 218364,
+      "max_price": 241614
     }
   },
   "validation": {
-    "is_monotonic": false,
-    "min_count_per_year": 1,
+    "is_monotonic": true,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

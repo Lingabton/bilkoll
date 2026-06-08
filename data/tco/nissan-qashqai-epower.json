@@ -1,6 +1,6 @@
 {
   "model_id": "nissan-qashqai-epower",
-  "calculated_at": "2026-06-01T14:14:06.693201+00:00",
+  "calculated_at": "2026-06-08T13:21:57.731759+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 263510,
-    "monthly_cost": 5490,
-    "cost_per_mil": 44,
+    "total_cost": 272494,
+    "monthly_cost": 5677,
+    "cost_per_mil": 45,
     "breakdown": {
-      "depreciation": 148618,
+      "depreciation": 157602,
       "fuel": 57720,
       "tax": 18182,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 322013,
+        "value": 325174,
         "confidence": "medium",
-        "data_points": 11
+        "data_points": 10
       },
       {
         "year": 2,
-        "value": 296251,
-        "confidence": "adjusted",
+        "value": 315270,
+        "confidence": "medium",
         "data_points": 7
       },
       {
         "year": 3,
-        "value": 260307,
+        "value": 250542,
         "confidence": "medium",
-        "data_points": 5
+        "data_points": 4
       },
       {
         "year": 4,
-        "value": 239482,
+        "value": 230498,
         "confidence": "adjusted",
-        "data_points": 6
+        "data_points": 5
       },
       {
         "year": 5,
-        "value": 220323,
-        "confidence": "adjusted",
-        "data_points": 2
+        "value": 147870,
+        "confidence": "medium",
+        "data_points": 1
       },
       {
         "year": 6,
-        "value": 202697,
+        "value": 130125,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 186481,
+        "value": 114510,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 171562,
+        "value": 100769,
         "confidence": "estimated",
         "data_points": 0
       }
