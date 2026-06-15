@@ -1,36 +1,36 @@
 {
   "model_id": "subaru-outback-25",
-  "scraped_at": "2026-06-08T12:10:10.485065+00:00",
+  "scraped_at": "2026-06-15T13:44:25.998481+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 441657,
-      "count": 21,
-      "total_on_page": 169,
+      "median_price": 437007,
+      "count": 20,
+      "total_on_page": 167,
       "price_type": "estimated_transaction",
       "p5_price": 399807,
-      "p95_price": 454770,
-      "min_price": 385857,
-      "max_price": 459234,
-      "median_mileage_mil": 20250
-    },
-    "2024": {
-      "median_price": 440215,
-      "count": 6,
-      "total_on_page": 44,
-      "price_type": "estimated_transaction",
-      "p5_price": 385857,
       "p95_price": 448074,
       "min_price": 385857,
       "max_price": 448074,
+      "median_mileage_mil": 20250
+    },
+    "2024": {
+      "median_price": 438774,
+      "count": 5,
+      "total_on_page": 45,
+      "price_type": "estimated_transaction",
+      "p5_price": 385857,
+      "p95_price": 443424,
+      "min_price": 385857,
+      "max_price": 443424,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 375580,
+      "median_price": 339357,
       "count": 8,
-      "total_on_page": 56,
+      "total_on_page": 59,
       "price_type": "estimated_transaction",
       "p5_price": 251007,
       "p95_price": 443424,
@@ -39,25 +39,22 @@
       "median_mileage_mil": 20230
     },
     "2022": {
-      "median_price": 350470,
-      "count": 6,
-      "total_on_page": 32,
+      "median_price": 332382,
+      "count": 4,
+      "total_on_page": 36,
       "price_type": "estimated_transaction",
-      "p5_price": 278070,
-      "p95_price": 427614,
-      "min_price": 278070,
-      "max_price": 427614,
-      "median_mileage_mil": 20221
+      "min_price": 306807,
+      "max_price": 343170
     },
     "2021": {
-      "median_price": 324988,
+      "median_price": 319920,
       "count": 2,
       "total_on_page": 17,
       "price_type": "estimated_transaction"
     }
   },
   "validation": {
-    "is_monotonic": true,
+    "is_monotonic": false,
     "min_count_per_year": 2,
     "confidence": "low"
   }

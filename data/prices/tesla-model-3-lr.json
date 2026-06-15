@@ -1,66 +1,72 @@
 {
   "model_id": "tesla-model-3-lr",
-  "scraped_at": "2026-06-08T09:45:28.324353+00:00",
+  "scraped_at": "2026-06-15T11:16:17.141213+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
+    "2025": {
+      "median_price": 408270,
+      "count": 1,
+      "total_on_page": 1,
+      "price_type": "estimated_transaction"
+    },
     "2024": {
-      "median_price": 492807,
+      "median_price": 548607,
       "count": 3,
-      "total_on_page": 30,
+      "total_on_page": 26,
       "price_type": "estimated_transaction",
-      "min_price": 398970,
-      "max_price": 502107
+      "min_price": 353307,
+      "max_price": 604314
     },
     "2023": {
-      "median_price": 329215,
+      "median_price": 323170,
       "count": 6,
-      "total_on_page": 59,
+      "total_on_page": 64,
       "price_type": "estimated_transaction",
-      "p5_price": 275270,
+      "p5_price": 273410,
       "p95_price": 418407,
-      "min_price": 275270,
+      "min_price": 273410,
       "max_price": 418407
     },
     "2022": {
-      "median_price": 288207,
-      "count": 3,
-      "total_on_page": 36,
+      "median_price": 310806,
+      "count": 4,
+      "total_on_page": 38,
       "price_type": "estimated_transaction",
-      "min_price": 278535,
+      "min_price": 283557,
       "max_price": 395157
     },
     "2021": {
-      "median_price": 347727,
-      "count": 6,
-      "total_on_page": 52,
+      "median_price": 323640,
+      "count": 5,
+      "total_on_page": 55,
       "price_type": "estimated_transaction",
-      "p5_price": 265050,
+      "p5_price": 269514,
       "p95_price": 650907,
-      "min_price": 265050,
+      "min_price": 269514,
       "max_price": 650907
     },
     "2020": {
-      "median_price": 222549,
+      "median_price": 197160,
       "count": 4,
-      "total_on_page": 42,
+      "total_on_page": 38,
       "price_type": "estimated_transaction",
-      "min_price": 175770,
+      "min_price": 172050,
       "max_price": 398970
     },
     "2019": {
-      "median_price": 290346,
+      "median_price": 290532,
       "count": 4,
-      "total_on_page": 48,
+      "total_on_page": 50,
       "price_type": "estimated_transaction",
-      "min_price": 231477,
+      "min_price": 203670,
       "max_price": 348657
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 3,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

@@ -1,57 +1,57 @@
 {
   "model_id": "dacia-sandero-tce",
-  "scraped_at": "2026-06-08T12:49:55.122798+00:00",
+  "scraped_at": "2026-06-15T14:25:11.986505+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 204507,
+      "median_price": 223107,
       "count": 7,
-      "total_on_page": 56,
+      "total_on_page": 52,
       "price_type": "estimated_transaction",
       "p5_price": 171957,
-      "p95_price": 250170,
+      "p95_price": 241707,
       "min_price": 171957,
-      "max_price": 250170,
+      "max_price": 241707,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 191952,
+      "median_price": 167307,
       "count": 2,
-      "total_on_page": 19,
+      "total_on_page": 16,
       "price_type": "estimated_transaction",
       "median_mileage_mil": 20240
     },
     "2023": {
       "median_price": 120807,
-      "count": 10,
-      "total_on_page": 85,
+      "count": 11,
+      "total_on_page": 87,
       "price_type": "estimated_transaction",
-      "p5_price": 110670,
-      "p95_price": 167307,
-      "min_price": 110670,
-      "max_price": 167307
+      "p5_price": 111507,
+      "p95_price": 148707,
+      "min_price": 111507,
+      "max_price": 148707
     },
     "2022": {
-      "median_price": 125364,
-      "count": 6,
-      "total_on_page": 28,
+      "median_price": 120714,
+      "count": 3,
+      "total_on_page": 25,
       "price_type": "estimated_transaction",
-      "p5_price": 111414,
-      "p95_price": 167214,
       "min_price": 111414,
-      "max_price": 167214
+      "max_price": 134664
     },
     "2021": {
-      "median_price": 154287,
-      "count": 2,
-      "total_on_page": 8,
-      "price_type": "estimated_transaction"
+      "median_price": 92999,
+      "count": 3,
+      "total_on_page": 7,
+      "price_type": "estimated_transaction",
+      "min_price": 55800,
+      "max_price": 178467
     }
   },
   "validation": {
-    "is_monotonic": false,
+    "is_monotonic": true,
     "min_count_per_year": 2,
     "confidence": "low"
   }

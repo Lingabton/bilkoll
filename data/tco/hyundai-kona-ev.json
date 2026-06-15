@@ -1,6 +1,6 @@
 {
   "model_id": "hyundai-kona-ev",
-  "calculated_at": "2026-06-08T13:21:57.706561+00:00",
+  "calculated_at": "2026-06-15T14:57:48.063900+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 249077,
-    "monthly_cost": 5189,
-    "cost_per_mil": 42,
+    "total_cost": 297431,
+    "monthly_cost": 6196,
+    "cost_per_mil": 50,
     "breakdown": {
-      "depreciation": 181223,
+      "depreciation": 229577,
       "fuel": 16524,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 416314,
+        "value": 367722,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 1
       },
       {
         "year": 2,
-        "value": 292857,
+        "value": 260307,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 1
       },
       {
         "year": 3,
-        "value": 269428,
+        "value": 239482,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 4,
-        "value": 268677,
-        "confidence": "medium",
-        "data_points": 2
+        "value": 220323,
+        "confidence": "adjusted",
+        "data_points": 3
       },
       {
         "year": 5,
-        "value": 211482,
+        "value": 218457,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 3
       },
       {
         "year": 6,
-        "value": 194563,
+        "value": 200980,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 7,
-        "value": 178997,
+        "value": 184901,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 8,
-        "value": 164677,
+        "value": 170108,
         "confidence": "estimated",
         "data_points": 0
       }

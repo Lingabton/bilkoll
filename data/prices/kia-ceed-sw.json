@@ -1,20 +1,22 @@
 {
   "model_id": "kia-ceed-sw",
-  "scraped_at": "2026-06-08T11:57:16.725708+00:00",
+  "scraped_at": "2026-06-15T13:31:01.844075+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
       "median_price": 260307,
-      "count": 2,
-      "total_on_page": 2,
-      "price_type": "estimated_transaction"
+      "count": 3,
+      "total_on_page": 3,
+      "price_type": "estimated_transaction",
+      "min_price": 241707,
+      "max_price": 260307
     },
     "2024": {
       "median_price": 274350,
       "count": 3,
-      "total_on_page": 3,
+      "total_on_page": 4,
       "price_type": "estimated_transaction",
       "min_price": 274164,
       "max_price": 297507
@@ -22,30 +24,30 @@
     "2023": {
       "median_price": 292857,
       "count": 2,
-      "total_on_page": 15,
+      "total_on_page": 20,
       "price_type": "estimated_transaction"
     },
     "2022": {
-      "median_price": 213807,
+      "median_price": 204414,
       "count": 3,
-      "total_on_page": 11,
+      "total_on_page": 13,
       "price_type": "estimated_transaction",
-      "min_price": 204414,
+      "min_price": 185256,
       "max_price": 241707
     },
     "2021": {
-      "median_price": 185907,
-      "count": 3,
-      "total_on_page": 4,
-      "price_type": "estimated_transaction",
-      "min_price": 185814,
-      "max_price": 194277
+      "median_price": 196974,
+      "count": 2,
+      "total_on_page": 6,
+      "price_type": "estimated_transaction"
     },
     "2020": {
-      "median_price": 199810,
-      "count": 2,
-      "total_on_page": 9,
-      "price_type": "estimated_transaction"
+      "median_price": 195207,
+      "count": 3,
+      "total_on_page": 10,
+      "price_type": "estimated_transaction",
+      "min_price": 158007,
+      "max_price": 204414
     },
     "2019": {
       "median_price": 110670,
@@ -53,15 +55,13 @@
       "total_on_page": 16,
       "price_type": "estimated_transaction",
       "min_price": 83607,
-      "max_price": 147870
+      "max_price": 166656
     },
     "2018": {
-      "median_price": 120807,
-      "count": 3,
-      "total_on_page": 16,
-      "price_type": "estimated_transaction",
-      "min_price": 65007,
-      "max_price": 125085
+      "median_price": 88303,
+      "count": 2,
+      "total_on_page": 14,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {

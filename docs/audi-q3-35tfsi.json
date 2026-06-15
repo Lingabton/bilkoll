@@ -1,6 +1,6 @@
 {
   "model_id": "audi-q3-35tfsi",
-  "calculated_at": "2026-06-08T13:21:57.732520+00:00",
+  "calculated_at": "2026-06-15T14:57:48.088161+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 312270,
-    "monthly_cost": 6506,
-    "cost_per_mil": 52,
+    "total_cost": 285912,
+    "monthly_cost": 5956,
+    "cost_per_mil": 48,
     "breakdown": {
-      "depreciation": 164850,
+      "depreciation": 138492,
       "fuel": 68820,
       "tax": 26510,
       "insurance": {
@@ -33,45 +33,45 @@
       },
       {
         "year": 1,
-        "value": 395600,
-        "confidence": "adjusted",
-        "data_points": 2
-      },
-      {
-        "year": 2,
-        "value": 371907,
+        "value": 427707,
         "confidence": "medium",
         "data_points": 3
       },
       {
+        "year": 2,
+        "value": 395157,
+        "confidence": "medium",
+        "data_points": 2
+      },
+      {
         "year": 3,
-        "value": 288207,
+        "value": 296670,
         "confidence": "medium",
         "data_points": 5
       },
       {
         "year": 4,
-        "value": 265150,
-        "confidence": "adjusted",
+        "value": 291508,
+        "confidence": "medium",
         "data_points": 2
       },
       {
         "year": 5,
-        "value": 243938,
+        "value": 268187,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 6,
-        "value": 224422,
-        "confidence": "adjusted",
-        "data_points": 2
+        "value": 260400,
+        "confidence": "medium",
+        "data_points": 3
       },
       {
         "year": 7,
-        "value": 213807,
+        "value": 227757,
         "confidence": "medium",
-        "data_points": 1
+        "data_points": 2
       },
       {
         "year": 8,

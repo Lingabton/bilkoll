@@ -1,6 +1,6 @@
 {
   "model_id": "dacia-duster-hybrid",
-  "calculated_at": "2026-06-08T13:21:57.734351+00:00",
+  "calculated_at": "2026-06-15T14:57:48.090054+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,19 +33,19 @@
       },
       {
         "year": 1,
-        "value": 287928,
+        "value": 284301,
         "confidence": "medium",
-        "data_points": 5
+        "data_points": 4
       },
       {
         "year": 2,
-        "value": 264893,
+        "value": 261556,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 3,
-        "value": 261631,
+        "value": 240631,
         "confidence": "estimated",
         "data_points": 0
       },

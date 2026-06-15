@@ -1,6 +1,6 @@
 {
   "model_id": "peugeot-e208",
-  "calculated_at": "2026-06-08T13:21:57.707959+00:00",
+  "calculated_at": "2026-06-15T14:57:48.065453+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 204728,
-    "monthly_cost": 4265,
-    "cost_per_mil": 34,
+    "total_cost": 214128,
+    "monthly_cost": 4461,
+    "cost_per_mil": 36,
     "breakdown": {
-      "depreciation": 147530,
+      "depreciation": 156930,
       "fuel": 18468,
       "tax": 1440,
       "insurance": {
@@ -47,17 +47,17 @@
         "year": 3,
         "value": 241707,
         "confidence": "medium",
-        "data_points": 3
+        "data_points": 1
       },
       {
         "year": 4,
-        "value": 222370,
-        "confidence": "adjusted",
-        "data_points": 4
+        "value": 212970,
+        "confidence": "medium",
+        "data_points": 3
       },
       {
         "year": 5,
-        "value": 204580,
+        "value": 195932,
         "confidence": "adjusted",
         "data_points": 2
       },

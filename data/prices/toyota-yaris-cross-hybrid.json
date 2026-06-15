@@ -1,63 +1,60 @@
 {
   "model_id": "toyota-yaris-cross-hybrid",
-  "scraped_at": "2026-06-08T10:25:04.733590+00:00",
+  "scraped_at": "2026-06-15T11:55:35.378794+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 273838,
+      "median_price": 262632,
       "count": 8,
-      "total_on_page": 72,
+      "total_on_page": 70,
       "price_type": "estimated_transaction",
       "p5_price": 255657,
       "p95_price": 362607,
       "min_price": 255657,
-      "max_price": 362607,
-      "median_mileage_mil": 20250
+      "max_price": 362607
     },
     "2024": {
-      "median_price": 288207,
-      "count": 5,
-      "total_on_page": 47,
+      "median_price": 316107,
+      "count": 6,
+      "total_on_page": 44,
       "price_type": "estimated_transaction",
       "p5_price": 250170,
-      "p95_price": 343914,
+      "p95_price": 344007,
       "min_price": 250170,
-      "max_price": 343914
+      "max_price": 344007
     },
     "2023": {
-      "median_price": 206832,
+      "median_price": 259888,
       "count": 8,
-      "total_on_page": 52,
+      "total_on_page": 56,
       "price_type": "estimated_transaction",
-      "p5_price": 144057,
-      "p95_price": 316014,
-      "min_price": 144057,
-      "max_price": 316014
+      "p5_price": 167307,
+      "p95_price": 302157,
+      "min_price": 167307,
+      "max_price": 302157
     },
     "2022": {
       "median_price": 237057,
-      "count": 9,
-      "total_on_page": 57,
+      "count": 7,
+      "total_on_page": 51,
       "price_type": "estimated_transaction",
       "p5_price": 176607,
-      "p95_price": 269607,
+      "p95_price": 297507,
       "min_price": 176607,
-      "max_price": 269607
+      "max_price": 297507
     },
     "2021": {
-      "median_price": 260307,
-      "count": 3,
-      "total_on_page": 4,
-      "price_type": "estimated_transaction",
-      "min_price": 241707,
-      "max_price": 287370
+      "median_price": 251007,
+      "count": 2,
+      "total_on_page": 6,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 3,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

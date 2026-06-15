@@ -1,24 +1,23 @@
 {
   "model_id": "dacia-duster-hybrid",
-  "scraped_at": "2026-06-08T13:21:56.063710+00:00",
+  "scraped_at": "2026-06-15T14:57:46.228972+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 287928,
-      "count": 5,
-      "total_on_page": 32,
+      "median_price": 284301,
+      "count": 4,
+      "total_on_page": 35,
       "price_type": "estimated_transaction",
-      "p5_price": 259377,
-      "p95_price": 311457,
       "min_price": 259377,
-      "max_price": 311457
+      "max_price": 315270,
+      "median_mileage_mil": 20250
     },
     "2024": {
       "median_price": 297309,
       "count": 2,
-      "total_on_page": 12,
+      "total_on_page": 10,
       "price_type": "estimated_transaction"
     }
   },

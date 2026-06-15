@@ -1,35 +1,36 @@
 {
   "model_id": "bmw-x3-phev",
-  "scraped_at": "2026-06-08T13:17:28.642713+00:00",
+  "scraped_at": "2026-06-15T14:53:24.612665+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 622170,
+      "median_price": 669321,
       "count": 13,
-      "total_on_page": 118,
+      "total_on_page": 109,
       "price_type": "estimated_transaction",
-      "p5_price": 511407,
-      "p95_price": 836814,
-      "min_price": 511407,
-      "max_price": 836814
+      "p5_price": 594270,
+      "p95_price": 948135,
+      "min_price": 594270,
+      "max_price": 948135,
+      "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 762414,
-      "count": 5,
+      "median_price": 767110,
+      "count": 6,
       "total_on_page": 27,
       "price_type": "estimated_transaction",
-      "p5_price": 455421,
-      "p95_price": 805287,
-      "min_price": 455421,
-      "max_price": 805287,
+      "p5_price": 497457,
+      "p95_price": 814587,
+      "min_price": 497457,
+      "max_price": 814587,
       "median_mileage_mil": 20240
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 5,
+    "min_count_per_year": 6,
     "confidence": "low"
   }
 }

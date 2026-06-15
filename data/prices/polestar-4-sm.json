@@ -1,22 +1,22 @@
 {
   "model_id": "polestar-4-sm",
-  "scraped_at": "2026-06-08T11:23:22.153818+00:00",
+  "scraped_at": "2026-06-15T12:56:39.432740+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 595107,
+      "median_price": 590457,
       "count": 4,
-      "total_on_page": 40,
+      "total_on_page": 44,
       "price_type": "estimated_transaction",
       "min_price": 581157,
-      "max_price": 636957
+      "max_price": 604407
     },
     "2024": {
-      "median_price": 594456,
+      "median_price": 608359,
       "count": 4,
-      "total_on_page": 35,
+      "total_on_page": 37,
       "price_type": "estimated_transaction",
       "min_price": 585714,
       "max_price": 753207,
@@ -24,7 +24,7 @@
     }
   },
   "validation": {
-    "is_monotonic": true,
+    "is_monotonic": false,
     "min_count_per_year": 4,
     "confidence": "low"
   }

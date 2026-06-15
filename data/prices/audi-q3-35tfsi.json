@@ -1,28 +1,28 @@
 {
   "model_id": "audi-q3-35tfsi",
-  "scraped_at": "2026-06-08T13:15:46.723289+00:00",
+  "scraped_at": "2026-06-15T14:51:40.116717+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 436588,
-      "count": 2,
-      "total_on_page": 17,
-      "price_type": "estimated_transaction"
+      "median_price": 427707,
+      "count": 3,
+      "total_on_page": 19,
+      "price_type": "estimated_transaction",
+      "min_price": 426870,
+      "max_price": 459420
     },
     "2024": {
-      "median_price": 371907,
-      "count": 3,
-      "total_on_page": 7,
-      "price_type": "estimated_transaction",
-      "min_price": 353307,
-      "max_price": 446307
+      "median_price": 395157,
+      "count": 2,
+      "total_on_page": 9,
+      "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 288207,
+      "median_price": 296670,
       "count": 5,
-      "total_on_page": 33,
+      "total_on_page": 34,
       "price_type": "estimated_transaction",
       "p5_price": 278907,
       "p95_price": 538470,
@@ -31,27 +31,29 @@
       "median_mileage_mil": 20230
     },
     "2022": {
-      "median_price": 292438,
+      "median_price": 291508,
       "count": 2,
       "total_on_page": 9,
       "price_type": "estimated_transaction"
     },
     "2021": {
-      "median_price": 285649,
+      "median_price": 313596,
       "count": 2,
-      "total_on_page": 17,
+      "total_on_page": 20,
       "price_type": "estimated_transaction"
     },
     "2020": {
-      "median_price": 287788,
-      "count": 2,
-      "total_on_page": 18,
-      "price_type": "estimated_transaction"
+      "median_price": 260400,
+      "count": 3,
+      "total_on_page": 19,
+      "price_type": "estimated_transaction",
+      "min_price": 259470,
+      "max_price": 288300
     },
     "2019": {
-      "median_price": 213807,
-      "count": 1,
-      "total_on_page": 21,
+      "median_price": 227757,
+      "count": 2,
+      "total_on_page": 22,
       "price_type": "estimated_transaction"
     },
     "2018": {

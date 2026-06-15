@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc40-recharge",
-  "scraped_at": "2026-06-08T09:53:07.830287+00:00",
+  "scraped_at": "2026-06-15T11:23:52.415748+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -8,35 +8,35 @@
     "2024": {
       "median_price": 390507,
       "count": 3,
-      "total_on_page": 24,
+      "total_on_page": 23,
       "price_type": "estimated_transaction",
       "min_price": 390507,
-      "max_price": 418407
+      "max_price": 395157
     },
     "2023": {
-      "median_price": 306714,
-      "count": 23,
-      "total_on_page": 421,
+      "median_price": 302157,
+      "count": 27,
+      "total_on_page": 440,
       "price_type": "estimated_transaction",
-      "p5_price": 260307,
-      "p95_price": 357585,
-      "min_price": 260307,
-      "max_price": 371907
+      "p5_price": 283557,
+      "p95_price": 325407,
+      "min_price": 269607,
+      "max_price": 325407
     },
     "2022": {
-      "median_price": 297507,
-      "count": 9,
-      "total_on_page": 95,
+      "median_price": 309132,
+      "count": 10,
+      "total_on_page": 90,
       "price_type": "estimated_transaction",
-      "p5_price": 241614,
-      "p95_price": 482670,
-      "min_price": 241614,
-      "max_price": 482670
+      "p5_price": 278070,
+      "p95_price": 362607,
+      "min_price": 278070,
+      "max_price": 362607
     },
     "2021": {
-      "median_price": 567160,
-      "count": 2,
-      "total_on_page": 12,
+      "median_price": 669507,
+      "count": 1,
+      "total_on_page": 11,
       "price_type": "estimated_transaction",
       "median_mileage_mil": 20210
     },
@@ -49,7 +49,7 @@
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 2,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

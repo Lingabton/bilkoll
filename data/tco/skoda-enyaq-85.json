@@ -1,6 +1,6 @@
 {
   "model_id": "skoda-enyaq-85",
-  "calculated_at": "2026-06-08T13:21:57.706201+00:00",
+  "calculated_at": "2026-06-15T14:57:48.063481+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 341835,
-    "monthly_cost": 7122,
-    "cost_per_mil": 57,
+    "total_cost": 332535,
+    "monthly_cost": 6928,
+    "cost_per_mil": 55,
     "breakdown": {
-      "depreciation": 279493,
+      "depreciation": 270193,
       "fuel": 20412,
       "tax": 1440,
       "insurance": {
@@ -39,43 +39,43 @@
       },
       {
         "year": 2,
-        "value": 444826,
-        "confidence": "adjusted",
+        "value": 474114,
+        "confidence": "medium",
         "data_points": 5
       },
       {
         "year": 3,
-        "value": 380370,
+        "value": 390042,
         "confidence": "medium",
-        "data_points": 7
+        "data_points": 8
       },
       {
         "year": 4,
-        "value": 325407,
+        "value": 334707,
         "confidence": "medium",
         "data_points": 5
       },
       {
         "year": 5,
-        "value": 299374,
+        "value": 307930,
         "confidence": "adjusted",
-        "data_points": 3
+        "data_points": 2
       },
       {
         "year": 6,
-        "value": 275424,
+        "value": 283295,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 253390,
+        "value": 260631,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 233118,
+        "value": 239780,
         "confidence": "estimated",
         "data_points": 0
       }

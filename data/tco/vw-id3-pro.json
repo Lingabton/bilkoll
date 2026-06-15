@@ -1,6 +1,6 @@
 {
   "model_id": "vw-id3-pro",
-  "calculated_at": "2026-06-08T13:21:57.706888+00:00",
+  "calculated_at": "2026-06-15T14:57:48.064270+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 260782,
-    "monthly_cost": 5433,
-    "cost_per_mil": 43,
+    "total_cost": 242600,
+    "monthly_cost": 5054,
+    "cost_per_mil": 40,
     "breakdown": {
-      "depreciation": 198112,
+      "depreciation": 179930,
       "fuel": 19440,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 494713,
+        "value": 434496,
         "confidence": "medium",
         "data_points": 2
       },
       {
         "year": 2,
-        "value": 371488,
-        "confidence": "medium",
+        "value": 399736,
+        "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 3,
-        "value": 343914,
+        "value": 340375,
         "confidence": "medium",
-        "data_points": 3
+        "data_points": 4
       },
       {
         "year": 4,
-        "value": 306388,
+        "value": 324570,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 1
       },
       {
         "year": 5,
-        "value": 223014,
+        "value": 212970,
         "confidence": "medium",
-        "data_points": 5
+        "data_points": 4
       },
       {
         "year": 6,
-        "value": 209157,
+        "value": 195207,
         "confidence": "medium",
         "data_points": 4
       },
       {
         "year": 7,
-        "value": 184058,
+        "value": 171782,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 161971,
+        "value": 151168,
         "confidence": "estimated",
         "data_points": 0
       }

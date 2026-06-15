@@ -1,6 +1,6 @@
 {
   "model_id": "mg-mg4-standard",
-  "scraped_at": "2026-06-08T11:19:59.611793+00:00",
+  "scraped_at": "2026-06-15T12:53:21.203329+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -13,14 +13,12 @@
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 368884,
-      "count": 5,
-      "total_on_page": 49,
+      "median_price": 312984,
+      "count": 4,
+      "total_on_page": 46,
       "price_type": "estimated_transaction",
-      "p5_price": 241707,
-      "p95_price": 371990,
-      "min_price": 241707,
-      "max_price": 371990,
+      "min_price": 213807,
+      "max_price": 334707,
       "median_mileage_mil": 20230
     }
   },

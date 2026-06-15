@@ -1,6 +1,6 @@
 {
   "model_id": "skoda-enyaq-85",
-  "scraped_at": "2026-06-08T10:16:20.119947+00:00",
+  "scraped_at": "2026-06-15T11:46:52.580181+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -8,25 +8,25 @@
     "2025": {
       "median_price": 483507,
       "count": 3,
-      "total_on_page": 3,
+      "total_on_page": 4,
       "price_type": "estimated_transaction",
-      "min_price": 473370,
-      "max_price": 502107
+      "min_price": 464070,
+      "max_price": 497457
     },
     "2024": {
-      "median_price": 497457,
+      "median_price": 474114,
       "count": 5,
-      "total_on_page": 34,
+      "total_on_page": 47,
       "price_type": "estimated_transaction",
-      "p5_price": 469557,
+      "p5_price": 455607,
       "p95_price": 520707,
-      "min_price": 469557,
+      "min_price": 455607,
       "max_price": 520707
     },
     "2023": {
-      "median_price": 380370,
-      "count": 7,
-      "total_on_page": 67,
+      "median_price": 390042,
+      "count": 8,
+      "total_on_page": 65,
       "price_type": "estimated_transaction",
       "p5_price": 302250,
       "p95_price": 669507,
@@ -35,27 +35,25 @@
       "median_mileage_mil": 20230
     },
     "2022": {
-      "median_price": 325407,
+      "median_price": 334707,
       "count": 5,
-      "total_on_page": 27,
+      "total_on_page": 31,
       "price_type": "estimated_transaction",
-      "p5_price": 176607,
-      "p95_price": 334707,
-      "min_price": 176607,
-      "max_price": 334707
+      "p5_price": 316107,
+      "p95_price": 362607,
+      "min_price": 316107,
+      "max_price": 362607
     },
     "2021": {
-      "median_price": 390507,
-      "count": 3,
-      "total_on_page": 16,
-      "price_type": "estimated_transaction",
-      "min_price": 138570,
-      "max_price": 483507
+      "median_price": 437007,
+      "count": 2,
+      "total_on_page": 20,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 3,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

@@ -1,6 +1,6 @@
 {
   "model_id": "polestar-4-sm",
-  "calculated_at": "2026-06-08T13:21:57.718665+00:00",
+  "calculated_at": "2026-06-15T14:57:48.074282+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 404852,
-    "monthly_cost": 8434,
-    "cost_per_mil": 67,
+    "total_cost": 394085,
+    "monthly_cost": 8210,
+    "cost_per_mil": 66,
     "breakdown": {
-      "depreciation": 325654,
+      "depreciation": 314887,
       "fuel": 18468,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 595107,
+        "value": 590457,
         "confidence": "medium",
         "data_points": 4
       },
       {
         "year": 2,
-        "value": 594456,
-        "confidence": "medium",
+        "value": 543220,
+        "confidence": "adjusted",
         "data_points": 4
       },
       {
         "year": 3,
-        "value": 523121,
+        "value": 535355,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 460346,
+        "value": 471113,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 405105,
+        "value": 414579,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 356492,
+        "value": 364830,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 313713,
+        "value": 321050,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 276067,
+        "value": 282524,
         "confidence": "estimated",
         "data_points": 0
       }

@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc60-b5-bensin",
-  "calculated_at": "2026-06-08T13:21:57.702184+00:00",
+  "calculated_at": "2026-06-15T14:57:48.058926+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 473919,
-    "monthly_cost": 9873,
-    "cost_per_mil": 79,
+    "total_cost": 478057,
+    "monthly_cost": 9960,
+    "cost_per_mil": 80,
     "breakdown": {
-      "depreciation": 332655,
+      "depreciation": 336793,
       "fuel": 83250,
       "tax": 3024,
       "insurance": {
@@ -33,55 +33,55 @@
       },
       {
         "year": 1,
-        "value": 553768,
+        "value": 557907,
         "confidence": "medium",
         "data_points": 30
       },
       {
         "year": 2,
-        "value": 464907,
+        "value": 448585,
         "confidence": "medium",
         "data_points": 30
       },
       {
         "year": 3,
-        "value": 399388,
+        "value": 417988,
         "confidence": "medium",
         "data_points": 30
       },
       {
         "year": 4,
-        "value": 385345,
+        "value": 381207,
         "confidence": "medium",
         "data_points": 30
       },
       {
         "year": 5,
-        "value": 348610,
+        "value": 343960,
         "confidence": "medium",
         "data_points": 30
       },
       {
         "year": 6,
-        "value": 334707,
+        "value": 334614,
         "confidence": "medium",
-        "data_points": 29
+        "data_points": 30
       },
       {
         "year": 7,
-        "value": 297507,
+        "value": 294763,
         "confidence": "medium",
-        "data_points": 23
+        "data_points": 22
       },
       {
         "year": 8,
-        "value": 271932,
+        "value": 269560,
         "confidence": "medium",
         "data_points": 20
       },
       {
         "year": 9,
-        "value": 239300,
+        "value": 237212,
         "confidence": "estimated",
         "data_points": 0
       }

@@ -1,56 +1,56 @@
 {
   "model_id": "kia-ev6-lr",
-  "scraped_at": "2026-06-08T10:00:11.946404+00:00",
+  "scraped_at": "2026-06-15T11:30:39.600198+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 524892,
-      "count": 10,
-      "total_on_page": 90,
+      "median_price": 530007,
+      "count": 9,
+      "total_on_page": 84,
       "price_type": "estimated_transaction",
-      "p5_price": 502107,
-      "p95_price": 557907,
-      "min_price": 502107,
-      "max_price": 557907,
+      "p5_price": 446307,
+      "p95_price": 585807,
+      "min_price": 446307,
+      "max_price": 585807,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 540864,
-      "count": 7,
-      "total_on_page": 51,
+      "median_price": 535435,
+      "count": 6,
+      "total_on_page": 48,
       "price_type": "estimated_transaction",
       "p5_price": 418407,
-      "p95_price": 587202,
+      "p95_price": 579204,
       "min_price": 418407,
-      "max_price": 587202,
+      "max_price": 579204,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 425847,
-      "count": 8,
-      "total_on_page": 74,
+      "median_price": 352470,
+      "count": 7,
+      "total_on_page": 71,
       "price_type": "estimated_transaction",
-      "p5_price": 316107,
+      "p5_price": 306807,
       "p95_price": 579297,
-      "min_price": 316107,
+      "min_price": 306807,
       "max_price": 579297
     },
     "2022": {
-      "median_price": 338003,
-      "count": 10,
-      "total_on_page": 93,
+      "median_price": 353307,
+      "count": 12,
+      "total_on_page": 85,
       "price_type": "estimated_transaction",
-      "p5_price": 302157,
+      "p5_price": 288021,
       "p95_price": 557907,
-      "min_price": 302157,
+      "min_price": 288021,
       "max_price": 557907
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 7,
+    "min_count_per_year": 6,
     "confidence": "low"
   }
 }

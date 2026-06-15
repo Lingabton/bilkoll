@@ -1,45 +1,44 @@
 {
   "model_id": "toyota-corolla-hybrid",
-  "scraped_at": "2026-06-08T10:07:25.226732+00:00",
+  "scraped_at": "2026-06-15T11:37:39.041727+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
       "median_price": 306807,
-      "count": 15,
-      "total_on_page": 104,
+      "count": 14,
+      "total_on_page": 105,
       "price_type": "estimated_transaction",
       "p5_price": 246357,
-      "p95_price": 357585,
+      "p95_price": 362607,
       "min_price": 246357,
-      "max_price": 357585,
-      "median_mileage_mil": 20250
+      "max_price": 362607
     },
     "2024": {
       "median_price": 292857,
       "count": 11,
-      "total_on_page": 83,
+      "total_on_page": 76,
       "price_type": "estimated_transaction",
-      "p5_price": 264957,
-      "p95_price": 316107,
-      "min_price": 264957,
-      "max_price": 316107
+      "p5_price": 269607,
+      "p95_price": 325314,
+      "min_price": 269607,
+      "max_price": 325314
     },
     "2023": {
-      "median_price": 269607,
+      "median_price": 273420,
       "count": 9,
       "total_on_page": 54,
       "price_type": "estimated_transaction",
-      "p5_price": 246357,
-      "p95_price": 306807,
-      "min_price": 246357,
-      "max_price": 306807
+      "p5_price": 218457,
+      "p95_price": 315270,
+      "min_price": 218457,
+      "max_price": 315270
     },
     "2022": {
-      "median_price": 251007,
+      "median_price": 240870,
       "count": 5,
-      "total_on_page": 40,
+      "total_on_page": 38,
       "price_type": "estimated_transaction",
       "p5_price": 223014,
       "p95_price": 269607,
@@ -47,39 +46,37 @@
       "max_price": 269607
     },
     "2021": {
-      "median_price": 209064,
-      "count": 8,
-      "total_on_page": 52,
+      "median_price": 202182,
+      "count": 6,
+      "total_on_page": 33,
       "price_type": "estimated_transaction",
-      "p5_price": 176607,
-      "p95_price": 255657,
-      "min_price": 176607,
-      "max_price": 255657
+      "p5_price": 171957,
+      "p95_price": 241707,
+      "min_price": 171957,
+      "max_price": 241707
     },
     "2020": {
-      "median_price": 194835,
+      "median_price": 204507,
       "count": 5,
-      "total_on_page": 42,
+      "total_on_page": 34,
       "price_type": "estimated_transaction",
-      "p5_price": 148707,
+      "p5_price": 115785,
       "p95_price": 223107,
-      "min_price": 148707,
+      "min_price": 115785,
       "max_price": 223107
     },
     "2019": {
-      "median_price": 181257,
-      "count": 8,
-      "total_on_page": 65,
+      "median_price": 199857,
+      "count": 4,
+      "total_on_page": 45,
       "price_type": "estimated_transaction",
-      "p5_price": 147870,
-      "p95_price": 227385,
-      "min_price": 147870,
-      "max_price": 227385
+      "min_price": 185907,
+      "max_price": 213807
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 5,
+    "is_monotonic": false,
+    "min_count_per_year": 4,
     "confidence": "low"
   }
 }

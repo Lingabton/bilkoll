@@ -1,6 +1,6 @@
 {
   "model_id": "mini-cooper-se",
-  "calculated_at": "2026-06-08T13:21:57.721634+00:00",
+  "calculated_at": "2026-06-15T14:57:48.076641+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,9 +33,9 @@
       },
       {
         "year": 1,
-        "value": 364885,
+        "value": 371814,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 3
       },
       {
         "year": 2,
