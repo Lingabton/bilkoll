@@ -1,6 +1,6 @@
 {
   "model_id": "kia-ev3-lr",
-  "calculated_at": "2026-06-15T14:57:48.068705+00:00",
+  "calculated_at": "2026-06-22T14:47:53.804801+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -35,7 +35,7 @@
         "year": 1,
         "value": 464860,
         "confidence": "medium",
-        "data_points": 16
+        "data_points": 18
       },
       {
         "year": 2,

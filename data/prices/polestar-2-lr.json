@@ -1,68 +1,66 @@
 {
   "model_id": "polestar-2-lr",
-  "scraped_at": "2026-06-15T12:07:02.595451+00:00",
+  "scraped_at": "2026-06-22T11:55:23.075225+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 547770,
-      "count": 4,
-      "total_on_page": 46,
+      "median_price": 532332,
+      "count": 6,
+      "total_on_page": 52,
       "price_type": "estimated_transaction",
-      "min_price": 525450,
+      "p5_price": 497457,
+      "p95_price": 693780,
+      "min_price": 497457,
       "max_price": 693780,
-      "median_mileage_mil": 20252
+      "median_mileage_mil": 20253
     },
     "2024": {
-      "median_price": 516057,
-      "count": 3,
-      "total_on_page": 25,
+      "median_price": 603988,
+      "count": 2,
+      "total_on_page": 20,
       "price_type": "estimated_transaction",
-      "min_price": 514197,
-      "max_price": 516057,
-      "median_mileage_mil": 20247
+      "median_mileage_mil": 20244
     },
     "2023": {
-      "median_price": 399807,
-      "count": 6,
-      "total_on_page": 70,
+      "median_price": 344007,
+      "count": 8,
+      "total_on_page": 76,
       "price_type": "estimated_transaction",
-      "p5_price": 324570,
-      "p95_price": 427521,
-      "min_price": 324570,
-      "max_price": 427521
+      "p5_price": 273885,
+      "p95_price": 446307,
+      "min_price": 273885,
+      "max_price": 446307
     },
     "2022": {
-      "median_price": 302157,
-      "count": 3,
-      "total_on_page": 46,
+      "median_price": 299832,
+      "count": 6,
+      "total_on_page": 52,
       "price_type": "estimated_transaction",
-      "min_price": 259470,
-      "max_price": 371907
+      "p5_price": 274257,
+      "p95_price": 325314,
+      "min_price": 274257,
+      "max_price": 325314
     },
     "2021": {
-      "median_price": 313782,
-      "count": 4,
-      "total_on_page": 33,
+      "median_price": 325407,
+      "count": 3,
+      "total_on_page": 30,
       "price_type": "estimated_transaction",
-      "min_price": 287370,
+      "min_price": 318980,
       "max_price": 367257
     },
     "2020": {
-      "median_price": 319827,
-      "count": 5,
-      "total_on_page": 31,
-      "price_type": "estimated_transaction",
-      "p5_price": 287370,
-      "p95_price": 344007,
-      "min_price": 287370,
-      "max_price": 344007
+      "median_price": 290113,
+      "count": 2,
+      "total_on_page": 23,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 3,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

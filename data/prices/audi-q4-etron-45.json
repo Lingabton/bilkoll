@@ -1,38 +1,36 @@
 {
   "model_id": "audi-q4-etron-45",
-  "scraped_at": "2026-06-15T12:36:51.168811+00:00",
+  "scraped_at": "2026-06-22T12:26:01.119740+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 566835,
-      "count": 3,
-      "total_on_page": 10,
-      "price_type": "estimated_transaction",
-      "min_price": 547770,
-      "max_price": 603570
+      "median_price": 603570,
+      "count": 1,
+      "total_on_page": 11,
+      "price_type": "estimated_transaction"
     },
     "2024": {
-      "median_price": 497457,
-      "count": 2,
-      "total_on_page": 22,
+      "median_price": 548607,
+      "count": 1,
+      "total_on_page": 21,
       "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 320338,
-      "count": 10,
+      "median_price": 320757,
+      "count": 8,
       "total_on_page": 80,
       "price_type": "estimated_transaction",
       "p5_price": 269421,
-      "p95_price": 483507,
+      "p95_price": 414687,
       "min_price": 269421,
-      "max_price": 483507
+      "max_price": 414687
     },
     "2022": {
-      "median_price": 310620,
-      "count": 6,
-      "total_on_page": 28,
+      "median_price": 315270,
+      "count": 5,
+      "total_on_page": 27,
       "price_type": "estimated_transaction",
       "p5_price": 268770,
       "p95_price": 371070,
@@ -48,7 +46,7 @@
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 2,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

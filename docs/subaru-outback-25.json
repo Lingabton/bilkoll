@@ -1,6 +1,6 @@
 {
   "model_id": "subaru-outback-25",
-  "calculated_at": "2026-06-15T14:57:48.080073+00:00",
+  "calculated_at": "2026-06-22T14:47:53.815253+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -35,47 +35,47 @@
         "year": 1,
         "value": 395508,
         "confidence": "adjusted",
-        "data_points": 20
+        "data_points": 19
       },
       {
         "year": 2,
         "value": 363867,
         "confidence": "adjusted",
-        "data_points": 5
+        "data_points": 6
       },
       {
         "year": 3,
-        "value": 339357,
+        "value": 339264,
         "confidence": "medium",
-        "data_points": 8
+        "data_points": 9
       },
       {
         "year": 4,
         "value": 332382,
         "confidence": "medium",
-        "data_points": 4
+        "data_points": 6
       },
       {
         "year": 5,
-        "value": 319920,
+        "value": 306807,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 3
       },
       {
         "year": 6,
-        "value": 281529,
+        "value": 269990,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 247746,
+        "value": 237591,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 218016,
+        "value": 209080,
         "confidence": "estimated",
         "data_points": 0
       }

@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc40-recharge",
-  "calculated_at": "2026-06-15T14:57:48.060280+00:00",
+  "calculated_at": "2026-06-22T14:47:53.797078+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 383702,
-    "monthly_cost": 7994,
-    "cost_per_mil": 64,
+    "total_cost": 390077,
+    "monthly_cost": 8127,
+    "cost_per_mil": 65,
     "breakdown": {
-      "depreciation": 321916,
+      "depreciation": 328291,
       "fuel": 22356,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 343646,
+        "value": 345692,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 2,
-        "value": 316154,
+        "value": 318036,
+        "confidence": "adjusted",
+        "data_points": 4
+      },
+      {
+        "year": 3,
+        "value": 295228,
+        "confidence": "medium",
+        "data_points": 28
+      },
+      {
+        "year": 4,
+        "value": 271609,
+        "confidence": "adjusted",
+        "data_points": 12
+      },
+      {
+        "year": 5,
+        "value": 249880,
         "confidence": "adjusted",
         "data_points": 3
       },
       {
-        "year": 3,
-        "value": 302157,
-        "confidence": "medium",
-        "data_points": 27
-      },
-      {
-        "year": 4,
-        "value": 277984,
-        "confidence": "adjusted",
-        "data_points": 10
-      },
-      {
-        "year": 5,
-        "value": 255745,
-        "confidence": "adjusted",
-        "data_points": 1
-      },
-      {
         "year": 6,
-        "value": 235285,
+        "value": 229889,
         "confidence": "adjusted",
-        "data_points": 2
+        "data_points": 3
       },
       {
         "year": 7,
-        "value": 216462,
+        "value": 211497,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 199145,
+        "value": 194577,
         "confidence": "estimated",
         "data_points": 0
       }

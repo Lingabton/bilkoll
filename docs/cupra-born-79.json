@@ -1,6 +1,6 @@
 {
   "model_id": "cupra-born-79",
-  "calculated_at": "2026-06-15T14:57:48.065854+00:00",
+  "calculated_at": "2026-06-22T14:47:53.802221+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,9 +33,9 @@
       },
       {
         "year": 1,
-        "value": 371907,
+        "value": 362607,
         "confidence": "medium",
-        "data_points": 1
+        "data_points": 2
       },
       {
         "year": 2,
@@ -47,7 +47,7 @@
         "year": 3,
         "value": 241707,
         "confidence": "medium",
-        "data_points": 5
+        "data_points": 1
       },
       {
         "year": 4,

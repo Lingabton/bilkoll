@@ -1,6 +1,6 @@
 {
   "model_id": "skoda-superb-tsi",
-  "calculated_at": "2026-06-15T14:57:48.088935+00:00",
+  "calculated_at": "2026-06-22T14:47:53.823195+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 247432,
-    "monthly_cost": 5155,
-    "cost_per_mil": 41,
+    "total_cost": 227865,
+    "monthly_cost": 4747,
+    "cost_per_mil": 38,
     "breakdown": {
-      "depreciation": 121952,
+      "depreciation": 102385,
       "fuel": 61050,
       "tax": 20240,
       "insurance": {
@@ -35,7 +35,7 @@
         "year": 1,
         "value": 395600,
         "confidence": "adjusted",
-        "data_points": 2
+        "data_points": 6
       },
       {
         "year": 2,
@@ -51,31 +51,31 @@
       },
       {
         "year": 4,
-        "value": 308048,
+        "value": 327615,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 283404,
+        "value": 288301,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 279639,
+        "value": 253705,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 246082,
+        "value": 223260,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 216552,
+        "value": 196469,
         "confidence": "estimated",
         "data_points": 0
       }

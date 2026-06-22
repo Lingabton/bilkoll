@@ -1,6 +1,6 @@
 {
   "model_id": "kia-ev9-rwd",
-  "calculated_at": "2026-06-15T14:57:48.084960+00:00",
+  "calculated_at": "2026-06-22T14:47:53.819647+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -35,19 +35,19 @@
         "year": 1,
         "value": 743907,
         "confidence": "medium",
-        "data_points": 12
+        "data_points": 11
       },
       {
         "year": 2,
         "value": 684394,
         "confidence": "adjusted",
-        "data_points": 3
+        "data_points": 5
       },
       {
         "year": 3,
         "value": 629642,
         "confidence": "adjusted",
-        "data_points": 3
+        "data_points": 2
       },
       {
         "year": 4,
@@ -57,25 +57,25 @@
       },
       {
         "year": 5,
-        "value": 576009,
+        "value": 554507,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 506888,
+        "value": 487966,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 446061,
+        "value": 429410,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 392534,
+        "value": 377881,
         "confidence": "estimated",
         "data_points": 0
       }

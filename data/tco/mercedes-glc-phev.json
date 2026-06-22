@@ -1,6 +1,6 @@
 {
   "model_id": "mercedes-glc-phev",
-  "calculated_at": "2026-06-15T14:57:48.086031+00:00",
+  "calculated_at": "2026-06-22T14:47:53.820544+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 375022,
-    "monthly_cost": 7813,
-    "cost_per_mil": 63,
+    "total_cost": 133292,
+    "monthly_cost": 2777,
+    "cost_per_mil": 22,
     "breakdown": {
-      "depreciation": 241730,
+      "depreciation": 0,
       "fuel": 72150,
       "tax": 5752,
       "insurance": {
@@ -29,54 +29,6 @@
         "year": 0,
         "value": 650000,
         "confidence": "fixed",
-        "data_points": 0
-      },
-      {
-        "year": 1,
-        "value": 598000,
-        "confidence": "adjusted",
-        "data_points": 2
-      },
-      {
-        "year": 2,
-        "value": 502107,
-        "confidence": "medium",
-        "data_points": 1
-      },
-      {
-        "year": 3,
-        "value": 471510,
-        "confidence": "medium",
-        "data_points": 3
-      },
-      {
-        "year": 4,
-        "value": 408270,
-        "confidence": "medium",
-        "data_points": 3
-      },
-      {
-        "year": 5,
-        "value": 359277,
-        "confidence": "estimated",
-        "data_points": 0
-      },
-      {
-        "year": 6,
-        "value": 316164,
-        "confidence": "estimated",
-        "data_points": 0
-      },
-      {
-        "year": 7,
-        "value": 278224,
-        "confidence": "estimated",
-        "data_points": 0
-      },
-      {
-        "year": 8,
-        "value": 244837,
-        "confidence": "estimated",
         "data_points": 0
       }
     ]

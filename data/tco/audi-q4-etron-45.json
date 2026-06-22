@@ -1,6 +1,6 @@
 {
   "model_id": "audi-q4-etron-45",
-  "calculated_at": "2026-06-15T14:57:48.071460+00:00",
+  "calculated_at": "2026-06-22T14:47:53.807405+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 383850,
-    "monthly_cost": 7997,
-    "cost_per_mil": 64,
+    "total_cost": 379200,
+    "monthly_cost": 7900,
+    "cost_per_mil": 63,
     "breakdown": {
-      "depreciation": 314580,
+      "depreciation": 309930,
       "fuel": 19440,
       "tax": 1440,
       "insurance": {
@@ -33,27 +33,27 @@
       },
       {
         "year": 1,
-        "value": 566835,
+        "value": 603570,
         "confidence": "medium",
-        "data_points": 3
+        "data_points": 1
       },
       {
         "year": 2,
-        "value": 497457,
+        "value": 548607,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 1
       },
       {
         "year": 3,
-        "value": 320338,
+        "value": 320757,
         "confidence": "medium",
-        "data_points": 10
+        "data_points": 8
       },
       {
         "year": 4,
-        "value": 310620,
+        "value": 315270,
         "confidence": "medium",
-        "data_points": 6
+        "data_points": 5
       },
       {
         "year": 5,

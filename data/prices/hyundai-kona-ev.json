@@ -1,33 +1,33 @@
 {
   "model_id": "hyundai-kona-ev",
-  "scraped_at": "2026-06-15T11:49:24.990534+00:00",
+  "scraped_at": "2026-06-22T11:37:18.455355+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 367722,
-      "count": 1,
-      "total_on_page": 1,
+      "median_price": 467232,
+      "count": 2,
+      "total_on_page": 22,
       "price_type": "estimated_transaction",
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 260307,
-      "count": 1,
-      "total_on_page": 11,
+      "median_price": 292857,
+      "count": 2,
+      "total_on_page": 12,
       "price_type": "estimated_transaction"
     },
     "2023": {
       "median_price": 388182,
       "count": 2,
-      "total_on_page": 15,
+      "total_on_page": 16,
       "price_type": "estimated_transaction"
     },
     "2022": {
       "median_price": 250914,
       "count": 3,
-      "total_on_page": 10,
+      "total_on_page": 12,
       "price_type": "estimated_transaction",
       "min_price": 240870,
       "max_price": 250914
@@ -55,7 +55,7 @@
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 1,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

@@ -1,59 +1,61 @@
 {
   "model_id": "vw-id3-pro",
-  "scraped_at": "2026-06-15T11:52:21.033901+00:00",
+  "scraped_at": "2026-06-22T11:40:18.297334+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 434496,
-      "count": 2,
-      "total_on_page": 15,
-      "price_type": "estimated_transaction",
-      "median_mileage_mil": 20250
-    },
-    "2024": {
-      "median_price": 441610,
+      "median_price": 376324,
       "count": 2,
       "total_on_page": 22,
+      "price_type": "estimated_transaction",
+      "median_mileage_mil": 43
+    },
+    "2024": {
+      "median_price": 362607,
+      "count": 2,
+      "total_on_page": 23,
       "price_type": "estimated_transaction",
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 340375,
-      "count": 4,
-      "total_on_page": 31,
+      "median_price": 306807,
+      "count": 5,
+      "total_on_page": 32,
       "price_type": "estimated_transaction",
-      "min_price": 251007,
+      "p5_price": 260307,
+      "p95_price": 437007,
+      "min_price": 260307,
       "max_price": 437007,
       "median_mileage_mil": 20231
     },
     "2022": {
-      "median_price": 324570,
-      "count": 1,
-      "total_on_page": 21,
+      "median_price": 288207,
+      "count": 2,
+      "total_on_page": 20,
       "price_type": "estimated_transaction"
     },
     "2021": {
-      "median_price": 212970,
+      "median_price": 204181,
       "count": 4,
-      "total_on_page": 49,
+      "total_on_page": 39,
       "price_type": "estimated_transaction",
-      "min_price": 212970,
+      "min_price": 185814,
       "max_price": 260307
     },
     "2020": {
-      "median_price": 195207,
+      "median_price": 217620,
       "count": 4,
-      "total_on_page": 40,
+      "total_on_page": 33,
       "price_type": "estimated_transaction",
-      "min_price": 195114,
-      "max_price": 222270
+      "min_price": 157821,
+      "max_price": 223107
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 1,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

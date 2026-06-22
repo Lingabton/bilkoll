@@ -1,6 +1,6 @@
 {
   "model_id": "peugeot-e208",
-  "calculated_at": "2026-06-15T14:57:48.065453+00:00",
+  "calculated_at": "2026-06-22T14:47:53.801854+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 214128,
-    "monthly_cost": 4461,
-    "cost_per_mil": 36,
+    "total_cost": 240849,
+    "monthly_cost": 5018,
+    "cost_per_mil": 40,
     "breakdown": {
-      "depreciation": 156930,
+      "depreciation": 183651,
       "fuel": 18468,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 334707,
-        "confidence": "medium",
-        "data_points": 2
+        "value": 239184,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 2,
-        "value": 294542,
+        "value": 220049,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 3,
-        "value": 241707,
-        "confidence": "medium",
-        "data_points": 1
+        "value": 202445,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 4,
-        "value": 212970,
-        "confidence": "medium",
-        "data_points": 3
+        "value": 186249,
+        "confidence": "adjusted",
+        "data_points": 4
       },
       {
         "year": 5,
-        "value": 195932,
+        "value": 171349,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 6,
-        "value": 148707,
+        "value": 149678,
         "confidence": "medium",
         "data_points": 2
       },
       {
         "year": 7,
-        "value": 130862,
+        "value": 131716,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 115158,
+        "value": 115910,
         "confidence": "estimated",
         "data_points": 0
       }

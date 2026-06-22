@@ -1,25 +1,25 @@
 {
   "model_id": "kia-ev3-lr",
-  "scraped_at": "2026-06-15T12:16:23.010262+00:00",
+  "scraped_at": "2026-06-22T12:05:14.976365+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
       "median_price": 464860,
-      "count": 16,
-      "total_on_page": 139,
+      "count": 18,
+      "total_on_page": 152,
       "price_type": "estimated_transaction",
-      "p5_price": 353307,
+      "p5_price": 369489,
       "p95_price": 548979,
-      "min_price": 353307,
+      "min_price": 369489,
       "max_price": 548979,
       "median_mileage_mil": 20250
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 16,
+    "min_count_per_year": 18,
     "confidence": "medium"
   }
 }

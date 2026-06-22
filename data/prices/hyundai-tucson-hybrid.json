@@ -1,55 +1,55 @@
 {
   "model_id": "hyundai-tucson-hybrid",
-  "scraped_at": "2026-06-15T12:46:24.477437+00:00",
+  "scraped_at": "2026-06-22T12:35:56.846885+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 423057,
-      "count": 6,
-      "total_on_page": 44,
+      "median_price": 406782,
+      "count": 12,
+      "total_on_page": 79,
       "price_type": "estimated_transaction",
-      "p5_price": 353307,
-      "p95_price": 488157,
-      "min_price": 353307,
-      "max_price": 488157,
+      "p5_price": 305970,
+      "p95_price": 526101,
+      "min_price": 305970,
+      "max_price": 526101,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 413152,
-      "count": 2,
-      "total_on_page": 22,
-      "price_type": "estimated_transaction",
-      "median_mileage_mil": 20240
-    },
-    "2023": {
-      "median_price": 445470,
+      "median_price": 438867,
       "count": 3,
       "total_on_page": 19,
       "price_type": "estimated_transaction",
-      "min_price": 278907,
-      "max_price": 464070
+      "min_price": 297507,
+      "max_price": 524148,
+      "median_mileage_mil": 20240
+    },
+    "2023": {
+      "median_price": 454770,
+      "count": 2,
+      "total_on_page": 18,
+      "price_type": "estimated_transaction"
     },
     "2022": {
-      "median_price": 274210,
-      "count": 8,
-      "total_on_page": 66,
+      "median_price": 278907,
+      "count": 9,
+      "total_on_page": 69,
       "price_type": "estimated_transaction",
-      "p5_price": 223107,
+      "p5_price": 241707,
       "p95_price": 381114,
-      "min_price": 223107,
+      "min_price": 241707,
       "max_price": 381114
     },
     "2021": {
-      "median_price": 264538,
+      "median_price": 255192,
       "count": 6,
       "total_on_page": 41,
       "price_type": "estimated_transaction",
-      "p5_price": 232314,
-      "p95_price": 325407,
-      "min_price": 232314,
-      "max_price": 325407
+      "p5_price": 231570,
+      "p95_price": 292857,
+      "min_price": 231570,
+      "max_price": 292857
     }
   },
   "validation": {

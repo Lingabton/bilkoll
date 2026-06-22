@@ -1,6 +1,6 @@
 {
   "model_id": "kia-sportage-phev",
-  "calculated_at": "2026-06-15T14:57:48.072722+00:00",
+  "calculated_at": "2026-06-22T14:47:53.808585+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 318673,
-    "monthly_cost": 6639,
-    "cost_per_mil": 53,
+    "total_cost": 314674,
+    "monthly_cost": 6556,
+    "cost_per_mil": 52,
     "breakdown": {
-      "depreciation": 202093,
+      "depreciation": 198094,
       "fuel": 72150,
       "tax": 3640,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 423145,
-        "confidence": "medium",
-        "data_points": 8
-      },
-      {
-        "year": 2,
-        "value": 390507,
+        "value": 426870,
         "confidence": "medium",
         "data_points": 12
       },
       {
+        "year": 2,
+        "value": 399807,
+        "confidence": "medium",
+        "data_points": 14
+      },
+      {
         "year": 3,
-        "value": 327313,
+        "value": 317223,
         "confidence": "medium",
         "data_points": 18
       },
       {
         "year": 4,
-        "value": 306807,
+        "value": 310806,
         "confidence": "medium",
-        "data_points": 17
+        "data_points": 18
       },
       {
         "year": 5,
-        "value": 269990,
+        "value": 273509,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 237591,
+        "value": 240688,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 209080,
+        "value": 211805,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 183990,
+        "value": 186388,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "medium",
   "data_quality_notes": []
 }

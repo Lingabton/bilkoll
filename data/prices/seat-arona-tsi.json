@@ -1,6 +1,6 @@
 {
   "model_id": "seat-arona-tsi",
-  "scraped_at": "2026-06-15T14:48:30.985026+00:00",
+  "scraped_at": "2026-06-22T14:38:11.016236+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -8,29 +8,27 @@
     "2025": {
       "median_price": 264957,
       "count": 3,
-      "total_on_page": 11,
+      "total_on_page": 19,
       "price_type": "estimated_transaction",
-      "min_price": 240870,
-      "max_price": 264957,
+      "min_price": 264957,
+      "max_price": 268677,
       "median_mileage_mil": 20250
     },
     "2024": {
       "median_price": 213807,
-      "count": 3,
-      "total_on_page": 19,
-      "price_type": "estimated_transaction",
-      "min_price": 204507,
-      "max_price": 213807
+      "count": 2,
+      "total_on_page": 20,
+      "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 157635,
-      "count": 5,
-      "total_on_page": 42,
+      "median_price": 167307,
+      "count": 6,
+      "total_on_page": 44,
       "price_type": "estimated_transaction",
-      "p5_price": 139407,
-      "p95_price": 176700,
-      "min_price": 139407,
-      "max_price": 176700
+      "p5_price": 153357,
+      "p95_price": 167307,
+      "min_price": 153357,
+      "max_price": 167307
     },
     "2022": {
       "median_price": 185907,
@@ -45,18 +43,18 @@
       "price_type": "estimated_transaction"
     },
     "2020": {
-      "median_price": 171120,
-      "count": 2,
-      "total_on_page": 14,
-      "price_type": "estimated_transaction"
-    },
-    "2019": {
-      "median_price": 153357,
+      "median_price": 157914,
       "count": 3,
       "total_on_page": 13,
       "price_type": "estimated_transaction",
-      "min_price": 148707,
-      "max_price": 158007
+      "min_price": 153450,
+      "max_price": 185070
+    },
+    "2019": {
+      "median_price": 155682,
+      "count": 2,
+      "total_on_page": 12,
+      "price_type": "estimated_transaction"
     },
     "2018": {
       "median_price": 138570,
