@@ -1,6 +1,6 @@
 {
   "model_id": "hyundai-kona-ev",
-  "calculated_at": "2026-06-22T14:47:53.800442+00:00",
+  "calculated_at": "2026-06-29T13:43:31.605974+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -45,9 +45,9 @@
       },
       {
         "year": 3,
-        "value": 269428,
-        "confidence": "adjusted",
-        "data_points": 2
+        "value": 257714,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 4,

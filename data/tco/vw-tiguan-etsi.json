@@ -1,6 +1,6 @@
 {
   "model_id": "vw-tiguan-etsi",
-  "calculated_at": "2026-06-22T14:47:53.805537+00:00",
+  "calculated_at": "2026-06-29T13:43:31.610060+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -35,17 +35,17 @@
         "year": 1,
         "value": 423057,
         "confidence": "medium",
-        "data_points": 1
+        "data_points": 3
       },
       {
         "year": 2,
-        "value": 311410,
-        "confidence": "medium",
-        "data_points": 2
+        "value": 372290,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 3,
-        "value": 286497,
+        "value": 342506,
         "confidence": "adjusted",
         "data_points": 2
       },
@@ -77,25 +77,19 @@
         "year": 8,
         "value": 149137,
         "confidence": "adjusted",
-        "data_points": 6
+        "data_points": 8
       },
       {
         "year": 9,
         "value": 137206,
         "confidence": "adjusted",
-        "data_points": 5
+        "data_points": 2
       },
       {
         "year": 10,
         "value": 126229,
         "confidence": "adjusted",
         "data_points": 3
-      },
-      {
-        "year": 11,
-        "value": 116130,
-        "confidence": "estimated",
-        "data_points": 0
       }
     ]
   },

@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-v90-t6-phev",
-  "calculated_at": "2026-06-22T14:47:53.816417+00:00",
+  "calculated_at": "2026-06-29T13:43:31.618595+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -35,65 +35,65 @@
         "year": 1,
         "value": 488157,
         "confidence": "medium",
-        "data_points": 17
+        "data_points": 14
       },
       {
         "year": 2,
-        "value": 403852,
+        "value": 390507,
         "confidence": "medium",
-        "data_points": 14
+        "data_points": 9
       },
       {
         "year": 3,
         "value": 371907,
         "confidence": "medium",
-        "data_points": 21
+        "data_points": 18
       },
       {
         "year": 4,
         "value": 305970,
         "confidence": "medium",
-        "data_points": 15
+        "data_points": 11
       },
       {
         "year": 5,
-        "value": 283650,
+        "value": 269607,
         "confidence": "medium",
-        "data_points": 13
+        "data_points": 9
       },
       {
         "year": 6,
-        "value": 254541,
+        "value": 269607,
         "confidence": "medium",
-        "data_points": 18
+        "data_points": 10
       },
       {
         "year": 7,
-        "value": 241707,
+        "value": 246310,
         "confidence": "medium",
-        "data_points": 14
+        "data_points": 10
       },
       {
         "year": 8,
-        "value": 211482,
+        "value": 213853,
         "confidence": "medium",
-        "data_points": 28
+        "data_points": 22
       },
       {
         "year": 9,
-        "value": 204507,
-        "confidence": "medium",
-        "data_points": 20
+        "value": 196744,
+        "confidence": "adjusted",
+        "data_points": 15
       },
       {
         "year": 10,
-        "value": 183163,
+        "value": 171120,
         "confidence": "medium",
-        "data_points": 8
+        "data_points": 5
       },
       {
         "year": 11,
-        "value": 161183,
+        "value": 150585,
         "confidence": "estimated",
         "data_points": 0
       }

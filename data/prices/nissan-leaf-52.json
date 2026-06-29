@@ -1,6 +1,6 @@
 {
   "model_id": "nissan-leaf-52",
-  "scraped_at": "2026-06-22T12:00:07.257870+00:00",
+  "scraped_at": "2026-06-29T11:04:41.850487+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -23,7 +23,7 @@
     },
     "2023": {
       "median_price": 194695,
-      "count": 14,
+      "count": 16,
       "total_on_page": 150,
       "price_type": "estimated_transaction",
       "p5_price": 166470,

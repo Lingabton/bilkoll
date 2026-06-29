@@ -1,6 +1,6 @@
 {
   "model_id": "hyundai-tucson-hybrid",
-  "calculated_at": "2026-06-22T14:47:53.808234+00:00",
+  "calculated_at": "2026-06-29T13:43:31.612091+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 225542,
-    "monthly_cost": 4699,
-    "cost_per_mil": 38,
+    "total_cost": 236754,
+    "monthly_cost": 4932,
+    "cost_per_mil": 39,
     "breakdown": {
-      "depreciation": 93564,
+      "depreciation": 104776,
       "fuel": 71040,
       "tax": 22748,
       "insurance": {
@@ -35,47 +35,47 @@
         "year": 1,
         "value": 303508,
         "confidence": "adjusted",
-        "data_points": 12
+        "data_points": 7
       },
       {
         "year": 2,
         "value": 279227,
-        "confidence": "adjusted",
-        "data_points": 3
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 3,
-        "value": 256888,
+        "value": 244701,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 4,
+        "value": 225124,
+        "confidence": "adjusted",
+        "data_points": 5
+      },
+      {
+        "year": 5,
+        "value": 207114,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
-        "year": 4,
-        "value": 236336,
-        "confidence": "adjusted",
-        "data_points": 9
-      },
-      {
-        "year": 5,
-        "value": 217429,
-        "confidence": "adjusted",
-        "data_points": 6
-      },
-      {
         "year": 6,
-        "value": 200034,
+        "value": 190544,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 197620,
+        "value": 184908,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 173906,
+        "value": 162719,
         "confidence": "estimated",
         "data_points": 0
       }

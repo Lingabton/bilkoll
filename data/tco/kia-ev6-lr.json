@@ -1,6 +1,6 @@
 {
   "model_id": "kia-ev6-lr",
-  "calculated_at": "2026-06-22T14:47:53.797809+00:00",
+  "calculated_at": "2026-06-29T13:43:31.603856+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,21 +33,21 @@
       },
       {
         "year": 1,
-        "value": 543492,
+        "value": 557907,
         "confidence": "medium",
-        "data_points": 10
+        "data_points": 11
       },
       {
         "year": 2,
-        "value": 500012,
-        "confidence": "adjusted",
+        "value": 557907,
+        "confidence": "medium",
         "data_points": 9
       },
       {
         "year": 3,
-        "value": 413431,
+        "value": 427056,
         "confidence": "medium",
-        "data_points": 10
+        "data_points": 7
       },
       {
         "year": 4,

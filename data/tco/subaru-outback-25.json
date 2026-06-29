@@ -1,6 +1,6 @@
 {
   "model_id": "subaru-outback-25",
-  "calculated_at": "2026-06-22T14:47:53.815253+00:00",
+  "calculated_at": "2026-06-29T13:43:31.617655+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 284332,
-    "monthly_cost": 5924,
+    "total_cost": 282007,
+    "monthly_cost": 5875,
     "cost_per_mil": 47,
     "breakdown": {
-      "depreciation": 97518,
+      "depreciation": 95193,
       "fuel": 95460,
       "tax": 48664,
       "insurance": {
@@ -41,7 +41,7 @@
         "year": 2,
         "value": 363867,
         "confidence": "adjusted",
-        "data_points": 6
+        "data_points": 3
       },
       {
         "year": 3,
@@ -51,9 +51,9 @@
       },
       {
         "year": 4,
-        "value": 332382,
+        "value": 334707,
         "confidence": "medium",
-        "data_points": 6
+        "data_points": 5
       },
       {
         "year": 5,

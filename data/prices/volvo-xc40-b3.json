@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc40-b3",
-  "scraped_at": "2026-06-22T12:32:48.626632+00:00",
+  "scraped_at": "2026-06-29T11:35:17.255534+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -18,9 +18,11 @@
     },
     "2024": {
       "median_price": 362235,
-      "count": 3,
+      "count": 5,
       "total_on_page": 23,
       "price_type": "estimated_transaction",
+      "p5_price": 306435,
+      "p95_price": 418407,
       "min_price": 306435,
       "max_price": 418407
     },
@@ -45,13 +47,13 @@
       "max_price": 362607
     },
     "2021": {
-      "median_price": 278070,
-      "count": 19,
-      "total_on_page": 161,
+      "median_price": 283138,
+      "count": 16,
+      "total_on_page": 141,
       "price_type": "estimated_transaction",
-      "p5_price": 175770,
+      "p5_price": 232407,
       "p95_price": 325407,
-      "min_price": 175770,
+      "min_price": 232407,
       "max_price": 325407
     },
     "2020": {

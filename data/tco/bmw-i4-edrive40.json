@@ -1,6 +1,6 @@
 {
   "model_id": "bmw-i4-edrive40",
-  "calculated_at": "2026-06-22T14:47:53.812758+00:00",
+  "calculated_at": "2026-06-29T13:43:31.615690+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -40,8 +40,8 @@
       {
         "year": 2,
         "value": 507755,
-        "confidence": "adjusted",
-        "data_points": 2
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 3,

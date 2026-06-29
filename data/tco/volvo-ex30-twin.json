@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-ex30-twin",
-  "calculated_at": "2026-06-22T14:47:53.799650+00:00",
+  "calculated_at": "2026-06-29T13:43:31.605251+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 330557,
-    "monthly_cost": 6887,
-    "cost_per_mil": 55,
+    "total_cost": 326956,
+    "monthly_cost": 6812,
+    "cost_per_mil": 54,
     "breakdown": {
-      "depreciation": 269799,
+      "depreciation": 266198,
       "fuel": 23328,
       "tax": 1440,
       "insurance": {
@@ -39,48 +39,48 @@
       },
       {
         "year": 2,
-        "value": 357957,
+        "value": 362607,
         "confidence": "medium",
-        "data_points": 10
+        "data_points": 7
       },
       {
         "year": 3,
-        "value": 315002,
+        "value": 319094,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 277201,
+        "value": 280802,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 243937,
+        "value": 247106,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 214665,
+        "value": 217453,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 188905,
+        "value": 191359,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 166236,
+        "value": 168396,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "low",
   "data_quality_notes": []
 }

@@ -1,6 +1,6 @@
 {
   "model_id": "dacia-sandero-tce",
-  "calculated_at": "2026-06-22T14:47:53.818509+00:00",
+  "calculated_at": "2026-06-29T13:43:31.620260+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 200377,
-    "monthly_cost": 4175,
+    "total_cost": 198324,
+    "monthly_cost": 4132,
     "cost_per_mil": 33,
     "breakdown": {
-      "depreciation": 90897,
+      "depreciation": 88844,
       "fuel": 61050,
       "tax": 20240,
       "insurance": {
@@ -45,25 +45,25 @@
       },
       {
         "year": 3,
-        "value": 118482,
+        "value": 120714,
         "confidence": "medium",
-        "data_points": 10
+        "data_points": 7
       },
       {
         "year": 4,
-        "value": 109003,
+        "value": 111056,
         "confidence": "adjusted",
         "data_points": 4
       },
       {
         "year": 5,
-        "value": 100282,
+        "value": 102171,
         "confidence": "adjusted",
         "data_points": 3
       },
       {
         "year": 6,
-        "value": 92259,
+        "value": 93997,
         "confidence": "estimated",
         "data_points": 0
       },

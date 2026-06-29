@@ -1,6 +1,6 @@
 {
   "model_id": "nissan-leaf-52",
-  "calculated_at": "2026-06-22T14:47:53.803694+00:00",
+  "calculated_at": "2026-06-29T13:43:31.608578+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -47,7 +47,7 @@
         "year": 3,
         "value": 178649,
         "confidence": "adjusted",
-        "data_points": 14
+        "data_points": 16
       },
       {
         "year": 4,

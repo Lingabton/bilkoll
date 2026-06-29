@@ -1,6 +1,6 @@
 {
   "model_id": "polestar-2-lr",
-  "scraped_at": "2026-06-22T11:55:23.075225+00:00",
+  "scraped_at": "2026-06-29T11:00:05.298489+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -35,11 +35,9 @@
     },
     "2022": {
       "median_price": 299832,
-      "count": 6,
-      "total_on_page": 52,
+      "count": 4,
+      "total_on_page": 50,
       "price_type": "estimated_transaction",
-      "p5_price": 274257,
-      "p95_price": 325314,
       "min_price": 274257,
       "max_price": 325314
     },

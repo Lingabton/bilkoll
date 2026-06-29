@@ -1,17 +1,10 @@
 {
   "model_id": "vw-passat-etsi",
-  "scraped_at": "2026-06-22T13:27:19.283931+00:00",
+  "scraped_at": "2026-06-29T12:26:10.623835+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
-    "2025": {
-      "median_price": 390646,
-      "count": 2,
-      "total_on_page": 17,
-      "price_type": "estimated_transaction",
-      "median_mileage_mil": 20250
-    },
     "2024": {
       "median_price": 334707,
       "count": 5,
@@ -26,7 +19,7 @@
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 2,
+    "min_count_per_year": 5,
     "confidence": "low"
   }
 }

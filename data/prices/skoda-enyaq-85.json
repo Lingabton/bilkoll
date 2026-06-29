@@ -1,6 +1,6 @@
 {
   "model_id": "skoda-enyaq-85",
-  "scraped_at": "2026-06-22T11:34:31.378532+00:00",
+  "scraped_at": "2026-06-29T10:40:10.115311+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -18,7 +18,7 @@
     },
     "2024": {
       "median_price": 471835,
-      "count": 6,
+      "count": 8,
       "total_on_page": 48,
       "price_type": "estimated_transaction",
       "p5_price": 418407,
