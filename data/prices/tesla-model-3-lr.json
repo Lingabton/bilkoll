@@ -1,59 +1,43 @@
 {
   "model_id": "tesla-model-3-lr",
-  "scraped_at": "2026-06-29T10:09:40.589506+00:00",
+  "scraped_at": "2026-07-06T09:21:16.268057+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
-    "2025": {
-      "median_price": 408270,
-      "count": 1,
-      "total_on_page": 1,
+    "2023": {
+      "median_price": 428678,
+      "count": 2,
+      "total_on_page": 49,
       "price_type": "estimated_transaction"
     },
-    "2023": {
-      "median_price": 324570,
-      "count": 5,
-      "total_on_page": 60,
-      "price_type": "estimated_transaction",
-      "p5_price": 281780,
-      "p95_price": 418407,
-      "min_price": 281780,
-      "max_price": 418407
-    },
     "2022": {
-      "median_price": 311224,
-      "count": 4,
-      "total_on_page": 38,
-      "price_type": "estimated_transaction",
-      "min_price": 268770,
-      "max_price": 395157
+      "median_price": 325035,
+      "count": 1,
+      "total_on_page": 39,
+      "price_type": "estimated_transaction"
     },
     "2021": {
-      "median_price": 320199,
-      "count": 6,
-      "total_on_page": 54,
+      "median_price": 397528,
+      "count": 4,
+      "total_on_page": 69,
       "price_type": "estimated_transaction",
-      "p5_price": 255657,
-      "p95_price": 650907,
-      "min_price": 255657,
+      "min_price": 260307,
       "max_price": 650907
     },
     "2020": {
-      "median_price": 253378,
+      "median_price": 325407,
       "count": 4,
-      "total_on_page": 35,
+      "total_on_page": 53,
       "price_type": "estimated_transaction",
-      "min_price": 181350,
+      "min_price": 251007,
       "max_price": 398970
     },
     "2019": {
-      "median_price": 237010,
-      "count": 4,
-      "total_on_page": 44,
-      "price_type": "estimated_transaction",
-      "min_price": 175770,
-      "max_price": 348657
+      "median_price": 344007,
+      "count": 2,
+      "total_on_page": 43,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {

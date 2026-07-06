@@ -1,85 +1,20 @@
 {
   "model_id": "skoda-kodiaq-tsi",
-  "scraped_at": "2026-06-29T11:22:07.639975+00:00",
+  "scraped_at": "2026-07-06T10:35:39.620981+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 474207,
-      "count": 5,
-      "total_on_page": 33,
+      "median_price": 493783,
+      "count": 2,
+      "total_on_page": 27,
       "price_type": "estimated_transaction",
-      "p5_price": 408177,
-      "p95_price": 530007,
-      "min_price": 408177,
-      "max_price": 530007,
       "median_mileage_mil": 20250
-    },
-    "2024": {
-      "median_price": 441657,
-      "count": 3,
-      "total_on_page": 10,
-      "price_type": "estimated_transaction",
-      "min_price": 380835,
-      "max_price": 460257,
-      "median_mileage_mil": 20240
-    },
-    "2023": {
-      "median_price": 362235,
-      "count": 3,
-      "total_on_page": 6,
-      "price_type": "estimated_transaction",
-      "min_price": 357957,
-      "max_price": 371907
-    },
-    "2022": {
-      "median_price": 325407,
-      "count": 2,
-      "total_on_page": 9,
-      "price_type": "estimated_transaction"
-    },
-    "2021": {
-      "median_price": 306807,
-      "count": 3,
-      "total_on_page": 6,
-      "price_type": "estimated_transaction",
-      "min_price": 306807,
-      "max_price": 316107
-    },
-    "2020": {
-      "median_price": 324570,
-      "count": 3,
-      "total_on_page": 11,
-      "price_type": "estimated_transaction",
-      "min_price": 194370,
-      "max_price": 325407
-    },
-    "2019": {
-      "median_price": 306807,
-      "count": 3,
-      "total_on_page": 7,
-      "price_type": "estimated_transaction",
-      "min_price": 283557,
-      "max_price": 371907
-    },
-    "2018": {
-      "median_price": 220363,
-      "count": 2,
-      "total_on_page": 12,
-      "price_type": "estimated_transaction"
-    },
-    "2017": {
-      "median_price": 208227,
-      "count": 3,
-      "total_on_page": 4,
-      "price_type": "estimated_transaction",
-      "min_price": 167307,
-      "max_price": 222270
     }
   },
   "validation": {
-    "is_monotonic": false,
+    "is_monotonic": true,
     "min_count_per_year": 2,
     "confidence": "low"
   }

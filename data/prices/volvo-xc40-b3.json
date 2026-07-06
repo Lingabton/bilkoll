@@ -1,93 +1,76 @@
 {
   "model_id": "volvo-xc40-b3",
-  "scraped_at": "2026-06-29T11:35:17.255534+00:00",
+  "scraped_at": "2026-07-06T10:49:49.057913+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 404457,
-      "count": 12,
+      "median_price": 409107,
+      "count": 6,
       "total_on_page": 82,
       "price_type": "estimated_transaction",
-      "p5_price": 357585,
-      "p95_price": 445191,
-      "min_price": 357585,
-      "max_price": 445191,
-      "median_mileage_mil": 20250
+      "p5_price": 399807,
+      "p95_price": 427707,
+      "min_price": 399807,
+      "max_price": 427707
     },
     "2024": {
-      "median_price": 362235,
-      "count": 5,
-      "total_on_page": 23,
-      "price_type": "estimated_transaction",
-      "p5_price": 306435,
-      "p95_price": 418407,
-      "min_price": 306435,
-      "max_price": 418407
+      "median_price": 306435,
+      "count": 1,
+      "total_on_page": 36,
+      "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 334707,
-      "count": 10,
-      "total_on_page": 76,
+      "median_price": 336985,
+      "count": 6,
+      "total_on_page": 78,
       "price_type": "estimated_transaction",
-      "p5_price": 278814,
-      "p95_price": 371070,
-      "min_price": 278814,
-      "max_price": 371070
+      "p5_price": 325407,
+      "p95_price": 375720,
+      "min_price": 325407,
+      "max_price": 375720
     },
     "2022": {
-      "median_price": 295135,
-      "count": 10,
-      "total_on_page": 80,
+      "median_price": 319501,
+      "count": 6,
+      "total_on_page": 81,
       "price_type": "estimated_transaction",
       "p5_price": 153264,
-      "p95_price": 362607,
+      "p95_price": 353307,
       "min_price": 153264,
-      "max_price": 362607
+      "max_price": 353307
     },
     "2021": {
       "median_price": 283138,
-      "count": 16,
-      "total_on_page": 141,
+      "count": 10,
+      "total_on_page": 147,
       "price_type": "estimated_transaction",
-      "p5_price": 232407,
-      "p95_price": 325407,
-      "min_price": 232407,
-      "max_price": 325407
+      "p5_price": 167399,
+      "p95_price": 348750,
+      "min_price": 167399,
+      "max_price": 348750
     },
     "2020": {
       "median_price": 250914,
-      "count": 11,
-      "total_on_page": 100,
+      "count": 5,
+      "total_on_page": 96,
       "price_type": "estimated_transaction",
-      "p5_price": 209250,
-      "p95_price": 297507,
-      "min_price": 209250,
-      "max_price": 297507
+      "p5_price": 245985,
+      "p95_price": 325407,
+      "min_price": 245985,
+      "max_price": 325407
     },
     "2019": {
-      "median_price": 225060,
-      "count": 6,
-      "total_on_page": 38,
-      "price_type": "estimated_transaction",
-      "p5_price": 166470,
-      "p95_price": 316014,
-      "min_price": 166470,
-      "max_price": 316014
-    },
-    "2018": {
-      "median_price": 194370,
-      "count": 3,
-      "total_on_page": 24,
-      "price_type": "estimated_transaction",
-      "min_price": 162657,
-      "max_price": 323547
+      "median_price": 297460,
+      "count": 2,
+      "total_on_page": 31,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 3,
+    "is_monotonic": false,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

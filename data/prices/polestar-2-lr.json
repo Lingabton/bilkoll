@@ -1,63 +1,39 @@
 {
   "model_id": "polestar-2-lr",
-  "scraped_at": "2026-06-29T11:00:05.298489+00:00",
+  "scraped_at": "2026-07-06T10:13:10.202403+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 532332,
-      "count": 6,
-      "total_on_page": 52,
-      "price_type": "estimated_transaction",
-      "p5_price": 497457,
-      "p95_price": 693780,
-      "min_price": 497457,
-      "max_price": 693780,
-      "median_mileage_mil": 20253
-    },
-    "2024": {
-      "median_price": 603988,
+      "median_price": 555582,
       "count": 2,
-      "total_on_page": 20,
-      "price_type": "estimated_transaction",
-      "median_mileage_mil": 20244
+      "total_on_page": 49,
+      "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 344007,
-      "count": 8,
-      "total_on_page": 76,
+      "median_price": 350563,
+      "count": 4,
+      "total_on_page": 75,
       "price_type": "estimated_transaction",
-      "p5_price": 273885,
-      "p95_price": 446307,
-      "min_price": 273885,
-      "max_price": 446307
+      "min_price": 324477,
+      "max_price": 427707
     },
     "2022": {
-      "median_price": 299832,
-      "count": 4,
-      "total_on_page": 50,
-      "price_type": "estimated_transaction",
-      "min_price": 274257,
-      "max_price": 325314
+      "median_price": 339310,
+      "count": 2,
+      "total_on_page": 43,
+      "price_type": "estimated_transaction"
     },
     "2021": {
-      "median_price": 325407,
-      "count": 3,
-      "total_on_page": 30,
-      "price_type": "estimated_transaction",
-      "min_price": 318980,
-      "max_price": 367257
-    },
-    "2020": {
-      "median_price": 290113,
+      "median_price": 313782,
       "count": 2,
-      "total_on_page": 23,
+      "total_on_page": 44,
       "price_type": "estimated_transaction"
     }
   },
   "validation": {
-    "is_monotonic": false,
+    "is_monotonic": true,
     "min_count_per_year": 2,
     "confidence": "low"
   }

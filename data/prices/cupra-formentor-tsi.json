@@ -1,63 +1,20 @@
 {
   "model_id": "cupra-formentor-tsi",
-  "scraped_at": "2026-06-29T11:51:17.428554+00:00",
+  "scraped_at": "2026-07-06T11:05:58.729708+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
-    "2025": {
-      "median_price": 441052,
-      "count": 4,
-      "total_on_page": 26,
-      "price_type": "estimated_transaction",
-      "min_price": 353307,
-      "max_price": 568695,
-      "median_mileage_mil": 20250
-    },
-    "2024": {
-      "median_price": 325407,
-      "count": 5,
-      "total_on_page": 27,
-      "price_type": "estimated_transaction",
-      "p5_price": 278907,
-      "p95_price": 510570,
-      "min_price": 278907,
-      "max_price": 510570
-    },
     "2023": {
-      "median_price": 262213,
-      "count": 6,
-      "total_on_page": 36,
-      "price_type": "estimated_transaction",
-      "p5_price": 231570,
-      "p95_price": 460257,
-      "min_price": 231570,
-      "max_price": 460257
-    },
-    "2022": {
-      "median_price": 236220,
-      "count": 3,
-      "total_on_page": 16,
-      "price_type": "estimated_transaction",
-      "min_price": 232407,
-      "max_price": 246264
-    },
-    "2021": {
-      "median_price": 278907,
+      "median_price": 355213,
       "count": 2,
-      "total_on_page": 17,
-      "price_type": "estimated_transaction"
-    },
-    "2020": {
-      "median_price": 334707,
-      "count": 1,
-      "total_on_page": 1,
+      "total_on_page": 38,
       "price_type": "estimated_transaction"
     }
   },
   "validation": {
-    "is_monotonic": false,
-    "min_count_per_year": 1,
+    "is_monotonic": true,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

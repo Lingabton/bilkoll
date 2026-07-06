@@ -1,75 +1,30 @@
 {
   "model_id": "audi-a3-35tfsi",
-  "scraped_at": "2026-06-29T12:55:25.691223+00:00",
+  "scraped_at": "2026-07-06T12:12:33.000290+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 343170,
-      "count": 7,
-      "total_on_page": 51,
-      "price_type": "estimated_transaction",
-      "p5_price": 259470,
-      "p95_price": 408735,
-      "min_price": 259470,
-      "max_price": 408735,
-      "median_mileage_mil": 20250
-    },
-    "2024": {
-      "median_price": 287370,
-      "count": 5,
-      "total_on_page": 25,
-      "price_type": "estimated_transaction",
-      "p5_price": 255657,
-      "p95_price": 306807,
-      "min_price": 255657,
-      "max_price": 306807
+      "median_price": 385252,
+      "count": 2,
+      "total_on_page": 34,
+      "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 238498,
-      "count": 18,
-      "total_on_page": 166,
+      "median_price": 238545,
+      "count": 12,
+      "total_on_page": 162,
       "price_type": "estimated_transaction",
       "p5_price": 203670,
-      "p95_price": 305970,
+      "p95_price": 250170,
       "min_price": 203670,
-      "max_price": 305970
-    },
-    "2022": {
-      "median_price": 259470,
-      "count": 5,
-      "total_on_page": 35,
-      "price_type": "estimated_transaction",
-      "p5_price": 209157,
-      "p95_price": 311457,
-      "min_price": 209157,
-      "max_price": 311457
-    },
-    "2021": {
-      "median_price": 250821,
-      "count": 5,
-      "total_on_page": 39,
-      "price_type": "estimated_transaction",
-      "p5_price": 195207,
-      "p95_price": 278907,
-      "min_price": 195207,
-      "max_price": 278907
-    },
-    "2020": {
-      "median_price": 192463,
-      "count": 6,
-      "total_on_page": 29,
-      "price_type": "estimated_transaction",
-      "p5_price": 179397,
-      "p95_price": 222270,
-      "min_price": 179397,
-      "max_price": 222270
+      "max_price": 250170
     }
   },
   "validation": {
-    "is_monotonic": false,
-    "min_count_per_year": 5,
+    "is_monotonic": true,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

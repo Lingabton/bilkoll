@@ -1,6 +1,6 @@
 {
   "model_id": "skoda-kodiaq-tsi",
-  "calculated_at": "2026-06-29T13:43:31.610357+00:00",
+  "calculated_at": "2026-07-06T12:59:50.388103+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -35,59 +35,47 @@
         "year": 1,
         "value": 375820,
         "confidence": "adjusted",
-        "data_points": 5
+        "data_points": 2
       },
       {
         "year": 2,
         "value": 345754,
-        "confidence": "adjusted",
-        "data_points": 3
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 3,
         "value": 318093,
-        "confidence": "adjusted",
-        "data_points": 3
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 4,
         "value": 292645,
-        "confidence": "adjusted",
-        "data_points": 2
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 5,
         "value": 269233,
-        "confidence": "adjusted",
-        "data_points": 3
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 6,
-        "value": 247694,
-        "confidence": "adjusted",
-        "data_points": 3
+        "value": 260585,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 7,
-        "value": 227878,
-        "confidence": "adjusted",
-        "data_points": 3
+        "value": 229314,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 8,
-        "value": 220363,
-        "confidence": "medium",
-        "data_points": 2
-      },
-      {
-        "year": 9,
-        "value": 208227,
-        "confidence": "medium",
-        "data_points": 3
-      },
-      {
-        "year": 10,
-        "value": 183239,
+        "value": 201797,
         "confidence": "estimated",
         "data_points": 0
       }

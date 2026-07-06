@@ -1,38 +1,28 @@
 {
   "model_id": "bmw-i4-edrive40",
-  "scraped_at": "2026-06-29T12:04:17.111117+00:00",
+  "scraped_at": "2026-07-06T11:19:52.665849+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 728004,
-      "count": 3,
-      "total_on_page": 46,
+      "median_price": 714705,
+      "count": 2,
+      "total_on_page": 48,
       "price_type": "estimated_transaction",
-      "min_price": 669414,
-      "max_price": 739327,
       "median_mileage_mil": 20250
     },
     "2023": {
-      "median_price": 440820,
-      "count": 6,
-      "total_on_page": 55,
+      "median_price": 474114,
+      "count": 4,
+      "total_on_page": 59,
       "price_type": "estimated_transaction",
-      "p5_price": 380277,
-      "p95_price": 539214,
-      "min_price": 380277,
-      "max_price": 539214
-    },
-    "2022": {
-      "median_price": 496945,
-      "count": 2,
-      "total_on_page": 25,
-      "price_type": "estimated_transaction"
+      "min_price": 422685,
+      "max_price": 520707
     }
   },
   "validation": {
-    "is_monotonic": false,
+    "is_monotonic": true,
     "min_count_per_year": 2,
     "confidence": "low"
   }

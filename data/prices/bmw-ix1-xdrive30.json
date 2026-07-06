@@ -1,36 +1,19 @@
 {
   "model_id": "bmw-ix1-xdrive30",
-  "scraped_at": "2026-06-29T10:49:53.658924+00:00",
+  "scraped_at": "2026-07-06T10:02:52.522419+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
-    "2025": {
-      "median_price": 589062,
-      "count": 2,
-      "total_on_page": 19,
-      "price_type": "estimated_transaction"
-    },
-    "2024": {
-      "median_price": 621007,
-      "count": 2,
-      "total_on_page": 17,
-      "price_type": "estimated_transaction",
-      "median_mileage_mil": 20240
-    },
     "2023": {
-      "median_price": 427707,
-      "count": 5,
-      "total_on_page": 33,
-      "price_type": "estimated_transaction",
-      "p5_price": 389670,
-      "p95_price": 464907,
-      "min_price": 389670,
-      "max_price": 464907
+      "median_price": 460210,
+      "count": 2,
+      "total_on_page": 44,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {
-    "is_monotonic": false,
+    "is_monotonic": true,
     "min_count_per_year": 2,
     "confidence": "low"
   }

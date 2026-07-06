@@ -1,61 +1,55 @@
 {
   "model_id": "toyota-yaris-hybrid",
-  "scraped_at": "2026-06-29T11:13:50.927579+00:00",
+  "scraped_at": "2026-07-06T10:27:25.364913+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 304482,
-      "count": 8,
-      "total_on_page": 99,
+      "median_price": 254215,
+      "count": 6,
+      "total_on_page": 78,
       "price_type": "estimated_transaction",
-      "p5_price": 251007,
-      "p95_price": 334614,
-      "min_price": 251007,
-      "max_price": 334614,
+      "p5_price": 223107,
+      "p95_price": 339357,
+      "min_price": 223107,
+      "max_price": 339357,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 422638,
-      "count": 4,
-      "total_on_page": 65,
+      "median_price": 241707,
+      "count": 3,
+      "total_on_page": 61,
       "price_type": "estimated_transaction",
-      "min_price": 278907,
-      "max_price": 525264
+      "min_price": 212040,
+      "max_price": 502107
     },
     "2023": {
-      "median_price": 246310,
-      "count": 10,
-      "total_on_page": 123,
+      "median_price": 202182,
+      "count": 6,
+      "total_on_page": 85,
       "price_type": "estimated_transaction",
-      "p5_price": 208320,
-      "p95_price": 305970,
-      "min_price": 208320,
-      "max_price": 305970
+      "p5_price": 176700,
+      "p95_price": 246357,
+      "min_price": 176700,
+      "max_price": 246357
     },
     "2022": {
-      "median_price": 185488,
+      "median_price": 142243,
       "count": 2,
-      "total_on_page": 31,
-      "price_type": "estimated_transaction"
-    },
-    "2021": {
-      "median_price": 278535,
-      "count": 1,
-      "total_on_page": 24,
+      "total_on_page": 40,
       "price_type": "estimated_transaction"
     },
     "2020": {
-      "median_price": 483507,
-      "count": 1,
+      "median_price": 267328,
+      "count": 2,
       "total_on_page": 28,
       "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 1,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

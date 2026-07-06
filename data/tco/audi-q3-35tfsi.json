@@ -1,6 +1,6 @@
 {
   "model_id": "audi-q3-35tfsi",
-  "calculated_at": "2026-06-29T13:43:31.623420+00:00",
+  "calculated_at": "2026-07-06T12:59:50.400753+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 299350,
-    "monthly_cost": 6236,
-    "cost_per_mil": 50,
+    "total_cost": 259164,
+    "monthly_cost": 5399,
+    "cost_per_mil": 43,
     "breakdown": {
-      "depreciation": 151930,
+      "depreciation": 111744,
       "fuel": 68820,
       "tax": 26510,
       "insurance": {
@@ -39,45 +39,45 @@
       },
       {
         "year": 2,
-        "value": 395157,
-        "confidence": "medium",
-        "data_points": 2
+        "value": 376013,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 3,
-        "value": 296670,
-        "confidence": "medium",
-        "data_points": 5
-      },
-      {
-        "year": 4,
-        "value": 278070,
-        "confidence": "medium",
+        "value": 345931,
+        "confidence": "adjusted",
         "data_points": 2
       },
       {
+        "year": 4,
+        "value": 318256,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
         "year": 5,
-        "value": 255824,
-        "confidence": "adjusted",
-        "data_points": 1
+        "value": 292795,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 6,
-        "value": 235358,
+        "value": 269371,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 213807,
-        "confidence": "medium",
-        "data_points": 1
+        "value": 247821,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 8,
-        "value": 148707,
-        "confidence": "medium",
-        "data_points": 1
+        "value": 227995,
+        "confidence": "estimated",
+        "data_points": 0
       }
     ]
   },

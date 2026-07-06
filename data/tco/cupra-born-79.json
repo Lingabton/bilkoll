@@ -1,6 +1,6 @@
 {
   "model_id": "cupra-born-79",
-  "calculated_at": "2026-06-29T13:43:31.607387+00:00",
+  "calculated_at": "2026-07-06T12:59:50.385103+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 390756,
-    "monthly_cost": 8141,
-    "cost_per_mil": 65,
+    "total_cost": 444942,
+    "monthly_cost": 9270,
+    "cost_per_mil": 74,
     "breakdown": {
-      "depreciation": 324530,
+      "depreciation": 378716,
       "fuel": 17496,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 362607,
-        "confidence": "medium",
-        "data_points": 2
+        "value": 215985,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 2,
-        "value": 288207,
-        "confidence": "medium",
-        "data_points": 2
+        "value": 198706,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 3,
-        "value": 241707,
-        "confidence": "medium",
+        "value": 182809,
+        "confidence": "adjusted",
         "data_points": 1
       },
       {
         "year": 4,
-        "value": 222370,
-        "confidence": "adjusted",
-        "data_points": 2
+        "value": 168184,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 5,
-        "value": 204580,
+        "value": 154729,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 188213,
+        "value": 142350,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 181191,
+        "value": 130962,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 159448,
+        "value": 120485,
         "confidence": "estimated",
         "data_points": 0
       }

@@ -1,6 +1,6 @@
 {
   "model_id": "dacia-sandero-tce",
-  "calculated_at": "2026-06-29T13:43:31.620260+00:00",
+  "calculated_at": "2026-07-06T12:59:50.397606+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 198324,
-    "monthly_cost": 4132,
-    "cost_per_mil": 33,
+    "total_cost": 203070,
+    "monthly_cost": 4231,
+    "cost_per_mil": 34,
     "breakdown": {
-      "depreciation": 88844,
+      "depreciation": 93590,
       "fuel": 61050,
       "tax": 20240,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 185349,
-        "confidence": "medium",
-        "data_points": 5
-      },
-      {
-        "year": 2,
-        "value": 167307,
-        "confidence": "medium",
+        "value": 183908,
+        "confidence": "adjusted",
         "data_points": 2
       },
       {
+        "year": 2,
+        "value": 169195,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
         "year": 3,
-        "value": 120714,
+        "value": 120807,
         "confidence": "medium",
-        "data_points": 7
+        "data_points": 6
       },
       {
         "year": 4,
-        "value": 111056,
-        "confidence": "adjusted",
-        "data_points": 4
+        "value": 106310,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 5,
-        "value": 102171,
-        "confidence": "adjusted",
-        "data_points": 3
+        "value": 93552,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 6,
-        "value": 93997,
+        "value": 82326,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 92256,
+        "value": 72447,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 81185,
+        "value": 63753,
         "confidence": "estimated",
         "data_points": 0
       }

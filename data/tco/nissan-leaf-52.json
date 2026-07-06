@@ -1,6 +1,6 @@
 {
   "model_id": "nissan-leaf-52",
-  "calculated_at": "2026-06-29T13:43:31.608578+00:00",
+  "calculated_at": "2026-07-06T12:59:50.386178+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 402969,
-    "monthly_cost": 8395,
-    "cost_per_mil": 67,
+    "total_cost": 448504,
+    "monthly_cost": 9344,
+    "cost_per_mil": 75,
     "breakdown": {
-      "depreciation": 340243,
+      "depreciation": 385778,
       "fuel": 17496,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 399807,
-        "confidence": "medium",
-        "data_points": 2
+        "value": 150411,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 2,
-        "value": 194184,
-        "confidence": "medium",
-        "data_points": 3
+        "value": 138378,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 3,
-        "value": 178649,
+        "value": 127307,
         "confidence": "adjusted",
-        "data_points": 16
+        "data_points": 12
       },
       {
         "year": 4,
-        "value": 162657,
-        "confidence": "medium",
-        "data_points": 11
+        "value": 117122,
+        "confidence": "adjusted",
+        "data_points": 8
       },
       {
         "year": 5,
-        "value": 157170,
-        "confidence": "medium",
-        "data_points": 7
+        "value": 107752,
+        "confidence": "adjusted",
+        "data_points": 4
       },
       {
         "year": 6,
-        "value": 144596,
-        "confidence": "adjusted",
-        "data_points": 2
+        "value": 99131,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 7,
-        "value": 134850,
-        "confidence": "medium",
-        "data_points": 3
+        "value": 91200,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 8,
-        "value": 118668,
+        "value": 83904,
         "confidence": "estimated",
         "data_points": 0
       }

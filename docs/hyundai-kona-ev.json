@@ -1,6 +1,6 @@
 {
   "model_id": "hyundai-kona-ev",
-  "calculated_at": "2026-06-29T13:43:31.605974+00:00",
+  "calculated_at": "2026-07-06T12:59:50.383794+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 266840,
-    "monthly_cost": 5559,
-    "cost_per_mil": 44,
+    "total_cost": 67854,
+    "monthly_cost": 1414,
+    "cost_per_mil": 11,
     "breakdown": {
-      "depreciation": 198986,
+      "depreciation": 0,
       "fuel": 16524,
       "tax": 1440,
       "insurance": {
@@ -29,54 +29,6 @@
         "year": 0,
         "value": 449900,
         "confidence": "fixed",
-        "data_points": 0
-      },
-      {
-        "year": 1,
-        "value": 413908,
-        "confidence": "adjusted",
-        "data_points": 2
-      },
-      {
-        "year": 2,
-        "value": 292857,
-        "confidence": "medium",
-        "data_points": 2
-      },
-      {
-        "year": 3,
-        "value": 257714,
-        "confidence": "estimated",
-        "data_points": 0
-      },
-      {
-        "year": 4,
-        "value": 250914,
-        "confidence": "medium",
-        "data_points": 3
-      },
-      {
-        "year": 5,
-        "value": 218457,
-        "confidence": "medium",
-        "data_points": 3
-      },
-      {
-        "year": 6,
-        "value": 200980,
-        "confidence": "adjusted",
-        "data_points": 2
-      },
-      {
-        "year": 7,
-        "value": 184901,
-        "confidence": "adjusted",
-        "data_points": 2
-      },
-      {
-        "year": 8,
-        "value": 170108,
-        "confidence": "estimated",
         "data_points": 0
       }
     ]

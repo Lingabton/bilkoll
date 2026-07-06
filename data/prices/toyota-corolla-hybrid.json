@@ -1,63 +1,67 @@
 {
   "model_id": "toyota-corolla-hybrid",
-  "scraped_at": "2026-06-29T10:31:00.499881+00:00",
+  "scraped_at": "2026-07-06T09:43:12.901685+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
       "median_price": 306807,
-      "count": 11,
-      "total_on_page": 118,
+      "count": 8,
+      "total_on_page": 117,
       "price_type": "estimated_transaction",
-      "p5_price": 297507,
-      "p95_price": 366792,
-      "min_price": 297507,
-      "max_price": 366792,
-      "median_mileage_mil": 20251
+      "p5_price": 292857,
+      "p95_price": 362607,
+      "min_price": 292857,
+      "max_price": 362607,
+      "median_mileage_mil": 20252
     },
     "2024": {
-      "median_price": 316060,
+      "median_price": 318339,
       "count": 6,
-      "total_on_page": 76,
+      "total_on_page": 77,
       "price_type": "estimated_transaction",
-      "p5_price": 297507,
+      "p5_price": 251007,
       "p95_price": 371907,
-      "min_price": 297507,
+      "min_price": 251007,
       "max_price": 371907
     },
     "2023": {
-      "median_price": 297507,
-      "count": 5,
-      "total_on_page": 57,
+      "median_price": 221619,
+      "count": 4,
+      "total_on_page": 53,
       "price_type": "estimated_transaction",
-      "p5_price": 241614,
-      "p95_price": 303087,
-      "min_price": 241614,
-      "max_price": 303087
+      "min_price": 148800,
+      "max_price": 269607
     },
     "2022": {
-      "median_price": 236638,
+      "median_price": 231570,
+      "count": 1,
+      "total_on_page": 36,
+      "price_type": "estimated_transaction"
+    },
+    "2021": {
+      "median_price": 167307,
       "count": 2,
-      "total_on_page": 27,
+      "total_on_page": 31,
       "price_type": "estimated_transaction"
     },
     "2020": {
-      "median_price": 162982,
+      "median_price": 139221,
       "count": 2,
-      "total_on_page": 30,
+      "total_on_page": 31,
       "price_type": "estimated_transaction"
     },
     "2019": {
-      "median_price": 188232,
+      "median_price": 183582,
       "count": 2,
-      "total_on_page": 45,
+      "total_on_page": 43,
       "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 2,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

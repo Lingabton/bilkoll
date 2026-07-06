@@ -1,60 +1,33 @@
 {
   "model_id": "ford-mustang-mach-e-rwd",
-  "scraped_at": "2026-06-29T11:25:22.900149+00:00",
+  "scraped_at": "2026-07-06T10:39:30.121126+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
-    "2025": {
-      "median_price": 711357,
-      "count": 3,
-      "total_on_page": 4,
-      "price_type": "estimated_transaction",
-      "min_price": 632214,
-      "max_price": 715170,
-      "median_mileage_mil": 20251
-    },
-    "2024": {
-      "median_price": 632028,
-      "count": 3,
-      "total_on_page": 3,
-      "price_type": "estimated_transaction",
-      "min_price": 557907,
-      "max_price": 637515,
-      "median_mileage_mil": 20240
-    },
-    "2023": {
-      "median_price": 471742,
-      "count": 2,
-      "total_on_page": 8,
-      "price_type": "estimated_transaction",
-      "median_mileage_mil": 20230
-    },
     "2022": {
-      "median_price": 320757,
-      "count": 6,
-      "total_on_page": 66,
+      "median_price": 320245,
+      "count": 4,
+      "total_on_page": 67,
       "price_type": "estimated_transaction",
-      "p5_price": 306807,
-      "p95_price": 371907,
-      "min_price": 306807,
-      "max_price": 371907
+      "min_price": 232407,
+      "max_price": 334707
     },
     "2021": {
-      "median_price": 353307,
-      "count": 8,
-      "total_on_page": 76,
+      "median_price": 341682,
+      "count": 6,
+      "total_on_page": 92,
       "price_type": "estimated_transaction",
-      "p5_price": 302157,
-      "p95_price": 747441,
-      "min_price": 302157,
-      "max_price": 747441,
+      "p5_price": 278070,
+      "p95_price": 704754,
+      "min_price": 278070,
+      "max_price": 704754,
       "median_mileage_mil": 20211
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 2,
+    "min_count_per_year": 4,
     "confidence": "low"
   }
 }

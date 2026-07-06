@@ -1,46 +1,46 @@
 {
   "model_id": "kia-sportage-phev",
-  "scraped_at": "2026-06-29T11:42:50.750285+00:00",
+  "scraped_at": "2026-07-06T10:57:31.619945+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 427707,
-      "count": 9,
-      "total_on_page": 98,
+      "median_price": 426870,
+      "count": 6,
+      "total_on_page": 95,
       "price_type": "estimated_transaction",
-      "p5_price": 418314,
+      "p5_price": 381207,
       "p95_price": 505827,
-      "min_price": 418314,
+      "min_price": 381207,
       "max_price": 505827,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 399807,
-      "count": 14,
-      "total_on_page": 103,
+      "median_price": 432357,
+      "count": 8,
+      "total_on_page": 104,
       "price_type": "estimated_transaction",
-      "p5_price": 361677,
-      "p95_price": 511779,
-      "min_price": 361677,
-      "max_price": 511779,
-      "median_mileage_mil": 20240
+      "p5_price": 352470,
+      "p95_price": 492807,
+      "min_price": 352470,
+      "max_price": 492807,
+      "median_mileage_mil": 20241
     },
     "2023": {
-      "median_price": 317223,
-      "count": 18,
-      "total_on_page": 132,
+      "median_price": 318478,
+      "count": 10,
+      "total_on_page": 149,
       "price_type": "estimated_transaction",
-      "p5_price": 250170,
+      "p5_price": 278907,
       "p95_price": 455607,
-      "min_price": 250170,
+      "min_price": 278907,
       "max_price": 455607
     },
     "2022": {
-      "median_price": 310806,
-      "count": 18,
-      "total_on_page": 138,
+      "median_price": 304528,
+      "count": 12,
+      "total_on_page": 162,
       "price_type": "estimated_transaction",
       "p5_price": 278070,
       "p95_price": 455607,
@@ -49,8 +49,8 @@
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 9,
+    "is_monotonic": false,
+    "min_count_per_year": 6,
     "confidence": "low"
   }
 }

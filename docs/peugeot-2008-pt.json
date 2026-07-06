@@ -1,6 +1,6 @@
 {
   "model_id": "peugeot-2008-pt",
-  "calculated_at": "2026-06-29T13:43:31.619711+00:00",
+  "calculated_at": "2026-07-06T12:59:50.397063+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 226275,
-    "monthly_cost": 4714,
-    "cost_per_mil": 38,
+    "total_cost": 218014,
+    "monthly_cost": 4542,
+    "cost_per_mil": 36,
     "breakdown": {
-      "depreciation": 110410,
+      "depreciation": 102149,
       "fuel": 61050,
       "tax": 18525,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 278907,
-        "confidence": "medium",
-        "data_points": 5
-      },
-      {
-        "year": 2,
-        "value": 218457,
-        "confidence": "medium",
-        "data_points": 8
-      },
-      {
-        "year": 3,
-        "value": 195207,
+        "value": 241242,
         "confidence": "medium",
         "data_points": 4
       },
       {
-        "year": 4,
-        "value": 179590,
+        "year": 2,
+        "value": 221942,
         "confidence": "adjusted",
-        "data_points": 1
+        "data_points": 3
+      },
+      {
+        "year": 3,
+        "value": 204186,
+        "confidence": "adjusted",
+        "data_points": 2
+      },
+      {
+        "year": 4,
+        "value": 187851,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 5,
-        "value": 130060,
-        "confidence": "medium",
-        "data_points": 2
+        "value": 172822,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 6,
-        "value": 119655,
-        "confidence": "adjusted",
-        "data_points": 2
+        "value": 167885,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 7,
-        "value": 110082,
+        "value": 147739,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 101275,
+        "value": 130010,
         "confidence": "estimated",
         "data_points": 0
       }

@@ -1,6 +1,6 @@
 {
   "model_id": "cupra-formentor-tsi",
-  "calculated_at": "2026-06-29T13:43:31.613758+00:00",
+  "calculated_at": "2026-07-06T12:59:50.391382+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 340868,
-    "monthly_cost": 7101,
-    "cost_per_mil": 57,
+    "total_cost": 362891,
+    "monthly_cost": 7560,
+    "cost_per_mil": 60,
     "breakdown": {
-      "depreciation": 193680,
+      "depreciation": 215703,
       "fuel": 72150,
       "tax": 22748,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 395508,
-        "confidence": "adjusted",
-        "data_points": 4
+        "value": 275076,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 2,
-        "value": 325407,
-        "confidence": "medium",
-        "data_points": 5
+        "value": 253069,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 3,
-        "value": 262213,
-        "confidence": "medium",
-        "data_points": 6
-      },
-      {
-        "year": 4,
-        "value": 236220,
-        "confidence": "medium",
-        "data_points": 3
-      },
-      {
-        "year": 5,
-        "value": 217322,
+        "value": 232823,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
+        "year": 4,
+        "value": 214197,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 5,
+        "value": 197061,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
         "year": 6,
-        "value": 199936,
-        "confidence": "adjusted",
-        "data_points": 1
+        "value": 181296,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 7,
-        "value": 183941,
+        "value": 166792,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 169225,
+        "value": 153448,
         "confidence": "estimated",
         "data_points": 0
       }

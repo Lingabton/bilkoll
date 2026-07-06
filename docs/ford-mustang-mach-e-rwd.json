@@ -1,6 +1,6 @@
 {
   "model_id": "ford-mustang-mach-e-rwd",
-  "calculated_at": "2026-06-29T13:43:31.610948+00:00",
+  "calculated_at": "2026-07-06T12:59:50.388637+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 439241,
-    "monthly_cost": 9151,
-    "cost_per_mil": 73,
+    "total_cost": 590061,
+    "monthly_cost": 12293,
+    "cost_per_mil": 98,
     "breakdown": {
-      "depreciation": 378243,
+      "depreciation": 529063,
       "fuel": 18468,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 643080,
-        "confidence": "adjusted",
-        "data_points": 3
+        "value": 218238,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 2,
-        "value": 632028,
-        "confidence": "medium",
-        "data_points": 3
+        "value": 200778,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 3,
-        "value": 471742,
-        "confidence": "medium",
-        "data_points": 2
+        "value": 184715,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 4,
-        "value": 320757,
-        "confidence": "medium",
-        "data_points": 6
+        "value": 169937,
+        "confidence": "adjusted",
+        "data_points": 4
       },
       {
         "year": 5,
-        "value": 295096,
+        "value": 156342,
         "confidence": "adjusted",
-        "data_points": 8
+        "data_points": 6
       },
       {
         "year": 6,
-        "value": 271488,
+        "value": 143834,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 249768,
+        "value": 132327,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 240768,
+        "value": 121740,
         "confidence": "estimated",
         "data_points": 0
       }

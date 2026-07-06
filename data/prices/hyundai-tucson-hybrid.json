@@ -1,41 +1,37 @@
 {
   "model_id": "hyundai-tucson-hybrid",
-  "scraped_at": "2026-06-29T11:38:16.338523+00:00",
+  "scraped_at": "2026-07-06T10:52:39.903251+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 446214,
-      "count": 7,
-      "total_on_page": 75,
+      "median_price": 447190,
+      "count": 4,
+      "total_on_page": 74,
       "price_type": "estimated_transaction",
-      "p5_price": 305970,
-      "p95_price": 460164,
-      "min_price": 305970,
+      "min_price": 380474,
       "max_price": 460164,
       "median_mileage_mil": 20250
     },
     "2022": {
-      "median_price": 278070,
-      "count": 5,
-      "total_on_page": 61,
+      "median_price": 301692,
+      "count": 4,
+      "total_on_page": 62,
       "price_type": "estimated_transaction",
-      "p5_price": 241707,
-      "p95_price": 381114,
       "min_price": 241707,
-      "max_price": 381114
+      "max_price": 344007
     },
     "2021": {
-      "median_price": 238777,
-      "count": 2,
-      "total_on_page": 35,
+      "median_price": 325407,
+      "count": 1,
+      "total_on_page": 33,
       "price_type": "estimated_transaction"
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 2,
+    "is_monotonic": false,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

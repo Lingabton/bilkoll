@@ -1,73 +1,41 @@
 {
   "model_id": "vw-t-roc-etsi",
-  "scraped_at": "2026-06-29T12:31:01.737213+00:00",
+  "scraped_at": "2026-07-06T11:48:10.943437+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 334707,
-      "count": 7,
-      "total_on_page": 31,
+      "median_price": 357492,
+      "count": 4,
+      "total_on_page": 56,
       "price_type": "estimated_transaction",
-      "p5_price": 297507,
-      "p95_price": 371907,
-      "min_price": 297507,
-      "max_price": 371907
+      "min_price": 334707,
+      "max_price": 399714
     },
     "2023": {
-      "median_price": 240870,
-      "count": 13,
-      "total_on_page": 101,
+      "median_price": 227757,
+      "count": 10,
+      "total_on_page": 127,
       "price_type": "estimated_transaction",
-      "p5_price": 199764,
-      "p95_price": 334707,
-      "min_price": 199764,
-      "max_price": 334707
+      "p5_price": 195114,
+      "p95_price": 324570,
+      "min_price": 195114,
+      "max_price": 324570
     },
     "2022": {
-      "median_price": 250170,
-      "count": 9,
-      "total_on_page": 60,
+      "median_price": 215760,
+      "count": 4,
+      "total_on_page": 62,
       "price_type": "estimated_transaction",
-      "p5_price": 204507,
-      "p95_price": 315270,
-      "min_price": 204507,
-      "max_price": 315270
-    },
-    "2021": {
-      "median_price": 216085,
-      "count": 6,
-      "total_on_page": 32,
-      "price_type": "estimated_transaction",
-      "p5_price": 162750,
-      "p95_price": 297414,
-      "min_price": 162750,
-      "max_price": 297414
+      "min_price": 148707,
+      "max_price": 251007
     },
     "2020": {
-      "median_price": 237057,
-      "count": 6,
-      "total_on_page": 29,
-      "price_type": "estimated_transaction",
-      "p5_price": 153264,
-      "p95_price": 297507,
-      "min_price": 153264,
-      "max_price": 297507
-    },
-    "2019": {
-      "median_price": 209110,
+      "median_price": 278488,
       "count": 2,
-      "total_on_page": 15,
+      "total_on_page": 29,
       "price_type": "estimated_transaction"
-    },
-    "2018": {
-      "median_price": 164982,
-      "count": 4,
-      "total_on_page": 30,
-      "price_type": "estimated_transaction",
-      "min_price": 120807,
-      "max_price": 203112
     }
   },
   "validation": {

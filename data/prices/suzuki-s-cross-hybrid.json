@@ -1,26 +1,13 @@
 {
   "model_id": "suzuki-s-cross-hybrid",
-  "scraped_at": "2026-06-29T11:59:45.895131+00:00",
+  "scraped_at": "2026-07-06T11:15:08.946451+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
-  "years": {
-    "2023": {
-      "median_price": 408270,
-      "count": 1,
-      "total_on_page": 6,
-      "price_type": "estimated_transaction"
-    },
-    "2022": {
-      "median_price": 418407,
-      "count": 1,
-      "total_on_page": 4,
-      "price_type": "estimated_transaction"
-    }
-  },
+  "years": {},
   "validation": {
-    "is_monotonic": false,
-    "min_count_per_year": 1,
+    "is_monotonic": true,
+    "min_count_per_year": 0,
     "confidence": "low"
   }
 }

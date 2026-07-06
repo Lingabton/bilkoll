@@ -1,6 +1,6 @@
 {
   "model_id": "skoda-octavia-tdi",
-  "calculated_at": "2026-06-29T13:43:31.608933+00:00",
+  "calculated_at": "2026-07-06T12:59:50.386611+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 345225,
-    "monthly_cost": 7192,
-    "cost_per_mil": 58,
+    "total_cost": 422082,
+    "monthly_cost": 8793,
+    "cost_per_mil": 70,
     "breakdown": {
-      "depreciation": 208509,
+      "depreciation": 285366,
       "fuel": 61050,
       "tax": 22076,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 334335,
-        "confidence": "medium",
-        "data_points": 1
+        "value": 186898,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 2,
-        "value": 307588,
+        "value": 171946,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 3,
+        "value": 158190,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 4,
+        "value": 145534,
         "confidence": "adjusted",
         "data_points": 1
       },
       {
-        "year": 3,
-        "value": 241730,
-        "confidence": "medium",
-        "data_points": 2
-      },
-      {
-        "year": 4,
-        "value": 222391,
-        "confidence": "adjusted",
-        "data_points": 5
-      },
-      {
         "year": 5,
-        "value": 194695,
-        "confidence": "medium",
-        "data_points": 2
+        "value": 133891,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 6,
-        "value": 179119,
-        "confidence": "adjusted",
-        "data_points": 3
+        "value": 123179,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 7,
-        "value": 164789,
+        "value": 113324,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 151605,
+        "value": 104258,
         "confidence": "estimated",
         "data_points": 0
       }

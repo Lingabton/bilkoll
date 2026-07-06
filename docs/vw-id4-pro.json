@@ -1,6 +1,6 @@
 {
   "model_id": "vw-id4-pro",
-  "calculated_at": "2026-06-29T13:43:31.603554+00:00",
+  "calculated_at": "2026-07-06T12:59:50.381560+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 326273,
-    "monthly_cost": 6797,
-    "cost_per_mil": 54,
+    "total_cost": 383721,
+    "monthly_cost": 7994,
+    "cost_per_mil": 64,
     "breakdown": {
-      "depreciation": 259203,
+      "depreciation": 316651,
       "fuel": 19440,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 501735,
-        "confidence": "medium",
-        "data_points": 5
+        "value": 273600,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 2,
-        "value": 446307,
-        "confidence": "medium",
-        "data_points": 5
+        "value": 251712,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 3,
-        "value": 294019,
-        "confidence": "medium",
-        "data_points": 10
-      },
-      {
-        "year": 4,
-        "value": 270497,
+        "value": 231575,
         "confidence": "adjusted",
         "data_points": 7
       },
       {
-        "year": 5,
-        "value": 248857,
+        "year": 4,
+        "value": 213049,
         "confidence": "adjusted",
         "data_points": 4
       },
       {
+        "year": 5,
+        "value": 196005,
+        "confidence": "adjusted",
+        "data_points": 2
+      },
+      {
         "year": 6,
-        "value": 228948,
+        "value": 180324,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 210632,
+        "value": 165898,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 193781,
+        "value": 152626,
         "confidence": "estimated",
         "data_points": 0
       }

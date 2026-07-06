@@ -1,95 +1,95 @@
 {
   "model_id": "volvo-xc60-b5-bensin",
-  "scraped_at": "2026-06-29T10:05:57.311316+00:00",
+  "scraped_at": "2026-07-06T09:17:13.780483+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
       "median_price": 557907,
-      "count": 24,
-      "total_on_page": 425,
+      "count": 18,
+      "total_on_page": 515,
       "price_type": "estimated_transaction",
-      "p5_price": 441750,
-      "p95_price": 607662,
-      "min_price": 441750,
-      "max_price": 637050,
+      "p5_price": 501270,
+      "p95_price": 718704,
+      "min_price": 501270,
+      "max_price": 718704,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 464990,
-      "count": 25,
-      "total_on_page": 481,
+      "median_price": 425010,
+      "count": 18,
+      "total_on_page": 565,
       "price_type": "estimated_transaction",
-      "p5_price": 371814,
-      "p95_price": 530007,
-      "min_price": 352470,
-      "max_price": 584970
+      "p5_price": 324570,
+      "p95_price": 537540,
+      "min_price": 324570,
+      "max_price": 537540
     },
     "2023": {
-      "median_price": 399807,
-      "count": 21,
-      "total_on_page": 505,
+      "median_price": 390088,
+      "count": 18,
+      "total_on_page": 572,
       "price_type": "estimated_transaction",
-      "p5_price": 339357,
-      "p95_price": 455235,
-      "min_price": 329220,
-      "max_price": 455235
-    },
-    "2022": {
-      "median_price": 399807,
-      "count": 19,
-      "total_on_page": 271,
-      "price_type": "estimated_transaction",
-      "p5_price": 353307,
+      "p5_price": 332940,
       "p95_price": 464907,
-      "min_price": 353307,
+      "min_price": 332940,
       "max_price": 464907
     },
+    "2022": {
+      "median_price": 357492,
+      "count": 18,
+      "total_on_page": 299,
+      "price_type": "estimated_transaction",
+      "p5_price": 302250,
+      "p95_price": 488240,
+      "min_price": 302250,
+      "max_price": 488240
+    },
     "2021": {
-      "median_price": 357538,
-      "count": 22,
-      "total_on_page": 304,
-      "price_type": "estimated_transaction",
-      "p5_price": 255750,
-      "p95_price": 437007,
-      "min_price": 245985,
-      "max_price": 446307
-    },
-    "2020": {
-      "median_price": 325407,
-      "count": 21,
-      "total_on_page": 247,
-      "price_type": "estimated_transaction",
-      "p5_price": 297507,
-      "p95_price": 427707,
-      "min_price": 232035,
-      "max_price": 427707
-    },
-    "2019": {
-      "median_price": 309643,
-      "count": 16,
-      "total_on_page": 186,
+      "median_price": 329871,
+      "count": 18,
+      "total_on_page": 314,
       "price_type": "estimated_transaction",
       "p5_price": 223107,
-      "p95_price": 418407,
+      "p95_price": 409107,
       "min_price": 223107,
-      "max_price": 418407
+      "max_price": 409107
+    },
+    "2020": {
+      "median_price": 334660,
+      "count": 18,
+      "total_on_page": 257,
+      "price_type": "estimated_transaction",
+      "p5_price": 232035,
+      "p95_price": 426870,
+      "min_price": 232035,
+      "max_price": 426870
+    },
+    "2019": {
+      "median_price": 327685,
+      "count": 12,
+      "total_on_page": 173,
+      "price_type": "estimated_transaction",
+      "p5_price": 209157,
+      "p95_price": 390507,
+      "min_price": 209157,
+      "max_price": 390507
     },
     "2018": {
-      "median_price": 274257,
-      "count": 16,
-      "total_on_page": 180,
+      "median_price": 282952,
+      "count": 14,
+      "total_on_page": 184,
       "price_type": "estimated_transaction",
-      "p5_price": 203205,
-      "p95_price": 408270,
-      "min_price": 203205,
-      "max_price": 408270
+      "p5_price": 199764,
+      "p95_price": 390507,
+      "min_price": 199764,
+      "max_price": 390507
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 16,
+    "is_monotonic": false,
+    "min_count_per_year": 12,
     "confidence": "medium"
   }
 }
