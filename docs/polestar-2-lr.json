@@ -1,6 +1,6 @@
 {
   "model_id": "polestar-2-lr",
-  "calculated_at": "2026-07-06T12:59:50.385853+00:00",
+  "calculated_at": "2026-07-13T12:15:45.913889+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -35,7 +35,7 @@
         "year": 1,
         "value": 555582,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 4
       },
       {
         "year": 2,
@@ -45,9 +45,9 @@
       },
       {
         "year": 3,
-        "value": 350563,
+        "value": 362607,
         "confidence": "medium",
-        "data_points": 4
+        "data_points": 6
       },
       {
         "year": 4,
@@ -57,25 +57,25 @@
       },
       {
         "year": 5,
-        "value": 313782,
-        "confidence": "medium",
-        "data_points": 2
+        "value": 298592,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 6,
-        "value": 276128,
+        "value": 262761,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 242992,
+        "value": 231230,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 213833,
+        "value": 203482,
         "confidence": "estimated",
         "data_points": 0
       }

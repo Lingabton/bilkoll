@@ -1,44 +1,46 @@
 {
   "model_id": "tesla-model-y-lr",
-  "scraped_at": "2026-07-06T09:25:26.461116+00:00",
+  "scraped_at": "2026-07-13T08:42:19.364585+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2024": {
-      "median_price": 483600,
-      "count": 1,
-      "total_on_page": 46,
+      "median_price": 544003,
+      "count": 2,
+      "total_on_page": 49,
       "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 370698,
-      "count": 15,
-      "total_on_page": 211,
+      "median_price": 362607,
+      "count": 17,
+      "total_on_page": 230,
       "price_type": "estimated_transaction",
-      "p5_price": 274350,
-      "p95_price": 446307,
-      "min_price": 274350,
-      "max_price": 446307
+      "p5_price": 301310,
+      "p95_price": 420350,
+      "min_price": 301310,
+      "max_price": 420350
     },
     "2022": {
-      "median_price": 488157,
-      "count": 4,
-      "total_on_page": 75,
+      "median_price": 352842,
+      "count": 6,
+      "total_on_page": 78,
       "price_type": "estimated_transaction",
-      "min_price": 343077,
+      "p5_price": 297507,
+      "p95_price": 609150,
+      "min_price": 297507,
       "max_price": 609150
     },
     "2021": {
-      "median_price": 278907,
-      "count": 1,
-      "total_on_page": 33,
+      "median_price": 264957,
+      "count": 2,
+      "total_on_page": 34,
       "price_type": "estimated_transaction"
     }
   },
   "validation": {
-    "is_monotonic": false,
-    "min_count_per_year": 1,
+    "is_monotonic": true,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

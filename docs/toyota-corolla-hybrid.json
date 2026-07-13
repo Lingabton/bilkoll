@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-corolla-hybrid",
-  "calculated_at": "2026-07-06T12:59:50.382363+00:00",
+  "calculated_at": "2026-07-13T12:15:45.909299+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 226409,
-    "monthly_cost": 4717,
-    "cost_per_mil": 38,
+    "total_cost": 198728,
+    "monthly_cost": 4140,
+    "cost_per_mil": 33,
     "breakdown": {
-      "depreciation": 121011,
+      "depreciation": 93330,
       "fuel": 55500,
       "tax": 12008,
       "insurance": {
@@ -35,47 +35,47 @@
         "year": 1,
         "value": 306807,
         "confidence": "medium",
-        "data_points": 8
+        "data_points": 7
       },
       {
         "year": 2,
-        "value": 282262,
-        "confidence": "adjusted",
-        "data_points": 6
-      },
-      {
-        "year": 3,
-        "value": 221619,
+        "value": 299832,
         "confidence": "medium",
         "data_points": 4
       },
       {
-        "year": 4,
-        "value": 203889,
-        "confidence": "adjusted",
-        "data_points": 1
-      },
-      {
-        "year": 5,
-        "value": 167307,
+        "year": 3,
+        "value": 239428,
         "confidence": "medium",
         "data_points": 2
       },
       {
+        "year": 4,
+        "value": 231570,
+        "confidence": "medium",
+        "data_points": 1
+      },
+      {
+        "year": 5,
+        "value": 204507,
+        "confidence": "medium",
+        "data_points": 1
+      },
+      {
         "year": 6,
-        "value": 139221,
+        "value": 192463,
         "confidence": "medium",
         "data_points": 2
       },
       {
         "year": 7,
-        "value": 128083,
+        "value": 177065,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 8,
-        "value": 117836,
+        "value": 162899,
         "confidence": "estimated",
         "data_points": 0
       }

@@ -1,6 +1,6 @@
 {
   "model_id": "cupra-formentor-tsi",
-  "scraped_at": "2026-07-06T11:05:58.729708+00:00",
+  "scraped_at": "2026-07-13T10:22:13.040369+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -8,7 +8,7 @@
     "2023": {
       "median_price": 355213,
       "count": 2,
-      "total_on_page": 38,
+      "total_on_page": 41,
       "price_type": "estimated_transaction"
     }
   },

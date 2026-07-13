@@ -1,108 +1,108 @@
 {
   "model_id": "volvo-v90-t6-phev",
-  "scraped_at": "2026-07-06T12:08:57.117789+00:00",
+  "scraped_at": "2026-07-13T11:25:04.655727+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 492156,
+      "median_price": 467278,
       "count": 10,
-      "total_on_page": 136,
+      "total_on_page": 143,
       "price_type": "estimated_transaction",
-      "p5_price": 390507,
+      "p5_price": 399435,
       "p95_price": 613149,
-      "min_price": 390507,
+      "min_price": 399435,
       "max_price": 613149,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 409107,
-      "count": 7,
-      "total_on_page": 117,
+      "median_price": 422452,
+      "count": 8,
+      "total_on_page": 126,
       "price_type": "estimated_transaction",
       "p5_price": 343170,
-      "p95_price": 427707,
+      "p95_price": 497550,
       "min_price": 343170,
-      "max_price": 427707
+      "max_price": 497550
     },
     "2023": {
-      "median_price": 376092,
+      "median_price": 362607,
       "count": 12,
-      "total_on_page": 167,
+      "total_on_page": 163,
       "price_type": "estimated_transaction",
-      "p5_price": 353121,
-      "p95_price": 441750,
-      "min_price": 353121,
-      "max_price": 441750
+      "p5_price": 306807,
+      "p95_price": 497550,
+      "min_price": 306807,
+      "max_price": 497550
     },
     "2022": {
-      "median_price": 315223,
+      "median_price": 287277,
       "count": 8,
-      "total_on_page": 124,
+      "total_on_page": 114,
       "price_type": "estimated_transaction",
       "p5_price": 185907,
-      "p95_price": 427614,
+      "p95_price": 409107,
       "min_price": 185907,
-      "max_price": 427614
+      "max_price": 409107
     },
     "2021": {
-      "median_price": 352888,
-      "count": 6,
-      "total_on_page": 100,
+      "median_price": 278907,
+      "count": 7,
+      "total_on_page": 101,
       "price_type": "estimated_transaction",
-      "p5_price": 230175,
+      "p5_price": 227757,
       "p95_price": 631470,
-      "min_price": 230175,
+      "min_price": 227757,
       "max_price": 631470
     },
     "2020": {
-      "median_price": 258075,
+      "median_price": 262632,
       "count": 10,
-      "total_on_page": 140,
-      "price_type": "estimated_transaction",
-      "p5_price": 167400,
-      "p95_price": 330140,
-      "min_price": 167400,
-      "max_price": 330140
-    },
-    "2019": {
-      "median_price": 243799,
-      "count": 10,
-      "total_on_page": 127,
+      "total_on_page": 148,
       "price_type": "estimated_transaction",
       "p5_price": 130107,
-      "p95_price": 371535,
+      "p95_price": 278070,
       "min_price": 130107,
+      "max_price": 278070
+    },
+    "2019": {
+      "median_price": 225432,
+      "count": 10,
+      "total_on_page": 132,
+      "price_type": "estimated_transaction",
+      "p5_price": 181257,
+      "p95_price": 371535,
+      "min_price": 181257,
       "max_price": 371535
     },
     "2018": {
-      "median_price": 199810,
+      "median_price": 218038,
       "count": 18,
-      "total_on_page": 234,
+      "total_on_page": 231,
       "price_type": "estimated_transaction",
-      "p5_price": 111507,
-      "p95_price": 316107,
-      "min_price": 111507,
-      "max_price": 316107
+      "p5_price": 153450,
+      "p95_price": 315270,
+      "min_price": 153450,
+      "max_price": 315270
     },
     "2017": {
-      "median_price": 185907,
-      "count": 11,
-      "total_on_page": 159,
+      "median_price": 176188,
+      "count": 12,
+      "total_on_page": 166,
       "price_type": "estimated_transaction",
-      "p5_price": 134757,
-      "p95_price": 305970,
-      "min_price": 134757,
-      "max_price": 305970
+      "p5_price": 116157,
+      "p95_price": 306621,
+      "min_price": 116157,
+      "max_price": 306621
     },
     "2016": {
-      "median_price": 185907,
+      "median_price": 202228,
       "count": 4,
       "total_on_page": 53,
       "price_type": "estimated_transaction",
-      "min_price": 147870,
-      "max_price": 209250
+      "min_price": 171120,
+      "max_price": 352470
     }
   },
   "validation": {

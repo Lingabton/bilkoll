@@ -1,33 +1,29 @@
 {
   "model_id": "vw-tiguan-etsi",
-  "scraped_at": "2026-07-06T10:32:03.065653+00:00",
+  "scraped_at": "2026-07-13T09:48:38.136349+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2020": {
-      "median_price": 260307,
-      "count": 1,
-      "total_on_page": 39,
+      "median_price": 227757,
+      "count": 2,
+      "total_on_page": 43,
       "price_type": "estimated_transaction"
     },
     "2019": {
-      "median_price": 255657,
+      "median_price": 250635,
       "count": 1,
       "total_on_page": 39,
       "price_type": "estimated_transaction"
     },
     "2018": {
-      "median_price": 223107,
-      "count": 2,
-      "total_on_page": 50,
-      "price_type": "estimated_transaction"
-    },
-    "2017": {
-      "median_price": 231570,
-      "count": 1,
-      "total_on_page": 26,
-      "price_type": "estimated_transaction"
+      "median_price": 178467,
+      "count": 4,
+      "total_on_page": 56,
+      "price_type": "estimated_transaction",
+      "min_price": 130107,
+      "max_price": 204600
     }
   },
   "validation": {

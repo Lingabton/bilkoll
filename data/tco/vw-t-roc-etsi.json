@@ -1,6 +1,6 @@
 {
   "model_id": "vw-t-roc-etsi",
-  "calculated_at": "2026-07-06T12:59:50.394769+00:00",
+  "calculated_at": "2026-07-13T12:15:45.924011+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 280526,
-    "monthly_cost": 5844,
-    "cost_per_mil": 47,
+    "total_cost": 278194,
+    "monthly_cost": 5796,
+    "cost_per_mil": 46,
     "breakdown": {
-      "depreciation": 147240,
+      "depreciation": 144908,
       "fuel": 68820,
       "tax": 21076,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 357492,
+        "value": 339357,
         "confidence": "medium",
         "data_points": 4
       },
       {
         "year": 2,
-        "value": 314592,
+        "value": 298634,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 3,
-        "value": 227757,
+        "value": 237057,
         "confidence": "medium",
         "data_points": 10
       },
       {
         "year": 4,
-        "value": 215760,
-        "confidence": "medium",
+        "value": 218092,
+        "confidence": "adjusted",
         "data_points": 4
       },
       {
         "year": 5,
-        "value": 189868,
-        "confidence": "estimated",
-        "data_points": 0
-      },
-      {
-        "year": 6,
-        "value": 174678,
-        "confidence": "adjusted",
+        "value": 188278,
+        "confidence": "medium",
         "data_points": 2
       },
       {
+        "year": 6,
+        "value": 173215,
+        "confidence": "adjusted",
+        "data_points": 1
+      },
+      {
         "year": 7,
-        "value": 160703,
+        "value": 159357,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 147846,
+        "value": 146608,
         "confidence": "estimated",
         "data_points": 0
       }

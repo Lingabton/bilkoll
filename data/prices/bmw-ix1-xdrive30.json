@@ -1,6 +1,6 @@
 {
   "model_id": "bmw-ix1-xdrive30",
-  "scraped_at": "2026-07-06T10:02:52.522419+00:00",
+  "scraped_at": "2026-07-13T09:19:24.411929+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -8,7 +8,7 @@
     "2023": {
       "median_price": 460210,
       "count": 2,
-      "total_on_page": 44,
+      "total_on_page": 47,
       "price_type": "estimated_transaction"
     }
   },

@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc60-b5-bensin",
-  "calculated_at": "2026-07-06T12:59:50.380184+00:00",
+  "calculated_at": "2026-07-13T12:15:45.906527+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 501772,
-    "monthly_cost": 10454,
+    "total_cost": 504833,
+    "monthly_cost": 10517,
     "cost_per_mil": 84,
     "breakdown": {
-      "depreciation": 360508,
+      "depreciation": 363569,
       "fuel": 83250,
       "tax": 3024,
       "insurance": {
@@ -33,55 +33,55 @@
       },
       {
         "year": 1,
-        "value": 557907,
+        "value": 557721,
         "confidence": "medium",
         "data_points": 18
       },
       {
         "year": 2,
-        "value": 425010,
+        "value": 446307,
         "confidence": "medium",
         "data_points": 18
       },
       {
         "year": 3,
-        "value": 390088,
+        "value": 385252,
         "confidence": "medium",
         "data_points": 18
       },
       {
         "year": 4,
-        "value": 357492,
-        "confidence": "medium",
+        "value": 354431,
+        "confidence": "adjusted",
         "data_points": 18
       },
       {
         "year": 5,
-        "value": 329871,
+        "value": 343542,
         "confidence": "medium",
         "data_points": 18
       },
       {
         "year": 6,
-        "value": 303481,
-        "confidence": "adjusted",
+        "value": 332465,
+        "confidence": "medium",
         "data_points": 18
       },
       {
         "year": 7,
-        "value": 279202,
+        "value": 305867,
         "confidence": "adjusted",
-        "data_points": 12
+        "data_points": 13
       },
       {
         "year": 8,
-        "value": 256865,
-        "confidence": "adjusted",
+        "value": 295461,
+        "confidence": "medium",
         "data_points": 14
       },
       {
         "year": 9,
-        "value": 248997,
+        "value": 260005,
         "confidence": "estimated",
         "data_points": 0
       }
