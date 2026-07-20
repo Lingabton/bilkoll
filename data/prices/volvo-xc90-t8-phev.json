@@ -1,107 +1,103 @@
 {
   "model_id": "volvo-xc90-t8-phev",
-  "scraped_at": "2026-07-13T11:39:23.402404+00:00",
+  "scraped_at": "2026-07-20T11:31:19.484743+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 790407,
+      "median_price": 781107,
       "count": 15,
-      "total_on_page": 197,
+      "total_on_page": 201,
       "price_type": "estimated_transaction",
-      "p5_price": 686330,
-      "p95_price": 968316,
-      "min_price": 686330,
-      "max_price": 968316,
+      "p5_price": 743907,
+      "p95_price": 883407,
+      "min_price": 743907,
+      "max_price": 883407,
       "median_mileage_mil": 20251
     },
     "2024": {
-      "median_price": 669321,
+      "median_price": 613288,
       "count": 6,
-      "total_on_page": 94,
+      "total_on_page": 96,
       "price_type": "estimated_transaction",
-      "p5_price": 623007,
+      "p5_price": 584970,
       "p95_price": 790407,
-      "min_price": 623007,
+      "min_price": 584970,
       "max_price": 790407
     },
     "2023": {
-      "median_price": 581017,
-      "count": 8,
-      "total_on_page": 117,
+      "median_price": 608871,
+      "count": 10,
+      "total_on_page": 129,
       "price_type": "estimated_transaction",
-      "p5_price": 501642,
-      "p95_price": 632307,
-      "min_price": 501642,
-      "max_price": 632307
+      "p5_price": 492807,
+      "p95_price": 641607,
+      "min_price": 492807,
+      "max_price": 641607
     },
     "2022": {
-      "median_price": 536982,
+      "median_price": 524938,
       "count": 6,
-      "total_on_page": 95,
+      "total_on_page": 94,
       "price_type": "estimated_transaction",
-      "p5_price": 399807,
-      "p95_price": 585714,
-      "min_price": 399807,
-      "max_price": 585714
+      "p5_price": 455607,
+      "p95_price": 575670,
+      "min_price": 455607,
+      "max_price": 575670
     },
     "2021": {
-      "median_price": 487506,
+      "median_price": 443377,
       "count": 6,
-      "total_on_page": 82,
+      "total_on_page": 88,
       "price_type": "estimated_transaction",
-      "p5_price": 409200,
-      "p95_price": 529170,
-      "min_price": 409200,
-      "max_price": 529170
+      "p5_price": 436170,
+      "p95_price": 483507,
+      "min_price": 436170,
+      "max_price": 483507
     },
     "2020": {
-      "median_price": 445888,
+      "median_price": 434682,
       "count": 6,
-      "total_on_page": 85,
+      "total_on_page": 77,
       "price_type": "estimated_transaction",
-      "p5_price": 385392,
-      "p95_price": 501177,
-      "min_price": 385392,
-      "max_price": 501177
+      "p5_price": 390507,
+      "p95_price": 460350,
+      "min_price": 390507,
+      "max_price": 460350
     },
     "2019": {
-      "median_price": 332196,
+      "median_price": 345867,
       "count": 4,
-      "total_on_page": 62,
+      "total_on_page": 54,
       "price_type": "estimated_transaction",
       "min_price": 268770,
-      "max_price": 390507
+      "max_price": 389670
     },
     "2018": {
-      "median_price": 357120,
+      "median_price": 343542,
       "count": 2,
-      "total_on_page": 43,
+      "total_on_page": 38,
       "price_type": "estimated_transaction"
     },
     "2017": {
-      "median_price": 409060,
-      "count": 4,
-      "total_on_page": 53,
-      "price_type": "estimated_transaction",
-      "min_price": 269514,
-      "max_price": 502107
+      "median_price": 353307,
+      "count": 2,
+      "total_on_page": 49,
+      "price_type": "estimated_transaction"
     },
     "2016": {
-      "median_price": 320757,
-      "count": 5,
-      "total_on_page": 80,
+      "median_price": 348424,
+      "count": 4,
+      "total_on_page": 73,
       "price_type": "estimated_transaction",
-      "p5_price": 269514,
-      "p95_price": 445470,
-      "min_price": 269514,
+      "min_price": 278907,
       "max_price": 445470
     },
     "2015": {
       "median_price": 409134,
       "count": 1,
-      "total_on_page": 33,
+      "total_on_page": 30,
       "price_type": "estimated_transaction"
     }
   },

@@ -1,6 +1,6 @@
 {
   "model_id": "subaru-outback-25",
-  "calculated_at": "2026-07-13T12:15:45.924323+00:00",
+  "calculated_at": "2026-07-20T12:08:02.152727+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 308738,
-    "monthly_cost": 6432,
-    "cost_per_mil": 51,
+    "total_cost": 338688,
+    "monthly_cost": 7056,
+    "cost_per_mil": 56,
     "breakdown": {
-      "depreciation": 121924,
+      "depreciation": 151874,
       "fuel": 95460,
       "tax": 48664,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 395508,
-        "confidence": "adjusted",
-        "data_points": 11
+        "value": 427614,
+        "confidence": "medium",
+        "data_points": 12
       },
       {
         "year": 2,
-        "value": 363867,
+        "value": 393404,
         "confidence": "adjusted",
-        "data_points": 2
+        "data_points": 4
       },
       {
         "year": 3,
-        "value": 334757,
-        "confidence": "adjusted",
+        "value": 302203,
+        "confidence": "medium",
         "data_points": 2
       },
       {
         "year": 4,
-        "value": 307976,
+        "value": 278026,
         "confidence": "adjusted",
-        "data_points": 1
+        "data_points": 2
       },
       {
         "year": 5,
-        "value": 283337,
+        "value": 255783,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 260670,
+        "value": 235320,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 239816,
+        "value": 216494,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 220630,
+        "value": 199174,
         "confidence": "estimated",
         "data_points": 0
       }

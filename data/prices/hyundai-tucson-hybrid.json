@@ -1,31 +1,31 @@
 {
   "model_id": "hyundai-tucson-hybrid",
-  "scraped_at": "2026-07-13T10:08:47.201807+00:00",
+  "scraped_at": "2026-07-20T10:00:13.266684+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 418360,
+      "median_price": 451329,
       "count": 4,
       "total_on_page": 70,
       "price_type": "estimated_transaction",
-      "min_price": 380474,
+      "min_price": 390414,
       "max_price": 460164,
       "median_mileage_mil": 20250
     },
     "2022": {
-      "median_price": 304110,
+      "median_price": 283557,
       "count": 4,
-      "total_on_page": 57,
+      "total_on_page": 67,
       "price_type": "estimated_transaction",
-      "min_price": 241707,
+      "min_price": 251007,
       "max_price": 344007
     },
     "2021": {
-      "median_price": 292438,
+      "median_price": 262167,
       "count": 2,
-      "total_on_page": 34,
+      "total_on_page": 29,
       "price_type": "estimated_transaction"
     }
   },

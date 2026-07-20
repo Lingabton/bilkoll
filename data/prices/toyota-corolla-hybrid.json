@@ -1,14 +1,14 @@
 {
   "model_id": "toyota-corolla-hybrid",
-  "scraped_at": "2026-07-13T08:59:49.494978+00:00",
+  "scraped_at": "2026-07-20T08:50:12.712276+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 306807,
-      "count": 7,
-      "total_on_page": 115,
+      "median_price": 305877,
+      "count": 8,
+      "total_on_page": 118,
       "price_type": "estimated_transaction",
       "p5_price": 292857,
       "p95_price": 334707,
@@ -16,48 +16,47 @@
       "max_price": 334707
     },
     "2024": {
-      "median_price": 299832,
+      "median_price": 291508,
       "count": 4,
-      "total_on_page": 68,
+      "total_on_page": 66,
       "price_type": "estimated_transaction",
-      "min_price": 278070,
-      "max_price": 371907,
-      "median_mileage_mil": 20241
+      "min_price": 241707,
+      "max_price": 306807
     },
     "2023": {
-      "median_price": 239428,
+      "median_price": 185907,
       "count": 2,
-      "total_on_page": 48,
+      "total_on_page": 43,
       "price_type": "estimated_transaction"
     },
     "2022": {
-      "median_price": 231570,
-      "count": 1,
-      "total_on_page": 33,
+      "median_price": 176188,
+      "count": 2,
+      "total_on_page": 35,
       "price_type": "estimated_transaction"
     },
     "2021": {
-      "median_price": 204507,
-      "count": 1,
-      "total_on_page": 36,
-      "price_type": "estimated_transaction"
-    },
-    "2020": {
-      "median_price": 192463,
+      "median_price": 190603,
       "count": 2,
       "total_on_page": 32,
       "price_type": "estimated_transaction"
     },
-    "2019": {
-      "median_price": 213760,
+    "2020": {
+      "median_price": 122713,
       "count": 2,
-      "total_on_page": 41,
+      "total_on_page": 31,
+      "price_type": "estimated_transaction"
+    },
+    "2019": {
+      "median_price": 190603,
+      "count": 2,
+      "total_on_page": 42,
       "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 1,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

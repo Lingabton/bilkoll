@@ -1,46 +1,48 @@
 {
   "model_id": "tesla-model-y-lr",
-  "scraped_at": "2026-07-13T08:42:19.364585+00:00",
+  "scraped_at": "2026-07-20T08:32:40.696272+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2024": {
-      "median_price": 544003,
-      "count": 2,
-      "total_on_page": 49,
-      "price_type": "estimated_transaction"
+      "median_price": 445470,
+      "count": 3,
+      "total_on_page": 58,
+      "price_type": "estimated_transaction",
+      "min_price": 353307,
+      "max_price": 604407
     },
     "2023": {
-      "median_price": 362607,
-      "count": 17,
-      "total_on_page": 230,
+      "median_price": 371018,
+      "count": 18,
+      "total_on_page": 229,
       "price_type": "estimated_transaction",
-      "p5_price": 301310,
-      "p95_price": 420350,
-      "min_price": 301310,
-      "max_price": 420350
+      "p5_price": 311457,
+      "p95_price": 623007,
+      "min_price": 311457,
+      "max_price": 623007
     },
     "2022": {
-      "median_price": 352842,
+      "median_price": 339264,
       "count": 6,
-      "total_on_page": 78,
+      "total_on_page": 79,
       "price_type": "estimated_transaction",
-      "p5_price": 297507,
+      "p5_price": 297321,
       "p95_price": 609150,
-      "min_price": 297507,
+      "min_price": 297321,
       "max_price": 609150
     },
     "2021": {
-      "median_price": 264957,
-      "count": 2,
-      "total_on_page": 34,
+      "median_price": 227850,
+      "count": 1,
+      "total_on_page": 36,
       "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 2,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

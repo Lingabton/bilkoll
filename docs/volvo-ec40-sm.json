@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-ec40-sm",
-  "calculated_at": "2026-07-13T12:15:45.923371+00:00",
+  "calculated_at": "2026-07-20T12:08:02.151528+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 447687,
-    "monthly_cost": 9327,
+    "total_cost": 447406,
+    "monthly_cost": 9321,
     "cost_per_mil": 75,
     "breakdown": {
-      "depreciation": 389789,
+      "depreciation": 389508,
       "fuel": 18468,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 244145,
+        "value": 244505,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 2,
-        "value": 224613,
+        "value": 224944,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 3,
-        "value": 206643,
+        "value": 206948,
         "confidence": "adjusted",
-        "data_points": 16
+        "data_points": 17
       },
       {
         "year": 4,
-        "value": 190111,
+        "value": 190392,
         "confidence": "adjusted",
-        "data_points": 4
+        "data_points": 3
       },
       {
         "year": 5,
-        "value": 174902,
+        "value": 175160,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 160909,
+        "value": 161147,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 148036,
+        "value": 148255,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 136193,
+        "value": 136394,
         "confidence": "estimated",
         "data_points": 0
       }

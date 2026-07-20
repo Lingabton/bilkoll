@@ -1,46 +1,40 @@
 {
   "model_id": "vw-t-roc-etsi",
-  "scraped_at": "2026-07-13T11:04:24.434438+00:00",
+  "scraped_at": "2026-07-20T10:56:09.566967+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 339357,
+      "median_price": 348238,
       "count": 4,
       "total_on_page": 59,
       "price_type": "estimated_transaction",
-      "min_price": 297507,
+      "min_price": 334707,
       "max_price": 361677
     },
     "2023": {
-      "median_price": 237057,
-      "count": 10,
-      "total_on_page": 145,
+      "median_price": 246357,
+      "count": 11,
+      "total_on_page": 155,
       "price_type": "estimated_transaction",
-      "p5_price": 194835,
-      "p95_price": 251007,
-      "min_price": 194835,
-      "max_price": 251007
+      "p5_price": 194370,
+      "p95_price": 292857,
+      "min_price": 194370,
+      "max_price": 292857
     },
     "2022": {
-      "median_price": 250588,
+      "median_price": 231988,
       "count": 4,
-      "total_on_page": 63,
+      "total_on_page": 68,
       "price_type": "estimated_transaction",
-      "min_price": 212970,
+      "min_price": 148614,
       "max_price": 251007
     },
-    "2021": {
-      "median_price": 188278,
-      "count": 2,
-      "total_on_page": 28,
-      "price_type": "estimated_transaction"
-    },
     "2020": {
-      "median_price": 278070,
+      "median_price": 278907,
       "count": 1,
-      "total_on_page": 30,
+      "total_on_page": 26,
       "price_type": "estimated_transaction"
     }
   },

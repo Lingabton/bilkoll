@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc60-b5-bensin",
-  "calculated_at": "2026-07-13T12:15:45.906527+00:00",
+  "calculated_at": "2026-07-20T12:08:02.132369+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 504833,
-    "monthly_cost": 10517,
-    "cost_per_mil": 84,
+    "total_cost": 471082,
+    "monthly_cost": 9814,
+    "cost_per_mil": 79,
     "breakdown": {
-      "depreciation": 363569,
+      "depreciation": 329818,
       "fuel": 83250,
       "tax": 3024,
       "insurance": {
@@ -33,55 +33,55 @@
       },
       {
         "year": 1,
-        "value": 557721,
+        "value": 476532,
         "confidence": "medium",
         "data_points": 18
       },
       {
         "year": 2,
-        "value": 446307,
+        "value": 437007,
         "confidence": "medium",
         "data_points": 18
       },
       {
         "year": 3,
-        "value": 385252,
+        "value": 392832,
         "confidence": "medium",
         "data_points": 18
       },
       {
         "year": 4,
-        "value": 354431,
-        "confidence": "adjusted",
+        "value": 388182,
+        "confidence": "medium",
         "data_points": 18
       },
       {
         "year": 5,
-        "value": 343542,
+        "value": 343030,
         "confidence": "medium",
         "data_points": 18
       },
       {
         "year": 6,
-        "value": 332465,
-        "confidence": "medium",
+        "value": 315587,
+        "confidence": "adjusted",
         "data_points": 18
       },
       {
         "year": 7,
-        "value": 305867,
-        "confidence": "adjusted",
-        "data_points": 13
+        "value": 290578,
+        "confidence": "medium",
+        "data_points": 14
       },
       {
         "year": 8,
-        "value": 295461,
+        "value": 250542,
         "confidence": "medium",
         "data_points": 14
       },
       {
         "year": 9,
-        "value": 260005,
+        "value": 220476,
         "confidence": "estimated",
         "data_points": 0
       }

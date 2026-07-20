@@ -1,44 +1,44 @@
 {
   "model_id": "kia-ev6-lr",
-  "scraped_at": "2026-07-13T08:53:18.685301+00:00",
+  "scraped_at": "2026-07-20T08:43:40.379086+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 543957,
-      "count": 8,
-      "total_on_page": 104,
+      "median_price": 550932,
+      "count": 6,
+      "total_on_page": 98,
       "price_type": "estimated_transaction",
-      "p5_price": 446307,
-      "p95_price": 623007,
-      "min_price": 446307,
-      "max_price": 623007,
+      "p5_price": 529077,
+      "p95_price": 585807,
+      "min_price": 529077,
+      "max_price": 585807,
       "median_mileage_mil": 20250
     },
     "2024": {
       "median_price": 568555,
       "count": 2,
-      "total_on_page": 50,
+      "total_on_page": 48,
       "price_type": "estimated_transaction",
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 417430,
+      "median_price": 390228,
       "count": 6,
-      "total_on_page": 97,
+      "total_on_page": 92,
       "price_type": "estimated_transaction",
-      "p5_price": 315270,
-      "p95_price": 557070,
-      "min_price": 315270,
-      "max_price": 557070
+      "p5_price": 278907,
+      "p95_price": 464907,
+      "min_price": 278907,
+      "max_price": 464907
     },
     "2022": {
-      "median_price": 385857,
+      "median_price": 371488,
       "count": 4,
-      "total_on_page": 66,
+      "total_on_page": 72,
       "price_type": "estimated_transaction",
-      "min_price": 325407,
+      "min_price": 310155,
       "max_price": 557907
     }
   },

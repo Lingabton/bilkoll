@@ -1,29 +1,29 @@
 {
   "model_id": "skoda-enyaq-85",
-  "scraped_at": "2026-07-13T09:09:18.034826+00:00",
+  "scraped_at": "2026-07-20T08:59:43.143349+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2024": {
-      "median_price": 492807,
-      "count": 1,
-      "total_on_page": 46,
+      "median_price": 466343,
+      "count": 2,
+      "total_on_page": 45,
       "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 374232,
+      "median_price": 407195,
       "count": 4,
-      "total_on_page": 67,
+      "total_on_page": 73,
       "price_type": "estimated_transaction",
-      "min_price": 357957,
+      "min_price": 343170,
       "max_price": 669507,
       "median_mileage_mil": 20230
     },
     "2022": {
-      "median_price": 145033,
-      "count": 2,
-      "total_on_page": 42,
+      "median_price": 158007,
+      "count": 1,
+      "total_on_page": 36,
       "price_type": "estimated_transaction"
     }
   },

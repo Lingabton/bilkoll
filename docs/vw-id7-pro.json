@@ -1,6 +1,6 @@
 {
   "model_id": "vw-id7-pro",
-  "calculated_at": "2026-07-13T12:15:45.914960+00:00",
+  "calculated_at": "2026-07-20T12:08:02.141155+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -35,13 +35,13 @@
         "year": 1,
         "value": 542708,
         "confidence": "adjusted",
-        "data_points": 3
+        "data_points": 4
       },
       {
         "year": 2,
         "value": 499291,
         "confidence": "adjusted",
-        "data_points": 2
+        "data_points": 1
       },
       {
         "year": 3,
@@ -57,25 +57,25 @@
       },
       {
         "year": 5,
-        "value": 416196,
+        "value": 388791,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 366252,
+        "value": 375622,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 322302,
+        "value": 330547,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 283625,
+        "value": 290881,
         "confidence": "estimated",
         "data_points": 0
       }

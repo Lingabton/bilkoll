@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-yaris-hybrid",
-  "calculated_at": "2026-07-13T12:15:45.915630+00:00",
+  "calculated_at": "2026-07-20T12:08:02.141915+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 230933,
-    "monthly_cost": 4811,
-    "cost_per_mil": 38,
+    "total_cost": 172659,
+    "monthly_cost": 3597,
+    "cost_per_mil": 29,
     "breakdown": {
-      "depreciation": 137657,
+      "depreciation": 79383,
       "fuel": 49950,
       "tax": 10636,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 252774,
-        "confidence": "medium",
-        "data_points": 5
-      },
-      {
-        "year": 2,
-        "value": 232552,
+        "value": 257508,
         "confidence": "adjusted",
-        "data_points": 4
-      },
-      {
-        "year": 3,
-        "value": 202228,
-        "confidence": "medium",
         "data_points": 6
       },
       {
+        "year": 2,
+        "value": 236907,
+        "confidence": "adjusted",
+        "data_points": 3
+      },
+      {
+        "year": 3,
+        "value": 217954,
+        "confidence": "adjusted",
+        "data_points": 5
+      },
+      {
         "year": 4,
-        "value": 142243,
-        "confidence": "medium",
+        "value": 200517,
+        "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 5,
-        "value": 125173,
+        "value": 184475,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 115159,
+        "value": 169717,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 7,
-        "value": 105946,
+        "value": 156139,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 97470,
+        "value": 143647,
         "confidence": "estimated",
         "data_points": 0
       }

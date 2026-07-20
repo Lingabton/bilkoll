@@ -1,6 +1,6 @@
 {
   "model_id": "vw-tiguan-etsi",
-  "calculated_at": "2026-07-13T12:15:45.916011+00:00",
+  "calculated_at": "2026-07-20T12:08:02.142385+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 600536,
-    "monthly_cost": 12511,
-    "cost_per_mil": 100,
+    "total_cost": 606268,
+    "monthly_cost": 12631,
+    "cost_per_mil": 101,
     "breakdown": {
-      "depreciation": 436308,
+      "depreciation": 442040,
       "fuel": 88800,
       "tax": 24838,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 120194,
+        "value": 112832,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 2,
-        "value": 110578,
+        "value": 103805,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 3,
-        "value": 101731,
+        "value": 95500,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 93592,
+        "value": 87860,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 86104,
+        "value": 80831,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 79215,
+        "value": 74364,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 7,
-        "value": 72877,
+        "value": 68414,
         "confidence": "adjusted",
-        "data_points": 1
+        "data_points": 2
       },
       {
         "year": 8,
-        "value": 67046,
+        "value": 62940,
         "confidence": "adjusted",
         "data_points": 4
       }

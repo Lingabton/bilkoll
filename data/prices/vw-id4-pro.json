@@ -1,32 +1,32 @@
 {
   "model_id": "vw-id4-pro",
-  "scraped_at": "2026-07-13T08:49:57.011264+00:00",
+  "scraped_at": "2026-07-20T08:40:25.950943+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2023": {
-      "median_price": 351442,
-      "count": 10,
-      "total_on_page": 138,
+      "median_price": 343960,
+      "count": 12,
+      "total_on_page": 152,
       "price_type": "estimated_transaction",
-      "p5_price": 264864,
+      "p5_price": 269607,
       "p95_price": 464814,
-      "min_price": 264864,
+      "min_price": 269607,
       "max_price": 464814
     },
     "2022": {
-      "median_price": 311457,
+      "median_price": 315642,
       "count": 4,
-      "total_on_page": 62,
+      "total_on_page": 68,
       "price_type": "estimated_transaction",
       "min_price": 269607,
-      "max_price": 362607
+      "max_price": 390135
     },
     "2021": {
       "median_price": 434635,
       "count": 2,
-      "total_on_page": 41,
+      "total_on_page": 44,
       "price_type": "estimated_transaction"
     }
   },

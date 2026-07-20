@@ -1,25 +1,25 @@
 {
   "model_id": "audi-a3-35tfsi",
-  "scraped_at": "2026-07-13T11:28:39.479292+00:00",
+  "scraped_at": "2026-07-20T11:20:40.508278+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 329220,
+      "median_price": 311038,
       "count": 2,
       "total_on_page": 27,
       "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 233895,
+      "median_price": 222270,
       "count": 12,
-      "total_on_page": 156,
+      "total_on_page": 165,
       "price_type": "estimated_transaction",
       "p5_price": 203670,
-      "p95_price": 259470,
+      "p95_price": 268770,
       "min_price": 203670,
-      "max_price": 259470
+      "max_price": 268770
     }
   },
   "validation": {
