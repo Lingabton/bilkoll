@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-v60-t6-phev",
-  "calculated_at": "2026-07-20T12:08:02.150782+00:00",
+  "calculated_at": "2026-07-27T12:35:28.659307+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 391522,
-    "monthly_cost": 8157,
-    "cost_per_mil": 65,
+    "total_cost": 351857,
+    "monthly_cost": 7330,
+    "cost_per_mil": 59,
     "breakdown": {
-      "depreciation": 259508,
+      "depreciation": 219843,
       "fuel": 77700,
       "tax": 3024,
       "insurance": {
@@ -33,31 +33,31 @@
       },
       {
         "year": 1,
-        "value": 445935,
+        "value": 450538,
         "confidence": "medium",
         "data_points": 18
       },
       {
         "year": 2,
-        "value": 389902,
+        "value": 399388,
         "confidence": "medium",
         "data_points": 14
       },
       {
         "year": 3,
-        "value": 352888,
+        "value": 341449,
         "confidence": "medium",
-        "data_points": 16
+        "data_points": 14
       },
       {
         "year": 4,
-        "value": 290392,
+        "value": 330057,
         "confidence": "medium",
         "data_points": 16
       },
       {
         "year": 5,
-        "value": 283092,
+        "value": 272394,
         "confidence": "medium",
         "data_points": 16
       },
@@ -75,13 +75,13 @@
       },
       {
         "year": 8,
-        "value": 208971,
+        "value": 198276,
         "confidence": "medium",
-        "data_points": 10
+        "data_points": 12
       },
       {
         "year": 9,
-        "value": 183894,
+        "value": 174482,
         "confidence": "estimated",
         "data_points": 0
       }

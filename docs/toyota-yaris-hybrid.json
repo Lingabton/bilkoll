@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-yaris-hybrid",
-  "calculated_at": "2026-07-20T12:08:02.141915+00:00",
+  "calculated_at": "2026-07-27T12:35:28.650533+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -47,7 +47,7 @@
         "year": 3,
         "value": 217954,
         "confidence": "adjusted",
-        "data_points": 5
+        "data_points": 6
       },
       {
         "year": 4,
@@ -63,19 +63,19 @@
       },
       {
         "year": 6,
-        "value": 169717,
-        "confidence": "adjusted",
+        "value": 48313,
+        "confidence": "medium",
         "data_points": 2
       },
       {
         "year": 7,
-        "value": 156139,
+        "value": 42515,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 143647,
+        "value": 37413,
         "confidence": "estimated",
         "data_points": 0
       }

@@ -1,6 +1,6 @@
 {
   "model_id": "bmw-x3-phev",
-  "calculated_at": "2026-07-20T12:08:02.161387+00:00",
+  "calculated_at": "2026-07-27T12:35:28.669749+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,9 +33,9 @@
       },
       {
         "year": 1,
-        "value": 636399,
+        "value": 621891,
         "confidence": "medium",
-        "data_points": 10
+        "data_points": 9
       },
       {
         "year": 2,

@@ -1,6 +1,6 @@
 {
   "model_id": "subaru-outback-25",
-  "scraped_at": "2026-07-20T10:59:54.282500+00:00",
+  "scraped_at": "2026-07-27T11:26:33.259421+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -8,7 +8,7 @@
     "2025": {
       "median_price": 427614,
       "count": 12,
-      "total_on_page": 153,
+      "total_on_page": 148,
       "price_type": "estimated_transaction",
       "p5_price": 413664,
       "p95_price": 454770,
@@ -19,7 +19,7 @@
     "2024": {
       "median_price": 438913,
       "count": 4,
-      "total_on_page": 52,
+      "total_on_page": 50,
       "price_type": "estimated_transaction",
       "min_price": 436170,
       "max_price": 464535,

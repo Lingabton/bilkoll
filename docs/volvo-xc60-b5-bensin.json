@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc60-b5-bensin",
-  "calculated_at": "2026-07-20T12:08:02.132369+00:00",
+  "calculated_at": "2026-07-27T12:35:28.641149+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 471082,
-    "monthly_cost": 9814,
-    "cost_per_mil": 79,
+    "total_cost": 506672,
+    "monthly_cost": 10556,
+    "cost_per_mil": 84,
     "breakdown": {
-      "depreciation": 329818,
+      "depreciation": 365408,
       "fuel": 83250,
       "tax": 3024,
       "insurance": {
@@ -33,55 +33,55 @@
       },
       {
         "year": 1,
-        "value": 476532,
+        "value": 483507,
         "confidence": "medium",
         "data_points": 18
       },
       {
         "year": 2,
-        "value": 437007,
+        "value": 450538,
         "confidence": "medium",
         "data_points": 18
       },
       {
         "year": 3,
-        "value": 392832,
+        "value": 383253,
         "confidence": "medium",
         "data_points": 18
       },
       {
         "year": 4,
-        "value": 388182,
-        "confidence": "medium",
+        "value": 352592,
+        "confidence": "adjusted",
         "data_points": 18
       },
       {
         "year": 5,
-        "value": 343030,
+        "value": 348192,
         "confidence": "medium",
         "data_points": 18
       },
       {
         "year": 6,
-        "value": 315587,
-        "confidence": "adjusted",
-        "data_points": 18
+        "value": 316107,
+        "confidence": "medium",
+        "data_points": 17
       },
       {
         "year": 7,
-        "value": 290578,
+        "value": 302203,
         "confidence": "medium",
         "data_points": 14
       },
       {
         "year": 8,
-        "value": 250542,
+        "value": 269142,
         "confidence": "medium",
         "data_points": 14
       },
       {
         "year": 9,
-        "value": 220476,
+        "value": 236844,
         "confidence": "estimated",
         "data_points": 0
       }

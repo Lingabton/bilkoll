@@ -1,10 +1,17 @@
 {
   "model_id": "vw-id4-pro",
-  "scraped_at": "2026-07-20T08:40:25.950943+00:00",
+  "scraped_at": "2026-07-27T09:05:41.190772+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
+    "2025": {
+      "median_price": 511407,
+      "count": 1,
+      "total_on_page": 24,
+      "price_type": "estimated_transaction",
+      "median_mileage_mil": 20255
+    },
     "2023": {
       "median_price": 343960,
       "count": 12,
@@ -32,7 +39,7 @@
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 2,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

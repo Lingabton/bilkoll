@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-corolla-hybrid",
-  "scraped_at": "2026-07-20T08:50:12.712276+00:00",
+  "scraped_at": "2026-07-27T09:15:59.852882+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -8,55 +8,57 @@
     "2025": {
       "median_price": 305877,
       "count": 8,
-      "total_on_page": 118,
+      "total_on_page": 105,
       "price_type": "estimated_transaction",
-      "p5_price": 292857,
+      "p5_price": 288207,
       "p95_price": 334707,
-      "min_price": 292857,
+      "min_price": 288207,
       "max_price": 334707
     },
     "2024": {
       "median_price": 291508,
       "count": 4,
-      "total_on_page": 66,
+      "total_on_page": 58,
       "price_type": "estimated_transaction",
       "min_price": 241707,
       "max_price": 306807
     },
     "2023": {
-      "median_price": 185907,
-      "count": 2,
-      "total_on_page": 43,
-      "price_type": "estimated_transaction"
+      "median_price": 268677,
+      "count": 4,
+      "total_on_page": 53,
+      "price_type": "estimated_transaction",
+      "min_price": 232407,
+      "max_price": 287370
     },
     "2022": {
       "median_price": 176188,
       "count": 2,
-      "total_on_page": 35,
+      "total_on_page": 28,
       "price_type": "estimated_transaction"
     },
     "2021": {
-      "median_price": 190603,
-      "count": 2,
-      "total_on_page": 32,
-      "price_type": "estimated_transaction"
-    },
-    "2020": {
-      "median_price": 122713,
+      "median_price": 153403,
       "count": 2,
       "total_on_page": 31,
       "price_type": "estimated_transaction"
     },
+    "2020": {
+      "median_price": 82770,
+      "count": 1,
+      "total_on_page": 28,
+      "price_type": "estimated_transaction"
+    },
     "2019": {
-      "median_price": 190603,
+      "median_price": 199903,
       "count": 2,
-      "total_on_page": 42,
+      "total_on_page": 44,
       "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 2,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc40-recharge",
-  "scraped_at": "2026-07-20T08:36:49.391908+00:00",
+  "scraped_at": "2026-07-27T09:02:05.128258+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -8,13 +8,13 @@
     "2024": {
       "median_price": 390507,
       "count": 2,
-      "total_on_page": 42,
+      "total_on_page": 35,
       "price_type": "estimated_transaction"
     },
     "2023": {
       "median_price": 311457,
       "count": 18,
-      "total_on_page": 326,
+      "total_on_page": 279,
       "price_type": "estimated_transaction",
       "p5_price": 264957,
       "p95_price": 352470,

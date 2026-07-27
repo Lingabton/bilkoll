@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-yaris-hybrid",
-  "scraped_at": "2026-07-20T09:34:44.666893+00:00",
+  "scraped_at": "2026-07-27T10:00:00.329393+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -8,7 +8,7 @@
     "2025": {
       "median_price": 280767,
       "count": 6,
-      "total_on_page": 77,
+      "total_on_page": 68,
       "price_type": "estimated_transaction",
       "p5_price": 232407,
       "p95_price": 320757,
@@ -17,33 +17,33 @@
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 324570,
+      "median_price": 342240,
       "count": 3,
-      "total_on_page": 58,
+      "total_on_page": 51,
       "price_type": "estimated_transaction",
-      "min_price": 279000,
+      "min_price": 269607,
       "max_price": 342240
     },
     "2023": {
-      "median_price": 237057,
-      "count": 5,
-      "total_on_page": 76,
+      "median_price": 248263,
+      "count": 6,
+      "total_on_page": 90,
       "price_type": "estimated_transaction",
-      "p5_price": 204507,
+      "p5_price": 190650,
       "p95_price": 288207,
-      "min_price": 204507,
+      "min_price": 190650,
       "max_price": 288207
     },
     "2022": {
       "median_price": 290578,
       "count": 2,
-      "total_on_page": 43,
+      "total_on_page": 38,
       "price_type": "estimated_transaction"
     },
     "2020": {
-      "median_price": 267328,
+      "median_price": 48313,
       "count": 2,
-      "total_on_page": 28,
+      "total_on_page": 27,
       "price_type": "estimated_transaction"
     }
   },

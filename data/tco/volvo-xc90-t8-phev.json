@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc90-t8-phev",
-  "calculated_at": "2026-07-20T12:08:02.155225+00:00",
+  "calculated_at": "2026-07-27T12:35:28.663632+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -45,7 +45,7 @@
       },
       {
         "year": 3,
-        "value": 608871,
+        "value": 603988,
         "confidence": "medium",
         "data_points": 10
       },
@@ -57,49 +57,49 @@
       },
       {
         "year": 5,
-        "value": 443377,
+        "value": 431938,
         "confidence": "medium",
         "data_points": 6
       },
       {
         "year": 6,
-        "value": 434682,
-        "confidence": "medium",
+        "value": 397382,
+        "confidence": "adjusted",
         "data_points": 6
       },
       {
         "year": 7,
-        "value": 345867,
+        "value": 324942,
         "confidence": "medium",
         "data_points": 4
       },
       {
         "year": 8,
-        "value": 343542,
-        "confidence": "medium",
+        "value": 298946,
+        "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 9,
-        "value": 316058,
+        "value": 275030,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 10,
-        "value": 290773,
+        "value": 253027,
         "confidence": "adjusted",
         "data_points": 4
       },
       {
         "year": 11,
-        "value": 267511,
+        "value": 232784,
         "confidence": "adjusted",
-        "data_points": 1
+        "data_points": 2
       },
       {
         "year": 12,
-        "value": 246110,
+        "value": 214161,
         "confidence": "estimated",
         "data_points": 0
       }

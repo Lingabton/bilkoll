@@ -1,6 +1,6 @@
 {
   "model_id": "audi-a6-40tdi",
-  "scraped_at": "2026-07-20T11:35:18.222387+00:00",
+  "scraped_at": "2026-07-27T12:01:19.630100+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -8,7 +8,7 @@
     "2025": {
       "median_price": 669088,
       "count": 2,
-      "total_on_page": 48,
+      "total_on_page": 46,
       "price_type": "estimated_transaction"
     }
   },

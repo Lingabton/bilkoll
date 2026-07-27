@@ -1,6 +1,6 @@
 {
   "model_id": "tesla-model-y-lr",
-  "scraped_at": "2026-07-20T08:32:40.696272+00:00",
+  "scraped_at": "2026-07-27T08:57:55.330339+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -26,7 +26,7 @@
     "2022": {
       "median_price": 339264,
       "count": 6,
-      "total_on_page": 79,
+      "total_on_page": 86,
       "price_type": "estimated_transaction",
       "p5_price": 297321,
       "p95_price": 609150,
