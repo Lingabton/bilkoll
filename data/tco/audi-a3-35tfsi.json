@@ -1,6 +1,6 @@
 {
   "model_id": "audi-a3-35tfsi",
-  "calculated_at": "2026-07-27T12:35:28.662968+00:00",
+  "calculated_at": "2026-08-03T12:58:00.948598+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 329341,
-    "monthly_cost": 6861,
-    "cost_per_mil": 55,
+    "total_cost": 333433,
+    "monthly_cost": 6947,
+    "cost_per_mil": 56,
     "breakdown": {
-      "depreciation": 198403,
+      "depreciation": 202495,
       "fuel": 64380,
       "tax": 18868,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 311038,
+        "value": 241707,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 1
       },
       {
         "year": 2,
-        "value": 273713,
+        "value": 212702,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 3,
-        "value": 222270,
-        "confidence": "medium",
-        "data_points": 12
+        "value": 195685,
+        "confidence": "adjusted",
+        "data_points": 10
       },
       {
         "year": 4,
-        "value": 195597,
+        "value": 191505,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 172125,
+        "value": 139046,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 151470,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 127922,
+        "confidence": "adjusted",
+        "data_points": 2
       },
       {
         "year": 7,
-        "value": 133294,
+        "value": 117688,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 117298,
+        "value": 108272,
         "confidence": "estimated",
         "data_points": 0
       }

@@ -1,6 +1,6 @@
 {
   "model_id": "audi-a6-40tdi",
-  "calculated_at": "2026-07-27T12:35:28.664489+00:00",
+  "calculated_at": "2026-08-03T12:58:00.950009+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -35,7 +35,7 @@
         "year": 1,
         "value": 533600,
         "confidence": "adjusted",
-        "data_points": 2
+        "data_points": 1
       },
       {
         "year": 2,
@@ -57,25 +57,25 @@
       },
       {
         "year": 5,
-        "value": 401248,
+        "value": 401500,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 353099,
+        "value": 353320,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 310727,
+        "value": 310921,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 273439,
+        "value": 273611,
         "confidence": "estimated",
         "data_points": 0
       }

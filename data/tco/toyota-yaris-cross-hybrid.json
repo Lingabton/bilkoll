@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-yaris-cross-hybrid",
-  "calculated_at": "2026-07-27T12:35:28.646339+00:00",
+  "calculated_at": "2026-08-03T12:58:00.933400+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 277236,
-    "monthly_cost": 5776,
-    "cost_per_mil": 46,
+    "total_cost": 315867,
+    "monthly_cost": 6581,
+    "cost_per_mil": 53,
     "breakdown": {
-      "depreciation": 169646,
+      "depreciation": 208277,
       "fuel": 57720,
       "tax": 13380,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 327174,
+        "value": 318897,
         "confidence": "medium",
         "data_points": 2
       },
       {
         "year": 2,
-        "value": 301000,
-        "confidence": "adjusted",
-        "data_points": 1
-      },
-      {
-        "year": 3,
-        "value": 199950,
-        "confidence": "medium",
-        "data_points": 3
-      },
-      {
-        "year": 4,
-        "value": 183954,
+        "value": 293385,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
+        "year": 3,
+        "value": 157960,
+        "confidence": "medium",
+        "data_points": 2
+      },
+      {
+        "year": 4,
+        "value": 145323,
+        "confidence": "adjusted",
+        "data_points": 1
+      },
+      {
         "year": 5,
-        "value": 169237,
+        "value": 133697,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 155698,
+        "value": 123001,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 152041,
+        "value": 120352,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 133796,
+        "value": 105910,
         "confidence": "estimated",
         "data_points": 0
       }

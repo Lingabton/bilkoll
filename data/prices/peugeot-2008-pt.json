@@ -1,22 +1,22 @@
 {
   "model_id": "peugeot-2008-pt",
-  "scraped_at": "2026-07-27T12:00:22.192602+00:00",
+  "scraped_at": "2026-08-03T12:21:21.371805+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
       "median_price": 241707,
-      "count": 3,
-      "total_on_page": 64,
+      "count": 4,
+      "total_on_page": 68,
       "price_type": "estimated_transaction",
-      "min_price": 240870,
+      "min_price": 213900,
       "max_price": 302157
     },
     "2024": {
       "median_price": 204507,
       "count": 2,
-      "total_on_page": 50,
+      "total_on_page": 40,
       "price_type": "estimated_transaction",
       "median_mileage_mil": 20240
     },

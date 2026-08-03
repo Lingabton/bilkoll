@@ -1,37 +1,34 @@
 {
   "model_id": "polestar-2-lr",
-  "scraped_at": "2026-07-27T09:45:57.638999+00:00",
+  "scraped_at": "2026-08-03T09:50:58.975032+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 554931,
+      "median_price": 527682,
       "count": 2,
-      "total_on_page": 49,
-      "price_type": "estimated_transaction",
-      "median_mileage_mil": 20250
+      "total_on_page": 43,
+      "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 324570,
-      "count": 5,
-      "total_on_page": 80,
+      "median_price": 315223,
+      "count": 4,
+      "total_on_page": 68,
       "price_type": "estimated_transaction",
-      "p5_price": 296670,
-      "p95_price": 390507,
-      "min_price": 296670,
-      "max_price": 390507
+      "min_price": 293787,
+      "max_price": 429650
     },
     "2022": {
-      "median_price": 339310,
+      "median_price": 302110,
       "count": 2,
-      "total_on_page": 44,
+      "total_on_page": 32,
       "price_type": "estimated_transaction"
     },
     "2021": {
-      "median_price": 327313,
+      "median_price": 329871,
       "count": 2,
-      "total_on_page": 32,
+      "total_on_page": 34,
       "price_type": "estimated_transaction"
     }
   },

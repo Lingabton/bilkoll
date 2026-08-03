@@ -1,6 +1,6 @@
 {
   "model_id": "audi-q3-35tfsi",
-  "scraped_at": "2026-07-27T12:28:43.520742+00:00",
+  "scraped_at": "2026-08-03T12:50:59.909564+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -12,15 +12,15 @@
       "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 333870,
-      "count": 1,
-      "total_on_page": 36,
+      "median_price": 329220,
+      "count": 2,
+      "total_on_page": 38,
       "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 1,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

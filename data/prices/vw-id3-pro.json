@@ -1,26 +1,26 @@
 {
   "model_id": "vw-id3-pro",
-  "scraped_at": "2026-07-27T09:31:11.004465+00:00",
+  "scraped_at": "2026-08-03T09:35:48.214293+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2023": {
-      "median_price": 338892,
+      "median_price": 327360,
       "count": 2,
       "total_on_page": 41,
       "price_type": "estimated_transaction"
     },
     "2021": {
-      "median_price": 232314,
-      "count": 2,
-      "total_on_page": 50,
+      "median_price": 260307,
+      "count": 1,
+      "total_on_page": 33,
       "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 2,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

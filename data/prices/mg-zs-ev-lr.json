@@ -1,12 +1,12 @@
 {
   "model_id": "mg-zs-ev-lr",
-  "scraped_at": "2026-07-27T12:34:29.815394+00:00",
+  "scraped_at": "2026-08-03T12:57:08.765803+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2021": {
-      "median_price": 195207,
+      "median_price": 139407,
       "count": 2,
       "total_on_page": 34,
       "price_type": "estimated_transaction"

@@ -1,26 +1,13 @@
 {
   "model_id": "vw-golf-etsi",
-  "scraped_at": "2026-07-27T09:42:32.369337+00:00",
+  "scraped_at": "2026-08-03T09:47:16.431007+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
-  "years": {
-    "2025": {
-      "median_price": 269607,
-      "count": 1,
-      "total_on_page": 4,
-      "price_type": "estimated_transaction"
-    },
-    "2023": {
-      "median_price": 232314,
-      "count": 1,
-      "total_on_page": 1,
-      "price_type": "estimated_transaction"
-    }
-  },
+  "years": {},
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 1,
+    "min_count_per_year": 0,
     "confidence": "low"
   }
 }

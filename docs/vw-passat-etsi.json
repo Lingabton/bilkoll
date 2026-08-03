@@ -1,6 +1,6 @@
 {
   "model_id": "vw-passat-etsi",
-  "calculated_at": "2026-07-27T12:35:28.660428+00:00",
+  "calculated_at": "2026-08-03T12:58:00.946254+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 281211,
-    "monthly_cost": 5859,
-    "cost_per_mil": 47,
+    "total_cost": 348061,
+    "monthly_cost": 7251,
+    "cost_per_mil": 58,
     "breakdown": {
-      "depreciation": 148067,
+      "depreciation": 214917,
       "fuel": 66600,
       "tax": 19554,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 372208,
+        "value": 286358,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 2,
-        "value": 342431,
+        "value": 263449,
         "confidence": "adjusted",
-        "data_points": 2
+        "data_points": 1
       },
       {
         "year": 3,
-        "value": 315036,
+        "value": 242373,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 289833,
+        "value": 222983,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 288238,
+        "value": 221755,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 253649,
+        "value": 195145,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 223211,
+        "value": 171727,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 196426,
+        "value": 151120,
         "confidence": "estimated",
         "data_points": 0
       }

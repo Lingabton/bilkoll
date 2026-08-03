@@ -1,47 +1,45 @@
 {
   "model_id": "subaru-outback-25",
-  "scraped_at": "2026-07-27T11:26:33.259421+00:00",
+  "scraped_at": "2026-08-03T11:42:07.872063+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 427614,
-      "count": 12,
-      "total_on_page": 148,
+      "median_price": 444865,
+      "count": 10,
+      "total_on_page": 143,
       "price_type": "estimated_transaction",
-      "p5_price": 413664,
-      "p95_price": 454770,
-      "min_price": 413664,
-      "max_price": 454770,
+      "p5_price": 427614,
+      "p95_price": 459234,
+      "min_price": 427614,
+      "max_price": 459234,
       "median_mileage_mil": 20250
     },
     "2024": {
       "median_price": 438913,
-      "count": 4,
-      "total_on_page": 50,
-      "price_type": "estimated_transaction",
-      "min_price": 436170,
-      "max_price": 464535,
-      "median_mileage_mil": 20246
-    },
-    "2023": {
-      "median_price": 302203,
       "count": 2,
-      "total_on_page": 42,
+      "total_on_page": 48,
       "price_type": "estimated_transaction"
     },
-    "2022": {
-      "median_price": 374232,
+    "2023": {
+      "median_price": 323128,
       "count": 2,
-      "total_on_page": 34,
+      "total_on_page": 37,
+      "price_type": "estimated_transaction",
+      "median_mileage_mil": 20230
+    },
+    "2022": {
+      "median_price": 441657,
+      "count": 1,
+      "total_on_page": 36,
       "price_type": "estimated_transaction",
       "median_mileage_mil": 20220
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 2,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }
