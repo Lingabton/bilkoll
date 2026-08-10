@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-ex30-twin",
-  "scraped_at": "2026-08-03T09:26:51.118048+00:00",
+  "scraped_at": "2026-08-10T07:05:48.240324+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -15,10 +15,12 @@
       "median_mileage_mil": 20252
     },
     "2024": {
-      "median_price": 336892,
-      "count": 4,
-      "total_on_page": 74,
+      "median_price": 350982,
+      "count": 6,
+      "total_on_page": 64,
       "price_type": "estimated_transaction",
+      "p5_price": 334428,
+      "p95_price": 417570,
       "min_price": 334428,
       "max_price": 417570
     }

@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc40-b3",
-  "calculated_at": "2026-08-03T12:58:00.939670+00:00",
+  "calculated_at": "2026-08-10T10:31:24.432041+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -59,13 +59,13 @@
         "year": 5,
         "value": 260872,
         "confidence": "adjusted",
-        "data_points": 10
+        "data_points": 12
       },
       {
         "year": 6,
         "value": 258540,
         "confidence": "medium",
-        "data_points": 5
+        "data_points": 7
       },
       {
         "year": 7,

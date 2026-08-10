@@ -1,17 +1,19 @@
 {
   "model_id": "toyota-bz4x-fwd",
-  "scraped_at": "2026-08-03T10:45:39.503069+00:00",
+  "scraped_at": "2026-08-10T08:23:18.496165+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
       "median_price": 519870,
-      "count": 3,
+      "count": 5,
       "total_on_page": 55,
       "price_type": "estimated_transaction",
+      "p5_price": 446307,
+      "p95_price": 530007,
       "min_price": 446307,
-      "max_price": 520521,
+      "max_price": 530007,
       "median_mileage_mil": 20250
     },
     "2023": {
@@ -25,7 +27,7 @@
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 3,
+    "min_count_per_year": 4,
     "confidence": "low"
   }
 }

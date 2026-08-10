@@ -1,6 +1,6 @@
 {
   "model_id": "tesla-model-y-lr",
-  "calculated_at": "2026-08-03T12:58:00.928985+00:00",
+  "calculated_at": "2026-08-10T10:31:24.421143+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,21 +33,21 @@
       },
       {
         "year": 1,
-        "value": 514015,
+        "value": 496154,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 2,
-        "value": 472893,
+        "value": 456461,
         "confidence": "adjusted",
-        "data_points": 2
+        "data_points": 5
       },
       {
         "year": 3,
-        "value": 352470,
+        "value": 358050,
         "confidence": "medium",
-        "data_points": 15
+        "data_points": 17
       },
       {
         "year": 4,

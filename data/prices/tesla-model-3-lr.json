@@ -1,10 +1,16 @@
 {
   "model_id": "tesla-model-3-lr",
-  "scraped_at": "2026-08-03T08:55:09.863726+00:00",
+  "scraped_at": "2026-08-10T06:35:00.685335+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
+    "2024": {
+      "median_price": 478810,
+      "count": 2,
+      "total_on_page": 16,
+      "price_type": "estimated_transaction"
+    },
     "2023": {
       "median_price": 478475,
       "count": 1,

@@ -1,6 +1,6 @@
 {
   "model_id": "kia-ceed-sw",
-  "calculated_at": "2026-08-03T12:58:00.945596+00:00",
+  "calculated_at": "2026-08-10T10:31:24.438291+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 130524,
-    "monthly_cost": 2719,
-    "cost_per_mil": 22,
+    "total_cost": 370735,
+    "monthly_cost": 7724,
+    "cost_per_mil": 62,
     "breakdown": {
-      "depreciation": 0,
+      "depreciation": 240211,
       "fuel": 72150,
       "tax": 23584,
       "insurance": {
@@ -29,6 +29,54 @@
         "year": 0,
         "value": 339900,
         "confidence": "fixed",
+        "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 128023,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 2,
+        "value": 117781,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 3,
+        "value": 108358,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 4,
+        "value": 99689,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 5,
+        "value": 91713,
+        "confidence": "adjusted",
+        "data_points": 2
+      },
+      {
+        "year": 6,
+        "value": 84375,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 7,
+        "value": 77625,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 8,
+        "value": 71415,
+        "confidence": "estimated",
         "data_points": 0
       }
     ]

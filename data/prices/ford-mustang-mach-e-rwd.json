@@ -1,16 +1,18 @@
 {
   "model_id": "ford-mustang-mach-e-rwd",
-  "scraped_at": "2026-08-03T10:20:25.819283+00:00",
+  "scraped_at": "2026-08-10T07:58:29.826054+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2022": {
-      "median_price": 339357,
-      "count": 3,
-      "total_on_page": 64,
+      "median_price": 325407,
+      "count": 5,
+      "total_on_page": 58,
       "price_type": "estimated_transaction",
-      "min_price": 325407,
+      "p5_price": 297507,
+      "p95_price": 371907,
+      "min_price": 297507,
       "max_price": 371907
     },
     "2021": {
@@ -27,7 +29,7 @@
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 3,
+    "min_count_per_year": 5,
     "confidence": "low"
   }
 }

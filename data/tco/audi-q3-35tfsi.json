@@ -1,6 +1,6 @@
 {
   "model_id": "audi-q3-35tfsi",
-  "calculated_at": "2026-08-03T12:58:00.954484+00:00",
+  "calculated_at": "2026-08-10T10:31:24.448254+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 287707,
-    "monthly_cost": 5994,
-    "cost_per_mil": 48,
+    "total_cost": 304075,
+    "monthly_cost": 6335,
+    "cost_per_mil": 51,
     "breakdown": {
-      "depreciation": 140287,
+      "depreciation": 156655,
       "fuel": 68820,
       "tax": 26510,
       "insurance": {
@@ -33,51 +33,51 @@
       },
       {
         "year": 1,
-        "value": 406596,
+        "value": 399435,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 4
       },
       {
         "year": 2,
-        "value": 357804,
+        "value": 351502,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 3,
-        "value": 329220,
+        "value": 310620,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 4
       },
       {
         "year": 4,
-        "value": 289713,
+        "value": 273345,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 254947,
+        "value": 229152,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 224354,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 210819,
+        "confidence": "adjusted",
+        "data_points": 1
       },
       {
         "year": 7,
-        "value": 197431,
+        "value": 193953,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 173739,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 185860,
+        "confidence": "medium",
+        "data_points": 2
       }
     ]
   },

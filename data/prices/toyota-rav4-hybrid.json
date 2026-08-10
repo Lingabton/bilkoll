@@ -1,30 +1,64 @@
 {
   "model_id": "toyota-rav4-hybrid",
-  "scraped_at": "2026-08-03T09:23:25.510648+00:00",
+  "scraped_at": "2026-08-10T07:02:27.675149+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
+    "2025": {
+      "median_price": 534657,
+      "count": 1,
+      "total_on_page": 21,
+      "price_type": "estimated_transaction"
+    },
+    "2024": {
+      "median_price": 497457,
+      "count": 2,
+      "total_on_page": 12,
+      "price_type": "estimated_transaction"
+    },
     "2023": {
-      "median_price": 413757,
-      "count": 4,
-      "total_on_page": 69,
+      "median_price": 416035,
+      "count": 6,
+      "total_on_page": 65,
       "price_type": "estimated_transaction",
-      "min_price": 362607,
+      "p5_price": 330057,
+      "p95_price": 455607,
+      "min_price": 330057,
       "max_price": 455607
     },
+    "2022": {
+      "median_price": 392878,
+      "count": 2,
+      "total_on_page": 19,
+      "price_type": "estimated_transaction"
+    },
     "2021": {
-      "median_price": 345960,
-      "count": 4,
-      "total_on_page": 53,
+      "median_price": 324570,
+      "count": 5,
+      "total_on_page": 56,
       "price_type": "estimated_transaction",
-      "min_price": 333870,
-      "max_price": 417570
+      "p5_price": 288114,
+      "p95_price": 344007,
+      "min_price": 288114,
+      "max_price": 344007
+    },
+    "2020": {
+      "median_price": 309132,
+      "count": 2,
+      "total_on_page": 19,
+      "price_type": "estimated_transaction"
+    },
+    "2019": {
+      "median_price": 169260,
+      "count": 1,
+      "total_on_page": 1,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 4,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

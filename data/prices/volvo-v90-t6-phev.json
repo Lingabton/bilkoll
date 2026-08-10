@@ -1,25 +1,25 @@
 {
   "model_id": "volvo-v90-t6-phev",
-  "scraped_at": "2026-08-03T12:01:25.494646+00:00",
+  "scraped_at": "2026-08-10T09:36:38.749256+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 483507,
-      "count": 10,
-      "total_on_page": 141,
+      "median_price": 478857,
+      "count": 12,
+      "total_on_page": 138,
       "price_type": "estimated_transaction",
-      "p5_price": 445935,
+      "p5_price": 380835,
       "p95_price": 613149,
-      "min_price": 445935,
+      "min_price": 380835,
       "max_price": 613149,
       "median_mileage_mil": 20250
     },
     "2024": {
       "median_price": 371488,
-      "count": 10,
-      "total_on_page": 136,
+      "count": 12,
+      "total_on_page": 132,
       "price_type": "estimated_transaction",
       "p5_price": 316014,
       "p95_price": 445470,
@@ -27,9 +27,9 @@
       "max_price": 445470
     },
     "2023": {
-      "median_price": 362002,
-      "count": 12,
-      "total_on_page": 155,
+      "median_price": 345867,
+      "count": 14,
+      "total_on_page": 144,
       "price_type": "estimated_transaction",
       "p5_price": 259377,
       "p95_price": 441750,
@@ -37,49 +37,49 @@
       "max_price": 441750
     },
     "2022": {
-      "median_price": 369442,
-      "count": 6,
-      "total_on_page": 95,
+      "median_price": 390321,
+      "count": 8,
+      "total_on_page": 90,
       "price_type": "estimated_transaction",
-      "p5_price": 306714,
+      "p5_price": 269607,
       "p95_price": 445470,
-      "min_price": 306714,
+      "min_price": 269607,
       "max_price": 445470
     },
     "2021": {
-      "median_price": 278814,
-      "count": 5,
-      "total_on_page": 95,
+      "median_price": 287602,
+      "count": 8,
+      "total_on_page": 100,
       "price_type": "estimated_transaction",
-      "p5_price": 265050,
+      "p5_price": 230175,
       "p95_price": 631470,
-      "min_price": 265050,
+      "min_price": 230175,
       "max_price": 631470
     },
     "2020": {
-      "median_price": 218038,
-      "count": 10,
-      "total_on_page": 131,
+      "median_price": 195160,
+      "count": 12,
+      "total_on_page": 136,
       "price_type": "estimated_transaction",
       "p5_price": 114297,
-      "p95_price": 344007,
+      "p95_price": 274257,
       "min_price": 114297,
-      "max_price": 344007
+      "max_price": 274257
     },
     "2019": {
-      "median_price": 241707,
-      "count": 7,
-      "total_on_page": 119,
+      "median_price": 217620,
+      "count": 9,
+      "total_on_page": 124,
       "price_type": "estimated_transaction",
-      "p5_price": 185907,
-      "p95_price": 287835,
-      "min_price": 185907,
-      "max_price": 287835
+      "p5_price": 186000,
+      "p95_price": 306807,
+      "min_price": 186000,
+      "max_price": 306807
     },
     "2018": {
-      "median_price": 190603,
-      "count": 16,
-      "total_on_page": 203,
+      "median_price": 197113,
+      "count": 18,
+      "total_on_page": 200,
       "price_type": "estimated_transaction",
       "p5_price": 111507,
       "p95_price": 310620,
@@ -87,9 +87,9 @@
       "max_price": 310620
     },
     "2017": {
-      "median_price": 204274,
-      "count": 12,
-      "total_on_page": 159,
+      "median_price": 199810,
+      "count": 14,
+      "total_on_page": 144,
       "price_type": "estimated_transaction",
       "p5_price": 153357,
       "p95_price": 288207,
@@ -97,15 +97,17 @@
       "max_price": 288207
     },
     "2016": {
-      "median_price": 178560,
-      "count": 2,
-      "total_on_page": 42,
-      "price_type": "estimated_transaction"
+      "median_price": 288207,
+      "count": 3,
+      "total_on_page": 39,
+      "price_type": "estimated_transaction",
+      "min_price": 260307,
+      "max_price": 352470
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 2,
+    "min_count_per_year": 3,
     "confidence": "low"
   }
 }

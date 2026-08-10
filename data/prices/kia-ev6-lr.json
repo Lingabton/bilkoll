@@ -1,6 +1,6 @@
 {
   "model_id": "kia-ev6-lr",
-  "scraped_at": "2026-08-03T09:12:45.242254+00:00",
+  "scraped_at": "2026-08-10T06:52:13.748661+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -24,11 +24,13 @@
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 450538,
-      "count": 4,
+      "median_price": 426963,
+      "count": 6,
       "total_on_page": 75,
       "price_type": "estimated_transaction",
-      "min_price": 417756,
+      "p5_price": 353214,
+      "p95_price": 557070,
+      "min_price": 353214,
       "max_price": 557070
     },
     "2022": {

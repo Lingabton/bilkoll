@@ -1,6 +1,6 @@
 {
   "model_id": "cupra-born-79",
-  "calculated_at": "2026-08-03T12:58:00.934449+00:00",
+  "calculated_at": "2026-08-10T10:31:24.426698+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 66226,
-    "monthly_cost": 1380,
-    "cost_per_mil": 11,
+    "total_cost": 366020,
+    "monthly_cost": 7625,
+    "cost_per_mil": 61,
     "breakdown": {
-      "depreciation": 0,
+      "depreciation": 299794,
       "fuel": 17496,
       "tax": 1440,
       "insurance": {
@@ -29,6 +29,54 @@
         "year": 0,
         "value": 546900,
         "confidence": "fixed",
+        "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 362607,
+        "confidence": "medium",
+        "data_points": 2
+      },
+      {
+        "year": 2,
+        "value": 319094,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 3,
+        "value": 280802,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 4,
+        "value": 247106,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 5,
+        "value": 217453,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 6,
+        "value": 191359,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 7,
+        "value": 168396,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 8,
+        "value": 148188,
+        "confidence": "estimated",
         "data_points": 0
       }
     ]

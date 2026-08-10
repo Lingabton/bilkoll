@@ -1,6 +1,6 @@
 {
   "model_id": "vw-tiguan-etsi",
-  "calculated_at": "2026-08-03T12:58:00.937640+00:00",
+  "calculated_at": "2026-08-10T10:31:24.430030+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 608179,
-    "monthly_cost": 12670,
-    "cost_per_mil": 101,
+    "total_cost": 460049,
+    "monthly_cost": 9584,
+    "cost_per_mil": 77,
     "breakdown": {
-      "depreciation": 443951,
+      "depreciation": 295821,
       "fuel": 88800,
       "tax": 24838,
       "insurance": {
@@ -33,50 +33,50 @@
       },
       {
         "year": 1,
-        "value": 110378,
+        "value": 300608,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 2,
-        "value": 101547,
+        "value": 276559,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 3,
-        "value": 93423,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 254434,
+        "confidence": "adjusted",
+        "data_points": 2
       },
       {
         "year": 4,
-        "value": 85949,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 234079,
+        "confidence": "adjusted",
+        "data_points": 1
       },
       {
         "year": 5,
-        "value": 79073,
+        "value": 215352,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 72747,
-        "confidence": "adjusted",
-        "data_points": 2
+        "value": 209157,
+        "confidence": "medium",
+        "data_points": 4
       },
       {
         "year": 7,
-        "value": 66927,
+        "value": 192424,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 8,
-        "value": 61572,
-        "confidence": "adjusted",
+        "value": 185860,
+        "confidence": "medium",
         "data_points": 2
       }
     ]
