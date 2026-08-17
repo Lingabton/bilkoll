@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-rav4-hybrid",
-  "calculated_at": "2026-08-10T10:31:24.423391+00:00",
+  "calculated_at": "2026-08-17T09:49:34.253805+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 300173,
-    "monthly_cost": 6254,
-    "cost_per_mil": 50,
+    "total_cost": 344813,
+    "monthly_cost": 7184,
+    "cost_per_mil": 57,
     "breakdown": {
-      "depreciation": 162922,
+      "depreciation": 207562,
       "fuel": 72150,
       "tax": 19211,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 534657,
+        "value": 520707,
         "confidence": "medium",
-        "data_points": 1
+        "data_points": 2
       },
       {
         "year": 2,
-        "value": 497457,
+        "value": 510988,
         "confidence": "medium",
         "data_points": 2
       },
       {
         "year": 3,
-        "value": 416035,
+        "value": 430078,
         "confidence": "medium",
-        "data_points": 6
+        "data_points": 2
       },
       {
         "year": 4,
-        "value": 392878,
+        "value": 348238,
         "confidence": "medium",
         "data_points": 2
       },
       {
         "year": 5,
-        "value": 324570,
-        "confidence": "medium",
-        "data_points": 5
-      },
-      {
-        "year": 6,
-        "value": 309132,
+        "value": 292392,
         "confidence": "medium",
         "data_points": 2
       },
       {
+        "year": 6,
+        "value": 269000,
+        "confidence": "adjusted",
+        "data_points": 2
+      },
+      {
         "year": 7,
-        "value": 169260,
-        "confidence": "medium",
+        "value": 247480,
+        "confidence": "adjusted",
         "data_points": 1
       },
       {
         "year": 8,
-        "value": 148948,
+        "value": 237254,
         "confidence": "estimated",
         "data_points": 0
       }

@@ -1,52 +1,64 @@
 {
   "model_id": "ford-kuga-phev",
-  "scraped_at": "2026-08-10T08:32:53.492296+00:00",
+  "scraped_at": "2026-08-17T07:51:24.307334+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 450259,
-      "count": 2,
-      "total_on_page": 38,
+      "median_price": 450957,
+      "count": 3,
+      "total_on_page": 30,
       "price_type": "estimated_transaction",
+      "min_price": 449562,
+      "max_price": 454212,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 376510,
-      "count": 2,
-      "total_on_page": 42,
+      "median_price": 455188,
+      "count": 4,
+      "total_on_page": 38,
       "price_type": "estimated_transaction",
-      "median_mileage_mil": 20241
+      "min_price": 409107,
+      "max_price": 464070,
+      "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 257982,
+      "median_price": 285928,
       "count": 8,
-      "total_on_page": 92,
+      "total_on_page": 78,
       "price_type": "estimated_transaction",
-      "p5_price": 237057,
+      "p5_price": 251007,
       "p95_price": 371814,
-      "min_price": 237057,
+      "min_price": 251007,
       "max_price": 371814
     },
     "2022": {
-      "median_price": 393715,
+      "median_price": 253285,
       "count": 8,
-      "total_on_page": 102,
+      "total_on_page": 99,
       "price_type": "estimated_transaction",
-      "p5_price": 232314,
+      "p5_price": 227664,
       "p95_price": 524520,
-      "min_price": 232314,
+      "min_price": 227664,
       "max_price": 524520,
       "median_mileage_mil": 20221
     },
     "2021": {
-      "median_price": 296484,
-      "count": 4,
-      "total_on_page": 69,
+      "median_price": 251007,
+      "count": 7,
+      "total_on_page": 76,
       "price_type": "estimated_transaction",
-      "min_price": 213807,
+      "p5_price": 223107,
+      "p95_price": 353307,
+      "min_price": 223107,
       "max_price": 353307
+    },
+    "2020": {
+      "median_price": 311457,
+      "count": 2,
+      "total_on_page": 20,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {

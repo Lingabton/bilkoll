@@ -1,6 +1,6 @@
 {
   "model_id": "hyundai-ioniq5-lr",
-  "calculated_at": "2026-08-10T10:31:24.427067+00:00",
+  "calculated_at": "2026-08-17T09:49:34.257585+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 462921,
-    "monthly_cost": 9644,
-    "cost_per_mil": 77,
+    "total_cost": 411413,
+    "monthly_cost": 8571,
+    "cost_per_mil": 69,
     "breakdown": {
-      "depreciation": 373451,
+      "depreciation": 321943,
       "fuel": 19440,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 474262,
-        "confidence": "estimated",
-        "data_points": 0
-      },
-      {
-        "year": 2,
-        "value": 436321,
-        "confidence": "adjusted",
+        "value": 575670,
+        "confidence": "medium",
         "data_points": 1
       },
       {
-        "year": 3,
-        "value": 348238,
-        "confidence": "medium",
+        "year": 2,
+        "value": 529616,
+        "confidence": "adjusted",
         "data_points": 2
       },
       {
+        "year": 3,
+        "value": 390507,
+        "confidence": "medium",
+        "data_points": 4
+      },
+      {
         "year": 4,
-        "value": 306449,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 357957,
+        "confidence": "medium",
+        "data_points": 1
       },
       {
         "year": 5,
-        "value": 269675,
+        "value": 315002,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 237314,
+        "value": 277201,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 208836,
+        "value": 243937,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 183776,
+        "value": 214665,
         "confidence": "estimated",
         "data_points": 0
       }

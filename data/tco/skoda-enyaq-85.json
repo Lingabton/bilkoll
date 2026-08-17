@@ -1,6 +1,6 @@
 {
   "model_id": "skoda-enyaq-85",
-  "calculated_at": "2026-08-10T10:31:24.424541+00:00",
+  "calculated_at": "2026-08-17T09:49:34.254994+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 518954,
-    "monthly_cost": 10812,
-    "cost_per_mil": 86,
+    "total_cost": 332535,
+    "monthly_cost": 6928,
+    "cost_per_mil": 55,
     "breakdown": {
-      "depreciation": 456612,
+      "depreciation": 270193,
       "fuel": 20412,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 400565,
-        "confidence": "estimated",
-        "data_points": 0
-      },
-      {
-        "year": 2,
-        "value": 368519,
-        "confidence": "adjusted",
-        "data_points": 2
-      },
-      {
-        "year": 3,
-        "value": 339037,
-        "confidence": "adjusted",
-        "data_points": 6
-      },
-      {
-        "year": 4,
-        "value": 148288,
+        "value": 580924,
         "confidence": "medium",
         "data_points": 2
       },
       {
+        "year": 2,
+        "value": 464535,
+        "confidence": "medium",
+        "data_points": 3
+      },
+      {
+        "year": 3,
+        "value": 369582,
+        "confidence": "medium",
+        "data_points": 6
+      },
+      {
+        "year": 4,
+        "value": 334707,
+        "confidence": "medium",
+        "data_points": 3
+      },
+      {
         "year": 5,
-        "value": 130493,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 307930,
+        "confidence": "adjusted",
+        "data_points": 2
       },
       {
         "year": 6,
-        "value": 114834,
+        "value": 283295,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 101054,
+        "value": 260631,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 88927,
+        "value": 239780,
         "confidence": "estimated",
         "data_points": 0
       }

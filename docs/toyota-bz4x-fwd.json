@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-bz4x-fwd",
-  "calculated_at": "2026-08-10T10:31:24.433917+00:00",
+  "calculated_at": "2026-08-17T09:49:34.264700+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 252933,
-    "monthly_cost": 5269,
-    "cost_per_mil": 42,
+    "total_cost": 237427,
+    "monthly_cost": 4946,
+    "cost_per_mil": 40,
     "breakdown": {
-      "depreciation": 194279,
+      "depreciation": 178773,
       "fuel": 16524,
       "tax": 1440,
       "insurance": {
@@ -35,47 +35,47 @@
         "year": 1,
         "value": 441508,
         "confidence": "adjusted",
-        "data_points": 5
+        "data_points": 6
       },
       {
         "year": 2,
         "value": 406187,
-        "confidence": "estimated",
-        "data_points": 0
+        "confidence": "adjusted",
+        "data_points": 2
       },
       {
         "year": 3,
-        "value": 324570,
+        "value": 327313,
         "confidence": "medium",
-        "data_points": 4
+        "data_points": 6
       },
       {
         "year": 4,
-        "value": 285621,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 301127,
+        "confidence": "adjusted",
+        "data_points": 2
       },
       {
         "year": 5,
-        "value": 251347,
+        "value": 277036,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 221185,
+        "value": 273456,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 194643,
+        "value": 240642,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 171285,
+        "value": 211765,
         "confidence": "estimated",
         "data_points": 0
       }

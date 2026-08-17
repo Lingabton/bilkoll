@@ -1,25 +1,40 @@
 {
   "model_id": "hyundai-ioniq5-lr",
-  "scraped_at": "2026-08-10T07:24:37.042665+00:00",
+  "scraped_at": "2026-08-17T06:44:31.620544+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
-    "2024": {
-      "median_price": 538935,
+    "2025": {
+      "median_price": 575670,
       "count": 1,
-      "total_on_page": 1,
+      "total_on_page": 11,
       "price_type": "estimated_transaction"
     },
-    "2023": {
-      "median_price": 348238,
+    "2024": {
+      "median_price": 657696,
       "count": 2,
-      "total_on_page": 25,
+      "total_on_page": 6,
+      "price_type": "estimated_transaction",
+      "median_mileage_mil": 20241
+    },
+    "2023": {
+      "median_price": 390507,
+      "count": 4,
+      "total_on_page": 32,
+      "price_type": "estimated_transaction",
+      "min_price": 362607,
+      "max_price": 418407
+    },
+    "2022": {
+      "median_price": 357957,
+      "count": 1,
+      "total_on_page": 11,
       "price_type": "estimated_transaction"
     }
   },
   "validation": {
-    "is_monotonic": true,
+    "is_monotonic": false,
     "min_count_per_year": 1,
     "confidence": "low"
   }

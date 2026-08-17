@@ -1,6 +1,6 @@
 {
   "model_id": "audi-q4-etron-45",
-  "calculated_at": "2026-08-10T10:31:24.431664+00:00",
+  "calculated_at": "2026-08-17T09:49:34.262530+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 502705,
-    "monthly_cost": 10473,
-    "cost_per_mil": 84,
+    "total_cost": 337350,
+    "monthly_cost": 7028,
+    "cost_per_mil": 56,
     "breakdown": {
-      "depreciation": 433435,
+      "depreciation": 268080,
       "fuel": 19440,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 246269,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 557302,
+        "confidence": "medium",
+        "data_points": 2
       },
       {
         "year": 2,
-        "value": 226567,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 497457,
+        "confidence": "medium",
+        "data_points": 2
       },
       {
         "year": 3,
-        "value": 208441,
-        "confidence": "adjusted",
+        "value": 380788,
+        "confidence": "medium",
         "data_points": 6
       },
       {
         "year": 4,
-        "value": 191765,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 357120,
+        "confidence": "medium",
+        "data_points": 2
       },
       {
         "year": 5,
-        "value": 176423,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 286905,
+        "confidence": "medium",
+        "data_points": 2
       },
       {
         "year": 6,
-        "value": 162309,
+        "value": 252476,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 149324,
+        "value": 222179,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 137378,
+        "value": 195517,
         "confidence": "estimated",
         "data_points": 0
       }

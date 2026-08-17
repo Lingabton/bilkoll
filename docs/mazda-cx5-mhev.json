@@ -1,6 +1,6 @@
 {
   "model_id": "mazda-cx5-mhev",
-  "calculated_at": "2026-08-10T10:31:24.435328+00:00",
+  "calculated_at": "2026-08-17T09:49:34.266064+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 402357,
-    "monthly_cost": 8382,
-    "cost_per_mil": 67,
+    "total_cost": 240967,
+    "monthly_cost": 5020,
+    "cost_per_mil": 40,
     "breakdown": {
-      "depreciation": 243823,
+      "depreciation": 82433,
       "fuel": 79920,
       "tax": 36124,
       "insurance": {
@@ -33,51 +33,51 @@
       },
       {
         "year": 1,
-        "value": 161911,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 340308,
+        "confidence": "adjusted",
+        "data_points": 2
       },
       {
         "year": 2,
-        "value": 148958,
+        "value": 313083,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 3,
-        "value": 137041,
+        "value": 312465,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 126077,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 287467,
+        "confidence": "adjusted",
+        "data_points": 2
       },
       {
         "year": 5,
-        "value": 115990,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 264469,
+        "confidence": "adjusted",
+        "data_points": 2
       },
       {
         "year": 6,
-        "value": 106710,
+        "value": 243311,
         "confidence": "adjusted",
         "data_points": 1
       },
       {
         "year": 7,
-        "value": 98173,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 223846,
+        "confidence": "adjusted",
+        "data_points": 2
       },
       {
         "year": 8,
-        "value": 90319,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 188278,
+        "confidence": "medium",
+        "data_points": 2
       }
     ]
   },

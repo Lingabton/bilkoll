@@ -1,20 +1,35 @@
 {
   "model_id": "mg-zs-ev-lr",
-  "scraped_at": "2026-08-10T10:30:21.217166+00:00",
+  "scraped_at": "2026-08-17T09:48:31.773727+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
-    "2021": {
-      "median_price": 139407,
+    "2023": {
+      "median_price": 297590,
+      "count": 1,
+      "total_on_page": 14,
+      "price_type": "estimated_transaction",
+      "median_mileage_mil": 20230
+    },
+    "2022": {
+      "median_price": 255145,
       "count": 2,
-      "total_on_page": 34,
+      "total_on_page": 16,
       "price_type": "estimated_transaction"
+    },
+    "2021": {
+      "median_price": 232407,
+      "count": 4,
+      "total_on_page": 34,
+      "price_type": "estimated_transaction",
+      "min_price": 120807,
+      "max_price": 236964
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 2,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

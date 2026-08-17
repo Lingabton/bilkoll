@@ -1,40 +1,68 @@
 {
   "model_id": "seat-arona-tsi",
-  "scraped_at": "2026-08-10T10:20:33.427447+00:00",
+  "scraped_at": "2026-08-17T09:38:52.917387+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 264957,
-      "count": 1,
-      "total_on_page": 46,
+      "median_price": 254820,
+      "count": 6,
+      "total_on_page": 54,
       "price_type": "estimated_transaction",
+      "p5_price": 185907,
+      "p95_price": 264957,
+      "min_price": 185907,
+      "max_price": 264957,
       "median_mileage_mil": 20250
     },
+    "2024": {
+      "median_price": 185907,
+      "count": 2,
+      "total_on_page": 25,
+      "price_type": "estimated_transaction"
+    },
     "2023": {
-      "median_price": 167307,
+      "median_price": 164982,
       "count": 4,
-      "total_on_page": 38,
+      "total_on_page": 40,
       "price_type": "estimated_transaction",
-      "min_price": 152427,
-      "max_price": 181257
+      "min_price": 151497,
+      "max_price": 176235
+    },
+    "2022": {
+      "median_price": 180420,
+      "count": 2,
+      "total_on_page": 11,
+      "price_type": "estimated_transaction"
+    },
+    "2021": {
+      "median_price": 158007,
+      "count": 1,
+      "total_on_page": 8,
+      "price_type": "estimated_transaction"
     },
     "2020": {
-      "median_price": 166842,
-      "count": 1,
-      "total_on_page": 14,
+      "median_price": 162424,
+      "count": 2,
+      "total_on_page": 18,
       "price_type": "estimated_transaction"
     },
     "2019": {
       "median_price": 117133,
       "count": 2,
-      "total_on_page": 16,
+      "total_on_page": 15,
+      "price_type": "estimated_transaction"
+    },
+    "2018": {
+      "median_price": 143592,
+      "count": 2,
+      "total_on_page": 10,
       "price_type": "estimated_transaction"
     }
   },
   "validation": {
-    "is_monotonic": true,
+    "is_monotonic": false,
     "min_count_per_year": 1,
     "confidence": "low"
   }

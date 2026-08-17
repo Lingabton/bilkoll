@@ -1,6 +1,6 @@
 {
   "model_id": "hyundai-tucson-hybrid",
-  "calculated_at": "2026-08-10T10:31:24.432467+00:00",
+  "calculated_at": "2026-08-17T09:49:34.263339+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 220171,
-    "monthly_cost": 4587,
-    "cost_per_mil": 37,
+    "total_cost": 225542,
+    "monthly_cost": 4699,
+    "cost_per_mil": 38,
     "breakdown": {
-      "depreciation": 88193,
+      "depreciation": 93564,
       "fuel": 71040,
       "tax": 22748,
       "insurance": {
@@ -41,41 +41,41 @@
         "year": 2,
         "value": 279227,
         "confidence": "adjusted",
-        "data_points": 1
+        "data_points": 2
       },
       {
         "year": 3,
         "value": 256888,
         "confidence": "adjusted",
-        "data_points": 2
+        "data_points": 1
       },
       {
         "year": 4,
-        "value": 241707,
-        "confidence": "medium",
+        "value": 236336,
+        "confidence": "adjusted",
         "data_points": 5
       },
       {
         "year": 5,
-        "value": 222370,
+        "value": 217429,
         "confidence": "adjusted",
-        "data_points": 3
+        "data_points": 4
       },
       {
         "year": 6,
-        "value": 204580,
+        "value": 200034,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 188213,
+        "value": 184031,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 173155,
+        "value": 180275,
         "confidence": "estimated",
         "data_points": 0
       }

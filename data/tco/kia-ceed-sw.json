@@ -1,6 +1,6 @@
 {
   "model_id": "kia-ceed-sw",
-  "calculated_at": "2026-08-10T10:31:24.438291+00:00",
+  "calculated_at": "2026-08-17T09:49:34.268826+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 370735,
-    "monthly_cost": 7724,
-    "cost_per_mil": 62,
+    "total_cost": 257082,
+    "monthly_cost": 5356,
+    "cost_per_mil": 43,
     "breakdown": {
-      "depreciation": 240211,
+      "depreciation": 126558,
       "fuel": 72150,
       "tax": 23584,
       "insurance": {
@@ -33,49 +33,55 @@
       },
       {
         "year": 1,
-        "value": 128023,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 269560,
+        "confidence": "medium",
+        "data_points": 2
       },
       {
         "year": 2,
-        "value": 117781,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 247995,
+        "confidence": "adjusted",
+        "data_points": 1
       },
       {
         "year": 3,
-        "value": 108358,
-        "confidence": "estimated",
-        "data_points": 0
-      },
-      {
-        "year": 4,
-        "value": 99689,
-        "confidence": "estimated",
-        "data_points": 0
-      },
-      {
-        "year": 5,
-        "value": 91713,
+        "value": 228155,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
+        "year": 4,
+        "value": 213342,
+        "confidence": "medium",
+        "data_points": 2
+      },
+      {
+        "year": 5,
+        "value": 199020,
+        "confidence": "medium",
+        "data_points": 2
+      },
+      {
         "year": 6,
-        "value": 84375,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 195207,
+        "confidence": "medium",
+        "data_points": 2
       },
       {
         "year": 7,
-        "value": 77625,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 134850,
+        "confidence": "medium",
+        "data_points": 1
       },
       {
         "year": 8,
-        "value": 71415,
+        "value": 105508,
+        "confidence": "medium",
+        "data_points": 2
+      },
+      {
+        "year": 9,
+        "value": 92847,
         "confidence": "estimated",
         "data_points": 0
       }

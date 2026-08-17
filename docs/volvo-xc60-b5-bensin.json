@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc60-b5-bensin",
-  "calculated_at": "2026-08-10T10:31:24.420250+00:00",
+  "calculated_at": "2026-08-17T09:49:34.250174+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 487543,
-    "monthly_cost": 10157,
+    "total_cost": 483126,
+    "monthly_cost": 10065,
     "cost_per_mil": 81,
     "breakdown": {
-      "depreciation": 346279,
+      "depreciation": 341862,
       "fuel": 83250,
       "tax": 3024,
       "insurance": {
@@ -33,55 +33,55 @@
       },
       {
         "year": 1,
-        "value": 464907,
+        "value": 510523,
         "confidence": "medium",
         "data_points": 20
       },
       {
         "year": 2,
-        "value": 445888,
+        "value": 444912,
         "confidence": "medium",
         "data_points": 20
       },
       {
         "year": 3,
-        "value": 399807,
+        "value": 385159,
         "confidence": "medium",
         "data_points": 20
       },
       {
         "year": 4,
-        "value": 371721,
+        "value": 376138,
         "confidence": "medium",
         "data_points": 20
       },
       {
         "year": 5,
-        "value": 327732,
+        "value": 355492,
         "confidence": "medium",
         "data_points": 20
       },
       {
         "year": 6,
-        "value": 306574,
+        "value": 312945,
         "confidence": "medium",
         "data_points": 20
       },
       {
         "year": 7,
-        "value": 282048,
-        "confidence": "adjusted",
+        "value": 302245,
+        "confidence": "medium",
         "data_points": 14
       },
       {
         "year": 8,
-        "value": 260307,
+        "value": 269049,
         "confidence": "medium",
-        "data_points": 15
+        "data_points": 16
       },
       {
         "year": 9,
-        "value": 229070,
+        "value": 236763,
         "confidence": "estimated",
         "data_points": 0
       }

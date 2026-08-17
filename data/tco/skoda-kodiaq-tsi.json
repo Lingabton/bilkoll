@@ -1,6 +1,6 @@
 {
   "model_id": "skoda-kodiaq-tsi",
-  "calculated_at": "2026-08-10T10:31:24.430379+00:00",
+  "calculated_at": "2026-08-17T09:49:34.260815+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 282375,
-    "monthly_cost": 5883,
+    "total_cost": 279924,
+    "monthly_cost": 5832,
     "cost_per_mil": 47,
     "breakdown": {
-      "depreciation": 115855,
+      "depreciation": 113404,
       "fuel": 92130,
       "tax": 28600,
       "insurance": {
@@ -35,47 +35,59 @@
         "year": 1,
         "value": 375820,
         "confidence": "adjusted",
-        "data_points": 1
+        "data_points": 4
       },
       {
         "year": 2,
         "value": 345754,
-        "confidence": "estimated",
-        "data_points": 0
+        "confidence": "adjusted",
+        "data_points": 2
       },
       {
         "year": 3,
-        "value": 318093,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 320757,
+        "confidence": "medium",
+        "data_points": 1
       },
       {
         "year": 4,
-        "value": 292645,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 295096,
+        "confidence": "adjusted",
+        "data_points": 2
       },
       {
         "year": 5,
-        "value": 269233,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 290485,
+        "confidence": "medium",
+        "data_points": 2
       },
       {
         "year": 6,
-        "value": 267431,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 267246,
+        "confidence": "adjusted",
+        "data_points": 2
       },
       {
         "year": 7,
-        "value": 235340,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 245866,
+        "confidence": "adjusted",
+        "data_points": 2
       },
       {
         "year": 8,
-        "value": 207099,
+        "value": 182745,
+        "confidence": "medium",
+        "data_points": 2
+      },
+      {
+        "year": 9,
+        "value": 168125,
+        "confidence": "adjusted",
+        "data_points": 2
+      },
+      {
+        "year": 10,
+        "value": 154675,
         "confidence": "estimated",
         "data_points": 0
       }

@@ -1,20 +1,13 @@
 {
   "model_id": "kia-niro-ev",
-  "scraped_at": "2026-08-10T06:54:15.166057+00:00",
+  "scraped_at": "2026-08-17T06:16:47.716983+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
-  "years": {
-    "2023": {
-      "median_price": 366838,
-      "count": 2,
-      "total_on_page": 6,
-      "price_type": "estimated_transaction"
-    }
-  },
+  "years": {},
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 2,
+    "min_count_per_year": 0,
     "confidence": "low"
   }
 }

@@ -1,44 +1,70 @@
 {
   "model_id": "nissan-leaf-52",
-  "scraped_at": "2026-08-10T07:35:16.606618+00:00",
+  "scraped_at": "2026-08-17T06:54:41.514376+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
-    "2023": {
-      "median_price": 190045,
-      "count": 12,
-      "total_on_page": 160,
+    "2025": {
+      "median_price": 399807,
+      "count": 1,
+      "total_on_page": 1,
       "price_type": "estimated_transaction",
-      "p5_price": 157077,
-      "p95_price": 278814,
-      "min_price": 157077,
-      "max_price": 278814
+      "median_mileage_mil": 20250
+    },
+    "2024": {
+      "median_price": 231895,
+      "count": 2,
+      "total_on_page": 3,
+      "price_type": "estimated_transaction",
+      "median_mileage_mil": 20240
+    },
+    "2023": {
+      "median_price": 194695,
+      "count": 14,
+      "total_on_page": 153,
+      "price_type": "estimated_transaction",
+      "p5_price": 174840,
+      "p95_price": 232407,
+      "min_price": 174840,
+      "max_price": 232407
     },
     "2022": {
-      "median_price": 204507,
-      "count": 7,
-      "total_on_page": 111,
+      "median_price": 171538,
+      "count": 8,
+      "total_on_page": 99,
       "price_type": "estimated_transaction",
-      "p5_price": 148707,
+      "p5_price": 158007,
       "p95_price": 232407,
-      "min_price": 148707,
+      "min_price": 158007,
       "max_price": 232407
     },
     "2021": {
-      "median_price": 158007,
+      "median_price": 171957,
       "count": 6,
-      "total_on_page": 77,
+      "total_on_page": 67,
       "price_type": "estimated_transaction",
-      "p5_price": 147870,
-      "p95_price": 171957,
-      "min_price": 147870,
-      "max_price": 171957
+      "p5_price": 148707,
+      "p95_price": 195207,
+      "min_price": 148707,
+      "max_price": 195207
+    },
+    "2020": {
+      "median_price": 190185,
+      "count": 2,
+      "total_on_page": 15,
+      "price_type": "estimated_transaction"
+    },
+    "2019": {
+      "median_price": 154612,
+      "count": 2,
+      "total_on_page": 7,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 6,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

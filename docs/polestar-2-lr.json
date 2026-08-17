@@ -1,6 +1,6 @@
 {
   "model_id": "polestar-2-lr",
-  "calculated_at": "2026-08-10T10:31:24.427684+00:00",
+  "calculated_at": "2026-08-17T09:49:34.258245+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 428032,
-    "monthly_cost": 8917,
+    "total_cost": 423289,
+    "monthly_cost": 8819,
     "cost_per_mil": 71,
     "breakdown": {
-      "depreciation": 338890,
+      "depreciation": 334147,
       "fuel": 20412,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 527682,
-        "confidence": "medium",
-        "data_points": 2
-      },
-      {
-        "year": 2,
-        "value": 464360,
-        "confidence": "estimated",
-        "data_points": 0
-      },
-      {
-        "year": 3,
-        "value": 315223,
+        "value": 536331,
         "confidence": "medium",
         "data_points": 4
       },
       {
-        "year": 4,
-        "value": 302110,
-        "confidence": "medium",
-        "data_points": 2
-      },
-      {
-        "year": 5,
-        "value": 277941,
+        "year": 2,
+        "value": 493424,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
+        "year": 3,
+        "value": 319827,
+        "confidence": "medium",
+        "data_points": 6
+      },
+      {
+        "year": 4,
+        "value": 306853,
+        "confidence": "medium",
+        "data_points": 4
+      },
+      {
+        "year": 5,
+        "value": 282304,
+        "confidence": "adjusted",
+        "data_points": 4
+      },
+      {
         "year": 6,
-        "value": 255705,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 259719,
+        "confidence": "adjusted",
+        "data_points": 2
       },
       {
         "year": 7,
-        "value": 255452,
+        "value": 238941,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 224797,
+        "value": 233953,
         "confidence": "estimated",
         "data_points": 0
       }

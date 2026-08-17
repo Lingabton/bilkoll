@@ -1,14 +1,27 @@
 {
   "model_id": "vw-tiguan-etsi",
-  "scraped_at": "2026-08-10T07:50:06.777607+00:00",
+  "scraped_at": "2026-08-17T07:09:24.757055+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
+    "2025": {
+      "median_price": 506757,
+      "count": 2,
+      "total_on_page": 9,
+      "price_type": "estimated_transaction"
+    },
+    "2024": {
+      "median_price": 378510,
+      "count": 2,
+      "total_on_page": 11,
+      "price_type": "estimated_transaction",
+      "median_mileage_mil": 20240
+    },
     "2023": {
       "median_price": 388182,
       "count": 2,
-      "total_on_page": 18,
+      "total_on_page": 17,
       "price_type": "estimated_transaction"
     },
     "2022": {
@@ -17,30 +30,48 @@
       "total_on_page": 21,
       "price_type": "estimated_transaction"
     },
+    "2021": {
+      "median_price": 257145,
+      "count": 2,
+      "total_on_page": 13,
+      "price_type": "estimated_transaction"
+    },
     "2020": {
-      "median_price": 209157,
-      "count": 4,
-      "total_on_page": 38,
+      "median_price": 227850,
+      "count": 5,
+      "total_on_page": 51,
       "price_type": "estimated_transaction",
-      "min_price": 185907,
-      "max_price": 232407
+      "p5_price": 139407,
+      "p95_price": 241707,
+      "min_price": 139407,
+      "max_price": 241707
     },
     "2019": {
-      "median_price": 262399,
-      "count": 2,
-      "total_on_page": 38,
-      "price_type": "estimated_transaction"
+      "median_price": 218457,
+      "count": 3,
+      "total_on_page": 36,
+      "price_type": "estimated_transaction",
+      "min_price": 190557,
+      "max_price": 269607
     },
     "2018": {
-      "median_price": 185860,
-      "count": 2,
-      "total_on_page": 47,
-      "price_type": "estimated_transaction"
+      "median_price": 202135,
+      "count": 4,
+      "total_on_page": 44,
+      "price_type": "estimated_transaction",
+      "min_price": 175770,
+      "max_price": 251007
     },
     "2017": {
-      "median_price": 120714,
+      "median_price": 176142,
+      "count": 2,
+      "total_on_page": 25,
+      "price_type": "estimated_transaction"
+    },
+    "2016": {
+      "median_price": 209157,
       "count": 1,
-      "total_on_page": 23,
+      "total_on_page": 11,
       "price_type": "estimated_transaction"
     }
   },
