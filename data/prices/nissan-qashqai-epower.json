@@ -1,50 +1,52 @@
 {
   "model_id": "nissan-qashqai-epower",
-  "scraped_at": "2026-08-17T09:34:54.140556+00:00",
+  "scraped_at": "2026-08-24T09:38:22.149078+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 309573,
+      "median_price": 322500,
       "count": 8,
       "total_on_page": 87,
       "price_type": "estimated_transaction",
-      "p5_price": 294577,
-      "p95_price": 356469,
-      "min_price": 294577,
-      "max_price": 356469,
+      "p5_price": 314572,
+      "p95_price": 349540,
+      "min_price": 314572,
+      "max_price": 349540,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 327871,
-      "count": 4,
-      "total_on_page": 47,
+      "median_price": 348936,
+      "count": 5,
+      "total_on_page": 52,
       "price_type": "estimated_transaction",
-      "min_price": 300390,
+      "p5_price": 320385,
+      "p95_price": 388275,
+      "min_price": 320385,
       "max_price": 388275,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 282720,
+      "median_price": 280395,
       "count": 4,
-      "total_on_page": 31,
+      "total_on_page": 29,
       "price_type": "estimated_transaction",
-      "min_price": 260307,
+      "min_price": 223107,
       "max_price": 311457
     },
     "2022": {
-      "median_price": 246171,
+      "median_price": 244032,
       "count": 4,
-      "total_on_page": 34,
+      "total_on_page": 31,
       "price_type": "estimated_transaction",
-      "min_price": 240684,
+      "min_price": 213807,
       "max_price": 260214
     },
     "2021": {
       "median_price": 265538,
       "count": 2,
-      "total_on_page": 20,
+      "total_on_page": 22,
       "price_type": "estimated_transaction"
     }
   },

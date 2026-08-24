@@ -1,6 +1,6 @@
 {
   "model_id": "skoda-kodiaq-tsi",
-  "calculated_at": "2026-08-17T09:49:34.260815+00:00",
+  "calculated_at": "2026-08-24T09:52:55.829943+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -81,13 +81,13 @@
       },
       {
         "year": 9,
-        "value": 168125,
-        "confidence": "adjusted",
+        "value": 174328,
+        "confidence": "medium",
         "data_points": 2
       },
       {
         "year": 10,
-        "value": 154675,
+        "value": 153408,
         "confidence": "estimated",
         "data_points": 0
       }

@@ -1,6 +1,6 @@
 {
   "model_id": "vw-id3-pro",
-  "calculated_at": "2026-08-17T09:49:34.255725+00:00",
+  "calculated_at": "2026-08-24T09:52:55.823989+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 288449,
-    "monthly_cost": 6009,
-    "cost_per_mil": 48,
+    "total_cost": 339127,
+    "monthly_cost": 7065,
+    "cost_per_mil": 57,
     "breakdown": {
-      "depreciation": 225779,
+      "depreciation": 276457,
       "fuel": 19440,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 423057,
+        "value": 292857,
         "confidence": "medium",
-        "data_points": 2
-      },
-      {
-        "year": 2,
-        "value": 389212,
-        "confidence": "adjusted",
         "data_points": 1
       },
       {
+        "year": 2,
+        "value": 269428,
+        "confidence": "adjusted",
+        "data_points": 2
+      },
+      {
         "year": 3,
-        "value": 324988,
-        "confidence": "medium",
+        "value": 247873,
+        "confidence": "adjusted",
         "data_points": 4
       },
       {
         "year": 4,
-        "value": 278721,
-        "confidence": "medium",
+        "value": 228043,
+        "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 5,
-        "value": 246357,
-        "confidence": "medium",
+        "value": 209799,
+        "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 6,
-        "value": 185907,
+        "value": 188232,
         "confidence": "medium",
-        "data_points": 1
+        "data_points": 2
       },
       {
         "year": 7,
-        "value": 163598,
+        "value": 165644,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 143966,
+        "value": 145766,
         "confidence": "estimated",
         "data_points": 0
       }

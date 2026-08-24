@@ -1,27 +1,27 @@
 {
   "model_id": "bmw-x3-phev",
-  "scraped_at": "2026-08-17T09:44:34.934018+00:00",
+  "scraped_at": "2026-08-24T09:47:56.070516+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 617938,
+      "median_price": 617799,
       "count": 10,
-      "total_on_page": 122,
+      "total_on_page": 119,
       "price_type": "estimated_transaction",
-      "p5_price": 585807,
-      "p95_price": 650907,
-      "min_price": 585807,
-      "max_price": 650907,
+      "p5_price": 557070,
+      "p95_price": 650535,
+      "min_price": 557070,
+      "max_price": 650535,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 687874,
+      "median_price": 706474,
       "count": 4,
-      "total_on_page": 29,
+      "total_on_page": 30,
       "price_type": "estimated_transaction",
-      "min_price": 530007,
+      "min_price": 613335,
       "max_price": 986823,
       "median_mileage_mil": 20240
     }

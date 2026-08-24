@@ -1,6 +1,6 @@
 {
   "model_id": "audi-a3-35tfsi",
-  "scraped_at": "2026-08-17T08:57:51.163555+00:00",
+  "scraped_at": "2026-08-24T09:01:21.883665+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -8,20 +8,20 @@
     "2025": {
       "median_price": 327313,
       "count": 2,
-      "total_on_page": 23,
+      "total_on_page": 24,
       "price_type": "estimated_transaction",
       "median_mileage_mil": 20250
     },
     "2024": {
       "median_price": 285417,
       "count": 2,
-      "total_on_page": 10,
+      "total_on_page": 12,
       "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 224827,
+      "median_price": 222270,
       "count": 12,
-      "total_on_page": 137,
+      "total_on_page": 139,
       "price_type": "estimated_transaction",
       "p5_price": 204507,
       "p95_price": 277140,
@@ -29,29 +29,29 @@
       "max_price": 277140
     },
     "2022": {
-      "median_price": 262585,
-      "count": 2,
-      "total_on_page": 17,
+      "median_price": 311457,
+      "count": 1,
+      "total_on_page": 14,
       "price_type": "estimated_transaction"
     },
     "2021": {
       "median_price": 245938,
       "count": 2,
-      "total_on_page": 15,
+      "total_on_page": 17,
       "price_type": "estimated_transaction"
     },
     "2020": {
-      "median_price": 176235,
+      "median_price": 178513,
       "count": 4,
       "total_on_page": 27,
       "price_type": "estimated_transaction",
-      "min_price": 158095,
+      "min_price": 167400,
       "max_price": 194370
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 2,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

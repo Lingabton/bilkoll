@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc60-b5-bensin",
-  "calculated_at": "2026-08-17T09:49:34.250174+00:00",
+  "calculated_at": "2026-08-24T09:52:55.818888+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 483126,
-    "monthly_cost": 10065,
-    "cost_per_mil": 81,
+    "total_cost": 506757,
+    "monthly_cost": 10557,
+    "cost_per_mil": 84,
     "breakdown": {
-      "depreciation": 341862,
+      "depreciation": 365493,
       "fuel": 83250,
       "tax": 3024,
       "insurance": {
@@ -33,55 +33,55 @@
       },
       {
         "year": 1,
-        "value": 510523,
+        "value": 485832,
         "confidence": "medium",
         "data_points": 20
       },
       {
         "year": 2,
-        "value": 444912,
+        "value": 436588,
         "confidence": "medium",
         "data_points": 20
       },
       {
         "year": 3,
-        "value": 385159,
+        "value": 383160,
         "confidence": "medium",
         "data_points": 20
       },
       {
         "year": 4,
-        "value": 376138,
-        "confidence": "medium",
+        "value": 352507,
+        "confidence": "adjusted",
         "data_points": 20
       },
       {
         "year": 5,
-        "value": 355492,
+        "value": 334242,
         "confidence": "medium",
         "data_points": 20
       },
       {
         "year": 6,
-        "value": 312945,
+        "value": 306481,
         "confidence": "medium",
         "data_points": 20
       },
       {
         "year": 7,
-        "value": 302245,
-        "confidence": "medium",
-        "data_points": 14
-      },
-      {
-        "year": 8,
-        "value": 269049,
+        "value": 301738,
         "confidence": "medium",
         "data_points": 16
       },
       {
+        "year": 8,
+        "value": 260307,
+        "confidence": "medium",
+        "data_points": 15
+      },
+      {
         "year": 9,
-        "value": 236763,
+        "value": 229070,
         "confidence": "estimated",
         "data_points": 0
       }

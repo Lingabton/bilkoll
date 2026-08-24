@@ -1,53 +1,53 @@
 {
   "model_id": "toyota-yaris-hybrid",
-  "scraped_at": "2026-08-17T07:04:17.553210+00:00",
+  "scraped_at": "2026-08-24T07:08:30.110045+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 256540,
-      "count": 6,
-      "total_on_page": 68,
+      "median_price": 237057,
+      "count": 7,
+      "total_on_page": 80,
       "price_type": "estimated_transaction",
-      "p5_price": 213714,
-      "p95_price": 344007,
-      "min_price": 213714,
-      "max_price": 344007,
-      "median_mileage_mil": 20252
+      "p5_price": 231477,
+      "p95_price": 261144,
+      "min_price": 231477,
+      "max_price": 261144,
+      "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 413338,
+      "median_price": 513685,
       "count": 6,
-      "total_on_page": 56,
+      "total_on_page": 53,
       "price_type": "estimated_transaction",
       "p5_price": 218457,
-      "p95_price": 530007,
+      "p95_price": 584970,
       "min_price": 218457,
-      "max_price": 530007
+      "max_price": 584970
     },
     "2023": {
-      "median_price": 213807,
+      "median_price": 209157,
       "count": 7,
-      "total_on_page": 83,
+      "total_on_page": 87,
       "price_type": "estimated_transaction",
       "p5_price": 148614,
-      "p95_price": 288207,
+      "p95_price": 227757,
       "min_price": 148614,
-      "max_price": 288207
+      "max_price": 227757
     },
     "2022": {
-      "median_price": 262074,
+      "median_price": 211528,
       "count": 4,
-      "total_on_page": 47,
+      "total_on_page": 42,
       "price_type": "estimated_transaction",
-      "min_price": 199857,
-      "max_price": 372000
+      "min_price": 204507,
+      "max_price": 268584
     },
     "2021": {
-      "median_price": 332428,
+      "median_price": 244032,
       "count": 2,
-      "total_on_page": 17,
+      "total_on_page": 13,
       "price_type": "estimated_transaction"
     },
     "2020": {

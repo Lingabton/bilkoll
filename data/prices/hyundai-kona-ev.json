@@ -1,6 +1,6 @@
 {
   "model_id": "hyundai-kona-ev",
-  "scraped_at": "2026-08-17T06:32:38.446413+00:00",
+  "scraped_at": "2026-08-24T06:36:56.380865+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -18,15 +18,15 @@
       "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 398877,
-      "count": 1,
-      "total_on_page": 8,
+      "median_price": 401667,
+      "count": 2,
+      "total_on_page": 9,
       "price_type": "estimated_transaction"
     },
     "2022": {
       "median_price": 251007,
-      "count": 1,
-      "total_on_page": 8,
+      "count": 2,
+      "total_on_page": 9,
       "price_type": "estimated_transaction"
     },
     "2021": {

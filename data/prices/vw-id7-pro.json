@@ -1,6 +1,6 @@
 {
   "model_id": "vw-id7-pro",
-  "scraped_at": "2026-08-17T06:58:05.151426+00:00",
+  "scraped_at": "2026-08-24T07:02:14.381530+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -8,18 +8,18 @@
     "2025": {
       "median_price": 588132,
       "count": 4,
-      "total_on_page": 49,
+      "total_on_page": 47,
       "price_type": "estimated_transaction",
       "min_price": 548514,
       "max_price": 650907,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 610684,
+      "median_price": 626355,
       "count": 4,
-      "total_on_page": 27,
+      "total_on_page": 23,
       "price_type": "estimated_transaction",
-      "min_price": 343914,
+      "min_price": 595014,
       "max_price": 645420,
       "median_mileage_mil": 20240
     }

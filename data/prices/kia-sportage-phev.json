@@ -1,6 +1,6 @@
 {
   "model_id": "kia-sportage-phev",
-  "scraped_at": "2026-08-17T07:36:27.779579+00:00",
+  "scraped_at": "2026-08-24T07:40:41.255882+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -8,43 +8,43 @@
     "2025": {
       "median_price": 437007,
       "count": 8,
-      "total_on_page": 91,
+      "total_on_page": 83,
       "price_type": "estimated_transaction",
-      "p5_price": 380370,
+      "p5_price": 381207,
       "p95_price": 505827,
-      "min_price": 380370,
+      "min_price": 381207,
       "max_price": 505827,
       "median_mileage_mil": 20250
     },
     "2024": {
       "median_price": 399807,
       "count": 7,
-      "total_on_page": 83,
+      "total_on_page": 84,
       "price_type": "estimated_transaction",
-      "p5_price": 352935,
+      "p5_price": 348657,
       "p95_price": 455607,
-      "min_price": 352935,
+      "min_price": 348657,
       "max_price": 455607
     },
     "2023": {
       "median_price": 341300,
-      "count": 11,
-      "total_on_page": 146,
+      "count": 13,
+      "total_on_page": 155,
       "price_type": "estimated_transaction",
-      "p5_price": 260307,
-      "p95_price": 371070,
-      "min_price": 260307,
-      "max_price": 371070
+      "p5_price": 251007,
+      "p95_price": 455607,
+      "min_price": 251007,
+      "max_price": 455607
     },
     "2022": {
-      "median_price": 306807,
-      "count": 10,
-      "total_on_page": 115,
+      "median_price": 292764,
+      "count": 8,
+      "total_on_page": 112,
       "price_type": "estimated_transaction",
       "p5_price": 241335,
-      "p95_price": 455607,
+      "p95_price": 334800,
       "min_price": 241335,
-      "max_price": 455607
+      "max_price": 334800
     }
   },
   "validation": {

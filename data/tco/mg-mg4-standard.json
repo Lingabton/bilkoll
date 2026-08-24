@@ -1,6 +1,6 @@
 {
   "model_id": "mg-mg4-standard",
-  "calculated_at": "2026-08-17T09:49:34.264367+00:00",
+  "calculated_at": "2026-08-24T09:52:55.833480+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 181162,
-    "monthly_cost": 3774,
-    "cost_per_mil": 30,
+    "total_cost": 235232,
+    "monthly_cost": 4901,
+    "cost_per_mil": 39,
     "breakdown": {
-      "depreciation": 128208,
+      "depreciation": 182278,
       "fuel": 16524,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 290527,
-        "confidence": "estimated",
-        "data_points": 0
-      },
-      {
-        "year": 2,
-        "value": 267284,
-        "confidence": "adjusted",
-        "data_points": 2
-      },
-      {
-        "year": 3,
-        "value": 195207,
-        "confidence": "medium",
-        "data_points": 4
-      },
-      {
-        "year": 4,
-        "value": 171782,
-        "confidence": "estimated",
-        "data_points": 0
-      },
-      {
-        "year": 5,
         "value": 151168,
         "confidence": "estimated",
         "data_points": 0
       },
       {
+        "year": 2,
+        "value": 139074,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 3,
+        "value": 127948,
+        "confidence": "adjusted",
+        "data_points": 6
+      },
+      {
+        "year": 4,
+        "value": 117712,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 5,
+        "value": 108295,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
         "year": 6,
-        "value": 133028,
+        "value": 99631,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 117064,
+        "value": 91660,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 103016,
+        "value": 84327,
         "confidence": "estimated",
         "data_points": 0
       }
