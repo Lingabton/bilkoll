@@ -1,6 +1,6 @@
 {
   "model_id": "nissan-leaf-52",
-  "scraped_at": "2026-08-24T06:59:05.124873+00:00",
+  "scraped_at": "2026-08-31T12:47:29.984609+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -20,45 +20,45 @@
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 194695,
-      "count": 14,
-      "total_on_page": 150,
+      "median_price": 192370,
+      "count": 12,
+      "total_on_page": 144,
       "price_type": "estimated_transaction",
-      "p5_price": 174840,
-      "p95_price": 232407,
-      "min_price": 174840,
-      "max_price": 232407
+      "p5_price": 167307,
+      "p95_price": 240870,
+      "min_price": 167307,
+      "max_price": 240870
     },
     "2022": {
-      "median_price": 171538,
+      "median_price": 167260,
       "count": 8,
-      "total_on_page": 99,
+      "total_on_page": 97,
       "price_type": "estimated_transaction",
-      "p5_price": 158007,
-      "p95_price": 232407,
-      "min_price": 158007,
-      "max_price": 232407
+      "p5_price": 147870,
+      "p95_price": 222270,
+      "min_price": 147870,
+      "max_price": 222270
     },
     "2021": {
-      "median_price": 166888,
+      "median_price": 174235,
       "count": 6,
-      "total_on_page": 68,
+      "total_on_page": 69,
       "price_type": "estimated_transaction",
-      "p5_price": 148707,
+      "p5_price": 134850,
       "p95_price": 195207,
-      "min_price": 148707,
+      "min_price": 134850,
       "max_price": 195207
     },
     "2020": {
-      "median_price": 250170,
-      "count": 1,
-      "total_on_page": 14,
+      "median_price": 194788,
+      "count": 2,
+      "total_on_page": 10,
       "price_type": "estimated_transaction"
     },
     "2019": {
-      "median_price": 154612,
+      "median_price": 171771,
       "count": 2,
-      "total_on_page": 7,
+      "total_on_page": 10,
       "price_type": "estimated_transaction"
     }
   },

@@ -1,6 +1,6 @@
 {
   "model_id": "mazda-cx5-mhev",
-  "calculated_at": "2026-08-24T09:52:55.835275+00:00",
+  "calculated_at": "2026-08-31T15:42:55.875490+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 240967,
-    "monthly_cost": 5020,
-    "cost_per_mil": 40,
+    "total_cost": 263441,
+    "monthly_cost": 5488,
+    "cost_per_mil": 44,
     "breakdown": {
-      "depreciation": 82433,
+      "depreciation": 104907,
       "fuel": 79920,
       "tax": 36124,
       "insurance": {
@@ -35,7 +35,7 @@
         "year": 1,
         "value": 340308,
         "confidence": "adjusted",
-        "data_points": 2
+        "data_points": 1
       },
       {
         "year": 2,
@@ -45,31 +45,31 @@
       },
       {
         "year": 3,
-        "value": 312465,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 288036,
+        "confidence": "adjusted",
+        "data_points": 2
       },
       {
         "year": 4,
-        "value": 287467,
+        "value": 264993,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 5,
-        "value": 264469,
+        "value": 243793,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 6,
-        "value": 243311,
+        "value": 224289,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 7,
-        "value": 223846,
+        "value": 206345,
         "confidence": "adjusted",
         "data_points": 2
       },
@@ -77,6 +77,12 @@
         "year": 8,
         "value": 188278,
         "confidence": "medium",
+        "data_points": 2
+      },
+      {
+        "year": 9,
+        "value": 173215,
+        "confidence": "adjusted",
         "data_points": 2
       }
     ]

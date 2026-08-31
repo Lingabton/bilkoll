@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-rav4-hybrid",
-  "calculated_at": "2026-08-24T09:52:55.822061+00:00",
+  "calculated_at": "2026-08-31T15:42:55.860255+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -39,15 +39,15 @@
       },
       {
         "year": 2,
-        "value": 510988,
+        "value": 502107,
         "confidence": "medium",
         "data_points": 2
       },
       {
         "year": 3,
-        "value": 409014,
+        "value": 355632,
         "confidence": "medium",
-        "data_points": 3
+        "data_points": 4
       },
       {
         "year": 4,
@@ -57,25 +57,25 @@
       },
       {
         "year": 5,
-        "value": 296670,
-        "confidence": "medium",
-        "data_points": 3
+        "value": 312037,
+        "confidence": "adjusted",
+        "data_points": 4
       },
       {
         "year": 6,
-        "value": 272936,
-        "confidence": "adjusted",
+        "value": 292438,
+        "confidence": "medium",
         "data_points": 2
       },
       {
         "year": 7,
-        "value": 269607,
-        "confidence": "medium",
-        "data_points": 1
+        "value": 257345,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 8,
-        "value": 237254,
+        "value": 226463,
         "confidence": "estimated",
         "data_points": 0
       }

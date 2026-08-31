@@ -1,16 +1,22 @@
 {
   "model_id": "mazda-cx5-mhev",
-  "scraped_at": "2026-08-24T07:58:30.281822+00:00",
+  "scraped_at": "2026-08-31T13:46:08.271925+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 411013,
-      "count": 2,
-      "total_on_page": 4,
+      "median_price": 401853,
+      "count": 1,
+      "total_on_page": 5,
       "price_type": "estimated_transaction",
       "median_mileage_mil": 20250
+    },
+    "2023": {
+      "median_price": 327732,
+      "count": 2,
+      "total_on_page": 2,
+      "price_type": "estimated_transaction"
     },
     "2022": {
       "median_price": 355074,
@@ -27,13 +33,13 @@
       "median_mileage_mil": 20210
     },
     "2020": {
-      "median_price": 271932,
+      "median_price": 281232,
       "count": 2,
-      "total_on_page": 3,
+      "total_on_page": 7,
       "price_type": "estimated_transaction"
     },
     "2019": {
-      "median_price": 253332,
+      "median_price": 250681,
       "count": 2,
       "total_on_page": 6,
       "price_type": "estimated_transaction"
@@ -47,13 +53,13 @@
     "2017": {
       "median_price": 218457,
       "count": 2,
-      "total_on_page": 9,
+      "total_on_page": 12,
       "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 2,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

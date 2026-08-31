@@ -1,63 +1,60 @@
 {
   "model_id": "ford-kuga-phev",
-  "scraped_at": "2026-08-24T07:55:31.331118+00:00",
+  "scraped_at": "2026-08-31T13:43:05.992391+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 450957,
-      "count": 3,
-      "total_on_page": 30,
-      "price_type": "estimated_transaction",
-      "min_price": 449562,
-      "max_price": 454212,
-      "median_mileage_mil": 20250
+      "median_price": 435891,
+      "count": 2,
+      "total_on_page": 23,
+      "price_type": "estimated_transaction"
     },
     "2024": {
-      "median_price": 455188,
+      "median_price": 409060,
       "count": 4,
-      "total_on_page": 38,
+      "total_on_page": 42,
       "price_type": "estimated_transaction",
-      "min_price": 409107,
-      "max_price": 464070,
+      "min_price": 399714,
+      "max_price": 446307,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 285928,
-      "count": 8,
-      "total_on_page": 75,
+      "median_price": 255657,
+      "count": 5,
+      "total_on_page": 71,
       "price_type": "estimated_transaction",
-      "p5_price": 251007,
+      "p5_price": 246357,
       "p95_price": 371814,
-      "min_price": 251007,
+      "min_price": 246357,
       "max_price": 371814
     },
     "2022": {
-      "median_price": 253285,
+      "median_price": 232407,
       "count": 8,
-      "total_on_page": 99,
+      "total_on_page": 98,
       "price_type": "estimated_transaction",
-      "p5_price": 194370,
+      "p5_price": 213807,
       "p95_price": 524520,
-      "min_price": 194370,
+      "min_price": 213807,
       "max_price": 524520,
       "median_mileage_mil": 20221
     },
     "2021": {
-      "median_price": 251007,
-      "count": 7,
-      "total_on_page": 76,
+      "median_price": 223107,
+      "count": 8,
+      "total_on_page": 81,
       "price_type": "estimated_transaction",
-      "p5_price": 223107,
+      "p5_price": 171957,
       "p95_price": 353307,
-      "min_price": 223107,
+      "min_price": 171957,
       "max_price": 353307
     },
     "2020": {
       "median_price": 311457,
       "count": 2,
-      "total_on_page": 19,
+      "total_on_page": 17,
       "price_type": "estimated_transaction"
     }
   },

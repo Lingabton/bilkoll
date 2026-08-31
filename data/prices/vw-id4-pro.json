@@ -1,53 +1,54 @@
 {
   "model_id": "vw-id4-pro",
-  "scraped_at": "2026-08-24T06:15:06.696943+00:00",
+  "scraped_at": "2026-08-31T12:02:38.784711+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 445470,
+      "median_price": 556791,
       "count": 2,
-      "total_on_page": 24,
-      "price_type": "estimated_transaction"
+      "total_on_page": 22,
+      "price_type": "estimated_transaction",
+      "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 491970,
+      "median_price": 457513,
       "count": 2,
-      "total_on_page": 18,
+      "total_on_page": 23,
       "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 316107,
+      "median_price": 362514,
       "count": 13,
-      "total_on_page": 147,
+      "total_on_page": 161,
       "price_type": "estimated_transaction",
-      "p5_price": 250635,
-      "p95_price": 464814,
-      "min_price": 250635,
-      "max_price": 464814
+      "p5_price": 288021,
+      "p95_price": 418407,
+      "min_price": 288021,
+      "max_price": 418407
     },
     "2022": {
-      "median_price": 278948,
-      "count": 6,
-      "total_on_page": 51,
+      "median_price": 324570,
+      "count": 5,
+      "total_on_page": 55,
       "price_type": "estimated_transaction",
-      "p5_price": 251007,
-      "p95_price": 385485,
-      "min_price": 251007,
-      "max_price": 385485
+      "p5_price": 269607,
+      "p95_price": 357957,
+      "min_price": 269607,
+      "max_price": 357957
     },
     "2021": {
-      "median_price": 268770,
-      "count": 3,
-      "total_on_page": 39,
+      "median_price": 320757,
+      "count": 4,
+      "total_on_page": 31,
       "price_type": "estimated_transaction",
-      "min_price": 223107,
+      "min_price": 277977,
       "max_price": 525264
     }
   },
   "validation": {
-    "is_monotonic": false,
+    "is_monotonic": true,
     "min_count_per_year": 2,
     "confidence": "low"
   }

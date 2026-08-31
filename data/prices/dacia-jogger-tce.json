@@ -1,13 +1,13 @@
 {
   "model_id": "dacia-jogger-tce",
-  "scraped_at": "2026-08-24T06:29:43.024719+00:00",
+  "scraped_at": "2026-08-31T12:17:49.906687+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
       "median_price": 322152,
-      "count": 1,
+      "count": 2,
       "total_on_page": 11,
       "price_type": "estimated_transaction",
       "median_mileage_mil": 20250
@@ -15,26 +15,26 @@
     "2024": {
       "median_price": 260307,
       "count": 2,
-      "total_on_page": 7,
+      "total_on_page": 5,
       "price_type": "estimated_transaction",
       "median_mileage_mil": 20240
     },
     "2023": {
       "median_price": 213481,
       "count": 2,
-      "total_on_page": 2,
+      "total_on_page": 3,
       "price_type": "estimated_transaction"
     },
     "2022": {
-      "median_price": 144057,
-      "count": 1,
-      "total_on_page": 5,
+      "median_price": 144103,
+      "count": 2,
+      "total_on_page": 4,
       "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 1,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

@@ -1,6 +1,6 @@
 {
   "model_id": "polestar-2-lr",
-  "calculated_at": "2026-08-24T09:52:55.826559+00:00",
+  "calculated_at": "2026-08-31T15:42:55.864596+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 555582,
+        "value": 524706,
         "confidence": "medium",
         "data_points": 4
       },
       {
         "year": 2,
-        "value": 511135,
-        "confidence": "adjusted",
-        "data_points": 1
+        "value": 523543,
+        "confidence": "medium",
+        "data_points": 2
       },
       {
         "year": 3,
-        "value": 334288,
+        "value": 366838,
         "confidence": "medium",
-        "data_points": 8
+        "data_points": 10
       },
       {
         "year": 4,
         "value": 292857,
         "confidence": "medium",
-        "data_points": 4
+        "data_points": 3
       },
       {
         "year": 5,
-        "value": 269428,
-        "confidence": "adjusted",
-        "data_points": 4
+        "value": 278907,
+        "confidence": "medium",
+        "data_points": 3
       },
       {
         "year": 6,
-        "value": 247873,
+        "value": 256594,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 7,
-        "value": 228043,
+        "value": 236066,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 209799,
+        "value": 233953,
         "confidence": "estimated",
         "data_points": 0
       }

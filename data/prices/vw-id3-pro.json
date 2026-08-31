@@ -1,45 +1,44 @@
 {
   "model_id": "vw-id3-pro",
-  "scraped_at": "2026-08-24T06:39:36.220878+00:00",
+  "scraped_at": "2026-08-31T12:27:49.936921+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 292857,
-      "count": 1,
-      "total_on_page": 14,
-      "price_type": "estimated_transaction"
+      "median_price": 494713,
+      "count": 2,
+      "total_on_page": 13,
+      "price_type": "estimated_transaction",
+      "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 445935,
+      "median_price": 437053,
       "count": 2,
-      "total_on_page": 12,
+      "total_on_page": 11,
       "price_type": "estimated_transaction",
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 327127,
-      "count": 4,
-      "total_on_page": 32,
-      "price_type": "estimated_transaction",
-      "min_price": 302157,
-      "max_price": 361770
+      "median_price": 347820,
+      "count": 2,
+      "total_on_page": 24,
+      "price_type": "estimated_transaction"
     },
     "2022": {
-      "median_price": 278721,
+      "median_price": 227338,
       "count": 2,
-      "total_on_page": 7,
+      "total_on_page": 11,
       "price_type": "estimated_transaction"
     },
     "2021": {
-      "median_price": 246357,
+      "median_price": 241660,
       "count": 2,
-      "total_on_page": 20,
+      "total_on_page": 16,
       "price_type": "estimated_transaction"
     },
     "2020": {
-      "median_price": 188232,
+      "median_price": 206785,
       "count": 2,
       "total_on_page": 9,
       "price_type": "estimated_transaction"
@@ -47,7 +46,7 @@
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 1,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

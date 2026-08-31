@@ -1,45 +1,45 @@
 {
   "model_id": "seat-arona-tsi",
-  "scraped_at": "2026-08-24T09:42:18.242992+00:00",
+  "scraped_at": "2026-08-31T15:32:10.592747+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 254820,
-      "count": 6,
-      "total_on_page": 60,
+      "median_price": 190557,
+      "count": 5,
+      "total_on_page": 64,
       "price_type": "estimated_transaction",
-      "p5_price": 181257,
+      "p5_price": 182187,
       "p95_price": 264957,
-      "min_price": 181257,
+      "min_price": 182187,
       "max_price": 264957,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 169399,
+      "median_price": 183163,
       "count": 2,
       "total_on_page": 24,
       "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 169446,
+      "median_price": 164982,
       "count": 4,
-      "total_on_page": 43,
+      "total_on_page": 50,
       "price_type": "estimated_transaction",
-      "min_price": 151497,
-      "max_price": 181257
+      "min_price": 153357,
+      "max_price": 171957
     },
     "2022": {
-      "median_price": 180420,
+      "median_price": 180838,
       "count": 2,
-      "total_on_page": 11,
+      "total_on_page": 10,
       "price_type": "estimated_transaction"
     },
     "2021": {
-      "median_price": 158007,
-      "count": 1,
-      "total_on_page": 8,
+      "median_price": 169446,
+      "count": 2,
+      "total_on_page": 9,
       "price_type": "estimated_transaction"
     },
     "2020": {
@@ -49,13 +49,13 @@
       "price_type": "estimated_transaction"
     },
     "2019": {
-      "median_price": 66960,
-      "count": 1,
-      "total_on_page": 14,
+      "median_price": 117133,
+      "count": 2,
+      "total_on_page": 13,
       "price_type": "estimated_transaction"
     },
     "2018": {
-      "median_price": 111460,
+      "median_price": 109135,
       "count": 2,
       "total_on_page": 10,
       "price_type": "estimated_transaction"
@@ -63,7 +63,7 @@
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 1,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

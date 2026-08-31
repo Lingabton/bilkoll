@@ -1,62 +1,62 @@
 {
   "model_id": "polestar-2-lr",
-  "scraped_at": "2026-08-24T06:53:57.048880+00:00",
+  "scraped_at": "2026-08-31T12:42:27.178579+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 555582,
+      "median_price": 524706,
       "count": 4,
-      "total_on_page": 42,
+      "total_on_page": 38,
       "price_type": "estimated_transaction",
-      "min_price": 547305,
-      "max_price": 613707,
-      "median_mileage_mil": 20251
+      "min_price": 483507,
+      "max_price": 622170,
+      "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 693780,
-      "count": 1,
-      "total_on_page": 14,
+      "median_price": 523543,
+      "count": 2,
+      "total_on_page": 24,
       "price_type": "estimated_transaction",
       "median_mileage_mil": 20244
     },
     "2023": {
-      "median_price": 334288,
-      "count": 8,
-      "total_on_page": 84,
+      "median_price": 366838,
+      "count": 10,
+      "total_on_page": 104,
       "price_type": "estimated_transaction",
-      "p5_price": 287370,
-      "p95_price": 427707,
-      "min_price": 287370,
-      "max_price": 427707
+      "p5_price": 269235,
+      "p95_price": 455607,
+      "min_price": 269235,
+      "max_price": 455607
     },
     "2022": {
       "median_price": 292857,
-      "count": 4,
+      "count": 3,
       "total_on_page": 33,
       "price_type": "estimated_transaction",
-      "min_price": 278070,
-      "max_price": 325314
+      "min_price": 288300,
+      "max_price": 292857
     },
     "2021": {
-      "median_price": 311410,
-      "count": 4,
-      "total_on_page": 32,
+      "median_price": 278907,
+      "count": 3,
+      "total_on_page": 39,
       "price_type": "estimated_transaction",
-      "min_price": 278070,
+      "min_price": 264957,
       "max_price": 367257
     },
     "2020": {
       "median_price": 302110,
       "count": 2,
-      "total_on_page": 20,
+      "total_on_page": 18,
       "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 1,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

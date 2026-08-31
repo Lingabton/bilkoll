@@ -1,6 +1,6 @@
 {
   "model_id": "cupra-formentor-tsi",
-  "calculated_at": "2026-08-24T09:52:55.834568+00:00",
+  "calculated_at": "2026-08-31T15:42:55.874456+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -39,7 +39,7 @@
       },
       {
         "year": 2,
-        "value": 339450,
+        "value": 337078,
         "confidence": "medium",
         "data_points": 4
       },
@@ -69,13 +69,13 @@
       },
       {
         "year": 7,
-        "value": 172889,
+        "value": 186529,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 166332,
+        "value": 164146,
         "confidence": "estimated",
         "data_points": 0
       }

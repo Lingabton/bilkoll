@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-ec40-sm",
-  "calculated_at": "2026-08-24T09:52:55.839226+00:00",
+  "calculated_at": "2026-08-31T15:42:55.879924+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 445892,
-    "monthly_cost": 9289,
-    "cost_per_mil": 74,
+    "total_cost": 402325,
+    "monthly_cost": 8382,
+    "cost_per_mil": 67,
     "breakdown": {
-      "depreciation": 387994,
+      "depreciation": 344427,
       "fuel": 18468,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 246449,
+        "value": 302398,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 2,
-        "value": 226733,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 278206,
+        "confidence": "adjusted",
+        "data_points": 1
       },
       {
         "year": 3,
-        "value": 208594,
+        "value": 255949,
         "confidence": "adjusted",
-        "data_points": 10
+        "data_points": 8
       },
       {
         "year": 4,
-        "value": 191906,
-        "confidence": "adjusted",
-        "data_points": 4
-      },
-      {
-        "year": 5,
-        "value": 176553,
+        "value": 235473,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
+        "year": 5,
+        "value": 216635,
+        "confidence": "adjusted",
+        "data_points": 1
+      },
+      {
         "year": 6,
-        "value": 162428,
+        "value": 199304,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 149433,
+        "value": 183359,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 137478,
+        "value": 168690,
         "confidence": "estimated",
         "data_points": 0
       }
