@@ -1,6 +1,6 @@
 {
   "model_id": "skoda-superb-tsi",
-  "calculated_at": "2026-08-31T15:42:55.889733+00:00",
+  "calculated_at": "2026-09-07T14:27:44.456855+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -35,7 +35,7 @@
         "year": 1,
         "value": 404457,
         "confidence": "medium",
-        "data_points": 4
+        "data_points": 6
       },
       {
         "year": 2,

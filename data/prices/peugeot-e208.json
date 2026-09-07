@@ -1,6 +1,6 @@
 {
   "model_id": "peugeot-e208",
-  "scraped_at": "2026-08-31T12:33:39.042745+00:00",
+  "scraped_at": "2026-09-07T11:12:05.742861+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -20,9 +20,11 @@
     },
     "2022": {
       "median_price": 406565,
-      "count": 2,
+      "count": 4,
       "total_on_page": 25,
       "price_type": "estimated_transaction",
+      "min_price": 357957,
+      "max_price": 455174,
       "median_mileage_mil": 20220
     },
     "2021": {

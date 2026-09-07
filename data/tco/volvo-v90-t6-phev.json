@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-v90-t6-phev",
-  "calculated_at": "2026-08-31T15:42:55.882691+00:00",
+  "calculated_at": "2026-09-07T14:27:44.453121+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 436483,
-    "monthly_cost": 9093,
+    "total_cost": 436437,
+    "monthly_cost": 9092,
     "cost_per_mil": 73,
     "breakdown": {
-      "depreciation": 299593,
+      "depreciation": 299547,
       "fuel": 77700,
       "tax": 3200,
       "insurance": {
@@ -33,33 +33,33 @@
       },
       {
         "year": 1,
-        "value": 473788,
-        "confidence": "medium",
-        "data_points": 10
-      },
-      {
-        "year": 2,
-        "value": 409107,
-        "confidence": "medium",
-        "data_points": 11
-      },
-      {
-        "year": 3,
-        "value": 387810,
+        "value": 478252,
         "confidence": "medium",
         "data_points": 12
       },
       {
+        "year": 2,
+        "value": 423010,
+        "confidence": "medium",
+        "data_points": 14
+      },
+      {
+        "year": 3,
+        "value": 384880,
+        "confidence": "medium",
+        "data_points": 14
+      },
+      {
         "year": 4,
-        "value": 325407,
+        "value": 325453,
         "confidence": "medium",
         "data_points": 10
       },
       {
         "year": 5,
-        "value": 299878,
+        "value": 283603,
         "confidence": "medium",
-        "data_points": 8
+        "data_points": 10
       },
       {
         "year": 6,
@@ -69,31 +69,31 @@
       },
       {
         "year": 7,
-        "value": 231570,
+        "value": 249240,
         "confidence": "medium",
         "data_points": 11
       },
       {
         "year": 8,
-        "value": 195207,
+        "value": 176235,
         "confidence": "medium",
         "data_points": 17
       },
       {
         "year": 9,
-        "value": 183442,
-        "confidence": "medium",
-        "data_points": 12
+        "value": 162136,
+        "confidence": "adjusted",
+        "data_points": 14
       },
       {
         "year": 10,
-        "value": 168766,
+        "value": 149165,
         "confidence": "adjusted",
-        "data_points": 3
+        "data_points": 4
       },
       {
         "year": 11,
-        "value": 167690,
+        "value": 137231,
         "confidence": "estimated",
         "data_points": 0
       }

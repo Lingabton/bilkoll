@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-c-hr-hybrid",
-  "calculated_at": "2026-08-31T15:42:55.885665+00:00",
+  "calculated_at": "2026-09-07T14:27:44.454687+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,14 +33,14 @@
       },
       {
         "year": 1,
-        "value": 338892,
-        "confidence": "medium",
+        "value": 353188,
+        "confidence": "adjusted",
         "data_points": 12
       },
       {
         "year": 2,
-        "value": 311780,
-        "confidence": "adjusted",
+        "value": 350982,
+        "confidence": "medium",
         "data_points": 8
       },
       {

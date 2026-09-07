@@ -1,6 +1,6 @@
 {
   "model_id": "tesla-model-3-lr",
-  "scraped_at": "2026-08-31T11:50:07.430939+00:00",
+  "scraped_at": "2026-09-07T10:23:28.464496+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -32,19 +32,21 @@
       "price_type": "estimated_transaction"
     },
     "2021": {
-      "median_price": 314526,
-      "count": 3,
+      "median_price": 520707,
+      "count": 5,
       "total_on_page": 46,
       "price_type": "estimated_transaction",
+      "p5_price": 251007,
+      "p95_price": 650907,
       "min_price": 251007,
       "max_price": 650907
     },
     "2020": {
-      "median_price": 264957,
+      "median_price": 251007,
       "count": 3,
-      "total_on_page": 36,
+      "total_on_page": 38,
       "price_type": "estimated_transaction",
-      "min_price": 204507,
+      "min_price": 218550,
       "max_price": 398970
     },
     "2019": {

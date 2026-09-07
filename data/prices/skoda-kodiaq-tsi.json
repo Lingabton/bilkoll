@@ -1,16 +1,16 @@
 {
   "model_id": "skoda-kodiaq-tsi",
-  "scraped_at": "2026-08-31T13:05:59.306534+00:00",
+  "scraped_at": "2026-09-07T11:47:26.794106+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 478438,
+      "median_price": 455607,
       "count": 4,
-      "total_on_page": 42,
+      "total_on_page": 50,
       "price_type": "estimated_transaction",
-      "min_price": 409107,
+      "min_price": 418035,
       "max_price": 506757
     },
     "2024": {

@@ -1,6 +1,6 @@
 {
   "model_id": "kia-ev9-rwd",
-  "calculated_at": "2026-08-31T15:42:55.886012+00:00",
+  "calculated_at": "2026-09-07T14:27:44.454879+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 256346,
-    "monthly_cost": 5341,
-    "cost_per_mil": 43,
+    "total_cost": 332126,
+    "monthly_cost": 6919,
+    "cost_per_mil": 55,
     "breakdown": {
-      "depreciation": 184676,
+      "depreciation": 260456,
       "fuel": 19440,
       "tax": 1440,
       "insurance": {
@@ -45,37 +45,37 @@
       },
       {
         "year": 3,
-        "value": 676392,
+        "value": 590278,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 1
       },
       {
         "year": 4,
-        "value": 595224,
+        "value": 519444,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 523797,
+        "value": 457111,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 460942,
+        "value": 402257,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 405629,
+        "value": 353986,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 356953,
+        "value": 311508,
         "confidence": "estimated",
         "data_points": 0
       }

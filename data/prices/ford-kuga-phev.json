@@ -1,6 +1,6 @@
 {
   "model_id": "ford-kuga-phev",
-  "scraped_at": "2026-08-31T13:43:05.992391+00:00",
+  "scraped_at": "2026-09-07T12:24:39.224002+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -32,8 +32,8 @@
     },
     "2022": {
       "median_price": 232407,
-      "count": 8,
-      "total_on_page": 98,
+      "count": 9,
+      "total_on_page": 101,
       "price_type": "estimated_transaction",
       "p5_price": 213807,
       "p95_price": 524520,
@@ -42,7 +42,7 @@
       "median_mileage_mil": 20221
     },
     "2021": {
-      "median_price": 223107,
+      "median_price": 218457,
       "count": 8,
       "total_on_page": 81,
       "price_type": "estimated_transaction",

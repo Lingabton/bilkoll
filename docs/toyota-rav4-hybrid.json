@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-rav4-hybrid",
-  "calculated_at": "2026-08-31T15:42:55.860255+00:00",
+  "calculated_at": "2026-09-07T14:27:44.443600+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 353880,
-    "monthly_cost": 7372,
+    "total_cost": 353426,
+    "monthly_cost": 7363,
     "cost_per_mil": 59,
     "breakdown": {
-      "depreciation": 216629,
+      "depreciation": 216175,
       "fuel": 72150,
       "tax": 19211,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 511407,
+        "value": 455514,
         "confidence": "medium",
-        "data_points": 3
+        "data_points": 5
       },
       {
         "year": 2,
-        "value": 502107,
+        "value": 422638,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 6
       },
       {
         "year": 3,
-        "value": 355632,
+        "value": 369158,
         "confidence": "medium",
-        "data_points": 4
+        "data_points": 12
       },
       {
         "year": 4,
-        "value": 339171,
-        "confidence": "medium",
-        "data_points": 2
+        "value": 339625,
+        "confidence": "adjusted",
+        "data_points": 8
       },
       {
         "year": 5,
-        "value": 312037,
-        "confidence": "adjusted",
-        "data_points": 4
+        "value": 329592,
+        "confidence": "medium",
+        "data_points": 12
       },
       {
         "year": 6,
-        "value": 292438,
-        "confidence": "medium",
-        "data_points": 2
+        "value": 303224,
+        "confidence": "adjusted",
+        "data_points": 8
       },
       {
         "year": 7,
-        "value": 257345,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 266863,
+        "confidence": "medium",
+        "data_points": 4
       },
       {
         "year": 8,
-        "value": 226463,
+        "value": 234839,
         "confidence": "estimated",
         "data_points": 0
       }

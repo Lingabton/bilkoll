@@ -1,6 +1,6 @@
 {
   "model_id": "tesla-model-3-lr",
-  "calculated_at": "2026-08-31T15:42:55.857624+00:00",
+  "calculated_at": "2026-09-07T14:27:44.442128+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -57,25 +57,25 @@
       },
       {
         "year": 5,
-        "value": 314526,
-        "confidence": "medium",
-        "data_points": 3
+        "value": 292828,
+        "confidence": "adjusted",
+        "data_points": 5
       },
       {
         "year": 6,
-        "value": 264957,
+        "value": 251007,
         "confidence": "medium",
         "data_points": 3
       },
       {
         "year": 7,
-        "value": 243760,
+        "value": 230926,
         "confidence": "adjusted",
         "data_points": 4
       },
       {
         "year": 8,
-        "value": 235248,
+        "value": 212451,
         "confidence": "estimated",
         "data_points": 0
       }

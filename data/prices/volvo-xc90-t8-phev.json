@@ -1,25 +1,25 @@
 {
   "model_id": "volvo-xc90-t8-phev",
-  "scraped_at": "2026-08-31T15:03:37.774868+00:00",
+  "scraped_at": "2026-09-07T13:46:39.129480+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 776457,
+      "median_price": 789756,
       "count": 16,
-      "total_on_page": 189,
+      "total_on_page": 198,
       "price_type": "estimated_transaction",
-      "p5_price": 705870,
+      "p5_price": 734235,
       "p95_price": 1018257,
-      "min_price": 705870,
+      "min_price": 734235,
       "max_price": 1018257,
-      "median_mileage_mil": 20252
+      "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 688148,
-      "count": 8,
-      "total_on_page": 101,
+      "median_price": 660290,
+      "count": 9,
+      "total_on_page": 104,
       "price_type": "estimated_transaction",
       "p5_price": 529170,
       "p95_price": 790407,
@@ -27,19 +27,19 @@
       "max_price": 790407
     },
     "2023": {
-      "median_price": 585807,
+      "median_price": 595200,
       "count": 11,
-      "total_on_page": 132,
+      "total_on_page": 129,
       "price_type": "estimated_transaction",
-      "p5_price": 534750,
-      "p95_price": 627750,
-      "min_price": 534750,
-      "max_price": 627750
+      "p5_price": 511500,
+      "p95_price": 669507,
+      "min_price": 511500,
+      "max_price": 669507
     },
     "2022": {
-      "median_price": 534657,
+      "median_price": 527263,
       "count": 8,
-      "total_on_page": 85,
+      "total_on_page": 89,
       "price_type": "estimated_transaction",
       "p5_price": 371070,
       "p95_price": 593154,
@@ -47,19 +47,19 @@
       "max_price": 593154
     },
     "2021": {
-      "median_price": 519870,
+      "median_price": 464814,
       "count": 7,
-      "total_on_page": 83,
+      "total_on_page": 87,
       "price_type": "estimated_transaction",
       "p5_price": 371907,
-      "p95_price": 520707,
+      "p95_price": 520614,
       "min_price": 371907,
-      "max_price": 520707
+      "max_price": 520614
     },
     "2020": {
       "median_price": 444028,
       "count": 8,
-      "total_on_page": 91,
+      "total_on_page": 86,
       "price_type": "estimated_transaction",
       "p5_price": 362607,
       "p95_price": 510570,
@@ -67,35 +67,37 @@
       "max_price": 510570
     },
     "2019": {
-      "median_price": 408270,
-      "count": 4,
-      "total_on_page": 50,
+      "median_price": 371163,
+      "count": 6,
+      "total_on_page": 53,
       "price_type": "estimated_transaction",
-      "min_price": 268770,
-      "max_price": 427707
+      "p5_price": 278070,
+      "p95_price": 446214,
+      "min_price": 278070,
+      "max_price": 446214
     },
     "2018": {
-      "median_price": 232314,
+      "median_price": 367164,
       "count": 3,
-      "total_on_page": 33,
+      "total_on_page": 39,
       "price_type": "estimated_transaction",
-      "min_price": 231570,
-      "max_price": 422964
+      "min_price": 232314,
+      "max_price": 371907
     },
     "2017": {
-      "median_price": 306807,
+      "median_price": 339357,
       "count": 5,
-      "total_on_page": 58,
+      "total_on_page": 66,
       "price_type": "estimated_transaction",
-      "p5_price": 297507,
+      "p5_price": 269514,
       "p95_price": 474207,
-      "min_price": 297507,
+      "min_price": 269514,
       "max_price": 474207
     },
     "2016": {
-      "median_price": 304063,
+      "median_price": 285882,
       "count": 8,
-      "total_on_page": 79,
+      "total_on_page": 85,
       "price_type": "estimated_transaction",
       "p5_price": 185070,
       "p95_price": 445470,
@@ -103,16 +105,16 @@
       "max_price": 445470
     },
     "2015": {
-      "median_price": 255610,
+      "median_price": 276489,
       "count": 4,
-      "total_on_page": 44,
+      "total_on_page": 43,
       "price_type": "estimated_transaction",
-      "min_price": 185907,
+      "min_price": 195207,
       "max_price": 325407
     }
   },
   "validation": {
-    "is_monotonic": false,
+    "is_monotonic": true,
     "min_count_per_year": 3,
     "confidence": "low"
   }

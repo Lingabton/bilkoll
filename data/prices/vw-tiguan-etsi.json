@@ -1,6 +1,6 @@
 {
   "model_id": "vw-tiguan-etsi",
-  "scraped_at": "2026-08-31T13:02:05.967191+00:00",
+  "scraped_at": "2026-09-07T11:43:34.164785+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -47,9 +47,9 @@
     "2019": {
       "median_price": 251007,
       "count": 3,
-      "total_on_page": 30,
+      "total_on_page": 31,
       "price_type": "estimated_transaction",
-      "min_price": 250914,
+      "min_price": 167307,
       "max_price": 269607
     },
     "2018": {

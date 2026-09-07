@@ -1,93 +1,93 @@
 {
   "model_id": "volvo-xc60-b5-bensin",
-  "scraped_at": "2026-08-31T11:46:23.334982+00:00",
+  "scraped_at": "2026-09-07T10:19:44.516397+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 510988,
+      "median_price": 446260,
       "count": 20,
-      "total_on_page": 529,
+      "total_on_page": 553,
       "price_type": "estimated_transaction",
-      "p5_price": 437007,
+      "p5_price": 427335,
       "p95_price": 552885,
       "min_price": 418407,
       "max_price": 552885
     },
     "2024": {
-      "median_price": 413338,
+      "median_price": 417988,
       "count": 20,
-      "total_on_page": 651,
+      "total_on_page": 646,
       "price_type": "estimated_transaction",
-      "p5_price": 348750,
-      "p95_price": 501735,
+      "p5_price": 334614,
+      "p95_price": 534657,
       "min_price": 288114,
-      "max_price": 501735
+      "max_price": 534657
     },
     "2023": {
-      "median_price": 395157,
+      "median_price": 381160,
       "count": 20,
-      "total_on_page": 468,
+      "total_on_page": 465,
       "price_type": "estimated_transaction",
-      "p5_price": 325314,
-      "p95_price": 474207,
-      "min_price": 292764,
-      "max_price": 474207
+      "p5_price": 324570,
+      "p95_price": 510570,
+      "min_price": 316014,
+      "max_price": 510570
     },
     "2022": {
-      "median_price": 377993,
+      "median_price": 361770,
       "count": 20,
-      "total_on_page": 285,
+      "total_on_page": 286,
       "price_type": "estimated_transaction",
-      "p5_price": 274164,
-      "p95_price": 474114,
-      "min_price": 232407,
-      "max_price": 474114
+      "p5_price": 232407,
+      "p95_price": 445470,
+      "min_price": 223200,
+      "max_price": 445470
     },
     "2021": {
-      "median_price": 306760,
+      "median_price": 327267,
       "count": 20,
-      "total_on_page": 302,
+      "total_on_page": 312,
       "price_type": "estimated_transaction",
-      "p5_price": 288207,
-      "p95_price": 418035,
-      "min_price": 274164,
-      "max_price": 418035
+      "p5_price": 240870,
+      "p95_price": 437007,
+      "min_price": 240870,
+      "max_price": 437007
     },
     "2020": {
-      "median_price": 292671,
+      "median_price": 311410,
       "count": 20,
-      "total_on_page": 283,
+      "total_on_page": 269,
       "price_type": "estimated_transaction",
-      "p5_price": 185907,
-      "p95_price": 446307,
-      "min_price": 166470,
-      "max_price": 446307
+      "p5_price": 231570,
+      "p95_price": 395157,
+      "min_price": 185907,
+      "max_price": 395157
     },
     "2019": {
-      "median_price": 302157,
-      "count": 16,
-      "total_on_page": 195,
+      "median_price": 288207,
+      "count": 17,
+      "total_on_page": 206,
       "price_type": "estimated_transaction",
-      "p5_price": 185070,
-      "p95_price": 359910,
-      "min_price": 185070,
-      "max_price": 359910
+      "p5_price": 185907,
+      "p95_price": 353307,
+      "min_price": 185907,
+      "max_price": 353307
     },
     "2018": {
-      "median_price": 262632,
+      "median_price": 260307,
       "count": 16,
-      "total_on_page": 198,
+      "total_on_page": 188,
       "price_type": "estimated_transaction",
       "p5_price": 172050,
-      "p95_price": 325407,
+      "p95_price": 306807,
       "min_price": 172050,
-      "max_price": 325407
+      "max_price": 306807
     }
   },
   "validation": {
-    "is_monotonic": false,
+    "is_monotonic": true,
     "min_count_per_year": 16,
     "confidence": "medium"
   }

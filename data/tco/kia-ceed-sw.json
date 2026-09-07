@@ -1,6 +1,6 @@
 {
   "model_id": "kia-ceed-sw",
-  "calculated_at": "2026-08-31T15:42:55.879406+00:00",
+  "calculated_at": "2026-09-07T14:27:44.451757+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -45,8 +45,8 @@
       },
       {
         "year": 3,
-        "value": 234776,
-        "confidence": "adjusted",
+        "value": 250588,
+        "confidence": "medium",
         "data_points": 2
       },
       {

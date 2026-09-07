@@ -1,6 +1,6 @@
 {
   "model_id": "mercedes-eqe-350",
-  "calculated_at": "2026-08-31T15:42:55.886369+00:00",
+  "calculated_at": "2026-09-07T14:27:44.455064+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 78926,
-    "monthly_cost": 1644,
-    "cost_per_mil": 13,
+    "total_cost": 365988,
+    "monthly_cost": 7625,
+    "cost_per_mil": 61,
     "breakdown": {
-      "depreciation": 0,
+      "depreciation": 287062,
       "fuel": 17496,
       "tax": 1440,
       "insurance": {
@@ -29,6 +29,54 @@
         "year": 0,
         "value": 719000,
         "confidence": "fixed",
+        "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 661480,
+        "confidence": "adjusted",
+        "data_points": 1
+      },
+      {
+        "year": 2,
+        "value": 491970,
+        "confidence": "medium",
+        "data_points": 2
+      },
+      {
+        "year": 3,
+        "value": 452612,
+        "confidence": "adjusted",
+        "data_points": 2
+      },
+      {
+        "year": 4,
+        "value": 431938,
+        "confidence": "medium",
+        "data_points": 2
+      },
+      {
+        "year": 5,
+        "value": 380105,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 6,
+        "value": 334492,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 7,
+        "value": 294353,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 8,
+        "value": 259031,
+        "confidence": "estimated",
         "data_points": 0
       }
     ]
