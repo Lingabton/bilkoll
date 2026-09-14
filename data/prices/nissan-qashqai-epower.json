@@ -1,58 +1,58 @@
 {
   "model_id": "nissan-qashqai-epower",
-  "scraped_at": "2026-09-07T14:12:28.745751+00:00",
+  "scraped_at": "2026-09-14T14:37:29.662002+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 308411,
+      "median_price": 342739,
       "count": 8,
-      "total_on_page": 89,
+      "total_on_page": 78,
       "price_type": "estimated_transaction",
-      "p5_price": 288207,
-      "p95_price": 326709,
-      "min_price": 288207,
-      "max_price": 326709,
+      "p5_price": 297414,
+      "p95_price": 365536,
+      "min_price": 297414,
+      "max_price": 365536,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 323221,
+      "median_price": 320013,
       "count": 6,
-      "total_on_page": 54,
+      "total_on_page": 65,
       "price_type": "estimated_transaction",
-      "p5_price": 34875,
+      "p5_price": 264957,
       "p95_price": 388275,
-      "min_price": 34875,
+      "min_price": 264957,
       "max_price": 388275,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 292020,
-      "count": 3,
-      "total_on_page": 26,
+      "median_price": 271095,
+      "count": 4,
+      "total_on_page": 28,
       "price_type": "estimated_transaction",
       "min_price": 223107,
-      "max_price": 297507
+      "max_price": 292020
     },
     "2022": {
       "median_price": 241335,
       "count": 3,
-      "total_on_page": 36,
+      "total_on_page": 30,
       "price_type": "estimated_transaction",
       "min_price": 232407,
-      "max_price": 260214
+      "max_price": 269514
     },
     "2021": {
-      "median_price": 322012,
-      "count": 1,
-      "total_on_page": 21,
+      "median_price": 295391,
+      "count": 2,
+      "total_on_page": 25,
       "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 1,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

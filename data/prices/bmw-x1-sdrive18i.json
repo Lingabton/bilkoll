@@ -1,41 +1,41 @@
 {
   "model_id": "bmw-x1-sdrive18i",
-  "scraped_at": "2026-09-07T14:07:18.370779+00:00",
+  "scraped_at": "2026-09-14T14:32:23.413182+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 430776,
+      "median_price": 431938,
       "count": 6,
-      "total_on_page": 68,
+      "total_on_page": 57,
       "price_type": "estimated_transaction",
-      "p5_price": 390135,
-      "p95_price": 464907,
-      "min_price": 390135,
-      "max_price": 464907,
+      "p5_price": 371907,
+      "p95_price": 640770,
+      "min_price": 371907,
+      "max_price": 640770,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 501688,
+      "median_price": 440820,
       "count": 2,
-      "total_on_page": 20,
+      "total_on_page": 22,
       "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 398970,
+      "median_price": 353214,
       "count": 3,
-      "total_on_page": 36,
+      "total_on_page": 33,
       "price_type": "estimated_transaction",
-      "min_price": 320757,
-      "max_price": 408270
+      "min_price": 329871,
+      "max_price": 426870
     },
     "2022": {
-      "median_price": 306388,
+      "median_price": 352842,
       "count": 4,
-      "total_on_page": 27,
+      "total_on_page": 34,
       "price_type": "estimated_transaction",
-      "min_price": 248300,
+      "min_price": 244580,
       "max_price": 382137
     }
   },

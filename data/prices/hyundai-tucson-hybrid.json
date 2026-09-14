@@ -1,56 +1,56 @@
 {
   "model_id": "hyundai-tucson-hybrid",
-  "scraped_at": "2026-09-07T12:05:24.315441+00:00",
+  "scraped_at": "2026-09-14T12:30:36.890637+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 426870,
+      "median_price": 440773,
       "count": 6,
-      "total_on_page": 53,
+      "total_on_page": 54,
       "price_type": "estimated_transaction",
-      "p5_price": 334707,
-      "p95_price": 446307,
-      "min_price": 334707,
-      "max_price": 446307,
+      "p5_price": 333870,
+      "p95_price": 538098,
+      "min_price": 333870,
+      "max_price": 538098,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 466581,
-      "count": 2,
-      "total_on_page": 16,
+      "median_price": 524148,
+      "count": 1,
+      "total_on_page": 14,
       "price_type": "estimated_transaction",
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 440355,
+      "median_price": 341682,
       "count": 2,
-      "total_on_page": 22,
+      "total_on_page": 18,
       "price_type": "estimated_transaction"
     },
     "2022": {
-      "median_price": 278070,
+      "median_price": 262213,
       "count": 6,
-      "total_on_page": 69,
+      "total_on_page": 67,
       "price_type": "estimated_transaction",
-      "p5_price": 240870,
-      "p95_price": 381114,
-      "min_price": 240870,
-      "max_price": 381114
+      "p5_price": 241707,
+      "p95_price": 277791,
+      "min_price": 241707,
+      "max_price": 277791
     },
     "2021": {
-      "median_price": 248589,
-      "count": 4,
-      "total_on_page": 36,
+      "median_price": 287835,
+      "count": 3,
+      "total_on_page": 26,
       "price_type": "estimated_transaction",
-      "min_price": 231570,
-      "max_price": 325407
+      "min_price": 278907,
+      "max_price": 296670
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 2,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

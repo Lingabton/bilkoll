@@ -1,58 +1,58 @@
 {
   "model_id": "audi-q3-35tfsi",
-  "scraped_at": "2026-09-07T14:20:25.100624+00:00",
+  "scraped_at": "2026-09-14T14:45:28.199280+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 371907,
+      "median_price": 355678,
       "count": 4,
-      "total_on_page": 28,
+      "total_on_page": 31,
       "price_type": "estimated_transaction",
-      "min_price": 330150,
-      "max_price": 413757
+      "min_price": 310620,
+      "max_price": 409107
     },
     "2024": {
-      "median_price": 296205,
+      "median_price": 331638,
       "count": 2,
       "total_on_page": 12,
       "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 310620,
-      "count": 4,
-      "total_on_page": 45,
+      "median_price": 264864,
+      "count": 3,
+      "total_on_page": 46,
       "price_type": "estimated_transaction",
-      "min_price": 301320,
-      "max_price": 343170
+      "min_price": 251007,
+      "max_price": 297507
     },
     "2022": {
-      "median_price": 259423,
+      "median_price": 264120,
       "count": 2,
-      "total_on_page": 9,
+      "total_on_page": 7,
       "price_type": "estimated_transaction"
     },
     "2021": {
-      "median_price": 343960,
-      "count": 2,
-      "total_on_page": 16,
-      "price_type": "estimated_transaction"
-    },
-    "2020": {
-      "median_price": 358003,
+      "median_price": 330057,
       "count": 2,
       "total_on_page": 13,
       "price_type": "estimated_transaction"
     },
+    "2020": {
+      "median_price": 355678,
+      "count": 2,
+      "total_on_page": 12,
+      "price_type": "estimated_transaction"
+    },
     "2019": {
-      "median_price": 260307,
-      "count": 1,
-      "total_on_page": 21,
+      "median_price": 236638,
+      "count": 2,
+      "total_on_page": 22,
       "price_type": "estimated_transaction"
     },
     "2018": {
-      "median_price": 185860,
+      "median_price": 208692,
       "count": 2,
       "total_on_page": 3,
       "price_type": "estimated_transaction"
@@ -60,7 +60,7 @@
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 1,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

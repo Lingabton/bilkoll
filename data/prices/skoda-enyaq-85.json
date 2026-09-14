@@ -1,53 +1,54 @@
 {
   "model_id": "skoda-enyaq-85",
-  "scraped_at": "2026-09-07T11:00:28.088471+00:00",
+  "scraped_at": "2026-09-14T11:26:28.229642+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 580924,
+      "median_price": 557302,
       "count": 2,
-      "total_on_page": 16,
-      "price_type": "estimated_transaction",
-      "median_mileage_mil": 20250
+      "total_on_page": 19,
+      "price_type": "estimated_transaction"
     },
     "2024": {
-      "median_price": 460071,
+      "median_price": 469138,
       "count": 4,
-      "total_on_page": 32,
+      "total_on_page": 29,
       "price_type": "estimated_transaction",
-      "min_price": 427521,
-      "max_price": 474021
+      "min_price": 446307,
+      "max_price": 488157
     },
     "2023": {
-      "median_price": 382137,
-      "count": 8,
-      "total_on_page": 97,
+      "median_price": 362142,
+      "count": 10,
+      "total_on_page": 110,
       "price_type": "estimated_transaction",
-      "p5_price": 343914,
+      "p5_price": 315270,
       "p95_price": 669507,
-      "min_price": 343914,
+      "min_price": 315270,
       "max_price": 669507,
       "median_mileage_mil": 20230
     },
     "2022": {
-      "median_price": 343077,
+      "median_price": 287370,
       "count": 3,
-      "total_on_page": 30,
+      "total_on_page": 33,
       "price_type": "estimated_transaction",
-      "min_price": 251007,
-      "max_price": 367340
+      "min_price": 259470,
+      "max_price": 370884
     },
     "2021": {
-      "median_price": 437007,
-      "count": 2,
-      "total_on_page": 24,
-      "price_type": "estimated_transaction"
+      "median_price": 167307,
+      "count": 3,
+      "total_on_page": 26,
+      "price_type": "estimated_transaction",
+      "min_price": 138570,
+      "max_price": 483507
     }
   },
   "validation": {
-    "is_monotonic": false,
+    "is_monotonic": true,
     "min_count_per_year": 2,
     "confidence": "low"
   }

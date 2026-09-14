@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-rav4-hybrid",
-  "calculated_at": "2026-09-07T14:27:44.443600+00:00",
+  "calculated_at": "2026-09-14T14:53:29.982135+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 353426,
-    "monthly_cost": 7363,
-    "cost_per_mil": 59,
+    "total_cost": 344813,
+    "monthly_cost": 7184,
+    "cost_per_mil": 57,
     "breakdown": {
-      "depreciation": 216175,
+      "depreciation": 207562,
       "fuel": 72150,
       "tax": 19211,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 455514,
-        "confidence": "medium",
-        "data_points": 5
-      },
-      {
-        "year": 2,
-        "value": 422638,
+        "value": 473788,
         "confidence": "medium",
         "data_points": 6
       },
       {
-        "year": 3,
-        "value": 369158,
+        "year": 2,
+        "value": 455188,
         "confidence": "medium",
-        "data_points": 12
+        "data_points": 4
+      },
+      {
+        "year": 3,
+        "value": 406777,
+        "confidence": "medium",
+        "data_points": 14
       },
       {
         "year": 4,
-        "value": 339625,
-        "confidence": "adjusted",
+        "value": 348238,
+        "confidence": "medium",
         "data_points": 8
       },
       {
         "year": 5,
-        "value": 329592,
+        "value": 334707,
         "confidence": "medium",
-        "data_points": 12
+        "data_points": 10
       },
       {
         "year": 6,
-        "value": 303224,
-        "confidence": "adjusted",
+        "value": 311457,
+        "confidence": "medium",
         "data_points": 8
       },
       {
         "year": 7,
-        "value": 266863,
+        "value": 308620,
         "confidence": "medium",
         "data_points": 4
       },
       {
         "year": 8,
-        "value": 234839,
+        "value": 271585,
         "confidence": "estimated",
         "data_points": 0
       }

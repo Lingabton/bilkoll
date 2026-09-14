@@ -1,6 +1,6 @@
 {
   "model_id": "peugeot-2008-pt",
-  "calculated_at": "2026-09-07T14:27:44.453865+00:00",
+  "calculated_at": "2026-09-14T14:53:30.001039+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 221997,
-    "monthly_cost": 4625,
-    "cost_per_mil": 37,
+    "total_cost": 226275,
+    "monthly_cost": 4714,
+    "cost_per_mil": 38,
     "breakdown": {
-      "depreciation": 106132,
+      "depreciation": 110410,
       "fuel": 61050,
       "tax": 18525,
       "insurance": {
@@ -33,9 +33,9 @@
       },
       {
         "year": 1,
-        "value": 259888,
+        "value": 241707,
         "confidence": "medium",
-        "data_points": 6
+        "data_points": 8
       },
       {
         "year": 2,
@@ -45,13 +45,13 @@
       },
       {
         "year": 3,
-        "value": 199857,
+        "value": 195207,
         "confidence": "medium",
         "data_points": 5
       },
       {
         "year": 4,
-        "value": 183868,
+        "value": 179590,
         "confidence": "adjusted",
         "data_points": 2
       },
@@ -63,19 +63,19 @@
       },
       {
         "year": 6,
-        "value": 149258,
-        "confidence": "adjusted",
+        "value": 157821,
+        "confidence": "medium",
         "data_points": 2
       },
       {
         "year": 7,
-        "value": 137317,
+        "value": 138882,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 126331,
+        "value": 122216,
         "confidence": "estimated",
         "data_points": 0
       }

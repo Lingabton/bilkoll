@@ -1,6 +1,6 @@
 {
   "model_id": "ford-kuga-phev",
-  "calculated_at": "2026-09-07T14:27:44.449982+00:00",
+  "calculated_at": "2026-09-14T14:53:29.993316+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 388309,
-    "monthly_cost": 8090,
+    "total_cost": 387694,
+    "monthly_cost": 8077,
     "cost_per_mil": 65,
     "breakdown": {
-      "depreciation": 266593,
+      "depreciation": 265978,
       "fuel": 72150,
       "tax": 3376,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 435891,
-        "confidence": "medium",
-        "data_points": 2
+        "value": 459080,
+        "confidence": "adjusted",
+        "data_points": 1
       },
       {
         "year": 2,
-        "value": 409060,
+        "value": 446307,
         "confidence": "medium",
         "data_points": 4
       },
       {
         "year": 3,
-        "value": 255657,
+        "value": 253285,
         "confidence": "medium",
-        "data_points": 5
+        "data_points": 6
       },
       {
         "year": 4,
-        "value": 232407,
-        "confidence": "medium",
-        "data_points": 9
-      },
-      {
-        "year": 5,
-        "value": 218457,
-        "confidence": "medium",
+        "value": 233022,
+        "confidence": "adjusted",
         "data_points": 8
       },
       {
+        "year": 5,
+        "value": 214380,
+        "confidence": "adjusted",
+        "data_points": 6
+      },
+      {
         "year": 6,
-        "value": 200980,
+        "value": 197229,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 7,
-        "value": 184901,
+        "value": 181450,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 170108,
+        "value": 166934,
         "confidence": "estimated",
         "data_points": 0
       }

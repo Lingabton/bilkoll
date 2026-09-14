@@ -1,6 +1,6 @@
 {
   "model_id": "kia-ceed-sw",
-  "calculated_at": "2026-09-07T14:27:44.451757+00:00",
+  "calculated_at": "2026-09-14T14:53:29.996727+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 257082,
-    "monthly_cost": 5356,
-    "cost_per_mil": 43,
+    "total_cost": 261686,
+    "monthly_cost": 5452,
+    "cost_per_mil": 44,
     "breakdown": {
-      "depreciation": 126558,
+      "depreciation": 131162,
       "fuel": 72150,
       "tax": 23584,
       "insurance": {
@@ -33,55 +33,55 @@
       },
       {
         "year": 1,
-        "value": 260214,
+        "value": 264957,
         "confidence": "medium",
         "data_points": 1
       },
       {
         "year": 2,
-        "value": 255192,
-        "confidence": "medium",
+        "value": 243760,
+        "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 3,
-        "value": 250588,
-        "confidence": "medium",
+        "value": 224259,
+        "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 4,
-        "value": 213342,
+        "value": 208738,
         "confidence": "medium",
         "data_points": 2
       },
       {
         "year": 5,
-        "value": 201856,
-        "confidence": "medium",
+        "value": 192038,
+        "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 6,
-        "value": 162564,
+        "value": 185070,
         "confidence": "medium",
         "data_points": 1
       },
       {
         "year": 7,
-        "value": 125038,
+        "value": 134338,
         "confidence": "medium",
         "data_points": 2
       },
       {
         "year": 8,
-        "value": 115034,
-        "confidence": "adjusted",
+        "value": 83607,
+        "confidence": "medium",
         "data_points": 2
       },
       {
         "year": 9,
-        "value": 105831,
+        "value": 73574,
         "confidence": "estimated",
         "data_points": 0
       }

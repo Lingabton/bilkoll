@@ -1,17 +1,19 @@
 {
   "model_id": "skoda-kodiaq-tsi",
-  "scraped_at": "2026-09-07T11:47:26.794106+00:00",
+  "scraped_at": "2026-09-14T12:12:47.404881+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 455607,
-      "count": 4,
-      "total_on_page": 50,
+      "median_price": 445377,
+      "count": 6,
+      "total_on_page": 53,
       "price_type": "estimated_transaction",
-      "min_price": 418035,
-      "max_price": 506757
+      "p5_price": 409107,
+      "p95_price": 474207,
+      "min_price": 409107,
+      "max_price": 474207
     },
     "2024": {
       "median_price": 333777,
@@ -20,45 +22,45 @@
       "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 344007,
+      "median_price": 383485,
       "count": 2,
-      "total_on_page": 7,
+      "total_on_page": 10,
       "price_type": "estimated_transaction"
     },
     "2022": {
       "median_price": 334521,
       "count": 2,
-      "total_on_page": 12,
+      "total_on_page": 10,
       "price_type": "estimated_transaction"
     },
     "2021": {
-      "median_price": 290485,
+      "median_price": 316060,
       "count": 2,
       "total_on_page": 6,
       "price_type": "estimated_transaction"
     },
     "2020": {
-      "median_price": 324570,
-      "count": 1,
-      "total_on_page": 8,
+      "median_price": 320338,
+      "count": 2,
+      "total_on_page": 9,
       "price_type": "estimated_transaction"
     },
     "2019": {
-      "median_price": 344007,
-      "count": 2,
-      "total_on_page": 12,
-      "price_type": "estimated_transaction"
-    },
-    "2018": {
-      "median_price": 212970,
+      "median_price": 371907,
       "count": 1,
       "total_on_page": 14,
       "price_type": "estimated_transaction"
     },
-    "2017": {
-      "median_price": 236638,
+    "2018": {
+      "median_price": 180838,
       "count": 2,
-      "total_on_page": 9,
+      "total_on_page": 18,
+      "price_type": "estimated_transaction"
+    },
+    "2017": {
+      "median_price": 251007,
+      "count": 1,
+      "total_on_page": 11,
       "price_type": "estimated_transaction"
     }
   },

@@ -1,6 +1,6 @@
 {
   "model_id": "hyundai-ioniq5-lr",
-  "calculated_at": "2026-09-07T14:27:44.445646+00:00",
+  "calculated_at": "2026-09-14T14:53:29.984910+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 457913,
-    "monthly_cost": 9540,
-    "cost_per_mil": 76,
+    "total_cost": 427735,
+    "monthly_cost": 8911,
+    "cost_per_mil": 71,
     "breakdown": {
-      "depreciation": 368443,
+      "depreciation": 338265,
       "fuel": 19440,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 566788,
+        "value": 575670,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 1
       },
       {
         "year": 2,
-        "value": 521444,
+        "value": 529616,
         "confidence": "adjusted",
-        "data_points": 2
+        "data_points": 1
       },
       {
         "year": 3,
         "value": 404457,
         "confidence": "medium",
-        "data_points": 4
+        "data_points": 2
       },
       {
         "year": 4,
-        "value": 311457,
+        "value": 341635,
         "confidence": "medium",
         "data_points": 2
       },
       {
         "year": 5,
-        "value": 274082,
+        "value": 300638,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 241192,
+        "value": 264562,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 212249,
+        "value": 232814,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 186779,
+        "value": 204876,
         "confidence": "estimated",
         "data_points": 0
       }

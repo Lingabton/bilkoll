@@ -1,52 +1,49 @@
 {
   "model_id": "audi-a3-35tfsi",
-  "scraped_at": "2026-09-07T13:33:38.812393+00:00",
+  "scraped_at": "2026-09-14T13:58:07.387513+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 292857,
-      "count": 1,
-      "total_on_page": 21,
-      "price_type": "estimated_transaction",
-      "median_mileage_mil": 20250
+      "median_price": 337078,
+      "count": 2,
+      "total_on_page": 13,
+      "price_type": "estimated_transaction"
     },
     "2024": {
-      "median_price": 250588,
-      "count": 2,
-      "total_on_page": 19,
-      "price_type": "estimated_transaction"
-    },
-    "2023": {
-      "median_price": 237615,
-      "count": 12,
-      "total_on_page": 140,
-      "price_type": "estimated_transaction",
-      "p5_price": 213807,
-      "p95_price": 278907,
-      "min_price": 213807,
-      "max_price": 278907
-    },
-    "2022": {
-      "median_price": 318432,
-      "count": 2,
-      "total_on_page": 22,
-      "price_type": "estimated_transaction"
-    },
-    "2021": {
-      "median_price": 245938,
+      "median_price": 255192,
       "count": 2,
       "total_on_page": 16,
       "price_type": "estimated_transaction"
     },
-    "2020": {
-      "median_price": 194370,
-      "count": 3,
-      "total_on_page": 26,
+    "2023": {
+      "median_price": 233895,
+      "count": 12,
+      "total_on_page": 138,
       "price_type": "estimated_transaction",
-      "min_price": 171957,
-      "max_price": 203670
+      "p5_price": 217620,
+      "p95_price": 269607,
+      "min_price": 217620,
+      "max_price": 269607
+    },
+    "2022": {
+      "median_price": 269607,
+      "count": 1,
+      "total_on_page": 14,
+      "price_type": "estimated_transaction"
+    },
+    "2021": {
+      "median_price": 269700,
+      "count": 1,
+      "total_on_page": 14,
+      "price_type": "estimated_transaction"
+    },
+    "2020": {
+      "median_price": 167307,
+      "count": 1,
+      "total_on_page": 8,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {

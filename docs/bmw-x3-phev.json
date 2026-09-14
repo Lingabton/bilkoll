@@ -1,6 +1,6 @@
 {
   "model_id": "bmw-x3-phev",
-  "calculated_at": "2026-09-07T14:27:44.456667+00:00",
+  "calculated_at": "2026-09-14T14:53:30.005795+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 301036,
-    "monthly_cost": 6272,
-    "cost_per_mil": 50,
+    "total_cost": 433040,
+    "monthly_cost": 9022,
+    "cost_per_mil": 72,
     "breakdown": {
-      "depreciation": 180226,
+      "depreciation": 312230,
       "fuel": 66600,
       "tax": 4520,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 603291,
+        "value": 632307,
         "confidence": "medium",
-        "data_points": 9
+        "data_points": 10
       },
       {
         "year": 2,
-        "value": 555027,
-        "confidence": "adjusted",
-        "data_points": 4
+        "value": 436170,
+        "confidence": "medium",
+        "data_points": 1
       },
       {
         "year": 3,
-        "value": 510624,
+        "value": 383829,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 469774,
+        "value": 337770,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 432192,
+        "value": 297237,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 397616,
+        "value": 261569,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 365806,
+        "value": 230180,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 356249,
+        "value": 202559,
         "confidence": "estimated",
         "data_points": 0
       }

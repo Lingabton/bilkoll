@@ -1,6 +1,6 @@
 {
   "model_id": "skoda-octavia-tdi",
-  "scraped_at": "2026-09-07T11:28:01.247706+00:00",
+  "scraped_at": "2026-09-14T11:53:30.710787+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -18,25 +18,25 @@
       "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 225432,
+      "median_price": 276628,
       "count": 2,
-      "total_on_page": 12,
+      "total_on_page": 16,
       "price_type": "estimated_transaction"
     },
     "2022": {
-      "median_price": 278070,
+      "median_price": 274257,
       "count": 1,
       "total_on_page": 21,
       "price_type": "estimated_transaction"
     },
     "2021": {
-      "median_price": 162750,
-      "count": 2,
-      "total_on_page": 10,
+      "median_price": 138570,
+      "count": 1,
+      "total_on_page": 8,
       "price_type": "estimated_transaction"
     },
     "2020": {
-      "median_price": 161820,
+      "median_price": 199438,
       "count": 2,
       "total_on_page": 6,
       "price_type": "estimated_transaction"

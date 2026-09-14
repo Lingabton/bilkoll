@@ -1,6 +1,6 @@
 {
   "model_id": "dacia-jogger-tce",
-  "calculated_at": "2026-09-07T14:27:44.443790+00:00",
+  "calculated_at": "2026-09-14T14:53:29.982414+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 250437,
-    "monthly_cost": 5217,
-    "cost_per_mil": 42,
+    "total_cost": 260202,
+    "monthly_cost": 5421,
+    "cost_per_mil": 43,
     "breakdown": {
-      "depreciation": 125797,
+      "depreciation": 135562,
       "fuel": 68820,
       "tax": 22330,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 248308,
-        "confidence": "adjusted",
-        "data_points": 2
-      },
-      {
-        "year": 2,
-        "value": 228443,
-        "confidence": "adjusted",
-        "data_points": 1
-      },
-      {
-        "year": 3,
-        "value": 167307,
+        "value": 250914,
         "confidence": "medium",
         "data_points": 1
       },
       {
+        "year": 2,
+        "value": 230840,
+        "confidence": "adjusted",
+        "data_points": 2
+      },
+      {
+        "year": 3,
+        "value": 213481,
+        "confidence": "medium",
+        "data_points": 2
+      },
+      {
         "year": 4,
-        "value": 144103,
+        "value": 134338,
         "confidence": "medium",
         "data_points": 2
       },
       {
         "year": 5,
-        "value": 126810,
+        "value": 118217,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 111593,
+        "value": 104031,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 98202,
+        "value": 91547,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 86417,
+        "value": 80561,
         "confidence": "estimated",
         "data_points": 0
       }

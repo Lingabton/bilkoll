@@ -1,39 +1,41 @@
 {
   "model_id": "kia-ev9-rwd",
-  "scraped_at": "2026-09-07T14:00:36.524165+00:00",
+  "scraped_at": "2026-09-14T14:25:55.220537+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 759717,
+      "median_price": 743907,
       "count": 8,
-      "total_on_page": 95,
+      "total_on_page": 92,
       "price_type": "estimated_transaction",
-      "p5_price": 734607,
-      "p95_price": 846207,
-      "min_price": 734607,
-      "max_price": 846207,
+      "p5_price": 691239,
+      "p95_price": 923397,
+      "min_price": 691239,
+      "max_price": 923397,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 737490,
-      "count": 2,
-      "total_on_page": 23,
+      "median_price": 816447,
+      "count": 3,
+      "total_on_page": 26,
       "price_type": "estimated_transaction",
-      "median_mileage_mil": 20241
+      "min_price": 762507,
+      "max_price": 917911,
+      "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 590278,
-      "count": 1,
-      "total_on_page": 21,
+      "median_price": 676392,
+      "count": 2,
+      "total_on_page": 20,
       "price_type": "estimated_transaction",
-      "median_mileage_mil": 20231
+      "median_mileage_mil": 20230
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 1,
+    "is_monotonic": false,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

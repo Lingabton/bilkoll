@@ -1,6 +1,6 @@
 {
   "model_id": "dacia-duster-hybrid",
-  "calculated_at": "2026-09-07T14:27:44.457479+00:00",
+  "calculated_at": "2026-09-14T14:53:30.006914+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 222364,
-    "monthly_cost": 4633,
-    "cost_per_mil": 37,
+    "total_cost": 229673,
+    "monthly_cost": 4785,
+    "cost_per_mil": 38,
     "breakdown": {
-      "depreciation": 117235,
+      "depreciation": 124544,
       "fuel": 55500,
       "tax": 17839,
       "insurance": {
@@ -39,43 +39,43 @@
       },
       {
         "year": 2,
-        "value": 222967,
+        "value": 213528,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 1
       },
       {
         "year": 3,
-        "value": 196210,
+        "value": 187904,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 172665,
+        "value": 165356,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 151945,
+        "value": 145513,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 133712,
+        "value": 128051,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 117666,
+        "value": 112685,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 103546,
+        "value": 99163,
         "confidence": "estimated",
         "data_points": 0
       }

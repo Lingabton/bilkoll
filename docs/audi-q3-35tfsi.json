@@ -1,6 +1,6 @@
 {
   "model_id": "audi-q3-35tfsi",
-  "calculated_at": "2026-09-07T14:27:44.456470+00:00",
+  "calculated_at": "2026-09-14T14:53:30.005529+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 317997,
-    "monthly_cost": 6625,
-    "cost_per_mil": 53,
+    "total_cost": 313300,
+    "monthly_cost": 6527,
+    "cost_per_mil": 52,
     "breakdown": {
-      "depreciation": 170577,
+      "depreciation": 165880,
       "fuel": 68820,
       "tax": 26510,
       "insurance": {
@@ -33,55 +33,55 @@
       },
       {
         "year": 1,
-        "value": 371907,
+        "value": 355678,
         "confidence": "medium",
         "data_points": 4
       },
       {
         "year": 2,
-        "value": 296205,
+        "value": 331638,
         "confidence": "medium",
         "data_points": 2
       },
       {
         "year": 3,
-        "value": 272508,
-        "confidence": "adjusted",
-        "data_points": 4
+        "value": 264864,
+        "confidence": "medium",
+        "data_points": 3
       },
       {
         "year": 4,
-        "value": 259423,
+        "value": 264120,
         "confidence": "medium",
         "data_points": 2
       },
       {
         "year": 5,
-        "value": 238669,
+        "value": 242990,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 6,
-        "value": 219575,
+        "value": 223550,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 7,
-        "value": 202009,
+        "value": 205666,
         "confidence": "adjusted",
-        "data_points": 1
+        "data_points": 2
       },
       {
         "year": 8,
-        "value": 185860,
-        "confidence": "medium",
+        "value": 189212,
+        "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 9,
-        "value": 163556,
+        "value": 183648,
         "confidence": "estimated",
         "data_points": 0
       }

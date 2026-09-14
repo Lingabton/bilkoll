@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc40-recharge",
-  "calculated_at": "2026-09-07T14:27:44.442601+00:00",
+  "calculated_at": "2026-09-14T14:53:29.980732+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 435486,
-    "monthly_cost": 9073,
-    "cost_per_mil": 73,
+    "total_cost": 368829,
+    "monthly_cost": 7684,
+    "cost_per_mil": 61,
     "breakdown": {
-      "depreciation": 373700,
+      "depreciation": 307043,
       "fuel": 22356,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 290490,
+        "value": 351830,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 2,
-        "value": 267250,
+        "value": 323683,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 3,
-        "value": 245870,
+        "value": 297788,
         "confidence": "adjusted",
-        "data_points": 10
+        "data_points": 8
       },
       {
         "year": 4,
-        "value": 226200,
-        "confidence": "adjusted",
-        "data_points": 4
+        "value": 292857,
+        "confidence": "medium",
+        "data_points": 2
       },
       {
         "year": 5,
-        "value": 208104,
-        "confidence": "adjusted",
+        "value": 278860,
+        "confidence": "medium",
         "data_points": 2
       },
       {
         "year": 6,
-        "value": 191455,
-        "confidence": "adjusted",
-        "data_points": 2
+        "value": 245396,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 7,
-        "value": 176138,
+        "value": 215949,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 162046,
+        "value": 190035,
         "confidence": "estimated",
         "data_points": 0
       }

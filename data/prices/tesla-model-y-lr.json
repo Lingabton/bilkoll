@@ -1,58 +1,58 @@
 {
   "model_id": "tesla-model-y-lr",
-  "scraped_at": "2026-09-07T10:28:20.429987+00:00",
+  "scraped_at": "2026-09-14T10:53:59.885941+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 539353,
-      "count": 2,
-      "total_on_page": 11,
+      "median_price": 464907,
+      "count": 1,
+      "total_on_page": 21,
       "price_type": "estimated_transaction"
     },
     "2024": {
-      "median_price": 437007,
-      "count": 5,
-      "total_on_page": 55,
+      "median_price": 422545,
+      "count": 6,
+      "total_on_page": 73,
       "price_type": "estimated_transaction",
-      "p5_price": 344007,
+      "p5_price": 380370,
       "p95_price": 604407,
-      "min_price": 344007,
+      "min_price": 380370,
       "max_price": 604407
     },
     "2023": {
-      "median_price": 357110,
+      "median_price": 353860,
       "count": 18,
-      "total_on_page": 184,
+      "total_on_page": 216,
       "price_type": "estimated_transaction",
-      "p5_price": 260307,
+      "p5_price": 254820,
       "p95_price": 623007,
-      "min_price": 260307,
+      "min_price": 254820,
       "max_price": 623007
     },
     "2022": {
-      "median_price": 376557,
+      "median_price": 369535,
       "count": 6,
-      "total_on_page": 63,
+      "total_on_page": 67,
       "price_type": "estimated_transaction",
-      "p5_price": 325407,
+      "p5_price": 259470,
       "p95_price": 609150,
-      "min_price": 325407,
+      "min_price": 259470,
       "max_price": 609150
     },
     "2021": {
-      "median_price": 327215,
-      "count": 4,
-      "total_on_page": 31,
+      "median_price": 302064,
+      "count": 3,
+      "total_on_page": 33,
       "price_type": "estimated_transaction",
       "min_price": 278907,
-      "max_price": 398970
+      "max_price": 334800
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 2,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

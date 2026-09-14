@@ -1,6 +1,6 @@
 {
   "model_id": "vw-id4-pro",
-  "calculated_at": "2026-09-07T14:27:44.442825+00:00",
+  "calculated_at": "2026-09-14T14:53:29.981004+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 272200,
-    "monthly_cost": 5671,
-    "cost_per_mil": 45,
+    "total_cost": 294613,
+    "monthly_cost": 6138,
+    "cost_per_mil": 49,
     "breakdown": {
-      "depreciation": 205130,
+      "depreciation": 227543,
       "fuel": 19440,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 487324,
-        "confidence": "adjusted",
-        "data_points": 2
+        "value": 511407,
+        "confidence": "medium",
+        "data_points": 3
       },
       {
         "year": 2,
-        "value": 448338,
-        "confidence": "adjusted",
-        "data_points": 3
+        "value": 469557,
+        "confidence": "medium",
+        "data_points": 4
       },
       {
         "year": 3,
-        "value": 362607,
+        "value": 316107,
         "confidence": "medium",
-        "data_points": 15
+        "data_points": 19
       },
       {
         "year": 4,
-        "value": 324570,
+        "value": 302157,
         "confidence": "medium",
-        "data_points": 5
+        "data_points": 6
       },
       {
         "year": 5,
-        "value": 297507,
-        "confidence": "medium",
-        "data_points": 3
+        "value": 277984,
+        "confidence": "adjusted",
+        "data_points": 4
       },
       {
         "year": 6,
-        "value": 261806,
+        "value": 255745,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 230389,
+        "value": 235285,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 202742,
+        "value": 234399,
         "confidence": "estimated",
         "data_points": 0
       }

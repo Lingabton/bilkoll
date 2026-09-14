@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-bz4x-fwd",
-  "calculated_at": "2026-09-07T14:27:44.449437+00:00",
+  "calculated_at": "2026-09-14T14:53:29.992144+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 222454,
-    "monthly_cost": 4634,
-    "cost_per_mil": 37,
+    "total_cost": 244228,
+    "monthly_cost": 5088,
+    "cost_per_mil": 41,
     "breakdown": {
-      "depreciation": 163800,
+      "depreciation": 185574,
       "fuel": 16524,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 474207,
-        "confidence": "medium",
-        "data_points": 4
-      },
-      {
-        "year": 2,
-        "value": 436270,
+        "value": 441508,
         "confidence": "adjusted",
-        "data_points": 1
-      },
-      {
-        "year": 3,
-        "value": 343588,
-        "confidence": "medium",
         "data_points": 6
       },
       {
-        "year": 4,
-        "value": 316100,
+        "year": 2,
+        "value": 406187,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
+        "year": 3,
+        "value": 319920,
+        "confidence": "medium",
+        "data_points": 4
+      },
+      {
+        "year": 4,
+        "value": 294326,
+        "confidence": "adjusted",
+        "data_points": 1
+      },
+      {
         "year": 5,
-        "value": 310746,
+        "value": 270779,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 273456,
+        "value": 249116,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 240642,
+        "value": 229186,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 211765,
+        "value": 222807,
         "confidence": "estimated",
         "data_points": 0
       }

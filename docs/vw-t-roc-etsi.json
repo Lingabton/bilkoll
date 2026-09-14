@@ -1,6 +1,6 @@
 {
   "model_id": "vw-t-roc-etsi",
-  "calculated_at": "2026-09-07T14:27:44.452323+00:00",
+  "calculated_at": "2026-09-14T14:53:29.997873+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 261601,
-    "monthly_cost": 5450,
-    "cost_per_mil": 44,
+    "total_cost": 299970,
+    "monthly_cost": 6249,
+    "cost_per_mil": 50,
     "breakdown": {
-      "depreciation": 128315,
+      "depreciation": 166684,
       "fuel": 68820,
       "tax": 21076,
       "insurance": {
@@ -33,55 +33,55 @@
       },
       {
         "year": 1,
-        "value": 341682,
+        "value": 297507,
         "confidence": "medium",
         "data_points": 4
       },
       {
         "year": 2,
-        "value": 288207,
-        "confidence": "medium",
-        "data_points": 3
+        "value": 273706,
+        "confidence": "adjusted",
+        "data_points": 4
       },
       {
         "year": 3,
-        "value": 239382,
+        "value": 213388,
         "confidence": "medium",
         "data_points": 16
       },
       {
         "year": 4,
-        "value": 234685,
-        "confidence": "medium",
-        "data_points": 6
-      },
-      {
-        "year": 5,
-        "value": 178932,
-        "confidence": "medium",
+        "value": 196316,
+        "confidence": "adjusted",
         "data_points": 4
       },
       {
+        "year": 5,
+        "value": 180610,
+        "confidence": "adjusted",
+        "data_points": 3
+      },
+      {
         "year": 6,
-        "value": 164617,
+        "value": 166161,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 7,
-        "value": 141685,
+        "value": 139407,
         "confidence": "medium",
-        "data_points": 4
+        "data_points": 1
       },
       {
         "year": 8,
-        "value": 130350,
+        "value": 128254,
         "confidence": "adjusted",
         "data_points": 4
       },
       {
         "year": 9,
-        "value": 119922,
+        "value": 117993,
         "confidence": "estimated",
         "data_points": 0
       }

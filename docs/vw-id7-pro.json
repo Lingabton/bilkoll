@@ -1,6 +1,6 @@
 {
   "model_id": "vw-id7-pro",
-  "calculated_at": "2026-09-07T14:27:44.446705+00:00",
+  "calculated_at": "2026-09-14T14:53:29.986520+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 184341,
-    "monthly_cost": 3840,
-    "cost_per_mil": 31,
+    "total_cost": 234655,
+    "monthly_cost": 4889,
+    "cost_per_mil": 39,
     "breakdown": {
-      "depreciation": 116987,
+      "depreciation": 167301,
       "fuel": 16524,
       "tax": 1440,
       "insurance": {
@@ -33,25 +33,25 @@
       },
       {
         "year": 1,
-        "value": 581110,
-        "confidence": "medium",
+        "value": 542708,
+        "confidence": "adjusted",
         "data_points": 4
       },
       {
         "year": 2,
-        "value": 534621,
+        "value": 499291,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
         "year": 3,
-        "value": 491851,
+        "value": 459347,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 472913,
+        "value": 422599,
         "confidence": "estimated",
         "data_points": 0
       },

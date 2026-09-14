@@ -1,6 +1,6 @@
 {
   "model_id": "ford-mustang-mach-e-rwd",
-  "scraped_at": "2026-09-07T11:51:58.299850+00:00",
+  "scraped_at": "2026-09-14T12:16:53.950939+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -8,48 +8,46 @@
     "2025": {
       "median_price": 671785,
       "count": 2,
-      "total_on_page": 16,
+      "total_on_page": 19,
       "price_type": "estimated_transaction",
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 634771,
-      "count": 2,
-      "total_on_page": 4,
-      "price_type": "estimated_transaction",
-      "median_mileage_mil": 20240
+      "median_price": 334707,
+      "count": 1,
+      "total_on_page": 1,
+      "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 604128,
-      "count": 1,
-      "total_on_page": 8,
+      "median_price": 473788,
+      "count": 2,
+      "total_on_page": 4,
       "price_type": "estimated_transaction",
       "median_mileage_mil": 20230
     },
     "2022": {
-      "median_price": 353307,
+      "median_price": 306807,
       "count": 5,
-      "total_on_page": 58,
+      "total_on_page": 61,
       "price_type": "estimated_transaction",
-      "p5_price": 302157,
-      "p95_price": 362607,
-      "min_price": 302157,
-      "max_price": 362607
+      "p5_price": 278907,
+      "p95_price": 585900,
+      "min_price": 278907,
+      "max_price": 585900
     },
     "2021": {
-      "median_price": 320245,
-      "count": 12,
-      "total_on_page": 131,
+      "median_price": 302198,
+      "count": 10,
+      "total_on_page": 107,
       "price_type": "estimated_transaction",
-      "p5_price": 246357,
-      "p95_price": 704754,
-      "min_price": 246357,
-      "max_price": 704754,
-      "median_mileage_mil": 20211
+      "p5_price": 278907,
+      "p95_price": 362607,
+      "min_price": 278907,
+      "max_price": 362607
     }
   },
   "validation": {
-    "is_monotonic": true,
+    "is_monotonic": false,
     "min_count_per_year": 1,
     "confidence": "low"
   }

@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-yaris-hybrid",
-  "calculated_at": "2026-09-07T14:27:44.447076+00:00",
+  "calculated_at": "2026-09-14T14:53:29.987316+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 164019,
-    "monthly_cost": 3417,
-    "cost_per_mil": 27,
+    "total_cost": 166344,
+    "monthly_cost": 3466,
+    "cost_per_mil": 28,
     "breakdown": {
-      "depreciation": 70743,
+      "depreciation": 73068,
       "fuel": 49950,
       "tax": 10636,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 256959,
+        "value": 241707,
         "confidence": "medium",
         "data_points": 16
       },
       {
         "year": 2,
-        "value": 236402,
+        "value": 222370,
         "confidence": "adjusted",
-        "data_points": 8
+        "data_points": 9
       },
       {
         "year": 3,
-        "value": 227757,
+        "value": 213760,
         "confidence": "medium",
-        "data_points": 16
+        "data_points": 12
       },
       {
         "year": 4,
-        "value": 209157,
+        "value": 206832,
         "confidence": "medium",
-        "data_points": 7
+        "data_points": 8
       },
       {
         "year": 5,
-        "value": 195207,
-        "confidence": "medium",
-        "data_points": 3
+        "value": 190285,
+        "confidence": "adjusted",
+        "data_points": 4
       },
       {
         "year": 6,
-        "value": 185070,
-        "confidence": "medium",
-        "data_points": 3
+        "value": 175062,
+        "confidence": "adjusted",
+        "data_points": 4
       },
       {
         "year": 7,
-        "value": 162861,
+        "value": 161057,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 143318,
+        "value": 154121,
         "confidence": "estimated",
         "data_points": 0
       }
