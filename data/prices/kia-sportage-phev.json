@@ -1,6 +1,6 @@
 {
   "model_id": "kia-sportage-phev",
-  "scraped_at": "2026-09-14T12:36:10.761332+00:00",
+  "scraped_at": "2026-09-21T12:44:35.539241+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -40,7 +40,7 @@
     "2022": {
       "median_price": 297507,
       "count": 10,
-      "total_on_page": 124,
+      "total_on_page": 120,
       "price_type": "estimated_transaction",
       "p5_price": 223107,
       "p95_price": 357120,

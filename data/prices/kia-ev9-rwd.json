@@ -1,13 +1,13 @@
 {
   "model_id": "kia-ev9-rwd",
-  "scraped_at": "2026-09-14T14:25:55.220537+00:00",
+  "scraped_at": "2026-09-21T14:34:21.964074+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
       "median_price": 743907,
-      "count": 8,
+      "count": 10,
       "total_on_page": 92,
       "price_type": "estimated_transaction",
       "p5_price": 691239,
@@ -28,7 +28,7 @@
     "2023": {
       "median_price": 676392,
       "count": 2,
-      "total_on_page": 20,
+      "total_on_page": 19,
       "price_type": "estimated_transaction",
       "median_mileage_mil": 20230
     }

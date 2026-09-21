@@ -1,25 +1,25 @@
 {
   "model_id": "volvo-v90-t6-phev",
-  "scraped_at": "2026-09-14T13:54:29.897350+00:00",
+  "scraped_at": "2026-09-21T14:03:26.750461+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 453282,
-      "count": 12,
-      "total_on_page": 144,
+      "median_price": 450538,
+      "count": 16,
+      "total_on_page": 177,
       "price_type": "estimated_transaction",
-      "p5_price": 418407,
+      "p5_price": 390135,
       "p95_price": 613149,
-      "min_price": 418407,
+      "min_price": 390135,
       "max_price": 613149,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 380830,
-      "count": 14,
-      "total_on_page": 153,
+      "median_price": 409107,
+      "count": 15,
+      "total_on_page": 180,
       "price_type": "estimated_transaction",
       "p5_price": 352470,
       "p95_price": 612870,
@@ -27,9 +27,9 @@
       "max_price": 612870
     },
     "2023": {
-      "median_price": 360096,
+      "median_price": 362235,
       "count": 16,
-      "total_on_page": 178,
+      "total_on_page": 186,
       "price_type": "estimated_transaction",
       "p5_price": 305040,
       "p95_price": 441750,
@@ -37,59 +37,59 @@
       "max_price": 441750
     },
     "2022": {
-      "median_price": 278907,
+      "median_price": 305970,
       "count": 9,
-      "total_on_page": 114,
+      "total_on_page": 120,
       "price_type": "estimated_transaction",
       "p5_price": 147870,
-      "p95_price": 376557,
+      "p95_price": 399807,
       "min_price": 147870,
-      "max_price": 376557
+      "max_price": 399807
     },
     "2021": {
-      "median_price": 322710,
+      "median_price": 285789,
       "count": 10,
-      "total_on_page": 106,
+      "total_on_page": 119,
       "price_type": "estimated_transaction",
       "p5_price": 162564,
-      "p95_price": 353307,
+      "p95_price": 357864,
       "min_price": 162564,
-      "max_price": 353307
+      "max_price": 357864
     },
     "2020": {
-      "median_price": 246357,
-      "count": 12,
-      "total_on_page": 150,
+      "median_price": 246403,
+      "count": 14,
+      "total_on_page": 152,
       "price_type": "estimated_transaction",
-      "p5_price": 114297,
-      "p95_price": 306807,
-      "min_price": 114297,
-      "max_price": 306807
+      "p5_price": 102300,
+      "p95_price": 311540,
+      "min_price": 102300,
+      "max_price": 311540
     },
     "2019": {
-      "median_price": 222456,
-      "count": 12,
-      "total_on_page": 149,
+      "median_price": 213342,
+      "count": 14,
+      "total_on_page": 167,
       "price_type": "estimated_transaction",
       "p5_price": 120899,
-      "p95_price": 278907,
+      "p95_price": 260307,
       "min_price": 120899,
-      "max_price": 278907
+      "max_price": 260307
     },
     "2018": {
-      "median_price": 195114,
-      "count": 17,
-      "total_on_page": 221,
+      "median_price": 185907,
+      "count": 19,
+      "total_on_page": 235,
       "price_type": "estimated_transaction",
-      "p5_price": 130200,
+      "p5_price": 76260,
       "p95_price": 267375,
-      "min_price": 130200,
+      "min_price": 76260,
       "max_price": 267375
     },
     "2017": {
-      "median_price": 173910,
+      "median_price": 197532,
       "count": 14,
-      "total_on_page": 156,
+      "total_on_page": 153,
       "price_type": "estimated_transaction",
       "p5_price": 125457,
       "p95_price": 278907,
@@ -97,17 +97,17 @@
       "max_price": 278907
     },
     "2016": {
-      "median_price": 232407,
-      "count": 3,
-      "total_on_page": 40,
+      "median_price": 217945,
+      "count": 4,
+      "total_on_page": 35,
       "price_type": "estimated_transaction",
-      "min_price": 212970,
-      "max_price": 274164
+      "min_price": 176607,
+      "max_price": 223107
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 3,
+    "min_count_per_year": 4,
     "confidence": "low"
   }
 }

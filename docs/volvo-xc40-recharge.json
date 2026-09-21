@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc40-recharge",
-  "calculated_at": "2026-09-14T14:53:29.980732+00:00",
+  "calculated_at": "2026-09-21T15:01:53.410720+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 368829,
-    "monthly_cost": 7684,
-    "cost_per_mil": 61,
+    "total_cost": 397567,
+    "monthly_cost": 8283,
+    "cost_per_mil": 66,
     "breakdown": {
-      "depreciation": 307043,
+      "depreciation": 335781,
       "fuel": 22356,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 351830,
+        "value": 339185,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 2,
-        "value": 323683,
+        "value": 312050,
         "confidence": "adjusted",
-        "data_points": 2
+        "data_points": 4
       },
       {
         "year": 3,
-        "value": 297788,
+        "value": 287086,
         "confidence": "adjusted",
         "data_points": 8
       },
       {
         "year": 4,
-        "value": 292857,
-        "confidence": "medium",
-        "data_points": 2
+        "value": 264119,
+        "confidence": "adjusted",
+        "data_points": 4
       },
       {
         "year": 5,
-        "value": 278860,
-        "confidence": "medium",
-        "data_points": 2
+        "value": 242989,
+        "confidence": "adjusted",
+        "data_points": 4
       },
       {
         "year": 6,
-        "value": 245396,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 223549,
+        "confidence": "adjusted",
+        "data_points": 2
       },
       {
         "year": 7,
-        "value": 215949,
+        "value": 205665,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 190035,
+        "value": 189211,
         "confidence": "estimated",
         "data_points": 0
       }

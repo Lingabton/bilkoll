@@ -1,6 +1,6 @@
 {
   "model_id": "vw-id3-pro",
-  "calculated_at": "2026-09-14T14:53:29.983554+00:00",
+  "calculated_at": "2026-09-21T15:01:53.413549+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -45,7 +45,7 @@
       },
       {
         "year": 3,
-        "value": 320338,
+        "value": 313177,
         "confidence": "medium",
         "data_points": 4
       },

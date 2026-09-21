@@ -1,6 +1,6 @@
 {
   "model_id": "mazda-cx5-mhev",
-  "calculated_at": "2026-09-14T14:53:29.993699+00:00",
+  "calculated_at": "2026-09-21T15:01:53.424805+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -65,7 +65,7 @@
         "year": 6,
         "value": 225856,
         "confidence": "adjusted",
-        "data_points": 1
+        "data_points": 2
       },
       {
         "year": 7,

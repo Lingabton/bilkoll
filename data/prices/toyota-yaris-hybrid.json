@@ -1,71 +1,73 @@
 {
   "model_id": "toyota-yaris-hybrid",
-  "scraped_at": "2026-09-14T12:03:34.171595+00:00",
+  "scraped_at": "2026-09-21T12:12:15.099709+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
       "median_price": 241707,
-      "count": 16,
-      "total_on_page": 194,
+      "count": 20,
+      "total_on_page": 274,
       "price_type": "estimated_transaction",
-      "p5_price": 213807,
-      "p95_price": 315270,
-      "min_price": 213807,
-      "max_price": 315270,
+      "p5_price": 209157,
+      "p95_price": 339357,
+      "min_price": 209064,
+      "max_price": 339357,
       "median_mileage_mil": 20252
     },
     "2024": {
-      "median_price": 264957,
-      "count": 9,
-      "total_on_page": 116,
+      "median_price": 269607,
+      "count": 12,
+      "total_on_page": 139,
       "price_type": "estimated_transaction",
-      "p5_price": 199020,
-      "p95_price": 460350,
-      "min_price": 199020,
-      "max_price": 460350
+      "p5_price": 199950,
+      "p95_price": 497364,
+      "min_price": 199950,
+      "max_price": 497364
     },
     "2023": {
-      "median_price": 213760,
-      "count": 12,
-      "total_on_page": 151,
+      "median_price": 211482,
+      "count": 14,
+      "total_on_page": 167,
       "price_type": "estimated_transaction",
-      "p5_price": 129177,
+      "p5_price": 185907,
       "p95_price": 292857,
-      "min_price": 129177,
+      "min_price": 185907,
       "max_price": 292857
     },
     "2022": {
-      "median_price": 206832,
+      "median_price": 241614,
       "count": 8,
-      "total_on_page": 87,
+      "total_on_page": 96,
       "price_type": "estimated_transaction",
-      "p5_price": 158007,
+      "p5_price": 185070,
       "p95_price": 371070,
-      "min_price": 158007,
+      "min_price": 185070,
       "max_price": 371070
     },
     "2021": {
-      "median_price": 225013,
-      "count": 4,
-      "total_on_page": 40,
+      "median_price": 348750,
+      "count": 6,
+      "total_on_page": 45,
       "price_type": "estimated_transaction",
-      "min_price": 213807,
-      "max_price": 348750
+      "p5_price": 138384,
+      "p95_price": 417570,
+      "min_price": 138384,
+      "max_price": 417570
     },
     "2020": {
-      "median_price": 199020,
-      "count": 4,
-      "total_on_page": 40,
+      "median_price": 195207,
+      "count": 3,
+      "total_on_page": 43,
       "price_type": "estimated_transaction",
-      "min_price": 51150,
-      "max_price": 483507
+      "min_price": 176514,
+      "max_price": 195207
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 4,
+    "min_count_per_year": 3,
     "confidence": "low"
   }
 }

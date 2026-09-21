@@ -1,13 +1,13 @@
 {
   "model_id": "volvo-xc40-b3",
-  "scraped_at": "2026-09-14T12:27:26.674905+00:00",
+  "scraped_at": "2026-09-21T12:35:57.810329+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 364513,
-      "count": 8,
+      "median_price": 373813,
+      "count": 10,
       "total_on_page": 93,
       "price_type": "estimated_transaction",
       "p5_price": 306900,
@@ -17,10 +17,12 @@
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 355632,
-      "count": 2,
+      "median_price": 371814,
+      "count": 4,
       "total_on_page": 17,
-      "price_type": "estimated_transaction"
+      "price_type": "estimated_transaction",
+      "min_price": 339450,
+      "max_price": 371814
     },
     "2023": {
       "median_price": 327732,
@@ -51,7 +53,7 @@
       "max_price": 333870
     },
     "2020": {
-      "median_price": 269514,
+      "median_price": 241800,
       "count": 5,
       "total_on_page": 55,
       "price_type": "estimated_transaction",
@@ -61,10 +63,12 @@
       "max_price": 316107
     },
     "2019": {
-      "median_price": 242032,
-      "count": 2,
+      "median_price": 246682,
+      "count": 4,
       "total_on_page": 24,
-      "price_type": "estimated_transaction"
+      "price_type": "estimated_transaction",
+      "min_price": 218550,
+      "max_price": 265515
     },
     "2018": {
       "median_price": 306156,
@@ -77,7 +81,7 @@
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 2,
+    "min_count_per_year": 4,
     "confidence": "low"
   }
 }
