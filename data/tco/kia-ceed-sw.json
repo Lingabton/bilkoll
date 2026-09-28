@@ -1,6 +1,6 @@
 {
   "model_id": "kia-ceed-sw",
-  "calculated_at": "2026-09-21T15:01:53.428312+00:00",
+  "calculated_at": "2026-09-28T15:01:51.401717+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 261686,
-    "monthly_cost": 5452,
-    "cost_per_mil": 44,
+    "total_cost": 285832,
+    "monthly_cost": 5955,
+    "cost_per_mil": 48,
     "breakdown": {
-      "depreciation": 131162,
+      "depreciation": 155308,
       "fuel": 72150,
       "tax": 23584,
       "insurance": {
@@ -33,55 +33,55 @@
       },
       {
         "year": 1,
-        "value": 264957,
+        "value": 237057,
         "confidence": "medium",
         "data_points": 1
       },
       {
         "year": 2,
-        "value": 243760,
+        "value": 218092,
         "confidence": "adjusted",
-        "data_points": 2
+        "data_points": 22
       },
       {
         "year": 3,
-        "value": 224259,
+        "value": 200644,
         "confidence": "adjusted",
-        "data_points": 2
+        "data_points": 16
       },
       {
         "year": 4,
-        "value": 208738,
-        "confidence": "medium",
-        "data_points": 2
+        "value": 184592,
+        "confidence": "adjusted",
+        "data_points": 15
       },
       {
         "year": 5,
-        "value": 192038,
+        "value": 169824,
         "confidence": "adjusted",
-        "data_points": 1
+        "data_points": 12
       },
       {
         "year": 6,
-        "value": 185070,
-        "confidence": "medium",
-        "data_points": 1
+        "value": 156238,
+        "confidence": "adjusted",
+        "data_points": 12
       },
       {
         "year": 7,
-        "value": 134338,
+        "value": 143638,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 18
       },
       {
         "year": 8,
-        "value": 83607,
+        "value": 132385,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 28
       },
       {
         "year": 9,
-        "value": 73574,
+        "value": 116498,
         "confidence": "estimated",
         "data_points": 0
       }

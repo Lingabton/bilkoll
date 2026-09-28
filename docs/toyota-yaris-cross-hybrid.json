@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-yaris-cross-hybrid",
-  "calculated_at": "2026-09-21T15:01:53.413805+00:00",
+  "calculated_at": "2026-09-28T15:01:51.387051+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 275525,
-    "monthly_cost": 5740,
-    "cost_per_mil": 46,
+    "total_cost": 228783,
+    "monthly_cost": 4766,
+    "cost_per_mil": 38,
     "breakdown": {
-      "depreciation": 167935,
+      "depreciation": 121193,
       "fuel": 57720,
       "tax": 13380,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 330057,
+        "value": 297507,
+        "confidence": "medium",
+        "data_points": 54
+      },
+      {
+        "year": 2,
+        "value": 288207,
+        "confidence": "medium",
+        "data_points": 17
+      },
+      {
+        "year": 3,
+        "value": 246264,
+        "confidence": "medium",
+        "data_points": 45
+      },
+      {
+        "year": 4,
+        "value": 232407,
+        "confidence": "medium",
+        "data_points": 22
+      },
+      {
+        "year": 5,
+        "value": 223153,
         "confidence": "medium",
         "data_points": 6
       },
       {
-        "year": 2,
-        "value": 311038,
-        "confidence": "medium",
-        "data_points": 2
-      },
-      {
-        "year": 3,
-        "value": 201810,
-        "confidence": "medium",
-        "data_points": 4
-      },
-      {
-        "year": 4,
-        "value": 185665,
-        "confidence": "adjusted",
-        "data_points": 1
-      },
-      {
-        "year": 5,
-        "value": 170811,
-        "confidence": "adjusted",
-        "data_points": 1
-      },
-      {
         "year": 6,
-        "value": 157146,
+        "value": 196374,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 144574,
+        "value": 172809,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 133008,
+        "value": 152072,
         "confidence": "estimated",
         "data_points": 0
       }

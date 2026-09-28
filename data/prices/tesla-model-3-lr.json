@@ -1,72 +1,84 @@
 {
   "model_id": "tesla-model-3-lr",
-  "scraped_at": "2026-09-21T10:54:42.883861+00:00",
+  "scraped_at": "2026-09-28T11:53:16.640817+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 420360,
-      "count": 2,
-      "total_on_page": 3,
-      "price_type": "estimated_transaction"
+      "median_price": 426777,
+      "count": 8,
+      "total_on_page": 8,
+      "price_type": "estimated_transaction",
+      "p5_price": 398784,
+      "p95_price": 511314,
+      "min_price": 398784,
+      "max_price": 511314
     },
     "2024": {
-      "median_price": 511407,
-      "count": 4,
-      "total_on_page": 27,
+      "median_price": 426307,
+      "count": 38,
+      "total_on_page": 38,
       "price_type": "estimated_transaction",
-      "min_price": 353307,
+      "p5_price": 352842,
+      "p95_price": 528230,
+      "min_price": 321770,
       "max_price": 604314
     },
     "2023": {
-      "median_price": 320199,
-      "count": 6,
-      "total_on_page": 47,
+      "median_price": 315828,
+      "count": 49,
+      "total_on_page": 49,
       "price_type": "estimated_transaction",
-      "p5_price": 306807,
-      "p95_price": 478475,
-      "min_price": 306807,
+      "p5_price": 260214,
+      "p95_price": 371070,
+      "min_price": 232500,
       "max_price": 478475
     },
     "2022": {
-      "median_price": 316107,
-      "count": 3,
+      "median_price": 294949,
+      "count": 30,
       "total_on_page": 30,
       "price_type": "estimated_transaction",
-      "min_price": 278721,
-      "max_price": 325035
+      "p5_price": 250635,
+      "p95_price": 334790,
+      "min_price": 232500,
+      "max_price": 340370
     },
     "2021": {
-      "median_price": 306807,
-      "count": 5,
-      "total_on_page": 55,
+      "median_price": 278070,
+      "count": 53,
+      "total_on_page": 53,
       "price_type": "estimated_transaction",
-      "p5_price": 232035,
-      "p95_price": 650907,
-      "min_price": 232035,
+      "p5_price": 209250,
+      "p95_price": 371907,
+      "min_price": 203670,
       "max_price": 650907
     },
     "2020": {
-      "median_price": 232407,
-      "count": 3,
-      "total_on_page": 46,
+      "median_price": 227664,
+      "count": 45,
+      "total_on_page": 45,
       "price_type": "estimated_transaction",
-      "min_price": 185070,
+      "p5_price": 175677,
+      "p95_price": 325407,
+      "min_price": 156240,
       "max_price": 398970
     },
     "2019": {
-      "median_price": 267328,
-      "count": 4,
-      "total_on_page": 40,
+      "median_price": 213714,
+      "count": 50,
+      "total_on_page": 50,
       "price_type": "estimated_transaction",
-      "min_price": 185907,
+      "p5_price": 181071,
+      "p95_price": 279000,
+      "min_price": 138570,
       "max_price": 348657
     }
   },
   "validation": {
-    "is_monotonic": false,
-    "min_count_per_year": 2,
+    "is_monotonic": true,
+    "min_count_per_year": 8,
     "confidence": "low"
   }
 }

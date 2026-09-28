@@ -1,6 +1,6 @@
 {
   "model_id": "suzuki-s-cross-hybrid",
-  "calculated_at": "2026-09-21T15:01:53.425325+00:00",
+  "calculated_at": "2026-09-28T15:01:51.398940+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 207332,
-    "monthly_cost": 4319,
-    "cost_per_mil": 35,
+    "total_cost": 234643,
+    "monthly_cost": 4888,
+    "cost_per_mil": 39,
     "breakdown": {
-      "depreciation": 85996,
+      "depreciation": 113307,
       "fuel": 64380,
       "tax": 23166,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 345332,
+        "value": 310258,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 2,
-        "value": 317705,
+        "value": 285437,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 3,
-        "value": 292288,
+        "value": 262602,
         "confidence": "adjusted",
-        "data_points": 1
+        "data_points": 8
       },
       {
         "year": 4,
-        "value": 268904,
+        "value": 241593,
         "confidence": "adjusted",
-        "data_points": 2
+        "data_points": 5
       },
       {
         "year": 5,
-        "value": 247391,
+        "value": 222265,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 227599,
+        "value": 204483,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 209391,
+        "value": 188124,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 192639,
+        "value": 173074,
         "confidence": "estimated",
         "data_points": 0
       }

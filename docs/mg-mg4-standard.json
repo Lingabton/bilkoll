@@ -1,6 +1,6 @@
 {
   "model_id": "mg-mg4-standard",
-  "calculated_at": "2026-09-21T15:01:53.422667+00:00",
+  "calculated_at": "2026-09-28T15:01:51.396410+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 162790,
-    "monthly_cost": 3391,
-    "cost_per_mil": 27,
+    "total_cost": 181162,
+    "monthly_cost": 3774,
+    "cost_per_mil": 30,
     "breakdown": {
-      "depreciation": 109836,
+      "depreciation": 128208,
       "fuel": 16524,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 237010,
+        "value": 241614,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 3
       },
       {
         "year": 2,
-        "value": 218049,
+        "value": 222284,
         "confidence": "adjusted",
-        "data_points": 2
+        "data_points": 1
       },
       {
         "year": 3,
-        "value": 216085,
+        "value": 195207,
         "confidence": "medium",
-        "data_points": 4
+        "data_points": 36
       },
       {
         "year": 4,
-        "value": 190154,
+        "value": 171782,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 167336,
+        "value": 151168,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 147255,
+        "value": 133028,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 129585,
+        "value": 117064,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 114034,
+        "value": 103016,
         "confidence": "estimated",
         "data_points": 0
       }

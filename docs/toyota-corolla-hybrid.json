@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-corolla-hybrid",
-  "calculated_at": "2026-09-21T15:01:53.411830+00:00",
+  "calculated_at": "2026-09-28T15:01:51.384105+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 181616,
-    "monthly_cost": 3784,
-    "cost_per_mil": 30,
+    "total_cost": 204820,
+    "monthly_cost": 4267,
+    "cost_per_mil": 34,
     "breakdown": {
-      "depreciation": 76218,
+      "depreciation": 99422,
       "fuel": 55500,
       "tax": 12008,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 306807,
+        "value": 294810,
         "confidence": "medium",
-        "data_points": 8
+        "data_points": 70
       },
       {
         "year": 2,
-        "value": 282262,
-        "confidence": "adjusted",
-        "data_points": 6
+        "value": 274257,
+        "confidence": "medium",
+        "data_points": 71
       },
       {
         "year": 3,
-        "value": 264957,
+        "value": 255657,
         "confidence": "medium",
-        "data_points": 5
+        "data_points": 51
       },
       {
         "year": 4,
-        "value": 248682,
+        "value": 225478,
         "confidence": "medium",
-        "data_points": 4
+        "data_points": 38
       },
       {
         "year": 5,
-        "value": 234732,
+        "value": 222270,
         "confidence": "medium",
-        "data_points": 4
+        "data_points": 40
       },
       {
         "year": 6,
-        "value": 215953,
-        "confidence": "adjusted",
-        "data_points": 4
+        "value": 204507,
+        "confidence": "medium",
+        "data_points": 29
       },
       {
         "year": 7,
-        "value": 203670,
+        "value": 194370,
         "confidence": "medium",
-        "data_points": 5
+        "data_points": 45
       },
       {
         "year": 8,
-        "value": 179229,
+        "value": 171045,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "medium",
   "data_quality_notes": []
 }

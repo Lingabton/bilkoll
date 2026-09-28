@@ -1,6 +1,6 @@
 {
   "model_id": "tesla-model-y-lr",
-  "calculated_at": "2026-09-21T15:01:53.410424+00:00",
+  "calculated_at": "2026-09-28T15:01:51.382018+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 418709,
-    "monthly_cost": 8723,
-    "cost_per_mil": 70,
+    "total_cost": 393278,
+    "monthly_cost": 8193,
+    "cost_per_mil": 66,
     "breakdown": {
-      "depreciation": 324439,
+      "depreciation": 299008,
       "fuel": 19440,
       "tax": 1440,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 464907,
+        "value": 589150,
         "confidence": "medium",
-        "data_points": 1
+        "data_points": 22
       },
       {
         "year": 2,
-        "value": 436542,
+        "value": 418407,
         "confidence": "medium",
-        "data_points": 8
+        "data_points": 82
       },
       {
         "year": 3,
-        "value": 353860,
+        "value": 352470,
         "confidence": "medium",
-        "data_points": 18
+        "data_points": 222
       },
       {
         "year": 4,
-        "value": 325551,
-        "confidence": "adjusted",
-        "data_points": 6
+        "value": 350982,
+        "confidence": "medium",
+        "data_points": 64
       },
       {
         "year": 5,
-        "value": 302064,
+        "value": 306900,
         "confidence": "medium",
-        "data_points": 3
+        "data_points": 31
       },
       {
         "year": 6,
-        "value": 265816,
+        "value": 270072,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 233918,
+        "value": 237663,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 205848,
+        "value": 209143,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "medium",
   "data_quality_notes": []
 }

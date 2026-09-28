@@ -1,6 +1,6 @@
 {
   "model_id": "lexus-nx-350h",
-  "calculated_at": "2026-09-21T15:01:53.440330+00:00",
+  "calculated_at": "2026-09-28T15:01:51.413195+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 240233,
-    "monthly_cost": 5005,
-    "cost_per_mil": 40,
+    "total_cost": 252230,
+    "monthly_cost": 5255,
+    "cost_per_mil": 42,
     "breakdown": {
-      "depreciation": 93233,
+      "depreciation": 105230,
       "fuel": 66600,
       "tax": 26510,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 543538,
+        "value": 529170,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 15
       },
       {
         "year": 2,
-        "value": 495132,
+        "value": 499782,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 10
       },
       {
         "year": 3,
-        "value": 473742,
+        "value": 474114,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 13
       },
       {
         "year": 4,
-        "value": 466767,
+        "value": 454770,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 11
       },
       {
         "year": 5,
-        "value": 410754,
+        "value": 400197,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 361464,
+        "value": 352173,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 318088,
+        "value": 309913,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 279918,
+        "value": 272723,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "medium",
   "data_quality_notes": []
 }

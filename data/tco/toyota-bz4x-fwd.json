@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-bz4x-fwd",
-  "calculated_at": "2026-09-21T15:01:53.423107+00:00",
+  "calculated_at": "2026-09-28T15:01:51.396808+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 244228,
-    "monthly_cost": 5088,
-    "cost_per_mil": 41,
+    "total_cost": 239180,
+    "monthly_cost": 4983,
+    "cost_per_mil": 40,
     "breakdown": {
-      "depreciation": 185574,
+      "depreciation": 180526,
       "fuel": 16524,
       "tax": 1440,
       "insurance": {
@@ -35,52 +35,52 @@
         "year": 1,
         "value": 441508,
         "confidence": "adjusted",
-        "data_points": 6
+        "data_points": 66
       },
       {
         "year": 2,
-        "value": 406187,
-        "confidence": "adjusted",
-        "data_points": 2
+        "value": 406410,
+        "confidence": "medium",
+        "data_points": 18
       },
       {
         "year": 3,
-        "value": 319920,
+        "value": 325407,
         "confidence": "medium",
-        "data_points": 4
+        "data_points": 37
       },
       {
         "year": 4,
-        "value": 294326,
+        "value": 299374,
         "confidence": "adjusted",
-        "data_points": 1
+        "data_points": 10
       },
       {
         "year": 5,
-        "value": 270779,
+        "value": 294542,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 249116,
+        "value": 259197,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 229186,
+        "value": 228093,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 222807,
+        "value": 200722,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "medium",
   "data_quality_notes": []
 }

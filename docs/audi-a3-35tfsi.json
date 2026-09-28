@@ -1,6 +1,6 @@
 {
   "model_id": "audi-a3-35tfsi",
-  "calculated_at": "2026-09-21T15:01:53.432039+00:00",
+  "calculated_at": "2026-09-28T15:01:51.405155+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 309755,
-    "monthly_cost": 6453,
-    "cost_per_mil": 52,
+    "total_cost": 292531,
+    "monthly_cost": 6094,
+    "cost_per_mil": 49,
     "breakdown": {
-      "depreciation": 178817,
+      "depreciation": 161593,
       "fuel": 64380,
       "tax": 18868,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 337078,
+        "value": 283185,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 17
       },
       {
         "year": 2,
-        "value": 255657,
+        "value": 254820,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 13
       },
       {
         "year": 3,
-        "value": 233895,
+        "value": 236220,
+        "confidence": "medium",
+        "data_points": 134
+      },
+      {
+        "year": 4,
+        "value": 232407,
+        "confidence": "medium",
+        "data_points": 15
+      },
+      {
+        "year": 5,
+        "value": 216132,
         "confidence": "medium",
         "data_points": 12
       },
       {
-        "year": 4,
-        "value": 215183,
-        "confidence": "adjusted",
-        "data_points": 1
-      },
-      {
-        "year": 5,
-        "value": 197968,
-        "confidence": "adjusted",
-        "data_points": 1
-      },
-      {
         "year": 6,
-        "value": 167307,
+        "value": 183954,
         "confidence": "medium",
-        "data_points": 1
+        "data_points": 13
       },
       {
         "year": 7,
-        "value": 147230,
+        "value": 161879,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 129562,
+        "value": 142453,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "medium",
   "data_quality_notes": []
 }

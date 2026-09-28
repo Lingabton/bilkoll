@@ -1,6 +1,6 @@
 {
   "model_id": "mazda-cx5-mhev",
-  "calculated_at": "2026-09-21T15:01:53.424805+00:00",
+  "calculated_at": "2026-09-28T15:01:51.398468+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -35,7 +35,7 @@
         "year": 1,
         "value": 340308,
         "confidence": "adjusted",
-        "data_points": 2
+        "data_points": 5
       },
       {
         "year": 2,
@@ -47,7 +47,7 @@
         "year": 3,
         "value": 290048,
         "confidence": "adjusted",
-        "data_points": 1
+        "data_points": 3
       },
       {
         "year": 4,
@@ -59,35 +59,35 @@
         "year": 5,
         "value": 245496,
         "confidence": "adjusted",
-        "data_points": 1
+        "data_points": 4
       },
       {
         "year": 6,
         "value": 225856,
         "confidence": "adjusted",
-        "data_points": 2
+        "data_points": 5
       },
       {
         "year": 7,
         "value": 207787,
         "confidence": "adjusted",
-        "data_points": 2
+        "data_points": 15
       },
       {
         "year": 8,
-        "value": 191164,
-        "confidence": "adjusted",
-        "data_points": 2
+        "value": 204507,
+        "confidence": "medium",
+        "data_points": 22
       },
       {
         "year": 9,
-        "value": 175870,
-        "confidence": "adjusted",
-        "data_points": 1
+        "value": 181164,
+        "confidence": "medium",
+        "data_points": 11
       },
       {
         "year": 10,
-        "value": 161800,
+        "value": 159424,
         "confidence": "estimated",
         "data_points": 0
       }

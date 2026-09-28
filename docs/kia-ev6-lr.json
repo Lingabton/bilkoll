@@ -1,6 +1,6 @@
 {
   "model_id": "kia-ev6-lr",
-  "calculated_at": "2026-09-21T15:01:53.411340+00:00",
+  "calculated_at": "2026-09-28T15:01:51.383317+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 290260,
-    "monthly_cost": 6047,
-    "cost_per_mil": 48,
+    "total_cost": 332528,
+    "monthly_cost": 6928,
+    "cost_per_mil": 55,
     "breakdown": {
-      "depreciation": 229562,
+      "depreciation": 271830,
       "fuel": 18468,
       "tax": 1440,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 557488,
+        "value": 554652,
         "confidence": "medium",
-        "data_points": 6
+        "data_points": 77
       },
       {
         "year": 2,
-        "value": 540655,
+        "value": 478857,
         "confidence": "medium",
-        "data_points": 4
+        "data_points": 36
       },
       {
         "year": 3,
-        "value": 381114,
+        "value": 371070,
         "confidence": "medium",
-        "data_points": 9
+        "data_points": 103
       },
       {
         "year": 4,
-        "value": 366838,
+        "value": 324570,
         "confidence": "medium",
-        "data_points": 6
+        "data_points": 62
       },
       {
         "year": 5,
-        "value": 322817,
+        "value": 285621,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 284079,
+        "value": 251347,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 249989,
+        "value": 221185,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 219991,
+        "value": 194643,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "medium",
   "data_quality_notes": []
 }

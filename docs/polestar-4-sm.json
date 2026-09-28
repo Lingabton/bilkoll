@@ -1,6 +1,6 @@
 {
   "model_id": "polestar-4-sm",
-  "calculated_at": "2026-09-21T15:01:53.423541+00:00",
+  "calculated_at": "2026-09-28T15:01:51.397196+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 397506,
-    "monthly_cost": 8281,
-    "cost_per_mil": 66,
+    "total_cost": 443958,
+    "monthly_cost": 9249,
+    "cost_per_mil": 74,
     "breakdown": {
-      "depreciation": 318308,
+      "depreciation": 364760,
       "fuel": 18468,
       "tax": 1440,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 562557,
+        "value": 564463,
         "confidence": "medium",
-        "data_points": 6
+        "data_points": 82
       },
       {
         "year": 2,
-        "value": 517552,
-        "confidence": "adjusted",
-        "data_points": 4
+        "value": 543957,
+        "confidence": "medium",
+        "data_points": 44
       },
       {
         "year": 3,
-        "value": 476147,
+        "value": 478682,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 467692,
+        "value": 421240,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 411569,
+        "value": 370691,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 362181,
+        "value": 326208,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 318719,
+        "value": 287063,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 280473,
+        "value": 252615,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "medium",
   "data_quality_notes": []
 }

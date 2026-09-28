@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-v60-t6-phev",
-  "calculated_at": "2026-09-21T15:01:53.427868+00:00",
+  "calculated_at": "2026-09-28T15:01:51.401311+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 365807,
-    "monthly_cost": 7621,
-    "cost_per_mil": 61,
+    "total_cost": 391754,
+    "monthly_cost": 8162,
+    "cost_per_mil": 65,
     "breakdown": {
-      "depreciation": 233793,
+      "depreciation": 259740,
       "fuel": 77700,
       "tax": 3024,
       "insurance": {
@@ -33,60 +33,60 @@
       },
       {
         "year": 1,
-        "value": 446121,
+        "value": 418407,
         "confidence": "medium",
-        "data_points": 20
+        "data_points": 250
       },
       {
         "year": 2,
-        "value": 371023,
+        "value": 366792,
         "confidence": "medium",
-        "data_points": 16
+        "data_points": 230
       },
       {
         "year": 3,
-        "value": 350563,
+        "value": 334614,
         "confidence": "medium",
-        "data_points": 16
+        "data_points": 197
       },
       {
         "year": 4,
-        "value": 316107,
+        "value": 290160,
         "confidence": "medium",
-        "data_points": 17
+        "data_points": 219
       },
       {
         "year": 5,
-        "value": 269607,
+        "value": 271839,
         "confidence": "medium",
-        "data_points": 18
+        "data_points": 218
       },
       {
         "year": 6,
-        "value": 269607,
+        "value": 238033,
         "confidence": "medium",
-        "data_points": 20
+        "data_points": 250
       },
       {
         "year": 7,
-        "value": 227245,
+        "value": 222735,
         "confidence": "medium",
-        "data_points": 20
+        "data_points": 250
       },
       {
         "year": 8,
-        "value": 178513,
+        "value": 176235,
         "confidence": "medium",
-        "data_points": 16
+        "data_points": 167
       },
       {
         "year": 9,
-        "value": 157091,
+        "value": 155086,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "high",
   "data_quality_notes": []
 }

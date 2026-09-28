@@ -1,6 +1,6 @@
 {
   "model_id": "hyundai-kona-ev",
-  "calculated_at": "2026-09-21T15:01:53.413290+00:00",
+  "calculated_at": "2026-09-28T15:01:51.386245+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 280697,
-    "monthly_cost": 5848,
-    "cost_per_mil": 47,
+    "total_cost": 272327,
+    "monthly_cost": 5673,
+    "cost_per_mil": 45,
     "breakdown": {
-      "depreciation": 212843,
+      "depreciation": 204473,
       "fuel": 16524,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 413908,
-        "confidence": "adjusted",
-        "data_points": 2
+        "value": 390507,
+        "confidence": "medium",
+        "data_points": 15
       },
       {
         "year": 2,
-        "value": 260307,
+        "value": 327685,
         "confidence": "medium",
-        "data_points": 1
+        "data_points": 10
       },
       {
         "year": 3,
-        "value": 239482,
-        "confidence": "adjusted",
-        "data_points": 2
+        "value": 306342,
+        "confidence": "medium",
+        "data_points": 8
       },
       {
         "year": 4,
-        "value": 237057,
+        "value": 245427,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 10
       },
       {
         "year": 5,
-        "value": 202135,
+        "value": 223107,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 5
       },
       {
         "year": 6,
-        "value": 188139,
+        "value": 138942,
         "confidence": "medium",
         "data_points": 2
       },
       {
         "year": 7,
-        "value": 173087,
+        "value": 127826,
         "confidence": "adjusted",
-        "data_points": 2
+        "data_points": 1
       },
       {
         "year": 8,
-        "value": 159240,
+        "value": 117599,
         "confidence": "estimated",
         "data_points": 0
       }

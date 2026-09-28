@@ -1,51 +1,72 @@
 {
   "model_id": "hyundai-kona-ev",
-  "scraped_at": "2026-09-21T11:37:14.893108+00:00",
+  "scraped_at": "2026-09-28T12:24:55.417494+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 467232,
-      "count": 2,
-      "total_on_page": 17,
+      "median_price": 390507,
+      "count": 15,
+      "total_on_page": 15,
       "price_type": "estimated_transaction",
+      "p5_price": 348750,
+      "p95_price": 457932,
+      "min_price": 348750,
+      "max_price": 457932,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 260307,
-      "count": 1,
-      "total_on_page": 11,
-      "price_type": "estimated_transaction"
+      "median_price": 327685,
+      "count": 10,
+      "total_on_page": 10,
+      "price_type": "estimated_transaction",
+      "p5_price": 260307,
+      "p95_price": 362607,
+      "min_price": 260307,
+      "max_price": 362607,
+      "median_mileage_mil": 20241
     },
     "2023": {
-      "median_price": 374232,
-      "count": 2,
-      "total_on_page": 7,
-      "price_type": "estimated_transaction"
+      "median_price": 306342,
+      "count": 8,
+      "total_on_page": 8,
+      "price_type": "estimated_transaction",
+      "p5_price": 185907,
+      "p95_price": 404457,
+      "min_price": 185907,
+      "max_price": 404457
     },
     "2022": {
-      "median_price": 237057,
-      "count": 2,
-      "total_on_page": 9,
-      "price_type": "estimated_transaction"
+      "median_price": 245427,
+      "count": 10,
+      "total_on_page": 10,
+      "price_type": "estimated_transaction",
+      "p5_price": 177723,
+      "p95_price": 260307,
+      "min_price": 177723,
+      "max_price": 260307
     },
     "2021": {
-      "median_price": 202135,
-      "count": 2,
-      "total_on_page": 3,
-      "price_type": "estimated_transaction"
+      "median_price": 223107,
+      "count": 5,
+      "total_on_page": 5,
+      "price_type": "estimated_transaction",
+      "p5_price": 157914,
+      "p95_price": 246357,
+      "min_price": 157914,
+      "max_price": 246357
     },
     "2020": {
-      "median_price": 188139,
+      "median_price": 138942,
       "count": 2,
-      "total_on_page": 4,
+      "total_on_page": 2,
       "price_type": "estimated_transaction"
     },
     "2019": {
-      "median_price": 237057,
-      "count": 2,
-      "total_on_page": 3,
+      "median_price": 278907,
+      "count": 1,
+      "total_on_page": 1,
       "price_type": "estimated_transaction"
     }
   },

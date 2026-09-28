@@ -1,47 +1,55 @@
 {
   "model_id": "bmw-x1-sdrive18i",
-  "scraped_at": "2026-09-21T14:40:40.991725+00:00",
+  "scraped_at": "2026-09-28T14:47:02.014264+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 431938,
-      "count": 6,
-      "total_on_page": 57,
+      "median_price": 446307,
+      "count": 53,
+      "total_on_page": 53,
       "price_type": "estimated_transaction",
-      "p5_price": 371907,
-      "p95_price": 640770,
-      "min_price": 371907,
-      "max_price": 640770,
+      "p5_price": 371070,
+      "p95_price": 557907,
+      "min_price": 361770,
+      "max_price": 612870,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 440820,
-      "count": 2,
+      "median_price": 397482,
+      "count": 22,
       "total_on_page": 22,
-      "price_type": "estimated_transaction"
+      "price_type": "estimated_transaction",
+      "p5_price": 315270,
+      "p95_price": 464907,
+      "min_price": 306714,
+      "max_price": 491970
     },
     "2023": {
-      "median_price": 353214,
-      "count": 3,
-      "total_on_page": 33,
+      "median_price": 355120,
+      "count": 34,
+      "total_on_page": 34,
       "price_type": "estimated_transaction",
-      "min_price": 329871,
-      "max_price": 426870
+      "p5_price": 296670,
+      "p95_price": 426870,
+      "min_price": 288207,
+      "max_price": 427614
     },
     "2022": {
-      "median_price": 366792,
-      "count": 4,
-      "total_on_page": 37,
+      "median_price": 272392,
+      "count": 34,
+      "total_on_page": 34,
       "price_type": "estimated_transaction",
-      "min_price": 250077,
+      "p5_price": 223107,
+      "p95_price": 362514,
+      "min_price": 199857,
       "max_price": 382137
     }
   },
   "validation": {
-    "is_monotonic": false,
-    "min_count_per_year": 2,
-    "confidence": "low"
+    "is_monotonic": true,
+    "min_count_per_year": 22,
+    "confidence": "medium"
   }
 }

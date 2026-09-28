@@ -1,53 +1,71 @@
 {
   "model_id": "vw-id3-pro",
-  "scraped_at": "2026-09-21T11:39:56.368679+00:00",
+  "scraped_at": "2026-09-28T12:26:31.874707+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 499782,
-      "count": 2,
-      "total_on_page": 16,
+      "median_price": 343635,
+      "count": 19,
+      "total_on_page": 19,
       "price_type": "estimated_transaction",
+      "p5_price": 296670,
+      "p95_price": 553257,
+      "min_price": 296670,
+      "max_price": 553257,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 409107,
-      "count": 2,
-      "total_on_page": 12,
+      "median_price": 337032,
+      "count": 14,
+      "total_on_page": 14,
       "price_type": "estimated_transaction",
+      "p5_price": 232407,
+      "p95_price": 427800,
+      "min_price": 232407,
+      "max_price": 427800,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 313177,
-      "count": 4,
-      "total_on_page": 30,
+      "median_price": 278070,
+      "count": 38,
+      "total_on_page": 38,
       "price_type": "estimated_transaction",
-      "min_price": 288207,
+      "p5_price": 167307,
+      "p95_price": 361770,
+      "min_price": 124434,
       "max_price": 390507
     },
     "2022": {
-      "median_price": 276535,
-      "count": 2,
-      "total_on_page": 9,
-      "price_type": "estimated_transaction"
+      "median_price": 260307,
+      "count": 10,
+      "total_on_page": 10,
+      "price_type": "estimated_transaction",
+      "p5_price": 223014,
+      "p95_price": 292764,
+      "min_price": 223014,
+      "max_price": 292764
     },
     "2021": {
-      "median_price": 227245,
-      "count": 2,
-      "total_on_page": 17,
-      "price_type": "estimated_transaction"
+      "median_price": 204460,
+      "count": 18,
+      "total_on_page": 18,
+      "price_type": "estimated_transaction",
+      "p5_price": 139500,
+      "p95_price": 260400,
+      "min_price": 139500,
+      "max_price": 260400
     },
     "2020": {
-      "median_price": 204460,
+      "median_price": 208738,
       "count": 2,
-      "total_on_page": 3,
+      "total_on_page": 2,
       "price_type": "estimated_transaction"
     }
   },
   "validation": {
-    "is_monotonic": true,
+    "is_monotonic": false,
     "min_count_per_year": 2,
     "confidence": "low"
   }

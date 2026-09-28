@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-yaris-hybrid",
-  "calculated_at": "2026-09-21T15:01:53.417529+00:00",
+  "calculated_at": "2026-09-28T15:01:51.391671+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 178613,
-    "monthly_cost": 3721,
-    "cost_per_mil": 30,
+    "total_cost": 161229,
+    "monthly_cost": 3359,
+    "cost_per_mil": 27,
     "breakdown": {
-      "depreciation": 85337,
+      "depreciation": 67953,
       "fuel": 49950,
       "tax": 10636,
       "insurance": {
@@ -35,52 +35,52 @@
         "year": 1,
         "value": 241707,
         "confidence": "medium",
-        "data_points": 20
+        "data_points": 250
       },
       {
         "year": 2,
-        "value": 222370,
-        "confidence": "adjusted",
-        "data_points": 12
+        "value": 225432,
+        "confidence": "medium",
+        "data_points": 132
       },
       {
         "year": 3,
-        "value": 211482,
+        "value": 213760,
         "confidence": "medium",
-        "data_points": 14
+        "data_points": 166
       },
       {
         "year": 4,
-        "value": 194563,
-        "confidence": "adjusted",
-        "data_points": 8
+        "value": 211947,
+        "confidence": "medium",
+        "data_points": 99
       },
       {
         "year": 5,
-        "value": 178997,
-        "confidence": "adjusted",
-        "data_points": 6
+        "value": 194370,
+        "confidence": "medium",
+        "data_points": 47
       },
       {
         "year": 6,
-        "value": 164677,
-        "confidence": "adjusted",
-        "data_points": 3
+        "value": 162564,
+        "confidence": "medium",
+        "data_points": 43
       },
       {
         "year": 7,
-        "value": 151502,
+        "value": 143056,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 151168,
+        "value": 125889,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "medium",
   "data_quality_notes": []
 }

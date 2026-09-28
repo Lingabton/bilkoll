@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-ex90-twin",
-  "calculated_at": "2026-09-21T15:01:53.427432+00:00",
+  "calculated_at": "2026-09-28T15:01:51.400888+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 496802,
-    "monthly_cost": 10350,
-    "cost_per_mil": 83,
+    "total_cost": 510834,
+    "monthly_cost": 10642,
+    "cost_per_mil": 85,
     "breakdown": {
-      "depreciation": 410488,
+      "depreciation": 424520,
       "fuel": 21384,
       "tax": 1440,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 753207,
+        "value": 743907,
         "confidence": "medium",
-        "data_points": 10
+        "data_points": 101
       },
       {
         "year": 2,
-        "value": 692950,
-        "confidence": "adjusted",
-        "data_points": 4
+        "value": 739257,
+        "confidence": "medium",
+        "data_points": 33
       },
       {
         "year": 3,
-        "value": 637514,
+        "value": 650546,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 586512,
+        "value": 572480,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 570075,
+        "value": 503782,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 501666,
+        "value": 443328,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 441466,
+        "value": 390129,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 388490,
+        "value": 343313,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "medium",
   "data_quality_notes": []
 }

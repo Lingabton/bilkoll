@@ -1,49 +1,56 @@
 {
   "model_id": "bmw-i4-edrive40",
-  "scraped_at": "2026-09-21T13:06:31.363849+00:00",
+  "scraped_at": "2026-09-28T13:30:43.990748+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 617752,
-      "count": 4,
-      "total_on_page": 35,
+      "median_price": 603570,
+      "count": 25,
+      "total_on_page": 25,
       "price_type": "estimated_transaction",
-      "min_price": 529914,
-      "max_price": 650070
+      "p5_price": 519591,
+      "p95_price": 650070,
+      "min_price": 516057,
+      "max_price": 714612,
+      "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 473742,
-      "count": 6,
-      "total_on_page": 43,
+      "median_price": 422638,
+      "count": 54,
+      "total_on_page": 54,
       "price_type": "estimated_transaction",
-      "p5_price": 385857,
-      "p95_price": 567207,
-      "min_price": 385857,
+      "p5_price": 334707,
+      "p95_price": 557070,
+      "min_price": 306807,
       "max_price": 567207,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 427288,
-      "count": 6,
-      "total_on_page": 57,
+      "median_price": 408270,
+      "count": 55,
+      "total_on_page": 55,
       "price_type": "estimated_transaction",
-      "p5_price": 325314,
-      "p95_price": 483414,
-      "min_price": 325314,
-      "max_price": 483414
+      "p5_price": 329871,
+      "p95_price": 492807,
+      "min_price": 301971,
+      "max_price": 497457
     },
     "2022": {
-      "median_price": 416082,
-      "count": 2,
+      "median_price": 406400,
+      "count": 13,
       "total_on_page": 13,
-      "price_type": "estimated_transaction"
+      "price_type": "estimated_transaction",
+      "p5_price": 325407,
+      "p95_price": 483414,
+      "min_price": 325407,
+      "max_price": 483414
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 2,
-    "confidence": "low"
+    "min_count_per_year": 13,
+    "confidence": "medium"
   }
 }

@@ -1,54 +1,74 @@
 {
   "model_id": "audi-a3-35tfsi",
-  "scraped_at": "2026-09-21T14:07:00.125450+00:00",
+  "scraped_at": "2026-09-28T14:20:50.350761+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 337078,
-      "count": 2,
-      "total_on_page": 13,
-      "price_type": "estimated_transaction"
+      "median_price": 283185,
+      "count": 17,
+      "total_on_page": 17,
+      "price_type": "estimated_transaction",
+      "p5_price": 246357,
+      "p95_price": 361770,
+      "min_price": 246357,
+      "max_price": 361770
     },
     "2024": {
-      "median_price": 255657,
-      "count": 2,
-      "total_on_page": 15,
-      "price_type": "estimated_transaction"
+      "median_price": 254820,
+      "count": 13,
+      "total_on_page": 13,
+      "price_type": "estimated_transaction",
+      "p5_price": 240870,
+      "p95_price": 292950,
+      "min_price": 240870,
+      "max_price": 292950
     },
     "2023": {
-      "median_price": 233895,
-      "count": 12,
-      "total_on_page": 138,
+      "median_price": 236220,
+      "count": 134,
+      "total_on_page": 134,
       "price_type": "estimated_transaction",
-      "p5_price": 217620,
-      "p95_price": 269607,
-      "min_price": 217620,
-      "max_price": 269607
+      "p5_price": 203670,
+      "p95_price": 264120,
+      "min_price": 189720,
+      "max_price": 287370
     },
     "2022": {
-      "median_price": 269607,
-      "count": 1,
-      "total_on_page": 14,
-      "price_type": "estimated_transaction"
+      "median_price": 232407,
+      "count": 15,
+      "total_on_page": 15,
+      "price_type": "estimated_transaction",
+      "p5_price": 199485,
+      "p95_price": 311457,
+      "min_price": 199485,
+      "max_price": 311457
     },
     "2021": {
-      "median_price": 269700,
-      "count": 1,
-      "total_on_page": 14,
-      "price_type": "estimated_transaction"
+      "median_price": 216132,
+      "count": 12,
+      "total_on_page": 12,
+      "price_type": "estimated_transaction",
+      "p5_price": 170190,
+      "p95_price": 269700,
+      "min_price": 170190,
+      "max_price": 269700
     },
     "2020": {
-      "median_price": 167307,
-      "count": 1,
-      "total_on_page": 8,
-      "price_type": "estimated_transaction"
+      "median_price": 183954,
+      "count": 13,
+      "total_on_page": 13,
+      "price_type": "estimated_transaction",
+      "p5_price": 147870,
+      "p95_price": 218364,
+      "min_price": 147870,
+      "max_price": 218364
     }
   },
   "validation": {
-    "is_monotonic": false,
-    "min_count_per_year": 1,
-    "confidence": "low"
+    "is_monotonic": true,
+    "min_count_per_year": 12,
+    "confidence": "medium"
   }
 }

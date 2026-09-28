@@ -1,34 +1,36 @@
 {
   "model_id": "peugeot-3008-hybrid",
-  "scraped_at": "2026-09-21T14:29:49.837658+00:00",
+  "scraped_at": "2026-09-28T14:38:20.485716+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 353307,
-      "count": 8,
-      "total_on_page": 81,
+      "median_price": 325407,
+      "count": 87,
+      "total_on_page": 86,
       "price_type": "estimated_transaction",
-      "p5_price": 334707,
-      "p95_price": 445005,
-      "min_price": 334707,
-      "max_price": 445005,
+      "p5_price": 269607,
+      "p95_price": 397063,
+      "min_price": 260307,
+      "max_price": 446307,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 305784,
-      "count": 3,
-      "total_on_page": 45,
+      "median_price": 241660,
+      "count": 42,
+      "total_on_page": 42,
       "price_type": "estimated_transaction",
-      "min_price": 218457,
+      "p5_price": 213067,
+      "p95_price": 381114,
+      "min_price": 208417,
       "max_price": 399807,
       "median_mileage_mil": 20240
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 3,
-    "confidence": "low"
+    "min_count_per_year": 42,
+    "confidence": "medium"
   }
 }

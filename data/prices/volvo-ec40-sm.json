@@ -1,42 +1,40 @@
 {
   "model_id": "volvo-ec40-sm",
-  "scraped_at": "2026-09-21T13:30:28.620238+00:00",
+  "scraped_at": "2026-09-28T13:51:18.625084+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2024": {
-      "median_price": 343635,
-      "count": 1,
-      "total_on_page": 1,
+      "median_price": 352702,
+      "count": 2,
+      "total_on_page": 2,
       "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 320338,
-      "count": 6,
-      "total_on_page": 73,
+      "median_price": 325314,
+      "count": 63,
+      "total_on_page": 63,
       "price_type": "estimated_transaction",
-      "p5_price": 288207,
-      "p95_price": 344007,
-      "min_price": 288207,
-      "max_price": 344007
+      "p5_price": 264957,
+      "p95_price": 362235,
+      "min_price": 255657,
+      "max_price": 393380
     },
     "2022": {
-      "median_price": 353307,
-      "count": 1,
+      "median_price": 328150,
+      "count": 14,
       "total_on_page": 14,
-      "price_type": "estimated_transaction"
-    },
-    "2021": {
-      "median_price": 334614,
-      "count": 1,
-      "total_on_page": 1,
-      "price_type": "estimated_transaction"
+      "price_type": "estimated_transaction",
+      "p5_price": 278907,
+      "p95_price": 371907,
+      "min_price": 278907,
+      "max_price": 371907
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 1,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

@@ -1,36 +1,34 @@
 {
   "model_id": "mg-zs-ev-lr",
-  "scraped_at": "2026-09-21T15:00:49.269181+00:00",
+  "scraped_at": "2026-09-28T15:01:10.595101+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2023": {
-      "median_price": 262632,
-      "count": 2,
-      "total_on_page": 4,
-      "price_type": "estimated_transaction"
-    },
-    "2022": {
-      "median_price": 218457,
-      "count": 2,
-      "total_on_page": 13,
-      "price_type": "estimated_transaction"
+      "median_price": 241707,
+      "count": 5,
+      "total_on_page": 5,
+      "price_type": "estimated_transaction",
+      "p5_price": 233420,
+      "p95_price": 251007,
+      "min_price": 233420,
+      "max_price": 251007
     },
     "2021": {
       "median_price": 139407,
-      "count": 6,
-      "total_on_page": 75,
+      "count": 48,
+      "total_on_page": 48,
       "price_type": "estimated_transaction",
-      "p5_price": 139407,
-      "p95_price": 237057,
-      "min_price": 139407,
-      "max_price": 237057
+      "p5_price": 130107,
+      "p95_price": 204507,
+      "min_price": 130014,
+      "max_price": 227757
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 2,
+    "min_count_per_year": 5,
     "confidence": "low"
   }
 }

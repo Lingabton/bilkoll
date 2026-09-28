@@ -1,6 +1,6 @@
 {
   "model_id": "skoda-octavia-tdi",
-  "calculated_at": "2026-09-21T15:01:53.416143+00:00",
+  "calculated_at": "2026-09-28T15:01:51.390389+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 341855,
-    "monthly_cost": 7122,
+    "total_cost": 344928,
+    "monthly_cost": 7186,
     "cost_per_mil": 57,
     "breakdown": {
-      "depreciation": 205139,
+      "depreciation": 208212,
       "fuel": 61050,
       "tax": 22076,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 289927,
+        "value": 283185,
         "confidence": "medium",
-        "data_points": 2
+        "data_points": 1
       },
       {
         "year": 2,
-        "value": 266732,
+        "value": 260530,
         "confidence": "adjusted",
-        "data_points": 2
+        "data_points": 3
       },
       {
         "year": 3,
-        "value": 245393,
-        "confidence": "adjusted",
-        "data_points": 2
+        "value": 260307,
+        "confidence": "medium",
+        "data_points": 21
       },
       {
         "year": 4,
-        "value": 225761,
-        "confidence": "adjusted",
-        "data_points": 1
+        "value": 222688,
+        "confidence": "medium",
+        "data_points": 20
       },
       {
         "year": 5,
-        "value": 138570,
+        "value": 199392,
         "confidence": "medium",
-        "data_points": 1
+        "data_points": 10
       },
       {
         "year": 6,
-        "value": 127484,
-        "confidence": "adjusted",
-        "data_points": 2
+        "value": 195207,
+        "confidence": "medium",
+        "data_points": 8
       },
       {
         "year": 7,
-        "value": 117285,
+        "value": 171782,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 107902,
+        "value": 151168,
         "confidence": "estimated",
         "data_points": 0
       }
