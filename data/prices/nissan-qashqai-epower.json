@@ -1,56 +1,56 @@
 {
   "model_id": "nissan-qashqai-epower",
-  "scraped_at": "2026-09-28T14:51:16.767690+00:00",
+  "scraped_at": "2026-10-05T15:35:19.064116+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 306807,
-      "count": 87,
-      "total_on_page": 87,
+      "median_price": 305923,
+      "count": 84,
+      "total_on_page": 84,
       "price_type": "estimated_transaction",
-      "p5_price": 278907,
+      "p5_price": 269607,
       "p95_price": 360840,
-      "min_price": 269607,
+      "min_price": 260307,
       "max_price": 389019,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 285789,
-      "count": 70,
-      "total_on_page": 70,
+      "median_price": 278907,
+      "count": 67,
+      "total_on_page": 67,
       "price_type": "estimated_transaction",
       "p5_price": 240870,
-      "p95_price": 367536,
+      "p95_price": 361956,
       "min_price": 231477,
       "max_price": 431103,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 260307,
-      "count": 42,
-      "total_on_page": 41,
+      "median_price": 257517,
+      "count": 40,
+      "total_on_page": 40,
       "price_type": "estimated_transaction",
-      "p5_price": 204507,
-      "p95_price": 287370,
-      "min_price": 199857,
+      "p5_price": 199857,
+      "p95_price": 288207,
+      "min_price": 195207,
       "max_price": 297507
     },
     "2022": {
       "median_price": 232407,
-      "count": 37,
-      "total_on_page": 36,
+      "count": 32,
+      "total_on_page": 32,
       "price_type": "estimated_transaction",
-      "p5_price": 185907,
+      "p5_price": 204507,
       "p95_price": 268770,
-      "min_price": 185907,
+      "min_price": 181257,
       "max_price": 269607
     },
     "2021": {
-      "median_price": 185860,
-      "count": 30,
-      "total_on_page": 29,
+      "median_price": 188278,
+      "count": 28,
+      "total_on_page": 28,
       "price_type": "estimated_transaction",
       "p5_price": 147870,
       "p95_price": 268770,
@@ -60,7 +60,7 @@
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 30,
+    "min_count_per_year": 28,
     "confidence": "medium"
   }
 }

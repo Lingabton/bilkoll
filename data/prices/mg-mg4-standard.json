@@ -1,40 +1,40 @@
 {
   "model_id": "mg-mg4-standard",
-  "scraped_at": "2026-09-28T13:16:06.537727+00:00",
+  "scraped_at": "2026-10-05T13:56:49.677969+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 241614,
-      "count": 3,
-      "total_on_page": 3,
+      "median_price": 231849,
+      "count": 2,
+      "total_on_page": 2,
       "price_type": "estimated_transaction",
-      "min_price": 232314,
-      "max_price": 241707,
       "median_mileage_mil": 20252
     },
     "2024": {
       "median_price": 292950,
-      "count": 1,
-      "total_on_page": 1,
-      "price_type": "estimated_transaction"
+      "count": 3,
+      "total_on_page": 3,
+      "price_type": "estimated_transaction",
+      "min_price": 213807,
+      "max_price": 316190
     },
     "2023": {
       "median_price": 195207,
-      "count": 36,
-      "total_on_page": 36,
+      "count": 35,
+      "total_on_page": 35,
       "price_type": "estimated_transaction",
-      "p5_price": 176700,
+      "p5_price": 175760,
       "p95_price": 371990,
-      "min_price": 175760,
+      "min_price": 167307,
       "max_price": 371990,
       "median_mileage_mil": 20231
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 1,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

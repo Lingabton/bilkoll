@@ -1,14 +1,14 @@
 {
   "model_id": "peugeot-2008-pt",
-  "scraped_at": "2026-09-28T14:34:11.840709+00:00",
+  "scraped_at": "2026-10-05T15:18:05.343556+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
       "median_price": 241707,
-      "count": 85,
-      "total_on_page": 85,
+      "count": 95,
+      "total_on_page": 95,
       "price_type": "estimated_transaction",
       "p5_price": 204507,
       "p95_price": 260307,
@@ -18,8 +18,8 @@
     },
     "2024": {
       "median_price": 209157,
-      "count": 34,
-      "total_on_page": 34,
+      "count": 36,
+      "total_on_page": 36,
       "price_type": "estimated_transaction",
       "p5_price": 171957,
       "p95_price": 241707,
@@ -28,12 +28,12 @@
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 190464,
-      "count": 63,
-      "total_on_page": 63,
+      "median_price": 190371,
+      "count": 60,
+      "total_on_page": 60,
       "price_type": "estimated_transaction",
-      "p5_price": 175584,
-      "p95_price": 223107,
+      "p5_price": 171864,
+      "p95_price": 227757,
       "min_price": 158007,
       "max_price": 269607
     },
@@ -42,26 +42,26 @@
       "count": 22,
       "total_on_page": 22,
       "price_type": "estimated_transaction",
-      "p5_price": 132060,
+      "p5_price": 139407,
       "p95_price": 315177,
       "min_price": 125457,
       "max_price": 331540,
       "median_mileage_mil": 20220
     },
     "2021": {
-      "median_price": 161820,
+      "median_price": 167307,
       "count": 17,
       "total_on_page": 17,
       "price_type": "estimated_transaction",
       "p5_price": 139407,
-      "p95_price": 195207,
+      "p95_price": 176607,
       "min_price": 139407,
-      "max_price": 195207
+      "max_price": 176607
     },
     "2020": {
-      "median_price": 159448,
-      "count": 18,
-      "total_on_page": 18,
+      "median_price": 158007,
+      "count": 17,
+      "total_on_page": 17,
       "price_type": "estimated_transaction",
       "p5_price": 106950,
       "p95_price": 180517,

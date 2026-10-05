@@ -1,6 +1,6 @@
 {
   "model_id": "hyundai-kona-ev",
-  "calculated_at": "2026-09-28T15:01:51.386245+00:00",
+  "calculated_at": "2026-10-05T15:45:54.730144+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 272327,
-    "monthly_cost": 5673,
-    "cost_per_mil": 45,
+    "total_cost": 285394,
+    "monthly_cost": 5946,
+    "cost_per_mil": 48,
     "breakdown": {
-      "depreciation": 204473,
+      "depreciation": 217540,
       "fuel": 16524,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 390507,
+        "value": 392385,
         "confidence": "medium",
-        "data_points": 15
+        "data_points": 11
       },
       {
         "year": 2,
-        "value": 327685,
+        "value": 320664,
         "confidence": "medium",
-        "data_points": 10
+        "data_points": 11
       },
       {
         "year": 3,
-        "value": 306342,
+        "value": 305877,
         "confidence": "medium",
-        "data_points": 8
+        "data_points": 9
       },
       {
         "year": 4,
-        "value": 245427,
+        "value": 232360,
         "confidence": "medium",
-        "data_points": 10
+        "data_points": 4
       },
       {
         "year": 5,
-        "value": 223107,
-        "confidence": "medium",
+        "value": 213771,
+        "confidence": "adjusted",
         "data_points": 5
       },
       {
         "year": 6,
-        "value": 138942,
+        "value": 185814,
         "confidence": "medium",
-        "data_points": 2
-      },
-      {
-        "year": 7,
-        "value": 127826,
-        "confidence": "adjusted",
         "data_points": 1
       },
       {
+        "year": 7,
+        "value": 170948,
+        "confidence": "adjusted",
+        "data_points": 2
+      },
+      {
         "year": 8,
-        "value": 117599,
+        "value": 157272,
         "confidence": "estimated",
         "data_points": 0
       }

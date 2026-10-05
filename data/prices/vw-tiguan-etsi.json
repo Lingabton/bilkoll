@@ -1,14 +1,14 @@
 {
   "model_id": "vw-tiguan-etsi",
-  "scraped_at": "2026-09-28T12:53:47.331589+00:00",
+  "scraped_at": "2026-10-05T13:33:19.065883+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 341263,
-      "count": 10,
-      "total_on_page": 10,
+      "median_price": 343170,
+      "count": 12,
+      "total_on_page": 12,
       "price_type": "estimated_transaction",
       "p5_price": 330150,
       "p95_price": 492807,
@@ -17,39 +17,39 @@
     },
     "2024": {
       "median_price": 333777,
-      "count": 19,
-      "total_on_page": 19,
+      "count": 23,
+      "total_on_page": 23,
       "price_type": "estimated_transaction",
-      "p5_price": 297507,
-      "p95_price": 383346,
-      "min_price": 297507,
-      "max_price": 383346,
+      "p5_price": 292857,
+      "p95_price": 379626,
+      "min_price": 292764,
+      "max_price": 381114,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 290113,
-      "count": 18,
-      "total_on_page": 18,
+      "median_price": 280813,
+      "count": 20,
+      "total_on_page": 20,
       "price_type": "estimated_transaction",
-      "p5_price": 185814,
-      "p95_price": 370140,
+      "p5_price": 232407,
+      "p95_price": 363630,
       "min_price": 185814,
-      "max_price": 370140
+      "max_price": 363630
     },
     "2022": {
-      "median_price": 260307,
-      "count": 24,
-      "total_on_page": 24,
+      "median_price": 262585,
+      "count": 20,
+      "total_on_page": 20,
       "price_type": "estimated_transaction",
       "p5_price": 213807,
-      "p95_price": 278535,
+      "p95_price": 325407,
       "min_price": 209157,
-      "max_price": 316107
+      "max_price": 325407
     },
     "2021": {
-      "median_price": 232360,
-      "count": 12,
-      "total_on_page": 12,
+      "median_price": 241288,
+      "count": 14,
+      "total_on_page": 14,
       "price_type": "estimated_transaction",
       "p5_price": 204507,
       "p95_price": 390507,
@@ -58,58 +58,58 @@
     },
     "2020": {
       "median_price": 223107,
-      "count": 54,
-      "total_on_page": 54,
+      "count": 53,
+      "total_on_page": 53,
       "price_type": "estimated_transaction",
       "p5_price": 158007,
-      "p95_price": 269514,
+      "p95_price": 269607,
       "min_price": 139407,
-      "max_price": 316107
+      "max_price": 306807
     },
     "2019": {
-      "median_price": 222223,
-      "count": 24,
-      "total_on_page": 24,
+      "median_price": 222177,
+      "count": 27,
+      "total_on_page": 27,
       "price_type": "estimated_transaction",
       "p5_price": 144057,
-      "p95_price": 269607,
+      "p95_price": 288207,
       "min_price": 130107,
       "max_price": 297507
     },
     "2018": {
-      "median_price": 176607,
+      "median_price": 185070,
       "count": 56,
       "total_on_page": 56,
       "price_type": "estimated_transaction",
       "p5_price": 120807,
-      "p95_price": 213895,
+      "p95_price": 222270,
       "min_price": 111507,
       "max_price": 251007
     },
     "2017": {
-      "median_price": 176607,
-      "count": 23,
-      "total_on_page": 23,
+      "median_price": 171957,
+      "count": 27,
+      "total_on_page": 27,
       "price_type": "estimated_transaction",
       "p5_price": 125550,
       "p95_price": 213807,
-      "min_price": 116064,
+      "min_price": 110484,
       "max_price": 231570
     },
     "2016": {
-      "median_price": 166470,
-      "count": 9,
-      "total_on_page": 9,
+      "median_price": 165354,
+      "count": 11,
+      "total_on_page": 11,
       "price_type": "estimated_transaction",
-      "p5_price": 92070,
+      "p5_price": 90210,
       "p95_price": 209157,
-      "min_price": 92070,
+      "min_price": 90210,
       "max_price": 209157
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 9,
-    "confidence": "low"
+    "min_count_per_year": 11,
+    "confidence": "medium"
   }
 }

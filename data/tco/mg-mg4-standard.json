@@ -1,6 +1,6 @@
 {
   "model_id": "mg-mg4-standard",
-  "calculated_at": "2026-09-28T15:01:51.396410+00:00",
+  "calculated_at": "2026-10-05T15:45:54.737125+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,21 +33,21 @@
       },
       {
         "year": 1,
-        "value": 241614,
+        "value": 231849,
         "confidence": "medium",
-        "data_points": 3
+        "data_points": 2
       },
       {
         "year": 2,
-        "value": 222284,
+        "value": 213301,
         "confidence": "adjusted",
-        "data_points": 1
+        "data_points": 3
       },
       {
         "year": 3,
         "value": 195207,
         "confidence": "medium",
-        "data_points": 36
+        "data_points": 35
       },
       {
         "year": 4,

@@ -1,57 +1,57 @@
 {
   "model_id": "toyota-bz4x-fwd",
-  "scraped_at": "2026-09-28T13:17:39.398112+00:00",
+  "scraped_at": "2026-10-05T13:58:25.676191+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 483460,
-      "count": 66,
-      "total_on_page": 66,
+      "median_price": 478903,
+      "count": 72,
+      "total_on_page": 72,
       "price_type": "estimated_transaction",
       "p5_price": 399807,
-      "p95_price": 524334,
-      "min_price": 389670,
+      "p95_price": 529170,
+      "min_price": 385857,
       "max_price": 557070,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 406410,
-      "count": 18,
-      "total_on_page": 18,
+      "median_price": 408688,
+      "count": 16,
+      "total_on_page": 16,
       "price_type": "estimated_transaction",
-      "p5_price": 311457,
+      "p5_price": 325407,
       "p95_price": 511407,
-      "min_price": 311457,
+      "min_price": 325407,
       "max_price": 511407,
       "median_mileage_mil": 20241
     },
     "2023": {
       "median_price": 325407,
-      "count": 37,
-      "total_on_page": 37,
+      "count": 39,
+      "total_on_page": 39,
       "price_type": "estimated_transaction",
-      "p5_price": 279000,
-      "p95_price": 446307,
+      "p5_price": 288207,
+      "p95_price": 427707,
       "min_price": 278907,
-      "max_price": 626634,
+      "max_price": 446307,
       "median_mileage_mil": 20230
     },
     "2022": {
-      "median_price": 334707,
-      "count": 10,
-      "total_on_page": 10,
+      "median_price": 344007,
+      "count": 8,
+      "total_on_page": 8,
       "price_type": "estimated_transaction",
-      "p5_price": 323640,
+      "p5_price": 311550,
       "p95_price": 371070,
-      "min_price": 323640,
+      "min_price": 311550,
       "max_price": 371070
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 10,
-    "confidence": "medium"
+    "min_count_per_year": 8,
+    "confidence": "low"
   }
 }

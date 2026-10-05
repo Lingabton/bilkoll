@@ -1,6 +1,6 @@
 {
   "model_id": "nissan-leaf-52",
-  "calculated_at": "2026-09-28T15:01:51.389902+00:00",
+  "calculated_at": "2026-10-05T15:45:54.732701+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 431811,
-    "monthly_cost": 8996,
+    "total_cost": 433386,
+    "monthly_cost": 9029,
     "cost_per_mil": 72,
     "breakdown": {
-      "depreciation": 369085,
+      "depreciation": 370660,
       "fuel": 17496,
       "tax": 1440,
       "insurance": {
@@ -39,43 +39,43 @@
       },
       {
         "year": 2,
-        "value": 158100,
+        "value": 156240,
         "confidence": "medium",
         "data_points": 1
       },
       {
         "year": 3,
-        "value": 145452,
+        "value": 143740,
         "confidence": "adjusted",
-        "data_points": 53
+        "data_points": 57
       },
       {
         "year": 4,
-        "value": 133815,
+        "value": 132240,
         "confidence": "adjusted",
-        "data_points": 82
+        "data_points": 94
       },
       {
         "year": 5,
-        "value": 123109,
+        "value": 121660,
         "confidence": "adjusted",
         "data_points": 34
       },
       {
         "year": 6,
-        "value": 113260,
+        "value": 111927,
         "confidence": "adjusted",
-        "data_points": 10
+        "data_points": 8
       },
       {
         "year": 7,
-        "value": 104199,
+        "value": 102972,
         "confidence": "adjusted",
-        "data_points": 10
+        "data_points": 8
       },
       {
         "year": 8,
-        "value": 95863,
+        "value": 94734,
         "confidence": "estimated",
         "data_points": 0
       }

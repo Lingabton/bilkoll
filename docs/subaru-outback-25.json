@@ -1,6 +1,6 @@
 {
   "model_id": "subaru-outback-25",
-  "calculated_at": "2026-09-28T15:01:51.403391+00:00",
+  "calculated_at": "2026-10-05T15:45:54.742132+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 298468,
-    "monthly_cost": 6218,
+    "total_cost": 300607,
+    "monthly_cost": 6263,
     "cost_per_mil": 50,
     "breakdown": {
-      "depreciation": 111654,
+      "depreciation": 113793,
       "fuel": 95460,
       "tax": 48664,
       "insurance": {
@@ -35,47 +35,47 @@
         "year": 1,
         "value": 395508,
         "confidence": "adjusted",
-        "data_points": 118
+        "data_points": 111
       },
       {
         "year": 2,
         "value": 371907,
         "confidence": "medium",
-        "data_points": 31
-      },
-      {
-        "year": 3,
-        "value": 353307,
-        "confidence": "medium",
-        "data_points": 49
-      },
-      {
-        "year": 4,
-        "value": 318246,
-        "confidence": "medium",
-        "data_points": 44
-      },
-      {
-        "year": 5,
-        "value": 304947,
-        "confidence": "medium",
         "data_points": 29
       },
       {
+        "year": 3,
+        "value": 344007,
+        "confidence": "medium",
+        "data_points": 57
+      },
+      {
+        "year": 4,
+        "value": 316107,
+        "confidence": "medium",
+        "data_points": 41
+      },
+      {
+        "year": 5,
+        "value": 302157,
+        "confidence": "medium",
+        "data_points": 31
+      },
+      {
         "year": 6,
-        "value": 268353,
+        "value": 265898,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 236150,
+        "value": 233990,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 207812,
+        "value": 205911,
         "confidence": "estimated",
         "data_points": 0
       }

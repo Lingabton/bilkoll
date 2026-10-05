@@ -1,14 +1,14 @@
 {
   "model_id": "vw-id3-pro",
-  "scraped_at": "2026-09-28T12:26:31.874707+00:00",
+  "scraped_at": "2026-10-05T13:04:34.034763+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 343635,
-      "count": 19,
-      "total_on_page": 19,
+      "median_price": 334707,
+      "count": 16,
+      "total_on_page": 16,
       "price_type": "estimated_transaction",
       "p5_price": 296670,
       "p95_price": 553257,
@@ -17,9 +17,9 @@
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 337032,
-      "count": 14,
-      "total_on_page": 14,
+      "median_price": 333870,
+      "count": 15,
+      "total_on_page": 15,
       "price_type": "estimated_transaction",
       "p5_price": 232407,
       "p95_price": 427800,
@@ -29,8 +29,8 @@
     },
     "2023": {
       "median_price": 278070,
-      "count": 38,
-      "total_on_page": 38,
+      "count": 46,
+      "total_on_page": 46,
       "price_type": "estimated_transaction",
       "p5_price": 167307,
       "p95_price": 361770,
@@ -38,23 +38,23 @@
       "max_price": 390507
     },
     "2022": {
-      "median_price": 260307,
-      "count": 10,
-      "total_on_page": 10,
+      "median_price": 230035,
+      "count": 8,
+      "total_on_page": 8,
       "price_type": "estimated_transaction",
-      "p5_price": 223014,
-      "p95_price": 292764,
-      "min_price": 223014,
-      "max_price": 292764
+      "p5_price": 203670,
+      "p95_price": 339357,
+      "min_price": 203670,
+      "max_price": 339357
     },
     "2021": {
-      "median_price": 204460,
-      "count": 18,
-      "total_on_page": 18,
+      "median_price": 213342,
+      "count": 22,
+      "total_on_page": 22,
       "price_type": "estimated_transaction",
-      "p5_price": 139500,
-      "p95_price": 260400,
-      "min_price": 139500,
+      "p5_price": 176700,
+      "p95_price": 251007,
+      "min_price": 167307,
       "max_price": 260400
     },
     "2020": {
@@ -65,7 +65,7 @@
     }
   },
   "validation": {
-    "is_monotonic": false,
+    "is_monotonic": true,
     "min_count_per_year": 2,
     "confidence": "low"
   }

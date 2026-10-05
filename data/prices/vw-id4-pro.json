@@ -1,65 +1,65 @@
 {
   "model_id": "vw-id4-pro",
-  "scraped_at": "2026-09-28T12:04:02.347352+00:00",
+  "scraped_at": "2026-10-05T12:40:46.909077+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
       "median_price": 455607,
-      "count": 34,
-      "total_on_page": 34,
+      "count": 30,
+      "total_on_page": 30,
       "price_type": "estimated_transaction",
-      "p5_price": 437007,
+      "p5_price": 426870,
       "p95_price": 580227,
       "min_price": 418407,
       "max_price": 609801,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 408874,
-      "count": 40,
-      "total_on_page": 40,
+      "median_price": 404457,
+      "count": 47,
+      "total_on_page": 47,
       "price_type": "estimated_transaction",
-      "p5_price": 352470,
-      "p95_price": 492807,
-      "min_price": 334707,
+      "p5_price": 343914,
+      "p95_price": 474207,
+      "min_price": 325314,
       "max_price": 510570
     },
     "2023": {
-      "median_price": 325500,
-      "count": 219,
-      "total_on_page": 219,
+      "median_price": 325407,
+      "count": 249,
+      "total_on_page": 261,
       "price_type": "estimated_transaction",
-      "p5_price": 274257,
-      "p95_price": 396087,
-      "min_price": 150660,
+      "p5_price": 278721,
+      "p95_price": 394320,
+      "min_price": 260307,
       "max_price": 464814
     },
     "2022": {
-      "median_price": 316107,
-      "count": 59,
-      "total_on_page": 59,
+      "median_price": 316014,
+      "count": 70,
+      "total_on_page": 69,
       "price_type": "estimated_transaction",
-      "p5_price": 241707,
-      "p95_price": 362514,
+      "p5_price": 232407,
+      "p95_price": 357957,
       "min_price": 194370,
       "max_price": 380370
     },
     "2021": {
-      "median_price": 260214,
-      "count": 33,
-      "total_on_page": 33,
+      "median_price": 271839,
+      "count": 28,
+      "total_on_page": 28,
       "price_type": "estimated_transaction",
       "p5_price": 212970,
       "p95_price": 437007,
-      "min_price": 203670,
+      "min_price": 212970,
       "max_price": 525264
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 33,
+    "min_count_per_year": 28,
     "confidence": "medium"
   }
 }

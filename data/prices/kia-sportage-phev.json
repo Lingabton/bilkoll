@@ -1,57 +1,57 @@
 {
   "model_id": "kia-sportage-phev",
-  "scraped_at": "2026-09-28T13:14:23.763512+00:00",
+  "scraped_at": "2026-10-05T13:55:05.591649+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
       "median_price": 409014,
-      "count": 96,
-      "total_on_page": 96,
+      "count": 105,
+      "total_on_page": 105,
       "price_type": "estimated_transaction",
-      "p5_price": 357120,
-      "p95_price": 478950,
+      "p5_price": 361770,
+      "p95_price": 496284,
       "min_price": 292857,
       "max_price": 538377,
       "median_mileage_mil": 20250
     },
     "2024": {
       "median_price": 371907,
-      "count": 75,
-      "total_on_page": 75,
+      "count": 84,
+      "total_on_page": 84,
       "price_type": "estimated_transaction",
-      "p5_price": 322524,
-      "p95_price": 418407,
+      "p5_price": 324384,
+      "p95_price": 409107,
       "min_price": 249984,
       "max_price": 511779,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 325314,
-      "count": 175,
-      "total_on_page": 175,
+      "median_price": 324570,
+      "count": 195,
+      "total_on_page": 195,
       "price_type": "estimated_transaction",
-      "p5_price": 255564,
-      "p95_price": 376557,
+      "p5_price": 251007,
+      "p95_price": 380370,
       "min_price": 203670,
-      "max_price": 471231
+      "max_price": 510570
     },
     "2022": {
       "median_price": 297507,
-      "count": 120,
-      "total_on_page": 120,
+      "count": 119,
+      "total_on_page": 119,
       "price_type": "estimated_transaction",
-      "p5_price": 240870,
-      "p95_price": 348099,
-      "min_price": 212784,
+      "p5_price": 236964,
+      "p95_price": 353307,
+      "min_price": 175584,
       "max_price": 455607,
       "median_mileage_mil": 9842
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 75,
+    "min_count_per_year": 84,
     "confidence": "high"
   }
 }

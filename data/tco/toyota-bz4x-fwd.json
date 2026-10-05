@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-bz4x-fwd",
-  "calculated_at": "2026-09-28T15:01:51.396808+00:00",
+  "calculated_at": "2026-10-05T15:45:54.737415+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 441508,
-        "confidence": "adjusted",
-        "data_points": 66
+        "value": 478903,
+        "confidence": "medium",
+        "data_points": 72
       },
       {
         "year": 2,
-        "value": 406410,
+        "value": 408688,
         "confidence": "medium",
-        "data_points": 18
+        "data_points": 16
       },
       {
         "year": 3,
         "value": 325407,
         "confidence": "medium",
-        "data_points": 37
+        "data_points": 39
       },
       {
         "year": 4,
         "value": 299374,
         "confidence": "adjusted",
-        "data_points": 10
+        "data_points": 8
       },
       {
         "year": 5,
-        "value": 294542,
+        "value": 275424,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 259197,
+        "value": 266399,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 228093,
+        "value": 234431,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 200722,
+        "value": 206299,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "low",
   "data_quality_notes": []
 }

@@ -1,6 +1,6 @@
 {
   "model_id": "skoda-octavia-tdi",
-  "calculated_at": "2026-09-28T15:01:51.390389+00:00",
+  "calculated_at": "2026-10-05T15:45:54.733000+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 344928,
-    "monthly_cost": 7186,
+    "total_cost": 342324,
+    "monthly_cost": 7132,
     "cost_per_mil": 57,
     "breakdown": {
-      "depreciation": 208212,
+      "depreciation": 205608,
       "fuel": 61050,
       "tax": 22076,
       "insurance": {
@@ -33,25 +33,25 @@
       },
       {
         "year": 1,
-        "value": 283185,
+        "value": 278535,
         "confidence": "medium",
         "data_points": 1
       },
       {
         "year": 2,
-        "value": 260530,
+        "value": 256252,
         "confidence": "adjusted",
         "data_points": 3
       },
       {
         "year": 3,
-        "value": 260307,
-        "confidence": "medium",
-        "data_points": 21
+        "value": 235751,
+        "confidence": "adjusted",
+        "data_points": 22
       },
       {
         "year": 4,
-        "value": 222688,
+        "value": 225292,
         "confidence": "medium",
         "data_points": 20
       },
@@ -63,19 +63,19 @@
       },
       {
         "year": 6,
-        "value": 195207,
-        "confidence": "medium",
+        "value": 183440,
+        "confidence": "adjusted",
         "data_points": 8
       },
       {
         "year": 7,
-        "value": 171782,
+        "value": 177878,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 151168,
+        "value": 156533,
         "confidence": "estimated",
         "data_points": 0
       }

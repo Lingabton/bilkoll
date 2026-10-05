@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-ec40-sm",
-  "calculated_at": "2026-09-28T15:01:51.402139+00:00",
+  "calculated_at": "2026-10-05T15:45:54.741227+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -47,13 +47,13 @@
         "year": 3,
         "value": 262702,
         "confidence": "adjusted",
-        "data_points": 63
+        "data_points": 49
       },
       {
         "year": 4,
         "value": 241685,
         "confidence": "adjusted",
-        "data_points": 14
+        "data_points": 12
       },
       {
         "year": 5,

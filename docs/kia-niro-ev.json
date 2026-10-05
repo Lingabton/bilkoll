@@ -1,6 +1,6 @@
 {
   "model_id": "kia-niro-ev",
-  "calculated_at": "2026-09-28T15:01:51.383709+00:00",
+  "calculated_at": "2026-10-05T15:45:54.728321+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 55448,
-    "monthly_cost": 1155,
-    "cost_per_mil": 9,
+    "total_cost": 387172,
+    "monthly_cost": 8066,
+    "cost_per_mil": 65,
     "breakdown": {
-      "depreciation": 0,
+      "depreciation": 331724,
       "fuel": 18468,
       "tax": 1440,
       "insurance": {
@@ -29,6 +29,54 @@
         "year": 0,
         "value": 530500,
         "confidence": "fixed",
+        "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 255271,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 2,
+        "value": 234849,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 3,
+        "value": 216061,
+        "confidence": "adjusted",
+        "data_points": 2
+      },
+      {
+        "year": 4,
+        "value": 198776,
+        "confidence": "adjusted",
+        "data_points": 18
+      },
+      {
+        "year": 5,
+        "value": 182873,
+        "confidence": "adjusted",
+        "data_points": 8
+      },
+      {
+        "year": 6,
+        "value": 168243,
+        "confidence": "adjusted",
+        "data_points": 8
+      },
+      {
+        "year": 7,
+        "value": 162657,
+        "confidence": "medium",
+        "data_points": 6
+      },
+      {
+        "year": 8,
+        "value": 143138,
+        "confidence": "estimated",
         "data_points": 0
       }
     ]

@@ -1,6 +1,6 @@
 {
   "model_id": "skoda-kodiaq-tsi",
-  "calculated_at": "2026-09-28T15:01:51.392583+00:00",
+  "calculated_at": "2026-10-05T15:45:54.734473+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -41,13 +41,13 @@
         "year": 2,
         "value": 345754,
         "confidence": "adjusted",
-        "data_points": 10
+        "data_points": 12
       },
       {
         "year": 3,
-        "value": 318093,
-        "confidence": "adjusted",
-        "data_points": 10
+        "value": 325407,
+        "confidence": "medium",
+        "data_points": 11
       },
       {
         "year": 4,
@@ -59,35 +59,35 @@
         "year": 5,
         "value": 288508,
         "confidence": "adjusted",
-        "data_points": 7
+        "data_points": 8
       },
       {
         "year": 6,
-        "value": 281697,
+        "value": 275652,
         "confidence": "medium",
-        "data_points": 11
+        "data_points": 12
       },
       {
         "year": 7,
-        "value": 234732,
+        "value": 223107,
         "confidence": "medium",
-        "data_points": 10
+        "data_points": 11
       },
       {
         "year": 8,
         "value": 204507,
         "confidence": "medium",
-        "data_points": 17
+        "data_points": 19
       },
       {
         "year": 9,
-        "value": 185907,
+        "value": 181257,
         "confidence": "medium",
-        "data_points": 11
+        "data_points": 13
       },
       {
         "year": 10,
-        "value": 163598,
+        "value": 159506,
         "confidence": "estimated",
         "data_points": 0
       }

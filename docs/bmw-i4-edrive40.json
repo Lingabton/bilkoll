@@ -1,6 +1,6 @@
 {
   "model_id": "bmw-i4-edrive40",
-  "calculated_at": "2026-09-28T15:01:51.400492+00:00",
+  "calculated_at": "2026-10-05T15:45:54.740014+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 261626,
-    "monthly_cost": 5451,
-    "cost_per_mil": 44,
+    "total_cost": 313887,
+    "monthly_cost": 6539,
+    "cost_per_mil": 52,
     "breakdown": {
-      "depreciation": 193500,
+      "depreciation": 245761,
       "fuel": 17496,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 551908,
-        "confidence": "adjusted",
-        "data_points": 25
+        "value": 590410,
+        "confidence": "medium",
+        "data_points": 26
       },
       {
         "year": 2,
-        "value": 422638,
+        "value": 418407,
         "confidence": "medium",
-        "data_points": 54
+        "data_points": 70
       },
       {
         "year": 3,
-        "value": 408270,
-        "confidence": "medium",
-        "data_points": 55
+        "value": 384934,
+        "confidence": "adjusted",
+        "data_points": 58
       },
       {
         "year": 4,
-        "value": 406400,
-        "confidence": "medium",
-        "data_points": 13
+        "value": 354139,
+        "confidence": "adjusted",
+        "data_points": 11
       },
       {
         "year": 5,
-        "value": 357632,
+        "value": 325807,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 314716,
+        "value": 312555,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 276950,
+        "value": 275048,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 243716,
+        "value": 242043,
         "confidence": "estimated",
         "data_points": 0
       }

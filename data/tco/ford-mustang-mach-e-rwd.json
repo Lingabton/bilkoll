@@ -1,6 +1,6 @@
 {
   "model_id": "ford-mustang-mach-e-rwd",
-  "calculated_at": "2026-09-28T15:01:51.393415+00:00",
+  "calculated_at": "2026-10-05T15:45:54.735043+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -35,7 +35,7 @@
         "year": 1,
         "value": 557070,
         "confidence": "medium",
-        "data_points": 23
+        "data_points": 22
       },
       {
         "year": 2,
@@ -53,13 +53,13 @@
         "year": 4,
         "value": 283295,
         "confidence": "adjusted",
-        "data_points": 61
+        "data_points": 72
       },
       {
         "year": 5,
         "value": 260631,
         "confidence": "adjusted",
-        "data_points": 137
+        "data_points": 133
       },
       {
         "year": 6,
@@ -69,13 +69,13 @@
       },
       {
         "year": 7,
-        "value": 234054,
+        "value": 233990,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 205968,
+        "value": 205911,
         "confidence": "estimated",
         "data_points": 0
       }

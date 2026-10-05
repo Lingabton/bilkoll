@@ -1,6 +1,6 @@
 {
   "model_id": "mazda-cx5-mhev",
-  "calculated_at": "2026-09-28T15:01:51.398468+00:00",
+  "calculated_at": "2026-10-05T15:45:54.738558+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 261590,
-    "monthly_cost": 5450,
+    "total_cost": 263441,
+    "monthly_cost": 5488,
     "cost_per_mil": 44,
     "breakdown": {
-      "depreciation": 103056,
+      "depreciation": 104907,
       "fuel": 79920,
       "tax": 36124,
       "insurance": {
@@ -39,57 +39,51 @@
       },
       {
         "year": 2,
-        "value": 315270,
-        "confidence": "medium",
-        "data_points": 1
+        "value": 313083,
+        "confidence": "estimated",
+        "data_points": 0
       },
       {
         "year": 3,
-        "value": 290048,
-        "confidence": "adjusted",
-        "data_points": 3
-      },
-      {
-        "year": 4,
-        "value": 266844,
+        "value": 288036,
         "confidence": "adjusted",
         "data_points": 2
       },
       {
-        "year": 5,
-        "value": 245496,
+        "year": 4,
+        "value": 264993,
         "confidence": "adjusted",
         "data_points": 4
       },
       {
+        "year": 5,
+        "value": 243793,
+        "confidence": "adjusted",
+        "data_points": 3
+      },
+      {
         "year": 6,
-        "value": 225856,
+        "value": 224289,
         "confidence": "adjusted",
         "data_points": 5
       },
       {
         "year": 7,
-        "value": 207787,
+        "value": 206345,
         "confidence": "adjusted",
-        "data_points": 15
+        "data_points": 16
       },
       {
         "year": 8,
         "value": 204507,
         "confidence": "medium",
-        "data_points": 22
+        "data_points": 20
       },
       {
         "year": 9,
-        "value": 181164,
+        "value": 176653,
         "confidence": "medium",
         "data_points": 11
-      },
-      {
-        "year": 10,
-        "value": 159424,
-        "confidence": "estimated",
-        "data_points": 0
       }
     ]
   },

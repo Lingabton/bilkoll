@@ -1,6 +1,6 @@
 {
   "model_id": "polestar-4-sm",
-  "calculated_at": "2026-09-28T15:01:51.397196+00:00",
+  "calculated_at": "2026-10-05T15:45:54.737695+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,15 +33,15 @@
       },
       {
         "year": 1,
-        "value": 564463,
+        "value": 567207,
         "confidence": "medium",
-        "data_points": 82
+        "data_points": 83
       },
       {
         "year": 2,
         "value": 543957,
         "confidence": "medium",
-        "data_points": 44
+        "data_points": 41
       },
       {
         "year": 3,

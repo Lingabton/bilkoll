@@ -1,6 +1,6 @@
 {
   "model_id": "mazda-cx5-mhev",
-  "scraped_at": "2026-09-28T13:25:54.077305+00:00",
+  "scraped_at": "2026-10-05T14:06:29.684261+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -16,80 +16,74 @@
       "max_price": 409107,
       "median_mileage_mil": 20250
     },
-    "2024": {
-      "median_price": 315270,
-      "count": 1,
-      "total_on_page": 1,
-      "price_type": "estimated_transaction"
-    },
     "2023": {
-      "median_price": 320757,
-      "count": 3,
-      "total_on_page": 3,
-      "price_type": "estimated_transaction",
-      "min_price": 302157,
-      "max_price": 334335
-    },
-    "2022": {
-      "median_price": 355074,
+      "median_price": 327546,
       "count": 2,
       "total_on_page": 2,
+      "price_type": "estimated_transaction"
+    },
+    "2022": {
+      "median_price": 323965,
+      "count": 4,
+      "total_on_page": 4,
       "price_type": "estimated_transaction",
+      "min_price": 297507,
+      "max_price": 369024,
       "median_mileage_mil": 20220
     },
     "2021": {
-      "median_price": 294763,
-      "count": 4,
-      "total_on_page": 4,
+      "median_price": 310620,
+      "count": 3,
+      "total_on_page": 3,
       "price_type": "estimated_transaction",
       "min_price": 274257,
       "max_price": 353307,
       "median_mileage_mil": 20210
     },
     "2020": {
-      "median_price": 250170,
+      "median_price": 258540,
       "count": 5,
       "total_on_page": 5,
       "price_type": "estimated_transaction",
-      "p5_price": 209157,
-      "p95_price": 283557,
-      "min_price": 209157,
-      "max_price": 283557
+      "p5_price": 250170,
+      "p95_price": 278907,
+      "min_price": 250170,
+      "max_price": 278907
     },
     "2019": {
       "median_price": 240870,
-      "count": 15,
-      "total_on_page": 15,
+      "count": 16,
+      "total_on_page": 16,
       "price_type": "estimated_transaction",
-      "p5_price": 166470,
-      "p95_price": 260307,
-      "min_price": 166470,
-      "max_price": 260307
+      "p5_price": 167307,
+      "p95_price": 269607,
+      "min_price": 167307,
+      "max_price": 269607
     },
     "2018": {
       "median_price": 204507,
-      "count": 22,
-      "total_on_page": 22,
+      "count": 20,
+      "total_on_page": 20,
       "price_type": "estimated_transaction",
       "p5_price": 167307,
-      "p95_price": 251007,
+      "p95_price": 264957,
       "min_price": 162657,
       "max_price": 264957
     },
     "2017": {
-      "median_price": 181164,
+      "median_price": 176653,
       "count": 11,
       "total_on_page": 11,
       "price_type": "estimated_transaction",
-      "p5_price": 155124,
-      "p95_price": 212040,
-      "min_price": 155124,
-      "max_price": 212040
+      "p5_price": 153264,
+      "p95_price": 204507,
+      "min_price": 153264,
+      "max_price": 204507
     }
   },
   "validation": {
-    "is_monotonic": false,
-    "min_count_per_year": 1,
+    "is_monotonic": true,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

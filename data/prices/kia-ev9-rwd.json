@@ -1,6 +1,6 @@
 {
   "model_id": "kia-ev9-rwd",
-  "scraped_at": "2026-09-28T14:41:57.994761+00:00",
+  "scraped_at": "2026-10-05T15:26:05.636279+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -10,7 +10,7 @@
       "count": 103,
       "total_on_page": 103,
       "price_type": "estimated_transaction",
-      "p5_price": 688014,
+      "p5_price": 681085,
       "p95_price": 836907,
       "min_price": 599757,
       "max_price": 923397,
@@ -18,19 +18,19 @@
     },
     "2024": {
       "median_price": 659370,
-      "count": 27,
-      "total_on_page": 27,
+      "count": 29,
+      "total_on_page": 29,
       "price_type": "estimated_transaction",
-      "p5_price": 557907,
+      "p5_price": 567300,
       "p95_price": 816447,
-      "min_price": 534657,
+      "min_price": 557907,
       "max_price": 917911,
       "median_mileage_mil": 20241
     },
     "2023": {
       "median_price": 641514,
-      "count": 13,
-      "total_on_page": 13,
+      "count": 11,
+      "total_on_page": 11,
       "price_type": "estimated_transaction",
       "p5_price": 557814,
       "p95_price": 762507,
@@ -41,7 +41,7 @@
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 13,
+    "min_count_per_year": 11,
     "confidence": "medium"
   }
 }

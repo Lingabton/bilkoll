@@ -1,6 +1,6 @@
 {
   "model_id": "tesla-model-3-lr",
-  "calculated_at": "2026-09-28T15:01:51.381573+00:00",
+  "calculated_at": "2026-10-05T15:45:54.726671+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 359877,
-    "monthly_cost": 7497,
-    "cost_per_mil": 60,
+    "total_cost": 366619,
+    "monthly_cost": 7638,
+    "cost_per_mil": 61,
     "breakdown": {
-      "depreciation": 289951,
+      "depreciation": 296693,
       "fuel": 17496,
       "tax": 1440,
       "insurance": {
@@ -39,43 +39,43 @@
       },
       {
         "year": 2,
-        "value": 426307,
-        "confidence": "medium",
-        "data_points": 38
-      },
-      {
-        "year": 3,
-        "value": 315828,
-        "confidence": "medium",
-        "data_points": 49
-      },
-      {
-        "year": 4,
-        "value": 294949,
-        "confidence": "medium",
-        "data_points": 30
-      },
-      {
-        "year": 5,
-        "value": 278070,
-        "confidence": "medium",
-        "data_points": 53
-      },
-      {
-        "year": 6,
-        "value": 227664,
+        "value": 420350,
         "confidence": "medium",
         "data_points": 45
       },
       {
-        "year": 7,
-        "value": 213714,
+        "year": 3,
+        "value": 306807,
         "confidence": "medium",
-        "data_points": 50
+        "data_points": 51
+      },
+      {
+        "year": 4,
+        "value": 288207,
+        "confidence": "medium",
+        "data_points": 35
+      },
+      {
+        "year": 5,
+        "value": 268770,
+        "confidence": "medium",
+        "data_points": 59
+      },
+      {
+        "year": 6,
+        "value": 218550,
+        "confidence": "medium",
+        "data_points": 47
+      },
+      {
+        "year": 7,
+        "value": 213342,
+        "confidence": "medium",
+        "data_points": 46
       },
       {
         "year": 8,
-        "value": 188068,
+        "value": 187740,
         "confidence": "estimated",
         "data_points": 0
       }

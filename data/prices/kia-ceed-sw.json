@@ -1,31 +1,31 @@
 {
   "model_id": "kia-ceed-sw",
-  "scraped_at": "2026-09-28T13:49:49.566621+00:00",
+  "scraped_at": "2026-10-05T14:31:29.420428+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 237057,
+      "median_price": 241614,
       "count": 1,
       "total_on_page": 1,
       "price_type": "estimated_transaction"
     },
     "2024": {
-      "median_price": 269607,
-      "count": 22,
-      "total_on_page": 22,
+      "median_price": 268770,
+      "count": 25,
+      "total_on_page": 25,
       "price_type": "estimated_transaction",
       "p5_price": 241707,
       "p95_price": 297507,
-      "min_price": 241707,
+      "min_price": 237057,
       "max_price": 306807,
       "median_mileage_mil": 2027
     },
     "2023": {
-      "median_price": 240870,
-      "count": 16,
-      "total_on_page": 16,
+      "median_price": 241707,
+      "count": 19,
+      "total_on_page": 19,
       "price_type": "estimated_transaction",
       "p5_price": 176514,
       "p95_price": 288207,
@@ -34,8 +34,8 @@
     },
     "2022": {
       "median_price": 223107,
-      "count": 15,
-      "total_on_page": 15,
+      "count": 17,
+      "total_on_page": 17,
       "price_type": "estimated_transaction",
       "p5_price": 166470,
       "p95_price": 251007,
@@ -43,19 +43,19 @@
       "max_price": 251007
     },
     "2021": {
-      "median_price": 197532,
-      "count": 12,
-      "total_on_page": 12,
+      "median_price": 190510,
+      "count": 14,
+      "total_on_page": 14,
       "price_type": "estimated_transaction",
-      "p5_price": 157914,
+      "p5_price": 146940,
       "p95_price": 241614,
-      "min_price": 157914,
+      "min_price": 146940,
       "max_price": 241614
     },
     "2020": {
-      "median_price": 178560,
-      "count": 12,
-      "total_on_page": 12,
+      "median_price": 169539,
+      "count": 14,
+      "total_on_page": 14,
       "price_type": "estimated_transaction",
       "p5_price": 134757,
       "p95_price": 195207,
@@ -63,9 +63,9 @@
       "max_price": 195207
     },
     "2019": {
-      "median_price": 143638,
-      "count": 18,
-      "total_on_page": 18,
+      "median_price": 147870,
+      "count": 19,
+      "total_on_page": 19,
       "price_type": "estimated_transaction",
       "p5_price": 87327,
       "p95_price": 195207,
@@ -73,9 +73,9 @@
       "max_price": 195207
     },
     "2018": {
-      "median_price": 132385,
-      "count": 28,
-      "total_on_page": 28,
+      "median_price": 134757,
+      "count": 29,
+      "total_on_page": 29,
       "price_type": "estimated_transaction",
       "p5_price": 97464,
       "p95_price": 176607,

@@ -1,6 +1,6 @@
 {
   "model_id": "lexus-nx-350h",
-  "calculated_at": "2026-09-28T15:01:51.413195+00:00",
+  "calculated_at": "2026-10-05T15:45:54.749134+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,21 +33,21 @@
       },
       {
         "year": 1,
-        "value": 529170,
+        "value": 532420,
         "confidence": "medium",
-        "data_points": 15
+        "data_points": 10
       },
       {
         "year": 2,
-        "value": 499782,
+        "value": 497457,
         "confidence": "medium",
-        "data_points": 10
+        "data_points": 9
       },
       {
         "year": 3,
         "value": 474114,
         "confidence": "medium",
-        "data_points": 13
+        "data_points": 15
       },
       {
         "year": 4,
@@ -81,6 +81,6 @@
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "low",
   "data_quality_notes": []
 }

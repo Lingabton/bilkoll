@@ -1,6 +1,6 @@
 {
   "model_id": "kia-sportage-phev",
-  "calculated_at": "2026-09-28T15:01:51.395577+00:00",
+  "calculated_at": "2026-10-05T15:45:54.736540+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -35,25 +35,25 @@
         "year": 1,
         "value": 409014,
         "confidence": "medium",
-        "data_points": 96
+        "data_points": 105
       },
       {
         "year": 2,
         "value": 371907,
         "confidence": "medium",
-        "data_points": 75
+        "data_points": 84
       },
       {
         "year": 3,
-        "value": 325314,
+        "value": 324570,
         "confidence": "medium",
-        "data_points": 175
+        "data_points": 195
       },
       {
         "year": 4,
         "value": 297507,
         "confidence": "medium",
-        "data_points": 120
+        "data_points": 119
       },
       {
         "year": 5,

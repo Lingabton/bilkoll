@@ -1,65 +1,64 @@
 {
   "model_id": "tesla-model-y-lr",
-  "scraped_at": "2026-09-28T11:57:21.883429+00:00",
+  "scraped_at": "2026-10-05T12:33:34.479545+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 589150,
-      "count": 22,
-      "total_on_page": 22,
+      "median_price": 543910,
+      "count": 24,
+      "total_on_page": 24,
       "price_type": "estimated_transaction",
       "p5_price": 436914,
       "p95_price": 618450,
-      "min_price": 399621,
-      "max_price": 622160
+      "min_price": 367257,
+      "max_price": 622914
     },
     "2024": {
-      "median_price": 418407,
-      "count": 82,
-      "total_on_page": 82,
+      "median_price": 417570,
+      "count": 87,
+      "total_on_page": 87,
       "price_type": "estimated_transaction",
-      "p5_price": 343914,
+      "p5_price": 344007,
       "p95_price": 464907,
-      "min_price": 330057,
-      "max_price": 480800,
-      "median_mileage_mil": 3250
+      "min_price": 288300,
+      "max_price": 473370
     },
     "2023": {
-      "median_price": 352470,
-      "count": 222,
-      "total_on_page": 222,
+      "median_price": 348657,
+      "count": 250,
+      "total_on_page": 260,
       "price_type": "estimated_transaction",
       "p5_price": 296670,
-      "p95_price": 430580,
-      "min_price": 274071,
-      "max_price": 623007
+      "p95_price": 423057,
+      "min_price": 267840,
+      "max_price": 457550
     },
     "2022": {
-      "median_price": 350982,
-      "count": 64,
-      "total_on_page": 64,
+      "median_price": 348750,
+      "count": 65,
+      "total_on_page": 65,
       "price_type": "estimated_transaction",
-      "p5_price": 269700,
+      "p5_price": 316014,
       "p95_price": 399807,
-      "min_price": 222177,
+      "min_price": 235290,
       "max_price": 609150
     },
     "2021": {
-      "median_price": 306900,
-      "count": 31,
-      "total_on_page": 31,
+      "median_price": 301320,
+      "count": 29,
+      "total_on_page": 29,
       "price_type": "estimated_transaction",
-      "p5_price": 246450,
-      "p95_price": 353307,
+      "p5_price": 241707,
+      "p95_price": 367164,
       "min_price": 240870,
-      "max_price": 398970
+      "max_price": 371070
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 22,
+    "is_monotonic": false,
+    "min_count_per_year": 24,
     "confidence": "medium"
   }
 }
