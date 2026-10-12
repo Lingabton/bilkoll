@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-corolla-hybrid",
-  "calculated_at": "2026-10-05T15:45:54.728626+00:00",
+  "calculated_at": "2026-10-12T16:37:23.407330+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 292857,
+        "value": 296670,
         "confidence": "medium",
-        "data_points": 70
+        "data_points": 69
       },
       {
         "year": 2,
-        "value": 274257,
+        "value": 269607,
         "confidence": "medium",
-        "data_points": 85
+        "data_points": 95
       },
       {
         "year": 3,
-        "value": 255657,
+        "value": 259470,
         "confidence": "medium",
-        "data_points": 56
+        "data_points": 59
       },
       {
         "year": 4,
         "value": 223107,
         "confidence": "medium",
-        "data_points": 39
+        "data_points": 36
       },
       {
         "year": 5,
-        "value": 215248,
+        "value": 218457,
         "confidence": "medium",
-        "data_points": 48
+        "data_points": 54
       },
       {
         "year": 6,
-        "value": 204600,
+        "value": 195207,
         "confidence": "medium",
-        "data_points": 33
+        "data_points": 29
       },
       {
         "year": 7,
-        "value": 194370,
-        "confidence": "medium",
-        "data_points": 41
+        "value": 179590,
+        "confidence": "adjusted",
+        "data_points": 48
       },
       {
         "year": 8,
-        "value": 171045,
+        "value": 171822,
         "confidence": "estimated",
         "data_points": 0
       }

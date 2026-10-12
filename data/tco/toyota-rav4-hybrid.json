@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-rav4-hybrid",
-  "calculated_at": "2026-10-05T15:45:54.728899+00:00",
+  "calculated_at": "2026-10-12T16:37:23.407796+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 340581,
-    "monthly_cost": 7095,
-    "cost_per_mil": 57,
+    "total_cost": 349044,
+    "monthly_cost": 7272,
+    "cost_per_mil": 58,
     "breakdown": {
-      "depreciation": 203330,
+      "depreciation": 211793,
       "fuel": 72150,
       "tax": 19211,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 462163,
+        "value": 460257,
         "confidence": "medium",
-        "data_points": 80
+        "data_points": 89
       },
       {
         "year": 2,
-        "value": 418360,
+        "value": 423057,
         "confidence": "medium",
-        "data_points": 66
+        "data_points": 61
       },
       {
         "year": 3,
-        "value": 389670,
+        "value": 389484,
         "confidence": "medium",
-        "data_points": 162
+        "data_points": 153
       },
       {
         "year": 4,
-        "value": 352470,
+        "value": 344007,
         "confidence": "medium",
-        "data_points": 103
+        "data_points": 100
       },
       {
         "year": 5,
         "value": 325407,
         "confidence": "medium",
-        "data_points": 137
+        "data_points": 138
       },
       {
         "year": 6,
         "value": 306807,
         "confidence": "medium",
-        "data_points": 96
+        "data_points": 102
       },
       {
         "year": 7,
-        "value": 283557,
+        "value": 285835,
         "confidence": "medium",
-        "data_points": 71
+        "data_points": 80
       },
       {
         "year": 8,
-        "value": 249530,
+        "value": 251534,
         "confidence": "estimated",
         "data_points": 0
       }

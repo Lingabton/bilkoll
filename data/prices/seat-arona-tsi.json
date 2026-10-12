@@ -1,6 +1,6 @@
 {
   "model_id": "seat-arona-tsi",
-  "scraped_at": "2026-10-05T15:38:02.433708+00:00",
+  "scraped_at": "2026-10-12T16:29:12.474831+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -29,13 +29,12 @@
     "2023": {
       "median_price": 153357,
       "count": 63,
-      "total_on_page": 63,
+      "total_on_page": 68,
       "price_type": "estimated_transaction",
-      "p5_price": 147684,
+      "p5_price": 143685,
       "p95_price": 167307,
-      "min_price": 139407,
-      "max_price": 181257,
-      "median_mileage_mil": 4500
+      "min_price": 134757,
+      "max_price": 181257
     },
     "2022": {
       "median_price": 148707,

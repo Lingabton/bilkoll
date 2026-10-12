@@ -1,6 +1,6 @@
 {
   "model_id": "tesla-model-y-lr",
-  "calculated_at": "2026-10-05T15:45:54.727035+00:00",
+  "calculated_at": "2026-10-12T16:37:23.404969+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 423496,
-    "monthly_cost": 8823,
-    "cost_per_mil": 71,
+    "total_cost": 395557,
+    "monthly_cost": 8241,
+    "cost_per_mil": 66,
     "breakdown": {
-      "depreciation": 329226,
+      "depreciation": 301287,
       "fuel": 19440,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 543910,
+        "value": 534703,
         "confidence": "medium",
-        "data_points": 24
+        "data_points": 32
       },
       {
         "year": 2,
-        "value": 417570,
+        "value": 409107,
         "confidence": "medium",
-        "data_points": 87
+        "data_points": 108
       },
       {
         "year": 3,
-        "value": 348657,
+        "value": 353307,
         "confidence": "medium",
         "data_points": 250
       },
       {
         "year": 4,
-        "value": 320764,
-        "confidence": "adjusted",
-        "data_points": 65
+        "value": 348703,
+        "confidence": "medium",
+        "data_points": 72
       },
       {
         "year": 5,
-        "value": 301320,
+        "value": 305877,
         "confidence": "medium",
-        "data_points": 29
+        "data_points": 35
       },
       {
         "year": 6,
-        "value": 265161,
+        "value": 269171,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 233342,
+        "value": 236871,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 205341,
+        "value": 208446,
         "confidence": "estimated",
         "data_points": 0
       }

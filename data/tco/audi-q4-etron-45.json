@@ -1,6 +1,6 @@
 {
   "model_id": "audi-q4-etron-45",
-  "calculated_at": "2026-10-05T15:45:54.735620+00:00",
+  "calculated_at": "2026-10-12T16:37:23.418603+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,21 +33,21 @@
       },
       {
         "year": 1,
-        "value": 491970,
+        "value": 510988,
         "confidence": "medium",
-        "data_points": 7
+        "data_points": 6
       },
       {
         "year": 2,
-        "value": 413338,
+        "value": 408688,
         "confidence": "medium",
         "data_points": 22
       },
       {
         "year": 3,
-        "value": 352470,
+        "value": 353214,
         "confidence": "medium",
-        "data_points": 82
+        "data_points": 87
       },
       {
         "year": 4,
@@ -57,25 +57,25 @@
       },
       {
         "year": 5,
-        "value": 288160,
+        "value": 297507,
         "confidence": "medium",
-        "data_points": 4
+        "data_points": 3
       },
       {
         "year": 6,
-        "value": 253580,
+        "value": 261806,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 223151,
+        "value": 230389,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 196372,
+        "value": 202742,
         "confidence": "estimated",
         "data_points": 0
       }

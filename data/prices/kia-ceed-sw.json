@@ -1,6 +1,6 @@
 {
   "model_id": "kia-ceed-sw",
-  "scraped_at": "2026-10-05T14:31:29.420428+00:00",
+  "scraped_at": "2026-10-12T15:21:00.986345+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -23,13 +23,13 @@
       "median_mileage_mil": 2027
     },
     "2023": {
-      "median_price": 241707,
-      "count": 19,
-      "total_on_page": 19,
+      "median_price": 241288,
+      "count": 24,
+      "total_on_page": 24,
       "price_type": "estimated_transaction",
-      "p5_price": 176514,
+      "p5_price": 185721,
       "p95_price": 288207,
-      "min_price": 176514,
+      "min_price": 167214,
       "max_price": 288207
     },
     "2022": {
@@ -63,12 +63,12 @@
       "max_price": 195207
     },
     "2019": {
-      "median_price": 147870,
-      "count": 19,
-      "total_on_page": 19,
+      "median_price": 148614,
+      "count": 23,
+      "total_on_page": 23,
       "price_type": "estimated_transaction",
-      "p5_price": 87327,
-      "p95_price": 195207,
+      "p5_price": 116250,
+      "p95_price": 181350,
       "min_price": 87327,
       "max_price": 195207
     },

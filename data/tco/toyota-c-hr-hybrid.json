@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-c-hr-hybrid",
-  "calculated_at": "2026-10-05T15:45:54.745481+00:00",
+  "calculated_at": "2026-10-12T16:37:23.434327+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 241594,
-    "monthly_cost": 5033,
-    "cost_per_mil": 40,
+    "total_cost": 243394,
+    "monthly_cost": 5071,
+    "cost_per_mil": 41,
     "breakdown": {
-      "depreciation": 130105,
+      "depreciation": 131905,
       "fuel": 54390,
       "tax": 14409,
       "insurance": {
@@ -35,47 +35,47 @@
         "year": 1,
         "value": 344007,
         "confidence": "medium",
-        "data_points": 115
+        "data_points": 120
       },
       {
         "year": 2,
-        "value": 327732,
+        "value": 325407,
         "confidence": "medium",
         "data_points": 88
       },
       {
         "year": 3,
-        "value": 288404,
+        "value": 286358,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 253795,
+        "value": 251995,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 223340,
+        "value": 221755,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 196539,
+        "value": 195145,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 172954,
+        "value": 171727,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 152200,
+        "value": 151120,
         "confidence": "estimated",
         "data_points": 0
       }

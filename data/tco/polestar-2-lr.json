@@ -1,6 +1,6 @@
 {
   "model_id": "polestar-2-lr",
-  "calculated_at": "2026-10-05T15:45:54.732369+00:00",
+  "calculated_at": "2026-10-12T16:37:23.413279+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 425195,
-    "monthly_cost": 8858,
+    "total_cost": 426084,
+    "monthly_cost": 8877,
     "cost_per_mil": 71,
     "breakdown": {
-      "depreciation": 336053,
+      "depreciation": 336942,
       "fuel": 20412,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 486762,
+        "value": 482670,
         "confidence": "medium",
-        "data_points": 30
+        "data_points": 26
       },
       {
         "year": 2,
-        "value": 404410,
+        "value": 399807,
         "confidence": "medium",
-        "data_points": 50
+        "data_points": 51
       },
       {
         "year": 3,
-        "value": 339264,
+        "value": 334242,
         "confidence": "medium",
-        "data_points": 112
+        "data_points": 101
       },
       {
         "year": 4,
-        "value": 304947,
+        "value": 304058,
         "confidence": "medium",
-        "data_points": 35
+        "data_points": 42
       },
       {
         "year": 5,
-        "value": 292810,
+        "value": 297414,
         "confidence": "medium",
-        "data_points": 30
+        "data_points": 31
       },
       {
         "year": 6,
-        "value": 269385,
+        "value": 273620,
         "confidence": "adjusted",
-        "data_points": 4
+        "data_points": 3
       },
       {
         "year": 7,
-        "value": 247834,
+        "value": 251730,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 246233,
+        "value": 244793,
         "confidence": "estimated",
         "data_points": 0
       }

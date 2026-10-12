@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-v60-t6-phev",
-  "calculated_at": "2026-10-05T15:45:54.740623+00:00",
+  "calculated_at": "2026-10-12T16:37:23.426525+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,21 +33,21 @@
       },
       {
         "year": 1,
-        "value": 413757,
+        "value": 409107,
         "confidence": "medium",
         "data_points": 250
       },
       {
         "year": 2,
-        "value": 361770,
+        "value": 357957,
         "confidence": "medium",
         "data_points": 243
       },
       {
         "year": 3,
-        "value": 334707,
+        "value": 325407,
         "confidence": "medium",
-        "data_points": 207
+        "data_points": 210
       },
       {
         "year": 4,
@@ -57,19 +57,19 @@
       },
       {
         "year": 5,
-        "value": 269607,
+        "value": 274071,
         "confidence": "medium",
-        "data_points": 227
+        "data_points": 241
       },
       {
         "year": 6,
-        "value": 236592,
+        "value": 232407,
         "confidence": "medium",
         "data_points": 250
       },
       {
         "year": 7,
-        "value": 213807,
+        "value": 212970,
         "confidence": "medium",
         "data_points": 250
       },

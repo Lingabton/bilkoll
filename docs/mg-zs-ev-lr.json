@@ -1,6 +1,6 @@
 {
   "model_id": "mg-zs-ev-lr",
-  "calculated_at": "2026-10-05T15:45:54.749415+00:00",
+  "calculated_at": "2026-10-12T16:37:23.440605+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 208677,
-    "monthly_cost": 4347,
-    "cost_per_mil": 35,
+    "total_cost": 251126,
+    "monthly_cost": 5232,
+    "cost_per_mil": 42,
     "breakdown": {
-      "depreciation": 155551,
+      "depreciation": 198000,
       "fuel": 17496,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 185377,
+        "value": 130862,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 2,
-        "value": 170546,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 120393,
+        "confidence": "adjusted",
+        "data_points": 1
       },
       {
         "year": 3,
-        "value": 156902,
+        "value": 110761,
         "confidence": "adjusted",
-        "data_points": 6
+        "data_points": 5
       },
       {
         "year": 4,
-        "value": 144349,
+        "value": 101900,
         "confidence": "adjusted",
         "data_points": 22
       },
       {
         "year": 5,
-        "value": 139407,
-        "confidence": "medium",
-        "data_points": 43
+        "value": 93748,
+        "confidence": "adjusted",
+        "data_points": 68
       },
       {
         "year": 6,
-        "value": 122678,
+        "value": 86248,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 107956,
+        "value": 79348,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 95001,
+        "value": 73000,
         "confidence": "estimated",
         "data_points": 0
       }

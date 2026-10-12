@@ -1,14 +1,14 @@
 {
   "model_id": "hyundai-kona-ev",
-  "scraped_at": "2026-10-05T13:02:54.623245+00:00",
+  "scraped_at": "2026-10-12T13:50:10.337909+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 392385,
-      "count": 11,
-      "total_on_page": 11,
+      "median_price": 425480,
+      "count": 10,
+      "total_on_page": 10,
       "price_type": "estimated_transaction",
       "p5_price": 348750,
       "p95_price": 457932,
@@ -17,24 +17,24 @@
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 320664,
-      "count": 11,
-      "total_on_page": 11,
+      "median_price": 320757,
+      "count": 10,
+      "total_on_page": 10,
       "price_type": "estimated_transaction",
-      "p5_price": 260307,
+      "p5_price": 278070,
       "p95_price": 352470,
-      "min_price": 260307,
+      "min_price": 278070,
       "max_price": 352470,
       "median_mileage_mil": 20241
     },
     "2023": {
-      "median_price": 305877,
+      "median_price": 297507,
       "count": 9,
       "total_on_page": 9,
       "price_type": "estimated_transaction",
-      "p5_price": 185907,
+      "p5_price": 176607,
       "p95_price": 404457,
-      "min_price": 185907,
+      "min_price": 176607,
       "max_price": 404457
     },
     "2022": {
@@ -46,19 +46,15 @@
       "max_price": 259470
     },
     "2021": {
-      "median_price": 232407,
-      "count": 5,
-      "total_on_page": 5,
-      "price_type": "estimated_transaction",
-      "p5_price": 157914,
-      "p95_price": 251007,
-      "min_price": 157914,
-      "max_price": 251007
+      "median_price": 204460,
+      "count": 2,
+      "total_on_page": 2,
+      "price_type": "estimated_transaction"
     },
     "2020": {
-      "median_price": 185814,
-      "count": 1,
-      "total_on_page": 1,
+      "median_price": 188650,
+      "count": 2,
+      "total_on_page": 2,
       "price_type": "estimated_transaction"
     },
     "2019": {
@@ -70,7 +66,7 @@
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 1,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }
