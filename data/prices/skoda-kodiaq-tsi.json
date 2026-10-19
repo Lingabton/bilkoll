@@ -1,35 +1,35 @@
 {
   "model_id": "skoda-kodiaq-tsi",
-  "scraped_at": "2026-10-12T14:24:20.630650+00:00",
+  "scraped_at": "2026-10-19T12:03:02.968473+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 401946,
-      "count": 64,
-      "total_on_page": 66,
+      "median_price": 395157,
+      "count": 70,
+      "total_on_page": 70,
       "price_type": "estimated_transaction",
-      "p5_price": 388647,
+      "p5_price": 371535,
       "p95_price": 506757,
-      "min_price": 333870,
+      "min_price": 324570,
       "max_price": 531867,
       "median_mileage_mil": 20250
     },
     "2024": {
       "median_price": 383113,
-      "count": 18,
-      "total_on_page": 18,
+      "count": 22,
+      "total_on_page": 22,
       "price_type": "estimated_transaction",
-      "p5_price": 325314,
-      "p95_price": 437007,
+      "p5_price": 343077,
+      "p95_price": 418407,
       "min_price": 325314,
       "max_price": 437007
     },
     "2023": {
-      "median_price": 338938,
-      "count": 12,
-      "total_on_page": 12,
+      "median_price": 347820,
+      "count": 13,
+      "total_on_page": 13,
       "price_type": "estimated_transaction",
       "p5_price": 269514,
       "p95_price": 389670,
@@ -37,9 +37,9 @@
       "max_price": 389670
     },
     "2022": {
-      "median_price": 313596,
-      "count": 8,
-      "total_on_page": 8,
+      "median_price": 288207,
+      "count": 6,
+      "total_on_page": 6,
       "price_type": "estimated_transaction",
       "p5_price": 259470,
       "p95_price": 362235,
@@ -57,9 +57,9 @@
       "max_price": 334707
     },
     "2020": {
-      "median_price": 292020,
-      "count": 13,
-      "total_on_page": 13,
+      "median_price": 278907,
+      "count": 11,
+      "total_on_page": 11,
       "price_type": "estimated_transaction",
       "p5_price": 185907,
       "p95_price": 316107,
@@ -68,8 +68,8 @@
     },
     "2019": {
       "median_price": 243613,
-      "count": 12,
-      "total_on_page": 12,
+      "count": 14,
+      "total_on_page": 14,
       "price_type": "estimated_transaction",
       "p5_price": 203670,
       "p95_price": 371907,
@@ -77,12 +77,12 @@
       "max_price": 371907
     },
     "2018": {
-      "median_price": 209110,
-      "count": 18,
-      "total_on_page": 18,
+      "median_price": 213807,
+      "count": 21,
+      "total_on_page": 21,
       "price_type": "estimated_transaction",
-      "p5_price": 139407,
-      "p95_price": 288114,
+      "p5_price": 175770,
+      "p95_price": 268770,
       "min_price": 139407,
       "max_price": 288114
     },
@@ -99,7 +99,7 @@
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 8,
+    "min_count_per_year": 6,
     "confidence": "low"
   }
 }

@@ -1,6 +1,6 @@
 {
   "model_id": "vw-t-roc-etsi",
-  "calculated_at": "2026-10-12T16:37:23.428458+00:00",
+  "calculated_at": "2026-10-19T14:16:24.911461+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 297313,
-    "monthly_cost": 6194,
-    "cost_per_mil": 50,
+    "total_cost": 292616,
+    "monthly_cost": 6096,
+    "cost_per_mil": 49,
     "breakdown": {
-      "depreciation": 164027,
+      "depreciation": 159330,
       "fuel": 68820,
       "tax": 21076,
       "insurance": {
@@ -33,55 +33,55 @@
       },
       {
         "year": 1,
-        "value": 297507,
+        "value": 302157,
         "confidence": "medium",
-        "data_points": 45
+        "data_points": 47
       },
       {
         "year": 2,
-        "value": 269607,
+        "value": 268770,
         "confidence": "medium",
-        "data_points": 39
+        "data_points": 55
       },
       {
         "year": 3,
-        "value": 213807,
+        "value": 213202,
         "confidence": "medium",
-        "data_points": 186
+        "data_points": 164
       },
       {
         "year": 4,
-        "value": 198973,
+        "value": 203670,
         "confidence": "medium",
-        "data_points": 62
+        "data_points": 51
       },
       {
         "year": 5,
-        "value": 190557,
+        "value": 195207,
         "confidence": "medium",
-        "data_points": 35
+        "data_points": 31
       },
       {
         "year": 6,
-        "value": 176607,
+        "value": 178978,
         "confidence": "medium",
-        "data_points": 37
+        "data_points": 36
       },
       {
         "year": 7,
-        "value": 157914,
-        "confidence": "medium",
-        "data_points": 21
+        "value": 164659,
+        "confidence": "adjusted",
+        "data_points": 19
       },
       {
         "year": 8,
-        "value": 145280,
+        "value": 151486,
         "confidence": "adjusted",
-        "data_points": 35
+        "data_points": 34
       },
       {
         "year": 9,
-        "value": 133657,
+        "value": 139367,
         "confidence": "estimated",
         "data_points": 0
       }

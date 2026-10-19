@@ -1,25 +1,25 @@
 {
   "model_id": "cupra-formentor-tsi",
-  "scraped_at": "2026-10-12T14:50:59.188536+00:00",
+  "scraped_at": "2026-10-19T12:30:01.942570+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
       "median_price": 354795,
-      "count": 18,
-      "total_on_page": 18,
+      "count": 20,
+      "total_on_page": 20,
       "price_type": "estimated_transaction",
-      "p5_price": 287370,
+      "p5_price": 278907,
       "p95_price": 568695,
-      "min_price": 287370,
+      "min_price": 278907,
       "max_price": 568695,
       "median_mileage_mil": 20250
     },
     "2024": {
       "median_price": 260307,
-      "count": 42,
-      "total_on_page": 42,
+      "count": 45,
+      "total_on_page": 45,
       "price_type": "estimated_transaction",
       "p5_price": 232035,
       "p95_price": 316014,
@@ -28,39 +28,39 @@
     },
     "2023": {
       "median_price": 251007,
-      "count": 30,
-      "total_on_page": 28,
+      "count": 29,
+      "total_on_page": 29,
       "price_type": "estimated_transaction",
-      "p5_price": 209250,
-      "p95_price": 446307,
+      "p5_price": 213714,
+      "p95_price": 464907,
       "min_price": 204135,
       "max_price": 464907,
       "median_mileage_mil": 3390
     },
     "2022": {
       "median_price": 232407,
-      "count": 24,
-      "total_on_page": 24,
+      "count": 13,
+      "total_on_page": 13,
       "price_type": "estimated_transaction",
-      "p5_price": 199857,
-      "p95_price": 260307,
+      "p5_price": 185070,
+      "p95_price": 283557,
       "min_price": 185070,
-      "max_price": 260307
+      "max_price": 283557
     },
     "2021": {
       "median_price": 246357,
-      "count": 14,
-      "total_on_page": 14,
+      "count": 12,
+      "total_on_page": 12,
       "price_type": "estimated_transaction",
       "p5_price": 209157,
-      "p95_price": 306807,
+      "p95_price": 283650,
       "min_price": 209157,
-      "max_price": 306807
+      "max_price": 283650
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 14,
+    "min_count_per_year": 12,
     "confidence": "medium"
   }
 }

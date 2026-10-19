@@ -1,6 +1,6 @@
 {
   "model_id": "nissan-qashqai-epower",
-  "calculated_at": "2026-10-12T16:37:23.437801+00:00",
+  "calculated_at": "2026-10-19T14:16:24.918242+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 267842,
-    "monthly_cost": 5580,
+    "total_cost": 270585,
+    "monthly_cost": 5637,
     "cost_per_mil": 45,
     "breakdown": {
-      "depreciation": 152950,
+      "depreciation": 155693,
       "fuel": 57720,
       "tax": 18182,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 305923,
+        "value": 306807,
         "confidence": "medium",
-        "data_points": 84
+        "data_points": 85
       },
       {
         "year": 2,
-        "value": 278070,
+        "value": 278860,
         "confidence": "medium",
-        "data_points": 73
+        "data_points": 72
       },
       {
         "year": 3,
-        "value": 243939,
+        "value": 241707,
         "confidence": "medium",
-        "data_points": 44
+        "data_points": 49
       },
       {
         "year": 4,
-        "value": 235150,
-        "confidence": "medium",
-        "data_points": 30
-      },
-      {
-        "year": 5,
-        "value": 185395,
+        "value": 232407,
         "confidence": "medium",
         "data_points": 28
       },
       {
+        "year": 5,
+        "value": 185442,
+        "confidence": "medium",
+        "data_points": 42
+      },
+      {
         "year": 6,
-        "value": 163147,
+        "value": 163188,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 143569,
+        "value": 143606,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 126341,
+        "value": 126373,
         "confidence": "estimated",
         "data_points": 0
       }

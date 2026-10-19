@@ -1,49 +1,50 @@
 {
   "model_id": "kia-sportage-phev",
-  "scraped_at": "2026-10-12T14:44:30.213650+00:00",
+  "scraped_at": "2026-10-19T12:23:18.015103+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 409107,
-      "count": 111,
-      "total_on_page": 105,
+      "median_price": 399807,
+      "count": 115,
+      "total_on_page": 115,
       "price_type": "estimated_transaction",
-      "p5_price": 361770,
-      "p95_price": 496527,
-      "min_price": 292857,
+      "p5_price": 352284,
+      "p95_price": 496284,
+      "min_price": 306714,
       "max_price": 538377,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 371070,
-      "count": 82,
-      "total_on_page": 82,
+      "median_price": 371907,
+      "count": 88,
+      "total_on_page": 88,
       "price_type": "estimated_transaction",
       "p5_price": 322524,
-      "p95_price": 408270,
+      "p95_price": 427707,
       "min_price": 249984,
-      "max_price": 511779,
+      "max_price": 517266,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 325407,
-      "count": 195,
-      "total_on_page": 195,
+      "median_price": 325314,
+      "count": 208,
+      "total_on_page": 208,
       "price_type": "estimated_transaction",
-      "p5_price": 255564,
-      "p95_price": 380370,
+      "p5_price": 259377,
+      "p95_price": 371907,
       "min_price": 203670,
-      "max_price": 510570
+      "max_price": 514476,
+      "median_mileage_mil": 20230
     },
     "2022": {
-      "median_price": 297507,
-      "count": 119,
-      "total_on_page": 117,
+      "median_price": 296670,
+      "count": 103,
+      "total_on_page": 103,
       "price_type": "estimated_transaction",
       "p5_price": 236964,
-      "p95_price": 353307,
+      "p95_price": 357120,
       "min_price": 175584,
       "max_price": 455607,
       "median_mileage_mil": 9842
@@ -51,7 +52,7 @@
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 82,
+    "min_count_per_year": 88,
     "confidence": "high"
   }
 }

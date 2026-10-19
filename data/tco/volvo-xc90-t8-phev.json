@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc90-t8-phev",
-  "calculated_at": "2026-10-12T16:37:23.431865+00:00",
+  "calculated_at": "2026-10-19T14:16:24.913956+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 566615,
-    "monthly_cost": 11804,
-    "cost_per_mil": 94,
+    "total_cost": 575915,
+    "monthly_cost": 11998,
+    "cost_per_mil": 96,
     "breakdown": {
-      "depreciation": 402393,
+      "depreciation": 411693,
       "fuel": 88800,
       "tax": 4432,
       "insurance": {
@@ -33,73 +33,73 @@
       },
       {
         "year": 1,
-        "value": 743907,
+        "value": 725307,
         "confidence": "medium",
-        "data_points": 193
+        "data_points": 190
       },
       {
         "year": 2,
-        "value": 632307,
+        "value": 623007,
         "confidence": "medium",
-        "data_points": 154
+        "data_points": 155
       },
       {
         "year": 3,
-        "value": 576507,
+        "value": 576321,
         "confidence": "medium",
-        "data_points": 133
+        "data_points": 139
       },
       {
         "year": 4,
-        "value": 520707,
+        "value": 511407,
+        "confidence": "medium",
+        "data_points": 103
+      },
+      {
+        "year": 5,
+        "value": 464163,
         "confidence": "medium",
         "data_points": 102
       },
       {
-        "year": 5,
-        "value": 461972,
-        "confidence": "medium",
-        "data_points": 108
-      },
-      {
         "year": 6,
-        "value": 436170,
+        "value": 441657,
         "confidence": "medium",
-        "data_points": 100
+        "data_points": 107
       },
       {
         "year": 7,
-        "value": 376138,
+        "value": 380509,
         "confidence": "medium",
-        "data_points": 72
+        "data_points": 74
       },
       {
         "year": 8,
-        "value": 348610,
+        "value": 344007,
         "confidence": "medium",
-        "data_points": 50
+        "data_points": 53
       },
       {
         "year": 9,
-        "value": 302157,
+        "value": 306760,
         "confidence": "medium",
-        "data_points": 81
+        "data_points": 94
       },
       {
         "year": 10,
-        "value": 277984,
-        "confidence": "adjusted",
-        "data_points": 85
+        "value": 302064,
+        "confidence": "medium",
+        "data_points": 91
       },
       {
         "year": 11,
-        "value": 255745,
-        "confidence": "adjusted",
-        "data_points": 33
+        "value": 278070,
+        "confidence": "medium",
+        "data_points": 31
       },
       {
         "year": 12,
-        "value": 245438,
+        "value": 244701,
         "confidence": "estimated",
         "data_points": 0
       }

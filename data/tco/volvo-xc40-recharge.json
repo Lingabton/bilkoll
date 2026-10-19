@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc40-recharge",
-  "calculated_at": "2026-10-12T16:37:23.405435+00:00",
+  "calculated_at": "2026-10-19T14:16:24.888214+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 398907,
-    "monthly_cost": 8311,
-    "cost_per_mil": 66,
+    "total_cost": 400786,
+    "monthly_cost": 8350,
+    "cost_per_mil": 67,
     "breakdown": {
-      "depreciation": 337121,
+      "depreciation": 339000,
       "fuel": 22356,
       "tax": 1440,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 337466,
+        "value": 335052,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 2,
-        "value": 310468,
+        "value": 308247,
         "confidence": "adjusted",
-        "data_points": 34
+        "data_points": 26
       },
       {
         "year": 3,
-        "value": 285630,
+        "value": 283587,
         "confidence": "adjusted",
-        "data_points": 89
+        "data_points": 76
       },
       {
         "year": 4,
-        "value": 262779,
+        "value": 260900,
         "confidence": "adjusted",
-        "data_points": 49
+        "data_points": 40
       },
       {
         "year": 5,
-        "value": 241756,
+        "value": 240028,
         "confidence": "adjusted",
-        "data_points": 35
+        "data_points": 30
       },
       {
         "year": 6,
-        "value": 222415,
+        "value": 220825,
         "confidence": "adjusted",
-        "data_points": 11
+        "data_points": 9
       },
       {
         "year": 7,
-        "value": 204621,
+        "value": 203159,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 188251,
+        "value": 186906,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "low",
   "data_quality_notes": []
 }

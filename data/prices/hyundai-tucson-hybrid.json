@@ -1,14 +1,14 @@
 {
   "model_id": "hyundai-tucson-hybrid",
-  "scraped_at": "2026-10-12T14:39:51.292906+00:00",
+  "scraped_at": "2026-10-19T12:18:21.939409+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
       "median_price": 399435,
-      "count": 46,
-      "total_on_page": 44,
+      "count": 47,
+      "total_on_page": 48,
       "price_type": "estimated_transaction",
       "p5_price": 278907,
       "p95_price": 453840,
@@ -18,8 +18,8 @@
     },
     "2024": {
       "median_price": 306435,
-      "count": 11,
-      "total_on_page": 11,
+      "count": 10,
+      "total_on_page": 10,
       "price_type": "estimated_transaction",
       "p5_price": 278907,
       "p95_price": 524148,
@@ -29,38 +29,38 @@
     },
     "2023": {
       "median_price": 311550,
-      "count": 17,
-      "total_on_page": 17,
+      "count": 19,
+      "total_on_page": 19,
       "price_type": "estimated_transaction",
-      "p5_price": 244404,
+      "p5_price": 241614,
       "p95_price": 464070,
-      "min_price": 244404,
+      "min_price": 241614,
       "max_price": 464070
     },
     "2022": {
       "median_price": 259470,
-      "count": 71,
-      "total_on_page": 71,
+      "count": 75,
+      "total_on_page": 75,
       "price_type": "estimated_transaction",
-      "p5_price": 227757,
-      "p95_price": 316107,
-      "min_price": 218457,
+      "p5_price": 218457,
+      "p95_price": 314340,
+      "min_price": 175770,
       "max_price": 325407
     },
     "2021": {
-      "median_price": 253285,
-      "count": 38,
-      "total_on_page": 38,
+      "median_price": 255564,
+      "count": 41,
+      "total_on_page": 41,
       "price_type": "estimated_transaction",
       "p5_price": 204507,
-      "p95_price": 296670,
+      "p95_price": 287835,
       "min_price": 175770,
       "max_price": 315270
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 11,
+    "min_count_per_year": 10,
     "confidence": "medium"
   }
 }

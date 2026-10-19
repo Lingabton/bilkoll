@@ -1,6 +1,6 @@
 {
   "model_id": "ford-kuga-phev",
-  "calculated_at": "2026-10-12T16:37:23.422859+00:00",
+  "calculated_at": "2026-10-19T14:16:24.905515+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 383659,
-    "monthly_cost": 7993,
-    "cost_per_mil": 64,
+    "total_cost": 390681,
+    "monthly_cost": 8139,
+    "cost_per_mil": 65,
     "breakdown": {
-      "depreciation": 261943,
+      "depreciation": 268965,
       "fuel": 72150,
       "tax": 3376,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 416640,
+        "value": 423057,
+        "confidence": "medium",
+        "data_points": 11
+      },
+      {
+        "year": 2,
+        "value": 299832,
+        "confidence": "medium",
+        "data_points": 44
+      },
+      {
+        "year": 3,
+        "value": 251007,
+        "confidence": "medium",
+        "data_points": 68
+      },
+      {
+        "year": 4,
+        "value": 230035,
+        "confidence": "medium",
+        "data_points": 102
+      },
+      {
+        "year": 5,
+        "value": 227757,
+        "confidence": "medium",
+        "data_points": 65
+      },
+      {
+        "year": 6,
+        "value": 199857,
         "confidence": "medium",
         "data_points": 13
       },
       {
-        "year": 2,
-        "value": 333870,
-        "confidence": "medium",
-        "data_points": 31
-      },
-      {
-        "year": 3,
-        "value": 253332,
-        "confidence": "medium",
-        "data_points": 60
-      },
-      {
-        "year": 4,
-        "value": 237057,
-        "confidence": "medium",
-        "data_points": 93
-      },
-      {
-        "year": 5,
-        "value": 223107,
-        "confidence": "medium",
-        "data_points": 62
-      },
-      {
-        "year": 6,
-        "value": 203670,
-        "confidence": "medium",
-        "data_points": 17
-      },
-      {
         "year": 7,
-        "value": 179229,
+        "value": 175874,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 157722,
+        "value": 154769,
         "confidence": "estimated",
         "data_points": 0
       }

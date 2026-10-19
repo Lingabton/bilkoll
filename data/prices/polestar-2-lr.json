@@ -1,25 +1,25 @@
 {
   "model_id": "polestar-2-lr",
-  "scraped_at": "2026-10-12T14:03:16.619414+00:00",
+  "scraped_at": "2026-10-19T11:43:30.715203+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 482670,
-      "count": 26,
-      "total_on_page": 26,
+      "median_price": 480763,
+      "count": 20,
+      "total_on_page": 20,
       "price_type": "estimated_transaction",
-      "p5_price": 437007,
-      "p95_price": 547305,
+      "p5_price": 427707,
+      "p95_price": 693780,
       "min_price": 425847,
       "max_price": 693780,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 399807,
-      "count": 51,
-      "total_on_page": 51,
+      "median_price": 411985,
+      "count": 48,
+      "total_on_page": 49,
       "price_type": "estimated_transaction",
       "p5_price": 330150,
       "p95_price": 492807,
@@ -28,33 +28,33 @@
       "median_mileage_mil": 20243
     },
     "2023": {
-      "median_price": 334242,
-      "count": 101,
-      "total_on_page": 101,
+      "median_price": 343170,
+      "count": 97,
+      "total_on_page": 97,
       "price_type": "estimated_transaction",
-      "p5_price": 274164,
-      "p95_price": 399807,
+      "p5_price": 273234,
+      "p95_price": 415700,
       "min_price": 241707,
       "max_price": 460164
     },
     "2022": {
-      "median_price": 304058,
-      "count": 42,
-      "total_on_page": 42,
+      "median_price": 297042,
+      "count": 34,
+      "total_on_page": 40,
       "price_type": "estimated_transaction",
-      "p5_price": 250914,
+      "p5_price": 240870,
       "p95_price": 362607,
-      "min_price": 240870,
-      "max_price": 399714
+      "min_price": 232500,
+      "max_price": 362607
     },
     "2021": {
       "median_price": 297414,
-      "count": 31,
-      "total_on_page": 31,
+      "count": 29,
+      "total_on_page": 29,
       "price_type": "estimated_transaction",
-      "p5_price": 241707,
+      "p5_price": 237057,
       "p95_price": 362607,
-      "min_price": 240870,
+      "min_price": 237057,
       "max_price": 367257
     },
     "2020": {

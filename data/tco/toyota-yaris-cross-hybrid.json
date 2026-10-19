@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-yaris-cross-hybrid",
-  "calculated_at": "2026-10-12T16:37:23.410590+00:00",
+  "calculated_at": "2026-10-19T14:16:24.892330+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 224133,
-    "monthly_cost": 4669,
-    "cost_per_mil": 37,
+    "total_cost": 238820,
+    "monthly_cost": 4975,
+    "cost_per_mil": 40,
     "breakdown": {
-      "depreciation": 116543,
+      "depreciation": 131230,
       "fuel": 57720,
       "tax": 13380,
       "insurance": {
@@ -35,47 +35,47 @@
         "year": 1,
         "value": 297507,
         "confidence": "medium",
-        "data_points": 47
+        "data_points": 50
       },
       {
         "year": 2,
-        "value": 292857,
-        "confidence": "medium",
-        "data_points": 23
+        "value": 273706,
+        "confidence": "adjusted",
+        "data_points": 22
       },
       {
         "year": 3,
         "value": 241707,
         "confidence": "medium",
-        "data_points": 63
+        "data_points": 64
       },
       {
         "year": 4,
-        "value": 237057,
-        "confidence": "medium",
-        "data_points": 23
+        "value": 222370,
+        "confidence": "adjusted",
+        "data_points": 26
       },
       {
         "year": 5,
-        "value": 227850,
-        "confidence": "medium",
-        "data_points": 5
+        "value": 204580,
+        "confidence": "adjusted",
+        "data_points": 6
       },
       {
         "year": 6,
-        "value": 200508,
+        "value": 204394,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 176447,
+        "value": 179867,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 155273,
+        "value": 158283,
         "confidence": "estimated",
         "data_points": 0
       }

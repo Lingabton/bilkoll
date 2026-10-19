@@ -1,12 +1,12 @@
 {
   "model_id": "mazda-cx5-mhev",
-  "scraped_at": "2026-10-12T14:56:03.809112+00:00",
+  "scraped_at": "2026-10-19T12:35:33.364970+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 401853,
+      "median_price": 390135,
       "count": 5,
       "total_on_page": 5,
       "price_type": "estimated_transaction",
@@ -23,20 +23,22 @@
       "price_type": "estimated_transaction"
     },
     "2022": {
-      "median_price": 323965,
+      "median_price": 319315,
       "count": 4,
       "total_on_page": 4,
       "price_type": "estimated_transaction",
-      "min_price": 297507,
+      "min_price": 278535,
       "max_price": 369024,
       "median_mileage_mil": 20220
     },
     "2021": {
-      "median_price": 310620,
-      "count": 3,
-      "total_on_page": 3,
+      "median_price": 287788,
+      "count": 6,
+      "total_on_page": 6,
       "price_type": "estimated_transaction",
-      "min_price": 274257,
+      "p5_price": 232407,
+      "p95_price": 353307,
+      "min_price": 232407,
       "max_price": 353307,
       "median_mileage_mil": 20210
     },
@@ -46,34 +48,34 @@
       "total_on_page": 5,
       "price_type": "estimated_transaction",
       "p5_price": 250170,
-      "p95_price": 278907,
+      "p95_price": 288207,
       "min_price": 250170,
-      "max_price": 278907
+      "max_price": 288207
     },
     "2019": {
-      "median_price": 240870,
-      "count": 16,
-      "total_on_page": 16,
+      "median_price": 231570,
+      "count": 21,
+      "total_on_page": 21,
       "price_type": "estimated_transaction",
-      "p5_price": 167307,
-      "p95_price": 269607,
-      "min_price": 167307,
+      "p5_price": 176700,
+      "p95_price": 251007,
+      "min_price": 138570,
       "max_price": 269607
     },
     "2018": {
-      "median_price": 204507,
-      "count": 20,
-      "total_on_page": 20,
+      "median_price": 195207,
+      "count": 17,
+      "total_on_page": 17,
       "price_type": "estimated_transaction",
-      "p5_price": 167307,
-      "p95_price": 264957,
-      "min_price": 162657,
-      "max_price": 264957
+      "p5_price": 155310,
+      "p95_price": 259377,
+      "min_price": 155310,
+      "max_price": 259377
     },
     "2017": {
-      "median_price": 174282,
-      "count": 12,
-      "total_on_page": 12,
+      "median_price": 176607,
+      "count": 11,
+      "total_on_page": 11,
       "price_type": "estimated_transaction",
       "p5_price": 147870,
       "p95_price": 213807,

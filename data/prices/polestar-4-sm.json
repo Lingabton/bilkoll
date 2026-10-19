@@ -1,28 +1,28 @@
 {
   "model_id": "polestar-4-sm",
-  "scraped_at": "2026-10-12T14:49:11.965186+00:00",
+  "scraped_at": "2026-10-19T12:28:13.943468+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 567207,
+      "median_price": 557814,
       "count": 83,
-      "total_on_page": 83,
+      "total_on_page": 93,
       "price_type": "estimated_transaction",
-      "p5_price": 469464,
-      "p95_price": 664950,
-      "min_price": 463884,
+      "p5_price": 467780,
+      "p95_price": 652860,
+      "min_price": 431613,
       "max_price": 753207,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 543957,
-      "count": 41,
-      "total_on_page": 41,
+      "median_price": 539307,
+      "count": 43,
+      "total_on_page": 43,
       "price_type": "estimated_transaction",
       "p5_price": 464907,
-      "p95_price": 604035,
+      "p95_price": 589620,
       "min_price": 464907,
       "max_price": 753207,
       "median_mileage_mil": 20243
@@ -30,7 +30,7 @@
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 41,
+    "min_count_per_year": 43,
     "confidence": "medium"
   }
 }

@@ -1,35 +1,35 @@
 {
   "model_id": "volvo-ex30-twin",
-  "scraped_at": "2026-10-12T13:45:44.356330+00:00",
+  "scraped_at": "2026-10-19T11:26:54.628554+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 371907,
-      "count": 78,
-      "total_on_page": 71,
+      "median_price": 376371,
+      "count": 74,
+      "total_on_page": 74,
       "price_type": "estimated_transaction",
-      "p5_price": 343914,
-      "p95_price": 585156,
-      "min_price": 306714,
-      "max_price": 612870,
-      "median_mileage_mil": 20251
+      "p5_price": 344007,
+      "p95_price": 464907,
+      "min_price": 334707,
+      "max_price": 494760,
+      "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 341310,
-      "count": 48,
-      "total_on_page": 48,
+      "median_price": 339357,
+      "count": 46,
+      "total_on_page": 46,
       "price_type": "estimated_transaction",
-      "p5_price": 296670,
+      "p5_price": 297507,
       "p95_price": 395157,
-      "min_price": 283557,
+      "min_price": 288207,
       "max_price": 417570
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 48,
+    "min_count_per_year": 46,
     "confidence": "medium"
   }
 }

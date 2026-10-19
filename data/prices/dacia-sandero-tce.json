@@ -1,6 +1,6 @@
 {
   "model_id": "dacia-sandero-tce",
-  "scraped_at": "2026-10-12T16:11:36.399103+00:00",
+  "scraped_at": "2026-10-19T13:51:10.757067+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -17,51 +17,51 @@
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 157170,
-      "count": 25,
-      "total_on_page": 25,
+      "median_price": 157960,
+      "count": 28,
+      "total_on_page": 28,
       "price_type": "estimated_transaction",
-      "p5_price": 120807,
-      "p95_price": 185814,
-      "min_price": 111507,
-      "max_price": 204135,
+      "p5_price": 126945,
+      "p95_price": 204135,
+      "min_price": 106857,
+      "max_price": 278907,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 116157,
-      "count": 84,
-      "total_on_page": 84,
+      "median_price": 120807,
+      "count": 76,
+      "total_on_page": 76,
       "price_type": "estimated_transaction",
       "p5_price": 92907,
-      "p95_price": 148707,
+      "p95_price": 158007,
       "min_price": 92349,
-      "max_price": 167307,
+      "max_price": 176328,
       "median_mileage_mil": 3407
     },
     "2022": {
-      "median_price": 120807,
-      "count": 16,
-      "total_on_page": 16,
-      "price_type": "estimated_transaction",
-      "p5_price": 88164,
-      "p95_price": 157170,
-      "min_price": 88164,
-      "max_price": 157170
-    },
-    "2021": {
-      "median_price": 117645,
+      "median_price": 125364,
       "count": 12,
       "total_on_page": 12,
       "price_type": "estimated_transaction",
-      "p5_price": 77190,
-      "p95_price": 130107,
-      "min_price": 77190,
-      "max_price": 130107
+      "p5_price": 87420,
+      "p95_price": 148707,
+      "min_price": 87420,
+      "max_price": 148707
+    },
+    "2021": {
+      "median_price": 119133,
+      "count": 11,
+      "total_on_page": 11,
+      "price_type": "estimated_transaction",
+      "p5_price": 65007,
+      "p95_price": 148614,
+      "min_price": 65007,
+      "max_price": 148614
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 12,
+    "min_count_per_year": 11,
     "confidence": "medium"
   }
 }

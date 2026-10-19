@@ -1,6 +1,6 @@
 {
   "model_id": "skoda-kodiaq-tsi",
-  "calculated_at": "2026-10-12T16:37:23.416642+00:00",
+  "calculated_at": "2026-10-19T14:16:24.898138+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 261424,
-    "monthly_cost": 5446,
-    "cost_per_mil": 44,
+    "total_cost": 286813,
+    "monthly_cost": 5975,
+    "cost_per_mil": 48,
     "breakdown": {
-      "depreciation": 94904,
+      "depreciation": 120293,
       "fuel": 92130,
       "tax": 28600,
       "insurance": {
@@ -33,51 +33,51 @@
       },
       {
         "year": 1,
-        "value": 401946,
+        "value": 395157,
         "confidence": "medium",
-        "data_points": 64
+        "data_points": 70
       },
       {
         "year": 2,
         "value": 383113,
         "confidence": "medium",
-        "data_points": 18
+        "data_points": 22
       },
       {
         "year": 3,
-        "value": 338938,
+        "value": 347820,
         "confidence": "medium",
-        "data_points": 12
+        "data_points": 13
       },
       {
         "year": 4,
-        "value": 313596,
+        "value": 288207,
         "confidence": "medium",
-        "data_points": 8
+        "data_points": 6
       },
       {
         "year": 5,
-        "value": 288508,
+        "value": 265150,
         "confidence": "adjusted",
         "data_points": 10
       },
       {
         "year": 6,
-        "value": 265427,
+        "value": 243938,
         "confidence": "adjusted",
-        "data_points": 13
+        "data_points": 11
       },
       {
         "year": 7,
         "value": 243613,
         "confidence": "medium",
-        "data_points": 12
+        "data_points": 14
       },
       {
         "year": 8,
-        "value": 209110,
+        "value": 213807,
         "confidence": "medium",
-        "data_points": 18
+        "data_points": 21
       },
       {
         "year": 9,
