@@ -1,14 +1,14 @@
 {
   "model_id": "tesla-model-y-lr",
-  "scraped_at": "2026-10-19T11:01:26.524767+00:00",
+  "scraped_at": "2026-10-26T11:17:20.228322+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 502107,
-      "count": 29,
-      "total_on_page": 29,
+      "median_price": 474114,
+      "count": 28,
+      "total_on_page": 28,
       "price_type": "estimated_transaction",
       "p5_price": 436914,
       "p95_price": 613614,
@@ -16,39 +16,39 @@
       "max_price": 618450
     },
     "2024": {
-      "median_price": 409107,
-      "count": 113,
-      "total_on_page": 113,
+      "median_price": 409014,
+      "count": 109,
+      "total_on_page": 110,
       "price_type": "estimated_transaction",
-      "p5_price": 343170,
-      "p95_price": 455514,
+      "p5_price": 343914,
+      "p95_price": 450864,
       "min_price": 287370,
-      "max_price": 492714
+      "max_price": 474114
     },
     "2023": {
-      "median_price": 353307,
-      "count": 250,
-      "total_on_page": 265,
+      "median_price": 353214,
+      "count": 247,
+      "total_on_page": 259,
       "price_type": "estimated_transaction",
       "p5_price": 296670,
-      "p95_price": 421280,
-      "min_price": 278070,
-      "max_price": 455607
+      "p95_price": 427614,
+      "min_price": 269514,
+      "max_price": 623007
     },
     "2022": {
-      "median_price": 348750,
-      "count": 77,
-      "total_on_page": 77,
+      "median_price": 353214,
+      "count": 75,
+      "total_on_page": 75,
       "price_type": "estimated_transaction",
-      "p5_price": 305970,
-      "p95_price": 402680,
+      "p5_price": 306714,
+      "p95_price": 399890,
       "min_price": 278907,
       "max_price": 609150
     },
     "2021": {
       "median_price": 306714,
-      "count": 34,
-      "total_on_page": 34,
+      "count": 30,
+      "total_on_page": 31,
       "price_type": "estimated_transaction",
       "p5_price": 246450,
       "p95_price": 371070,
@@ -58,7 +58,7 @@
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 29,
+    "min_count_per_year": 28,
     "confidence": "medium"
   }
 }

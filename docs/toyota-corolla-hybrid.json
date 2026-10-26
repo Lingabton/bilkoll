@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-corolla-hybrid",
-  "calculated_at": "2026-10-19T14:16:24.889688+00:00",
+  "calculated_at": "2026-10-26T14:31:29.699810+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 198821,
-    "monthly_cost": 4142,
-    "cost_per_mil": 33,
+    "total_cost": 202448,
+    "monthly_cost": 4218,
+    "cost_per_mil": 34,
     "breakdown": {
-      "depreciation": 93423,
+      "depreciation": 97050,
       "fuel": 55500,
       "tax": 12008,
       "insurance": {
@@ -33,45 +33,45 @@
       },
       {
         "year": 1,
-        "value": 292903,
+        "value": 288207,
         "confidence": "medium",
-        "data_points": 54
+        "data_points": 66
       },
       {
         "year": 2,
         "value": 269607,
         "confidence": "medium",
-        "data_points": 100
+        "data_points": 95
       },
       {
         "year": 3,
-        "value": 251007,
+        "value": 255750,
         "confidence": "medium",
-        "data_points": 59
+        "data_points": 53
       },
       {
         "year": 4,
-        "value": 231477,
+        "value": 227850,
         "confidence": "medium",
-        "data_points": 45
+        "data_points": 39
       },
       {
         "year": 5,
-        "value": 218457,
+        "value": 217527,
         "confidence": "medium",
-        "data_points": 55
+        "data_points": 48
       },
       {
         "year": 6,
-        "value": 203670,
+        "value": 204088,
         "confidence": "medium",
-        "data_points": 33
+        "data_points": 30
       },
       {
         "year": 7,
         "value": 195253,
         "confidence": "medium",
-        "data_points": 40
+        "data_points": 42
       },
       {
         "year": 8,

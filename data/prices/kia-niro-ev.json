@@ -1,48 +1,50 @@
 {
   "model_id": "kia-niro-ev",
-  "scraped_at": "2026-10-19T11:13:31.181474+00:00",
+  "scraped_at": "2026-10-26T11:28:44.467133+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2024": {
-      "median_price": 315688,
-      "count": 2,
-      "total_on_page": 2,
-      "price_type": "estimated_transaction"
+      "median_price": 305970,
+      "count": 3,
+      "total_on_page": 3,
+      "price_type": "estimated_transaction",
+      "min_price": 292764,
+      "max_price": 325407
     },
     "2023": {
-      "median_price": 294903,
+      "median_price": 292578,
       "count": 4,
       "total_on_page": 4,
       "price_type": "estimated_transaction",
       "min_price": 250170,
-      "max_price": 334614
+      "max_price": 315549
     },
     "2022": {
-      "median_price": 224543,
-      "count": 20,
-      "total_on_page": 20,
+      "median_price": 223107,
+      "count": 15,
+      "total_on_page": 15,
       "price_type": "estimated_transaction",
-      "p5_price": 195114,
-      "p95_price": 285500,
+      "p5_price": 176607,
+      "p95_price": 284570,
       "min_price": 176607,
-      "max_price": 285500
+      "max_price": 284570
     },
     "2021": {
-      "median_price": 194370,
-      "count": 13,
-      "total_on_page": 13,
+      "median_price": 203670,
+      "count": 7,
+      "total_on_page": 7,
       "price_type": "estimated_transaction",
-      "p5_price": 162657,
-      "p95_price": 213807,
-      "min_price": 162657,
-      "max_price": 213807
+      "p5_price": 185907,
+      "p95_price": 232314,
+      "min_price": 185907,
+      "max_price": 232314
     },
     "2020": {
-      "median_price": 193853,
-      "count": 14,
-      "total_on_page": 14,
+      "median_price": 190557,
+      "count": 13,
+      "total_on_page": 13,
       "price_type": "estimated_transaction",
       "p5_price": 158007,
       "p95_price": 232407,
@@ -50,19 +52,19 @@
       "max_price": 232407
     },
     "2019": {
-      "median_price": 165540,
-      "count": 7,
-      "total_on_page": 7,
+      "median_price": 167307,
+      "count": 11,
+      "total_on_page": 11,
       "price_type": "estimated_transaction",
       "p5_price": 162192,
-      "p95_price": 204414,
+      "p95_price": 204507,
       "min_price": 162192,
-      "max_price": 204414
+      "max_price": 204507
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 2,
+    "min_count_per_year": 3,
     "confidence": "low"
   }
 }

@@ -1,6 +1,6 @@
 {
   "model_id": "mercedes-eqa-250",
-  "scraped_at": "2026-10-19T12:07:25.863311+00:00",
+  "scraped_at": "2026-10-26T12:23:01.431961+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -13,13 +13,13 @@
     },
     "2023": {
       "median_price": 331070,
-      "count": 5,
-      "total_on_page": 5,
+      "count": 7,
+      "total_on_page": 7,
       "price_type": "estimated_transaction",
-      "p5_price": 321770,
-      "p95_price": 364550,
-      "min_price": 321770,
-      "max_price": 364550
+      "p5_price": 315270,
+      "p95_price": 363620,
+      "min_price": 315270,
+      "max_price": 363620
     }
   },
   "validation": {

@@ -1,6 +1,6 @@
 {
   "model_id": "byd-atto3-comfort",
-  "calculated_at": "2026-10-19T14:16:24.898701+00:00",
+  "calculated_at": "2026-10-26T14:31:29.709705+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 316784,
-    "monthly_cost": 6600,
-    "cost_per_mil": 53,
+    "total_cost": 314738,
+    "monthly_cost": 6557,
+    "cost_per_mil": 52,
     "breakdown": {
-      "depreciation": 254014,
+      "depreciation": 251968,
       "fuel": 19440,
       "tax": 1440,
       "insurance": {
@@ -45,37 +45,37 @@
       },
       {
         "year": 3,
-        "value": 251007,
+        "value": 253332,
         "confidence": "medium",
-        "data_points": 6
+        "data_points": 2
       },
       {
         "year": 4,
-        "value": 220886,
+        "value": 222932,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 194379,
+        "value": 196180,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 171054,
+        "value": 172638,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 150527,
+        "value": 151922,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 132464,
+        "value": 133691,
         "confidence": "estimated",
         "data_points": 0
       }

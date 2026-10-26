@@ -1,66 +1,66 @@
 {
   "model_id": "nissan-qashqai-epower",
-  "scraped_at": "2026-10-19T14:05:03.765722+00:00",
+  "scraped_at": "2026-10-26T14:20:07.283880+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 306807,
-      "count": 85,
-      "total_on_page": 84,
+      "median_price": 305040,
+      "count": 78,
+      "total_on_page": 78,
       "price_type": "estimated_transaction",
-      "p5_price": 269514,
-      "p95_price": 360840,
-      "min_price": 260307,
-      "max_price": 389019,
+      "p5_price": 264957,
+      "p95_price": 350563,
+      "min_price": 241614,
+      "max_price": 366328,
       "median_mileage_mil": 20250
     },
     "2024": {
       "median_price": 278860,
       "count": 72,
-      "total_on_page": 71,
+      "total_on_page": 72,
       "price_type": "estimated_transaction",
       "p5_price": 240870,
       "p95_price": 361956,
-      "min_price": 217527,
+      "min_price": 171120,
       "max_price": 431103,
       "median_mileage_mil": 20240
     },
     "2023": {
       "median_price": 241707,
-      "count": 49,
-      "total_on_page": 49,
+      "count": 54,
+      "total_on_page": 54,
       "price_type": "estimated_transaction",
-      "p5_price": 195207,
-      "p95_price": 277140,
+      "p5_price": 190557,
+      "p95_price": 278070,
       "min_price": 185721,
       "max_price": 297507
     },
     "2022": {
       "median_price": 232407,
-      "count": 28,
-      "total_on_page": 29,
+      "count": 32,
+      "total_on_page": 32,
       "price_type": "estimated_transaction",
       "p5_price": 185442,
-      "p95_price": 264957,
+      "p95_price": 268677,
       "min_price": 181257,
-      "max_price": 268677
+      "max_price": 288207
     },
     "2021": {
-      "median_price": 185442,
-      "count": 42,
-      "total_on_page": 42,
+      "median_price": 185070,
+      "count": 35,
+      "total_on_page": 35,
       "price_type": "estimated_transaction",
-      "p5_price": 147870,
+      "p5_price": 147777,
       "p95_price": 251007,
       "min_price": 139407,
-      "max_price": 322012
+      "max_price": 268770
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 28,
+    "min_count_per_year": 32,
     "confidence": "medium"
   }
 }

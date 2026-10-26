@@ -1,6 +1,6 @@
 {
   "model_id": "ford-kuga-phev",
-  "calculated_at": "2026-10-19T14:16:24.905515+00:00",
+  "calculated_at": "2026-10-26T14:31:29.716057+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 390681,
-    "monthly_cost": 8139,
+    "total_cost": 388402,
+    "monthly_cost": 8092,
     "cost_per_mil": 65,
     "breakdown": {
-      "depreciation": 268965,
+      "depreciation": 266686,
       "fuel": 72150,
       "tax": 3376,
       "insurance": {
@@ -33,39 +33,39 @@
       },
       {
         "year": 1,
-        "value": 423057,
+        "value": 405898,
         "confidence": "medium",
-        "data_points": 11
+        "data_points": 12
       },
       {
         "year": 2,
-        "value": 299832,
+        "value": 300380,
         "confidence": "medium",
-        "data_points": 44
+        "data_points": 43
       },
       {
         "year": 3,
         "value": 251007,
         "confidence": "medium",
-        "data_points": 68
+        "data_points": 70
       },
       {
         "year": 4,
-        "value": 230035,
+        "value": 232314,
         "confidence": "medium",
-        "data_points": 102
+        "data_points": 104
       },
       {
         "year": 5,
-        "value": 227757,
+        "value": 225432,
         "confidence": "medium",
-        "data_points": 65
+        "data_points": 64
       },
       {
         "year": 6,
         "value": 199857,
         "confidence": "medium",
-        "data_points": 13
+        "data_points": 15
       },
       {
         "year": 7,

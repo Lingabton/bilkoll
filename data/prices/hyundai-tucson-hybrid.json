@@ -1,25 +1,25 @@
 {
   "model_id": "hyundai-tucson-hybrid",
-  "scraped_at": "2026-10-19T12:18:21.939409+00:00",
+  "scraped_at": "2026-10-26T12:34:32.262854+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 399435,
-      "count": 47,
-      "total_on_page": 48,
+      "median_price": 397854,
+      "count": 43,
+      "total_on_page": 43,
       "price_type": "estimated_transaction",
-      "p5_price": 278907,
-      "p95_price": 453840,
+      "p5_price": 288207,
+      "p95_price": 446307,
       "min_price": 69750,
       "max_price": 538098,
       "median_mileage_mil": 20250
     },
     "2024": {
       "median_price": 306435,
-      "count": 10,
-      "total_on_page": 10,
+      "count": 8,
+      "total_on_page": 8,
       "price_type": "estimated_transaction",
       "p5_price": 278907,
       "p95_price": 524148,
@@ -28,39 +28,39 @@
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 311550,
-      "count": 19,
-      "total_on_page": 19,
+      "median_price": 316107,
+      "count": 17,
+      "total_on_page": 17,
       "price_type": "estimated_transaction",
-      "p5_price": 241614,
+      "p5_price": 250635,
       "p95_price": 464070,
-      "min_price": 241614,
+      "min_price": 250635,
       "max_price": 464070
     },
     "2022": {
-      "median_price": 259470,
-      "count": 75,
-      "total_on_page": 75,
+      "median_price": 260307,
+      "count": 62,
+      "total_on_page": 62,
       "price_type": "estimated_transaction",
-      "p5_price": 218457,
-      "p95_price": 314340,
-      "min_price": 175770,
-      "max_price": 325407
+      "p5_price": 227571,
+      "p95_price": 316107,
+      "min_price": 218457,
+      "max_price": 320664
     },
     "2021": {
-      "median_price": 255564,
-      "count": 41,
-      "total_on_page": 41,
+      "median_price": 241707,
+      "count": 33,
+      "total_on_page": 33,
       "price_type": "estimated_transaction",
-      "p5_price": 204507,
-      "p95_price": 287835,
-      "min_price": 175770,
+      "p5_price": 199857,
+      "p95_price": 296670,
+      "min_price": 192417,
       "max_price": 315270
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 10,
-    "confidence": "medium"
+    "min_count_per_year": 8,
+    "confidence": "low"
   }
 }

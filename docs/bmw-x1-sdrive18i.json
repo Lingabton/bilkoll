@@ -1,6 +1,6 @@
 {
   "model_id": "bmw-x1-sdrive18i",
-  "calculated_at": "2026-10-19T14:16:24.917625+00:00",
+  "calculated_at": "2026-10-26T14:31:29.730140+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 321565,
-    "monthly_cost": 6699,
+    "total_cost": 323890,
+    "monthly_cost": 6748,
     "cost_per_mil": 54,
     "breakdown": {
-      "depreciation": 178161,
+      "depreciation": 180486,
       "fuel": 73260,
       "tax": 29854,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 446307,
+        "value": 445191,
         "confidence": "medium",
-        "data_points": 37
+        "data_points": 35
       },
       {
         "year": 2,
-        "value": 415617,
+        "value": 413664,
         "confidence": "medium",
-        "data_points": 22
+        "data_points": 23
       },
       {
         "year": 3,
         "value": 353307,
         "confidence": "medium",
-        "data_points": 25
+        "data_points": 23
       },
       {
         "year": 4,
-        "value": 271839,
+        "value": 269514,
         "confidence": "medium",
-        "data_points": 36
+        "data_points": 37
       },
       {
         "year": 5,
-        "value": 239218,
+        "value": 237172,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 210512,
+        "value": 208711,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 185250,
+        "value": 183666,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 163020,
+        "value": 161626,
         "confidence": "estimated",
         "data_points": 0
       }

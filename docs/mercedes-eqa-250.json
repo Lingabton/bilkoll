@@ -1,6 +1,6 @@
 {
   "model_id": "mercedes-eqa-250",
-  "calculated_at": "2026-10-19T14:16:24.899802+00:00",
+  "calculated_at": "2026-10-26T14:31:29.710650+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -47,7 +47,7 @@
         "year": 3,
         "value": 221523,
         "confidence": "adjusted",
-        "data_points": 5
+        "data_points": 7
       },
       {
         "year": 4,

@@ -1,6 +1,6 @@
 {
   "model_id": "peugeot-e208",
-  "scraped_at": "2026-10-19T11:37:26.140223+00:00",
+  "scraped_at": "2026-10-26T11:52:40.701252+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -19,21 +19,21 @@
       "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 199857,
-      "count": 11,
-      "total_on_page": 11,
+      "median_price": 195160,
+      "count": 10,
+      "total_on_page": 10,
       "price_type": "estimated_transaction",
-      "p5_price": 195114,
+      "p5_price": 148335,
       "p95_price": 251007,
-      "min_price": 195114,
+      "min_price": 148335,
       "max_price": 251007
     },
     "2022": {
       "median_price": 204507,
-      "count": 31,
-      "total_on_page": 31,
+      "count": 34,
+      "total_on_page": 34,
       "price_type": "estimated_transaction",
-      "p5_price": 157170,
+      "p5_price": 167307,
       "p95_price": 357957,
       "min_price": 153357,
       "max_price": 455174,
@@ -41,19 +41,19 @@
     },
     "2021": {
       "median_price": 185907,
-      "count": 16,
-      "total_on_page": 16,
+      "count": 18,
+      "total_on_page": 18,
       "price_type": "estimated_transaction",
-      "p5_price": 167214,
+      "p5_price": 158100,
       "p95_price": 344007,
-      "min_price": 167214,
+      "min_price": 158100,
       "max_price": 344007,
       "median_mileage_mil": 20210
     },
     "2020": {
-      "median_price": 130200,
-      "count": 1,
-      "total_on_page": 1,
+      "median_price": 153403,
+      "count": 2,
+      "total_on_page": 2,
       "price_type": "estimated_transaction"
     }
   },

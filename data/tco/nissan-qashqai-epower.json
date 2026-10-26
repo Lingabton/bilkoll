@@ -1,6 +1,6 @@
 {
   "model_id": "nissan-qashqai-epower",
-  "calculated_at": "2026-10-19T14:16:24.918242+00:00",
+  "calculated_at": "2026-10-26T14:31:29.731035+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,9 +33,9 @@
       },
       {
         "year": 1,
-        "value": 306807,
+        "value": 305040,
         "confidence": "medium",
-        "data_points": 85
+        "data_points": 78
       },
       {
         "year": 2,
@@ -47,35 +47,35 @@
         "year": 3,
         "value": 241707,
         "confidence": "medium",
-        "data_points": 49
+        "data_points": 54
       },
       {
         "year": 4,
         "value": 232407,
         "confidence": "medium",
-        "data_points": 28
+        "data_points": 32
       },
       {
         "year": 5,
-        "value": 185442,
+        "value": 185070,
         "confidence": "medium",
-        "data_points": 42
+        "data_points": 35
       },
       {
         "year": 6,
-        "value": 163188,
+        "value": 162861,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 143606,
+        "value": 143318,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 126373,
+        "value": 126120,
         "confidence": "estimated",
         "data_points": 0
       }

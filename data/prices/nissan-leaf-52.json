@@ -1,6 +1,6 @@
 {
   "model_id": "nissan-leaf-52",
-  "scraped_at": "2026-10-19T11:45:45.703695+00:00",
+  "scraped_at": "2026-10-26T12:01:20.578949+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -12,40 +12,46 @@
       "price_type": "estimated_transaction",
       "median_mileage_mil": 20250
     },
+    "2024": {
+      "median_price": 212970,
+      "count": 1,
+      "total_on_page": 1,
+      "price_type": "estimated_transaction"
+    },
     "2023": {
-      "median_price": 190557,
-      "count": 49,
-      "total_on_page": 49,
+      "median_price": 185070,
+      "count": 45,
+      "total_on_page": 45,
       "price_type": "estimated_transaction",
       "p5_price": 162564,
-      "p95_price": 213807,
+      "p95_price": 220400,
       "min_price": 148707,
-      "max_price": 223107
+      "max_price": 255657
     },
     "2022": {
       "median_price": 167307,
-      "count": 75,
-      "total_on_page": 75,
+      "count": 77,
+      "total_on_page": 77,
       "price_type": "estimated_transaction",
-      "p5_price": 144150,
+      "p5_price": 147870,
       "p95_price": 231477,
-      "min_price": 138570,
+      "min_price": 144057,
       "max_price": 240777
     },
     "2021": {
-      "median_price": 166702,
-      "count": 24,
-      "total_on_page": 24,
+      "median_price": 167121,
+      "count": 30,
+      "total_on_page": 30,
       "price_type": "estimated_transaction",
-      "p5_price": 139221,
-      "p95_price": 195207,
-      "min_price": 130107,
-      "max_price": 203670
+      "p5_price": 130107,
+      "p95_price": 209064,
+      "min_price": 72540,
+      "max_price": 213714
     },
     "2020": {
-      "median_price": 148707,
-      "count": 9,
-      "total_on_page": 9,
+      "median_price": 155726,
+      "count": 8,
+      "total_on_page": 8,
       "price_type": "estimated_transaction",
       "p5_price": 92721,
       "p95_price": 250170,
@@ -53,7 +59,7 @@
       "max_price": 250170
     },
     "2019": {
-      "median_price": 152980,
+      "median_price": 157588,
       "count": 6,
       "total_on_page": 6,
       "price_type": "estimated_transaction",

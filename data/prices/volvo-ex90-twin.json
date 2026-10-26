@@ -1,28 +1,28 @@
 {
   "model_id": "volvo-ex90-twin",
-  "scraped_at": "2026-10-19T12:41:28.493802+00:00",
+  "scraped_at": "2026-10-26T12:56:57.594904+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 743628,
-      "count": 73,
-      "total_on_page": 79,
+      "median_price": 743302,
+      "count": 68,
+      "total_on_page": 68,
       "price_type": "estimated_transaction",
-      "p5_price": 677970,
+      "p5_price": 669507,
       "p95_price": 915957,
-      "min_price": 669507,
+      "min_price": 234295,
       "max_price": 1210209,
       "median_mileage_mil": 20251
     },
     "2024": {
-      "median_price": 741396,
-      "count": 24,
-      "total_on_page": 24,
+      "median_price": 739257,
+      "count": 20,
+      "total_on_page": 20,
       "price_type": "estimated_transaction",
-      "p5_price": 677970,
-      "p95_price": 929535,
+      "p5_price": 678435,
+      "p95_price": 999657,
       "min_price": 622635,
       "max_price": 999657,
       "median_mileage_mil": 20241
@@ -30,7 +30,7 @@
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 24,
+    "min_count_per_year": 20,
     "confidence": "medium"
   }
 }

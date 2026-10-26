@@ -1,6 +1,6 @@
 {
   "model_id": "vw-t-roc-etsi",
-  "calculated_at": "2026-10-19T14:16:24.911461+00:00",
+  "calculated_at": "2026-10-26T14:31:29.721780+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 292616,
-    "monthly_cost": 6096,
+    "total_cost": 292198,
+    "monthly_cost": 6087,
     "cost_per_mil": 49,
     "breakdown": {
-      "depreciation": 159330,
+      "depreciation": 158912,
       "fuel": 68820,
       "tax": 21076,
       "insurance": {
@@ -33,55 +33,55 @@
       },
       {
         "year": 1,
-        "value": 302157,
+        "value": 305970,
         "confidence": "medium",
-        "data_points": 47
+        "data_points": 43
       },
       {
         "year": 2,
-        "value": 268770,
+        "value": 266863,
         "confidence": "medium",
-        "data_points": 55
+        "data_points": 48
       },
       {
         "year": 3,
-        "value": 213202,
+        "value": 210087,
         "confidence": "medium",
-        "data_points": 164
+        "data_points": 149
       },
       {
         "year": 4,
-        "value": 203670,
+        "value": 204088,
         "confidence": "medium",
-        "data_points": 51
+        "data_points": 50
       },
       {
         "year": 5,
-        "value": 195207,
+        "value": 190557,
         "confidence": "medium",
-        "data_points": 31
+        "data_points": 33
       },
       {
         "year": 6,
-        "value": 178978,
+        "value": 183582,
         "confidence": "medium",
         "data_points": 36
       },
       {
         "year": 7,
-        "value": 164659,
-        "confidence": "adjusted",
-        "data_points": 19
+        "value": 178467,
+        "confidence": "medium",
+        "data_points": 20
       },
       {
         "year": 8,
-        "value": 151486,
+        "value": 164189,
         "confidence": "adjusted",
-        "data_points": 34
+        "data_points": 29
       },
       {
         "year": 9,
-        "value": 139367,
+        "value": 162861,
         "confidence": "estimated",
         "data_points": 0
       }

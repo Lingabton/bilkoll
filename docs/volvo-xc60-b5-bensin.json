@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-xc60-b5-bensin",
-  "calculated_at": "2026-10-19T14:16:24.886784+00:00",
+  "calculated_at": "2026-10-26T14:31:29.696097+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 497494,
-    "monthly_cost": 10364,
-    "cost_per_mil": 83,
+    "total_cost": 501307,
+    "monthly_cost": 10444,
+    "cost_per_mil": 84,
     "breakdown": {
-      "depreciation": 356230,
+      "depreciation": 360043,
       "fuel": 83250,
       "tax": 3024,
       "insurance": {
@@ -33,37 +33,37 @@
       },
       {
         "year": 1,
-        "value": 437007,
+        "value": 436914,
         "confidence": "medium",
         "data_points": 250
       },
       {
         "year": 2,
-        "value": 398970,
+        "value": 392450,
         "confidence": "medium",
         "data_points": 250
       },
       {
         "year": 3,
-        "value": 361770,
+        "value": 365438,
         "confidence": "medium",
         "data_points": 250
       },
       {
         "year": 4,
-        "value": 361770,
+        "value": 357957,
         "confidence": "medium",
         "data_points": 250
       },
       {
         "year": 5,
-        "value": 320664,
+        "value": 320710,
         "confidence": "medium",
         "data_points": 250
       },
       {
         "year": 6,
-        "value": 288090,
+        "value": 288114,
         "confidence": "medium",
         "data_points": 250
       },
@@ -71,13 +71,13 @@
         "year": 7,
         "value": 269607,
         "confidence": "medium",
-        "data_points": 240
+        "data_points": 250
       },
       {
         "year": 8,
         "value": 269607,
         "confidence": "medium",
-        "data_points": 247
+        "data_points": 244
       },
       {
         "year": 9,

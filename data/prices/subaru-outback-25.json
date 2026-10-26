@@ -1,25 +1,25 @@
 {
   "model_id": "subaru-outback-25",
-  "scraped_at": "2026-10-19T13:10:47.538628+00:00",
+  "scraped_at": "2026-10-26T13:24:56.291833+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 426126,
-      "count": 102,
-      "total_on_page": 109,
+      "median_price": 426870,
+      "count": 96,
+      "total_on_page": 100,
       "price_type": "estimated_transaction",
       "p5_price": 353307,
-      "p95_price": 459234,
-      "min_price": 353307,
+      "p95_price": 461094,
+      "min_price": 278070,
       "max_price": 473977,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 371907,
-      "count": 29,
-      "total_on_page": 29,
+      "median_price": 371070,
+      "count": 31,
+      "total_on_page": 31,
       "price_type": "estimated_transaction",
       "p5_price": 297135,
       "p95_price": 427707,
@@ -28,20 +28,19 @@
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 337078,
-      "count": 56,
-      "total_on_page": 56,
+      "median_price": 334800,
+      "count": 53,
+      "total_on_page": 53,
       "price_type": "estimated_transaction",
-      "p5_price": 297507,
-      "p95_price": 418314,
+      "p5_price": 297414,
+      "p95_price": 381207,
       "min_price": 288207,
-      "max_price": 437007,
-      "median_mileage_mil": 20230
+      "max_price": 437007
     },
     "2022": {
       "median_price": 316107,
-      "count": 35,
-      "total_on_page": 35,
+      "count": 32,
+      "total_on_page": 32,
       "price_type": "estimated_transaction",
       "p5_price": 259005,
       "p95_price": 407247,
@@ -50,9 +49,9 @@
       "median_mileage_mil": 20220
     },
     "2021": {
-      "median_price": 302157,
-      "count": 33,
-      "total_on_page": 33,
+      "median_price": 300762,
+      "count": 32,
+      "total_on_page": 32,
       "price_type": "estimated_transaction",
       "p5_price": 269607,
       "p95_price": 367071,
@@ -62,7 +61,7 @@
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 29,
+    "min_count_per_year": 31,
     "confidence": "medium"
   }
 }

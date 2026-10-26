@@ -1,6 +1,6 @@
 {
   "model_id": "mercedes-eqe-350",
-  "scraped_at": "2026-10-19T13:56:51.493302+00:00",
+  "scraped_at": "2026-10-26T14:11:23.715656+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -28,7 +28,7 @@
       "count": 3,
       "total_on_page": 3,
       "price_type": "estimated_transaction",
-      "min_price": 381290,
+      "min_price": 380360,
       "max_price": 437007
     },
     "2022": {

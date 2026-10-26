@@ -1,47 +1,47 @@
 {
   "model_id": "bmw-x1-sdrive18i",
-  "scraped_at": "2026-10-19T14:00:39.053663+00:00",
+  "scraped_at": "2026-10-26T14:15:32.077396+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 446307,
-      "count": 37,
-      "total_on_page": 37,
+      "median_price": 445191,
+      "count": 35,
+      "total_on_page": 35,
       "price_type": "estimated_transaction",
-      "p5_price": 352470,
-      "p95_price": 567207,
-      "min_price": 352470,
-      "max_price": 612870,
-      "median_mileage_mil": 20250
+      "p5_price": 371070,
+      "p95_price": 539307,
+      "min_price": 361770,
+      "max_price": 557907,
+      "median_mileage_mil": 20251
     },
     "2024": {
-      "median_price": 415617,
-      "count": 22,
-      "total_on_page": 22,
+      "median_price": 413664,
+      "count": 23,
+      "total_on_page": 23,
       "price_type": "estimated_transaction",
-      "p5_price": 324570,
+      "p5_price": 316107,
       "p95_price": 452910,
       "min_price": 315270,
       "max_price": 464907
     },
     "2023": {
       "median_price": 353307,
-      "count": 25,
-      "total_on_page": 25,
+      "count": 23,
+      "total_on_page": 23,
       "price_type": "estimated_transaction",
-      "p5_price": 305691,
-      "p95_price": 427614,
-      "min_price": 286347,
-      "max_price": 501270
+      "p5_price": 315270,
+      "p95_price": 426870,
+      "min_price": 296391,
+      "max_price": 427614
     },
     "2022": {
-      "median_price": 271839,
-      "count": 36,
-      "total_on_page": 34,
+      "median_price": 269514,
+      "count": 37,
+      "total_on_page": 37,
       "price_type": "estimated_transaction",
-      "p5_price": 223107,
+      "p5_price": 199950,
       "p95_price": 362514,
       "min_price": 199857,
       "max_price": 382137
@@ -49,7 +49,7 @@
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 22,
+    "min_count_per_year": 23,
     "confidence": "medium"
   }
 }

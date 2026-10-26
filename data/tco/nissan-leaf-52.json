@@ -1,6 +1,6 @@
 {
   "model_id": "nissan-leaf-52",
-  "calculated_at": "2026-10-19T14:16:24.894753+00:00",
+  "calculated_at": "2026-10-26T14:31:29.706434+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -39,43 +39,43 @@
       },
       {
         "year": 2,
-        "value": 351830,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 212970,
+        "confidence": "medium",
+        "data_points": 1
       },
       {
         "year": 3,
-        "value": 190557,
+        "value": 185070,
         "confidence": "medium",
-        "data_points": 49
+        "data_points": 45
       },
       {
         "year": 4,
         "value": 167307,
         "confidence": "medium",
-        "data_points": 75
+        "data_points": 77
       },
       {
         "year": 5,
-        "value": 166702,
+        "value": 167121,
         "confidence": "medium",
-        "data_points": 24
+        "data_points": 30
       },
       {
         "year": 6,
-        "value": 148707,
+        "value": 155726,
         "confidence": "medium",
-        "data_points": 9
+        "data_points": 8
       },
       {
         "year": 7,
-        "value": 136810,
+        "value": 143267,
         "confidence": "adjusted",
         "data_points": 6
       },
       {
         "year": 8,
-        "value": 134622,
+        "value": 138677,
         "confidence": "estimated",
         "data_points": 0
       }

@@ -1,6 +1,6 @@
 {
   "model_id": "byd-atto3-comfort",
-  "scraped_at": "2026-10-19T12:03:42.463168+00:00",
+  "scraped_at": "2026-10-26T12:19:28.054565+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -13,14 +13,10 @@
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 251007,
-      "count": 6,
-      "total_on_page": 6,
-      "price_type": "estimated_transaction",
-      "p5_price": 250821,
-      "p95_price": 260307,
-      "min_price": 250821,
-      "max_price": 260307
+      "median_price": 253332,
+      "count": 2,
+      "total_on_page": 2,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {

@@ -1,6 +1,6 @@
 {
   "model_id": "hyundai-kona-ev",
-  "calculated_at": "2026-10-19T14:16:24.891624+00:00",
+  "calculated_at": "2026-10-26T14:31:29.702219+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 255948,
-    "monthly_cost": 5332,
-    "cost_per_mil": 43,
+    "total_cost": 303864,
+    "monthly_cost": 6330,
+    "cost_per_mil": 51,
     "breakdown": {
-      "depreciation": 188094,
+      "depreciation": 236010,
       "fuel": 16524,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 411158,
+        "value": 418407,
         "confidence": "medium",
-        "data_points": 10
+        "data_points": 9
       },
       {
         "year": 2,
-        "value": 318385,
+        "value": 316107,
         "confidence": "medium",
-        "data_points": 10
+        "data_points": 9
       },
       {
         "year": 3,
         "value": 297507,
         "confidence": "medium",
-        "data_points": 9
+        "data_points": 7
       },
       {
         "year": 4,
-        "value": 261806,
-        "confidence": "estimated",
-        "data_points": 0
-      },
-      {
-        "year": 5,
-        "value": 203530,
-        "confidence": "medium",
-        "data_points": 2
-      },
-      {
-        "year": 6,
-        "value": 183210,
+        "value": 213890,
         "confidence": "medium",
         "data_points": 3
       },
       {
-        "year": 7,
-        "value": 168553,
+        "year": 5,
+        "value": 196778,
         "confidence": "adjusted",
+        "data_points": 3
+      },
+      {
+        "year": 6,
+        "value": 192040,
+        "confidence": "medium",
         "data_points": 2
       },
       {
+        "year": 7,
+        "value": 148614,
+        "confidence": "medium",
+        "data_points": 3
+      },
+      {
         "year": 8,
-        "value": 155068,
+        "value": 130780,
         "confidence": "estimated",
         "data_points": 0
       }

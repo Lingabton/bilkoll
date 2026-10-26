@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-ex30-twin",
-  "calculated_at": "2026-10-19T14:16:24.890819+00:00",
+  "calculated_at": "2026-10-26T14:31:29.701236+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,15 +33,15 @@
       },
       {
         "year": 1,
-        "value": 376371,
+        "value": 380835,
         "confidence": "medium",
-        "data_points": 74
+        "data_points": 87
       },
       {
         "year": 2,
         "value": 339357,
         "confidence": "medium",
-        "data_points": 46
+        "data_points": 51
       },
       {
         "year": 3,
@@ -81,6 +81,6 @@
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "high",
   "data_quality_notes": []
 }

@@ -1,6 +1,6 @@
 {
   "model_id": "kia-niro-ev",
-  "calculated_at": "2026-10-19T14:16:24.889331+00:00",
+  "calculated_at": "2026-10-26T14:31:29.699344+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 361405,
-    "monthly_cost": 7529,
+    "total_cost": 362841,
+    "monthly_cost": 7559,
     "cost_per_mil": 60,
     "breakdown": {
-      "depreciation": 305957,
+      "depreciation": 307393,
       "fuel": 18468,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 277805,
+        "value": 269253,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 2,
-        "value": 255580,
+        "value": 247712,
         "confidence": "adjusted",
-        "data_points": 2
+        "data_points": 3
       },
       {
         "year": 3,
-        "value": 235133,
+        "value": 227895,
         "confidence": "adjusted",
         "data_points": 4
       },
       {
         "year": 4,
-        "value": 224543,
+        "value": 223107,
         "confidence": "medium",
-        "data_points": 20
+        "data_points": 15
       },
       {
         "year": 5,
-        "value": 194370,
-        "confidence": "medium",
-        "data_points": 13
-      },
-      {
-        "year": 6,
-        "value": 193853,
-        "confidence": "medium",
-        "data_points": 14
-      },
-      {
-        "year": 7,
-        "value": 165540,
+        "value": 203670,
         "confidence": "medium",
         "data_points": 7
       },
       {
+        "year": 6,
+        "value": 190557,
+        "confidence": "medium",
+        "data_points": 13
+      },
+      {
+        "year": 7,
+        "value": 167307,
+        "confidence": "medium",
+        "data_points": 11
+      },
+      {
         "year": 8,
-        "value": 145675,
+        "value": 147230,
         "confidence": "estimated",
         "data_points": 0
       }
