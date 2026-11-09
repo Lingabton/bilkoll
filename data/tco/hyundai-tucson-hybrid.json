@@ -1,6 +1,6 @@
 {
   "model_id": "hyundai-tucson-hybrid",
-  "calculated_at": "2026-10-26T14:31:29.712109+00:00",
+  "calculated_at": "2026-11-09T18:06:49.536697+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -41,25 +41,25 @@
         "year": 2,
         "value": 279227,
         "confidence": "adjusted",
-        "data_points": 8
+        "data_points": 7
       },
       {
         "year": 3,
         "value": 256888,
         "confidence": "adjusted",
-        "data_points": 17
+        "data_points": 13
       },
       {
         "year": 4,
         "value": 236336,
         "confidence": "adjusted",
-        "data_points": 62
+        "data_points": 70
       },
       {
         "year": 5,
         "value": 217429,
         "confidence": "adjusted",
-        "data_points": 33
+        "data_points": 27
       },
       {
         "year": 6,

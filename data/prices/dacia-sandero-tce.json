@@ -1,67 +1,68 @@
 {
   "model_id": "dacia-sandero-tce",
-  "scraped_at": "2026-10-26T14:05:48.292836+00:00",
+  "scraped_at": "2026-11-09T17:21:50.631062+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 175770,
-      "count": 39,
-      "total_on_page": 39,
+      "median_price": 167307,
+      "count": 38,
+      "total_on_page": 42,
       "price_type": "estimated_transaction",
-      "p5_price": 147963,
+      "p5_price": 153357,
       "p95_price": 241707,
-      "min_price": 130107,
+      "min_price": 139407,
       "max_price": 241707,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 157960,
-      "count": 30,
-      "total_on_page": 31,
+      "median_price": 155077,
+      "count": 34,
+      "total_on_page": 33,
       "price_type": "estimated_transaction",
-      "p5_price": 126945,
+      "p5_price": 111507,
       "p95_price": 204135,
       "min_price": 111414,
       "max_price": 278907,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 120807,
-      "count": 70,
-      "total_on_page": 70,
+      "median_price": 122760,
+      "count": 57,
+      "total_on_page": 58,
       "price_type": "estimated_transaction",
-      "p5_price": 92907,
-      "p95_price": 158007,
-      "min_price": 91140,
+      "p5_price": 106764,
+      "p95_price": 166470,
+      "min_price": 92535,
       "max_price": 176328,
       "median_mileage_mil": 3407
     },
     "2022": {
-      "median_price": 125364,
-      "count": 11,
-      "total_on_page": 11,
+      "median_price": 120435,
+      "count": 12,
+      "total_on_page": 13,
       "price_type": "estimated_transaction",
       "p5_price": 88164,
-      "p95_price": 157914,
+      "p95_price": 153357,
       "min_price": 88164,
-      "max_price": 157914
+      "max_price": 153357
     },
     "2021": {
-      "median_price": 119923,
-      "count": 14,
-      "total_on_page": 14,
+      "median_price": 120714,
+      "count": 13,
+      "total_on_page": 13,
       "price_type": "estimated_transaction",
-      "p5_price": 65007,
-      "p95_price": 148614,
-      "min_price": 65007,
-      "max_price": 148614
+      "p5_price": 80445,
+      "p95_price": 623007,
+      "min_price": 80445,
+      "max_price": 623007,
+      "median_mileage_mil": 5000
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 11,
+    "min_count_per_year": 12,
     "confidence": "medium"
   }
 }

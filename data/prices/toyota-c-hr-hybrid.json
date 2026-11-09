@@ -1,36 +1,36 @@
 {
   "model_id": "toyota-c-hr-hybrid",
-  "scraped_at": "2026-10-26T14:08:58.728946+00:00",
+  "scraped_at": "2026-11-09T17:25:13.123828+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 334707,
-      "count": 99,
-      "total_on_page": 99,
+      "median_price": 334288,
+      "count": 92,
+      "total_on_page": 93,
       "price_type": "estimated_transaction",
-      "p5_price": 278907,
-      "p95_price": 422220,
+      "p5_price": 288207,
+      "p95_price": 409107,
       "min_price": 278907,
-      "max_price": 517917,
+      "max_price": 438495,
       "median_mileage_mil": 20251
     },
     "2024": {
-      "median_price": 325407,
-      "count": 79,
-      "total_on_page": 79,
+      "median_price": 327732,
+      "count": 70,
+      "total_on_page": 70,
       "price_type": "estimated_transaction",
       "p5_price": 297507,
       "p95_price": 381207,
       "min_price": 278907,
-      "max_price": 420267,
+      "max_price": 395157,
       "median_mileage_mil": 20240
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 79,
+    "min_count_per_year": 70,
     "confidence": "high"
   }
 }

@@ -1,13 +1,67 @@
 {
   "model_id": "mercedes-c200",
-  "scraped_at": "2026-10-26T14:12:32.978378+00:00",
+  "scraped_at": "2026-11-09T17:34:07.231401+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
-  "years": {},
+  "years": {
+    "2025": {
+      "median_price": 464070,
+      "count": 73,
+      "total_on_page": 73,
+      "price_type": "estimated_transaction",
+      "p5_price": 417570,
+      "p95_price": 589713,
+      "min_price": 361770,
+      "max_price": 645745,
+      "median_mileage_mil": 20250
+    },
+    "2024": {
+      "median_price": 408270,
+      "count": 133,
+      "total_on_page": 135,
+      "price_type": "estimated_transaction",
+      "p5_price": 316107,
+      "p95_price": 771807,
+      "min_price": 302064,
+      "max_price": 836070,
+      "median_mileage_mil": 20240
+    },
+    "2023": {
+      "median_price": 336985,
+      "count": 164,
+      "total_on_page": 170,
+      "price_type": "estimated_transaction",
+      "p5_price": 260121,
+      "p95_price": 483507,
+      "min_price": 27993,
+      "max_price": 1236714
+    },
+    "2022": {
+      "median_price": 334707,
+      "count": 104,
+      "total_on_page": 108,
+      "price_type": "estimated_transaction",
+      "p5_price": 259284,
+      "p95_price": 451050,
+      "min_price": 246264,
+      "max_price": 1068570,
+      "median_mileage_mil": 3700
+    },
+    "2021": {
+      "median_price": 260307,
+      "count": 112,
+      "total_on_page": 112,
+      "price_type": "estimated_transaction",
+      "p5_price": 212784,
+      "p95_price": 557907,
+      "min_price": 153450,
+      "max_price": 789570
+    }
+  },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 0,
-    "confidence": "low"
+    "min_count_per_year": 73,
+    "confidence": "high"
   }
 }

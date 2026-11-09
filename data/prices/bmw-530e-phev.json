@@ -1,13 +1,45 @@
 {
   "model_id": "bmw-530e-phev",
-  "scraped_at": "2026-10-26T14:14:09.483422+00:00",
+  "scraped_at": "2026-11-09T17:38:49.761659+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
-  "years": {},
+  "years": {
+    "2025": {
+      "median_price": 567207,
+      "count": 151,
+      "total_on_page": 151,
+      "price_type": "estimated_transaction",
+      "p5_price": 510570,
+      "p95_price": 743535,
+      "min_price": 454491,
+      "max_price": 1543800,
+      "median_mileage_mil": 20250
+    },
+    "2024": {
+      "median_price": 408688,
+      "count": 88,
+      "total_on_page": 88,
+      "price_type": "estimated_transaction",
+      "p5_price": 315828,
+      "p95_price": 697407,
+      "min_price": 297507,
+      "max_price": 743907
+    },
+    "2023": {
+      "median_price": 344007,
+      "count": 129,
+      "total_on_page": 132,
+      "price_type": "estimated_transaction",
+      "p5_price": 250914,
+      "p95_price": 539307,
+      "min_price": 213807,
+      "max_price": 677970
+    }
+  },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 0,
-    "confidence": "low"
+    "min_count_per_year": 88,
+    "confidence": "high"
   }
 }

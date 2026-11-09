@@ -1,14 +1,14 @@
 {
   "model_id": "hyundai-kona-ev",
-  "scraped_at": "2026-10-26T11:46:17.294031+00:00",
+  "scraped_at": "2026-11-09T14:42:22.408854+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 418407,
-      "count": 9,
-      "total_on_page": 9,
+      "median_price": 407526,
+      "count": 8,
+      "total_on_page": 8,
       "price_type": "estimated_transaction",
       "p5_price": 348750,
       "p95_price": 457932,
@@ -17,9 +17,9 @@
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 316107,
-      "count": 9,
-      "total_on_page": 9,
+      "median_price": 306807,
+      "count": 10,
+      "total_on_page": 10,
       "price_type": "estimated_transaction",
       "p5_price": 278070,
       "p95_price": 371907,
@@ -28,49 +28,45 @@
       "median_mileage_mil": 20241
     },
     "2023": {
-      "median_price": 297507,
-      "count": 7,
-      "total_on_page": 7,
+      "median_price": 343588,
+      "count": 4,
+      "total_on_page": 4,
       "price_type": "estimated_transaction",
-      "p5_price": 204507,
-      "p95_price": 404457,
-      "min_price": 204507,
+      "min_price": 260307,
       "max_price": 404457
     },
     "2022": {
-      "median_price": 213890,
+      "median_price": 204507,
       "count": 3,
       "total_on_page": 3,
       "price_type": "estimated_transaction",
-      "min_price": 195207,
-      "max_price": 223107
+      "min_price": 195300,
+      "max_price": 213807
     },
     "2021": {
-      "median_price": 241242,
+      "median_price": 216680,
       "count": 3,
       "total_on_page": 3,
       "price_type": "estimated_transaction",
-      "min_price": 156054,
-      "max_price": 251007
+      "min_price": 199857,
+      "max_price": 241242
     },
     "2020": {
-      "median_price": 192040,
-      "count": 2,
-      "total_on_page": 2,
+      "median_price": 204507,
+      "count": 1,
+      "total_on_page": 1,
       "price_type": "estimated_transaction"
     },
     "2019": {
-      "median_price": 148614,
-      "count": 3,
-      "total_on_page": 3,
-      "price_type": "estimated_transaction",
-      "min_price": 125457,
-      "max_price": 278907
+      "median_price": 213853,
+      "count": 2,
+      "total_on_page": 2,
+      "price_type": "estimated_transaction"
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 2,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

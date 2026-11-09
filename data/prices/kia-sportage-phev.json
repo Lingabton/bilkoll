@@ -1,57 +1,58 @@
 {
   "model_id": "kia-sportage-phev",
-  "scraped_at": "2026-10-26T12:39:22.427533+00:00",
+  "scraped_at": "2026-11-09T15:43:04.644773+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 398970,
-      "count": 109,
-      "total_on_page": 109,
+      "median_price": 381207,
+      "count": 125,
+      "total_on_page": 129,
       "price_type": "estimated_transaction",
-      "p5_price": 348657,
-      "p95_price": 496284,
-      "min_price": 296670,
-      "max_price": 538377,
+      "p5_price": 352656,
+      "p95_price": 478950,
+      "min_price": 278907,
+      "max_price": 511779,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 371256,
-      "count": 75,
-      "total_on_page": 84,
+      "median_price": 368270,
+      "count": 85,
+      "total_on_page": 89,
       "price_type": "estimated_transaction",
-      "p5_price": 316014,
-      "p95_price": 399807,
-      "min_price": 249984,
-      "max_price": 441657,
+      "p5_price": 315270,
+      "p95_price": 409107,
+      "min_price": 240637,
+      "max_price": 478950,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 317120,
-      "count": 204,
-      "total_on_page": 205,
+      "median_price": 315874,
+      "count": 188,
+      "total_on_page": 194,
       "price_type": "estimated_transaction",
-      "p5_price": 251007,
+      "p5_price": 255657,
       "p95_price": 371907,
       "min_price": 203670,
-      "max_price": 479787
+      "max_price": 514476,
+      "median_mileage_mil": 20230
     },
     "2022": {
-      "median_price": 296670,
-      "count": 100,
+      "median_price": 288290,
+      "count": 97,
       "total_on_page": 100,
       "price_type": "estimated_transaction",
-      "p5_price": 240777,
+      "p5_price": 218457,
       "p95_price": 353307,
       "min_price": 175584,
-      "max_price": 362607,
+      "max_price": 409107,
       "median_mileage_mil": 9842
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 75,
+    "min_count_per_year": 85,
     "confidence": "high"
   }
 }

@@ -1,6 +1,6 @@
 {
   "model_id": "volvo-ex90-twin",
-  "calculated_at": "2026-10-26T14:31:29.719201+00:00",
+  "calculated_at": "2026-11-09T18:06:49.543455+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,15 +33,15 @@
       },
       {
         "year": 1,
-        "value": 743302,
+        "value": 743907,
         "confidence": "medium",
-        "data_points": 68
+        "data_points": 61
       },
       {
         "year": 2,
         "value": 739257,
         "confidence": "medium",
-        "data_points": 20
+        "data_points": 13
       },
       {
         "year": 3,

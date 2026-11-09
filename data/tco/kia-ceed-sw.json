@@ -1,6 +1,6 @@
 {
   "model_id": "kia-ceed-sw",
-  "calculated_at": "2026-10-26T14:31:29.720100+00:00",
+  "calculated_at": "2026-11-09T18:06:49.544518+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 292051,
-    "monthly_cost": 6084,
-    "cost_per_mil": 49,
+    "total_cost": 298424,
+    "monthly_cost": 6217,
+    "cost_per_mil": 50,
     "breakdown": {
-      "depreciation": 161527,
+      "depreciation": 167900,
       "fuel": 72150,
       "tax": 23584,
       "insurance": {
@@ -33,51 +33,51 @@
       },
       {
         "year": 1,
-        "value": 229070,
+        "value": 220886,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 2,
-        "value": 210744,
+        "value": 203215,
         "confidence": "adjusted",
-        "data_points": 32
+        "data_points": 63
       },
       {
         "year": 3,
-        "value": 193884,
+        "value": 186957,
+        "confidence": "adjusted",
+        "data_points": 25
+      },
+      {
+        "year": 4,
+        "value": 172000,
         "confidence": "adjusted",
         "data_points": 22
       },
       {
-        "year": 4,
-        "value": 178373,
+        "year": 5,
+        "value": 158240,
+        "confidence": "adjusted",
+        "data_points": 17
+      },
+      {
+        "year": 6,
+        "value": 145580,
         "confidence": "adjusted",
         "data_points": 14
       },
       {
-        "year": 5,
-        "value": 164103,
-        "confidence": "adjusted",
-        "data_points": 10
-      },
-      {
-        "year": 6,
-        "value": 150974,
-        "confidence": "adjusted",
-        "data_points": 12
-      },
-      {
         "year": 7,
-        "value": 148707,
-        "confidence": "medium",
-        "data_points": 19
+        "value": 133933,
+        "confidence": "adjusted",
+        "data_points": 21
       },
       {
         "year": 8,
-        "value": 130060,
+        "value": 130107,
         "confidence": "medium",
-        "data_points": 24
+        "data_points": 19
       }
     ]
   },

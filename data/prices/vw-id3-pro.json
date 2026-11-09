@@ -1,39 +1,39 @@
 {
   "model_id": "vw-id3-pro",
-  "scraped_at": "2026-10-26T11:48:21.567638+00:00",
+  "scraped_at": "2026-11-09T14:44:43.334736+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 359817,
-      "count": 14,
-      "total_on_page": 14,
+      "median_price": 343914,
+      "count": 13,
+      "total_on_page": 13,
       "price_type": "estimated_transaction",
-      "p5_price": 316107,
-      "p95_price": 553257,
-      "min_price": 316107,
-      "max_price": 553257,
+      "p5_price": 325407,
+      "p95_price": 436170,
+      "min_price": 325407,
+      "max_price": 436170,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 311085,
-      "count": 15,
-      "total_on_page": 15,
+      "median_price": 311457,
+      "count": 19,
+      "total_on_page": 19,
       "price_type": "estimated_transaction",
-      "p5_price": 232407,
+      "p5_price": 278907,
       "p95_price": 427800,
-      "min_price": 232407,
+      "min_price": 278907,
       "max_price": 427800,
       "median_mileage_mil": 20240
     },
     "2023": {
-      "median_price": 281976,
-      "count": 58,
-      "total_on_page": 58,
+      "median_price": 280767,
+      "count": 65,
+      "total_on_page": 66,
       "price_type": "estimated_transaction",
-      "p5_price": 252020,
-      "p95_price": 361770,
+      "p5_price": 236964,
+      "p95_price": 343914,
       "min_price": 124434,
       "max_price": 390507
     },
@@ -48,27 +48,29 @@
       "max_price": 339357
     },
     "2021": {
-      "median_price": 211063,
-      "count": 30,
-      "total_on_page": 30,
+      "median_price": 218410,
+      "count": 34,
+      "total_on_page": 35,
       "price_type": "estimated_transaction",
       "p5_price": 176700,
-      "p95_price": 260307,
-      "min_price": 167307,
+      "p95_price": 251007,
+      "min_price": 162657,
       "max_price": 260400
     },
     "2020": {
-      "median_price": 209157,
-      "count": 4,
-      "total_on_page": 4,
+      "median_price": 213807,
+      "count": 5,
+      "total_on_page": 5,
       "price_type": "estimated_transaction",
-      "min_price": 195207,
-      "max_price": 223014
+      "p5_price": 184140,
+      "p95_price": 218457,
+      "min_price": 184140,
+      "max_price": 218457
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 4,
+    "min_count_per_year": 5,
     "confidence": "low"
   }
 }

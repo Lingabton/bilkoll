@@ -1,77 +1,77 @@
 {
   "model_id": "kia-ceed-sw",
-  "scraped_at": "2026-10-26T13:15:20.402334+00:00",
+  "scraped_at": "2026-11-09T16:22:25.706426+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2024": {
-      "median_price": 260307,
-      "count": 32,
-      "total_on_page": 32,
+      "median_price": 251007,
+      "count": 63,
+      "total_on_page": 64,
       "price_type": "estimated_transaction",
       "p5_price": 223107,
-      "p95_price": 297507,
-      "min_price": 213807,
-      "max_price": 306807,
+      "p95_price": 288207,
+      "min_price": 213714,
+      "max_price": 297507,
       "median_mileage_mil": 1645
     },
     "2023": {
-      "median_price": 251007,
+      "median_price": 241707,
+      "count": 25,
+      "total_on_page": 27,
+      "price_type": "estimated_transaction",
+      "p5_price": 194835,
+      "p95_price": 278907,
+      "min_price": 194742,
+      "max_price": 283557
+    },
+    "2022": {
+      "median_price": 216132,
       "count": 22,
       "total_on_page": 22,
       "price_type": "estimated_transaction",
-      "p5_price": 222270,
-      "p95_price": 274257,
-      "min_price": 180327,
-      "max_price": 288207
-    },
-    "2022": {
-      "median_price": 222549,
-      "count": 14,
-      "total_on_page": 14,
-      "price_type": "estimated_transaction",
-      "p5_price": 166470,
+      "p5_price": 167307,
       "p95_price": 241707,
       "min_price": 166470,
-      "max_price": 241707
+      "max_price": 1146597
     },
     "2021": {
-      "median_price": 198927,
-      "count": 10,
-      "total_on_page": 10,
+      "median_price": 185907,
+      "count": 17,
+      "total_on_page": 18,
       "price_type": "estimated_transaction",
       "p5_price": 139500,
-      "p95_price": 218457,
+      "p95_price": 213807,
       "min_price": 139500,
-      "max_price": 218457
+      "max_price": 213807
     },
     "2020": {
-      "median_price": 169492,
-      "count": 12,
-      "total_on_page": 12,
+      "median_price": 165912,
+      "count": 14,
+      "total_on_page": 15,
       "price_type": "estimated_transaction",
       "p5_price": 119970,
-      "p95_price": 195207,
+      "p95_price": 185907,
       "min_price": 119970,
-      "max_price": 195207
+      "max_price": 185907
     },
     "2019": {
-      "median_price": 148707,
+      "median_price": 153264,
+      "count": 21,
+      "total_on_page": 21,
+      "price_type": "estimated_transaction",
+      "p5_price": 125271,
+      "p95_price": 171957,
+      "min_price": 87327,
+      "max_price": 190557
+    },
+    "2018": {
+      "median_price": 130107,
       "count": 19,
       "total_on_page": 19,
       "price_type": "estimated_transaction",
-      "p5_price": 87327,
-      "p95_price": 195207,
-      "min_price": 87327,
-      "max_price": 195207
-    },
-    "2018": {
-      "median_price": 130060,
-      "count": 24,
-      "total_on_page": 24,
-      "price_type": "estimated_transaction",
-      "p5_price": 83607,
+      "p5_price": 65007,
       "p95_price": 176607,
       "min_price": 65007,
       "max_price": 176607
@@ -79,7 +79,7 @@
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 10,
+    "min_count_per_year": 14,
     "confidence": "medium"
   }
 }

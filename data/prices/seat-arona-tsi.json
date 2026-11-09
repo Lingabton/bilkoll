@@ -1,86 +1,86 @@
 {
   "model_id": "seat-arona-tsi",
-  "scraped_at": "2026-10-26T14:23:13.401768+00:00",
+  "scraped_at": "2026-11-09T17:56:15.595976+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
       "median_price": 176607,
-      "count": 55,
-      "total_on_page": 55,
+      "count": 49,
+      "total_on_page": 49,
       "price_type": "estimated_transaction",
-      "p5_price": 171957,
+      "p5_price": 162657,
       "p95_price": 237057,
       "min_price": 158007,
       "max_price": 259470,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 171957,
-      "count": 31,
-      "total_on_page": 31,
+      "median_price": 167307,
+      "count": 28,
+      "total_on_page": 30,
       "price_type": "estimated_transaction",
-      "p5_price": 158007,
+      "p5_price": 157077,
       "p95_price": 194370,
       "min_price": 157077,
       "max_price": 195207
     },
     "2023": {
-      "median_price": 152985,
-      "count": 77,
-      "total_on_page": 77,
+      "median_price": 148707,
+      "count": 74,
+      "total_on_page": 74,
       "price_type": "estimated_transaction",
-      "p5_price": 139314,
-      "p95_price": 167214,
-      "min_price": 125457,
+      "p5_price": 139407,
+      "p95_price": 166935,
+      "min_price": 130107,
       "max_price": 181257,
       "median_mileage_mil": 1941
     },
     "2022": {
-      "median_price": 151078,
-      "count": 8,
+      "median_price": 153357,
+      "count": 7,
       "total_on_page": 8,
       "price_type": "estimated_transaction",
-      "p5_price": 138570,
-      "p95_price": 176235,
-      "min_price": 138570,
-      "max_price": 176235
+      "p5_price": 143964,
+      "p95_price": 185070,
+      "min_price": 143964,
+      "max_price": 185070
     },
     "2021": {
       "median_price": 153264,
-      "count": 10,
-      "total_on_page": 10,
-      "price_type": "estimated_transaction",
-      "p5_price": 88257,
-      "p95_price": 171120,
-      "min_price": 88257,
-      "max_price": 171120
-    },
-    "2020": {
-      "median_price": 134757,
       "count": 14,
       "total_on_page": 14,
       "price_type": "estimated_transaction",
-      "p5_price": 111507,
-      "p95_price": 153357,
-      "min_price": 111507,
-      "max_price": 153357
+      "p5_price": 120900,
+      "p95_price": 646257,
+      "min_price": 120900,
+      "max_price": 646257
+    },
+    "2020": {
+      "median_price": 135733,
+      "count": 8,
+      "total_on_page": 8,
+      "price_type": "estimated_transaction",
+      "p5_price": 106857,
+      "p95_price": 148707,
+      "min_price": 106857,
+      "max_price": 148707
     },
     "2019": {
-      "median_price": 139314,
-      "count": 9,
-      "total_on_page": 9,
+      "median_price": 125457,
+      "count": 12,
+      "total_on_page": 12,
       "price_type": "estimated_transaction",
-      "p5_price": 111507,
+      "p5_price": 78957,
       "p95_price": 153357,
-      "min_price": 111507,
+      "min_price": 78957,
       "max_price": 153357
     },
     "2018": {
-      "median_price": 112483,
-      "count": 14,
-      "total_on_page": 14,
+      "median_price": 110158,
+      "count": 12,
+      "total_on_page": 13,
       "price_type": "estimated_transaction",
       "p5_price": 85560,
       "p95_price": 157170,
@@ -90,7 +90,7 @@
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 8,
+    "min_count_per_year": 7,
     "confidence": "low"
   }
 }

@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-rav4-hybrid",
-  "calculated_at": "2026-10-26T14:31:29.700291+00:00",
+  "calculated_at": "2026-11-09T18:06:49.522272+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 349137,
-    "monthly_cost": 7274,
-    "cost_per_mil": 58,
+    "total_cost": 353694,
+    "monthly_cost": 7369,
+    "cost_per_mil": 59,
     "breakdown": {
-      "depreciation": 211886,
+      "depreciation": 216443,
       "fuel": 72150,
       "tax": 19211,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 464907,
+        "value": 455142,
         "confidence": "medium",
-        "data_points": 90
+        "data_points": 104
       },
       {
         "year": 2,
-        "value": 422638,
+        "value": 413664,
         "confidence": "medium",
-        "data_points": 72
+        "data_points": 94
       },
       {
         "year": 3,
-        "value": 381114,
+        "value": 385764,
         "confidence": "medium",
-        "data_points": 153
+        "data_points": 175
       },
       {
         "year": 4,
-        "value": 343914,
+        "value": 339357,
         "confidence": "medium",
-        "data_points": 105
+        "data_points": 133
       },
       {
         "year": 5,
-        "value": 321687,
+        "value": 319734,
         "confidence": "medium",
-        "data_points": 146
+        "data_points": 162
       },
       {
         "year": 6,
-        "value": 297600,
+        "value": 297507,
         "confidence": "medium",
-        "data_points": 101
+        "data_points": 144
       },
       {
         "year": 7,
-        "value": 288207,
+        "value": 275280,
         "confidence": "medium",
-        "data_points": 79
+        "data_points": 97
       },
       {
         "year": 8,
-        "value": 253622,
+        "value": 242246,
         "confidence": "estimated",
         "data_points": 0
       }

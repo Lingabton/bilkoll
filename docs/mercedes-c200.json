@@ -1,6 +1,6 @@
 {
   "model_id": "mercedes-c200",
-  "calculated_at": "2026-10-26T14:31:29.728938+00:00",
+  "calculated_at": "2026-11-09T18:06:49.552432+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 142920,
-    "monthly_cost": 2978,
-    "cost_per_mil": 24,
+    "total_cost": 297213,
+    "monthly_cost": 6192,
+    "cost_per_mil": 50,
     "breakdown": {
-      "depreciation": 0,
+      "depreciation": 154293,
       "fuel": 68820,
       "tax": 26510,
       "insurance": {
@@ -30,9 +30,57 @@
         "value": 489000,
         "confidence": "fixed",
         "data_points": 0
+      },
+      {
+        "year": 1,
+        "value": 464070,
+        "confidence": "medium",
+        "data_points": 73
+      },
+      {
+        "year": 2,
+        "value": 408270,
+        "confidence": "medium",
+        "data_points": 133
+      },
+      {
+        "year": 3,
+        "value": 336985,
+        "confidence": "medium",
+        "data_points": 164
+      },
+      {
+        "year": 4,
+        "value": 334707,
+        "confidence": "medium",
+        "data_points": 104
+      },
+      {
+        "year": 5,
+        "value": 260307,
+        "confidence": "medium",
+        "data_points": 112
+      },
+      {
+        "year": 6,
+        "value": 229070,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 7,
+        "value": 201581,
+        "confidence": "estimated",
+        "data_points": 0
+      },
+      {
+        "year": 8,
+        "value": 177391,
+        "confidence": "estimated",
+        "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "high",
   "data_quality_notes": []
 }

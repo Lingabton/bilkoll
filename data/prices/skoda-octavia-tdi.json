@@ -1,40 +1,48 @@
 {
   "model_id": "skoda-octavia-tdi",
-  "scraped_at": "2026-10-26T12:02:44.290793+00:00",
+  "scraped_at": "2026-11-09T15:02:48.233630+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
-    "2024": {
-      "median_price": 316107,
-      "count": 2,
-      "total_on_page": 2,
+    "2025": {
+      "median_price": 223107,
+      "count": 1,
+      "total_on_page": 1,
       "price_type": "estimated_transaction"
     },
-    "2023": {
-      "median_price": 259377,
-      "count": 23,
-      "total_on_page": 23,
+    "2024": {
+      "median_price": 306853,
+      "count": 4,
+      "total_on_page": 4,
       "price_type": "estimated_transaction",
-      "p5_price": 176607,
-      "p95_price": 292950,
+      "min_price": 269607,
+      "max_price": 362607
+    },
+    "2023": {
+      "median_price": 259795,
+      "count": 18,
+      "total_on_page": 19,
+      "price_type": "estimated_transaction",
+      "p5_price": 171585,
+      "p95_price": 302250,
       "min_price": 171585,
       "max_price": 302250
     },
     "2022": {
-      "median_price": 204507,
-      "count": 19,
-      "total_on_page": 19,
+      "median_price": 204414,
+      "count": 21,
+      "total_on_page": 21,
       "price_type": "estimated_transaction",
-      "p5_price": 158100,
-      "p95_price": 305970,
-      "min_price": 158100,
+      "p5_price": 135408,
+      "p95_price": 278070,
+      "min_price": 120900,
       "max_price": 305970
     },
     "2021": {
-      "median_price": 202228,
-      "count": 14,
-      "total_on_page": 14,
+      "median_price": 195207,
+      "count": 17,
+      "total_on_page": 18,
       "price_type": "estimated_transaction",
       "p5_price": 130107,
       "p95_price": 321687,
@@ -42,19 +50,19 @@
       "max_price": 321687
     },
     "2020": {
-      "median_price": 188232,
+      "median_price": 174282,
       "count": 6,
-      "total_on_page": 6,
+      "total_on_page": 7,
       "price_type": "estimated_transaction",
       "p5_price": 139407,
-      "p95_price": 232407,
+      "p95_price": 222921,
       "min_price": 139407,
-      "max_price": 232407
+      "max_price": 222921
     }
   },
   "validation": {
-    "is_monotonic": true,
-    "min_count_per_year": 2,
+    "is_monotonic": false,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

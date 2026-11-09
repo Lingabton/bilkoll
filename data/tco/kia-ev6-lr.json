@@ -1,6 +1,6 @@
 {
   "model_id": "kia-ev6-lr",
-  "calculated_at": "2026-10-26T14:31:29.698839+00:00",
+  "calculated_at": "2026-11-09T18:06:49.521136+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 326535,
-    "monthly_cost": 6803,
-    "cost_per_mil": 54,
+    "total_cost": 327041,
+    "monthly_cost": 6813,
+    "cost_per_mil": 55,
     "breakdown": {
-      "depreciation": 265837,
+      "depreciation": 266343,
       "fuel": 18468,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 540085,
+        "value": 539307,
         "confidence": "medium",
-        "data_points": 72
+        "data_points": 80
       },
       {
         "year": 2,
-        "value": 446307,
+        "value": 418407,
         "confidence": "medium",
         "data_points": 31
       },
       {
         "year": 3,
-        "value": 370698,
+        "value": 371060,
         "confidence": "medium",
-        "data_points": 108
+        "data_points": 121
       },
       {
         "year": 4,
-        "value": 330563,
+        "value": 330057,
         "confidence": "medium",
-        "data_points": 70
+        "data_points": 77
       },
       {
         "year": 5,
-        "value": 290895,
+        "value": 290450,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 255987,
+        "value": 255596,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 225269,
+        "value": 224924,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 198237,
+        "value": 197933,
         "confidence": "estimated",
         "data_points": 0
       }

@@ -1,56 +1,56 @@
 {
   "model_id": "hyundai-ioniq5-lr",
-  "scraped_at": "2026-10-26T11:54:32.204983+00:00",
+  "scraped_at": "2026-11-09T14:53:07.812251+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 543538,
-      "count": 10,
-      "total_on_page": 10,
+      "median_price": 547770,
+      "count": 9,
+      "total_on_page": 9,
       "price_type": "estimated_transaction",
-      "p5_price": 504980,
+      "p5_price": 500330,
       "p95_price": 657231,
-      "min_price": 504980,
+      "min_price": 500330,
       "max_price": 657231,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 394692,
-      "count": 12,
+      "median_price": 417570,
+      "count": 9,
       "total_on_page": 12,
       "price_type": "estimated_transaction",
-      "p5_price": 306714,
-      "p95_price": 776457,
-      "min_price": 306714,
-      "max_price": 776457,
+      "p5_price": 353214,
+      "p95_price": 784827,
+      "min_price": 353214,
+      "max_price": 784827,
       "median_mileage_mil": 20241
     },
     "2023": {
-      "median_price": 353214,
-      "count": 15,
-      "total_on_page": 15,
+      "median_price": 362142,
+      "count": 16,
+      "total_on_page": 17,
       "price_type": "estimated_transaction",
-      "p5_price": 232407,
-      "p95_price": 530100,
-      "min_price": 232407,
-      "max_price": 530100
+      "p5_price": 306807,
+      "p95_price": 1301907,
+      "min_price": 306807,
+      "max_price": 1301907
     },
     "2022": {
-      "median_price": 287277,
-      "count": 9,
-      "total_on_page": 9,
+      "median_price": 304100,
+      "count": 7,
+      "total_on_page": 8,
       "price_type": "estimated_transaction",
-      "p5_price": 248124,
+      "p5_price": 278814,
       "p95_price": 334707,
-      "min_price": 248124,
+      "min_price": 278814,
       "max_price": 334707
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 9,
+    "min_count_per_year": 7,
     "confidence": "low"
   }
 }

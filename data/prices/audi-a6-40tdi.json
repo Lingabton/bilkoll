@@ -1,35 +1,35 @@
 {
   "model_id": "audi-a6-40tdi",
-  "scraped_at": "2026-10-26T14:03:38.789215+00:00",
+  "scraped_at": "2026-11-09T17:19:21.367352+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 473370,
-      "count": 59,
-      "total_on_page": 59,
+      "median_price": 459838,
+      "count": 62,
+      "total_on_page": 64,
       "price_type": "estimated_transaction",
-      "p5_price": 361770,
-      "p95_price": 677970,
-      "min_price": 351447,
+      "p5_price": 348657,
+      "p95_price": 640770,
+      "min_price": 344007,
       "max_price": 716007,
-      "median_mileage_mil": 20252
+      "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 390088,
-      "count": 14,
-      "total_on_page": 14,
+      "median_price": 399621,
+      "count": 27,
+      "total_on_page": 29,
       "price_type": "estimated_transaction",
-      "p5_price": 287370,
-      "p95_price": 539307,
-      "min_price": 287370,
+      "p5_price": 316107,
+      "p95_price": 482577,
+      "min_price": 316107,
       "max_price": 539307
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 14,
+    "min_count_per_year": 27,
     "confidence": "medium"
   }
 }

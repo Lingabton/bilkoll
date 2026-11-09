@@ -1,55 +1,54 @@
 {
   "model_id": "bmw-x1-sdrive18i",
-  "scraped_at": "2026-10-26T14:15:32.077396+00:00",
+  "scraped_at": "2026-11-09T17:40:10.958593+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 445191,
+      "median_price": 435891,
       "count": 35,
       "total_on_page": 35,
       "price_type": "estimated_transaction",
-      "p5_price": 371070,
-      "p95_price": 539307,
+      "p5_price": 362607,
+      "p95_price": 511314,
       "min_price": 361770,
-      "max_price": 557907,
-      "median_mileage_mil": 20251
+      "max_price": 557907
     },
     "2024": {
-      "median_price": 413664,
-      "count": 23,
-      "total_on_page": 23,
+      "median_price": 411385,
+      "count": 24,
+      "total_on_page": 24,
       "price_type": "estimated_transaction",
-      "p5_price": 316107,
-      "p95_price": 452910,
+      "p5_price": 325221,
+      "p95_price": 446307,
       "min_price": 315270,
-      "max_price": 464907
+      "max_price": 446307
     },
     "2023": {
-      "median_price": 353307,
-      "count": 23,
-      "total_on_page": 23,
+      "median_price": 362607,
+      "count": 21,
+      "total_on_page": 21,
       "price_type": "estimated_transaction",
-      "p5_price": 315270,
-      "p95_price": 426870,
-      "min_price": 296391,
-      "max_price": 427614
+      "p5_price": 316107,
+      "p95_price": 422964,
+      "min_price": 315270,
+      "max_price": 426870
     },
     "2022": {
       "median_price": 269514,
-      "count": 37,
-      "total_on_page": 37,
+      "count": 33,
+      "total_on_page": 33,
       "price_type": "estimated_transaction",
       "p5_price": 199950,
-      "p95_price": 362514,
-      "min_price": 199857,
+      "p95_price": 316014,
+      "min_price": 185907,
       "max_price": 382137
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 23,
+    "min_count_per_year": 21,
     "confidence": "medium"
   }
 }

@@ -1,35 +1,35 @@
 {
   "model_id": "skoda-superb-tsi",
-  "scraped_at": "2026-10-26T14:28:07.263769+00:00",
+  "scraped_at": "2026-11-09T18:02:57.064896+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 376557,
-      "count": 58,
-      "total_on_page": 59,
+      "median_price": 371907,
+      "count": 53,
+      "total_on_page": 57,
       "price_type": "estimated_transaction",
-      "p5_price": 361770,
-      "p95_price": 455607,
-      "min_price": 357957,
-      "max_price": 502107,
+      "p5_price": 353307,
+      "p95_price": 478857,
+      "min_price": 344007,
+      "max_price": 483507,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 355632,
-      "count": 16,
-      "total_on_page": 16,
+      "median_price": 350982,
+      "count": 20,
+      "total_on_page": 21,
       "price_type": "estimated_transaction",
       "p5_price": 301320,
       "p95_price": 504897,
-      "min_price": 301320,
+      "min_price": 246264,
       "max_price": 504897
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 16,
+    "min_count_per_year": 20,
     "confidence": "medium"
   }
 }

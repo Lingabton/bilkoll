@@ -1,13 +1,86 @@
 {
   "model_id": "bmw-330e-phev",
-  "scraped_at": "2026-10-26T14:17:07.202177+00:00",
+  "scraped_at": "2026-11-09T17:49:41.843043+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
-  "years": {},
+  "years": {
+    "2025": {
+      "median_price": 455607,
+      "count": 96,
+      "total_on_page": 96,
+      "price_type": "estimated_transaction",
+      "p5_price": 417570,
+      "p95_price": 543957,
+      "min_price": 390507,
+      "max_price": 696570,
+      "median_mileage_mil": 20250
+    },
+    "2024": {
+      "median_price": 362607,
+      "count": 128,
+      "total_on_page": 131,
+      "price_type": "estimated_transaction",
+      "p5_price": 297414,
+      "p95_price": 464814,
+      "min_price": 277047,
+      "max_price": 640770
+    },
+    "2023": {
+      "median_price": 329215,
+      "count": 146,
+      "total_on_page": 146,
+      "price_type": "estimated_transaction",
+      "p5_price": 241707,
+      "p95_price": 408270,
+      "min_price": 231291,
+      "max_price": 511407
+    },
+    "2022": {
+      "median_price": 278721,
+      "count": 104,
+      "total_on_page": 105,
+      "price_type": "estimated_transaction",
+      "p5_price": 213807,
+      "p95_price": 404550,
+      "min_price": 195114,
+      "max_price": 1153107
+    },
+    "2021": {
+      "median_price": 260307,
+      "count": 193,
+      "total_on_page": 195,
+      "price_type": "estimated_transaction",
+      "p5_price": 176607,
+      "p95_price": 464070,
+      "min_price": 158007,
+      "max_price": 1227414,
+      "median_mileage_mil": 20210
+    },
+    "2020": {
+      "median_price": 250635,
+      "count": 137,
+      "total_on_page": 139,
+      "price_type": "estimated_transaction",
+      "p5_price": 199857,
+      "p95_price": 353307,
+      "min_price": 171957,
+      "max_price": 557907
+    },
+    "2019": {
+      "median_price": 213807,
+      "count": 111,
+      "total_on_page": 113,
+      "price_type": "estimated_transaction",
+      "p5_price": 158100,
+      "p95_price": 344007,
+      "min_price": 50220,
+      "max_price": 483600
+    }
+  },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 0,
-    "confidence": "low"
+    "min_count_per_year": 96,
+    "confidence": "high"
   }
 }

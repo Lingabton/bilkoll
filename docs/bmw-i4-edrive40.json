@@ -1,6 +1,6 @@
 {
   "model_id": "bmw-i4-edrive40",
-  "calculated_at": "2026-10-26T14:31:29.718738+00:00",
+  "calculated_at": "2026-11-09T18:06:49.542940+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 321759,
-    "monthly_cost": 6703,
+    "total_cost": 322467,
+    "monthly_cost": 6718,
     "cost_per_mil": 54,
     "breakdown": {
-      "depreciation": 253633,
+      "depreciation": 254341,
       "fuel": 17496,
       "tax": 1440,
       "insurance": {
@@ -33,54 +33,54 @@
       },
       {
         "year": 1,
-        "value": 585714,
+        "value": 585807,
         "confidence": "medium",
-        "data_points": 21
+        "data_points": 22
       },
       {
         "year": 2,
-        "value": 409107,
+        "value": 408270,
         "confidence": "medium",
-        "data_points": 71
+        "data_points": 76
       },
       {
         "year": 3,
-        "value": 376378,
+        "value": 375608,
         "confidence": "adjusted",
-        "data_points": 44
+        "data_points": 47
       },
       {
         "year": 4,
-        "value": 346267,
+        "value": 345559,
         "confidence": "adjusted",
-        "data_points": 9
+        "data_points": 15
       },
       {
         "year": 5,
-        "value": 318565,
+        "value": 317914,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 313139,
+        "value": 309466,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 275562,
+        "value": 272330,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 242495,
+        "value": 239650,
         "confidence": "estimated",
         "data_points": 0
       }
     ]
   },
-  "confidence": "low",
+  "confidence": "medium",
   "data_quality_notes": []
 }

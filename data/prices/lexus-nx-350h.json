@@ -1,12 +1,12 @@
 {
   "model_id": "lexus-nx-350h",
-  "scraped_at": "2026-10-26T14:29:14.889564+00:00",
+  "scraped_at": "2026-11-09T18:04:04.376084+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 537028,
+      "median_price": 543957,
       "count": 8,
       "total_on_page": 8,
       "price_type": "estimated_transaction",
@@ -24,9 +24,9 @@
       "max_price": 585807
     },
     "2023": {
-      "median_price": 474114,
-      "count": 11,
-      "total_on_page": 11,
+      "median_price": 461270,
+      "count": 9,
+      "total_on_page": 9,
       "price_type": "estimated_transaction",
       "p5_price": 426870,
       "p95_price": 530007,
@@ -34,14 +34,22 @@
       "max_price": 530007
     },
     "2022": {
-      "median_price": 445888,
-      "count": 8,
-      "total_on_page": 8,
+      "median_price": 437007,
+      "count": 9,
+      "total_on_page": 9,
       "price_type": "estimated_transaction",
       "p5_price": 409107,
       "p95_price": 492807,
       "min_price": 409107,
       "max_price": 492807
+    },
+    "2021": {
+      "median_price": 330010,
+      "count": 4,
+      "total_on_page": 4,
+      "price_type": "estimated_transaction",
+      "min_price": 274257,
+      "max_price": 409107
     }
   },
   "validation": {

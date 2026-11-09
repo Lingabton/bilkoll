@@ -1,55 +1,55 @@
 {
   "model_id": "toyota-corolla-cross-hybrid",
-  "scraped_at": "2026-10-26T13:29:33.527736+00:00",
+  "scraped_at": "2026-11-09T16:38:18.697146+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 357120,
-      "count": 73,
-      "total_on_page": 73,
+      "median_price": 353307,
+      "count": 67,
+      "total_on_page": 69,
       "price_type": "estimated_transaction",
       "p5_price": 311457,
-      "p95_price": 390507,
+      "p95_price": 389670,
       "min_price": 302157,
       "max_price": 426870,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 339310,
-      "count": 62,
-      "total_on_page": 59,
+      "median_price": 334614,
+      "count": 47,
+      "total_on_page": 46,
       "price_type": "estimated_transaction",
-      "p5_price": 292764,
-      "p95_price": 371907,
+      "p5_price": 288207,
+      "p95_price": 371070,
       "min_price": 251007,
       "max_price": 380370
     },
     "2023": {
-      "median_price": 316060,
-      "count": 80,
-      "total_on_page": 79,
+      "median_price": 315270,
+      "count": 78,
+      "total_on_page": 78,
       "price_type": "estimated_transaction",
-      "p5_price": 292857,
-      "p95_price": 344007,
-      "min_price": 260307,
-      "max_price": 361770
+      "p5_price": 287370,
+      "p95_price": 339357,
+      "min_price": 278070,
+      "max_price": 344007
     },
     "2022": {
-      "median_price": 316107,
-      "count": 17,
-      "total_on_page": 17,
+      "median_price": 318432,
+      "count": 16,
+      "total_on_page": 16,
       "price_type": "estimated_transaction",
-      "p5_price": 297414,
+      "p5_price": 269607,
       "p95_price": 352470,
-      "min_price": 297414,
+      "min_price": 269607,
       "max_price": 352470
     }
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 17,
+    "min_count_per_year": 16,
     "confidence": "medium"
   }
 }

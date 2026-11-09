@@ -1,6 +1,6 @@
 {
   "model_id": "tesla-model-3-lr",
-  "calculated_at": "2026-10-26T14:31:29.696807+00:00",
+  "calculated_at": "2026-11-09T18:06:49.519519+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 352576,
-    "monthly_cost": 7345,
-    "cost_per_mil": 59,
+    "total_cost": 368200,
+    "monthly_cost": 7671,
+    "cost_per_mil": 61,
     "breakdown": {
-      "depreciation": 282650,
+      "depreciation": 298274,
       "fuel": 17496,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 436635,
+        "value": 436170,
         "confidence": "medium",
-        "data_points": 7
+        "data_points": 5
       },
       {
         "year": 2,
-        "value": 401704,
-        "confidence": "adjusted",
-        "data_points": 43
+        "value": 409107,
+        "confidence": "medium",
+        "data_points": 53
       },
       {
         "year": 3,
         "value": 311550,
         "confidence": "medium",
-        "data_points": 33
+        "data_points": 37
       },
       {
         "year": 4,
-        "value": 302250,
-        "confidence": "medium",
-        "data_points": 27
+        "value": 286626,
+        "confidence": "adjusted",
+        "data_points": 19
       },
       {
         "year": 5,
-        "value": 278070,
+        "value": 274071,
         "confidence": "medium",
-        "data_points": 63
+        "data_points": 71
       },
       {
         "year": 6,
-        "value": 240870,
+        "value": 232407,
         "confidence": "medium",
-        "data_points": 45
+        "data_points": 39
       },
       {
         "year": 7,
-        "value": 213807,
+        "value": 223107,
         "confidence": "medium",
-        "data_points": 38
+        "data_points": 40
       },
       {
         "year": 8,
-        "value": 188150,
+        "value": 196334,
         "confidence": "estimated",
         "data_points": 0
       }

@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-corolla-hybrid",
-  "calculated_at": "2026-10-26T14:31:29.699810+00:00",
+  "calculated_at": "2026-11-09T18:06:49.521893+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 202448,
-    "monthly_cost": 4218,
-    "cost_per_mil": 34,
+    "total_cost": 200588,
+    "monthly_cost": 4179,
+    "cost_per_mil": 33,
     "breakdown": {
-      "depreciation": 97050,
+      "depreciation": 95190,
       "fuel": 55500,
       "tax": 12008,
       "insurance": {
@@ -35,47 +35,47 @@
         "year": 1,
         "value": 288207,
         "confidence": "medium",
-        "data_points": 66
+        "data_points": 69
       },
       {
         "year": 2,
         "value": 269607,
         "confidence": "medium",
-        "data_points": 95
+        "data_points": 122
       },
       {
         "year": 3,
-        "value": 255750,
+        "value": 255657,
         "confidence": "medium",
-        "data_points": 53
+        "data_points": 61
       },
       {
         "year": 4,
-        "value": 227850,
+        "value": 229710,
+        "confidence": "medium",
+        "data_points": 50
+      },
+      {
+        "year": 5,
+        "value": 213807,
+        "confidence": "medium",
+        "data_points": 51
+      },
+      {
+        "year": 6,
+        "value": 212249,
+        "confidence": "medium",
+        "data_points": 27
+      },
+      {
+        "year": 7,
+        "value": 195207,
         "confidence": "medium",
         "data_points": 39
       },
       {
-        "year": 5,
-        "value": 217527,
-        "confidence": "medium",
-        "data_points": 48
-      },
-      {
-        "year": 6,
-        "value": 204088,
-        "confidence": "medium",
-        "data_points": 30
-      },
-      {
-        "year": 7,
-        "value": 195253,
-        "confidence": "medium",
-        "data_points": 42
-      },
-      {
         "year": 8,
-        "value": 171822,
+        "value": 171782,
         "confidence": "estimated",
         "data_points": 0
       }

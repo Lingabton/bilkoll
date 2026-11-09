@@ -1,6 +1,6 @@
 {
   "model_id": "vw-id4-pro",
-  "calculated_at": "2026-10-26T14:31:29.698380+00:00",
+  "calculated_at": "2026-11-09T18:06:49.520707+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 291317,
-    "monthly_cost": 6069,
+    "total_cost": 294107,
+    "monthly_cost": 6127,
     "cost_per_mil": 49,
     "breakdown": {
-      "depreciation": 224247,
+      "depreciation": 227037,
       "fuel": 19440,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 446348,
+        "value": 446307,
         "confidence": "medium",
-        "data_points": 32
+        "data_points": 34
       },
       {
         "year": 2,
-        "value": 394971,
+        "value": 381207,
         "confidence": "medium",
-        "data_points": 53
+        "data_points": 60
       },
       {
         "year": 3,
-        "value": 334707,
+        "value": 333823,
         "confidence": "medium",
-        "data_points": 246
+        "data_points": 248
       },
       {
         "year": 4,
-        "value": 305453,
+        "value": 302663,
         "confidence": "medium",
-        "data_points": 66
+        "data_points": 92
       },
       {
         "year": 5,
-        "value": 269514,
+        "value": 274071,
         "confidence": "medium",
-        "data_points": 30
+        "data_points": 39
       },
       {
         "year": 6,
-        "value": 237172,
+        "value": 241182,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 208711,
+        "value": 212240,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 183666,
+        "value": 186771,
         "confidence": "estimated",
         "data_points": 0
       }

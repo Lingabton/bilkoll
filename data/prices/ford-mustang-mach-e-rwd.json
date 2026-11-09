@@ -1,17 +1,17 @@
 {
   "model_id": "ford-mustang-mach-e-rwd",
-  "scraped_at": "2026-10-26T12:21:55.005246+00:00",
+  "scraped_at": "2026-11-09T15:24:30.662081+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 557070,
-      "count": 23,
-      "total_on_page": 23,
+      "median_price": 603570,
+      "count": 18,
+      "total_on_page": 18,
       "price_type": "estimated_transaction",
       "p5_price": 548607,
-      "p95_price": 632214,
+      "p95_price": 711357,
       "min_price": 548607,
       "max_price": 711357,
       "median_mileage_mil": 20250
@@ -23,36 +23,37 @@
       "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 374232,
-      "count": 8,
-      "total_on_page": 8,
+      "median_price": 399807,
+      "count": 9,
+      "total_on_page": 9,
       "price_type": "estimated_transaction",
-      "p5_price": 325407,
+      "p5_price": 324570,
       "p95_price": 557907,
-      "min_price": 325407,
+      "min_price": 324570,
       "max_price": 557907,
       "median_mileage_mil": 20230
     },
     "2022": {
-      "median_price": 316107,
-      "count": 63,
-      "total_on_page": 63,
+      "median_price": 320757,
+      "count": 49,
+      "total_on_page": 57,
       "price_type": "estimated_transaction",
-      "p5_price": 278814,
+      "p5_price": 278907,
       "p95_price": 371907,
       "min_price": 264864,
       "max_price": 464907,
       "median_mileage_mil": 44
     },
     "2021": {
-      "median_price": 306807,
-      "count": 104,
-      "total_on_page": 104,
+      "median_price": 305877,
+      "count": 71,
+      "total_on_page": 72,
       "price_type": "estimated_transaction",
-      "p5_price": 268491,
-      "p95_price": 371907,
-      "min_price": 246357,
-      "max_price": 474207
+      "p5_price": 260307,
+      "p95_price": 418407,
+      "min_price": 33573,
+      "max_price": 474207,
+      "median_mileage_mil": 20210
     }
   },
   "validation": {
