@@ -1,6 +1,6 @@
 {
   "model_id": "mg-mg4-standard",
-  "scraped_at": "2026-11-09T15:44:49.010210+00:00",
+  "scraped_at": "2026-11-16T15:33:04.765985+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
@@ -12,17 +12,17 @@
       "price_type": "estimated_transaction"
     },
     "2024": {
-      "median_price": 258023,
+      "median_price": 256628,
       "count": 2,
       "total_on_page": 2,
       "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 216132,
-      "count": 40,
-      "total_on_page": 40,
+      "median_price": 213807,
+      "count": 45,
+      "total_on_page": 45,
       "price_type": "estimated_transaction",
-      "p5_price": 185907,
+      "p5_price": 185814,
       "p95_price": 371990,
       "min_price": 157170,
       "max_price": 452668,

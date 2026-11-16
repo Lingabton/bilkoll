@@ -1,6 +1,6 @@
 {
   "model_id": "peugeot-e208",
-  "calculated_at": "2026-11-09T18:06:49.525335+00:00",
+  "calculated_at": "2026-11-16T17:39:16.863431+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -53,13 +53,13 @@
         "year": 4,
         "value": 179547,
         "confidence": "adjusted",
-        "data_points": 37
+        "data_points": 35
       },
       {
         "year": 5,
         "value": 165183,
         "confidence": "adjusted",
-        "data_points": 18
+        "data_points": 19
       },
       {
         "year": 6,

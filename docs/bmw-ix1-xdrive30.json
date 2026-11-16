@@ -1,6 +1,6 @@
 {
   "model_id": "bmw-ix1-xdrive30",
-  "calculated_at": "2026-11-09T18:06:49.524960+00:00",
+  "calculated_at": "2026-11-16T17:39:16.863110+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 310494,
-    "monthly_cost": 6469,
+    "total_cost": 311640,
+    "monthly_cost": 6492,
     "cost_per_mil": 52,
     "breakdown": {
-      "depreciation": 244438,
+      "depreciation": 245584,
       "fuel": 19926,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 464907,
+        "value": 469045,
         "confidence": "medium",
-        "data_points": 15
+        "data_points": 12
       },
       {
         "year": 2,
-        "value": 409107,
+        "value": 408688,
         "confidence": "medium",
-        "data_points": 33
+        "data_points": 28
       },
       {
         "year": 3,
-        "value": 381207,
+        "value": 379905,
         "confidence": "medium",
-        "data_points": 39
+        "data_points": 35
       },
       {
         "year": 4,
-        "value": 335462,
+        "value": 334316,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 295206,
+        "value": 294198,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 259781,
+        "value": 258894,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 228608,
+        "value": 227827,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 201175,
+        "value": 200487,
         "confidence": "estimated",
         "data_points": 0
       }

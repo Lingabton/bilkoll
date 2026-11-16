@@ -1,6 +1,6 @@
 {
   "model_id": "peugeot-2008-pt",
-  "calculated_at": "2026-11-09T18:06:49.549750+00:00",
+  "calculated_at": "2026-11-16T17:39:16.879831+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -35,13 +35,13 @@
         "year": 1,
         "value": 241707,
         "confidence": "medium",
-        "data_points": 134
+        "data_points": 119
       },
       {
         "year": 2,
         "value": 209157,
         "confidence": "medium",
-        "data_points": 38
+        "data_points": 40
       },
       {
         "year": 3,
@@ -53,29 +53,29 @@
         "year": 4,
         "value": 167307,
         "confidence": "medium",
-        "data_points": 13
+        "data_points": 15
       },
       {
         "year": 5,
         "value": 167307,
         "confidence": "medium",
-        "data_points": 14
+        "data_points": 16
       },
       {
         "year": 6,
-        "value": 152520,
+        "value": 149218,
         "confidence": "medium",
-        "data_points": 15
+        "data_points": 16
       },
       {
         "year": 7,
-        "value": 134217,
+        "value": 131311,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 118111,
+        "value": 115554,
         "confidence": "estimated",
         "data_points": 0
       }

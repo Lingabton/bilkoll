@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-bz4x-fwd",
-  "calculated_at": "2026-11-09T18:06:49.538648+00:00",
+  "calculated_at": "2026-11-16T17:39:16.871215+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -35,25 +35,25 @@
         "year": 1,
         "value": 464907,
         "confidence": "medium",
-        "data_points": 60
+        "data_points": 53
       },
       {
         "year": 2,
-        "value": 409107,
+        "value": 408270,
         "confidence": "medium",
-        "data_points": 9
+        "data_points": 11
       },
       {
         "year": 3,
         "value": 316107,
         "confidence": "medium",
-        "data_points": 38
+        "data_points": 39
       },
       {
         "year": 4,
         "value": 290818,
         "confidence": "adjusted",
-        "data_points": 7
+        "data_points": 8
       },
       {
         "year": 5,
@@ -63,19 +63,19 @@
       },
       {
         "year": 6,
-        "value": 266399,
+        "value": 262798,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 234431,
+        "value": 231262,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 206299,
+        "value": 203510,
         "confidence": "estimated",
         "data_points": 0
       }

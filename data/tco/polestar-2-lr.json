@@ -1,6 +1,6 @@
 {
   "model_id": "polestar-2-lr",
-  "calculated_at": "2026-11-09T18:06:49.526687+00:00",
+  "calculated_at": "2026-11-16T17:39:16.864517+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 427985,
-    "monthly_cost": 8916,
-    "cost_per_mil": 71,
+    "total_cost": 421894,
+    "monthly_cost": 8789,
+    "cost_per_mil": 70,
     "breakdown": {
-      "depreciation": 338843,
+      "depreciation": 332752,
       "fuel": 20412,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 480624,
+        "value": 469557,
         "confidence": "medium",
-        "data_points": 20
+        "data_points": 18
       },
       {
         "year": 2,
-        "value": 399807,
+        "value": 397063,
         "confidence": "medium",
-        "data_points": 51
+        "data_points": 52
       },
       {
         "year": 3,
-        "value": 334748,
+        "value": 333870,
         "confidence": "medium",
-        "data_points": 84
+        "data_points": 90
       },
       {
         "year": 4,
-        "value": 302157,
+        "value": 308248,
         "confidence": "medium",
-        "data_points": 31
+        "data_points": 38
       },
       {
         "year": 5,
-        "value": 301687,
+        "value": 302064,
         "confidence": "medium",
-        "data_points": 36
+        "data_points": 39
       },
       {
         "year": 6,
-        "value": 277552,
-        "confidence": "adjusted",
-        "data_points": 3
+        "value": 297507,
+        "confidence": "medium",
+        "data_points": 6
       },
       {
         "year": 7,
-        "value": 255347,
+        "value": 261806,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 244793,
+        "value": 230389,
         "confidence": "estimated",
         "data_points": 0
       }

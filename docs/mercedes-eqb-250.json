@@ -1,6 +1,6 @@
 {
   "model_id": "mercedes-eqb-250",
-  "calculated_at": "2026-11-09T18:06:49.542393+00:00",
+  "calculated_at": "2026-11-16T17:39:16.873759+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 410483,
-    "monthly_cost": 8552,
-    "cost_per_mil": 68,
+    "total_cost": 361288,
+    "monthly_cost": 7527,
+    "cost_per_mil": 60,
     "breakdown": {
-      "depreciation": 339785,
+      "depreciation": 290590,
       "fuel": 18468,
       "tax": 1440,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 281520,
-        "confidence": "estimated",
-        "data_points": 0
+        "value": 371070,
+        "confidence": "medium",
+        "data_points": 1
       },
       {
         "year": 2,
-        "value": 258998,
-        "confidence": "adjusted",
+        "value": 317120,
+        "confidence": "medium",
         "data_points": 3
       },
       {
         "year": 3,
-        "value": 238278,
+        "value": 291750,
         "confidence": "adjusted",
         "data_points": 4
       },
       {
         "year": 4,
-        "value": 219215,
+        "value": 268410,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 201677,
+        "value": 246937,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 185542,
+        "value": 227182,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 170698,
+        "value": 224449,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 157042,
+        "value": 197515,
         "confidence": "estimated",
         "data_points": 0
       }

@@ -1,6 +1,6 @@
 {
   "model_id": "audi-a6-40tdi",
-  "calculated_at": "2026-11-09T18:06:49.550107+00:00",
+  "calculated_at": "2026-11-16T17:39:16.880126+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 420574,
-    "monthly_cost": 8762,
-    "cost_per_mil": 70,
+    "total_cost": 442108,
+    "monthly_cost": 9211,
+    "cost_per_mil": 74,
     "breakdown": {
-      "depreciation": 270534,
+      "depreciation": 292068,
       "fuel": 61050,
       "tax": 29600,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 459838,
+        "value": 399807,
         "confidence": "medium",
-        "data_points": 62
+        "data_points": 57
       },
       {
         "year": 2,
-        "value": 399621,
+        "value": 371814,
         "confidence": "medium",
-        "data_points": 27
+        "data_points": 15
       },
       {
         "year": 3,
-        "value": 351666,
+        "value": 327196,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 4,
-        "value": 309466,
+        "value": 287932,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 5,
-        "value": 272330,
+        "value": 253380,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 6,
-        "value": 239650,
+        "value": 222975,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 210892,
+        "value": 196218,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 185585,
+        "value": 172671,
         "confidence": "estimated",
         "data_points": 0
       }

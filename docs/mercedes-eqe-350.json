@@ -1,6 +1,6 @@
 {
   "model_id": "mercedes-eqe-350",
-  "calculated_at": "2026-11-09T18:06:49.552086+00:00",
+  "calculated_at": "2026-11-16T17:39:16.881959+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -39,9 +39,9 @@
       },
       {
         "year": 2,
-        "value": 445470,
+        "value": 453835,
         "confidence": "medium",
-        "data_points": 1
+        "data_points": 2
       },
       {
         "year": 3,

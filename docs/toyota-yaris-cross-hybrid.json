@@ -1,6 +1,6 @@
 {
   "model_id": "toyota-yaris-cross-hybrid",
-  "calculated_at": "2026-11-09T18:06:49.524602+00:00",
+  "calculated_at": "2026-11-16T17:39:16.862829+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -8,11 +8,11 @@
     "electricity_price_kr_per_kwh": 1.5
   },
   "result": {
-    "total_cost": 224040,
-    "monthly_cost": 4668,
-    "cost_per_mil": 37,
+    "total_cost": 244852,
+    "monthly_cost": 5101,
+    "cost_per_mil": 41,
     "breakdown": {
-      "depreciation": 116450,
+      "depreciation": 137262,
       "fuel": 57720,
       "tax": 13380,
       "insurance": {
@@ -33,49 +33,49 @@
       },
       {
         "year": 1,
-        "value": 294763,
+        "value": 297507,
         "confidence": "medium",
-        "data_points": 50
+        "data_points": 52
       },
       {
         "year": 2,
-        "value": 290113,
+        "value": 287370,
         "confidence": "medium",
-        "data_points": 46
+        "data_points": 49
       },
       {
         "year": 3,
-        "value": 241707,
+        "value": 235150,
         "confidence": "medium",
-        "data_points": 79
+        "data_points": 90
       },
       {
         "year": 4,
-        "value": 237150,
-        "confidence": "medium",
-        "data_points": 27
+        "value": 216338,
+        "confidence": "adjusted",
+        "data_points": 24
       },
       {
         "year": 5,
-        "value": 211063,
+        "value": 192882,
         "confidence": "medium",
-        "data_points": 6
+        "data_points": 4
       },
       {
         "year": 6,
-        "value": 185735,
+        "value": 169736,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 7,
-        "value": 163447,
+        "value": 149367,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 143833,
+        "value": 131443,
         "confidence": "estimated",
         "data_points": 0
       }

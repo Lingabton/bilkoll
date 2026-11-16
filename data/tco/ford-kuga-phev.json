@@ -1,6 +1,6 @@
 {
   "model_id": "ford-kuga-phev",
-  "calculated_at": "2026-11-09T18:06:49.540106+00:00",
+  "calculated_at": "2026-11-16T17:39:16.872086+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,7 +33,7 @@
       },
       {
         "year": 1,
-        "value": 380370,
+        "value": 395064,
         "confidence": "medium",
         "data_points": 11
       },
@@ -41,41 +41,41 @@
         "year": 2,
         "value": 287370,
         "confidence": "medium",
-        "data_points": 57
+        "data_points": 56
       },
       {
         "year": 3,
         "value": 251007,
         "confidence": "medium",
-        "data_points": 70
+        "data_points": 75
       },
       {
         "year": 4,
         "value": 232407,
         "confidence": "medium",
-        "data_points": 115
+        "data_points": 119
       },
       {
         "year": 5,
         "value": 227757,
         "confidence": "medium",
-        "data_points": 71
+        "data_points": 70
       },
       {
         "year": 6,
-        "value": 195207,
+        "value": 191017,
         "confidence": "medium",
-        "data_points": 19
+        "data_points": 20
       },
       {
         "year": 7,
-        "value": 171782,
+        "value": 168094,
         "confidence": "estimated",
         "data_points": 0
       },
       {
         "year": 8,
-        "value": 151168,
+        "value": 147923,
         "confidence": "estimated",
         "data_points": 0
       }

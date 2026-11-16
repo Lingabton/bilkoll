@@ -1,50 +1,50 @@
 {
   "model_id": "kia-niro-ev",
-  "scraped_at": "2026-11-09T14:21:06.542994+00:00",
+  "scraped_at": "2026-11-16T14:04:58.749461+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2024": {
-      "median_price": 315270,
-      "count": 2,
+      "median_price": 297507,
+      "count": 1,
       "total_on_page": 2,
       "price_type": "estimated_transaction"
     },
     "2023": {
-      "median_price": 315549,
-      "count": 3,
-      "total_on_page": 3,
+      "median_price": 311131,
+      "count": 6,
+      "total_on_page": 6,
       "price_type": "estimated_transaction",
-      "min_price": 306714,
-      "max_price": 325407
+      "p5_price": 269049,
+      "p95_price": 343170,
+      "min_price": 269049,
+      "max_price": 343170
     },
     "2022": {
-      "median_price": 223107,
-      "count": 13,
-      "total_on_page": 13,
-      "price_type": "estimated_transaction",
-      "p5_price": 176607,
-      "p95_price": 241707,
-      "min_price": 176607,
-      "max_price": 241707
-    },
-    "2021": {
-      "median_price": 211105,
+      "median_price": 234773,
       "count": 4,
       "total_on_page": 4,
       "price_type": "estimated_transaction",
-      "min_price": 185907,
-      "max_price": 232407
+      "min_price": 223107,
+      "max_price": 246357
+    },
+    "2021": {
+      "median_price": 222688,
+      "count": 4,
+      "total_on_page": 4,
+      "price_type": "estimated_transaction",
+      "min_price": 199940,
+      "max_price": 251007
     },
     "2020": {
-      "median_price": 198457,
-      "count": 8,
-      "total_on_page": 8,
+      "median_price": 204460,
+      "count": 6,
+      "total_on_page": 6,
       "price_type": "estimated_transaction",
-      "p5_price": 158007,
+      "p5_price": 181350,
       "p95_price": 296949,
-      "min_price": 158007,
+      "min_price": 181350,
       "max_price": 296949
     },
     "2019": {
@@ -60,7 +60,7 @@
   },
   "validation": {
     "is_monotonic": false,
-    "min_count_per_year": 2,
+    "min_count_per_year": 1,
     "confidence": "low"
   }
 }

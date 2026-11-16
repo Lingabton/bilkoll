@@ -1,50 +1,49 @@
 {
   "model_id": "kia-sportage-phev",
-  "scraped_at": "2026-11-09T15:43:04.644773+00:00",
+  "scraped_at": "2026-11-16T15:31:20.903349+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
       "median_price": 381207,
-      "count": 125,
-      "total_on_page": 129,
+      "count": 132,
+      "total_on_page": 136,
       "price_type": "estimated_transaction",
-      "p5_price": 352656,
-      "p95_price": 478950,
+      "p5_price": 352470,
+      "p95_price": 464907,
       "min_price": 278907,
       "max_price": 511779,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 368270,
-      "count": 85,
-      "total_on_page": 89,
+      "median_price": 362607,
+      "count": 83,
+      "total_on_page": 88,
       "price_type": "estimated_transaction",
       "p5_price": 315270,
-      "p95_price": 409107,
-      "min_price": 240637,
-      "max_price": 478950,
-      "median_mileage_mil": 20240
+      "p95_price": 399807,
+      "min_price": 296670,
+      "max_price": 427707
     },
     "2023": {
-      "median_price": 315874,
-      "count": 188,
-      "total_on_page": 194,
+      "median_price": 315456,
+      "count": 181,
+      "total_on_page": 188,
       "price_type": "estimated_transaction",
-      "p5_price": 255657,
+      "p5_price": 251007,
       "p95_price": 371907,
       "min_price": 203670,
       "max_price": 514476,
       "median_mileage_mil": 20230
     },
     "2022": {
-      "median_price": 288290,
-      "count": 97,
-      "total_on_page": 100,
+      "median_price": 288160,
+      "count": 102,
+      "total_on_page": 103,
       "price_type": "estimated_transaction",
-      "p5_price": 218457,
-      "p95_price": 353307,
+      "p5_price": 223107,
+      "p95_price": 352460,
       "min_price": 175584,
       "max_price": 409107,
       "median_mileage_mil": 9842
@@ -52,7 +51,7 @@
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 85,
+    "min_count_per_year": 83,
     "confidence": "high"
   }
 }

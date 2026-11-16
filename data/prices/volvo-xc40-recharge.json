@@ -1,55 +1,54 @@
 {
   "model_id": "volvo-xc40-recharge",
-  "scraped_at": "2026-11-09T14:10:32.993175+00:00",
+  "scraped_at": "2026-11-16T13:54:49.493940+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2024": {
-      "median_price": 389670,
-      "count": 46,
-      "total_on_page": 44,
+      "median_price": 381207,
+      "count": 60,
+      "total_on_page": 60,
       "price_type": "estimated_transaction",
       "p5_price": 316107,
-      "p95_price": 417756,
+      "p95_price": 417570,
       "min_price": 296577,
-      "max_price": 427614
+      "max_price": 418314
     },
     "2023": {
-      "median_price": 334474,
-      "count": 68,
-      "total_on_page": 70,
+      "median_price": 330010,
+      "count": 70,
+      "total_on_page": 71,
       "price_type": "estimated_transaction",
-      "p5_price": 268770,
-      "p95_price": 409107,
-      "min_price": 250914,
+      "p5_price": 264957,
+      "p95_price": 408921,
+      "min_price": 251007,
       "max_price": 581157
     },
     "2022": {
       "median_price": 306807,
-      "count": 21,
+      "count": 22,
       "total_on_page": 23,
       "price_type": "estimated_transaction",
-      "p5_price": 275094,
-      "p95_price": 352935,
+      "p5_price": 276489,
+      "p95_price": 367164,
       "min_price": 269514,
       "max_price": 395157
     },
     "2021": {
-      "median_price": 306435,
-      "count": 11,
-      "total_on_page": 17,
+      "median_price": 292438,
+      "count": 6,
+      "total_on_page": 10,
       "price_type": "estimated_transaction",
       "p5_price": 245520,
-      "p95_price": 669507,
+      "p95_price": 325407,
       "min_price": 245520,
-      "max_price": 669507,
-      "median_mileage_mil": 20210
+      "max_price": 325407
     },
     "2020": {
-      "median_price": 287788,
-      "count": 8,
-      "total_on_page": 8,
+      "median_price": 278674,
+      "count": 6,
+      "total_on_page": 6,
       "price_type": "estimated_transaction",
       "p5_price": 255657,
       "p95_price": 329685,
@@ -59,7 +58,7 @@
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 8,
+    "min_count_per_year": 6,
     "confidence": "low"
   }
 }

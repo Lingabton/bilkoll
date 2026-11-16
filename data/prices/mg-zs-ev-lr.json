@@ -1,42 +1,40 @@
 {
   "model_id": "mg-zs-ev-lr",
-  "scraped_at": "2026-11-09T18:06:07.759001+00:00",
+  "scraped_at": "2026-11-16T17:38:25.002646+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2023": {
-      "median_price": 237057,
-      "count": 3,
-      "total_on_page": 4,
-      "price_type": "estimated_transaction",
-      "min_price": 237057,
-      "max_price": 251007
+      "median_price": 244032,
+      "count": 2,
+      "total_on_page": 3,
+      "price_type": "estimated_transaction"
     },
     "2022": {
-      "median_price": 218033,
+      "median_price": 218457,
       "count": 14,
-      "total_on_page": 23,
+      "total_on_page": 22,
       "price_type": "estimated_transaction",
-      "p5_price": 181350,
-      "p95_price": 232407,
-      "min_price": 181350,
-      "max_price": 232407
+      "p5_price": 181257,
+      "p95_price": 227840,
+      "min_price": 181257,
+      "max_price": 227840
     },
     "2021": {
       "median_price": 139407,
-      "count": 51,
-      "total_on_page": 72,
+      "count": 54,
+      "total_on_page": 78,
       "price_type": "estimated_transaction",
       "p5_price": 130107,
-      "p95_price": 176607,
-      "min_price": 130107,
-      "max_price": 223107
+      "p95_price": 167214,
+      "min_price": 120807,
+      "max_price": 185907
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 3,
+    "min_count_per_year": 2,
     "confidence": "low"
   }
 }

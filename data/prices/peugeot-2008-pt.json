@@ -1,27 +1,27 @@
 {
   "model_id": "peugeot-2008-pt",
-  "scraped_at": "2026-11-09T17:17:56.000084+00:00",
+  "scraped_at": "2026-11-16T17:06:00.528706+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
       "median_price": 241707,
-      "count": 134,
-      "total_on_page": 140,
+      "count": 119,
+      "total_on_page": 154,
       "price_type": "estimated_transaction",
-      "p5_price": 204507,
-      "p95_price": 269607,
+      "p5_price": 209157,
+      "p95_price": 251007,
       "min_price": 185907,
       "max_price": 1153107,
       "median_mileage_mil": 20250
     },
     "2024": {
       "median_price": 209157,
-      "count": 38,
-      "total_on_page": 42,
+      "count": 40,
+      "total_on_page": 43,
       "price_type": "estimated_transaction",
-      "p5_price": 162657,
+      "p5_price": 176607,
       "p95_price": 278907,
       "min_price": 158007,
       "max_price": 297135,
@@ -30,7 +30,7 @@
     "2023": {
       "median_price": 185907,
       "count": 68,
-      "total_on_page": 71,
+      "total_on_page": 70,
       "price_type": "estimated_transaction",
       "p5_price": 158007,
       "p95_price": 223107,
@@ -39,29 +39,29 @@
     },
     "2022": {
       "median_price": 167307,
-      "count": 13,
-      "total_on_page": 13,
+      "count": 15,
+      "total_on_page": 15,
       "price_type": "estimated_transaction",
-      "p5_price": 148800,
+      "p5_price": 148799,
       "p95_price": 331540,
-      "min_price": 148800,
+      "min_price": 148799,
       "max_price": 331540,
       "median_mileage_mil": 20220
     },
     "2021": {
       "median_price": 167307,
-      "count": 14,
-      "total_on_page": 15,
+      "count": 16,
+      "total_on_page": 18,
       "price_type": "estimated_transaction",
-      "p5_price": 137919,
+      "p5_price": 130107,
       "p95_price": 176607,
-      "min_price": 137919,
+      "min_price": 130107,
       "max_price": 176607
     },
     "2020": {
-      "median_price": 152520,
-      "count": 15,
-      "total_on_page": 16,
+      "median_price": 149218,
+      "count": 16,
+      "total_on_page": 17,
       "price_type": "estimated_transaction",
       "p5_price": 114204,
       "p95_price": 1059735,
@@ -71,7 +71,7 @@
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 13,
+    "min_count_per_year": 15,
     "confidence": "medium"
   }
 }

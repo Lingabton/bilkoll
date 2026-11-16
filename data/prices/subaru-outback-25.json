@@ -1,18 +1,18 @@
 {
   "model_id": "subaru-outback-25",
-  "scraped_at": "2026-11-09T16:34:04.166887+00:00",
+  "scraped_at": "2026-11-16T16:23:45.303763+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
-      "median_price": 418500,
-      "count": 83,
-      "total_on_page": 89,
+      "median_price": 420174,
+      "count": 77,
+      "total_on_page": 82,
       "price_type": "estimated_transaction",
       "p5_price": 353307,
       "p95_price": 459234,
-      "min_price": 353307,
+      "min_price": 316014,
       "max_price": 469613,
       "median_mileage_mil": 20250
     },
@@ -22,27 +22,26 @@
       "total_on_page": 28,
       "price_type": "estimated_transaction",
       "p5_price": 330057,
-      "p95_price": 436170,
-      "min_price": 278535,
-      "max_price": 443424,
-      "median_mileage_mil": 20240
+      "p95_price": 427707,
+      "min_price": 330057,
+      "max_price": 436170
     },
     "2023": {
-      "median_price": 337032,
-      "count": 54,
-      "total_on_page": 55,
+      "median_price": 334707,
+      "count": 52,
+      "total_on_page": 53,
       "price_type": "estimated_transaction",
-      "p5_price": 290811,
-      "p95_price": 418314,
+      "p5_price": 278907,
+      "p95_price": 404457,
       "min_price": 250170,
-      "max_price": 1310835
+      "max_price": 437007
     },
     "2022": {
-      "median_price": 311410,
-      "count": 30,
-      "total_on_page": 30,
+      "median_price": 306807,
+      "count": 35,
+      "total_on_page": 35,
       "price_type": "estimated_transaction",
-      "p5_price": 269607,
+      "p5_price": 260307,
       "p95_price": 371070,
       "min_price": 259005,
       "max_price": 409107,
@@ -50,12 +49,12 @@
     },
     "2021": {
       "median_price": 288207,
-      "count": 32,
-      "total_on_page": 32,
+      "count": 33,
+      "total_on_page": 33,
       "price_type": "estimated_transaction",
       "p5_price": 266631,
       "p95_price": 355167,
-      "min_price": 260307,
+      "min_price": 251007,
       "max_price": 443424
     }
   },

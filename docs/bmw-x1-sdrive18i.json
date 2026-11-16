@@ -1,6 +1,6 @@
 {
   "model_id": "bmw-x1-sdrive18i",
-  "calculated_at": "2026-11-09T18:06:49.553337+00:00",
+  "calculated_at": "2026-11-16T17:39:16.883301+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,27 +33,27 @@
       },
       {
         "year": 1,
-        "value": 435891,
+        "value": 431799,
         "confidence": "medium",
-        "data_points": 35
+        "data_points": 38
       },
       {
         "year": 2,
-        "value": 411385,
+        "value": 408223,
         "confidence": "medium",
-        "data_points": 24
+        "data_points": 26
       },
       {
         "year": 3,
         "value": 362607,
         "confidence": "medium",
-        "data_points": 21
+        "data_points": 23
       },
       {
         "year": 4,
         "value": 269514,
         "confidence": "medium",
-        "data_points": 33
+        "data_points": 35
       },
       {
         "year": 5,

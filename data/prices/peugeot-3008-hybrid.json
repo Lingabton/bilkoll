@@ -1,36 +1,36 @@
 {
   "model_id": "peugeot-3008-hybrid",
-  "scraped_at": "2026-11-09T17:23:30.190083+00:00",
+  "scraped_at": "2026-11-16T17:11:37.058406+00:00",
   "source": "autouncle",
   "price_type": "estimated_transaction",
   "asking_price_discount": 0.93,
   "years": {
     "2025": {
       "median_price": 325407,
-      "count": 107,
-      "total_on_page": 123,
+      "count": 106,
+      "total_on_page": 108,
       "price_type": "estimated_transaction",
       "p5_price": 269607,
-      "p95_price": 437007,
-      "min_price": 265794,
-      "max_price": 464907,
+      "p95_price": 399807,
+      "min_price": 33573,
+      "max_price": 427707,
       "median_mileage_mil": 20250
     },
     "2024": {
-      "median_price": 260307,
-      "count": 43,
-      "total_on_page": 34,
+      "median_price": 250960,
+      "count": 36,
+      "total_on_page": 37,
       "price_type": "estimated_transaction",
       "p5_price": 199857,
-      "p95_price": 399807,
-      "min_price": 195207,
-      "max_price": 450957,
+      "p95_price": 381207,
+      "min_price": 185907,
+      "max_price": 399807,
       "median_mileage_mil": 20240
     }
   },
   "validation": {
     "is_monotonic": true,
-    "min_count_per_year": 43,
+    "min_count_per_year": 36,
     "confidence": "medium"
   }
 }

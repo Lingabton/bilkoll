@@ -1,6 +1,6 @@
 {
   "model_id": "vw-t-roc-etsi",
-  "calculated_at": "2026-11-09T18:06:49.546120+00:00",
+  "calculated_at": "2026-11-16T17:39:16.876596+00:00",
   "assumptions": {
     "mileage_per_year": 1500,
     "ownership_years": 4,
@@ -33,45 +33,45 @@
       },
       {
         "year": 1,
-        "value": 310899,
+        "value": 304296,
         "confidence": "medium",
-        "data_points": 39
+        "data_points": 36
       },
       {
         "year": 2,
-        "value": 260260,
+        "value": 259470,
         "confidence": "medium",
-        "data_points": 54
+        "data_points": 69
       },
       {
         "year": 3,
-        "value": 206599,
+        "value": 209157,
         "confidence": "medium",
-        "data_points": 136
+        "data_points": 139
       },
       {
         "year": 4,
         "value": 195207,
         "confidence": "medium",
-        "data_points": 58
+        "data_points": 57
       },
       {
         "year": 5,
         "value": 176607,
         "confidence": "medium",
-        "data_points": 31
+        "data_points": 25
       },
       {
         "year": 6,
         "value": 162478,
         "confidence": "adjusted",
-        "data_points": 35
+        "data_points": 31
       },
       {
         "year": 7,
         "value": 149479,
         "confidence": "adjusted",
-        "data_points": 20
+        "data_points": 18
       },
       {
         "year": 8,
